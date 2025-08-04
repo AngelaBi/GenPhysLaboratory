@@ -1,0 +1,689 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero &#8212; General Physcis Laboratory</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ExperimentIdealGas';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles" href="ExperimentFluids.html" />
+    <link rel="prev" title="Rotational Dynamics with Moment of Inertia &amp; Angular Momentum" href="ExperimentRotationalMotion.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="General Physcis Laboratory - Home"/>
+    <img src="_static/logo.png" class="logo__image only-dark pst-js-only" alt="General Physcis Laboratory - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to General Physics Lab
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="ExperimentIntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentVectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentAccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentSimpleProjectile.html">Simple Projectile Motion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentCentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentConsEnTrack.html">Conservation of Energy with Glider on Tilted Air Track</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentBallisticPendulum.html">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentRotationalMotion.html">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentFluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentPendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M9simulations.html">M9 Simulations</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FExperimentIdealGas.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/ExperimentIdealGas.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Ideal Gas Law with Isothermal & Adiabatic Compression; Estimating Absolute Zero</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ideal-gas-law">Ideal Gas Law</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#absolute-zero">Absolute Zero</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-ideal-gas-law-experiment">The Ideal Gas Law Experiment</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-with-constant-temperature">Analysis with Constant Temperature</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-with-varying-temperature">Analysis with Varying Temperature</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#measurement-of-absolute-zero">Measurement of Absolute Zero</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis">Data Analysis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="ideal-gas-law-with-isothermal-adiabatic-compression-estimating-absolute-zero">
+<h1>Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero<a class="headerlink" href="#ideal-gas-law-with-isothermal-adiabatic-compression-estimating-absolute-zero" title="Permalink to this heading">#</a></h1>
+<section id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
+<p>A general and complete description of an ensemble of many atoms or molecules is a very difficult, if not impossible task, given the large number of objects involved. Luckily enough most gases follow a relatively simple approximation for a rather large range of conditions.</p>
+<p>The ideal gas law describes the behavior of a gas of point-like particles. While there is no such thing as an ideal gas (all real molecules have a small but non-zero size), it is nevertheless a good approximation to the behaviour of gasses at ordinary temperatures and pressures.</p>
+<section id="ideal-gas-law">
+<h3>Ideal Gas Law<a class="headerlink" href="#ideal-gas-law" title="Permalink to this heading">#</a></h3>
+<p>The Ideal Gas Law assumes that</p>
+<ul class="simple">
+<li><p>The gas is made up of molecules moving in straight lines, but random directions,</p></li>
+<li><p>All collisions between the molecules themselves and between the molecules and the walls of the container are perfectly elastic,</p></li>
+<li><p>The temperature of the gas is directly proportional to the kinetic energy of the molecules,</p></li>
+<li><p>The pressure of the gas is due to the collisions of the molecules with the walls of the container,</p></li>
+<li><p>All inter-molecular forces can be neglected, and</p></li>
+<li><p>The volume occupied by the molecules is negligible as compared to the volume of the container.</p></li>
+</ul>
+<p>Under these conditions the pressure, temperature, and volume of the gas will follow a simple relationship,</p>
+<div class="math notranslate nohighlight" id="equation-eq-idealgas">
+<span class="eqno">(54)<a class="headerlink" href="#equation-eq-idealgas" title="Permalink to this equation">#</a></span>\[P V = n R T\]</div>
+<p>where <span class="math notranslate nohighlight">\(P\)</span> is the gas pressure in Pascals (1 Pa = 1 N/m²), <span class="math notranslate nohighlight">\(T\)</span> is the gas temperature in Kelvin, <span class="math notranslate nohighlight">\(V\)</span> is the volume (in m³), and <span class="math notranslate nohighlight">\(n\)</span> is the number of moles in the gas (1 mole = 6.022×10²³ molecules). <span class="math notranslate nohighlight">\(R\)</span> is called the universal gas constant and for these units has the value <span class="math notranslate nohighlight">\(R = 8.3145\)</span> J/(mol·K).</p>
+<p>Most gases will behave approximately as an ideal gas within a certain range of conditions, but the law fails at low temperatures or higher pressures when forces between the gas molecules become important.</p>
+</section>
+<section id="absolute-zero">
+<h3>Absolute Zero<a class="headerlink" href="#absolute-zero" title="Permalink to this heading">#</a></h3>
+<p>One of the things the ideal gas law assumes is that the kinetic energy of the gas molecules is directly proportional to the temperature of the gas. Therefore, if the molecules have no kinetic energy (the molecules are at rest) then the temperature of the gas is at its lowest possible value. This temperature is called absolute zero and is used as the zero-point of the Kelvin temperature scale</p>
+<div class="math notranslate nohighlight">
+\[0\,\text{K} = -273.15\,°\text{C}.\]</div>
+<p>Note that, according to the definition of pressure, gas molecules at absolute zero will also exert no pressure on the walls of the container the gas is in.</p>
+</section>
+</section>
+<section id="experimental-procedure">
+<h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<p>This experiment uses temperature and pressure sensors plugged into an interface so that data for both variables can be recorded simultaneously.
+For the Ideal Gas Law experiment the air inside a syringe is compressed by pushing on the plunger. Pressure and temperature values are collected and recorded with the Capstone program, which is then also used to analyze the data.
+For the Absolute Zero experiment a hollow sphere (with a fixed volume) is submerged in liquids of different temperature. Capstone will again collect and record pressure and temperature data of the gas enclosed in the sphere.
+Pictures of the experimental setups are shown in <a class="reference internal" href="#h01fig01"><span class="std std-numref">Fig. 24</span></a> and <a class="reference internal" href="#h01fig02"><span class="std std-numref">Fig. 25</span></a>.</p>
+<figure class="align-center" id="h01fig01">
+<a class="reference internal image-reference" href="_images/Figure01a2.jpg"><img alt="_images/Figure01a2.jpg" src="_images/Figure01a2.jpg" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 24 </span><span class="caption-text">The left picture shows the Ideal Gas Law experiment without the PasPort interface. The two cables coming from the syringe are the temperature and pressure connectors. The plunger of the syringe has a mechanical stop to prevent full compression of the syringe. The right-hand picture shows the Absolute Zero experiment, again without the PasPort interface. The pressure and temperature connectors are shown exiting at the end of the black cable of the device.</span><a class="headerlink" href="#h01fig01" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="h01fig02">
+<a class="reference internal image-reference" href="_images/Figure023.jpg"><img alt="_images/Figure023.jpg" src="_images/Figure023.jpg" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 25 </span><span class="caption-text">This picture shows the experimental methods for the Ideal Gas Law (main picture) and Absolute Zero (inlet) experiments. In both cases the temperature and pressure connectors are plugged into the PasPort interface (the small blue box).</span><a class="headerlink" href="#h01fig02" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="the-ideal-gas-law-experiment">
+<h3>The Ideal Gas Law Experiment<a class="headerlink" href="#the-ideal-gas-law-experiment" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Create a Part 1 Data Table for your ideal gas law measurements and calculations.</p></li>
+<li><p>Open graphs of absolute pressure (<span class="math notranslate nohighlight">\(y\)</span>-axis) vs. time (<span class="math notranslate nohighlight">\(x\)</span>-axis) and temperature in Kelvin (<span class="math notranslate nohighlight">\(y\)</span>-axis) vs. time (<span class="math notranslate nohighlight">\(x\)</span>-axis) in the <strong>Capstone</strong> program. Also have a table displaying absolute pressure and temperature open. All these can be opened by double-clicking on the corresponding items on the right-had side of the <strong>Capstone</strong> program.</p></li>
+<li><p>Disconnect the quick-release pressure connector and push the plunger all the way down. Note that the mechanical stop will prevent the plunger from being pushed all the way to the bottom of the syringe. Record the volume reading on the syringe as the volume <span class="math notranslate nohighlight">\(V_{2}\)</span> in your Part 1 Data Table. The value for <span class="math notranslate nohighlight">\(V_{2}\)</span> should be about 20 cc.</p></li>
+<li><p>Set the plunger for an initial volume of <span class="math notranslate nohighlight">\(V_{1} = 40\)</span> cm³.</p></li>
+<li><p>After you have adjusted the volume, re-connect the pressure port.</p></li>
+<li><p>Hold the base of the syringe firmly against a sturdy, flat surface (the lab table).</p></li>
+<li><p>Press the <strong>Record</strong> button on <strong>Capstone</strong>.</p></li>
+<li><p>Press straight down as hard as you can on the plunger with the palm of your hand to fully compress the gas inside the syringe. Keep pressing to hold the pressure steady. Important: Do not let the pressure drop for at least 30 s. The mechanical stop will prevent you from decreasing the volume of the gas to less than than about 20 cc. Hold this position until the temperature and pressure have stabilized and are no longer changing (use the data table as an indicator). It should take less than 30 seconds for the temperature to return to room temperature.</p></li>
+<li><p>Release the plunger and allow it to expand back out on its own (it may not go back to 40 cm³). Wait again until the temperature and pressure have equalized and are no longer changing.</p></li>
+<li><p>Press the <strong>Record</strong> button again on <strong>Capstone</strong> to stop recording data.</p></li>
+</ol>
+<section id="analysis-with-constant-temperature">
+<h4>Analysis with Constant Temperature<a class="headerlink" href="#analysis-with-constant-temperature" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>Highlight an area (click and drag with the mouse) on the pressure graph at the beginning of the data-collecting run, before you compressed the air in the syringe. The highlighted values of the selected data points will appear in the data table of <strong>Capstone</strong>. Record the initial pressure as <span class="math notranslate nohighlight">\(P_{1}\)</span> in your Part 1 Data Table.</p></li>
+<li><p>Highlight an area on the pressure graph at the point just before you released the plunger. Record the final pressure as <span class="math notranslate nohighlight">\(P_{2}\)</span> in your Part 1 Data Table.</p></li>
+<li><p>Calculate the ratio of initial volume over the final volume, <span class="math notranslate nohighlight">\(X_{1} = V_{1}/V_{2}\)</span> and record the result in your Part 1 Data Table.</p></li>
+<li><p>Calculate the ratio of final pressure over the initial pressure, <span class="math notranslate nohighlight">\(X_{2} = P_{2}/P_{1}\)</span> and record the result in your Part 1 Data Table.</p></li>
+<li><p>Compare the two ratios. According to the ideal gas law (<a class="reference internal" href="#equation-eq-idealgas">(54)</a>) the two values should be equal, since <span class="math notranslate nohighlight">\(P_{1} V_{1} = P_{2} V_{2}\)</span> for constant temperature (note that the temperature is room temperature in both cases). Discuss, first amongst yourselves and then with your instructor, why the values are different.</p></li>
+</ol>
+</section>
+<section id="analysis-with-varying-temperature">
+<h4>Analysis with Varying Temperature<a class="headerlink" href="#analysis-with-varying-temperature" title="Permalink to this heading">#</a></h4>
+<p>By now you have (hopefully) figured out that you have not accounted for the small amount of volume of air inside the tubing of the apparatus. Using the ideal gas law (<a class="reference internal" href="#equation-eq-idealgas">(54)</a>) and the data you collected in part 1 you can actually calculate this volume <span class="math notranslate nohighlight">\(V_{0}\)</span> by solving the following equation for <span class="math notranslate nohighlight">\(V_{0}\)</span></p>
+<div class="math notranslate nohighlight" id="equation-eq-volume-correction">
+<span class="eqno">(55)<a class="headerlink" href="#equation-eq-volume-correction" title="Permalink to this equation">#</a></span>\[\frac{(V_{1} + V_{0})}{(V_{2} + V_{0})} = \frac{P_{2}}{P_{1}}.\]</div>
+<p>Using the data from your Part 1 Data Table calculate the value for <span class="math notranslate nohighlight">\(V_{0}\)</span> and note the result in your Part 2 Data Table.</p>
+<ol class="arabic simple">
+<li><p>Highlight an area (click and drag with the mouse) on the temperature graph at the beginning of the data-collecting run, before you compressed the air in the syringe. The highlighted values of the selected data points will appear in the data table of <strong>Capstone</strong>. Record the initial pressure and the initial temperature as <span class="math notranslate nohighlight">\(P_{1}\)</span> and <span class="math notranslate nohighlight">\(T_{1}\)</span> in your Part 2 Data Table.</p></li>
+<li><p>Note the initial volume <span class="math notranslate nohighlight">\(V_{1}^\prime = V_{1} + V_{0}\)</span> in your Part 2 Data Table.</p></li>
+<li><p>Highlight the area (click and drag with the mouse) on the temperature graph where the temperature peaks. The highlighted values of the selected data points will appear in the data table of <strong>Capstone</strong>. Note the peak temperature and the corresponding pressure at this instant as <span class="math notranslate nohighlight">\(P_{2}\)</span> and <span class="math notranslate nohighlight">\(T_{2}\)</span> in your Part 2 Data Table.</p></li>
+<li><p>Note the volume <span class="math notranslate nohighlight">\(V_{2}^\prime = V_{2} + V_{0}\)</span> in your Part 2 Data Table.</p></li>
+<li><p>Calculate the ratio <span class="math notranslate nohighlight">\(Y_{1} = \frac{P_{1} V_{1}^\prime}{T_{1}}\)</span> and record the result in your Part 2 Data Table.</p></li>
+<li><p>Calculate the ratio <span class="math notranslate nohighlight">\(Y_{2} = \frac{P_{2} V_{2}^\prime}{T_{2}}\)</span> and record the result in your Part 2 Data Table.</p></li>
+<li><p>Assuming the most significant error is in the volume, compare the difference between the two ratios with your estimate of the uncertainty in the volume.</p></li>
+</ol>
+</section>
+</section>
+<section id="measurement-of-absolute-zero">
+<h3>Measurement of Absolute Zero<a class="headerlink" href="#measurement-of-absolute-zero" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Connect the Absolute Zero apparatus to the PasPort system (both the temperature sensor and the quick-release pressure port need to be connected).</p></li>
+<li><p>Close the <strong>Capstone</strong> Program and re-open it from the desktop.</p></li>
+<li><p>Open a <strong>Table &amp; Graph</strong> from the main canvas of <strong>Capstone</strong>. For the <span class="math notranslate nohighlight">\(x\)</span>-axis of the graph select absolute pressure and for the <span class="math notranslate nohighlight">\(y\)</span>-axis select temperature in °C. For the data table select the same two variables.</p></li>
+<li><p>Now click on the <strong>Continuous Mode</strong> and select <strong>Keep mode</strong> from the pull-down menu that will appear. Click on the <strong>Preview</strong> button to start collecting data.</p></li>
+<li><p>Run the hot water until steam rises from the sink. Fill a pitcher to the 2 quart mark.</p></li>
+<li><p>First fully submerge the sphere in hot water: Observe the data points appearing on the graph. Make sure the sphere stays completely submerged the entire time you take data. Once the temperature has reached equilibrium (i.e. the value in the digital display no longer changes), press the <strong>Keep Sample</strong> button (N.B. Do <strong>NOT</strong> stop the data collection by clicking on the red square button again). Read and note the values for pressure and temperature (from the digital display) in your Part 3 Data Table.</p></li>
+<li><p>Next remove half of the water in your container and replace it with cold water from the sink. Again fully submerge the sphere in the water and make sure the sphere stays completely submerged the entire time you take data. Note how the point moves in the Temperature vs. Pressure graph as the values change. Discuss the outcome among yourselves and with your instructor. Once the temperature is stable again (this will take a few minutes) press the <strong>Keep Sample</strong> button again. Read off and note the values for pressure and temperature (from the digital display) in your Part 3 Data Table.</p></li>
+<li><p>Finally submerge the sphere in the cold water. Once again you need to make sure the sphere is completely submerged during the time you take data. Note how the point moves in the Temperature vs. Pressure graph as the values change. Discuss the outcome among yourselves and with your instructor. Once the temperature is stable again (this will take a few minutes) press the <strong>Keep Sample</strong> button again. Read off and note the values for pressure and temperature in your Part 3 Data Table.</p></li>
+<li><p>Press the <strong>Record</strong> button once again on <strong>Capstone</strong> to stop recording data.</p></li>
+<li><p>Using the fitting tool in <strong>Capstone</strong>, fit a straight line to the 3 data points you have taken.</p></li>
+<li><p>The <span class="math notranslate nohighlight">\(y\)</span>-intercept of the best-fit line is the value for absolute zero temperature. Discuss among yourselves and with your instructor why this is the case. Note the result as <span class="math notranslate nohighlight">\(T_{0}\)</span> in your Part 2 Data Table.</p></li>
+<li><p>Compare your result to the accepted value of <span class="math notranslate nohighlight">\(-273.15\)</span>°C.</p></li>
+</ol>
+</section>
+</section>
+<section id="data-analysis">
+<h2>Data Analysis<a class="headerlink" href="#data-analysis" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Create a table for the analysis at constant temperature including the measured values <span class="math notranslate nohighlight">\(V_1, P_1, V_2, P_2\)</span> and the calculated values <span class="math notranslate nohighlight">\(X_1, X_2\)</span>.</p></li>
+<li><p>Create a table for the analysis with varying temperature including <span class="math notranslate nohighlight">\(V_0, V_1, P_1, V_2, P_2\)</span> and the calculated values <span class="math notranslate nohighlight">\(V^\prime_1, V^\prime_2, Y_1, Y_2\)</span>.</p></li>
+<li><p>Create a table for the measurement of absolute zero including the pressure and temperature you measured at the hot, warm and cool temperatures as well as the <span class="math notranslate nohighlight">\(y\)</span>-intercept and the accepted value of <span class="math notranslate nohighlight">\(-273.15\)</span>°C.</p></li>
+</ul>
+</section>
+<section id="post-lab-submission-interpretation-of-results">
+<h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Make sure to submit your finalized data table (Excel sheet)</p></li>
+<li><p>Constant Temperature (Isothermal):</p>
+<ul>
+<li><p>What properties of a system must be proportional if compression is isothermal?</p></li>
+<li><p>How do the two ratios, <span class="math notranslate nohighlight">\(X_{1}\)</span> and <span class="math notranslate nohighlight">\(X_{2}\)</span>, compare?</p></li>
+<li><p>What may cause a discrepancy between the ratios of volumes and pressures?</p></li>
+</ul>
+</li>
+<li><p>Varying Temperature (Adiabatic):</p>
+<ul>
+<li><p>What properties of a system must be proportional if compression is adiabatic?</p></li>
+<li><p>How do the two ratios, <span class="math notranslate nohighlight">\(Y_{1}\)</span> and <span class="math notranslate nohighlight">\(Y_{2}\)</span>, compare?</p></li>
+<li><p>What may cause a discrepancy between the ratios of volumes and pressures?</p></li>
+<li><p>Consider the uncertainty as due to volume, do the ratios agree based on that uncertainty range?</p></li>
+</ul>
+</li>
+<li><p>Absolute Zero:</p>
+<ul>
+<li><p>What does absolute zero represent about a system?</p></li>
+<li><p>What is your extrapolated result for absolute zero; how does it compare to the accepted value?</p></li>
+<li><p>What measurement uncertainties exist; how do they affect your determined value for absolute zero?</p></li>
+</ul>
+</li>
+<li><p>What are possible systematic errors for today’s experiments?</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="ExperimentRotationalMotion.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="ExperimentFluids.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ideal-gas-law">Ideal Gas Law</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#absolute-zero">Absolute Zero</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-ideal-gas-law-experiment">The Ideal Gas Law Experiment</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-with-constant-temperature">Analysis with Constant Temperature</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-with-varying-temperature">Analysis with Varying Temperature</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#measurement-of-absolute-zero">Measurement of Absolute Zero</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis">Data Analysis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Angela Biselli
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

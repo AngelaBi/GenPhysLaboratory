@@ -65,7 +65,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Acceleration due to Gravity, g, with Glider on Tilted Air Track" href="ExperimentAccGTrack.html" />
-    <link rel="prev" title="Welcome to General Physics Lab" href="intro.html" />
+    <link rel="prev" title="Introductory Lab: Domino Size &amp; Density" href="ExperimentIntroLab.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -170,13 +170,17 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="ExperimentIntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Force Table with 3 Vectors at Equilibrium</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ExperimentAccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ExperimentSimpleProjectile.html">Simple Projectile Motion</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ExperimentCentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
-<li class="toctree-l1"><a class="reference internal" href="M1.html">M1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="M2.html">M2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="M6.html">M6</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentConsEnTrack.html">Conservation of Energy with Glider on Tilted Air Track</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentBallisticPendulum.html">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentRotationalMotion.html">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentIdealGas.html">Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentFluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ExperimentPendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
 <li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
@@ -418,10 +422,10 @@
 <p>A force example: a force may be 100 N in magnitude with direction 90° counterclockwise from the <span class="math notranslate nohighlight">\(x\)</span>-axis. This force vector is written as 100 N &#64; 90°. We will use bold face type to indicate a vector (<span class="math notranslate nohighlight">\(\vec{F_i}\)</span>) while the regular typeface will indicate scalar magnitudes and the components of a vector (<span class="math notranslate nohighlight">\(F_i\)</span>).</p>
 <p>When several vectors act on an object, it is generally desirable to determine the sum of these vectors, called the <strong>resultant vector</strong>. Suppose force vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span> act on a body. The resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span> is defined by the vector sum of the two forces, thus</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-resultant-two-forces">
-<span class="eqno">(1)<a class="headerlink" href="#equation-eq-m01-resultant-two-forces" title="Permalink to this equation">#</a></span>\[\vec{R} = \vec{F}_1 + \vec{F}_2.\]</div>
+<span class="eqno">(2)<a class="headerlink" href="#equation-eq-m01-resultant-two-forces" title="Permalink to this equation">#</a></span>\[\vec{R} = \vec{F}_1 + \vec{F}_2.\]</div>
 <p>If many forces act on the body, then we sum all the forces together</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-resultant-sum">
-<span class="eqno">(2)<a class="headerlink" href="#equation-eq-m01-resultant-sum" title="Permalink to this equation">#</a></span>\[\vec{R} = \sum_{i=1}^N \vec{F}_i.\]</div>
+<span class="eqno">(3)<a class="headerlink" href="#equation-eq-m01-resultant-sum" title="Permalink to this equation">#</a></span>\[\vec{R} = \sum_{i=1}^N \vec{F}_i.\]</div>
 <p>The resultant force is a single force which can completely represent a number of individual forces acting. When the resultant force is zero, the object is said to be in equilibrium.</p>
 <p>There are two methods of vector addition to consider:</p>
 <ul class="simple">
@@ -430,20 +434,20 @@
 </ul>
 <section id="graphical-method">
 <h3>Graphical Method<a class="headerlink" href="#graphical-method" title="Permalink to this heading">#</a></h3>
-<p>Vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span> (<a class="reference internal" href="#m01fig01"><span class="std std-numref">Fig. 1</span></a>) are added graphically as follows:
-Beginning at a convenient point on a piece of graph paper, usually at the origin of a rectangular coordinate system draw one of the vectors as an arrow to scale and pointing in the proper direction. Place the second vector with its tail at the tip of the first, again drawn to scale and pointing in the proper direction. The resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span> is the vector drawn from the tail of the first vector to the tip of the second. The process is illustrated in <a class="reference internal" href="#m01fig02"><span class="std std-numref">Fig. 2</span></a> demonstrating the addition operation does not depend on the order of addition. Thus, like scalar addition,</p>
+<p>Vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span> (<a class="reference internal" href="#m01fig01"><span class="std std-numref">Fig. 2</span></a>) are added graphically as follows:
+Beginning at a convenient point on a piece of graph paper, usually at the origin of a rectangular coordinate system draw one of the vectors as an arrow to scale and pointing in the proper direction. Place the second vector with its tail at the tip of the first, again drawn to scale and pointing in the proper direction. The resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span> is the vector drawn from the tail of the first vector to the tip of the second. The process is illustrated in <a class="reference internal" href="#m01fig02"><span class="std std-numref">Fig. 3</span></a> demonstrating the addition operation does not depend on the order of addition. Thus, like scalar addition,</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-vector-addition-commutative">
-<span class="eqno">(3)<a class="headerlink" href="#equation-eq-m01-vector-addition-commutative" title="Permalink to this equation">#</a></span>\[\vec{F}_1 + \vec{F}_2 = \vec{F}_2 + \vec{F}_1 = \vec{R}.\]</div>
+<span class="eqno">(4)<a class="headerlink" href="#equation-eq-m01-vector-addition-commutative" title="Permalink to this equation">#</a></span>\[\vec{F}_1 + \vec{F}_2 = \vec{F}_2 + \vec{F}_1 = \vec{R}.\]</div>
 <figure class="align-center" id="m01fig01">
 <a class="reference internal image-reference" href="_images/M1_ForceTable_01.jpg"><img alt="_images/M1_ForceTable_01.jpg" src="_images/M1_ForceTable_01.jpg" style="width: 300px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Two force vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span></span><a class="headerlink" href="#m01fig01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Two force vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span></span><a class="headerlink" href="#m01fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="m01fig02">
 <a class="reference internal image-reference" href="_images/M1_ForceTable_02.jpg"><img alt="_images/M1_ForceTable_02.jpg" src="_images/M1_ForceTable_02.jpg" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Adding 2 vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>, using the graphical (“tail-to-tip”) method.</span><a class="headerlink" href="#m01fig02" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Adding 2 vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>, using the graphical (“tail-to-tip”) method.</span><a class="headerlink" href="#m01fig02" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>It is important that an appropriate scale be selected with which the vectors are drawn (e.g. 1 N = 10 cm). The magnitude of <span class="math notranslate nohighlight">\(\vec{R}\)</span> is determined using a ruler, and the angle <span class="math notranslate nohighlight">\(\theta\)</span> is measured using a protractor. Since the negative of a vector is merely the vector pointing in the opposite direction, subtraction is addition with the negative vector pointing in the opposite direction. Errors can be significantly reduced by using a scale that makes the drawing as large as possible. Neatness counts!</p>
@@ -454,12 +458,12 @@ Beginning at a convenient point on a piece of graph paper, usually at the origin
 <figure class="align-center" id="m01fig03">
 <a class="reference internal image-reference" href="_images/M1_ForceTable_03.jpg"><img alt="_images/M1_ForceTable_03.jpg" src="_images/M1_ForceTable_03.jpg" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Adding 2 vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span> using the method of components.</span><a class="headerlink" href="#m01fig03" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Adding 2 vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span> using the method of components.</span><a class="headerlink" href="#m01fig03" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>In <a class="reference internal" href="#m01fig03"><span class="std std-numref">Fig. 3</span></a>, the magnitudes and directions are shown for the two force vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>. The magnitudes of the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components are calculated for this example as follows:</p>
+<p>In <a class="reference internal" href="#m01fig03"><span class="std std-numref">Fig. 4</span></a>, the magnitudes and directions are shown for the two force vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>. The magnitudes of the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components are calculated for this example as follows:</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-cossinangle">
-<span class="eqno">(4)<a class="headerlink" href="#equation-eq-m01-cossinangle" title="Permalink to this equation">#</a></span>\[\begin{split}\begin{aligned}
+<span class="eqno">(5)<a class="headerlink" href="#equation-eq-m01-cossinangle" title="Permalink to this equation">#</a></span>\[\begin{split}\begin{aligned}
 F_{1,x} &amp;= F_1 \, \cos(\theta_{1}) &amp; \qquad F_{2,x} &amp;= F_2 \, \cos(\theta_{2}) \\
         &amp;= 1\,\text{N} \cos(0°) = 1\,\text{N} &amp; &amp;= 1\,\text{N} \cos(45°) = 0.707\,\text{N} \\
 F_{1,y} &amp;= F_1 \,\sin(\theta_1) &amp; \qquad F_{2,y} &amp;= F_2 \,\sin(\theta_2) \\
@@ -473,17 +477,17 @@ F_{1,y} &amp;= F_1 \,\sin(\theta_1) &amp; \qquad F_{2,y} &amp;= F_2 \,\sin(\thet
 \[\vec{R}_y = F_{1,y} + F_{2,y} = 0\,\text{N} + 0.707\,\text{N} = 0.707\,\text{N}.\]</div>
 <p>The magnitude of the resultant is found using the relation</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-resultantmag">
-<span class="eqno">(5)<a class="headerlink" href="#equation-eq-m01-resultantmag" title="Permalink to this equation">#</a></span>\[\vec{R}^2 = {\vec{R}_x}^2 + {\vec{R}_y}^2,\]</div>
+<span class="eqno">(6)<a class="headerlink" href="#equation-eq-m01-resultantmag" title="Permalink to this equation">#</a></span>\[\vec{R}^2 = {\vec{R}_x}^2 + {\vec{R}_y}^2,\]</div>
 <p>or</p>
 <div class="math notranslate nohighlight">
 \[\vec{R} = \sqrt{\left(1.707\,\text{N}\right)^2 + \left(0.707\,\text{N}\right)^2} = 1.848\,\text{N}.\]</div>
 <p>The angle <span class="math notranslate nohighlight">\(\theta\)</span> specifies the direction of the resultant and it can be calculated by noting that</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-tan-theta">
-<span class="eqno">(6)<a class="headerlink" href="#equation-eq-m01-tan-theta" title="Permalink to this equation">#</a></span>\[\tan\theta = R_{y} / R_{x}\]</div>
+<span class="eqno">(7)<a class="headerlink" href="#equation-eq-m01-tan-theta" title="Permalink to this equation">#</a></span>\[\tan\theta = R_{y} / R_{x}\]</div>
 <p>and</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-arctan">
-<span class="eqno">(7)<a class="headerlink" href="#equation-eq-m01-arctan" title="Permalink to this equation">#</a></span>\[\theta = \arctan (R_{y} / R_{x}).\]</div>
-<p>For this example illustrated in <a class="reference internal" href="#m01fig04"><span class="std std-numref">Fig. 4</span></a></p>
+<span class="eqno">(8)<a class="headerlink" href="#equation-eq-m01-arctan" title="Permalink to this equation">#</a></span>\[\theta = \arctan (R_{y} / R_{x}).\]</div>
+<p>For this example illustrated in <a class="reference internal" href="#m01fig04"><span class="std std-numref">Fig. 5</span></a></p>
 <div class="math notranslate nohighlight">
 \[\tan \theta = (0.707\,\text{N}) / (1.707\,\text{N}) = 0.414,\]</div>
 <div class="math notranslate nohighlight">
@@ -491,21 +495,21 @@ F_{1,y} &amp;= F_1 \,\sin(\theta_1) &amp; \qquad F_{2,y} &amp;= F_2 \,\sin(\thet
 <figure class="align-center" id="m01fig04">
 <a class="reference internal image-reference" href="_images/Figure04.jpg"><img alt="_images/Figure04.jpg" src="_images/Figure04.jpg" style="width: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Example of <span class="math notranslate nohighlight">\(\vec{R}\)</span>, the sum of 2 vectors, illustrating <span class="math notranslate nohighlight">\(x\)</span>- and <span class="math notranslate nohighlight">\(y\)</span>-components, as well as its magnitude and angle with the <span class="math notranslate nohighlight">\(x\)</span>-axis.</span><a class="headerlink" href="#m01fig04" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Example of <span class="math notranslate nohighlight">\(\vec{R}\)</span>, the sum of 2 vectors, illustrating <span class="math notranslate nohighlight">\(x\)</span>- and <span class="math notranslate nohighlight">\(y\)</span>-components, as well as its magnitude and angle with the <span class="math notranslate nohighlight">\(x\)</span>-axis.</span><a class="headerlink" href="#m01fig04" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>In this laboratory, an object will be presented with two known forces acting on it. Equilibrium will be established by adding a third <strong>equilibrant</strong> force <span class="math notranslate nohighlight">\(\vec{F}_3\)</span>, such that the sum of the three forces is zero (at equilibrium). Thus, we must find the resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span> of the two given forces <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>, and find the force <span class="math notranslate nohighlight">\(\vec{F}_3 = -\vec{R}\)</span> — equal in magnitude and opposite in direction to the resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span> of <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>. This is illustrated in <a class="reference internal" href="#m01fig05"><span class="std std-numref">Fig. 5</span></a>.</p>
+<p>In this laboratory, an object will be presented with two known forces acting on it. Equilibrium will be established by adding a third <strong>equilibrant</strong> force <span class="math notranslate nohighlight">\(\vec{F}_3\)</span>, such that the sum of the three forces is zero (at equilibrium). Thus, we must find the resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span> of the two given forces <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>, and find the force <span class="math notranslate nohighlight">\(\vec{F}_3 = -\vec{R}\)</span> — equal in magnitude and opposite in direction to the resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span> of <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>. This is illustrated in <a class="reference internal" href="#m01fig05"><span class="std std-numref">Fig. 6</span></a>.</p>
 <figure class="align-center" id="m01fig05">
 <a class="reference internal image-reference" href="_images/Figure05.jpg"><img alt="_images/Figure05.jpg" src="_images/Figure05.jpg" style="width: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Illustration of the method to determine the force <span class="math notranslate nohighlight">\(\vec{F}_{3}\)</span> needed to balance two given forces <span class="math notranslate nohighlight">\(\vec{F}_{1}\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_{2}\)</span>.</span><a class="headerlink" href="#m01fig05" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Illustration of the method to determine the force <span class="math notranslate nohighlight">\(\vec{F}_{3}\)</span> needed to balance two given forces <span class="math notranslate nohighlight">\(\vec{F}_{1}\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_{2}\)</span>.</span><a class="headerlink" href="#m01fig05" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Here <span class="math notranslate nohighlight">\(\vec{F}_3\)</span> is the equilibrant force necessary to equilibrate <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>. Note that, the resultant of <span class="math notranslate nohighlight">\(\vec{F}_1+\vec{F}_2+\vec{F}_3\)</span> is zero since the ring is in equilibrium.</p>
 <p>Force <span class="math notranslate nohighlight">\(\vec{F}_3\)</span> has the same magnitude as the resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span>, but acts in a direction opposite to <span class="math notranslate nohighlight">\(\vec{R}\)</span> (recall that <span class="math notranslate nohighlight">\(\vec{R}=\vec{F}_1+\vec{F}_2\)</span>). So we now have</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-equilibrant">
-<span class="eqno">(8)<a class="headerlink" href="#equation-eq-m01-equilibrant" title="Permalink to this equation">#</a></span>\[\vec{F}_3 = -\vec{R}.\]</div>
-<p>We conclude that the force necessary to equilibrate two or more forces is equal and opposite to the resultant of the two (or more) forces. This is additionally illustrated in an example of the force table apparatus we will use in <a class="reference internal" href="#m01fig06"><span class="std std-numref">Fig. 6</span></a>.</p>
+<span class="eqno">(9)<a class="headerlink" href="#equation-eq-m01-equilibrant" title="Permalink to this equation">#</a></span>\[\vec{F}_3 = -\vec{R}.\]</div>
+<p>We conclude that the force necessary to equilibrate two or more forces is equal and opposite to the resultant of the two (or more) forces. This is additionally illustrated in an example of the force table apparatus we will use in <a class="reference internal" href="#m01fig06"><span class="std std-numref">Fig. 7</span></a>.</p>
 </section>
 </section>
 <section id="apparatus">
@@ -513,13 +517,13 @@ F_{1,y} &amp;= F_1 \,\sin(\theta_1) &amp; \qquad F_{2,y} &amp;= F_2 \,\sin(\thet
 <figure class="align-center" id="m01fig06">
 <a class="reference internal image-reference" href="_images/M1_ForceTable_06_table.jpg"><img alt="_images/M1_ForceTable_06_table.jpg" src="_images/M1_ForceTable_06_table.jpg" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Illustration of the force table, and an example of how to determine the force <span class="math notranslate nohighlight">\(\vec{F}_{3}\)</span> needed to balance two given forces <span class="math notranslate nohighlight">\(\vec{F}_{1}\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_{2}\)</span>.</span><a class="headerlink" href="#m01fig06" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Illustration of the force table, and an example of how to determine the force <span class="math notranslate nohighlight">\(\vec{F}_{3}\)</span> needed to balance two given forces <span class="math notranslate nohighlight">\(\vec{F}_{1}\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_{2}\)</span>.</span><a class="headerlink" href="#m01fig06" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>The apparatus for this experiment consist of a force table, weight holders, and weights (see <a class="reference internal" href="#m01fig06"><span class="std std-numref">Fig. 6</span></a>). The force table consists of a circular tabletop mounted on a vertical rod held in a tripod support with leveling screws. The rim of the circular top has a 360° scale engraved on it along which it is possible to clamp a number of pulleys. At the center of the table is a small ring held in place by means of a removable pin. The ends of three cords are tied to the ring with each cord leading over a pulley and ending with a weight holder tied to its other end. When the forces along the cords acting upon the small ring are balanced, or in static equilibrium, the ring remains stationary. For this lab, the force pulling on the ring is the tension of the string, which is merely translated from horizontal on the table to vertical.</p>
+<p>The apparatus for this experiment consist of a force table, weight holders, and weights (see <a class="reference internal" href="#m01fig06"><span class="std std-numref">Fig. 7</span></a>). The force table consists of a circular tabletop mounted on a vertical rod held in a tripod support with leveling screws. The rim of the circular top has a 360° scale engraved on it along which it is possible to clamp a number of pulleys. At the center of the table is a small ring held in place by means of a removable pin. The ends of three cords are tied to the ring with each cord leading over a pulley and ending with a weight holder tied to its other end. When the forces along the cords acting upon the small ring are balanced, or in static equilibrium, the ring remains stationary. For this lab, the force pulling on the ring is the tension of the string, which is merely translated from horizontal on the table to vertical.</p>
 <p>Each hanging mass has an associated weight (force) due to being pulled <em>down</em> by gravity. This weight is balanced by the <em>upward</em> tension force of the vertical part of the cord which is merely translated from vertical to horizontal tension by the pulley. Thus, the force pulling the ring in the direction of the cord is</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-forceg">
-<span class="eqno">(9)<a class="headerlink" href="#equation-eq-m01-forceg" title="Permalink to this equation">#</a></span>\[\vec{F_\text{weight}} = m \times \vec{g} = \vec{F_\text{tension}}\]</div>
+<span class="eqno">(10)<a class="headerlink" href="#equation-eq-m01-forceg" title="Permalink to this equation">#</a></span>\[\vec{F_\text{weight}} = m \times \vec{g} = \vec{F_\text{tension}}\]</div>
 <p>For accurate measurements of the angles involved, each cord must be aimed directly at the center of the ring requiring that the equilibrium condition must be established when the ring is exactly centered around the pin on the table.</p>
 </section>
 <section id="experimental-procedure">
@@ -536,7 +540,7 @@ F_{1,y} &amp;= F_1 \,\sin(\theta_1) &amp; \qquad F_{2,y} &amp;= F_2 \,\sin(\thet
 \text{Mass #1:} &amp; 200\,\text{g} &amp; \text{&#64;}\,0° \\
 \text{Mass #2:} &amp; 250\,\text{g} &amp; \text{&#64;}\,135°.
 \end{array}\end{split}\]</div>
-<p>Place a pulley at 0° and add 150 g to the 50 g weight hanger for a total 200 g. As mentioned in <a class="reference internal" href="#equation-eq-m01-forceg">(9)</a>, the tension on the cord is the same on both sides of the pulley so that the downward pull of gravity on the hanger and masses is equal to the tension in the cord leading to the ring. Thus,</p>
+<p>Place a pulley at 0° and add 150 g to the 50 g weight hanger for a total 200 g. As mentioned in <a class="reference internal" href="#equation-eq-m01-forceg">(10)</a>, the tension on the cord is the same on both sides of the pulley so that the downward pull of gravity on the hanger and masses is equal to the tension in the cord leading to the ring. Thus,</p>
 <div class="math notranslate nohighlight">
 \[\vec{F}_1 = m g = 0.20\,\text{kg} \times 9.8\,\text{m/s}^2 = 1.96\,\text{N} \text{ &#64; } 0°.\]</div>
 <p>Similarly, add 200 g to a 50 g weight hanger and run its cord over a pulley mounted at 135°.</p>
@@ -554,17 +558,17 @@ Experimentally determine the angles <span class="math notranslate nohighlight">\
 You have to solve a pair of equations for the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components of force.
 The equation for equilibrium in the <span class="math notranslate nohighlight">\(x\)</span> direction is</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-unknownx">
-<span class="eqno">(10)<a class="headerlink" href="#equation-eq-m01-unknownx" title="Permalink to this equation">#</a></span>\[(M_1 + M_2 \cos\theta_2 + M_3 \cos\theta_3)g = 0.\]</div>
+<span class="eqno">(11)<a class="headerlink" href="#equation-eq-m01-unknownx" title="Permalink to this equation">#</a></span>\[(M_1 + M_2 \cos\theta_2 + M_3 \cos\theta_3)g = 0.\]</div>
 <p>The equation for equilibrium in the <span class="math notranslate nohighlight">\(y\)</span> direction is</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-unknowny">
-<span class="eqno">(11)<a class="headerlink" href="#equation-eq-m01-unknowny" title="Permalink to this equation">#</a></span>\[(M_2 \sin\theta_2 + M_3 \sin\theta_3)g = 0.\]</div>
+<span class="eqno">(12)<a class="headerlink" href="#equation-eq-m01-unknowny" title="Permalink to this equation">#</a></span>\[(M_2 \sin\theta_2 + M_3 \sin\theta_3)g = 0.\]</div>
 <p><span class="math notranslate nohighlight">\(M_2\)</span> is eliminated by multiplying the <span class="math notranslate nohighlight">\(x\)</span> component by <span class="math notranslate nohighlight">\(\sin \theta_2\)</span> and subtracting the <span class="math notranslate nohighlight">\(y\)</span> component multiplied by <span class="math notranslate nohighlight">\(\cos \theta_2\)</span></p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-solvem3">
-<span class="eqno">(12)<a class="headerlink" href="#equation-eq-m01-solvem3" title="Permalink to this equation">#</a></span>\[M_1 \sin \theta_2  + M_3 \cos \theta_3 \sin \theta_2 - M_3 \sin \theta_3 \cos \theta_2 = 0.\]</div>
+<span class="eqno">(13)<a class="headerlink" href="#equation-eq-m01-solvem3" title="Permalink to this equation">#</a></span>\[M_1 \sin \theta_2  + M_3 \cos \theta_3 \sin \theta_2 - M_3 \sin \theta_3 \cos \theta_2 = 0.\]</div>
 <p>Using the known values, solve for <span class="math notranslate nohighlight">\(M_3\)</span> and enter the value in the table.</p>
 <p>Similarly, eliminating <span class="math notranslate nohighlight">\(M_3\)</span> gives</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-solvem2">
-<span class="eqno">(13)<a class="headerlink" href="#equation-eq-m01-solvem2" title="Permalink to this equation">#</a></span>\[M_1 \sin \theta_3  + M_2 \cos \theta_2 \sin \theta_3 - M_2 \sin \theta_2 \cos \theta_3 = 0.\]</div>
+<span class="eqno">(14)<a class="headerlink" href="#equation-eq-m01-solvem2" title="Permalink to this equation">#</a></span>\[M_1 \sin \theta_3  + M_2 \cos \theta_2 \sin \theta_3 - M_2 \sin \theta_2 \cos \theta_3 = 0.\]</div>
 <p>Using the known values, solve for <span class="math notranslate nohighlight">\(M_2\)</span> and enter the value in the table.</p>
 <p>Measure <span class="math notranslate nohighlight">\(M_2\)</span> and <span class="math notranslate nohighlight">\(M_3\)</span> on the scale and enter the values in the table.</p>
 <p>It is good practice to <strong>COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUING TO THE NEXT CASE</strong>. If you have some error in your experimental method or in your calculation, you can correct it before completing all the other cases. The layout of the data table for additional cases can then be created by copying the first case after you are confident in your results from the first case.</p>
@@ -603,20 +607,20 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <ul>
 <li><p><span class="math notranslate nohighlight">\(m_i\)</span>: hanging mass in kilograms (kg)</p></li>
 <li><p><span class="math notranslate nohighlight">\(\delta m_i\)</span>: your estimate of the experimental uncertainty [± value] of the mass</p></li>
-<li><p><span class="math notranslate nohighlight">\(F_i\)</span>: calculated magnitude of the force in Newtons (N) (see <a class="reference internal" href="#equation-eq-m01-forceg">(9)</a>)</p></li>
+<li><p><span class="math notranslate nohighlight">\(F_i\)</span>: calculated magnitude of the force in Newtons (N) (see <a class="reference internal" href="#equation-eq-m01-forceg">(10)</a>)</p></li>
 <li><p><span class="math notranslate nohighlight">\(\theta_i\)</span>: direction of the force vector in degrees</p></li>
 <li><p><span class="math notranslate nohighlight">\(\delta \theta_i\)</span>: your estimate of the experimental uncertainty of the angle</p></li>
-<li><p><span class="math notranslate nohighlight">\(F_{i,x}\)</span>: calculated <span class="math notranslate nohighlight">\(x\)</span>-component of the force vectors (see <a class="reference internal" href="#equation-eq-m01-cossinangle">(4)</a>). Reminder, Excel needs angles in radians (use RADIANS() function to convert)</p></li>
+<li><p><span class="math notranslate nohighlight">\(F_{i,x}\)</span>: calculated <span class="math notranslate nohighlight">\(x\)</span>-component of the force vectors (see <a class="reference internal" href="#equation-eq-m01-cossinangle">(5)</a>). Reminder, Excel needs angles in radians (use RADIANS() function to convert)</p></li>
 <li><p><span class="math notranslate nohighlight">\(F_{i,y}\)</span>: calculated <span class="math notranslate nohighlight">\(y\)</span>-component of the force vectors</p></li>
 </ul>
 </li>
 <li><p>Create a secondary table to analyze the results of your measurements. This is effectively one row as there would be just a single value for each of the variables. The columns should include variables:</p>
 <ul>
 <li><p><span class="math notranslate nohighlight">\(\vec{R}_x\)</span> &amp; <span class="math notranslate nohighlight">\(\vec{R}_y\)</span>: the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components of the resultant vector <span class="math notranslate nohighlight">\(\vec{R}\)</span> of the two given force vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\vec{R}_\text{mag}\)</span>: magnitude of the resultant force vector in Newtons (see Pythagorean Theorem in <a class="reference internal" href="#equation-eq-m01-resultantmag">(5)</a>)</p></li>
-<li><p><span class="math notranslate nohighlight">\(\theta_{R}\)</span>: direction of the resultant in degrees (see <a class="reference internal" href="#equation-eq-m01-arctan">(7)</a> which stems from trigonometry). Use ATAN2() Excel function to get angle as measured counterclockwise from 0°. Reminder, Excel returns angles in radians (use DEGREES() function to convert)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\vec{R}_\text{mag}\)</span>: magnitude of the resultant force vector in Newtons (see Pythagorean Theorem in <a class="reference internal" href="#equation-eq-m01-resultantmag">(6)</a>)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\theta_{R}\)</span>: direction of the resultant in degrees (see <a class="reference internal" href="#equation-eq-m01-arctan">(8)</a> which stems from trigonometry). Use ATAN2() Excel function to get angle as measured counterclockwise from 0°. Reminder, Excel returns angles in radians (use DEGREES() function to convert)</p></li>
 <li><p><span class="math notranslate nohighlight">\(\vec{F}_{x,\text{total experimental}}\)</span> &amp; <span class="math notranslate nohighlight">\(\vec{F}_{y,\text{total experimental}}\)</span>: the vector components of the measured total force, which is the vector sum of <span class="math notranslate nohighlight">\(\vec{R}\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_3\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\vec{F}_{\text{mag,total experimental}}\)</span> (a.k.a. <span class="math notranslate nohighlight">\(\delta \vec{F}_3\)</span>): the magnitude of the total force, determined in similar fashion to <a class="reference internal" href="#equation-eq-m01-resultantmag">(5)</a>, but with <span class="math notranslate nohighlight">\(\vec{F}_{x,\text{total experimental}}\)</span> &amp; <span class="math notranslate nohighlight">\(\vec{F}_{y,\text{total experimental}}\)</span>. <em><strong>Consider</strong></em>: The <strong>total force should be zero</strong> because the ring is in equilibrium. The magnitude of the total force is therefore a measure of the <em>experimental uncertainty</em>. This effectively represents <span class="math notranslate nohighlight">\(\delta \vec{F}_3\)</span> where your experimental result would be <span class="math notranslate nohighlight">\(\vec{F}_3 \pm \delta \vec{F}_3\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\vec{F}_{\text{mag,total experimental}}\)</span> (a.k.a. <span class="math notranslate nohighlight">\(\delta \vec{F}_3\)</span>): the magnitude of the total force, determined in similar fashion to <a class="reference internal" href="#equation-eq-m01-resultantmag">(6)</a>, but with <span class="math notranslate nohighlight">\(\vec{F}_{x,\text{total experimental}}\)</span> &amp; <span class="math notranslate nohighlight">\(\vec{F}_{y,\text{total experimental}}\)</span>. <em><strong>Consider</strong></em>: The <strong>total force should be zero</strong> because the ring is in equilibrium. The magnitude of the total force is therefore a measure of the <em>experimental uncertainty</em>. This effectively represents <span class="math notranslate nohighlight">\(\delta \vec{F}_3\)</span> where your experimental result would be <span class="math notranslate nohighlight">\(\vec{F}_3 \pm \delta \vec{F}_3\)</span>.</p></li>
 <li><p>Based on your determined resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span></p>
 <ul>
 <li><p><span class="math notranslate nohighlight">\(\vec{F}_{3,\text{theoretical}}\)</span>: your expected or theoretical magnitude of the equilibrant force in N</p></li>
@@ -632,7 +636,7 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <li><p>Unscrew the black pulleys to rotate them around the tabletop to their given angles</p></li>
 <li><p>With hanger 3, add or subtract masses and scoot the pulley around the table until the ring is as perfectly centered around the center pin as possible to argue equilibrium</p></li>
 <li><p>Note your <span class="math notranslate nohighlight">\(m_3\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_3\)</span> values. Also note your estimated uncertainties <span class="math notranslate nohighlight">\(\delta m_i\)</span> &amp; <span class="math notranslate nohighlight">\(\delta \theta_i\)</span></p></li>
-<li><p>Derive the hangers’ respective forces (e.g. <a class="reference internal" href="#equation-eq-m01-forceg">(9)</a>)</p></li>
+<li><p>Derive the hangers’ respective forces (e.g. <a class="reference internal" href="#equation-eq-m01-forceg">(10)</a>)</p></li>
 <li><p>Determine the hangers’ respective <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components</p></li>
 <li><p>Determine the resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span> from your derived values for <span class="math notranslate nohighlight">\(\vec{R}_x\)</span>, <span class="math notranslate nohighlight">\(\vec{R}_y\)</span></p></li>
 <li><p>Determine the resultant’s angle <span class="math notranslate nohighlight">\(\theta_R\)</span></p></li>
@@ -666,7 +670,7 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <li><p><span class="math notranslate nohighlight">\(\theta_1\)</span>: Angle of 0° for the empty hanger</p></li>
 <li><p><span class="math notranslate nohighlight">\(\vec{F}_{x,1}\)</span> &amp; <span class="math notranslate nohighlight">\(\vec{F}_{y,1}\)</span>: <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components of the known mass’s force vector</p></li>
 <li><p><span class="math notranslate nohighlight">\(\theta_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_{3,\text{corgi-white}}\)</span>: Experimentally determined direction of the force vector in degrees — <strong>treat as actual given values once you find equilibrium. You will use these to solve for the masses later.</strong></p></li>
-<li><p><span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white}}\)</span>: the experimental values of <span class="math notranslate nohighlight">\(m_2\)</span> and <span class="math notranslate nohighlight">\(m_3\)</span> from <a class="reference internal" href="#equation-eq-m01-solvem3">(12)</a> and <a class="reference internal" href="#equation-eq-m01-solvem2">(13)</a></p></li>
+<li><p><span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white}}\)</span>: the experimental values of <span class="math notranslate nohighlight">\(m_2\)</span> and <span class="math notranslate nohighlight">\(m_3\)</span> from <a class="reference internal" href="#equation-eq-m01-solvem3">(13)</a> and <a class="reference internal" href="#equation-eq-m01-solvem2">(14)</a></p></li>
 <li><p><span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black, actual}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white, actual}}\)</span>: the values of <span class="math notranslate nohighlight">\(m_2\)</span> and <span class="math notranslate nohighlight">\(m_3\)</span> as measured on a triple-beam balance.</p></li>
 <li></li>
 </ul>
@@ -674,7 +678,7 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <li><p>Place the respective masses on there hangers, with <span class="math notranslate nohighlight">\(m_1\)</span> set to 0°</p></li>
 <li><p>Unscrew the black pulleys to rotate them around the tabletop until you find equilibrium. You are only changing the angles of <span class="math notranslate nohighlight">\(\theta_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_{3,\text{corgi-white}}\)</span>. NO ADDITIONAL MASS IS REQUIRED.</p></li>
 <li><p>Once you’ve found equilibrium, note the <span class="math notranslate nohighlight">\(\theta_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_{3,\text{corgi-white}}\)</span> values as actual values to use in later equations (i.e. as if they’re given angles)</p></li>
-<li><p>Determine <span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white}}\)</span> using <a class="reference internal" href="#equation-eq-m01-solvem3">(12)</a> and <a class="reference internal" href="#equation-eq-m01-solvem2">(13)</a></p></li>
+<li><p>Determine <span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white}}\)</span> using <a class="reference internal" href="#equation-eq-m01-solvem3">(13)</a> and <a class="reference internal" href="#equation-eq-m01-solvem2">(14)</a></p></li>
 <li><p>Using a triple-beam balance, measure directly the actual mass of <span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black, actual}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white, actual}}\)</span></p></li>
 <li><p>COMPARE your experimental results of each of the unlabeled masses to their actual values. Calculate the % difference of <span class="math notranslate nohighlight">\(m_2\)</span> and <span class="math notranslate nohighlight">\(m_3\)</span> experimentally found values to the actual measured values. What may be contributing to a larger or smaller difference? To be further discussed in Section M1 Interpretation.</p></li>
 </ol>
@@ -712,7 +716,7 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 </li>
 </ul>
 <div class="math notranslate nohighlight" id="equation-m1-percentdiff">
-<span class="eqno">(14)<a class="headerlink" href="#equation-m1-percentdiff" title="Permalink to this equation">#</a></span>\[\text{% Difference} = \frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.\]</div>
+<span class="eqno">(15)<a class="headerlink" href="#equation-m1-percentdiff" title="Permalink to this equation">#</a></span>\[\text{% Difference} = \frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.\]</div>
 <ul class="simple">
 <li><p>What uncertainties might make this difference larger or smaller?</p></li>
 <li><p>What is the precision of your equipment (force table, masses, etc.)?</p></li>
@@ -752,12 +756,12 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intro.html"
+       href="ExperimentIntroLab.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to General Physics Lab</p>
+        <p class="prev-next-title">Introductory Lab: Domino Size &amp; Density</p>
       </div>
     </a>
     <a class="right-next"
