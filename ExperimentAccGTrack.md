@@ -69,21 +69,7 @@ We will compare our results to the measured value of $g$ at sea level. The value
 
 In the experiment, the presumed frictionless inclined plane will be an air track.  The mass will be a glider, which floats on the air track.  Placing a spacer of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.  Refer to Fig.~\ref{M02Fig02} below in the experimental procedure section.
 
-%\subsection{Acceleration by a hanging mass}
-% --- removing, doesn't necessarily incorporate torque, doesn't add much to the lab at this point - 2024/08
 
-%In this case you will use the \textbf{Capstone} program and the PASCO rotary sensor to measure $g$.
-%Set the track level, with no spacer.
-%The glider has mass $M_G$.
-%A string connects the glider with a weight of mass $M_w = 10\,\gram$.
-%The string passes over the large pulley of a PASCO rotary sensor.
-%You have to account for the  mass of the rotating pulley to get a more accurate result.
-%Your measured value for $g$ is found from
-%\begin{equation}
-%\label{eq:M2hanging}
-%  M_w g = \left(M_G + M_{pulley} + M_w\right) a.
-%\end{equation}
-%Here $\left(M_G + M_{pulley} + M_w\right)$ is the total mass that is moving and $M_w g$ is the total force.
 
 
 

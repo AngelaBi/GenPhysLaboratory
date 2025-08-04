@@ -96,28 +96,6 @@ Thus as the angle gets larger, the period increases.
 
 When the pendulum swings with very small angles, the period is essentially independent of the amplitude.  However, from the more precise expression above for the period, this is not strictly true.  An amplitude decrease could result from the effects of friction in the pivot or air drag of the thread and mass.  Pendulum clock makers go to great pains to not only keep the length constant, but the amplitude of the swing as well.  Since we will average over many cycles, we must also assume that the amplitude does not change as we measure the period.  In our experiment, we might be tempted to average a very large number of cycles to reduce measurement errors.  However the necessarily larger initial amplitude together with the decreasing amplitude caused by friction effects would change the average period.  For the last case, we will do just that by deliberately start with a large amplitude and observe whether there is an increase in the measured period.
 
-%\subsection{Case 2 Pendulum moving in a circle}
-%
-%In Case 2 you will explore the period with the pendulum moving in a circle.
-%
-%The radius of motion in terms of the length and the angle $\theta$ is $R=L\sin \theta$. The ball moves in a horizontal plane.
-%Therefore its vertical component of acceleration is zero and the vertical forces must cancel.
-%The vertical component of tension equals the weight of the ball, $F_T \cos\theta = M g$.
-%
-%The ball is in uniform circular motion around a horizontal circle.
-%The centripetal force is
-%\begin{equation}
-%  F_r = F_T \sin\theta = M g \tan\theta = \frac{M v^2}{L \sin\theta}.
-%\end{equation}
-%Substituting $v= 2\pi L \sin(\theta)/T$ and solving for $g$ gives:
-%\begin{equation}
-%  \label{eq:M03circle}
-%  g = \frac{4\pi^2 L}{T^2}\cos\theta.
-%\end{equation}
-%
-%Using all your results other than Case 6 calculate the average and standard deviation for your experimental values of $g$ as shown in Eqn.~\ref{eq:errorSigmaX}.
-%
-%How does the difference of your result for Case 6 from your average $g$ compare with the standard deviation?
 
 
 
