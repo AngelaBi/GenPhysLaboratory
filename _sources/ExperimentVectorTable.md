@@ -178,13 +178,13 @@ For accurate measurements of the angles involved, each cord must be aimed direct
 
 
 
-# Experimental Procedure
+## Experimental Procedure
 
-## Preview
+### Preview
 
 For today's lab, two different cases will be assigned involving two given vectors and the **determination of the equilibrant vector**. A third case involves the **determination of the mass of two unlabeled masses** by balancing the system from a single known mass.
 
-### Finding the Equilibrant (First two cases)
+#### Finding the Equilibrant (First two cases)
 
 For each of the first two cases, you will have two given masses at given angles (direction). Each mass, consisting of a 50 g hanger plus the necessary additional mass, will be hung from a cord routed over a pulley at the assigned angular positions and finally tied to the ring. A third cord, hanger, and pulley assembly is put in place for the third, unknown force vector. Each force is the weight of the hanging mass at the pulley angle. Determine the unknown forces for each of the two cases.
 
@@ -207,7 +207,7 @@ Having established the given magnitudes and directions for each of the given for
 
 To determine the equilibrant vector $\vec{F}_{3}$, you will record both the angular position (**direction**) and total mass (to determine **magnitude** of the balancing force from the total hanging weight) required to balance $\vec{F}_{1}$ and $\vec{F}_{2}$.
 
-### Determining 2 Unlabeled Masses (Third case)
+#### Determining 2 Unlabeled Masses (Third case)
 
 In this case, you will experimentally **determine two unlabeled masses** by balancing the $x$ and $y$ components of the force of a known mass.
 Place the pulley with the known mass $M_1 = 50\,\text{g}$ at $\theta_1 = 0°$.
@@ -250,7 +250,7 @@ Measure $M_2$ and $M_3$ on the scale and enter the values in the table.
 
 It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUING TO THE NEXT CASE**. If you have some error in your experimental method or in your calculation, you can correct it before completing all the other cases. The layout of the data table for additional cases can then be created by copying the first case after you are confident in your results from the first case.
 
-## CASE 1 & 2 -- Finding the Equilibrant Vector (Balancing Force)
+### CASE 1 & 2 -- Finding the Equilibrant Vector (Balancing Force)
 
 1. **OVERALL GOALS:**
    - Understand how to add and balance vectors using the **method of components**.
@@ -312,7 +312,7 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 
 13. Repeat for the second case
 
-## CASE 3 -- Determining 2 Unlabeled Masses
+### CASE 3 -- Determining 2 Unlabeled Masses
 
 1. **OVERALL GOALS:**
    - Understand how to determine two unknown values of a 3 vector system using the **method of components**.
