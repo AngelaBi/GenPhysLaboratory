@@ -68,7 +68,7 @@ y = y_{0} + \frac{1}{2}(v_{0y} + v_{y})t
 
 
 
-## Free Fall / Downward Trajectory (First experiment)
+### Free Fall / Downward Trajectory (First experiment)
 
 In the previous lab, we determined the acceleration due to gravity via the tilted air track to take advantage of a longer time frame to measure a small fraction of the acceleration due to gravity. This week, we will determine the acceleration due to gravity more directly by considering a one-dimensional trajectory (i.e. free fall).
 
@@ -87,7 +87,7 @@ The experimental setup will involve a free-fall timer where a metal ball is drop
 Example of the free fall apparatus used in Exp. 1. Note the release screw will be what you tighten or loosen to hold or release the ball from the release mechanism.
 ```
 
-## Horizontal Trajectory (Second experiment)
+### Horizontal Trajectory (Second experiment)
 
 ```{figure} ExperimentSimpleProjectileFigures/M3_ExpOptions_quarter_size.jpg
 :name: M03-simpleProjectileLauncher
@@ -137,7 +137,7 @@ This subsequent value for time $t_{\text{higher height}}$ can be used in {eq}`eq
 
 
 
-## Angled Trajectory (Third experiment)
+### Angled Trajectory (Third experiment)
 
 The third part of this experiment is similar to the 2nd part of the second experiment in that we are staying at the higher height, but now investigating the trajectories when launched from different angles, namely, how far in the $x$ direction do they reach? The large, launcher holder is designed to hold the ball at rest (uncocked) in the same position (height) regardless of angle, so you should be able to use your previously determined $y_{0\text{,higher height}}$ as your value for the ball's initial height (see {numref}`M03-simpleProjectileLauncher` right).
 
@@ -188,9 +188,9 @@ x_{\theta} = v_{x}\cos{\theta}t_{\theta}
 
 
 
-# Experimental Procedure
+## Experimental Procedure
 
-## EXPERIMENT 1 -- Free Fall / Downward Trajectory
+### EXPERIMENT 1 -- Free Fall / Downward Trajectory
 
 1. **OVERALL GOALS:**
     - Investigate projectile motion in one-dimension ($y$).
@@ -238,7 +238,7 @@ x_{\theta} = v_{x}\cos{\theta}t_{\theta}
 15. Does you average $g \pm \delta g$ cover the difference from the accepted value and agree, or not?
 
 
-## Horizontal Trajectory (Second experiment)
+### Horizontal Trajectory (Second experiment)
 
 1. **OVERALL GOALS:**
     - Investigate projectile motion in two-dimensions when launched horizontally.
@@ -298,7 +298,7 @@ x_{\theta} = v_{x}\cos{\theta}t_{\theta}
 
 
 
-## Angled Trajectory (Third experiment)
+### Angled Trajectory (Third experiment)
 
 1. **OVERALL GOALS:**
     - Investigate projectile motion in two-dimensions when launched at a non-zero angle (for now, we'll use the 45° slot; if labs go well this semester, we may add additional angles).
