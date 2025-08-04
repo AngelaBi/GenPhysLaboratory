@@ -4,9 +4,17 @@
 format: jb-book
 root: intro
 chapters:
-- file: M1
-- file: M2
-- file: M6
+- file: ExperimentIntroLab
+- file: ExperimentVectorTable
+- file: ExperimentAccGTrack
+- file: ExperimentSimpleProjectile
+- file: ExperimentCentripetalForce
+- file: ExperimentConsEnTrack
+- file: ExperimentBallisticPendulum
+- file: ExperimentRotationalMotion
+- file: ExperimentIdealGas
+- file: ExperimentFluids
+- file: ExperimentPendulum
 - file: markdown
 - file: notebooks
 - file: markdown-notebooks
