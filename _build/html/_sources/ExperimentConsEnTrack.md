@@ -206,3 +206,4 @@ Calculate the following:
   - What are possible systematic errors for today's experiments?
   - How could one gain energy between top and bottom?
 
+## The whiteboard

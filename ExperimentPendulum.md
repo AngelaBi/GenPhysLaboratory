@@ -113,7 +113,7 @@ When the pendulum swings with very small angles, the period is essentially indep
 
 ## Experimental Procedure
 
-```{admonition} OVERALL GOALS
+```{admonition} OVERVIEW
 :class: note
    - We study simple harmonic motion of a simple pendulum to derive acceleration due to gravity.
    - The pendulum is the combination of both the string and the ball. The pendulum length is the distance from the pivot point to the center of mass of the ball (the center where force of gravity is overall acting upon). The total pendulum length can be determined from adding together the thread length $y$ and the ball radius as determined by:
@@ -239,5 +239,6 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
   - How does $g_\text{corrected,avg}$ of Case 5 compare to $g_{\text{avg}}$ of Case 4 (at the same $L$)? Do they agree more or less after the consideration of additional terms.
 - How do the periods relate to different lengths of pendulum?
 
+## The Whiteboard
 
 

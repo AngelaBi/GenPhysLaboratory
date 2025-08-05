@@ -52,7 +52,7 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 Left) Dominoes provided. Right) Relevant length, width, height dimensions of the dominoes.
 ```
 
-```{admonition} OVERALL GOALS
+```{admonition} OVERVIEW
 :class: note
 - Understand how to take length and mass measurements.
 - Understand how to characterize measurement uncertainties with standard deviation.
@@ -91,3 +91,5 @@ Create a Data Analysis table including:
 - Discuss: Do you expect the dominoes to float in water (at room temperature)?
 - What was the precision of your equipment (calipers, triple-beam balance, etc.)?
 - What are possible systematic errors of the experiment?
+
+## The whiteboard

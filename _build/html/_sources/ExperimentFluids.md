@@ -145,7 +145,7 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
 
 ### Archimedes' Principle (First experiment)
 
-```{admonition} OVERALL GOALS
+```{admonition} OVERVIEW
 :class: note
 - Understand the relationship between buoyancy force and the mass, volume, density of an object.
 - Determine buoyant force using Archimedes' Principle.
@@ -230,7 +230,7 @@ For each of the objects, find the weight of the water displaced by each one:
 
 ### Bernoulli's Principle (Second experiment)
 
-```{admonition} OVERALL GOALS
+```{admonition} OVERVIEW
 :class: note
 - Understand fluid-flow continuity through different constrictions.
 - Determine flow-rate of our system using the Continuity Equation.
@@ -350,3 +350,5 @@ For each of the objects, find the weight of the water displaced by each one:
   - How is the Bernoulli Principle different than the Bernoulli Equation?
   - What assumptions about the fluid allows the Bernoulli Principle to work? (i.e. what type or characteristics of the fluid and/or flow are necessary assumptions for Bernoulli to hold true?)
   - Imagine that instead of being on the table, the Venturi tube were set on the floor with the rest of the experimental apparatus unchanged. Would the difference in pressures we see on the Capstone plot between $P_1$ and $P_2$ during the smooth, laminar flow section that we analyzed to find average pressures be *larger*, *smaller*, or *the same*. Why?
+
+## The whiteboard

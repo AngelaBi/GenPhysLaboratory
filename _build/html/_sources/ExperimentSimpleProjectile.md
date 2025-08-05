@@ -192,7 +192,7 @@ x_{\theta} = v_{x}\cos{\theta}t_{\theta}
 
 ### EXPERIMENT 1 -- Free Fall / Downward Trajectory
 
-```{admonition} OVERALL GOALS
+```{admonition} OVERVIEW
 :class: note
 - Investigate projectile motion in one-dimension ($y$).
 - Conduct 5 trials of the free-fall and determine acceleration due to gravity using one-dimensional kinematics.
@@ -248,7 +248,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 ### Horizontal Trajectory (Second experiment)
 
-```{admonition} OVERALL GOALS
+```{admonition} OVERVIEW
 :class: note
 - Investigate projectile motion in two-dimensions when launched horizontally.
 - For simplicity and to decrease error propagation, **for the rest of lab, assume and use** the accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT rather than your previously determined value.
@@ -310,7 +310,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 ### Angled Trajectory (Third experiment)
 
-```{admonition} OVERALL GOALS
+```{admonition} OVERVIEW
 :class: note
 - Investigate projectile motion in two-dimensions when launched at a non-zero angle (for now, we'll use the 45° slot; if labs go well this semester, we may add additional angles).
 - Calculate the theoretical trajectory (distance $x$) for a non-zero angle; place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
@@ -397,5 +397,6 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 - What is the precision of your equipment?
 - What are possible systematic errors for today's experiments?
 
+## The whiteboard
 
 
