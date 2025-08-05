@@ -3,20 +3,37 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: ExperimentIntroLab
-- file: ExperimentVectorTable
-- file: ExperimentAccGTrack
-- file: ExperimentSimpleProjectile
-- file: ExperimentCentripetalForce
-- file: ExperimentConsEnTrack
-- file: ExperimentBallisticPendulum
-- file: ExperimentRotationalMotion
-- file: ExperimentIdealGas
-- file: ExperimentFluids
-- file: ExperimentPendulum
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: M9simulations
 
+
+
+
+parts:
+  - caption: General information
+    chapters:
+    - file: IntroLab
+    - file: DataAcquisition
+    - file: VernierCaliper
+  - caption: Experiments
+    chapters:
+    - file: GeneralPhysicsLabI
+      sections:
+        - file: ExperimentIntroLab
+        - file: ExperimentVectorTable
+        - file: ExperimentAccGTrack
+        - file: ExperimentSimpleProjectile
+        - file: ExperimentCentripetalForce
+        - file: ExperimentConsEnTrack
+        - file: ExperimentBallisticPendulum
+        - file: ExperimentRotationalMotion
+        - file: ExperimentIdealGas
+        - file: ExperimentFluids
+        - file: ExperimentPendulum
+  - caption: Extra
+    chapters:
+        - file: schedulePHYS1171
+        - file: schedulePHYS1145
+        - file: markdown
+        - file: notebooks
+        - file: markdown-notebooks
+        - file: M9simulations
+  

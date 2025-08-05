@@ -113,14 +113,16 @@ When the pendulum swings with very small angles, the period is essentially indep
 
 ## Experimental Procedure
 
-1. **OVERALL GOALS:**
+```{admonition} OVERALL GOALS
+:class: note
    - We study simple harmonic motion of a simple pendulum to derive acceleration due to gravity.
    - The pendulum is the combination of both the string and the ball. The pendulum length is the distance from the pivot point to the center of mass of the ball (the center where force of gravity is overall acting upon). The total pendulum length can be determined from adding together the thread length $y$ and the ball radius as determined by:
      - Measuring thread length $y$ from pivot point to the top surface of the ball.
      - Measuring diameter of the ball with calipers, and determining radius.
+```
 
 
-2. **Five Cases:** For this experiment, you will use thread lengths of approximately 50, 100, 130, and 170 cm. You don't have to set the lengths to be exactly those lengths. The point here is to cover a wide range to investigate how the motion is dependent on pendulum length. Get close and just make sure to measure the thread length carefully; record the measured value, and determine the total pendulum length for the given case.
+1. **Five Cases:** For this experiment, you will use thread lengths of approximately 50, 100, 130, and 170 cm. You don't have to set the lengths to be exactly those lengths. The point here is to cover a wide range to investigate how the motion is dependent on pendulum length. Get close and just make sure to measure the thread length carefully; record the measured value, and determine the total pendulum length for the given case.
    1. Case 1: $y \simeq 50$ cm with a small angle (displacement from rest of ~1--3°, ~1--2 inches, ~1--2 finger knuckles).
    2. Case 2: $y \simeq 100$ cm with a small angle.
    3. Case 3: $y \simeq 130$ cm with a small angle.
@@ -129,9 +131,9 @@ When the pendulum swings with very small angles, the period is essentially indep
       - Do not change the thread length in going from case 4 to case 5.
       - Use an angle of approximately 45°--60° (a useful and consistent starting point that provides a large angle is the edge of the table).
 
-3. **NOTE ON NUMBER OF TRIALS:** For each of the five cases, each person will perform 5 time trials. Everyone can record at roughly the same time, but don't worry if you aren't all timing the exact same swings (i.e. someone starts a half or whole cycle late); just make sure to time a total of 10 cycles for each trial. By everyone taking data for 5 time trials each, a two-person group will end up with 10 total data points, and a three-person group will have 15 total data points for each case, etc.
+2. **NOTE ON NUMBER OF TRIALS:** For each of the five cases, each person will perform 5 time trials. Everyone can record at roughly the same time, but don't worry if you aren't all timing the exact same swings (i.e. someone starts a half or whole cycle late); just make sure to time a total of 10 cycles for each trial. By everyone taking data for 5 time trials each, a two-person group will end up with 10 total data points, and a three-person group will have 15 total data points for each case, etc.
 
-4. Create a data table for the first case (this table can be copied/pasted for the additional cases):
+3. Create a data table for the first case (this table can be copied/pasted for the additional cases):
    - Common data for the entire experiment includes the ball diameter and the accepted $g$.
    - Common data for each case includes:
      - The case number

@@ -145,22 +145,24 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
 
 ### Archimedes' Principle (First experiment)
 
-1. **OVERALL GOALS:**
-   - Understand the relationship between buoyancy force and the mass, volume, density of an object.
-   - Determine buoyant force using Archimedes' Principle.
-   - Determine buoyant force by measuring the upward force directly.
+```{admonition} OVERALL GOALS
+:class: note
+- Understand the relationship between buoyancy force and the mass, volume, density of an object.
+- Determine buoyant force using Archimedes' Principle.
+- Determine buoyant force by measuring the upward force directly.
+```
 
 **Part I: Mass, Volume, and Density**
 
-2. Create a data table with:
+1. Create a data table with:
    - Columns for the mass $m$, relevant dimensions (length, width, height, radius), volume $V$, and density $\rho$
    - Rows for each of the 6 objects (clearly label or describe the objects in the table).
 
-3. Using the triple-beam balance, find the mass of each of the six objects. List the objects in order from least to greatest mass. *Consider: are any of the masses nearly the same?*
+2. Using the triple-beam balance, find the mass of each of the six objects. List the objects in order from least to greatest mass. *Consider: are any of the masses nearly the same?*
 
-4. Using the calipers, measure the dimensions of the 3 cylinders and the 2 blocks ({numref}`M08_fluids_Fig03`). Remember to divide the diameter by 2 to get the radius, $r$. Calculate the volume $V$ of these objects $V_\text{cylinder} = \pi r^2 h$ and $V_\text{block} = lwh$
+3. Using the calipers, measure the dimensions of the 3 cylinders and the 2 blocks ({numref}`M08_fluids_Fig03`). Remember to divide the diameter by 2 to get the radius, $r$. Calculate the volume $V$ of these objects $V_\text{cylinder} = \pi r^2 h$ and $V_\text{block} = lwh$
 
-5. There is no simple formula for the volume of the irregularly shaped object, so it is necessary to find the volume by measuring the volume of water it displaces:
+4. There is no simple formula for the volume of the irregularly shaped object, so it is necessary to find the volume by measuring the volume of water it displaces:
    - Put the beaker under the overflow can spout as shown in {numref}`M08_fluids_Fig03`.
    - Pour water into the overflow can until it overflows into the beaker. Allow the water to stop overflowing on its own and empty the beaker into your pitcher and return it to its position under the overflow can spout without jarring the overflow can.
    - Tie a string on the irregular object.
@@ -228,10 +230,12 @@ For each of the objects, find the weight of the water displaced by each one:
 
 ### Bernoulli's Principle (Second experiment)
 
-1. **OVERALL GOALS:**
-   - Understand fluid-flow continuity through different constrictions.
-   - Determine flow-rate of our system using the Continuity Equation.
-   - Understand Bernoulli's Principle of fluid flow at a constant height to investigate the Venturi effect and determine the pressure of a fluid at a constriction point (in a Venturi tube).
+```{admonition} OVERALL GOALS
+:class: note
+- Understand fluid-flow continuity through different constrictions.
+- Determine flow-rate of our system using the Continuity Equation.
+- Understand Bernoulli's Principle of fluid flow at a constant height to investigate the Venturi effect and determine the pressure of a fluid at a constriction point (in a Venturi tube).
+```
 
 #### Part I: Determining Flow Rate $R$
 

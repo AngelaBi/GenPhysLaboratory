@@ -192,14 +192,22 @@ x_{\theta} = v_{x}\cos{\theta}t_{\theta}
 
 ### EXPERIMENT 1 -- Free Fall / Downward Trajectory
 
-1. **OVERALL GOALS:**
-    - Investigate projectile motion in one-dimension ($y$).
-    - Conduct 5 trials of the free-fall and determine acceleration due to gravity using one-dimensional kinematics.
-    - *POINT TO CONSIDER*: Will this experiment be more or less accurate in measuring $g$ than the previous lab using gliders on a tilted air track?
-    - *NOTE*: There are only 4 setups, please share, and once you're done taking your data, move on to ensure other groups have a reasonable chance to use the apparatus.
-    - PASCO TIMER Precision: 0.0001 seconds
+```{admonition} OVERALL GOALS
+:class: note
+- Investigate projectile motion in one-dimension ($y$).
+- Conduct 5 trials of the free-fall and determine acceleration due to gravity using one-dimensional kinematics.
+```
+```{admonition} POINT TO CONSIDER
+:class: note
+Will this experiment be more or less accurate in measuring $g$ than the previous lab using gliders on a tilted air track?
+```
+```{admonition} NOTE
+:class: note
+- There are only 4 setups, please share, and once you're done taking your data, move on to ensure other groups have a reasonable chance to use the apparatus.
+- PASCO TIMER Precision: 0.0001 seconds
+```
 
-2. Create a data table for this experiment:
+1. Create a data table for this experiment:
     - Common data section with the accepted value of $g$, the ball height $y_{0}$, and the ball height's estimated uncertainty $\delta y$.
     - With **five rows** (1 for each of the 5 free-fall trials). Also include additional **rows** for the average $g$ value, the $\pm$ uncertainty in gravity $\delta g$, the magnitude difference compared to the accepted $g$ *DISCUSSION POINT for later*: How well does you average value of $g \pm \delta g$ agree with the accepted value of $g$?).
     - Include **six columns** for
@@ -211,41 +219,43 @@ x_{\theta} = v_{x}\cos{\theta}t_{\theta}
         - Total elapsed time uncertainty $\delta t = t_{\text{final}} - t_{\text{initial}}$
         - Calculated $g$
 
-3. CAPSTONE will be set up with the Free-Fall Adapter which, whenever the circuit opens or closes, will record the time that event occurred.
+2. CAPSTONE will be set up with the Free-Fall Adapter which, whenever the circuit opens or closes, will record the time that event occurred.
 
-4. Place your metal ball from your marble launcher into the spring loaded holder at one of the four setups. You will need to push the metal tab in and then hand-tighten the holding/release screw to hold the ball in place.
+3. Place your metal ball from your marble launcher into the spring loaded holder at one of the four setups. You will need to push the metal tab in and then hand-tighten the holding/release screw to hold the ball in place.
 
-5. Ensure the receptor pad is beneath the ball such that it hits close to the open side.
+4. Ensure the receptor pad is beneath the ball such that it hits close to the open side.
 
-6. Measure the height the ball will fall; the initial height $y_{0}$ is measured from the bottom of the ball to the top of the receptor plate which has a final height $y = 0\,\text{m}$ if you place the meter stick on the receptor pad.
+5. Measure the height the ball will fall; the initial height $y_{0}$ is measured from the bottom of the ball to the top of the receptor plate which has a final height $y = 0\,\text{m}$ if you place the meter stick on the receptor pad.
 
-7. Press Record in CAPSTONE. You can let it run and it'll continue collecting data even when you reset the ball for additional trials; or restart for each trial, just be aware of which data points are related to your drop.
+6. Press Record in CAPSTONE. You can let it run and it'll continue collecting data even when you reset the ball for additional trials; or restart for each trial, just be aware of which data points are related to your drop.
 
-8. Unscrew the holding/release screw to allow the ball to fall.
+7. Unscrew the holding/release screw to allow the ball to fall.
 
-9. Record your $t_{\text{initial}}$ and $t_{\text{final}}$ times.
+8. Record your $t_{\text{initial}}$ and $t_{\text{final}}$ times.
 
-10. Repeat the drop for a total of 5 free-fall trials. Determine the total elapsed times $t$ for each trial.
+9.  Repeat the drop for a total of 5 free-fall trials. Determine the total elapsed times $t$ for each trial.
 
-11. Using {eq}`eq-M03-Kinematic-freefall-g`, calculate the value of $g$ for each of your trials (benefit here of calculating $g$ from each trial: you can more easily notice any outlier data).
+10. Using {eq}`eq-M03-Kinematic-freefall-g`, calculate the value of $g$ for each of your trials (benefit here of calculating $g$ from each trial: you can more easily notice any outlier data).
 
-12. Determine your average $g$ from the preceding values.
+11. Determine your average $g$ from the preceding values.
 
-13. Estimate your uncertainty in $g$, as represented by $\delta g = g_\text{test} - g$, (i.e. how confident [$\pm$] you are in what you measured -- e.g. distance, time). Plug in each measurements' uncertainties to make your test value of $g_\text{test}$ as calculated with {eq}`eq-M03-Kinematic-freefall-g` as big as possible (i.e. larger numerator, smaller denominator). Determine $\delta g$.
+12. Estimate your uncertainty in $g$, as represented by $\delta g = g_\text{test} - g$, (i.e. how confident [$\pm$] you are in what you measured -- e.g. distance, time). Plug in each measurements' uncertainties to make your test value of $g_\text{test}$ as calculated with {eq}`eq-M03-Kinematic-freefall-g` as big as possible (i.e. larger numerator, smaller denominator). Determine $\delta g$.
 
-14. Compare your average $g$ to the accepted value of $g = 9.803\,\text{m/s}^2$; what is the total difference?
+13. Compare your average $g$ to the accepted value of $g = 9.803\,\text{m/s}^2$; what is the total difference?
 
-15. Does you average $g \pm \delta g$ cover the difference from the accepted value and agree, or not?
+14. Does you average $g \pm \delta g$ cover the difference from the accepted value and agree, or not?
 
 
 ### Horizontal Trajectory (Second experiment)
 
-1. **OVERALL GOALS:**
-    - Investigate projectile motion in two-dimensions when launched horizontally.
-    - For simplicity and to decrease error propagation, **for the rest of lab, assume and use** the accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT rather than your previously determined value.
-    - Characterize the trajectory from the marble launcher at initial height.
-    - Calculate the theoretical trajectory (distance $x$) for a different height; place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
-    - Conduct 20 launches for each height; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot.
+```{admonition} OVERALL GOALS
+:class: note
+- Investigate projectile motion in two-dimensions when launched horizontally.
+- For simplicity and to decrease error propagation, **for the rest of lab, assume and use** the accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT rather than your previously determined value.
+- Characterize the trajectory from the marble launcher at initial height.
+- Calculate the theoretical trajectory (distance $x$) for a different height; place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
+- Conduct 20 launches for each height; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot.
+```
 
 2. Create a data table for this experiment:
     - Common data section with the accepted value of $g$.
@@ -300,14 +310,19 @@ x_{\theta} = v_{x}\cos{\theta}t_{\theta}
 
 ### Angled Trajectory (Third experiment)
 
-1. **OVERALL GOALS:**
-    - Investigate projectile motion in two-dimensions when launched at a non-zero angle (for now, we'll use the 45° slot; if labs go well this semester, we may add additional angles).
-    - Continue to use the accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT rather than your previously determined value.
-    - Calculate the theoretical trajectory (distance $x$) for a non-zero angle; place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
-    - Compare the theoretical trajectory's $x$ distance to the experimentally determined distance.
-    - Conduct 20 launches for each angle; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot, with your uncertainty represented by the radius of the drawn circle.
+```{admonition} OVERALL GOALS
+:class: note
+- Investigate projectile motion in two-dimensions when launched at a non-zero angle (for now, we'll use the 45° slot; if labs go well this semester, we may add additional angles).
+- Calculate the theoretical trajectory (distance $x$) for a non-zero angle; place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
+- Compare the theoretical trajectory's $x$ distance to the experimentally determined distance.
+- Conduct 20 launches for each angle; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot, with your uncertainty represented by the radius of the drawn circle.
+```
+```{admonition} NOTE
+:class: note
+- Continue to use the accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT rather than your previously determined value.
+```
 
-2. Create a data table for this experiment:
+1. Create a data table for this experiment:
     - Common data section with the accepted value of $g$ and any values you will need from previous experiments to determine the theoretical distance at a given angled launch $x_{\theta}$ ({eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`).
     - Additional sections for:
         - Theoretical distance $x_{\theta\text{, theoretical}}$ (calculated with {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`)
@@ -315,31 +330,31 @@ x_{\theta} = v_{x}\cos{\theta}t_{\theta}
         - Estimated uncertainty in the experimental distance $\delta x_{\theta, experimental}$ (essentially $\pm$ the radius of the circle drawn around your scattershot)
         - Difference (magnitude) between the theoretical and experimental $x$ distances
 
-3. Place the marble launcher in the holder in the 45° slot
+2. Place the marble launcher in the holder in the 45° slot
 
-4. Use your previously measured $y_{0\text{,higher height}}$ as the height the ball will fall for any angled launches (e.g. $y_{0\text{,higher height}} = y_{\theta\text{,higher height}}$).
+3. Use your previously measured $y_{0\text{,higher height}}$ as the height the ball will fall for any angled launches (e.g. $y_{0\text{,higher height}} = y_{\theta\text{,higher height}}$).
 
-5. Calculate the theoretical distance $x_{\text{, theoretical}}$ using {eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`
+4. Calculate the theoretical distance $x_{\text{, theoretical}}$ using {eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`
 
-6. Before any launches from the higher height, tape a paper and draw a bullseye at the theoretical distance you expect the balls at the given angle to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be.
+5. Before any launches from the higher height, tape a paper and draw a bullseye at the theoretical distance you expect the balls at the given angle to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be.
 
-7. Conduct a few test launches by pulling the piston to the same notch you've been using in Experiment 2 to be able to use the same exit velocity as previously determined
+6. Conduct a few test launches by pulling the piston to the same notch you've been using in Experiment 2 to be able to use the same exit velocity as previously determined
 
-8. If need be, tape additional paper in the location from the test launches. Place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.
+7. If need be, tape additional paper in the location from the test launches. Place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.
 
-9. Conduct **20 launches** onto the paper/carbon paper.
+8. Conduct **20 launches** onto the paper/carbon paper.
 
-10. Put aside the carbon paper and mark the dots with a marker or something else that makes it apparent which dots are your data points for this height. Draw a rough circle surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter.
+9.  Put aside the carbon paper and mark the dots with a marker or something else that makes it apparent which dots are your data points for this height. Draw a rough circle surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter.
 
-11. Measure the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. The initial position of the ball in the $x$ direction translated to the floor should be the same as Experiment 2 (to save you some time). Remeasure if that's no longer the case (e.g. you've accidentally moved the launcher holder)
+10. Measure the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. The initial position of the ball in the $x$ direction translated to the floor should be the same as Experiment 2 (to save you some time). Remeasure if that's no longer the case (e.g. you've accidentally moved the launcher holder)
 
-12. From your circle around your scattershot, estimate your uncertainty in distance $\delta x$
+11. From your circle around your scattershot, estimate your uncertainty in distance $\delta x$
 
-13. Calculate the difference between you theoretical and experimental values of $x$ at the given angle.
+12. Calculate the difference between you theoretical and experimental values of $x$ at the given angle.
 
-14. If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 5 to 13 if needed.
+13. If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 5 to 13 if needed.
 
-15. DISCUSSION POINT (covered in Section M3 Interpretation): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+14. DISCUSSION POINT (covered in Section M3 Interpretation): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
 
 
 

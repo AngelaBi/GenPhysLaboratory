@@ -252,12 +252,13 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 
 ### CASE 1 & 2 -- Finding the Equilibrant Vector (Balancing Force)
 
-1. **OVERALL GOALS:**
-   - Understand how to add and balance vectors using the **method of components**.
-   - Conduct 3 cases of two additive, known vectors (weights at given angles) to experimentally determine the third balancing or equilibrant vector.
-   - Compare the experimental results to theoretically expected vectors.
-   - **Assume** 0° is the +x direction, 90° is the +y direction
-
+```{admonition} OVERALL GOALS
+:class: note
+- Understand how to add and balance vectors using the **method of components**.
+- Conduct 3 cases of two additive, known vectors (weights at given angles) to experimentally determine the third balancing or equilibrant vector.
+- Compare the experimental results to theoretically expected vectors.
+- **Assume** 0° is the +x direction, 90° is the +y direction
+```
 2. The first two cases are:
 
    **Case 1:**
@@ -314,12 +315,14 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 
 ### CASE 3 -- Determining 2 Unlabeled Masses
 
-1. **OVERALL GOALS:**
-   - Understand how to determine two unknown values of a 3 vector system using the **method of components**.
-   - *CONSIDER*: Each vector has two pieces of information, **magnitude** and **direction** --- how many pieces of information total do we have to work from?
-   - Determine the masses of two figurines (one is a black Pikachu, the other is a white corgi that can each sit on their respective hangers) by balancing the force vectors. Treat Pikachu-black as $m_2$ and the corgi-white as $m_3$.
-   - Compare the experimental results to actual masses as measured with a triple-beam balance.
-   - **Assume** the angles for both Pikachu and the corgi, once found, are treated as given values (so you only have two unknowns with two equations).
+```{admonition} OVERALL GOALS
+:class: note
+- Understand how to determine two unknown values of a 3 vector system using the **method of components**.
+- *CONSIDER*: Each vector has two pieces of information, **magnitude** and **direction** --- how many pieces of information total do we have to work from?
+- Determine the masses of two figurines (one is a black Pikachu, the other is a white corgi that can each sit on their respective hangers) by balancing the force vectors. Treat Pikachu-black as $m_2$ and the corgi-white as $m_3$.
+- Compare the experimental results to actual masses as measured with a triple-beam balance.
+- **Assume** the angles for both Pikachu and the corgi, once found, are treated as given values (so you only have two unknowns with two equations).
+```
 
 2. The third case is:
    - hanger 1: 50 g @ 0°

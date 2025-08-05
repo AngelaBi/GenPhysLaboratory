@@ -69,21 +69,7 @@ We will compare our results to the measured value of $g$ at sea level. The value
 
 In the experiment, the presumed frictionless inclined plane will be an air track.  The mass will be a glider, which floats on the air track.  Placing a spacer of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.  Refer to Fig.~\ref{M02Fig02} below in the experimental procedure section.
 
-%\subsection{Acceleration by a hanging mass}
-% --- removing, doesn't necessarily incorporate torque, doesn't add much to the lab at this point - 2024/08
 
-%In this case you will use the \textbf{Capstone} program and the PASCO rotary sensor to measure $g$.
-%Set the track level, with no spacer.
-%The glider has mass $M_G$.
-%A string connects the glider with a weight of mass $M_w = 10\,\gram$.
-%The string passes over the large pulley of a PASCO rotary sensor.
-%You have to account for the  mass of the rotating pulley to get a more accurate result.
-%Your measured value for $g$ is found from
-%\begin{equation}
-%\label{eq:M2hanging}
-%  M_w g = \left(M_G + M_{pulley} + M_w\right) a.
-%\end{equation}
-%Here $\left(M_G + M_{pulley} + M_w\right)$ is the total mass that is moving and $M_w g$ is the total force.
 
 
 
@@ -141,20 +127,25 @@ In this experiment you will measure the motion of a glider down a tilted track u
    
    d. Next, place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the photogate's red light comes on. Record position on the scale, $s_1$.
    
-   e. Before you take the recorded data in the next step, take some practice runs. Your subsequent data will be much improved by your training! Press record in **Capstone** to start the timer. *NOTE:* **Capstone** will display the time whenever a photogate beam is broken; the time at the higher (start) photogate $t_1$ as well as the time at the lower (end) photogate $t_0$. To determine the total transit time $\Delta t$, take the difference of the start and end times.
-   
+   e. Before you take the recorded data in the next step, take some practice runs. Your subsequent data will be much improved by your training! Press record in **Capstone** to start the timer. 
+
+  ```{admonition} NOTE
+  :class: note
+  **Capstone** will display the time whenever a photogate beam is broken; the time at the higher (start) photogate $t_1$ as well as the time at the lower (end) photogate $t_0$. To determine the total transit time $\Delta t$, take the difference of the start and end times.
+  ```   
+
    f. Position the glider so it is blocking the top photogate and the red light is on. Place one finger on the track in front of the glider and gently move the glider up the track (to the right) until the red light on the photogate just goes out.
    
    g. Release the glider by quickly pulling your finger away from the track and glider (MINIMIZE ANY FINGER CONTACT WITH THE GLIDER to minimize any additional push or pull on the glider to **ensure its initial velocity is zero**).
    
    h. For each of the **5 trials per case**, release the glider from rest at the $s_1$ position. Measure and record the start time $t_1$ and end time $t_0$ to determine transit time $\Delta t$ from release at the top to bottom of the airtrack. Calculate the value of $g$ for this trial.
 
-10. For each the four cases:
+1.  For each the four cases:
     - Calculate the average of the measured $g$
     - Calculate the standard deviation of the measured $g$
     - Calculate the differences between your average $g$ and the accepted value of $g$
 
-11. Also, using data from all trials from all the cases:
+2.  Also, using data from all trials from all the cases:
     - Calculate the average of the measured $g$.
     - Calculate the standard deviation of the measured $g$.
     - Calculate the differences between your average $g$ and the accepted value of $g$
