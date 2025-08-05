@@ -4,7 +4,7 @@
 
 ### Measurements
 
-Physical measure;oiupdfsljkigsfholjiugsdf;ouisfgth;ouisdfgments are more than a simple numerical value. They are specified by:
+Physical measurements are more than a simple numerical value. They are specified by:
 
 1. A physical dimension which is a product of powers of base physical dimensions such as length, time, and mass. Other dimensions include, for example, electric charge.
 
