@@ -96,28 +96,6 @@ Thus as the angle gets larger, the period increases.
 
 When the pendulum swings with very small angles, the period is essentially independent of the amplitude.  However, from the more precise expression above for the period, this is not strictly true.  An amplitude decrease could result from the effects of friction in the pivot or air drag of the thread and mass.  Pendulum clock makers go to great pains to not only keep the length constant, but the amplitude of the swing as well.  Since we will average over many cycles, we must also assume that the amplitude does not change as we measure the period.  In our experiment, we might be tempted to average a very large number of cycles to reduce measurement errors.  However the necessarily larger initial amplitude together with the decreasing amplitude caused by friction effects would change the average period.  For the last case, we will do just that by deliberately start with a large amplitude and observe whether there is an increase in the measured period.
 
-%\subsection{Case 2 Pendulum moving in a circle}
-%
-%In Case 2 you will explore the period with the pendulum moving in a circle.
-%
-%The radius of motion in terms of the length and the angle $\theta$ is $R=L\sin \theta$. The ball moves in a horizontal plane.
-%Therefore its vertical component of acceleration is zero and the vertical forces must cancel.
-%The vertical component of tension equals the weight of the ball, $F_T \cos\theta = M g$.
-%
-%The ball is in uniform circular motion around a horizontal circle.
-%The centripetal force is
-%\begin{equation}
-%  F_r = F_T \sin\theta = M g \tan\theta = \frac{M v^2}{L \sin\theta}.
-%\end{equation}
-%Substituting $v= 2\pi L \sin(\theta)/T$ and solving for $g$ gives:
-%\begin{equation}
-%  \label{eq:M03circle}
-%  g = \frac{4\pi^2 L}{T^2}\cos\theta.
-%\end{equation}
-%
-%Using all your results other than Case 6 calculate the average and standard deviation for your experimental values of $g$ as shown in Eqn.~\ref{eq:errorSigmaX}.
-%
-%How does the difference of your result for Case 6 from your average $g$ compare with the standard deviation?
 
 
 
@@ -135,14 +113,16 @@ When the pendulum swings with very small angles, the period is essentially indep
 
 ## Experimental Procedure
 
-1. **OVERALL GOALS:**
+```{admonition} OVERALL GOALS
+:class: note
    - We study simple harmonic motion of a simple pendulum to derive acceleration due to gravity.
    - The pendulum is the combination of both the string and the ball. The pendulum length is the distance from the pivot point to the center of mass of the ball (the center where force of gravity is overall acting upon). The total pendulum length can be determined from adding together the thread length $y$ and the ball radius as determined by:
      - Measuring thread length $y$ from pivot point to the top surface of the ball.
      - Measuring diameter of the ball with calipers, and determining radius.
+```
 
 
-2. **Five Cases:** For this experiment, you will use thread lengths of approximately 50, 100, 130, and 170 cm. You don't have to set the lengths to be exactly those lengths. The point here is to cover a wide range to investigate how the motion is dependent on pendulum length. Get close and just make sure to measure the thread length carefully; record the measured value, and determine the total pendulum length for the given case.
+1. **Five Cases:** For this experiment, you will use thread lengths of approximately 50, 100, 130, and 170 cm. You don't have to set the lengths to be exactly those lengths. The point here is to cover a wide range to investigate how the motion is dependent on pendulum length. Get close and just make sure to measure the thread length carefully; record the measured value, and determine the total pendulum length for the given case.
    1. Case 1: $y \simeq 50$ cm with a small angle (displacement from rest of ~1--3°, ~1--2 inches, ~1--2 finger knuckles).
    2. Case 2: $y \simeq 100$ cm with a small angle.
    3. Case 3: $y \simeq 130$ cm with a small angle.
@@ -151,9 +131,9 @@ When the pendulum swings with very small angles, the period is essentially indep
       - Do not change the thread length in going from case 4 to case 5.
       - Use an angle of approximately 45°--60° (a useful and consistent starting point that provides a large angle is the edge of the table).
 
-3. **NOTE ON NUMBER OF TRIALS:** For each of the five cases, each person will perform 5 time trials. Everyone can record at roughly the same time, but don't worry if you aren't all timing the exact same swings (i.e. someone starts a half or whole cycle late); just make sure to time a total of 10 cycles for each trial. By everyone taking data for 5 time trials each, a two-person group will end up with 10 total data points, and a three-person group will have 15 total data points for each case, etc.
+2. **NOTE ON NUMBER OF TRIALS:** For each of the five cases, each person will perform 5 time trials. Everyone can record at roughly the same time, but don't worry if you aren't all timing the exact same swings (i.e. someone starts a half or whole cycle late); just make sure to time a total of 10 cycles for each trial. By everyone taking data for 5 time trials each, a two-person group will end up with 10 total data points, and a three-person group will have 15 total data points for each case, etc.
 
-4. Create a data table for the first case (this table can be copied/pasted for the additional cases):
+3. Create a data table for the first case (this table can be copied/pasted for the additional cases):
    - Common data for the entire experiment includes the ball diameter and the accepted $g$.
    - Common data for each case includes:
      - The case number

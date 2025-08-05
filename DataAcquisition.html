@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Welcome to General Physics Lab &#8212; General Physcis Laboratory</title>
+    <title>Data Acquisition and Analysis &#8212; General Physcis Laboratory</title>
   
   
   
@@ -59,10 +59,13 @@
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'DataAcquisition';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Introduction" href="IntroLab.html" />
+    <link rel="next" title="Vernier Calipers" href="VernierCaliper.html" />
+    <link rel="prev" title="Introduction" href="IntroLab.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -114,8 +117,6 @@
       
       
       
-        
-      
       <dialog id="pst-primary-sidebar-modal"></dialog>
       <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
@@ -135,7 +136,7 @@
     
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="intro.html">
   
   
   
@@ -162,16 +163,16 @@
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
                     Welcome to General Physics Lab
                 </a>
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="IntroLab.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DataAcquisition.html">Data Acquisition and Analysis</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Data Acquisition and Analysis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="VernierCaliper.html">Vernier Calipers</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
@@ -272,7 +273,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FDataAcquisition.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -302,7 +303,7 @@
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="_sources/DataAcquisition.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -365,7 +366,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -376,11 +379,25 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome to General Physics Lab</h1>
+    <h1>Data Acquisition and Analysis</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis-with-spreadsheets">Data Analysis with Spreadsheets</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#capstone">Capstone</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-hardware">Setting up Hardware</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-data">Collecting Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analyzing-data">Analyzing Data</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -390,44 +407,55 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-general-physics-lab">
-<h1>Welcome to General Physics Lab<a class="headerlink" href="#welcome-to-general-physics-lab" title="Permalink to this heading">#</a></h1>
-<p>This lab course engages students in experimental measurements spanning the areas of mechanics and thermal stresses on matter, with the objective of training students in experimental measurements, data manipulation and analysis, error analysis, deductive thinking, and instrumentation, providing depth to students’ understanding of the phenomena taught in lecture. Specific experimental measurements include accelerated motion, periodic motion, gravitational force, ballistics, conservation of energy and momentum, and rotational dynamics. Students complete a weekly lab report.</p>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="IntroLab.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DataAcquisition.html">Data Acquisition and Analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="VernierCaliper.html">Vernier Calipers</a></li>
+  <section class="tex2jax_ignore mathjax_ignore" id="data-acquisition-and-analysis">
+<h1>Data Acquisition and Analysis<a class="headerlink" href="#data-acquisition-and-analysis" title="Permalink to this heading">#</a></h1>
+<p>In this lab you will perform measurements and calculate results from the measurements. Each trial requires similar calculations. The best way to perform repetitive calculation tasks is to use a computer program such as a spreadsheet. The effort to set up the calculation is more than compensated by the reliability and ease of repeating calculations. Several experiments will make use of sensors to aid in measurements and data gathering. The data in these experiments is collected by an advanced computer program called <strong>Capstone</strong>, which is installed on all computers in the lab. The program is also able to organize, analyze, and display the data. This section will give an overview of the program, explain how to set up sensors, and how to display data. More detailed information will be given in the specific experiments, which will make use of the sensors and data acquisition.</p>
+<section id="data-analysis-with-spreadsheets">
+<h2>Data Analysis with Spreadsheets<a class="headerlink" href="#data-analysis-with-spreadsheets" title="Permalink to this heading">#</a></h2>
+<p>Data for each experiment has a set of measurements and calculations.
+A spreadsheet is a grid of rows and columns where you can enter text, numerical values or formulas.
+Spreadsheet programs provide all the mathematical functions, formatting, and graphing that you need for this lab.
+You will often have a table of common values, another for measurements, and a table for summary calculations.
+The standard way to structure a data analysis spreadsheet saves calculation errors and reduces repetitive typing.
+Use a separate row for each trial and a separate column for each measured or calculated value.</p>
+<ul class="simple">
+<li><p>▷ Use a row for each trial, labeled in the left cell with, for example, “Trial #1”.</p></li>
+<li><p>▷ Use a column for each measured or calculated value, labeled in the top cell with a description of the column and with units.</p></li>
+<li><p>▷ Reference cells you need for a calculation. Do not retype numbers. Use <code class="docutils literal notranslate"><span class="pre">$</span></code> for row or column coordinates you don’t want to change. <code class="docutils literal notranslate"><span class="pre">$D5</span></code> will always refer to column <code class="docutils literal notranslate"><span class="pre">D</span></code> but the row will change. <code class="docutils literal notranslate"><span class="pre">D$5</span></code> will always refer to row 5 but the column will change. Finally, <code class="docutils literal notranslate"><span class="pre">$D$5</span></code> will always refer to the same cell.</p></li>
+<li><p>▷ Never enter a value calculated outside the spreadsheet, for example, on your calculator. Any value you can find on the calculator can be calculated and updated automatically on the spreadsheet.</p></li>
+<li><p>▷ Use the spreadsheet’s “fill down” capability by selecting a set of cells in a row and fill down by dragging. Formulas will copy and the row numbers of referenced cells that are not preceded by <code class="docutils literal notranslate"><span class="pre">$</span></code> will increment automatically.</p></li>
 </ul>
-</div>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentIntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentVectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentAccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentSimpleProjectile.html">Simple Projectile Motion</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentCentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentConsEnTrack.html">Conservation of Energy with Glider on Tilted Air Track</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentBallisticPendulum.html">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentRotationalMotion.html">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentIdealGas.html">Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentFluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ExperimentPendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
+<p>This approach makes it efficient to create a spreadsheet to analyze your data and to correct errors. If you make a mistake in a formula, you can correct the first trial and then correct the other trials by filling down.</p>
+</section>
+<section id="capstone">
+<h2>Capstone<a class="headerlink" href="#capstone" title="Permalink to this heading">#</a></h2>
+<p>May of our experiments use the <em>Capstone</em> program to communicate with the measurement hardware and collect the data. This section is a very brief introduction to using the <em>Capstone</em> software.</p>
+<section id="setting-up-hardware">
+<h3>Setting up Hardware<a class="headerlink" href="#setting-up-hardware" title="Permalink to this heading">#</a></h3>
+<p>Once you have opened the program you will notice a button labeled <strong>Hardware Setup</strong> on the left-hand side of the main window. If you click on the button you will get a list of all sensors that are currently connected to the computer. In almost all cases the program will recognize the connected sensor automatically and load a standard setup for the corresponding sensor. In a few cases you will be required to provide the program with certain values needed to determine the value of the quantity the sensor is supposed to measure. In the specific instructions for the experiment you will be told what values to provide. If you do not see the sensor try to dis- then reconnect the sensor to the computer or ask for help.</p>
+</section>
+<section id="collecting-data">
+<h3>Collecting Data<a class="headerlink" href="#collecting-data" title="Permalink to this heading">#</a></h3>
+<p>Upon opening the <strong>Capstone</strong> program you have the choice of several display modes for the data you will be collecting. The exact choice depends on the experiment you will be performing and detailed instructions will be provided if they deviate from the description below. In the simplest of all cases you will be using the <strong>Table &amp; Graph</strong> display. If you click on this option the program will create a data table and a graph on the main canvas of the program. By default the measurements will be undetermined, but you can choose any variable that is allowed by the sensor to be displayed in the data table columns or on the graph axes. Clicking with the cursor onto the <strong>Select Measurement</strong> in the data table headers or on graph axes will allow you to chose the variable to display. At times a mathematical equation using the actual measured quantities can be defined by selecting the <strong>Create New</strong> → <strong>Calculation</strong> (data table) or <strong>Add Similar Measurement</strong> (graph axes) option in the pulldown menus.</p>
+<p>To start collecting data you need to press the red <strong>Record</strong> button on the bottom of the <strong>Capstone</strong> window. The program will then record all data being collected by the sensors and display them as numbers in the data table and points on the graph. The data collection can be stopped by pressing the red <strong>Record</strong> button a second time. After collecting all the data the information can then be analyzed.</p>
+</section>
+<section id="analyzing-data">
+<h3>Analyzing Data<a class="headerlink" href="#analyzing-data" title="Permalink to this heading">#</a></h3>
+<p>Data can be analyzed by exporting the collected data into a data file, that can be read by Excel (or other mathematical program). An easier way to analyze the data is often to interpret the graph that has been produced by the <strong>Capstone</strong> program. Tools to analyze the graph are very readily available in the menubar above the graph window. The most important tools are discussed in more detail below:</p>
+<ul class="simple">
+<li><p>▷ <strong>Highlight range of points in active data</strong>.<br />
+This option allows you to consider only the highlighted region of the data set to be analyzed. Once selected the program will display a rectangular area that can be resized and dragged over the collected data points. Only the points inside the rectangle will be considered in the selected analysis tool. The selected points will also be displayed in the data table with the same highlighting.</p></li>
+<li><p>▷ <strong>Display selected statistics for active data</strong>.<br />
+Selecting this option will display several useful mathematical quantities for the selected data set, e.g. average of all values, mean of all values, maximum value, minimum value, etc.</p></li>
+<li><p>▷ <strong>Display area under active data</strong>.<br />
+This option will allow you to calculate the area under the curve for the selected data points (the integral).</p></li>
+<li><p>▷ <strong>Apply selected curve fits to active data</strong>.<br />
+With this option the user can fit a line of best fit to the elected data range. The drop down menu will give several options for graphs to fit (e.g. straight line, parabola, etc.)</p></li>
+<li><p>▷ <strong>Show coordinates and access delta tool</strong>.<br />
+Once selected this tool will display a cross-hair onto the coordinate frame and allow to determine the values of specific points by placing the cursor onto a data point of the graph. Right-clicking on the cursor will allow to select a delta tool to determine a range in the data set (both <span class="math notranslate nohighlight">\(x\)</span>- and <span class="math notranslate nohighlight">\(y\)</span>-range).</p></li>
 </ul>
-</div>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Extra</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="schedulePHYS1171.html">Schedule for PHYS 1171</a></li>
-<li class="toctree-l1"><a class="reference internal" href="schedulePHYS1145.html">Schedule for PHYS 1145</a></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
-<li class="toctree-l1"><a class="reference internal" href="M9simulations.html">M9 Simulations</a></li>
-</ul>
-</div>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -460,12 +488,21 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="right-next"
+    <a class="left-prev"
        href="IntroLab.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Introduction</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="VernierCaliper.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Introduction</p>
+        <p class="prev-next-title">Vernier Calipers</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -475,6 +512,28 @@
             </div>
             
             
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis-with-spreadsheets">Data Analysis with Spreadsheets</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#capstone">Capstone</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-hardware">Setting up Hardware</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-data">Collecting Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analyzing-data">Analyzing Data</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

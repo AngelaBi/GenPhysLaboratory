@@ -52,11 +52,13 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 Left) Dominoes provided. Right) Relevant length, width, height dimensions of the dominoes.
 ```
 
-1. **OVERALL GOALS:**
-   - Understand how to take length and mass measurements.
-   - Understand how to characterize measurement uncertainties with standard deviation.
-   - Understand how to characterize measurement uncertainties due to instrument precision.
-   - Each member of the lab group will independently measure the mass, length, width, and height of four provided dominoes per group (i.e. each group gets a pink, green, orange, and blue domino).
+```{admonition} OVERALL GOALS
+:class: note
+- Understand how to take length and mass measurements.
+- Understand how to characterize measurement uncertainties with standard deviation.
+- Understand how to characterize measurement uncertainties due to instrument precision.
+- Each member of the lab group will independently measure the mass, length, width, and height of four provided dominoes per group (i.e. each group gets a pink, green, orange, and blue domino).
+```
 
 *NOTE:* It is good practice to **complete the analysis of trials as you do the experiment**. If there is some error in your experimental method or in your calculation, you can correct it before completing all the other trials. The formulas of the rows for later trials can be created by copying the first trial.
 
