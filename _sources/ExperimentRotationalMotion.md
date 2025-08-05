@@ -254,24 +254,21 @@ In Part 3 of the experiment you will observe the conservation of angular momentu
   - Calculate both the initial and final angular momentum.
 
 
-\section{Data Analysis}
+## Data Analysis
+
 The first experiment determines the moment of inertia of the ring by measuring its angular acceleration.
-\begin{itemize}
-\item[$\triangleright$] Create a table to find $I_{\mbox{calc}}$ including
-  \begin{itemize}
-  \item the ring mass $M_{\mbox{ring}}$,
-  \item the inner and outer radii of the ring,
-  \item the calculated moment of inertia $I_{\mbox{calc}}$.
-  \end{itemize}
-\item[$\triangleright$] Create a table to find $I_{\mbox{exp}}$ including
-  \begin{itemize}
-  \item the hanging mass $m$,
-  \item the radius of the pulley $R_P$,
-  \item the angular acceleration and calculated moment of inertia with the ring and apparatus,
-  \item the angular acceleration and calculated moment of inertia of the apparatus,
-  \item the experimental moment of inertia of the ring $I_{\mbox{exp}}$.
-  \end{itemize}
-\end{itemize}
+
+- **Create a table to find $I_{\mbox{calc}}$ including:**
+    - the ring mass $M_{\mbox{ring}}$
+    - the inner and outer radii of the ring ($R_i$, $R_o$)
+    - the calculated moment of inertia $I_{\mbox{calc}}$
+
+- **Create a table to find $I_{\mbox{exp}}$ including:**
+    - the hanging mass $m$
+    - the radius of the pulley $R_P$
+    - the angular acceleration and calculated moment of inertia with the ring and apparatus
+    - the angular acceleration and calculated moment of inertia of the apparatus
+    - the experimental moment of inertia of the ring $I_{\mbox{exp}}$
 
 The second experiment determines the moment of inertia of a rod with two masses by measuring its angular acceleration.
 
