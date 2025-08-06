@@ -67,7 +67,7 @@ where $H$ is the vertical rise in the horizontal distance $D$. $D$ is the distan
 
 We will compare our results to the measured value of $g$ at sea level. The value at sea level at New York is $g = 9.803\,\text{m/s}^2$.
 
-In the experiment, the presumed frictionless inclined plane will be an air track.  The mass will be a glider, which floats on the air track.  Placing a spacer of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.  Refer to Fig.~\ref{M02Fig02} below in the experimental procedure section.
+In the experiment, the presumed frictionless inclined plane will be an air track.  The mass will be a glider, which floats on the air track.  Placing a spacer of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.  Refer to {numref}`M02Fig01` below in the experimental procedure section.
 
 
 
@@ -89,7 +89,7 @@ In the experiment, the presumed frictionless inclined plane will be an air track
 ## Experimental Procedure
 
 ```{figure} ExperimentAccGTrackFigures/Figure02.jpg
-:name: Figure02
+:name: M02Fig02
 :width: 600px
 :align: center
 
@@ -158,7 +158,7 @@ h. For each of the **5 trials per case**, release the glider from rest at the $s
 
 - Make sure to submit your finalized data table (Excel sheet)
 
-- If you release the glider higher above the photogate rather than right at the gate, what would you expect to happen to your derived values of $g$?
+- If you release the glider with an initial velocity up or down the slope, what would you expect to happen to your derived values of $g$?
 - What are sources of uncertainty (initial v, friction, etc.)?
 - What was the precision of the instrumentation (e.g. caliper, time, distance, etc.)?
 - Compare your results ($g$ from each of the four cases and one from all 20 trials) to the accepted value. How do the standard deviations compare to the difference between your values of $g$ and the accepted value of $g$? I.e. while treating the standard deviations of your measurements as your measurement uncertainties, do your values of $g$ for each case, as well as the overall average $g$, plus or minus the standard deviations overlap (and agree) with the accepted value of $g$? What might cause your results to disagree the most?

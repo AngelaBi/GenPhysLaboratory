@@ -195,9 +195,9 @@ Calculate the following:
 - Make sure to submit your finalized data table (Excel sheet)
 
 - Arguing your responses with your data ± standard deviation:
-
-  - Is energy conserved between top and bottom?
-  - Is energy conserved between top/bottom and rebound?
+  
+  - Is kinetic plus potential energy conserved going from the top to the bottom?
+  - Is kinetic plus potential energy conserved between the top and the rebound position?
 
 - Why is there a difference in energy conservation between the top/bottom and top/bottom/rebound?
 
