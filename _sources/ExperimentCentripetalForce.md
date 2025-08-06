@@ -125,6 +125,7 @@ From the data collected in the six cases you ran, determine the values of the ma
 - What are possible systematic errors for today's experiments?
 - Why there should be the same mass on the fixed mass holder as compared to the free mass holder?
 
+## The Whiteboard
 
 
 

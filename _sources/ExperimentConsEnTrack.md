@@ -105,6 +105,8 @@ U_s = mg \, \Delta s \frac{H}{D}
 
 ## Experimental Procedure
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CINQAbvNFPw?si=srqk4862Gp_MHdzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ```{figure} /ExperimentConsEnTrackFigures/M04_fig2.jpg
 :name: M05Fig03
 :width: 580px
@@ -206,3 +208,4 @@ Calculate the following:
   - What are possible systematic errors for today's experiments?
   - How could one gain energy between top and bottom?
 
+## The Whiteboard

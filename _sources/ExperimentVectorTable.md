@@ -252,7 +252,7 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 
 ### CASE 1 & 2 -- Finding the Equilibrant Vector (Balancing Force)
 
-```{admonition} OVERALL GOALS
+```{admonition} OVERVIEW
 :class: note
 - Understand how to add and balance vectors using the **method of components**.
 - Conduct 3 cases of two additive, known vectors (weights at given angles) to experimentally determine the third balancing or equilibrant vector.
@@ -315,7 +315,7 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 
 ### CASE 3 -- Determining 2 Unlabeled Masses
 
-```{admonition} OVERALL GOALS
+```{admonition} OVERVIEW
 :class: note
 - Understand how to determine two unknown values of a 3 vector system using the **method of components**.
 - *CONSIDER*: Each vector has two pieces of information, **magnitude** and **direction** --- how many pieces of information total do we have to work from?
@@ -378,3 +378,4 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 - What is the precision of your equipment (force table, masses, etc.)?
 - What are possible systematic errors of the experiment?
 
+## The Whiteboard
