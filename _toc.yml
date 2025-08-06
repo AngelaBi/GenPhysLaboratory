@@ -11,9 +11,9 @@ parts:
     - file: schedulePHYS1145
   - caption: General information
     chapters:
-    - file: IntroLab
-    - file: DataAcquisition
-    - file: VernierCaliper
+    - file: Intro/IntroLab
+    - file: Intro/DataAcquisition
+    - file: Intro/VernierCaliper
   - caption: Experiments
     chapters:
     - file: GeneralPhysicsLabI
@@ -29,10 +29,6 @@ parts:
         - file: ExperimentsGenPhysI/ExperimentIdealGas
         - file: ExperimentsGenPhysI/ExperimentFluids
         - file: ExperimentsGenPhysI/ExperimentPendulum
-  - caption: Extra
-    chapters:
-        - file: markdown
-        - file: notebooks
-        - file: markdown-notebooks
-        - file: M9simulations
+
+
   
