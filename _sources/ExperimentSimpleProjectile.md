@@ -2,9 +2,10 @@
 
 ## Background
 
-```{admonition} Lab M3
+```{admonition} OVERALL GOALS
 :class: note
-This is Lab M3 - Simple Projectile Motion with Kinematics.
+In this lab, you will:
+- Understand and apply kinematic equations to one- and two-dimensional projectile motion.
 ```
 
 **Projectile motion** is the motion of an object thrown or projected into the air, subject only to acceleration as a result of gravity. The applications of projectile motion in physics and engineering are numerous. Some examples include meteors as they enter Earth's atmosphere, water in a water fountain, and the motion of any ball in sports. Such objects are called *projectiles*, and their path is called a **trajectory**.
@@ -296,11 +297,11 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 12. Now calculate the theoretical distance $x_{\text{higher height, theoretical}}$ using {eq}`eq-M03-Kinematic-vertical-time` -- {eq}`eq-M03-Kinematic-vertical-time-higher-height`
 
-13. Repeat steps 5 to 10 to determine experimentally the distance with its uncertainty at the higher height (i.e. $x_{\text{higher height, experimental}}$ and $\delta x_{\text{higher height, experimental}}$). **ADDITIONALLY: Before any launches from the higher height, draw a bullseye at the theoretical distance you expect the balls at the higher height to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be (to discuss later in Section M3 Interpretation).**
+13. Repeat steps 5 to 10 to determine experimentally the distance with its uncertainty at the higher height (i.e. $x_{\text{higher height, experimental}}$ and $\delta x_{\text{higher height, experimental}}$). **ADDITIONALLY: Before any launches from the higher height, draw a bullseye at the theoretical distance you expect the balls at the higher height to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be (to discuss later in {ref}`interpretation`).**
 
 14. Calculate the difference between you theoretical and experimental values of $x$ at the higher height.
 
-15. DISCUSSION POINT (covered in Section M3 Interpretation): Does your experimental distance of the higher height agree with what you expected from your theoretical calculation? In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+15. DISCUSSION POINT (covered in {ref}`interpretation`): Does your experimental distance of the higher height agree with what you expected from your theoretical calculation? In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
 
 
 
@@ -357,25 +358,9 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 13. If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 5 to 13 if needed.
 
-14. DISCUSSION POINT (covered in Section M3 Interpretation): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+14. DISCUSSION POINT (covered in {ref}`interpretation`): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+(interpretation)=
 ## Post-Lab Submission --- Interpretation of Results
 
 - Make sure to submit your finalized data table (Excel sheet)
