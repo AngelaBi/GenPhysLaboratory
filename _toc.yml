@@ -4,10 +4,11 @@
 format: jb-book
 root: intro
 
-
-
-
 parts:
+  - caption: Schedule
+    chapters:
+    - file: schedulePHYS1171
+    - file: schedulePHYS1145
   - caption: General information
     chapters:
     - file: IntroLab
@@ -17,21 +18,19 @@ parts:
     chapters:
     - file: GeneralPhysicsLabI
       sections:
-        - file: ExperimentIntroLab
-        - file: ExperimentVectorTable
+        - file: ExperimentsGenPhysI/ExperimentIntroLab
+        - file: ExperimentsGenPhysI/ExperimentVectorTable
         - file: ExperimentsGenPhysI/ExperimentAccGTrack
-        - file: ExperimentSimpleProjectile
-        - file: ExperimentCentripetalForce
-        - file: ExperimentConsEnTrack
-        - file: ExperimentBallisticPendulum
-        - file: ExperimentRotationalMotion
-        - file: ExperimentIdealGas
-        - file: ExperimentFluids
-        - file: ExperimentPendulum
+        - file: ExperimentsGenPhysI/ExperimentSimpleProjectile
+        - file: ExperimentsGenPhysI/ExperimentCentripetalForce
+        - file: ExperimentsGenPhysI/ExperimentConsEnTrack
+        - file: ExperimentsGenPhysI/ExperimentBallisticPendulum
+        - file: ExperimentsGenPhysI/ExperimentRotationalMotion
+        - file: ExperimentsGenPhysI/ExperimentIdealGas
+        - file: ExperimentsGenPhysI/ExperimentFluids
+        - file: ExperimentsGenPhysI/ExperimentPendulum
   - caption: Extra
     chapters:
-        - file: schedulePHYS1171
-        - file: schedulePHYS1145
         - file: markdown
         - file: notebooks
         - file: markdown-notebooks

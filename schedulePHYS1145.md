@@ -2,7 +2,6 @@
 
 Insert here a screeshot of the schedule for PHYS 1145
 
-# Schedule for PHYS 1145
 
 | Week of     | Monday     | Tuesday   | Wednesday | Thursday  | Friday   |
 |------------|-----------|-----------|-----------|-----------|-----------|
