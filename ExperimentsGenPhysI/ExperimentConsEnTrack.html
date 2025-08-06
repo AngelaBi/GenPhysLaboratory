@@ -1,0 +1,695 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Conservation of Energy with Glider on Tilted Air Track &#8212; General Physcis Laboratory</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ExperimentsGenPhysI/ExperimentConsEnTrack';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion" href="ExperimentBallisticPendulum.html" />
+    <link rel="prev" title="Centripetal Force with Mass on Rotating Arm" href="ExperimentCentripetalForce.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="General Physcis Laboratory - Home"/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="General Physcis Laboratory - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to General Physics Lab
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Schedule for PHYS 1171</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Schedule for PHYS 1145</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../IntroLab.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DataAcquisition.html">Data Acquisition and Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../VernierCaliper.html">Vernier Calipers</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../GeneralPhysicsLabI.html">General Physics Lab I</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ExperimentIntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExperimentVectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExperimentAccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExperimentSimpleProjectile.html">Simple Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExperimentCentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Conservation of Energy with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExperimentBallisticPendulum.html">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExperimentRotationalMotion.html">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExperimentIdealGas.html">Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExperimentFluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExperimentPendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Extra</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../markdown.html">Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notebooks.html">Content with notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../M9simulations.html">M9 Simulations</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FExperimentsGenPhysI/ExperimentConsEnTrack.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/ExperimentsGenPhysI/ExperimentConsEnTrack.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Conservation of Energy with Glider on Tilted Air Track</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="conservation-of-energy-with-glider-on-tilted-air-track">
+<h1>Conservation of Energy with Glider on Tilted Air Track<a class="headerlink" href="#conservation-of-energy-with-glider-on-tilted-air-track" title="Permalink to this heading">#</a></h1>
+<section id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
+<p><strong>Energy cannot be created nor destroyed.</strong> All that can really happen is a change in its form. We shall consider the conservation of mechanical energy, in particular, the sum of the kinetic energy and potential energy of a mass. The kinetic energy is due to the motion of the mass and the potential energy is due to the relative position of the mass in the earth’s gravitational field. This total mechanical energy can only change if nonconservative forces are acting on any part of the system. We will examine the exchange of kinetic and potential energy and the conservation of mechanical energy under the presumption of no nonconservative forces acting. If the mechanical energy is not conserved we will attempt to determine potential sources of nonconservative work being done that would change the mechanical energy.</p>
+<p>The <strong>work</strong> done by a force acting on a mass is the magnitude of the force acting in the direction of motion times the distance the mass moves. Work is only done when the mass moves. (In other words, you can push as hard as you like on a brick wall, but if the wall doesn’t move, you didn’t do any work!) Assume for the moment that we have a mass <span class="math notranslate nohighlight">\(m\)</span> moving on a frictionless, horizontal surface. Assume a force acts on the mass from the position <span class="math notranslate nohighlight">\(x = 0\)</span> to <span class="math notranslate nohighlight">\(x = x_1\)</span> as illustrated in <a class="reference internal" href="#m05fig01"><span class="std std-numref">Fig. 20</span></a>. At position <span class="math notranslate nohighlight">\(x = 0\)</span> it is moving with a velocity <span class="math notranslate nohighlight">\(v_{0}\)</span> and at <span class="math notranslate nohighlight">\(x = x_1\)</span> the velocity is <span class="math notranslate nohighlight">\(v_1\)</span>.</p>
+<figure class="align-center" id="m05fig01">
+<a class="reference internal image-reference" href="../_images/Figure011.jpg"><img alt="../_images/Figure011.jpg" src="../_images/Figure011.jpg" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Explanation of the variables needed to calculate the amount of work done on a mass</span><a class="headerlink" href="#m05fig01" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The work done by the force is <span class="math notranslate nohighlight">\(W_F = \vec{F} \cdot \vec{x_1}\)</span>. Using Newton’s second law it can easily be shown that the work done by the force changes a quantity we call the <em>kinetic energy</em>, <span class="math notranslate nohighlight">\(K = \frac{1}{2} m v^2\)</span>. Using the example illustrated in <a class="reference internal" href="#m05fig01"><span class="std std-numref">Fig. 20</span></a>,</p>
+<div class="math notranslate nohighlight">
+\[\vec{F} \cdot (\vec{x}_1 - \vec{0}) = \frac{1}{2} m v_1^2 - \frac{1}{2} m v_0^2\]</div>
+<p>In this case, the force is acting in the direction of the motion and thereby increases the kinetic energy. If the force were acting in the direction opposite to the motion, then the kinetic energy would be decreased. If friction were present, it would act in the direction opposite to the direction of motion and thereby reduce the kinetic energy. In this simple analysis, we have made no assumption as to the nature of the force.</p>
+<p>A force like friction is a non-conservative force. The work done by it not only depends upon the path the mass takes but is also not completely recoverable. However, the work done on a mass by a conservative force can be completely returned to the mass as mechanical energy. Thus work done by a conservative force can be represented by a potential energy function and depends only on the end points of the process. The gravitational force is a conservative force and is assumed constant in the vicinity of the surface of the earth. The potential energy function is merely the work done by gravity on the way up or the way down and is equal to the gravitational force (the weight <span class="math notranslate nohighlight">\(m g\)</span>) times the change in height, <span class="math notranslate nohighlight">\(h\)</span>. The gravitational potential energy, <span class="math notranslate nohighlight">\(U\)</span>, is given by</p>
+<div class="math notranslate nohighlight">
+\[U = m g h\]</div>
+<p>The work done by this conservative force, like all conservative forces, only depends on the end-points of the path. The gravitational potential energy is a relative quantity, i.e., it is a change in energy because of a change in elevation. Thus we can choose a zero level arbitrarily.</p>
+<p>If there are no non-conservative forces acting, then a mass moving only under the influence of gravity merely exchanges its kinetic and potential energy while the total energy remains constant. For a mass stationary at some height, <span class="math notranslate nohighlight">\(h\)</span>, above the ground, all of its energy is potential energy of value <span class="math notranslate nohighlight">\(mgh\)</span> with respect to the ground. As the mass begins to fall under the influence of gravity, it loses <span class="math notranslate nohighlight">\(U\)</span> and gains <span class="math notranslate nohighlight">\(K\)</span>. When it reaches the ground, the <span class="math notranslate nohighlight">\(U\)</span> is zero with respect to the ground and the <span class="math notranslate nohighlight">\(K\)</span> is a maximum, equal to the original <span class="math notranslate nohighlight">\(U\)</span> at the top. If the mass were a roller coaster, the coaster could climb back up to its original height where all the energy would be <span class="math notranslate nohighlight">\(U\)</span> at which point it would momentarily stop, i.e., no <span class="math notranslate nohighlight">\(K\)</span>. This assumes that neither friction nor any other nonconservative force is acting. In general, we have</p>
+<div class="math notranslate nohighlight">
+\[W_{N.C.} = \Delta K + \Delta U\]</div>
+<p>where <span class="math notranslate nohighlight">\(W_{N.C.}\)</span> is the work done by non-conservative forces. If there are no non-conservative forces acting, then</p>
+<div class="math notranslate nohighlight" id="equation-eq-total-energy">
+<span class="eqno">(41)<a class="headerlink" href="#equation-eq-total-energy" title="Permalink to this equation">#</a></span>\[\Delta K + \Delta U = 0\]</div>
+<p>In this experiment, we will use an air track to provide a nearly frictionless surface. The track will be tilted at a measurable angle. A glider will be released from rest at the top of the track and allowed to slide down and collide with a spring at the bottom. If the force of the spring on the glider is conservative, then the kinetic energy of the glider at the bottom is converted to potential energy in the compressed spring. This potential energy is given back to the glider in the form of kinetic energy as the spring expands. The glider bounces off and goes back up the track to its original height where the energy is again all <span class="math notranslate nohighlight">\(U\)</span>. If no energy is lost in the collision at the bottom, we say that the collision is completely elastic, implying that the forces involved in the collision are conservative. After the collision, the glider will rebound up the track. Getting back to its original height therefore implies no mechanical energy is lost during the entire path. If it does not, we have to look for an energy loss mechanism and some non-conservative forces acting.</p>
+<p>The change in height from the top to the bottom is measured allowing the change in <span class="math notranslate nohighlight">\(U\)</span> to be calculated. We will set the zero level for the potential energy at the bottom of track, at the position, <span class="math notranslate nohighlight">\(s_0\)</span>, in <a class="reference internal" href="#m05fig02"><span class="std std-numref">Fig. 21</span></a>.</p>
+<p>A measurement of the transit time from the top to the bottom will allow the calculation of the velocity at the bottom and therefore the <span class="math notranslate nohighlight">\(K\)</span> at the bottom. Finally, measuring the maximum height achieved on the rebound will yield a second value of <span class="math notranslate nohighlight">\(U\)</span>.</p>
+<p>The <span class="math notranslate nohighlight">\(K\)</span> at the bottom of the track can be determined by measuring the average velocity from the release point at the top, <span class="math notranslate nohighlight">\(s_1\)</span>, to the collision point at the bottom, <span class="math notranslate nohighlight">\(s_0\)</span>, and then using <a class="reference internal" href="#equation-eq-total-energy">(41)</a>. From a measurement of the transit time from <span class="math notranslate nohighlight">\(s_1\)</span> to <span class="math notranslate nohighlight">\(s_0\)</span>, the velocity of the glider at the moment of collision at the bottom, <span class="math notranslate nohighlight">\(v_b\)</span>, can be determined by using the definition of average velocity, <span class="math notranslate nohighlight">\(v_{\text{avg}}\)</span>, thus:</p>
+<div class="math notranslate nohighlight">
+\[\frac{\Delta s}{\Delta t}  = v_{\text{avg}} = \frac{1}{2} (v_{b}+v_1)\]</div>
+<p>where the initial velocity, <span class="math notranslate nohighlight">\(v_1 = 0\)</span>, <span class="math notranslate nohighlight">\(\Delta s\)</span> is the distance traveled down the track, and <span class="math notranslate nohighlight">\(\Delta t\)</span> is the transit time of travel.</p>
+<p>Rearranging terms we have the velocity at the bottom in terms of measurable quantities</p>
+<div class="math notranslate nohighlight" id="equation-eq-velocity-bottom">
+<span class="eqno">(42)<a class="headerlink" href="#equation-eq-velocity-bottom" title="Permalink to this equation">#</a></span>\[v_b = 2 v_{\text{avg}} = 2 \left(\frac{\Delta s}{\Delta t}\right)\]</div>
+<p>Using the definition of <span class="math notranslate nohighlight">\(K\)</span>, the <span class="math notranslate nohighlight">\(K\)</span> at the bottom is then</p>
+<div class="math notranslate nohighlight" id="equation-eq-kinetic-bottom">
+<span class="eqno">(43)<a class="headerlink" href="#equation-eq-kinetic-bottom" title="Permalink to this equation">#</a></span>\[K_b = \frac{1}{2} m v_b^2\]</div>
+<p>In order to calculate the potential energy, <span class="math notranslate nohighlight">\(U\)</span> at any point, along the track we must determine the change in height between <span class="math notranslate nohighlight">\(s_1\)</span> and <span class="math notranslate nohighlight">\(s_0\)</span>. The potential energy at any position along the track is measured with respect to the collision point at the bottom, <span class="math notranslate nohighlight">\(s_0\)</span>, which is arbitrarily assigned a value of zero potential energy. The <span class="math notranslate nohighlight">\(U\)</span> is given by the weight of the glider, <span class="math notranslate nohighlight">\(mg\)</span>, times the change in vertical height.</p>
+<p><a class="reference internal" href="#m05fig02"><span class="std std-numref">Fig. 21</span></a> is a simplified diagram of the inclined track. The distance <span class="math notranslate nohighlight">\(s\)</span> is measured along the track by the scale attached to the side of the track. The change in elevation, <span class="math notranslate nohighlight">\(\Delta h\)</span>, of any other point <span class="math notranslate nohighlight">\(s\)</span> along the track can now be determined from the distance <span class="math notranslate nohighlight">\(s\)</span> and the incline angle of track, <span class="math notranslate nohighlight">\(\theta\)</span>. The incline of the track is produced by placing a spacer of known height under a leg at one end. With the height of the spacer and the distance between the legs, <span class="math notranslate nohighlight">\(D\)</span>, the angle can be calculated (See <a class="reference internal" href="#m05fig03"><span class="std std-numref">Fig. 22</span></a>).</p>
+<figure class="align-center" id="m05fig02">
+<a class="reference internal image-reference" href="../_images/Figure022.jpg"><img alt="../_images/Figure022.jpg" src="../_images/Figure022.jpg" style="width: 450px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 21 </span><span class="caption-text">Schematic Drawing explaining the relationship between the track elevation <span class="math notranslate nohighlight">\(\Delta h\)</span> and the distance <span class="math notranslate nohighlight">\(\Delta s\)</span> for the Conservation of Energy experiment.</span><a class="headerlink" href="#m05fig02" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>At <span class="math notranslate nohighlight">\(s_0\)</span>, <span class="math notranslate nohighlight">\(U_{b} = 0\)</span>, therefore <span class="math notranslate nohighlight">\(U_{s} = mg\, \Delta h = mg\, \Delta s \sin(\theta)\)</span>.
+Referring to <a class="reference internal" href="#m05fig03"><span class="std std-numref">Fig. 22</span></a>, the <span class="math notranslate nohighlight">\(\tan(\theta) = \text{(height of the spacer)} / \text{(distance between legs)}\)</span> or</p>
+<div class="math notranslate nohighlight">
+\[\tan(\theta) = \frac{H}{D}\]</div>
+<p>With the very small angles of incline being used, we can safely assume that</p>
+<div class="math notranslate nohighlight">
+\[\tan(\theta) \sim \sin(\theta)\]</div>
+<p>therefore the potential energy, <span class="math notranslate nohighlight">\(U\)</span>, at some position, <span class="math notranslate nohighlight">\(s\)</span>, along the track is finally given by measurable quantities as</p>
+<div class="math notranslate nohighlight" id="equation-eq-potential-energy">
+<span class="eqno">(44)<a class="headerlink" href="#equation-eq-potential-energy" title="Permalink to this equation">#</a></span>\[U_s = mg \, \Delta s \frac{H}{D}\]</div>
+</section>
+<section id="experimental-procedure">
+<h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CINQAbvNFPw?si=srqk4862Gp_MHdzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<figure class="align-center" id="m05fig03">
+<a class="reference internal image-reference" href="../_images/M04_fig2.jpg"><img alt="../_images/M04_fig2.jpg" src="../_images/M04_fig2.jpg" style="width: 580px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 22 </span><span class="caption-text">Experimental setup for the Conservation of Energy experiment.</span><a class="headerlink" href="#m05fig03" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Turn on the air and allow it to run a couple of minutes before proceeding. It is very important that the track is clean and free of dirt. This will prevent any damage to the very expensive air track and will keep friction to an absolute minimum. Do not put a glider on the track without air flowing.</p></li>
+<li><p>Measure and record the mass of both a large and a small glider.</p></li>
+<li><p>Without the spacer present and the air track resting directly on the tabletop, place one of the gliders on the track and note any preferential drift of the glider. Adjust the height of the single leg until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, use another glider.</p></li>
+<li><p>Measure and record the distance <span class="math notranslate nohighlight">\(D\)</span>. This is the center-to-center distance between the legs.</p></li>
+<li><p>Measure and record the heights <span class="math notranslate nohighlight">\(H\)</span>, of each of the two spacers. Use a Vernier caliper for maximum accuracy. See the instructions at Fig. VernierFig02 for using the Vernier caliper.</p></li>
+<li><p>Four cases will be performed, two gliders for two spacers. Determine a convenient point on the glider to use with the scale attached on the side of track. It doesn’t matter what point you choose, only that you use the same point for all <span class="math notranslate nohighlight">\(s\)</span> determinations for that glider. A convenient point is the lower front or rear corner of the glider since it will be very close to the scale.</p></li>
+<li><p>For each case, perform the following steps and record the data appropriately in your spreadsheet:</p>
+<ol class="arabic simple">
+<li><p>Raise the single leg side of the track by placing a spacer under the knob.</p></li>
+<li><p>Place the glider at the bottom of the track resting against the bumper. Record <span class="math notranslate nohighlight">\(s_0\)</span>. (Note: With the car at this position, the red light on the bottom photogate should be lit. Moving the glider to the right the slightest distance should put the light out. If this is not the case, adjust the position of the photogate.)</p></li>
+<li><p>Next, place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the red light comes on. Record <span class="math notranslate nohighlight">\(s_1\)</span>.</p></li>
+<li><p>Before you take the recorded data in the next step, take some practice runs. Your subsequent data will be much improved by your training!</p>
+<ul>
+<li><p>Position the glider so it is blocking the top photogate and the red light is on. Place one finger on the track in front of the glider and gently push the glider to the right until the red light on the photogate just goes out.</p></li>
+<li><p>Press record in <strong>Capstone</strong> to start the timer. <em>NOTE:</em> <strong>Capstone</strong> may take a few seconds to start displaying times, once it’s going, it will display the time whenever a photogate beam is broken; the time at the higher (start) photogate <span class="math notranslate nohighlight">\(t_1\)</span> as well as the time at the lower (end) photogate <span class="math notranslate nohighlight">\(t_0\)</span>. Total transit time <span class="math notranslate nohighlight">\(\Delta t\)</span> will be the difference of the start and end times.</p></li>
+<li><p>Release the glider by quickly pulling your finger away from the track. After the glider bounces off the lower bumper, you can calculate the time of travel from top to bottom <span class="math notranslate nohighlight">\(\Delta t\)</span>.</p></li>
+</ul>
+</li>
+<li><p>For each of the five trials, release the glider from the <span class="math notranslate nohighlight">\(s_1\)</span> point and measure and record the following:</p>
+<ul>
+<li><p>The transit time <span class="math notranslate nohighlight">\(\Delta t\)</span> from release at the top to the collision at the bottom. Release the glider very carefully to insure that the initial velocity is zero.</p></li>
+<li><p>Allowing the glider to rebound off the bumper, record the rebound position <span class="math notranslate nohighlight">\(s_2\)</span>. As the glider slows to a stop, capture the glider by gently pressing your finger near a lower corner of the glider just as it comes to a stop and then read <span class="math notranslate nohighlight">\(s_2\)</span> off the scale. Use the same point on the glider to read <span class="math notranslate nohighlight">\(s_2\)</span> that you used to read <span class="math notranslate nohighlight">\(s_1\)</span> and <span class="math notranslate nohighlight">\(s_0\)</span>.</p></li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<p><strong>Data Table:</strong></p>
+<ul class="simple">
+<li><p>Create a table of the common data including the masses of the gliders, the distance <span class="math notranslate nohighlight">\(D\)</span> between the legs of the air track and the heights of the two spacers.</p></li>
+<li><p>Create a table for each case with rows for each of the five trials including:</p>
+<ul>
+<li><p>The starting point <span class="math notranslate nohighlight">\(s_1\)</span> at the top</p></li>
+<li><p>The stopping point <span class="math notranslate nohighlight">\(s_0\)</span> at the bottom</p></li>
+<li><p>Start time at the top <span class="math notranslate nohighlight">\(t_1\)</span></p></li>
+<li><p>End time at the bottom <span class="math notranslate nohighlight">\(t_0\)</span></p></li>
+<li><p>The time <span class="math notranslate nohighlight">\(\Delta t\)</span> (s) for each of the five trials</p></li>
+<li><p>The rebound position <span class="math notranslate nohighlight">\(s_2\)</span> at the top</p></li>
+<li><p>Initial distance, <span class="math notranslate nohighlight">\(\Delta s_1=s_1-s_0\)</span></p></li>
+<li><p>Initial potential energy at top, <span class="math notranslate nohighlight">\(U_{\text{top}}\)</span></p></li>
+<li><p>The speed at the bottom, <span class="math notranslate nohighlight">\(v_{\text{b}}\)</span></p></li>
+<li><p>Kinetic energy at the bottom, <span class="math notranslate nohighlight">\(K_{\text{b}}\)</span></p></li>
+<li><p>Final distance, <span class="math notranslate nohighlight">\(\Delta s_2=s_2-s_0\)</span></p></li>
+<li><p>Final potential energy at the rebound position, <span class="math notranslate nohighlight">\(U_{\text{rebound}}\)</span></p></li>
+</ul>
+</li>
+<li><p>Create a summary table of the analysis with a row for each case including the following data:</p>
+<ul>
+<li><p>The average and standard deviation of the time, <span class="math notranslate nohighlight">\(\Delta t\)</span>, for the five trials</p></li>
+<li><p>The average and standard deviation of the speed at the bottom, <span class="math notranslate nohighlight">\(v_{\text{b}}\)</span></p></li>
+<li><p>The average and standard deviation of the kinetic energy at the bottom, <span class="math notranslate nohighlight">\(K_{\text{b}}\)</span></p></li>
+<li><p>The average and standard deviation of the final potential energy at the rebound position, <span class="math notranslate nohighlight">\(U_{\text{rebound}}\)</span></p></li>
+<li></li>
+<li></li>
+</ul>
+</li>
+</ul>
+<p>Calculate the following:</p>
+<ul class="simple">
+<li><p>For each case, calculate the initial potential energy at <span class="math notranslate nohighlight">\(s_1\)</span>. Average the transit times, <span class="math notranslate nohighlight">\(\Delta t\)</span>, and calculate the velocity <span class="math notranslate nohighlight">\(v_b\)</span> and the <span class="math notranslate nohighlight">\(K_b\)</span>.</p></li>
+<li><p>For each case, average the rebound position, <span class="math notranslate nohighlight">\(s_2\)</span>. Using this averaged value, calculate the final <span class="math notranslate nohighlight">\(U_2\)</span>.</p></li>
+<li><p>Calculate the percent change in mechanical energy from the top to the bottom.</p></li>
+<li><p>Calculate the percent change in mechanical energy from the initial release point <span class="math notranslate nohighlight">\(s_1\)</span> to the final rebound point <span class="math notranslate nohighlight">\(s_2\)</span>.</p></li>
+</ul>
+</section>
+<section id="post-lab-submission-interpretation-of-results">
+<h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Make sure to submit your finalized data table (Excel sheet)</p></li>
+<li><p>Arguing your responses with your data ± standard deviation:</p>
+<ul>
+<li><p>Is energy conserved between top and bottom?</p></li>
+<li><p>Is energy conserved between top/bottom and rebound?</p></li>
+</ul>
+</li>
+<li><p>Why is there a difference in energy conservation between the top/bottom and top/bottom/rebound?</p></li>
+<li><p>Uncertainties:</p>
+<ul>
+<li><p>What is the precision of your equipment?</p></li>
+<li><p>What are the effects of measured uncertainties on your determined energies?</p></li>
+<li><p>What are possible systematic errors for today’s experiments?</p></li>
+<li><p>How could one gain energy between top and bottom?</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="the-whiteboard">
+<h2>The Whiteboard<a class="headerlink" href="#the-whiteboard" title="Permalink to this heading">#</a></h2>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./ExperimentsGenPhysI"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="ExperimentCentripetalForce.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Centripetal Force with Mass on Rotating Arm</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="ExperimentBallisticPendulum.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Angela Biselli
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
