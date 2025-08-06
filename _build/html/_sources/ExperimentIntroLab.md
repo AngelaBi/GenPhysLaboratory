@@ -92,4 +92,4 @@ Create a Data Analysis table including:
 - What was the precision of your equipment (calipers, triple-beam balance, etc.)?
 - What are possible systematic errors of the experiment?
 
-## The whiteboard
+## The Whiteboard

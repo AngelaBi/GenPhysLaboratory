@@ -145,4 +145,4 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 - What are the effects of measured uncertainties on your determined velocities?
 - What are possible systematic errors for today's experiments?
 
-## The whiteboard
+## The Whiteboard

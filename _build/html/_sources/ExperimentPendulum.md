@@ -239,6 +239,6 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
   - How does $g_\text{corrected,avg}$ of Case 5 compare to $g_{\text{avg}}$ of Case 4 (at the same $L$)? Do they agree more or less after the consideration of additional terms.
 - How do the periods relate to different lengths of pendulum?
 
-## The whiteboard
+## The Whiteboard
 
 
