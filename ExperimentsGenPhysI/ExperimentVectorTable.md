@@ -171,10 +171,10 @@ Each hanging mass has an associated weight (force) due to being pulled *down* by
 
 ```{math}
 :label: eq-M01-ForceG
-\vec{F_\text{weight}} = m \times \vec{g} = \vec{F_\text{tension}}
+\vec{F}_\text{weight} = m \cdot \vec{g} = \vec{F}_\text{tension}
 ```
 
-For accurate measurements of the angles involved, each cord must be aimed directly at the center of the ring requiring that the equilibrium condition must be established when the ring is exactly centered around the pin on the table.
+For accurate measurements of the angles involved, each cord must be aimed directly at the peg at the center of the ring requiring that the equilibrium condition must be established when the ring is exactly centered around the pin on the table. Use consistently  the same counterclockwise protractor.
 
 
 
@@ -197,11 +197,11 @@ $$\begin{array}{rll}
 
 Place a pulley at 0° and add 150 g to the 50 g weight hanger for a total 200 g. As mentioned in {eq}`eq-M01-ForceG`, the tension on the cord is the same on both sides of the pulley so that the downward pull of gravity on the hanger and masses is equal to the tension in the cord leading to the ring. Thus,
 
-$$\vec{F}_1 = m g = 0.20\,\text{kg} \times 9.8\,\text{m/s}^2 = 1.96\,\text{N} \text{ @ } 0°.$$
+$$F_1 = m g = 0.20\,\text{kg} \times 9.8\,\text{m/s}^2 = 1.96\,\text{N} \text{ @ } 0°.$$
 
 Similarly, add 200 g to a 50 g weight hanger and run its cord over a pulley mounted at 135°.
 
-$$\vec{F}_2 = m g = 0.25\,\text{kg} \times 9.8\,\text{m/s}^2 = 2.45\,\text{N} \text{ @ } 135°.$$
+$$F_2 = m g = 0.25\,\text{kg} \times 9.8\,\text{m/s}^2 = 2.45\,\text{N} \text{ @ } 135°.$$
 
 Having established the given magnitudes and directions for each of the given forces, $\vec{F}_{1}$ and $\vec{F}_{2}$, adjust both the amount of mass hanging on cord 3 and its angular position so that the ring is stationary at the center of the table. In order for angular measurements to be accurate, **each cord must be on a line that crosses through the center of the table**. Sighting *along* each cord towards the center pin can help you to easily and accurately check this.
 
@@ -293,7 +293,7 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
        - $m_{3,\text{theoretical}}$: theoretical equilibrant mass in kg
        - $\theta_{3,\text{theoretical}}$: theoretical equilibrant direction in deg. (e.g. $\theta_{R} + 180°$)
 
-4. Starting with the first case, place the respective masses on hangers 1 & 2
+4. Starting with the first case, place the respective masses on their hangers 1 & 2
 
 5. Unscrew the black pulleys to rotate them around the tabletop to their given angles
 
