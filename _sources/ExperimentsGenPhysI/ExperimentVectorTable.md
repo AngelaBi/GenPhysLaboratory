@@ -174,7 +174,7 @@ Each hanging mass has an associated weight (force) due to being pulled *down* by
 \vec{F}_\text{weight} = m \cdot \vec{g} = \vec{F}_\text{tension}
 ```
 
-For accurate measurements of the angles involved, each cord must be aimed directly at the peg at the center of the ring requiring that the equilibrium condition must be established when the ring is exactly centered around the pin on the table.
+For accurate measurements of the angles involved, each cord must be aimed directly at the peg at the center of the ring requiring that the equilibrium condition must be established when the ring is exactly centered around the pin on the table. Use consistently  the same counterclockwise protractor.
 
 
 

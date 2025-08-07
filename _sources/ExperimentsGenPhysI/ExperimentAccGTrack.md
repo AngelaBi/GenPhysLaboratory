@@ -116,7 +116,7 @@ In this experiment you will measure the motion of a glider down a tilted track u
 - Calculate the average of the measured $g$.
 - Calculate the standard deviation of the measured $g$.
 - Calculate the differences between your average $g$ and the accepted value of $g$
-    -  
+  
 (detailsteps)=
 ### Steps for each of the four cases with a tilted track
 
