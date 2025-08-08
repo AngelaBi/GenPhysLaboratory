@@ -1,7 +1,14 @@
 # Schedule for PHYS 1145
 
-Insert here a screeshot of the schedule for PHYS 1145
 
+```{figure} ScheduleFigures/2025_Fall_LabSchedulePrintout_1145L_simplified.jpg
+:name: schedulePHYS1145
+:width: 80%
+:align: center
+schedule for PHYS 1145
+```
+
+TO-DO
 
 | Week of     | Monday     | Tuesday   | Wednesday | Thursday  | Friday   |
 |------------|-----------|-----------|-----------|-----------|-----------|
@@ -19,10 +26,3 @@ Insert here a screeshot of the schedule for PHYS 1145
 | 2025-11-17 |       f    |        f   |           |           |           |
 | 2025-11-24 |           |           |           |           |           |
 | 2025-12-01 |           |           |           |           |           |
-
-```{figure} /IntroductionFigures/schedulePHYS1145.jpg
-:name: schedulePHYS1145
-:width: 80%
-:align: center
-schedule for PHYS 1145
-```
