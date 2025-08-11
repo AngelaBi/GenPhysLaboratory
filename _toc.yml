@@ -29,6 +29,17 @@ parts:
         - file: ExperimentsGenPhysI/ExperimentIdealGas
         - file: ExperimentsGenPhysI/ExperimentFluids
         - file: ExperimentsGenPhysI/ExperimentPendulum
-
+    - file: GeneralPhysicsLabII
+      sections:
+        - file: ExperimentsGenPhysII/Eps0
+        - file: ExperimentsGenPhysII/MappingPotential
+        - file: ExperimentsGenPhysII/ElectronDeflection
+        - file: ExperimentsGenPhysII/Resistance
+        - file: ExperimentsGenPhysII/RCCircuit
+        - file: ExperimentsGenPhysII/Mu0
+        - file: ExperimentsGenPhysII/EoverM
+        - file: ExperimentsGenPhysII/FaradayLaw
+        - file: ExperimentsGenPhysII/Waves
+        - file: ExperimentsGenPhysII/Optics
 
   
