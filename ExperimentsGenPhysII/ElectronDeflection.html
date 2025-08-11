@@ -1,0 +1,701 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Acceleration And Deflection Of Electrons &#8212; General Physcis Laboratory</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ExperimentsGenPhysII/ElectronDeflection';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Resistivity, Resistors, and DC Circuits" href="Resistance.html" />
+    <link rel="prev" title="Electric Field and Equipotential Mapping" href="MappingPotential.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="General Physcis Laboratory - Home"/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="General Physcis Laboratory - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to General Physics Lab
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Schedule for PHYS 1171</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Schedule for PHYS 1145</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Intro/IntroLab.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/DataAcquisition.html">Data Acquisition and Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/VernierCaliper.html">Vernier Calipers</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabI.html">General Physics Lab I</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentIntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentVectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentAccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentSimpleProjectile.html">Simple Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentCentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentConsEnTrack.html">Conservation of Energy with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentBallisticPendulum.html">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentRotationalMotion.html">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentIdealGas.html">Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentFluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentPendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../GeneralPhysicsLabII.html">General Physics Lab II</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Eps0.html">Electric Force and the Determination of <span class="math notranslate nohighlight">\(\varepsilon_0\)</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="MappingPotential.html">Electric Field and Equipotential Mapping</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Acceleration And Deflection Of Electrons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Resistance.html">Resistivity, Resistors, and DC Circuits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RCCircuit.html">Electrical Example of an Exponential Decay Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Mu0.html">Magnetic Force and the Determination of μ₀</a></li>
+<li class="toctree-l2"><a class="reference internal" href="EoverM.html">Measurement of Electrons’ e/m Ratio &amp; Magnetic Field Measurement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FaradayLaw.html">Faraday’s Law of Induction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Waves.html">Wave Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Optics.html">Light – Diffraction with Lasers &amp; Geometric Optics and Imaging</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FExperimentsGenPhysII/ElectronDeflection.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/ExperimentsGenPhysII/ElectronDeflection.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Acceleration And Deflection Of Electrons</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="acceleration-and-deflection-of-electrons">
+<h1>Acceleration And Deflection Of Electrons<a class="headerlink" href="#acceleration-and-deflection-of-electrons" title="Permalink to this heading">#</a></h1>
+<section id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
+<section id="overall-goals-and-overview">
+<h3>Overall goals and overview:<a class="headerlink" href="#overall-goals-and-overview" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>OVERALL GOALS and Overview:</strong></p>
+<ul>
+<li><p>Investigate both the acceleration and deflection of electrons as they pass through uniform electric fields produced by “parallel-plate capacitors” within a CRT.</p></li>
+<li><p>Analyze the relationship of “electron-deflection distance” vs. “deflection voltage” of a uniform electric field by plotting and comparing to the expected slope based on the internals of your CRT.</p></li>
+<li><p>In this experiment, you will first set up the grid/focus/acceleration voltages to those listed for each case on the paper inside the apparatus. The X/Y-deflection voltages will be set to zero. The electron beam on the screen can then be moved to the origin with the zeroing knobs. Then the electron deflection in the Y-direction can be measured with the on-screen grid when applying differing amounts of deflection voltage. Then plot <span class="math notranslate nohighlight">\(D\)</span> vs. <span class="math notranslate nohighlight">\(V_d\)</span> and compare to expected values.</p></li>
+</ul>
+</li>
+</ul>
+<p>The instrument used in this experiment is a cathode ray tube [CRT]. When the filament of this device (also called an electron gun) is heated, electrons (mass = <span class="math notranslate nohighlight">\(9.109 \times 10^{-31}\)</span> kg) are freed and given an acceleration. The acceleration is received when the beam of electrons passes through a region of positive potential with respect to the cathode. Consider the schematic of the tube in <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 46</span></a>.</p>
+<figure class="align-default" id="e3fig01">
+<a class="reference internal image-reference" href="../_images/E3_schematic_and_CRT_sideview_2024_v03.png"><img alt="../_images/E3_schematic_and_CRT_sideview_2024_v03.png" src="../_images/E3_schematic_and_CRT_sideview_2024_v03.png" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 46 </span><span class="caption-text">Top) Schematic of the Electron Path in the CRT. Bottom) Electron beam path through the CRT.</span><a class="headerlink" href="#e3fig01" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The electrons receive an amount of kinetic energy given by</p>
+<div class="math notranslate nohighlight" id="equation-eq-kinetic-energy">
+<span class="eqno">(83)<a class="headerlink" href="#equation-eq-kinetic-energy" title="Permalink to this equation">#</a></span>\[K = \frac{1}{2} m v^{2}= e\cdot V_k\]</div>
+<p>where <span class="math notranslate nohighlight">\(e\)</span> is the charge of the electron and <em>accelerating voltage</em> <span class="math notranslate nohighlight">\(V_{k}\)</span> (often just <span class="math notranslate nohighlight">\(V\)</span>, but changed here to <span class="math notranslate nohighlight">\(V_{k}\)</span> for the sake of consistency with the apparatus used today) is the potential difference between the cathode and plate #1 (anode). Thus the velocity in the <span class="math notranslate nohighlight">\(x\)</span>-direction towards the phosphor-coated screen of the CRT, <span class="math notranslate nohighlight">\(v_{x}\)</span> is given by</p>
+<div class="math notranslate nohighlight" id="equation-eq-velocity-x">
+<span class="eqno">(84)<a class="headerlink" href="#equation-eq-velocity-x" title="Permalink to this equation">#</a></span>\[v_x=\sqrt{\frac{2 e \cdot V_k}{m}}\]</div>
+<p>Then, the accelerated electron beam passes between two parallel plates. If a potential <span class="math notranslate nohighlight">\(V_{d}\)</span> is applied between the plates, the electron beam will be deflected toward the positive plate by a force <span class="math notranslate nohighlight">\(F_E = eE\)</span> where <span class="math notranslate nohighlight">\(E\)</span> is the electric field between the plates and <span class="math notranslate nohighlight">\(e\)</span> is the electronic charge. Thus the acceleration in the transverse or <span class="math notranslate nohighlight">\(y\)</span>-direction due to the deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span> is given by</p>
+<div class="math notranslate nohighlight" id="equation-eq-acceleration-y">
+<span class="eqno">(85)<a class="headerlink" href="#equation-eq-acceleration-y" title="Permalink to this equation">#</a></span>\[a_y = \frac{F_E}{m} = \frac{e E}{m} = \frac{e\cdot V_d}{m d}\]</div>
+<p>where <span class="math notranslate nohighlight">\(d\)</span> is the plate separation and <span class="math notranslate nohighlight">\(m\)</span> is the electron mass. Since the electric field between the plates is approximately uniform, the path of the beam will be parabolic in the region between the plates. (Illustrated in <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 46</span></a>, this is a case of an object undergoing uniform acceleration just like an object in projectile motion.) After the beam leaves this space, it will continue in a straight line with a horizontal velocity <span class="math notranslate nohighlight">\(v_{x}\)</span> and a vertical velocity <span class="math notranslate nohighlight">\(v_{y}\)</span> until it strikes the screen at point ‘p.’</p>
+<p>The transverse velocity, i.e. in the <span class="math notranslate nohighlight">\(y\)</span> or ‘deflection’ direction, is given by</p>
+<div class="math notranslate nohighlight" id="equation-eq-velocity-y">
+<span class="eqno">(86)<a class="headerlink" href="#equation-eq-velocity-y" title="Permalink to this equation">#</a></span>\[v_y=a_y t\]</div>
+<p>where <span class="math notranslate nohighlight">\(t\)</span> is the time during which the particle is accelerated as it passes through the plates of length <span class="math notranslate nohighlight">\(l\)</span>. The time t is given by</p>
+<div class="math notranslate nohighlight" id="equation-eq-time-t">
+<span class="eqno">(87)<a class="headerlink" href="#equation-eq-time-t" title="Permalink to this equation">#</a></span>\[t=\frac{l}{v_x}\]</div>
+<p>By combining the above <a class="reference internal" href="#equation-eq-acceleration-y">(85)</a>, <a class="reference internal" href="#equation-eq-velocity-y">(86)</a>, and <a class="reference internal" href="#equation-eq-time-t">(87)</a>, we obtain the transverse velocity <span class="math notranslate nohighlight">\(v_y\)</span> in terms of measurable quantities, namely</p>
+<div class="math notranslate nohighlight" id="equation-eq-transverse-velocity">
+<span class="eqno">(88)<a class="headerlink" href="#equation-eq-transverse-velocity" title="Permalink to this equation">#</a></span>\[v_{y}=\frac{e V_{d}}{m d}\left(\frac{l}{v_{x}}\right)\]</div>
+<p>Referring to <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 46</span></a>, the actual on-screen deflection <span class="math notranslate nohighlight">\(D\)</span> from the axis is <span class="math notranslate nohighlight">\(v_{y}\)</span> times the time of flight, <span class="math notranslate nohighlight">\(t^\prime\)</span>, over the distance <span class="math notranslate nohighlight">\(L\)</span> from the end of the deflection plates to the screen. Assuming that <span class="math notranslate nohighlight">\(L\gg l\)</span>, then the time of flight <span class="math notranslate nohighlight">\(t^\prime = L/v_{x}\)</span>. Since distance equals velocity × time, we get</p>
+<div class="math notranslate nohighlight" id="equation-eq-deflection-basic">
+<span class="eqno">(89)<a class="headerlink" href="#equation-eq-deflection-basic" title="Permalink to this equation">#</a></span>\[D = v_y t^\prime \rightarrow D = v_y\left(\frac{L}{v_x}\right)\]</div>
+<p>As a result of combining everything we’ve seen so far:</p>
+<div class="math notranslate nohighlight" id="equation-eq-deflection-final">
+<span class="eqno">(90)<a class="headerlink" href="#equation-eq-deflection-final" title="Permalink to this equation">#</a></span>\[D = \left(\frac{l L}{2 d V_k}\right)V_d\]</div>
+<p>where we see that deflection is directly proportional to deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span>. Usually, the geometric quantities are held constant but it is interesting to take a look at the effect of these factors on the deflection.</p>
+<p>With longer parallel plates there is more time for the electric field to act on the electron beam and cause deflection. Also, the closer the spacing between the deflection plates <span class="math notranslate nohighlight">\(d\)</span>, the more intense the field for a given deflection voltage yielding a larger deflection. Finally, the deflection will increase as the accelerating voltage <span class="math notranslate nohighlight">\(V_{k}\)</span> is decreased. This reduces the velocity of the electrons and allows them to spend more time within the deflection field.</p>
+<p>The visible spot you see on screen is the result of the energetic electrons releasing their kinetic energy as they impact phosphor atoms. A small portion of that energy is converted to visible light. Most of the energy just heats the screen!</p>
+<p>Summing up, the assumptions made in this derivation include:</p>
+<ol class="arabic simple">
+<li><p>The geometry of the deflection plates can be considered a ‘parallel-plate’ capacitor configuration. That is, the plates are relatively large and closely spaced. This implies that the electric field is uniform, vertical, and completely contained between the deflection plates.</p></li>
+<li><p>The distance to the screen is large compared to the horizontal size of the deflection plates (<span class="math notranslate nohighlight">\(L\gg l\)</span> in <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 46</span></a>), so the electron path may be considered to be a straight line from the center of the deflection plate configuration to screen.</p></li>
+<li><p>The electron beam’s enters with an initial direction that is parallel to the deflection plates.</p></li>
+</ol>
+</section>
+<section id="equipment">
+<h3>Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><em>Complete Properties of Electrons Apparatus</em></p>
+<ul>
+<li><p>List of experimental cases with their voltages</p></li>
+<li><p>Cathode Ray Tube (CRT)</p></li>
+<li><p>5 mm grid pattern on end of CRT</p></li>
+<li><p>Knobs for controlling X &amp; Y zeroing, X &amp; Y deflection voltages, and accelerating, focus, grid voltages</p></li>
+<li><p>Voltmeters for the different sections on the apparatus (See the black-outlined sections on the apparatus for which voltmeters go for which knobs)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="experimental-procedure">
+<h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<figure class="align-default" id="e3fig02">
+<a class="reference internal image-reference" href="../_images/E3_CRTControls_2024_v02.png"><img alt="../_images/E3_CRTControls_2024_v02.png" src="../_images/E3_CRTControls_2024_v02.png" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 47 </span><span class="caption-text">Controls and parameters for the CRT.</span><a class="headerlink" href="#e3fig02" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple">
+<li><p>All knobs, switched, displays are numbered and will appear as (#) in the following steps which correspond to those shown in <a class="reference internal" href="#e3fig02"><span class="std std-numref">Fig. 47</span></a>.</p></li>
+<li><p>Turn on the main power switch (10), and wait until the cathode warms up and a bright spot appears on the screen. If it doesn’t appear after ~30 s, an instructor can be of assistance; it’s likely a deflection or zeroing knob pushed the beam off-screen.</p></li>
+<li><p><strong>FOR CASE 1</strong> as listed on apparatus. Set the CRT voltage selector switch (3) to read the grid voltage <span class="math notranslate nohighlight">\(V_{G}\)</span>. Adjust the grid voltage to the given value using the grid potentiometer (17) whose voltage appears on the top voltmeter display (24).</p></li>
+<li><p>Now set the CRT voltage selector (3) to read the focus voltage <span class="math notranslate nohighlight">\(V_{I}\)</span>. Adjust the focus voltage to the given value using the focus potentiometer (20) whose voltage also appears on the top voltmeter display (24).</p></li>
+<li><p>Next, set the CRT voltage selector (3) to read the acceleration or cathode voltage <span class="math notranslate nohighlight">\(V_{K}\)</span>. Set the accel. voltage to the given values using the accel. potentiometer (21) whose voltage also appears on the top voltmeter display (24). (<span class="math notranslate nohighlight">\(V_{K, case 1} = 950\)</span> V, <span class="math notranslate nohighlight">\(V_{K, case 2} = 1100\)</span> V)</p></li>
+<li><p>Set electrostatic deflection selector switch (8) to X-deflection <span class="math notranslate nohighlight">\(V_{x}\)</span>, and set the X-deflection voltage potentiometers (13) to zero (0.0 V) which appears on the middle voltmeter display (23).</p></li>
+<li><p>Set electrostatic deflection selector switch (8) to Y-deflection <span class="math notranslate nohighlight">\(V_{y}\)</span>, and set the Y-deflection voltage potentiometers (12) to zero (0.0 V), again appearing on the middle voltmeter display (23).</p></li>
+<li><p>Then, use the <em><strong>ZERO</strong></em> X and Y potentiometers (1) to move the bright electron-beam spot to the bottom center of the screen grid (see <a class="reference internal" href="#e3fig03"><span class="std std-numref">Fig. 48</span></a>). These knobs do not change the Electrostatic Voltages in (23); if the voltages do change, check you are in fact using the <strong>ZERO</strong> knobs (1), <strong>not</strong> (12) or (13). Make sure to view the CRT head-on so as to account for possible misalignment from the effects of parallax (since the grid is horizontally displaced from the glass of the CRT).</p></li>
+</ol>
+<figure class="align-default" id="e3fig03">
+<a class="reference internal image-reference" href="../_images/E3_CRT_Grid_2024.png"><img alt="../_images/E3_CRT_Grid_2024.png" src="../_images/E3_CRT_Grid_2024.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 48 </span><span class="caption-text">Example of CRT grid and 4 mm spacings.</span><a class="headerlink" href="#e3fig03" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple" start="9">
+<li><p>Ensure the deflection voltage switch (8) is set to read the deflection voltage <span class="math notranslate nohighlight">\(V_{y}\)</span>. Since we are only deflecting electrons in the <span class="math notranslate nohighlight">\(y\)</span>-direction, we will refer to the deflection voltage as <span class="math notranslate nohighlight">\(V_{d}\)</span> (i.e. <span class="math notranslate nohighlight">\(V_{d} = V_{y}\)</span>).</p></li>
+<li><p>Create a common data table and record the grid voltage and the focus voltage. Record the following CRT data:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(d\)</span> = spacing between plates listed on the apparatus</p></li>
+<li><p><span class="math notranslate nohighlight">\(l\)</span> = length of horizontal deflection plates (parallel plates)</p></li>
+<li><p><span class="math notranslate nohighlight">\(L\)</span> = distance from plates to screen of tube</p></li>
+</ul>
+</li>
+<li><p>Create a data table with columns for the deflection voltage <span class="math notranslate nohighlight">\(V_d\)</span> and the deflection position <span class="math notranslate nohighlight">\(D\)</span> (e.g. 0, 4, 8, … 48 mm). <span class="math notranslate nohighlight">\(D\)</span> is based on the CRT grid and not to be calculated. At the start of each case, list the acceleration voltage, the grid voltage, and the focus voltage. Throughout the case, estimate and note your uncertainty in deflection position <span class="math notranslate nohighlight">\(\delta D\)</span>.</p></li>
+<li><p>Note the initial deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span> at <span class="math notranslate nohighlight">\(D=0\)</span> mm, then slowly increase the y-deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span> using the <span class="math notranslate nohighlight">\(y\)</span>-deflection potentiometer (12). Move the bright spot 4 mm and record the deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span>. Continue this process every 4 mm up to 48 mm for a total of 13 data points.
+<strong>Double check:</strong> The acceleration voltage <span class="math notranslate nohighlight">\(V_{k}\)</span> and the horizontal deflection voltage <span class="math notranslate nohighlight">\(V_{x}\)</span> must be constant during this procedure.</p></li>
+<li><p><strong>FOR CASE 2</strong>, repeat steps 3 to 12 above using Case 2 data listed on the apparatus including an acceleration voltage of 1100 V.</p></li>
+<li><p>For each case, plot your values of deflection distance <span class="math notranslate nohighlight">\(D\)</span> vs. deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span>. Reminder, <span class="math notranslate nohighlight">\(D\)</span> is not calculated, but rather just your 4 mm increments. Draw a best fit line through the data points and determine the slope, <span class="math notranslate nohighlight">\(m_\text{experimental}\)</span> of the line and the slope’s uncertainty <span class="math notranslate nohighlight">\(\delta m_\text{experimental}\)</span> (available either on the trend line equation or with the LINEST() function).</p></li>
+<li><p>Compare your data fit (slope) with the expected slope as predicted by the equation for <span class="math notranslate nohighlight">\(D\)</span> vs. <span class="math notranslate nohighlight">\(V_{d}\)</span>, namely</p></li>
+</ol>
+<div class="math notranslate nohighlight" id="equation-eq-slope-expected">
+<span class="eqno">(91)<a class="headerlink" href="#equation-eq-slope-expected" title="Permalink to this equation">#</a></span>\[D=m V_{d} \rightarrow m_\text{expected}=\frac{D}{V_{d}}=\left(\frac{l L}{2 d V_k}\right)\]</div>
+<p>where <span class="math notranslate nohighlight">\(m\)</span> is the slope of the line.
+16. For each case individually
+a. Use all 13 of your experimental deflection positions <span class="math notranslate nohighlight">\(D\)</span> and their deflection voltages <span class="math notranslate nohighlight">\(V_d\)</span> as well as the slope <span class="math notranslate nohighlight">\(m\)</span> of your best-fit line found in Step 14 to calculate the square root of the mean of the square difference between your data and the best fit line (i.e. you’re calculating the root mean square or RMS of the difference between what you claim the deflection position <span class="math notranslate nohighlight">\(D\)</span> is and what the best fit line of your data says the deflection position should be). For each of your 13 data points, you will have a squared difference of <span class="math notranslate nohighlight">\((D - m V_d)^2\)</span>.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>b. From those 13 values, you can take the mean, then the square root of that mean value for a resulting single value:
+</pre></div>
+</div>
+<div class="math notranslate nohighlight" id="equation-eq-rms">
+<span class="eqno">(92)<a class="headerlink" href="#equation-eq-rms" title="Permalink to this equation">#</a></span>\[\sqrt{\text{mean}(\text{all 13 squared differences})} = \sqrt{\text{mean}((D - m V_d)^2)}\]</div>
+<p>where <span class="math notranslate nohighlight">\(D\)</span> are your claimed 4 mm incremented deflection positions, <span class="math notranslate nohighlight">\(m\)</span> is your experimental slope, and <span class="math notranslate nohighlight">\(V_d\)</span> are your experimentally determined deflection voltages.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>c. Compare this RMS value to your estimate of how well you can read displacements on the screen (i.e. comparing to position uncertainties $\delta D$).
+</pre></div>
+</div>
+</section>
+<section id="post-lab-submission-interpretation-of-results">
+<h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Make sure to submit your finalized data sheet with summarized data and cleaned-up plots (Excel sheet)</p></li>
+<li><p>Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:</p>
+<ul>
+<li><p>Do your experimental results (slopes) agree with the expected slopes as predicted by <a class="reference internal" href="#equation-eq-slope-expected">(91)</a>? Physically, what do your experimental slopes represent?</p></li>
+<li><p>If you were to increase the accelerating voltage <span class="math notranslate nohighlight">\(V_{k}\)</span>, how do you expect the beam to be deflected? I.e. what does the accelerating voltage physically do to the electrons, and how do changes in the <span class="math notranslate nohighlight">\(V_{k}\)</span> affect the electrons’ path? Discuss using physical concepts regarding the electron path.</p></li>
+<li><p>Explain physically how the electron mass cancels and as a result does not appear in <a class="reference internal" href="#equation-eq-deflection-final">(90)</a>.</p></li>
+</ul>
+</li>
+<li><p>Paragraph of your errors and estimated measurement uncertainties. Be quantitative. Make sure to include discussion of the following:</p>
+<ul>
+<li><p>How does the uncertainty (RMS) of your plotted data compare to your estimated position uncertainty on the screen? Does the full data better represent the physical relationship we’re studying in this lab than your estimation of individual positions (be quantitative)? This is based on your values from Step 16.</p></li>
+<li><p>Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?</p></li>
+<li><p>What are your measured uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?</p></li>
+<li><p>If larger or small, are they more or less accurate to expected values?</p></li>
+<li><p>How could you improve your random errors?</p></li>
+<li><p>Were your systematic errors significant; how could this be improved if you were to re-run this experiment?</p></li>
+</ul>
+</li>
+<li><p>Reflect on this week’s lab; what did you learn?</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./ExperimentsGenPhysII"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="MappingPotential.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Electric Field and Equipotential Mapping</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Resistance.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Resistivity, Resistors, and DC Circuits</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Angela Biselli
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

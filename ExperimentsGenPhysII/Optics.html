@@ -1,0 +1,774 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Light – Diffraction with Lasers &amp; Geometric Optics and Imaging &#8212; General Physcis Laboratory</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ExperimentsGenPhysII/Optics';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Wave Motion" href="Waves.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="General Physcis Laboratory - Home"/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="General Physcis Laboratory - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to General Physics Lab
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Schedule for PHYS 1171</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Schedule for PHYS 1145</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Intro/IntroLab.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/DataAcquisition.html">Data Acquisition and Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/VernierCaliper.html">Vernier Calipers</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabI.html">General Physics Lab I</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentIntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentVectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentAccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentSimpleProjectile.html">Simple Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentCentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentConsEnTrack.html">Conservation of Energy with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentBallisticPendulum.html">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentRotationalMotion.html">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentIdealGas.html">Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentFluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentPendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../GeneralPhysicsLabII.html">General Physics Lab II</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Eps0.html">Electric Force and the Determination of <span class="math notranslate nohighlight">\(\varepsilon_0\)</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="MappingPotential.html">Electric Field and Equipotential Mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ElectronDeflection.html">Acceleration And Deflection Of Electrons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Resistance.html">Resistivity, Resistors, and DC Circuits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RCCircuit.html">Electrical Example of an Exponential Decay Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Mu0.html">Magnetic Force and the Determination of μ₀</a></li>
+<li class="toctree-l2"><a class="reference internal" href="EoverM.html">Measurement of Electrons’ e/m Ratio &amp; Magnetic Field Measurement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FaradayLaw.html">Faraday’s Law of Induction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Waves.html">Wave Motion</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Light – Diffraction with Lasers &amp; Geometric Optics and Imaging</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FExperimentsGenPhysII/Optics.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/ExperimentsGenPhysII/Optics.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Light – Diffraction with Lasers & Geometric Optics and Imaging</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background-part-i-multiple-slit-diffraction">Background – Part I – Multiple Slit Diffraction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure-part-i-multiple-slit-diffraction-grating">Experimental Procedure – Part I: Multiple Slit Diffraction Grating</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background-part-ii-reflected-diffraction-pattern">Background – Part II – Reflected Diffraction Pattern</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure-part-ii-reflection-diffraction-grating">Experimental Procedure – Part II: Reflection Diffraction Grating</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure-part-iii-geometric-optics-single-element-imaging">Experimental Procedure – Part III – Geometric Optics &amp; Single Element Imaging</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="light-diffraction-with-lasers-geometric-optics-and-imaging">
+<h1>Light – Diffraction with Lasers &amp; Geometric Optics and Imaging<a class="headerlink" href="#light-diffraction-with-lasers-geometric-optics-and-imaging" title="Permalink to this heading">#</a></h1>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p><strong>⚠️ LASERS IN USE TODAY ⚠️</strong></p>
+<p><strong>DO NOT SHINE THE LASER INTO ANYONE’S EYES</strong></p>
+<p><strong>YOU AND OTHERS CAN GO BLIND</strong></p>
+</div>
+<section id="background-part-i-multiple-slit-diffraction">
+<h2>Background – Part I – Multiple Slit Diffraction<a class="headerlink" href="#background-part-i-multiple-slit-diffraction" title="Permalink to this heading">#</a></h2>
+<section id="overall-goals-and-overview">
+<h3>Overall goals and overview<a class="headerlink" href="#overall-goals-and-overview" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Investigate diffraction of light and its relation to multiple-slit spacings and light wavelength with a monochromatic laser.</p></li>
+<li><p>Investigate reflected light diffraction and its relationship to size of the reflective object’s topography, again with a monochromatic laser.</p></li>
+<li><p>Investigate light refraction through lenses, both unfiltered and chromatically or spherically filtered by determining focal lengths with image and object distances.</p></li>
+<li><p>In today’s lab, you will complete three experiments:</p>
+<ul>
+<li><p><strong>Experiment 1</strong>: Shine a laser through multiple slits of known spacing, creating a diffraction pattern on a far wall. Tape a piece of paper centered on the pattern, trace the pattern, then measure the spacing between the dots. Determine the wavelength and compare to the actual value of the laser.</p></li>
+<li><p><strong>Experiment 2</strong>: Shine a laser on a music CD to create a reflected diffraction pattern. Using the spacing of the diffraction pattern and wavelength determined in Experiment 1, determine the spacing between the physical tracks (pits) indented in the plastic of the CD. Compare to the known value given in the procedure. Consider how the diffraction spacing relates to the topography of the CD.</p></li>
+<li><p><strong>Experiment 3</strong>: Determine focal lengths of the lens first unfiltered at various distances, then chromatic filtering through red and blue filters, then spherical aberration near center and edge of the lens; consider the physical reasoning for longer or shorter focal lengths depending on differences in the filtering or refracting of the light source. Plot image vs. object distance pairs for the unfiltered distances and investigate the convergence point; compare that value to your average of focal lengths from the unfiltered portion of this experiment.</p></li>
+</ul>
+</li>
+</ul>
+<p>Multiple slit diffraction will be used first to find the wavelength of a laser light source. Having determined the wavelength of the laser light, that combined with the reflected diffraction pattern will be used to determine the spacing between the tracks of a standard music CD (compact disc).</p>
+<p>To understand diffraction, we will consider the interference of various parts of a wavefront as they emerge from a transmission diffraction grating. The transmission grating is much like the openings formed by partially open window blinds. The diffractive effects result from the interference of the various portions of the same wavefront as they are formed by passing the wavefront through the diffraction grating.</p>
+<p>The number of slits that are actually used in the experiment is very large. To quickly understand diffraction from multiple slits, we will consider the pattern of constructive interference of the portions of the wavefront that emerge from two, narrow slits, spaced a distance <span class="math notranslate nohighlight">\(d\)</span> apart as illustrated in <a class="reference internal" href="#fig-two-slit-wavefronts"><span class="std std-numref">Figure 66</span></a>.</p>
+<figure class="align-center" id="fig-two-slit-wavefronts">
+<a class="reference internal image-reference" href="../_images/Figure015.jpg"><img alt="Two-slit wavefront diagram showing interference patterns" src="../_images/Figure015.jpg" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 66 </span><span class="caption-text">Two-Slit Wavefronts</span><a class="headerlink" href="#fig-two-slit-wavefronts" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The analysis of the resulting diffraction pattern after the light passes through the slits rests on two fundamental principles. The first, Huygen’s principle, states that each portion of a wavefront can be considered a separate radiating source. The second is linear superposition; that is, the total field vector at any given position is the vector sum of the individual field vectors simultaneously present.</p>
+<p>The portion of the wavefronts that are present in the slits are considered Huygen sources of radiating spherical wavelets. The wavelets then interfere with each other to form new wavefronts. (If a plane wave were radiating unimpeded in free space, each of these wavelets would interfere to form additional plane waves propagating in the same direction as the original wavefront.) However, when portions of a wave-front are deleted as they are here, the interference will form a diffraction pattern that is very different from the plane wave that would have been formed (see example in <a class="reference internal" href="#fig-double-slit-diffraction"><span class="std std-numref">Figure 67</span></a>).</p>
+<figure class="align-center" id="fig-double-slit-diffraction">
+<a class="reference internal image-reference" href="../_images/Figure_10_diffraction_v02.png"><img alt="Double slit diffraction pattern showing constructive and destructive interference" src="../_images/Figure_10_diffraction_v02.png" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 67 </span><span class="caption-text">Double Slit Diffraction. (A) Light spreads out (diffracts) from each slit, because the slits are narrow. These waves overlap and interfere constructively (bright spots) and destructively (dark regions). We can only see this if the light falls onto a screen and is scattered into our eyes. (B) When light that has passed through double slits falls on a screen, we see a pattern such as this.</span><a class="headerlink" href="#fig-double-slit-diffraction" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Consider the schematic in <a class="reference internal" href="#fig-double-slit-diagram"><span class="std std-numref">Figure 68</span></a>; when the path length difference is equal to an <strong>integral number of wavelengths</strong> of the light, then the wavelets from each of the slits will <strong>constructively interfere</strong> and produce a bright spot. Notice that this condition occurs at angles when</p>
+<div class="math notranslate nohighlight" id="equation-eq-sin-theta">
+<span class="eqno">(132)<a class="headerlink" href="#equation-eq-sin-theta" title="Permalink to this equation">#</a></span>\[d \sin\theta_{n} = n \lambda\]</div>
+<p>where <span class="math notranslate nohighlight">\(n\)</span> is an integer (<span class="math notranslate nohighlight">\(\pm\)</span>) and <span class="math notranslate nohighlight">\(\lambda\)</span> is the wavelength of the light.</p>
+<p>Thus we can expect to see bright spots on the wall/paper/board, when the angle from the initial direction of the laser beam satisfies the above criterion. For the small angles we are dealing with here, the distance from the initial bright spot, when <span class="math notranslate nohighlight">\(n\)</span> = 0, and therefore <span class="math notranslate nohighlight">\(\theta\)</span> = 0, to each of the diffracted spots is given by</p>
+<div class="math notranslate nohighlight" id="equation-eq-y-distance">
+<span class="eqno">(133)<a class="headerlink" href="#equation-eq-y-distance" title="Permalink to this equation">#</a></span>\[y_{n}= X \tan\theta_{n} \simeq X \sin\theta_{n}\]</div>
+<p>where <span class="math notranslate nohighlight">\(X\)</span> is the distance to the screen, and <span class="math notranslate nohighlight">\(n\)</span> is the order number.</p>
+<p>Combining these two equations</p>
+<div class="math notranslate nohighlight" id="equation-eq-y-combined">
+<span class="eqno">(134)<a class="headerlink" href="#equation-eq-y-combined" title="Permalink to this equation">#</a></span>\[y= m X \lambda /d\]</div>
+<p>For small angles, <span class="math notranslate nohighlight">\(\sin\theta_{n} \sim \theta_{n}\)</span> (in radians). For the small angles we are dealing with here, the distances <span class="math notranslate nohighlight">\(y\)</span> are very small with respect to <span class="math notranslate nohighlight">\(X\)</span>. Under these conditions, you can measure the distance between neighboring spots and then average all of these measurements to get a reasonably good number to use for <span class="math notranslate nohighlight">\(\Delta y\)</span>. From <a class="reference internal" href="#equation-eq-y-combined">(134)</a>, <span class="math notranslate nohighlight">\(\Delta y = X \lambda / d\)</span>, or</p>
+<div class="math notranslate nohighlight" id="equation-eq-wavelength">
+<span class="eqno">(135)<a class="headerlink" href="#equation-eq-wavelength" title="Permalink to this equation">#</a></span>\[\lambda=\Delta y d / X\]</div>
+<p>The slit spacing <span class="math notranslate nohighlight">\(d\)</span> is given, you determine laser wavelength, and you can compare your results with the known wavelength of the HeNe (Helium Neon) laser you are using.</p>
+<figure class="align-center" id="fig-double-slit-diagram">
+<a class="reference internal image-reference" href="../_images/Figure025.jpg"><img alt="Double slit diffraction geometry showing path difference and angle relationships" src="../_images/Figure025.jpg" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 68 </span><span class="caption-text">Double Slit Diffraction</span><a class="headerlink" href="#fig-double-slit-diagram" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="equipment">
+<h3>Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">#</a></h3>
+<p><strong>Experiment I</strong></p>
+<p>The setup will appear in similar form to that seen in <a class="reference internal" href="#fig-experimental-setup"><span class="std std-numref">Figure 69</span></a> with laser pointed towards the diffraction grating which creates the diffraction pattern as seen earlier in <a class="reference internal" href="#fig-double-slit-diffraction"><span class="std std-numref">Figure 67</span></a> right.</p>
+<figure class="align-center" id="fig-experimental-setup">
+<a class="reference internal image-reference" href="../_images/Figure_20_experimentalSetup.png"><img alt="Laser mounted on black optics track pointed towards diffraction grating" src="../_images/Figure_20_experimentalSetup.png" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 69 </span><span class="caption-text">Left) Laser mounted on black optics track pointed towards the diffraction grating as seen on the right.</span><a class="headerlink" href="#fig-experimental-setup" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Diffraction grating with multiple slits of spacing <span class="math notranslate nohighlight">\(d=0.20\,\text{mm}\)</span></p></li>
+<li><p>Red HeNe laser with known value <span class="math notranslate nohighlight">\(\lambda_{\text{HeNe}}=632.8\,\text{nm}\)</span> and power source</p></li>
+<li><p>Black optics track to mount everything</p></li>
+<li><p>30 m long metric tape measure</p></li>
+<li><p>White paper and tape</p></li>
+</ul>
+<p><strong>Experiment II</strong>, discussed further after experiment I.</p>
+<ul class="simple">
+<li><p>Music CD with <span class="math notranslate nohighlight">\(\sim 1.6 \times 10^{-6}\,\text{m}\)</span> track spacing (see close-up example in <a class="reference internal" href="#fig-cd-tracks"><span class="std std-numref">Figure 70</span></a> left)</p></li>
+<li><p>Red HeNe laser with known value <span class="math notranslate nohighlight">\(\lambda_{\text{HeNe}}=632.8\,\text{nm}\)</span> and power source</p></li>
+<li><p>Black optics track to mount everything</p></li>
+<li><p>Metric ruler vertically mounted with hole to allow laser to pass through</p></li>
+</ul>
+<p><strong>Experiment III</strong>, discussed further after experiment II.</p>
+<ul class="simple">
+<li><p>Black optics track to mount everything</p></li>
+<li><p>Light box with image on it (position of image noted by indented metal aligned with the ruler on the optics track) with power brick</p></li>
+<li><p>Convex lens in lens holder (position of the lens in the holder is noted by a small plastic protrusion on the side of the holder to be lined up with the ruler on the optics track)</p></li>
+<li><p>Red and blue filter – attaches to light box</p></li>
+<li><p>Disk and annulus mask filters – attached to lens holder</p></li>
+<li><p>White viewing screen (movable along the optics track)</p></li>
+</ul>
+<p>\pagebreak</p>
+</section>
+</section>
+<section id="experimental-procedure-part-i-multiple-slit-diffraction-grating">
+<h2>Experimental Procedure – Part I: Multiple Slit Diffraction Grating<a class="headerlink" href="#experimental-procedure-part-i-multiple-slit-diffraction-grating" title="Permalink to this heading">#</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p><strong>DO NOT SHINE THE LASER INTO ANYONE’S EYES</strong></p>
+<p><strong>YOU AND OTHERS CAN GO BLIND</strong></p>
+</div>
+<ol class="arabic simple">
+<li><p>Turn on the laser and allow the beam to pass through the diffraction grating and form the diffraction pattern on the far wall. Tape a white sheet of paper on the wall at the position of the pattern. You should see a center bright spot with a series of evenly spaced diffraction spots above and below the center bright spot.</p></li>
+<li><p><strong>WHILE BEING CAREFUL NOT TO LOOK BACK INTO THE LASER</strong>, mark the location of each spot on the paper by carefully circling each spot on the paper.</p></li>
+<li><p>Using the steel metric tape measure, measure the distance from the diffraction grating to the paper screen on the blackboard.</p></li>
+<li><p>Remove the paper. Measure and record in a data table the coordinate of the center of each spot relative to the bottom edge of the paper (to have a consistent spot to measure from). Calculate and record in the data table the center to center distances between each spot and its nearest-neighbor spot by subtracting their coordinates. Calculate and record the average and standard deviation of these distances. As you can see from <a class="reference internal" href="#equation-eq-y-distance">(133)</a>, the spacing should not be exactly the same. However, for the very small angles and range of angles we have here, they can be considered evenly spaced. This is of course the small angle approximation of the sine function.</p></li>
+<li><p>Calculate the wavelength of the laser using <a class="reference internal" href="#equation-eq-wavelength">(135)</a> and compare it to the known value <span class="math notranslate nohighlight">\(\lambda_{\text{HeNe}}=632.8\,\text{nm}\)</span>. The diffraction grating spacing is <span class="math notranslate nohighlight">\(d=0.20\,\text{mm}\)</span>, <span class="math notranslate nohighlight">\(200\,\mu\text{m}\)</span>, many times larger than the spacings of the CD tracks you will see in Part II.</p></li>
+</ol>
+</section>
+<section id="background-part-ii-reflected-diffraction-pattern">
+<h2>Background – Part II – Reflected Diffraction Pattern<a class="headerlink" href="#background-part-ii-reflected-diffraction-pattern" title="Permalink to this heading">#</a></h2>
+<p>For the second part of the diffraction experiment, we will use the <strong>now known wavelength</strong> of the light source to measure the spacing of an unknown array of slits. The unknown slits are the tracks of a CD (compact disc) with a zoomed in example shown in <a class="reference internal" href="#fig-cd-tracks"><span class="std std-numref">Figure 70</span></a>.</p>
+<figure class="align-center" id="fig-cd-tracks">
+<a class="reference internal image-reference" href="../_images/Figure_11_diffraction_v02.png"><img alt="Topography of CD ROM showing track spacing" src="../_images/Figure_11_diffraction_v02.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 70 </span><span class="caption-text">Topography of a CD ROM. Lower capacity music CD on left, higher capacity DVD on right where the tracks are more closely packed together.</span><a class="headerlink" href="#fig-cd-tracks" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Regarding a CD, before data is written to it, you would have just a flat surface. During manufacturing, for data to be written to the CD, a long, spiral track containing all the data (songs in the case of a music CD) is stamped into the plastic. This process creates little divots, called pits, into the plastic substrate; that surface is later metalized with aluminum to create a shiny, reflective surface. The spiral track is made to be a consistently spaced, spiral line of pits and flat surfaces that are <span class="math notranslate nohighlight">\(\sim 1.6 \times 10^{-6}\,\text{m}\)</span> or <span class="math notranslate nohighlight">\(1.6\,\mu\text{m}\)</span> apart (see <a class="reference internal" href="#fig-cd-tracks"><span class="std std-numref">Figure 70</span></a>). To a laser, these pits act like slit-shaped mirrors that can reflect the laser light back at different angles, effectively creating the sources a new spherical wavelets. The subsequent reflected wavelets will interfere either constructively or deconstructively and create a reflected diffraction pattern whose characteristics depend on the wavelength of the laser and spacing the of CD tracks. Thus the analysis is the same as the transmission slits we used in part I, except we will reflect the laser beam from the CD rather than transmit it through as we did before. Because the spacing of the tracks of the CD are very small, the diffraction angles are large and small angle approximations cannot be used.</p>
+<figure class="align-center" id="fig-reflection-diffraction">
+<a class="reference internal image-reference" href="../_images/Figure031.jpg"><img alt="Reflection diffraction pattern from CD ROM" src="../_images/Figure031.jpg" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 71 </span><span class="caption-text">Reflection Diffraction of CD ROM</span><a class="headerlink" href="#fig-reflection-diffraction" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="fig-cd-setup">
+<a class="reference internal image-reference" href="../_images/Figure_21_experimentalSetup.png"><img alt="Laser setup for CD reflection experiment" src="../_images/Figure_21_experimentalSetup.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 72 </span><span class="caption-text">Left) Laser mounted on black optics track pointed towards the CD. Center) Laser light passes through the ruler and reflects off the CD to create the diffraction pattern in (right).</span><a class="headerlink" href="#fig-cd-setup" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The experiment is configured as illustrated in <a class="reference internal" href="#fig-reflection-diffraction"><span class="std std-numref">Figure 71</span></a> and an example of the setup is in <a class="reference internal" href="#fig-cd-setup"><span class="std std-numref">Figure 72</span></a>.</p>
+<p>The spacing of the tracks of a CD are so small that you will see only the first order diffraction spots, i.e. <span class="math notranslate nohighlight">\(n = \pm 1\)</span>. With the large angle <span class="math notranslate nohighlight">\(\Theta\)</span> expected, the distance <span class="math notranslate nohighlight">\(X\)</span> can be about 30 cm and a standard sheet of graph paper can be used for the paper screen. From your measurements of <span class="math notranslate nohighlight">\(X\)</span> and <span class="math notranslate nohighlight">\(\Delta y\)</span>, determine the diffraction angle <span class="math notranslate nohighlight">\(\Theta\)</span> from the tangent relation. Using <a class="reference internal" href="#equation-eq-y-distance">(133)</a>, we can solve for the track spacing, <span class="math notranslate nohighlight">\(d\)</span>, as</p>
+<div class="math notranslate nohighlight" id="equation-eq-track-spacing">
+<span class="eqno">(136)<a class="headerlink" href="#equation-eq-track-spacing" title="Permalink to this equation">#</a></span>\[d=\lambda / \sin\theta\]</div>
+</section>
+<section id="experimental-procedure-part-ii-reflection-diffraction-grating">
+<h2>Experimental Procedure – Part II: Reflection Diffraction Grating<a class="headerlink" href="#experimental-procedure-part-ii-reflection-diffraction-grating" title="Permalink to this heading">#</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p><strong>DO NOT SHINE THE LASER INTO ANYONE’S EYES</strong></p>
+<p><strong>YOU AND OTHERS CAN GO BLIND</strong></p>
+</div>
+<ol class="arabic simple">
+<li><p>Turn off the laser before moving it. Set up the laser and CD ROM as shown schematically in <a class="reference internal" href="#fig-reflection-diffraction"><span class="std std-numref">Figure 71</span></a>. Turn on the laser and adjust the apparatus so the bright, center spot is directly back towards the laser. You should see the first order diffraction spots, one above and one below the center bright spot and a second order diffraction spot above the center spot.</p></li>
+<li><p>Using the scale, measure and record the distances <span class="math notranslate nohighlight">\(\Delta y_{1}\)</span>, <span class="math notranslate nohighlight">\(\Delta y_{-1}\)</span> and <span class="math notranslate nohighlight">\(\Delta y_{2}\)</span>.</p></li>
+<li><p>Average the <span class="math notranslate nohighlight">\(\Delta y_{1}\)</span> and <span class="math notranslate nohighlight">\(\Delta y_{-1}\)</span> and record the value.</p></li>
+<li><p>Calculate the track spacing for each first-order diffraction spot and average the two determinations. Compare your calculated track spacing with the microscopically determined track spacing <span class="math notranslate nohighlight">\(1.6 \times 10^{-6}\,\text{m}\)</span>.</p></li>
+<li><p>Calculate the angle of the second-order diffraction spot using <a class="reference internal" href="#equation-eq-sin-theta">(132)</a>. Compare the height <span class="math notranslate nohighlight">\(\Delta y_{2}\)</span> of the second-order diffraction spot with the calculated height from <a class="reference internal" href="#equation-eq-y-distance">(133)</a>. Notice that you cannot use the small angle approximation here.</p></li>
+</ol>
+<p>\section{Background~\textendash~Part III~\textendash~Geometric Optics &amp; Single Element Imaging}</p>
+<p>Under many circumstances, the behavior of light can be analyzed by assuming that light travels in straight-line paths called light rays.  Light rays are a representation of what is actually a very narrow beam of light.  Using this representation of light, the behavior of many optical elements such as lenses and mirrors, and optical instruments such as telescopes, microscopes and projectors can be analyzed.  The use of the ray model draws heavily on geometry, and is called geometric optics.</p>
+<p>In addition to using the ray model of light, the lens that will be used will be analyzed under the thin lens approximation.  This approximation will assume that the thickness of the lens is very small compared with the focal length.  The result of this assumption is that the bending of the rays as they pass through the lens is considered to have occurred at a plane surface through the mid-line of the lens, perpendicular to the principal axis.  Actually, the bending (the refraction) occurs at both the entrance and exit surfaces separated by a finite distance.</p>
+<p>In this experiment, the behavior of a simple lens will be investigated with the setup (example in <a class="reference internal" href="#w2afig022-setup"><span class="std std-numref">Fig. 73</span></a>).</p>
+<figure class="align-default" id="w2afig022-setup">
+<a class="reference internal image-reference" href="../_images/Figure_22_experimentalSetup.png"><img alt="../_images/Figure_22_experimentalSetup.png" src="../_images/Figure_22_experimentalSetup.png" style="width: 5.5in;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 73 </span><span class="caption-text">A) Light box and lens mounted on optics track. B) Lightpath through lens onto the white screen. C) Image on the light box. D) Refracted image through the lens on the white screen. E) Annulus filter to allow light through center of lens. F) Disk filter to allow light through edges of lens.</span><a class="headerlink" href="#w2afig022-setup" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>In preparing for this laboratory, you should review this section in your text, particularly the various techniques of ray tracing analysis, sign conventions, definitions of object/image distances and focal lengths of converging and diverging lenses.  The relation of the focal length and the object and image distances under the assumption of a thin lens is given by</p>
+<div class="math notranslate nohighlight" id="equation-eq-w2beq1">
+<span class="eqno">(137)<a class="headerlink" href="#equation-eq-w2beq1" title="Permalink to this equation">#</a></span>\[\frac{1}{f}=\frac{1}{s_o}+\frac{1}{s_i}\]</div>
+<p>where <span class="math notranslate nohighlight">\(s_o\)</span> and <span class="math notranslate nohighlight">\(s_i\)</span> are the object and image distances respectively.  Imaging a very distant object can reasonably approximate the focal length of a converging lens.  From <a class="reference internal" href="#equation-eq-w2beq1">(137)</a>, if the object distance is very large compared to the focal length of the lens, the image distance is essentially the focal length.  That is to say, the image of a very distant object is essentially at the focal point.  Very convenient distant point sources of light are stars whose images are indeed at the focal point.  For our laboratory, if available, sunlight will do just fine.  Closer `distant’ objects in the laboratory will give reasonable approximations to the focal length of the lens used in this laboratory.</p>
+<p>The linear magnification, <span class="math notranslate nohighlight">\(m\)</span>, produced by a lens is the ratio of the length of the image to the length of the object.  This can be shown to also be equal to the ratio of the image distance to object distance, or</p>
+<div class="math notranslate nohighlight" id="equation-eq-magnification">
+<span class="eqno">(138)<a class="headerlink" href="#equation-eq-magnification" title="Permalink to this equation">#</a></span>\[m=\frac{h_i}{h_o}=-\frac{s_i}{s_o}\]</div>
+<p>The minus sign accounts for the orientation of the image (erect or inverted with respect to the object) and the sign convention of the object and image distances.
+Another result of the thin lens approximation is the result shown in <a class="reference internal" href="#equation-eq-w2beq2">(139)</a> which relates the effective focal length <span class="math notranslate nohighlight">\(f\)</span> of the combination of two thin lenses in very close proximity (perhaps in contact).  The focal lengths of the individual lenses are <span class="math notranslate nohighlight">\(f_{1}\)</span> and <span class="math notranslate nohighlight">\(f_{2}\)</span>.</p>
+<div class="math notranslate nohighlight" id="equation-eq-w2beq2">
+<span class="eqno">(139)<a class="headerlink" href="#equation-eq-w2beq2" title="Permalink to this equation">#</a></span>\[\frac{1}{f}=\frac{1}{f_{1}}+\frac{1}{f_{2}}\]</div>
+<p>Since diverging lenses cannot form real images, the imaging of a distant object as a method of measuring the focal length is not possible.  However <a class="reference internal" href="#equation-eq-w2beq2">(139)</a> can be used to approximate the focal length of a diverging lens by measuring the effective focal length of a known converging lens and the unknown diverging lens.  Notice of course that the converging power of the positive lens (measured by the reciprocal of the focal length) must be greater in absolute value than the strength of the diverging lens since the effective focal length must be positive.  (This measurement of the strength of the lens by the reciprocal of the focal length is the dioptic power of the lens, measured in m⁻¹.)</p>
+<p>There are two common defects or aberrations of the simple lens we will use.  The first results from the spherical shape of the lens surfaces.  The result is that the rays near the edge of a lens are refracted or bent more than those near the principal axis.  The effective focal point of the outer rays is smaller than the focal length of the rays closer to the center.  This so-called spherical aberration causes a large diameter beam to focus over a range of lengths and images formed at a specific distance from the lens will be somewhat fuzzy.</p>
+<p>The second common defect results from the wavelength dependence of the index of refraction of the glasses from which the lens is made.  The change in index of refraction results in a focal length dependence on the wavelength, or color, of the light.  Images formed from white light illumination of an object will produce colored images, each one formed at a slightly different image distance.  If such an image were produced on a screen or a piece of film, you see an image whose edges were multicolored lines — a very disturbing effect.  This defect must be corrected in most optical instruments designed to be used with white light.  Binoculars, for example, would be totally useless with this so-called chromatic aberration.</p>
+<p>This experiment will examine the spherical and chromatic aberrations of simple, converging images.  For the spherical aberration, the focal length will be determined by measuring the focal length of the lens when only certain rays will be allowed through the lens.  In one case an annular ring (donut) will allow only the rays near the center of the lens.  A small disk placed near the center of the lens will allow only the edge rays to be used in the second case.</p>
+<p>The chromatic aberration will be investigated by using color filters to permit the focal length measurement for specific colors.</p>
+<p>For each case, the object and image distances are measured, and the focal length determined via <a class="reference internal" href="#equation-eq-w2beq1">(137)</a>.</p>
+<p>The linear magnification will be determined by measuring the object and image size and comparing that ratio to the ratio of the object and image distance.</p>
+</section>
+<section id="experimental-procedure-part-iii-geometric-optics-single-element-imaging">
+<h2>Experimental Procedure – Part III – Geometric Optics &amp; Single Element Imaging<a class="headerlink" href="#experimental-procedure-part-iii-geometric-optics-single-element-imaging" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Using a distant object that you can assume to be effectively at ‘infinity’, measure the distance from the lens to the image (image distance). A distant object might be the sun, a tree outside the laboratory window, or at worst a light as distant as possible in the laboratory. Record your measurement or estimate of the object distance if it is not a very distance object. Measure and record the image distance as accurately as possible. Record the focal length found using <a class="reference internal" href="#equation-eq-w2beq1">(137)</a> on the data sheet.</p></li>
+<li><p>Create a data table for magnification with columns for object distance, object height, image distance, image height, the focal length, the magnification calculated from the heights and the magnification calculated from the distances from the lens.</p></li>
+<li><p>On the optical bench, used for this and all succeeding steps, set up the illuminated object at 0.0 cm on the metric ruler along the track. Place the lens at 13.0 cm and move the screen to a position that produces the sharpest possible image. Record the object distance, which is measured from the light source to the lens. Also record the image distance, which is measured from the lens to the screen (not the location of the screen). Calculate and record the focal length using the object distance and the image distance. Is it consistent with the focal length measured with a distant object?</p></li>
+<li><p>Only for non-filtered cases, measure the length of one of the arrows or circles on the object and measure the length of the same arrow or circle on the image and record them as <span class="math notranslate nohighlight">\(h_o\)</span> and <span class="math notranslate nohighlight">\(h_i\)</span> respectively. Calculate the resulting magnification with <a class="reference internal" href="#equation-eq-magnification">(138)</a>.</p></li>
+<li><p>Create a data table with columns for object distance, image distance, and focal length from <a class="reference internal" href="#equation-eq-w2beq1">(137)</a>. Include rows for the red filter, the blue filter, the disk and the annulus. The lenses have only a little chromatic aberration and spherical aberration, so you will need to be careful locating the screen at the best focus.</p></li>
+<li><p>Repeat step 3 using first the red and then the blue filter in front of the object. While leaving the lens fixed, move the screen to produce the best focused image. Carefully record only the object and image distances and determine the ‘red focal length’ and the ‘blue focal length.’</p></li>
+<li><p>Repeat step 3 using the two light stops or light masks; the disk and the annulus/donut. Center the disk mask filter in front of the lens so only rays near the outer edge of the disk are being used to form the image. Move the screen until the image is focused. Carefully measure the object and image distance and determine the focal length. Replace the disk with the annulus mask so now only the rays near the center of the lens are used to form the image and determine the focal length again. Record the data.</p></li>
+<li><p>Repeat steps 3 and 4 using the lens without the filters and without the annulus or disk. Add more rows to the data table using the object distances: 11 cm, 13 cm, 25 cm, 40 cm, 55 cm, 70 cm, and 85 cm. Calculate the average focal length and its standard deviation.</p></li>
+<li><p>Set up a series of object and image distances and record the data points. Since the object and image can always be interchanged, each measurement of an object-image distance pair represents two data trials. Construct a graph where one axis is the image distance and the other is the object distance. For a particular data point, plot the object distance on the object axis and the image distance on the image axis. Connect the two points with a straight line. Repeat this process for each of your object-image data trials. In the ideal case, all of the lines should intersect at the point <span class="math notranslate nohighlight">\((f,f)\)</span>. Visually estimate the point <span class="math notranslate nohighlight">\((s_o,s_i)\)</span> closest to the intersections and estimate the focal length by <span class="math notranslate nohighlight">\(f=(s_o+s_i)/2\)</span>. Compare this determination of the focal length with the values from steps 8, 1 and 3.</p></li>
+</ol>
+</section>
+<section id="post-lab-submission-interpretation-of-results">
+<h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Make sure to submit your finalized data sheet with summarized data and cleaned-up plots (Excel sheet)</p></li>
+<li><p>Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:</p>
+<ul>
+<li><p><strong>For Diffraction:</strong> Does your value for laser wavelength agree with the accepted value for a HeNe laser (<span class="math notranslate nohighlight">\(\lambda_{\mbox{HeNe}}=632.8\)</span> nm)?</p></li>
+<li><p>Does your value for CD track spacing (of the spiral of data pits) agree with the accepted value of CD track spacings (<span class="math notranslate nohighlight">\(\sim1.6\times 10^{-6}\)</span> m)?</p></li>
+<li><p>How does the diffraction pattern spacing depend on the laser’s wavelength and the diffraction grating spacing?</p></li>
+<li><p><strong>For Optics:</strong> How do your focal lengths from each set compare (distant object vs. 13 cm, red vs. blue, disk vs. annulus?</p></li>
+<li><p>Do they agree based on your uncertainties?</p></li>
+<li><p>Physically, why is the focal length from the red or blue filter shorter or longer; what would cause that?</p></li>
+<li><p>Physically, why does the disk or annulus filtered light produce a shorter or longer focal length; what would cause that?</p></li>
+<li><p>For your plot of image vs. object distances, where do the lines from each object/image pair converge; does that value ± your estimated uncertainty from the plot agree with your average value for focal lengths for the variety of image/object distances?</p></li>
+<li><p>On the plot, why do the lines converge?</p></li>
+</ul>
+</li>
+<li><p>Paragraph of your errors and estimated measurement uncertainties. Be quantitative. Make sure to include discussion of the following:</p>
+<ul>
+<li><p>Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?</p></li>
+<li><p>What are your measured uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?</p></li>
+<li><p>Change different variables by your best estimation of measurement uncertainties in your Excel sheet; what variables affect the accuracy of your final results the most?</p></li>
+<li><p>If larger or small, are they more or less accurate to expected values?</p></li>
+<li><p>How could you improve your random errors?</p></li>
+<li><p>Were your systematic errors significant; how could this be improved if you were to re-run this experiment?</p></li>
+</ul>
+</li>
+<li><p>Reflect on this week’s lab; what did you learn?</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./ExperimentsGenPhysII"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Waves.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Wave Motion</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background-part-i-multiple-slit-diffraction">Background – Part I – Multiple Slit Diffraction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure-part-i-multiple-slit-diffraction-grating">Experimental Procedure – Part I: Multiple Slit Diffraction Grating</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background-part-ii-reflected-diffraction-pattern">Background – Part II – Reflected Diffraction Pattern</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure-part-ii-reflection-diffraction-grating">Experimental Procedure – Part II: Reflection Diffraction Grating</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure-part-iii-geometric-optics-single-element-imaging">Experimental Procedure – Part III – Geometric Optics &amp; Single Element Imaging</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Angela Biselli
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

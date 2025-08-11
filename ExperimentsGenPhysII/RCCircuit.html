@@ -1,0 +1,807 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Electrical Example of an Exponential Decay Process &#8212; General Physcis Laboratory</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ExperimentsGenPhysII/RCCircuit';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Magnetic Force and the Determination of μ₀" href="Mu0.html" />
+    <link rel="prev" title="Resistivity, Resistors, and DC Circuits" href="Resistance.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="General Physcis Laboratory - Home"/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="General Physcis Laboratory - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to General Physics Lab
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Schedule for PHYS 1171</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Schedule for PHYS 1145</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Intro/IntroLab.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/DataAcquisition.html">Data Acquisition and Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/VernierCaliper.html">Vernier Calipers</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabI.html">General Physics Lab I</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentIntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentVectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentAccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentSimpleProjectile.html">Simple Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentCentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentConsEnTrack.html">Conservation of Energy with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentBallisticPendulum.html">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentRotationalMotion.html">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentIdealGas.html">Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentFluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentPendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../GeneralPhysicsLabII.html">General Physics Lab II</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Eps0.html">Electric Force and the Determination of <span class="math notranslate nohighlight">\(\varepsilon_0\)</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="MappingPotential.html">Electric Field and Equipotential Mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ElectronDeflection.html">Acceleration And Deflection Of Electrons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Resistance.html">Resistivity, Resistors, and DC Circuits</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Electrical Example of an Exponential Decay Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Mu0.html">Magnetic Force and the Determination of μ₀</a></li>
+<li class="toctree-l2"><a class="reference internal" href="EoverM.html">Measurement of Electrons’ e/m Ratio &amp; Magnetic Field Measurement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FaradayLaw.html">Faraday’s Law of Induction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Waves.html">Wave Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Optics.html">Light – Diffraction with Lasers &amp; Geometric Optics and Imaging</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FExperimentsGenPhysII/RCCircuit.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/ExperimentsGenPhysII/RCCircuit.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Electrical Example of an Exponential Decay Process</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dividing-charge-across-capacitors">Dividing charge across capacitors</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="electrical-example-of-an-exponential-decay-process">
+<h1>Electrical Example of an Exponential Decay Process<a class="headerlink" href="#electrical-example-of-an-exponential-decay-process" title="Permalink to this heading">#</a></h1>
+<section id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
+<section id="overall-goals-and-overview">
+<h3>Overall goals and overview<a class="headerlink" href="#overall-goals-and-overview" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Understand what a capacitor is, the relationship between capacitance and resistance, the discharging nature of capacitors</p></li>
+<li><p>Assume <strong>we know the resistance</strong> of your resistors, but <strong>we don’t know the capacitance</strong> of the capacitors, and we need to determine those C values</p></li>
+<li><p><em>DISCUSSION POINT</em>: How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time?</p></li>
+<li><p>Conduct two experiments:</p>
+<ul>
+<li><p>Measure the capacitance of your capacitors, <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, and <span class="math notranslate nohighlight">\((C_1+C_2)\)</span></p>
+<ul>
+<li><p><strong>GRAPHICALLY</strong> with LN(V) vs. Time plot (a linearized version of exponential decay plot)</p></li>
+<li><p>Via the <strong>HALF-LIFE, <span class="math notranslate nohighlight">\(t_{1/2}\)</span></strong> (where half-life, the time for exponential decay to reach half its original value, is related to the natural log of 2 [LN(2)])</p></li>
+</ul>
+</li>
+<li><p>Divide charge between two capacitors</p></li>
+</ul>
+</li>
+</ul>
+<p>There are many processes in which the rate of change of a quantity is proportional to the magnitude of the quantity itself. The result is a quantity that is an exponential function of time. In this experiment the characteristic exponential relaxation (decay) of the voltage or charge on a capacitor will be investigated. The electrical analogy of this general process can be represented by a simple circuit in which a capacitor is allowed to discharge through a resistor connected across its terminals. Consider the schematic circuit of <a class="reference internal" href="#fig-rc-charging-circuit"><span class="std std-numref">Fig. 51</span></a>.</p>
+<figure class="align-center" id="fig-rc-charging-circuit">
+<a class="reference internal image-reference" href="../_images/E5_Figure1_v02.png"><img alt="../_images/E5_Figure1_v02.png" src="../_images/E5_Figure1_v02.png" style="width: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 51 </span><span class="caption-text">Schematic of RC circuit charging the capacitor.</span><a class="headerlink" href="#fig-rc-charging-circuit" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>With the switch connecting the capacitor to the batteries, the capacitor rapidly charges up to the potential of the batteries. Since a capacitor will not pass a DC current, a positive charge builds up on one of the plates while a negative charge forms on the other. When the switch is flipped to connect the capacitor to the resistor, we have the circuit (shown below) containing a charged capacitor with a resistance across its terminals. We will now investigate how the voltage across the capacitor changes with time, starting at <span class="math notranslate nohighlight">\(t = 0\)</span> when the capacitor is fully charged. The voltage will be measured by the voltmeter <span class="math notranslate nohighlight">\(V\)</span> connected as shown. As time progresses, current will flow from the positively charged plate of the capacitor through the resistance <span class="math notranslate nohighlight">\(R\)</span> to the negatively charged plate.</p>
+<figure class="align-center" id="fig-rc-discharge-circuit">
+<a class="reference internal image-reference" href="../_images/Figure026.jpg"><img alt="../_images/Figure026.jpg" src="../_images/Figure026.jpg" style="width: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 52 </span><span class="caption-text">Schematic of RC circuit disconnected from the battery.</span><a class="headerlink" href="#fig-rc-discharge-circuit" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Since a voltage exists across the capacitor, there must also be a voltage across <span class="math notranslate nohighlight">\(R\)</span>. This implies an electric current, and from Ohm’s Law:</p>
+<div class="math notranslate nohighlight">
+\[I=\frac{V}{R}\]</div>
+<p>Since current is a flow of charge, <span class="math notranslate nohighlight">\(Q\)</span>, and since the two sides of the capacitor are isolated from each other, the charge which flows through the resistor must originate on one of the plates and terminate on the other. Thus the flow of current reduces the charge on the capacitor. In a time, <span class="math notranslate nohighlight">\(t\)</span>, the amount of charge that passes through the resistor is <span class="math notranslate nohighlight">\(I \times t\)</span>. This must be <span class="math notranslate nohighlight">\(-Q\)</span> (the negative change in the charge on the capacitor) which leads to the relation:</p>
+<div class="math notranslate nohighlight">
+\[I=-\frac{dQ}{dt}\]</div>
+<p>The value of the resistance limits the amount of current that can flow and thus limits the rate of discharge of the capacitor.</p>
+<p>From the definition of a capacitor, we know that the larger the voltage applied to the capacitor, the more charge it will put on the capacitor. Hence, if <span class="math notranslate nohighlight">\(V\)</span> is the voltage across the capacitor, then <span class="math notranslate nohighlight">\(Q\)</span> is proportional to <span class="math notranslate nohighlight">\(V\)</span>. The larger the plate area, the more charge it should hold. In addition, if the plates are brought closer together, the positive plate will attract more negative charge from the battery to the negative plate. All these factors have to do with the geometry and construction details of the device. Thus, the bigger the plate area and the smaller the plate spacing, the larger the charge that accumulates in the capacitor for a given voltage. Hence we can write:</p>
+<div class="math notranslate nohighlight">
+\[Q=CV\]</div>
+<p>where <span class="math notranslate nohighlight">\(C\)</span> is a constant for a given capacitor called its capacitance.</p>
+<p>Combining these three equations, we obtain:</p>
+<div class="math notranslate nohighlight" id="equation-eq-capacitor-discharge">
+<span class="eqno">(95)<a class="headerlink" href="#equation-eq-capacitor-discharge" title="Permalink to this equation">#</a></span>\[\frac{{\rm d}Q}{{\rm d}t}=-\frac{Q}{RC}\]</div>
+<p>Notice that the <strong>rate of change</strong> of the charge at any time is directly proportional to the amount of charge on the capacitor at that time. (This is similar to the amount of radiation given off by a quantity of decaying atoms.) By writing <a class="reference internal" href="#equation-eq-capacitor-discharge">(95)</a> in the form:</p>
+<div class="math notranslate nohighlight">
+\[\frac{{\rm d}Q}{Q}=-\frac{{\rm d}t}{RC}\]</div>
+<p>both sides of the equation can be integrated to obtain:</p>
+<div class="math notranslate nohighlight">
+\[\ln(Q)=\frac{1}{RC}+\ln(Q_{0})\]</div>
+<p>After some simplification, the solution to this differential equation is:</p>
+<div class="math notranslate nohighlight">
+\[Q=Q_{0}e^{-\frac{t}{RC}}\]</div>
+<p>At <span class="math notranslate nohighlight">\(t=0\)</span>, <span class="math notranslate nohighlight">\(V = V_{0}\)</span>, so that <span class="math notranslate nohighlight">\(Q = CV_{0}\)</span> for <span class="math notranslate nohighlight">\(t = 0\)</span>. Thus the behavior of <span class="math notranslate nohighlight">\(Q\)</span> or <span class="math notranslate nohighlight">\(V\)</span> is the same after the switch is opened:</p>
+<div class="math notranslate nohighlight" id="equation-eq-voltage-decay">
+<span class="eqno">(96)<a class="headerlink" href="#equation-eq-voltage-decay" title="Permalink to this equation">#</a></span>\[Q=CV e^{-\frac{t}{RC}} \rightarrow V=V_{0}e^{-\frac{t}{RC}}\]</div>
+<p>The behavior of the current <span class="math notranslate nohighlight">\(I\)</span> is found directly from this:</p>
+<div class="math notranslate nohighlight">
+\[I=-\frac{dQ}{dt}=\frac{V_{0}}{R}e^{-\frac{t}{RC}}\]</div>
+<p>The product <span class="math notranslate nohighlight">\(RC\)</span> has the units of time (Ω × F); we can verify this by using dimensional analysis:</p>
+<div class="math notranslate nohighlight">
+\[RC\rightarrow \frac{V}{I}\times \frac{Q}{V}\rightarrow \frac{Q}{I}\rightarrow Q\times \frac{t}{Q}\rightarrow t\]</div>
+<div class="math notranslate nohighlight">
+\[[RC]=\Omega \times F\rightarrow \frac{V}{C/s}\times \frac{C}{V}\rightarrow C\times \frac{s}{C}\rightarrow s\]</div>
+<p>This product is called the time constant of the circuit. In a time equal to <span class="math notranslate nohighlight">\(RC\)</span>, the voltage, <span class="math notranslate nohighlight">\(V\)</span>, drops to a fraction:</p>
+<div class="math notranslate nohighlight" id="equation-eq-time-constant-fraction">
+<span class="eqno">(97)<a class="headerlink" href="#equation-eq-time-constant-fraction" title="Permalink to this equation">#</a></span>\[\frac{V}{V_{0}}=\frac{1}{e} \approx 0.368\]</div>
+<p>This means that in any interval of time equal to <span class="math notranslate nohighlight">\(RC\)</span>, the voltage has decreased to 36.8% of the initial value. In determining <span class="math notranslate nohighlight">\(RC\)</span>, it is often more convenient to measure the time for the voltage to drop to <span class="math notranslate nohighlight">\(\frac{1}{2}\)</span> of its initial value and from this to compute <span class="math notranslate nohighlight">\(RC\)</span>. The “half-life,” <span class="math notranslate nohighlight">\(t_{1/2}\)</span>, is given by:</p>
+<div class="math notranslate nohighlight">
+\[\frac{V_{1/2}}{V_{0}}=\frac{1}{2}=e^{-\frac{t_{1/2}}{RC}}\]</div>
+<p>Taking the natural logarithm of both sides and simplifying we obtain:</p>
+<div class="math notranslate nohighlight" id="equation-eq-half-life">
+<span class="eqno">(98)<a class="headerlink" href="#equation-eq-half-life" title="Permalink to this equation">#</a></span>\[t_{1/2}=RC \ln 2 \simeq 0.693 RC\]</div>
+<p>or</p>
+<div class="math notranslate nohighlight" id="equation-eq-rc-from-half-life">
+<span class="eqno">(99)<a class="headerlink" href="#equation-eq-rc-from-half-life" title="Permalink to this equation">#</a></span>\[RC=1.443 t_{1/2}\]</div>
+<p>Note that by taking the natural log of the expression for the voltage, <a class="reference internal" href="#equation-eq-voltage-decay">(96)</a>, we obtain:</p>
+<div class="math notranslate nohighlight" id="equation-eq-linear-voltage-decay">
+<span class="eqno">(100)<a class="headerlink" href="#equation-eq-linear-voltage-decay" title="Permalink to this equation">#</a></span>\[\ln V=\ln V_{0}-\frac{t}{RC}=-(\frac{1}{RC})t+\ln V_{0}\]</div>
+<p>If we plot the value of the natural log of <span class="math notranslate nohighlight">\(V\)</span> as a function of time, <span class="math notranslate nohighlight">\(t\)</span>, we obtain a straight line whose slope is <span class="math notranslate nohighlight">\(-1/RC\)</span> with an intercept of <span class="math notranslate nohighlight">\(\ln V_{0}\)</span>. From this slope, we can obtain a measured value for the product <span class="math notranslate nohighlight">\(RC\)</span> which is the time constant, i.e. the time it takes the voltage (or charge) to decay to <span class="math notranslate nohighlight">\(1/e\)</span> of its original value (see <a class="reference internal" href="#equation-eq-time-constant-fraction">(97)</a>).</p>
+</section>
+<section id="dividing-charge-across-capacitors">
+<h3>Dividing charge across capacitors<a class="headerlink" href="#dividing-charge-across-capacitors" title="Permalink to this heading">#</a></h3>
+<p>A capacitor <span class="math notranslate nohighlight">\(C\)</span> at voltage <span class="math notranslate nohighlight">\(V\)</span> holds a charge <span class="math notranslate nohighlight">\(Q = CV\)</span>. In the circuit shown in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 56</span></a> when the single-pole-double-throw switch connects the first capacitor to the voltage source, it holds a charge <span class="math notranslate nohighlight">\(Q_1 = C_1 V\)</span>. The switch is then flipped to disconnect the capacitor from the battery and connect it to the second capacitor. Charge moves from the first capacitor to the second, lowering the voltage. Assuming the second capacitor is initially uncharged, the total charge is unchanged. The total charge must be divided between the two capacitors so that they come to the same lower final voltage:</p>
+<div class="math notranslate nohighlight" id="equation-eq-charge-division">
+<span class="eqno">(101)<a class="headerlink" href="#equation-eq-charge-division" title="Permalink to this equation">#</a></span>\[\begin{split}V_f C_1 &amp;= Q_1 \\
+V_f C_2 &amp;= Q_2 \\
+Q_1+Q_2 &amp;= Q = C_1 V \\
+V_f &amp;= \frac{C_1}{C_1+C_2} V\end{split}\]</div>
+<p>Because the two capacitors are at the same voltage, the total charge is divided between them in proportion to their capacitance.</p>
+<figure class="align-center" id="fig-rc-setup">
+<a class="reference internal image-reference" href="../_images/E5_050_Setup.png"><img alt="../_images/E5_050_Setup.png" src="../_images/E5_050_Setup.png" style="width: 700px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 53 </span><span class="caption-text">Left) Modular electronic RC circuit. Right) Wire, 2 capacitors, 2 resistors.</span><a class="headerlink" href="#fig-rc-setup" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="equipment">
+<h3>Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">#</a></h3>
+<p>The general setup can be seen in <a class="reference internal" href="#fig-rc-setup"><span class="std std-numref">Fig. 53</span></a>, with the voltmeter attached on either side of the capacitor section of the circuit.</p>
+<ul class="simple">
+<li><p>Two known (with ohmmeter) ceramic resistors</p></li>
+<li><p>Pasco modular circuit kit</p>
+<ul>
+<li><p>4× Circuit corners</p></li>
+<li><p>1× Circuit T-conjunction</p></li>
+<li><p>4× Circuit straights</p></li>
+<li><p>2× AA battery module</p></li>
+<li><p>2× Spring clips (to attach individual resistors or capacitors)</p></li>
+<li><p>1× Single-pole double-throw (SPDT) switch to open and close circuit during reconfiguration, charging of capacitors, and discharging of capacitors through resistors</p></li>
+<li><p>15× U-shaped jumper clips to connect the different modules</p></li>
+<li><p>1× Voltmeter via Capstone – connected to the jumper clips the on either side of the capacitors with alligator clips</p></li>
+</ul>
+</li>
+<li><p>Fluke multimeter with alligator clips</p>
+<ul>
+<li><p>Use as Ohmmeter (Ω) to measure resistors’ resistance to be treated as known values</p></li>
+<li><p>Use as capacitance meter (F) to measure capacitors’ actual capacitance to compare experimental values to later on</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="experimental-procedure">
+<h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<p><strong>FIRST EXPERIMENT</strong> We study resistor-capacitor circuits and how capacitors discharge.</p>
+<ol class="arabic simple">
+<li><p>You have two resistors and two capacitors. Create a common data table and measure the value of resistors <span class="math notranslate nohighlight">\(R_1\)</span> and <span class="math notranslate nohighlight">\(R_2\)</span> with the Fluke multimeter set to measure ohms (Ω, note the units on the multimeter). [It doesn’t matter which resistor is which number, just be consistent] Also in the common data table, record the actual capacitance of <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, and the parallel combination of <span class="math notranslate nohighlight">\((C_1+C_2)\)</span> with the Fluke 175 multimeter when set to measure farads (the yellow alternate function of the ohmmeter, looks like two letter T’s that are rotated toward each other).</p></li>
+<li><p>Use the capacitors <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, and <span class="math notranslate nohighlight">\((C_1+C_2)\)</span> with each individual resistor. Perform the following steps for all six pairs of resistor and capacitor. [Paired like: <span class="math notranslate nohighlight">\(R_1+C_1\)</span>, <span class="math notranslate nohighlight">\(R_2+C_1\)</span>, <span class="math notranslate nohighlight">\(R_1+C_2\)</span>, <span class="math notranslate nohighlight">\(R_2+C_2\)</span>, <span class="math notranslate nohighlight">\(R_1+(C_1+C_2)\)</span>, <span class="math notranslate nohighlight">\(R_2+(C_1+C_2)\)</span>]</p></li>
+<li><p><strong>Zero the voltage sensor</strong> (this is before any resistors or capacitors are in the circuit). Connect the voltmeter to the Capstone program via the PASCO 850 Universal Interface. Set the sample rate to 2500 samples per second (should be set by default, double check though). Zero the voltage sensor in Capstone by first opening the single-pole-double-throw (SPDT) switch to ensure no current is flowing; then in the bottom recording bar, with the voltage sensor selected, click the zero button (zero with two yellow arrows pointing towards each other).</p></li>
+<li><p>In Capstone (should be already set up), you should have graphs of the voltage versus time, the Natural Log(V) vs. time, and a running table of voltages and times (this table is connected to the V vs. T plot, so if you highlight data points on the plot, they’ll be highlighted in the table).</p></li>
+</ol>
+<figure class="align-center" id="fig-rc-decay-circuit">
+<a class="reference internal image-reference" href="../_images/RCDecay_v02.png"><img alt="../_images/RCDecay_v02.png" src="../_images/RCDecay_v02.png" style="width: 700px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 54 </span><span class="caption-text">Modular electronic RC circuit. The resistors and capacitors will just be placed in the spring modules to become part of the circuits. Left) Example with one resistor and one capacitor. Right) Example with one resistor and two capacitors.</span><a class="headerlink" href="#fig-rc-decay-circuit" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple" start="5">
+<li><p>Connect the resistor, capacitor(s), switch, batteries, voltmeter as shown in <a class="reference internal" href="#fig-rc-decay-circuit"><span class="std std-numref">Fig. 54</span></a>.</p></li>
+<li><p>Create a data table for the first resistor and capacitor case (once you have this all set up, you’ll then be able to just copy and paste this data table for the five other RC combinations):</p>
+<ul class="simple">
+<li><p>With <strong>five columns</strong> (1 for each of the 5 decay trials, the act of discharging each capacitor). Also include a <strong>column</strong> for the average values, a <strong>column</strong> for the standard deviation (σ), and a <strong>column</strong> for the standard error of the mean (<span class="math notranslate nohighlight">\(\frac{\sigma}{\sqrt{n-1}}\)</span> where <span class="math notranslate nohighlight">\(n=\)</span> number of trials. Reminder, this is effectively your +/- uncertainty of the average. <em>DISCUSSION POINT for later</em>: How well does your average value of capacitance +/- standard error agree with your expected values?).</p></li>
+<li><p>Include <strong>three rows</strong> for:</p>
+<ul>
+<li><p>Slope. You will get this from the linear fit of the natural log(V) vs. time plot (linearizing the exponential decay) in Capstone where the fit will be in the form <span class="math notranslate nohighlight">\(Y=mt + b\)</span>, and slope <span class="math notranslate nohighlight">\(m=\frac{-1}{RC}\)</span>)</p></li>
+<li><p>Time constant <span class="math notranslate nohighlight">\((RC)\)</span> of the exponential decay as determined from the slope</p></li>
+<li><p>Capacitance (<span class="math notranslate nohighlight">\(C_{\text{graphically from decay}}\)</span>) as determined from the decay time constant</p></li>
+</ul>
+</li>
+<li><p>Include an additional <strong>six rows</strong> for:</p>
+<ul>
+<li><p>Initial voltage (<span class="math notranslate nohighlight">\(V_{\text{init}}\)</span>, right <em><strong>after</strong></em> decay starts)</p></li>
+<li><p>Final voltage (<span class="math notranslate nohighlight">\(V_{\text{final}} = V_{\text{init}}/2\)</span>, i.e. voltage that is half the value of the initial voltage)</p></li>
+<li><p>Initial time (<span class="math notranslate nohighlight">\(t_{\text{init}}\)</span>, when <span class="math notranslate nohighlight">\(V=V_{\text{init}}\)</span>). Found either with the Capstone table or the individual data point selection tools</p></li>
+<li><p>Final time (<span class="math notranslate nohighlight">\(t_{\text{final}}\)</span>, when <span class="math notranslate nohighlight">\(V=V_{\text{final}}\)</span>). Found in a similar way in Capstone, just at half the voltage</p></li>
+<li><p>Half-life (<span class="math notranslate nohighlight">\(t_{1/2}= t_{\text{final}}-t_{\text{init}}\)</span>)</p></li>
+<li><p>Capacitance (<span class="math notranslate nohighlight">\(C_{\text{by half-life}}\)</span>) as determined by the rearrangement of <a class="reference internal" href="#equation-eq-rc-from-half-life">(99)</a> (the characteristic of the half-life of an exponential decay)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<figure class="align-center" id="fig-spdt-switch-positions">
+<a class="reference internal image-reference" href="../_images/E5_051_Setup.png"><img alt="../_images/E5_051_Setup.png" src="../_images/E5_051_Setup.png" style="width: 700px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 55 </span><span class="caption-text">Top) SPDT switch in different positions. Bottom) Whole circuit with the SPDT switch in the respective positions. Left) Open circuit. Center) Charging central capacitor; current flows in lower portion of the modular circuit. Right) Discharging either through resistor (or for Experiment 2, charging the other capacitor); current flows in upper portion of the modular circuit.</span><a class="headerlink" href="#fig-spdt-switch-positions" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple" start="7">
+<li><p><strong>DATA TAKING:</strong></p>
+<ul class="simple">
+<li><p>Start recording; flip the SPDT switch to connect the batteries to the capacitor and observe the voltmeter as the capacitor rapidly charges to <span class="math notranslate nohighlight">\(V_{	ext{init}}\)</span>. Once the capacitor is fully charged (voltmeter shows constant voltage at <span class="math notranslate nohighlight">\(V_{	ext{init}}\)</span>), flip the switch to connect the capacitor to the resistor; observe the decay of the voltage across the capacitor. <strong>Wait until the voltage drops to less than</strong> 10% of <span class="math notranslate nohighlight">\(V_{	ext{init}}\)</span>. (e.g. if <span class="math notranslate nohighlight">\(V_{	ext{init}}=3.0\)</span> V, then <span class="math notranslate nohighlight">\(V_{	ext{minimum}}= 0.3\)</span> V) In essence, the battery has been eliminated from the circuit and the capacitor is now acting as the voltage source.</p></li>
+<li><p>WHILE STILL RECORDING: (so everything is just in the same plot, save some time) Repeat this switch flipping <strong>four more times</strong> for a total of <strong>5 decays</strong>.</p></li>
+<li><p>GRAPHICAL: In the Capstone plot of LN(Voltage) vs. Time, highlight the data of the linear portion of the decay curve with the highlighter tool and record the slope. The linear section covers the time it took voltage to decay from 100% to 10% of <span class="math notranslate nohighlight">\(V_{	ext{init}}\)</span>. The linear fit, as described in <a class="reference internal" href="#equation-eq-linear-voltage-decay">(100)</a>, in Capstone should be in the form <span class="math notranslate nohighlight">\(Y=mt + b\)</span>, where <span class="math notranslate nohighlight">\(m=\frac{-1}{RC}\)</span>. Calculate the time constant <span class="math notranslate nohighlight">\(RC\)</span>, and the capacitance <span class="math notranslate nohighlight">\(C_{	ext{graphically from decay}}\)</span> as determined from that time constant.</p></li>
+<li><p>HALF-LIFE: Find the voltage and time of when your capacitor was at its initial voltage right before decay. Divide the <span class="math notranslate nohighlight">\(V_{	ext{init}}\)</span> by 2 to find the final voltage; then find the time for that final voltage. Determine half-life from the time difference (<span class="math notranslate nohighlight">\(t_{1/2}= t_{	ext{final}}-t_{	ext{init}}\)</span>). <em>Suggestions on finding those values</em>: Examine the exponential decay plot (V vs. T) with the crosshair tool by zooming in to find the data points right before the voltage decay, clicking the data point and selecting the crosshair, then note the time and voltage. Alternatively, in the exponential decay plot (V vs. T), zoom in to the area right before decay and use the data highlight tool to make a small selection box which will then also highlight those same data points in the Capstone table of voltages and times.</p></li>
+</ul>
+</li>
+<li><p>For your capacitance that you determined <em><strong>graphically</strong></em> from the LN(V) vs. time slope, calculate the average, standard deviation, and standard error of the mean. For your capacitance that you determined with the <em><strong>half-life</strong></em> <span class="math notranslate nohighlight">\(t_{1/2}\)</span> (time span for initial voltage to halve), determine the standard deviation (σ) and standard error of the mean (<span class="math notranslate nohighlight">\(\frac{\sigma}{\sqrt{n-1}}\)</span>).</p></li>
+</ol>
+<p>\pagebreak
+\item DATA TAKING:
+\vspace{-2mm}
+\begin{itemize}
+\label{E4_procedure_6}
+\item Start recording; flip the SPDT switch to connect the batteries to the capacitor and observe the voltmeter as the capacitor rapidly charges to <span class="math notranslate nohighlight">\(V_{\mbox{init}}\)</span>. Once the capacitor is fully charged (voltmeter shows constant voltage at <span class="math notranslate nohighlight">\(V_{\mbox{init}}\)</span>), flip the switch to connect the capacitor to the resistor; observe the decay of the voltage across the capacitor. \textbf{Wait until the voltage drops to less than} <span class="math notranslate nohighlight">\(10\%~\text{of}~  V_{\mbox{init}}\)</span>. (e.g. if <span class="math notranslate nohighlight">\(V_{\mbox{init}}=3.0~V\)</span>, then <span class="math notranslate nohighlight">\(V_{\mbox{minimum}}= 0.3~V\)</span>) In essence, the battery has been eliminated from the circuit and the capacitor is now acting as the voltage source.
+\item WHILE STILL RECORDING: (so everything is just in the same plot, save some time) Repeat this switch flipping \textbf{four more times} for a total of \textbf{5 decays}.
+\item GRAPHICAL: In the Capstone plot of LN(Voltage) vs. Time, highlight the data of the linear portion of the decay curve with the highlighter tool and record the slope. The linear section covers the time it took voltage to decay from 100% to 10% of <span class="math notranslate nohighlight">\(V_{\mbox{init}}\)</span>. The linear fit, as described in Eqn.~\ref{E4Eq:16}, in Capstone should be in the form <span class="math notranslate nohighlight">\(Y=mt + b\)</span>,~where~<span class="math notranslate nohighlight">\(m=\frac{-1}{RC}\)</span>. Calculate the time constant <span class="math notranslate nohighlight">\(RC\)</span>, and the capacitance <span class="math notranslate nohighlight">\(C_{\mbox{graphically from decay}}\)</span> as determined from that time constant.
+\item HALF-LIFE: Find the voltage and time of when your capacitor was at its initial voltage right before decay. Divide the <span class="math notranslate nohighlight">\(V_{\mbox{init}}\)</span> by 2 to find the final voltage; then find the time for that final voltage. Determine half-life from the time difference (<span class="math notranslate nohighlight">\(t_{1/2}= t_{\mbox{final}}-t_{\mbox{init}}\)</span>). \textit{Suggestions on finding those values}: Examine the exponential decay plot (V vs. T) with the crosshair tool by zooming in to find the data points right before the voltage decay, clicking the data point and selecting the crosshair, then note the time and voltage. Alternatively, in the exponential decay plot (V vs. T), zoom in to the area right before decay and use the data highlight tool to make a small selection box which will then also highlight those same data points in the Capstone table of voltages and times.
+%\item Then repeat this step \textbf{four more times} for a total of \textbf{five time trials}.
+\end{itemize}</p>
+<p>\vspace{-2mm}</p>
+<p>\item
+\begin{itemize}</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>  \item For your capacitance that you determined \textit{\textbf{graphically}} from the LN(V) vs. time slope, calculate the average, standard deviation, and standard error of the mean.
+\item For your capacitance that you determined with the \textbf{\textit{half-life}} $t_{1/2}$ (time span for initial voltage to halve), determine the standard deviation ($\sigma$) and standard error of the mean ($\frac{\sigma}{\sqrt{n-1}}$).
+</pre></div>
+</div>
+<p>\end{itemize}</p>
+<ol class="arabic simple" start="9">
+<li><p>Compare this value for capacitance to the actual capacitance values of the capacitors, <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, and <span class="math notranslate nohighlight">\((C_1+C_2)\)</span> you measured with the multimeter in Step 2.</p></li>
+<li><p>Replace the resistor and/or capacitor for the next combination and repeat the procedure (from Step 7) above for each of the six combinations listed in Step 2.</p></li>
+</ol>
+<p><strong>DISCUSSION POINT</strong>: How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time (i.e. decay)?</p>
+<p><strong>DISCUSSION POINT</strong>: How well does your average value of capacitance +/- standard error agree with your expected values? Why or why not? What are possible sources of uncertainty or systematic bias that could cause your values to agree/not agree with your expected values that you had found with the multimeter?</p>
+<hr class="docutils" />
+<p><strong>SECOND EXPERIMENT</strong> We study dividing charge across two capacitors, as in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 56</span></a>.</p>
+<p>\vspace{-3mm}</p>
+<figure class="align-center" id="fig-capacitor-charge-division">
+<a class="reference internal image-reference" href="../_images/RCDecay_v02_Fig5_4.png"><img alt="../_images/RCDecay_v02_Fig5_4.png" src="../_images/RCDecay_v02_Fig5_4.png" style="width: 350px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 56 </span><span class="caption-text">Modular electronic circuit with two capacitors.</span><a class="headerlink" href="#fig-capacitor-charge-division" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple">
+<li><p>Ignore what you’ve called the capacitors from the first experiment, now just consider them as either low- or high-capacitance capacitors in either the <span class="math notranslate nohighlight">\(C_1\)</span> or <span class="math notranslate nohighlight">\(C_2\)</span> positions. Construct the circuit shown in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 56</span></a> by replacing the resistor with the high-capacitance capacitor (in the top springs block, e.g. <span class="math notranslate nohighlight">\(C_2\)</span> position in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 56</span></a>). Put the low-capacitance capacitor in the bottom springs block (<span class="math notranslate nohighlight">\(C_1\)</span> position in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 56</span></a>). Ensure the voltmeter is connected as in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 56</span></a> and continue using the same Voltage vs. time plot in Capstone.</p></li>
+<li><p>Create a data table including your previous, experimentally-determined values of capacitance of <span class="math notranslate nohighlight">\(C_1\)</span> and <span class="math notranslate nohighlight">\(C_2\)</span> and <strong>three columns</strong> for initial and final voltages as well as the difference between the two. Create <strong>five rows</strong> for five trials. Note: Initial voltage is V when the battery is connected to <span class="math notranslate nohighlight">\(C_1\)</span> <em>before</em> you throw the switch to connect the capacitors together in Step 5. Final voltage is V <em>after</em> you throw the switch to allow the charge in the first capacitors to be distributed between the two capacitors.</p></li>
+<li><p>Temporarily connect a wire across each capacitor to discharge them before flipping the switch (i.e. no charge is stored and both circuits are open).</p></li>
+<li><p>Connect <span class="math notranslate nohighlight">\(C_1\)</span> to the battery using the single-pole-double-throw (SPDT) switch. Record the initial voltage.</p></li>
+<li><p>Flip the SPDT switch to disconnect <span class="math notranslate nohighlight">\(C_1\)</span> from the battery and connect it to <span class="math notranslate nohighlight">\(C_2\)</span>. Flip the switch back and forth quickly <strong>for a total of five trials</strong>. Record the final voltage after the charge is distributed between the capacitors (near immediate change).</p></li>
+<li><p>Notice how the final voltage is drifting up towards the initial voltage and the difference between the two is changing. Something is wrong with the assumptions built into <a class="reference internal" href="#equation-eq-charge-division">(101)</a> (which should be true). The problem is that after the first time throwing the switch, <span class="math notranslate nohighlight">\(C_2\)</span> is not at zero charge. So the total charge is higher than <span class="math notranslate nohighlight">\(C_1 V\)</span>. <em>Challenge: Can you figure out what the voltage will be after the second, third, or <span class="math notranslate nohighlight">\(n\)</span>th time you flip the switch?</em></p></li>
+<li><p>Try temporarily connecting a wire across <span class="math notranslate nohighlight">\(C_2\)</span> to discharge it before flipping the switch. Now you should consistently get the final voltage predicted by <a class="reference internal" href="#equation-eq-charge-division">(101)</a>. Record the initial and final voltages after doing this <strong>five more times</strong>. Does this voltage difference agree with <a class="reference internal" href="#equation-eq-charge-division">(101)</a>?</p></li>
+<li><p>Repeat from step 4 with the low- and high-capacitance capacitors in swapped positions in the circuit.</p></li>
+</ol>
+</section>
+<section id="post-lab-submission-interpretation-of-results">
+<h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Make sure to submit your finalized data sheet with summarized data and cleaned-up plots (Excel sheet)</p></li>
+<li><p>Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:</p>
+<ul>
+<li><p>Do your experimental results for average capacitance agree with your expected values (as measured with the multimeter)?</p></li>
+<li><p>Is the graphical or half-life method more accurate to the expected values; why?</p></li>
+<li><p>How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time (i.e. decay)?</p></li>
+<li><p>Explain why, in step 3 of the second experiment you connect a wire across each capacitor. Why is a brief connection sufficient? Hint: What is the time constant for the wire and capacitor; how is it different to the resistor and capacitor setup?</p></li>
+</ul>
+</li>
+<li><p>Paragraph of your errors and estimated measurement uncertainties. Be quantitative. Make sure to include discussion of the following:</p>
+<ul>
+<li><p>Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?</p></li>
+<li><p>What are your measured uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?</p></li>
+<li><p>If larger or small, are they more or less accurate to expected values?</p></li>
+<li><p>How could you improve your random errors?</p></li>
+<li><p>Were your systematic errors significant; how could this be improved if you were to re-run this experiment?</p></li>
+</ul>
+</li>
+<li><p>Reflect on this week’s lab; what did you learn?</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./ExperimentsGenPhysII"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Resistance.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Resistivity, Resistors, and DC Circuits</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Mu0.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Magnetic Force and the Determination of μ₀</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dividing-charge-across-capacitors">Dividing charge across capacitors</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Angela Biselli
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

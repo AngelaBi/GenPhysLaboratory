@@ -1,0 +1,755 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Faraday’s Law of Induction &#8212; General Physcis Laboratory</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ExperimentsGenPhysII/FaradayLaw';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Wave Motion" href="Waves.html" />
+    <link rel="prev" title="Measurement of Electrons’ e/m Ratio &amp; Magnetic Field Measurement" href="EoverM.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="General Physcis Laboratory - Home"/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="General Physcis Laboratory - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to General Physics Lab
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Schedule for PHYS 1171</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Schedule for PHYS 1145</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Intro/IntroLab.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/DataAcquisition.html">Data Acquisition and Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/VernierCaliper.html">Vernier Calipers</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabI.html">General Physics Lab I</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentIntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentVectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentAccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentSimpleProjectile.html">Simple Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentCentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentConsEnTrack.html">Conservation of Energy with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentBallisticPendulum.html">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentRotationalMotion.html">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentIdealGas.html">Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentFluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ExperimentPendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../GeneralPhysicsLabII.html">General Physics Lab II</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Eps0.html">Electric Force and the Determination of <span class="math notranslate nohighlight">\(\varepsilon_0\)</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="MappingPotential.html">Electric Field and Equipotential Mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ElectronDeflection.html">Acceleration And Deflection Of Electrons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Resistance.html">Resistivity, Resistors, and DC Circuits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RCCircuit.html">Electrical Example of an Exponential Decay Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Mu0.html">Magnetic Force and the Determination of μ₀</a></li>
+<li class="toctree-l2"><a class="reference internal" href="EoverM.html">Measurement of Electrons’ e/m Ratio &amp; Magnetic Field Measurement</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Faraday’s Law of Induction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Waves.html">Wave Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Optics.html">Light – Diffraction with Lasers &amp; Geometric Optics and Imaging</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FExperimentsGenPhysII/FaradayLaw.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/ExperimentsGenPhysII/FaradayLaw.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Faraday’s Law of Induction</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#magnetic-flux">Magnetic Flux</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#faraday-s-law">Faraday’s Law</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#energy-in-a-pendulum">Energy in a pendulum</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="faraday-s-law-of-induction">
+<h1>Faraday’s Law of Induction<a class="headerlink" href="#faraday-s-law-of-induction" title="Permalink to this heading">#</a></h1>
+<section id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
+<section id="overall-goals-and-overview">
+<h3>Overall goals and overview<a class="headerlink" href="#overall-goals-and-overview" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Explore magnetic flux, Faraday’s Law, Lenz’s Law, and mechanical energy dissipation through the aforementioned concepts.</p></li>
+<li><p>Understand the relationship between magnetic flux and electro-motive force (EMF; effectively an induced voltage due to changes in magnetic field)</p></li>
+<li><p>In this experiment, you will:</p>
+<ul>
+<li><p>First determine the maximum magnetic field strength of the horseshoe magnet through where the wand’s coil passes.</p></li>
+<li><p>Second determine average voltage and integrated voltage (area under curve) of the wand passing through the magnetic field and compare to expected values of the induced voltage (EMF).</p></li>
+<li><p>Third determine the amount of energy lost due to friction (with angles of the rotary sensor for change in gravitational potential energy), energy lost due to the resistor (area under power curve), and total energy lost (again with angles).</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="magnetic-flux">
+<h3>Magnetic Flux<a class="headerlink" href="#magnetic-flux" title="Permalink to this heading">#</a></h3>
+<p>The magnetic field in a volume of space can be described by vectors, which give the strength of the field (its magnitude) and the field’s direction at each point of the volume. A closed loop (closed, so that the area of the loop is defined) will then have field vectors “punch through” the area bounded by the loop. One can think of this as the field “flowing” through the area defined by the loop (very similar to water flowing through a cross sectional area of a pipe). This flux can be defined by:</p>
+<div class="math notranslate nohighlight" id="equation-eq-magnetic-flux">
+<span class="eqno">(117)<a class="headerlink" href="#equation-eq-magnetic-flux" title="Permalink to this equation">#</a></span>\[\Phi=\oint \vec{B} \cdot d \vec{A}=\vec{B} \cdot \vec{A}\]</div>
+<p>Note that, the second equation holds only if <span class="math notranslate nohighlight">\(B\)</span> is constant over the area defined by the loop. The flux will be zero if the magnetic field is parallel to the area of the loop and maximum if the field is perpendicular to the area of the loop.</p>
+</section>
+<section id="faraday-s-law">
+<h3>Faraday’s Law<a class="headerlink" href="#faraday-s-law" title="Permalink to this heading">#</a></h3>
+<p>If a loop of wire (for example a coil) is moving in a magnetic field or if the magnetic field over the area of the loop changes (either direction or magnitude) then an electro-magnetic force (a voltage) might be induced in the loop due to the fact that the magnetic flux through the loop changes. Faraday’s Law states that the induced electro-motive force [EMF] or voltage in the loop is directly proportional to the rate of change of the flux through the loop. In this experiment, the magnet and coil are arranged so that the magnetic field is perpendicular to the coil loops and:</p>
+<div class="math notranslate nohighlight" id="equation-eq-faraday">
+<span class="eqno">(118)<a class="headerlink" href="#equation-eq-faraday" title="Permalink to this equation">#</a></span>\[\mathcal{E} = \Delta V= -N \frac{d\Phi}{dt}\]</div>
+<p>Here <span class="math notranslate nohighlight">\(N\)</span> is the number of windings in the coil and the negative sign in front of the expression indicates that the EMF is induced in such a way that it opposes the change in flux through the loop (this is commonly known as Lenz’s Law).</p>
+<p>In this lab the area of the coil is constant, but the field through the area defined by the coil will change. Therefore Faraday’s Law here can be written as:</p>
+<div class="math notranslate nohighlight" id="equation-eq-faraday-db-dt">
+<span class="eqno">(119)<a class="headerlink" href="#equation-eq-faraday-db-dt" title="Permalink to this equation">#</a></span>\[\Delta V= -N A \frac{d B}{dt}\]</div>
+<p>or, if we average over a time <span class="math notranslate nohighlight">\(\Delta t\)</span>:</p>
+<div class="math notranslate nohighlight" id="equation-eq-faraday-average">
+<span class="eqno">(120)<a class="headerlink" href="#equation-eq-faraday-average" title="Permalink to this equation">#</a></span>\[\Delta V_{ave}= -N A \frac{\Delta B}{\Delta t}\]</div>
+<p>Integrating <a class="reference internal" href="#equation-eq-faraday">(118)</a> gives:</p>
+<div class="math notranslate nohighlight" id="equation-eq-faraday-integrated">
+<span class="eqno">(121)<a class="headerlink" href="#equation-eq-faraday-integrated" title="Permalink to this equation">#</a></span>\[\int_{\textrm{peak}}\Delta V dt= -N A \Delta B\]</div>
+<p>If the area is integrated from the beginning of the peak to the point where the voltage is zero and the coil is at the maximum field, then <span class="math notranslate nohighlight">\(\Delta B\)</span> will equal the maximum field. Capstone has an area function that can be used to measure the integral of the voltage.</p>
+<p>If the coil is in a closed circuit with total resistance <span class="math notranslate nohighlight">\(R\)</span> then a current will flow through the coil according to Ohm’s Law:</p>
+<div class="math notranslate nohighlight" id="equation-eq-ohms-law2">
+<span class="eqno">(122)<a class="headerlink" href="#equation-eq-ohms-law2" title="Permalink to this equation">#</a></span>\[V = I R\]</div>
+<p>The circuit will dissipate energy at a rate of:</p>
+<div class="math notranslate nohighlight" id="equation-eq-power-dissipation">
+<span class="eqno">(123)<a class="headerlink" href="#equation-eq-power-dissipation" title="Permalink to this equation">#</a></span>\[P= V I= I^{2} R\]</div>
+<p>Since power is work per time, the energy that is lost in the circuit can be found by calculating the area under the power vs. time graph (i.e. the integral of the Power <span class="math notranslate nohighlight">\(P\)</span> over time <span class="math notranslate nohighlight">\(t\)</span>):</p>
+<div class="math notranslate nohighlight" id="equation-eq-energy-loss">
+<span class="eqno">(124)<a class="headerlink" href="#equation-eq-energy-loss" title="Permalink to this equation">#</a></span>\[E_{lost}=\int P\, dt= \textrm{Area under the P vs t graph}\]</div>
+</section>
+<section id="energy-in-a-pendulum">
+<h3>Energy in a pendulum<a class="headerlink" href="#energy-in-a-pendulum" title="Permalink to this heading">#</a></h3>
+<p>The center of mass of a pendulum starting at an initial height <span class="math notranslate nohighlight">\(h_{i}\)</span>, then swinging through its lowest point and finally rising to a height <span class="math notranslate nohighlight">\(h_{f}\)</span>, will experience a change in potential energy of:</p>
+<div class="math notranslate nohighlight" id="equation-eq-potential-energy-change">
+<span class="eqno">(125)<a class="headerlink" href="#equation-eq-potential-energy-change" title="Permalink to this equation">#</a></span>\[\Delta PE= m g (h_{f}-h_{i})\]</div>
+<p>If no energy was dissipated, then the change in potential energy would be zero (no potential energy would be lost in this case). If the final height were less, as indicated in <a class="reference internal" href="#fig-pendulum-energy"><span class="std std-numref">Figure 61</span></a>, then the change in energy would give the energy lost during the motion:</p>
+<div class="math notranslate nohighlight" id="equation-eq-energy-lost-height">
+<span class="eqno">(126)<a class="headerlink" href="#equation-eq-energy-lost-height" title="Permalink to this equation">#</a></span>\[E_{lost}=\Delta PE = m g (h_{f}-h_{i})\]</div>
+<p>Finally the initial and final heights can be related to the angles <span class="math notranslate nohighlight">\(\theta_i\)</span> and <span class="math notranslate nohighlight">\(\theta_f\)</span> the pendulum makes with the vertical direction at these location (see <a class="reference internal" href="#fig-pendulum-energy"><span class="std std-numref">Figure 61</span></a>):</p>
+<div class="math notranslate nohighlight" id="equation-eq-energy-lost-angle">
+<span class="eqno">(127)<a class="headerlink" href="#equation-eq-energy-lost-angle" title="Permalink to this equation">#</a></span>\[E_{lost}=\Delta PE = m g\, L(\cos\theta_f-\cos\theta_i)\]</div>
+<p>In this equation <span class="math notranslate nohighlight">\(L\)</span> indicates the distance from the center of mass to the pivot of the pendulum.</p>
+<figure class="align-center" id="fig-pendulum-energy">
+<a class="reference internal image-reference" href="../_images/Figure013.jpg"><img alt="Coil wand swinging from initial angle to final angle showing energy loss" src="../_images/Figure013.jpg" style="width: 450px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 61 </span><span class="caption-text">This picture shows the coil wand swinging from an initial angle <span class="math notranslate nohighlight">\(\theta_{i}\)</span> to a final angle <span class="math notranslate nohighlight">\(\theta_{f}\)</span>. The final angle is less because of energy lost in the process, which reduces the potential energy by an amount <span class="math notranslate nohighlight">\(E_{Lost}\)</span> (see <a class="reference internal" href="#equation-eq-energy-lost-angle">(127)</a>).</span><a class="headerlink" href="#fig-pendulum-energy" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="fig-experimental-equipment">
+<a class="reference internal image-reference" href="../_images/Figure_80_experimentalequipment.png"><img alt="Coil wand experimental equipment showing center of mass, resistor, and internal components" src="../_images/Figure_80_experimentalequipment.png" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 62 </span><span class="caption-text">Left) Coil wand with resistor and an example of the center of mass line and mass noted on the wand itself. Center) Resistor and circuit diagram of the wand; resistor plugs in and completes the circuit allowing energy to be dissipated. Right) Internals of the wand; wires lead from the ports to the coil at the bottom of the wand. The area of the loop refers to the area inside the white loop of wire at the bottom.</span><a class="headerlink" href="#fig-experimental-equipment" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="equipment">
+<h2>Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Variable Gap Horseshoe Magnet</p></li>
+<li><p>Induction Wand as shown in <a class="reference internal" href="#fig-experimental-equipment"><span class="std std-numref">Figure 62</span></a>. The number of turns of the coil is <span class="math notranslate nohighlight">\(N=200\)</span> and the area of the coil is <span class="math notranslate nohighlight">\(A = \pi r^2 = \pi (0.013\,\text{m})^2\)</span>.; mass and center of mass are noted on the white label.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\sim 4.7\,\Omega\)</span> resistor (you will measure your resistor directly to confirm later on). It can be inserted into the wand to complete the circuit in the wand in order to measure the energy dissipated in the resistive load by the induced current.</p></li>
+<li><p>Stand, rods, and clamps</p></li>
+<li><p>Voltage Sensor to Capstone; records the voltage induced in the coil. The plugs of this sensor are connected to the jacks at the end of the coil wand. The voltage sensor is plugged into an analog input with a sample rate set to <span class="math notranslate nohighlight">\(1000\,\text{Hz}\)</span>.</p></li>
+<li><p>PASPORT 2-Axis Magnetic Field Sensor (axial measures positive B-field into the end of the probe; perpendicular measures positive B-field upwards through the probe) for measuring strength of horseshoe magnet.</p></li>
+<li><p>Rotary Motion Sensor (RMS) connected to Capstone. Detects and measures angular displacement, angular velocity, and angular acceleration. A 3-step pulley is affixed to its axle (see <a class="reference internal" href="#fig-setup"><span class="std std-numref">Figure 63</span></a>). The coil wand is mounted onto the 3-step pulley so that the rotational motion of the wand (and therefore the coil) can be measured. The RMS is set to a nominal sample rate of <span class="math notranslate nohighlight">\(500\,\text{Hz}\)</span>.</p></li>
+</ul>
+</section>
+<section id="experimental-procedure">
+<h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<figure class="align-center" id="fig-setup">
+<a class="reference internal image-reference" href="../_images/Figure02.pdf"><img alt="Complete experimental setup showing coil wand mounted on RMS with horseshoe magnet and sensors" src="../_images/Figure02.pdf" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 63 </span><span class="caption-text">This picture shows the coil wand mounted on the RMS as well as the horseshoe magnet. The cables connecting to the voltage sensor are plugged into the two jacks at the top of the wand. The magnetic field sensor can be seen in the foreground.</span><a class="headerlink" href="#fig-setup" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>The experiment should be already set up for you as shown in <a class="reference internal" href="#fig-setup"><span class="std std-numref">Figure 63</span></a>.</p></li>
+<li><p>Magnetic Field measurements</p>
+<ol class="arabic simple">
+<li><p>Set gap between the plates on the magnet to <span class="math notranslate nohighlight">\(1.5\,\text{cm}\)</span> (Case 2 will be <span class="math notranslate nohighlight">\(3.0\,\text{cm}\)</span>).</p></li>
+<li><p>Starting in the first tab in the Capstone file, click Record and use the magnetic field sensor to measure the magnetic field strength between the poles of the magnet. First press the Tare button on the 2 Axis Magnetic Field Sensor with it held far from the magnets. Hold the field sensor sideways (same position as in <a class="reference internal" href="#fig-setup"><span class="std std-numref">Figure 63</span></a>) and insert the tip into the gap between the poles of the magnet. When the measured field is positive the label of the magnetic field sensor points towards the South pole of the magnet. The magnetic field direction as measured (positive or negative) is as shown in the diagram on the sensor. The field lines coming out of the side of the sensor with the diagram and tare button on it indicate the magnetic field strength as positive, pointing North to South when external to the magnet.</p></li>
+<li><p>Hold the Induction Wand pendulum up out of the way. Insert the Magnetic Field Sensor probe between the magnetic pole plates. If the pole plate on the same side as the label on the magnetic field sensor is a south, the Magnetic Field Sensor signal is positive.</p></li>
+<li><p>Click RECORD. Use the Magnetic Field Sensor to determine which pole plate is north and put a label on it. You will need that for the Lenz’s law part of the experiment. If a compass is available, check to make sure you have labeled your magnet correctly.</p></li>
+<li><p>Use the Magnetic Field Sensor to probe the field between the plates. Record the maximum field at the center of the plates. Next, determine the distance from the horseshoe magnet where the field drops to less than <span class="math notranslate nohighlight">\(0.001\,\text{T}\)</span>. You will start the coil wand swinging this far from the magnet so that it begins its swing in approximately zero field. Enter your values in the Magnetic Field Data table.</p></li>
+<li><p>Click STOP. Click Delete Last Run at the bottom of the screen.</p></li>
+</ol>
+</li>
+<li><p>Induced Voltage (EMF)</p>
+<ol class="arabic simple">
+<li><p>In this section you will compare the calculated and experimental <span class="math notranslate nohighlight">\(\mathcal{E}\)</span> (EMF or voltage) induced in the wand’s coil.</p></li>
+<li><p>The coil should be able to move freely through the gap between the magnet poles, with the poles as close together as possible (about <span class="math notranslate nohighlight">\(1.5\,\text{cm}\)</span> between the plates) without restricting the motion of the coil. The center of the coil should be moving right through the middle of the poles. The long axis of the plates is horizontal so the pendulum swings through a more uniform magnetic field.</p></li>
+<li><p>Switch the Capstone file to the second tab, with Voltage vs. time and angle vs. time plots.</p></li>
+<li><p>Ensure the Voltage Sensor banana plugs are plugged into the banana jacks on the end of the coil wand. Drape the Voltage Sensor wires over the rods so the wires will not exert a torque on the coil as it swings.</p></li>
+<li><p>Let the pendulum hang at rest. Press RECORD, and ZERO the voltage sensor by looking in the bottom recording bar, with the voltage sensor selected, click the zero button (zero with two yellow arrows pointing towards each other).</p></li>
+<li><p>You can now pull the pendulum back. Let the pendulum swing freely and ensure the pendulum can swing 10 oscillations over about 10 seconds. If it’s longer, you may have extra friction from the wand hitting/scraping against the magnet or wires. No data is needed for this step, just double check your setup. Once you’re sure the pendulum can freely swing, move on to the next step.</p></li>
+<li><p>WITH THE PENDULUM AT REST, click RECORD and pull the coil wand out a bit further than the zero-B-field position you measured in step 2 above (<span class="math notranslate nohighlight">\(\sim 25°\)</span>). Release the wand and let it swing through the magnet out and back once. Then click STOP. The graph should show at least two up pulses and two down pulses.</p></li>
+<li><p>Press the “Stop” button on Capstone.</p></li>
+<li><p>Enlarge the portion of the voltage vs. time graph where the coil passed through the magnet.</p></li>
+<li><p>Enable and use the Multi-coordinates tool (four black arrows pointing to each other in the top toolbar of the plots) to determine the difference in time from the beginning to the end of the first peak.</p></li>
+<li><p>Find the average voltage by highlighting the first peak from when voltage lifts off from zero and returns to zero.
+\item Find the experimental area under the curve of the voltage versus time graph for the first peak using the area tool. You will have to CHANGE the tool properties number format to show sufficient significant digits.
+\item Calculate the expected value of the average induced voltage using <a class="reference internal" href="#equation-eq-faraday-average">(120)</a>. Calculate the expected area of the induced voltage using <a class="reference internal" href="#equation-eq-faraday-integrated">(121)</a>. Use <span class="math notranslate nohighlight">\(N = 200\)</span> for the number of turns of the coil and <span class="math notranslate nohighlight">\(A = \pi r^2 = \pi (0.013\,\text{m})^2\)</span> for its area.
+\item\label{E8Item:analysis}   Compare your experimental and expected values.
+\item\label{E8:PascoA11} Increase the magnet gap to <span class="math notranslate nohighlight">\(3.0\,\centi\meter\)</span> and repeat the steps~\ref{E8:PascoA3} to~\ref{E8Item:analysis}, except start the pendulum from the same position you used before.
+\end{enumerate}</p></li>
+</ol>
+</li>
+</ul>
+<p>\item Lenz’s Law
+\begin{enumerate}
+\item Think about this section as you will need to cover it in your post-lab submission.
+\item Look at the circuit diagram showing the coil orientation printed on the Induction Wand. Note that we have connected the red plug from the Voltage Sensor to the upper port and the black plug to the lower port. If coil current flows in the direction shown by the arrows (clockwise), then the upper port becomes positive due to excess positive charge there, and the lower port becomes negative due to decrease in positive charge. Since the red lead from the Voltage Sensor is attached to the upper port, the Voltage Sensor would read a positive voltage. Caution: although current flow in an external circuit is from positive to negative, current flow inside a battery or power supply must be from negative to positive.
+\item Lenz’s Law states that the current induced in a coil by a changing magnetic field through the coil will flow in a direction to oppose the change which produced it. In particular, the field produced by the induced current will be in a direction to try and prevent the field through the coil from changing.
+\item The magnetic field points from the north pole to the south pole. As the coil enters the magnet, the magnetic flux increases in that direction. Lenz’s Law says that the induced voltage opposes the change in flux. For the first peak, since the coil is entering the field, what does Lenz’s law say the induced voltage of the first peak compared to the second peak; should they both be positive or negative, or should one be positive and one be negative? Does it matter which direction the coil is moving or which direction the magnetic field is pointing?
+\end{enumerate}</p>
+<figure class="align-center" id="fig-resistor-load">
+<a class="reference internal image-reference" href="../_images/Figure03.pdf"><img alt="Resistive load attached to coil wand showing voltage sensor connections" src="../_images/Figure03.pdf" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 64 </span><span class="caption-text">This picture shows the resistive load attached to the coil wand. The cables leading to the voltage sensor are plugged into the resistor. In order to disconnect the resistor without changing the mass-distribution of the coil wand only one of the resistors plugs is connected to the jacks of the wand.</span><a class="headerlink" href="#fig-resistor-load" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Energy</p>
+<ol class="arabic simple">
+<li><p>Open the Capstone file.</p></li>
+<li><p>In Capstone, on the left side, click on the calculator. With the coil out of the magnetic field, use an ohmmeter to measure the resistance of the coil in the induction wand. Why must the coil be out of the field of the horseshoe magnet when measuring resistance? Verify the resistance of the <span class="math notranslate nohighlight">\(4.7\,\Omega\)</span> resistor. Enter the correct resistance values in the calculator and click accept. Finally click the calculator to close it. Before you start each new trial, click the calculator to make sure the resistor values are correct and have not reverted to the default values.</p></li>
+<li><p>Plug one side of the <span class="math notranslate nohighlight">\(4.7\,\Omega\)</span> resistor into the coil wand.</p></li>
+<li><p>Remove the magnet pole plates. Move the magnets as close to each other as possible, making sure that you leave enough space for the coil to move through the gap. Connect the RMS and the voltage sensor.</p></li>
+<li><p>Measure the distance of the center of mass of the wand (marked on the wand) from the pivot (the screw). Note the result in the data table.</p></li>
+<li><p>Note the mass of the wand (noted on the wand) in your data table.</p></li>
+<li><p>First determine the amount of energy lost to friction by letting the pendulum swing through the magnet with the resistor disconnected. This is done by having the resistor plugged into the wand with only one of his plugs connected (see <a class="reference internal" href="#fig-resistor-load"><span class="std std-numref">Figure 64</span></a>). This makes sure that no current flows through the wand (and the resistor) while leaving the center of mass of the wand unchanged.</p></li>
+<li><p>Press the “Record” button on Capstone with the coil <strong>at rest</strong> between the magnet poles. The rotary sensor zeros itself out whenever you start recording, we want to make sure <span class="math notranslate nohighlight">\(0°\)</span> is when the wand is at rest.</p></li>
+<li><p>Rotate the wand to an initial angle of <span class="math notranslate nohighlight">\(25°\)</span> and let it go.</p></li>
+<li><p>Press the “Stop” button after the wand has reached the other side.</p></li>
+<li><p>Use the “Magnifier” tool to enlarge the portion of the angle vs. time graph where the coil passed through the magnet. Select the peak and get the maximum and minimum angle of the motion to find the initial angle (<span class="math notranslate nohighlight">\(\theta_{i}\)</span>) and the angle to which the pendulum rises after it has passed once through the magnet (<span class="math notranslate nohighlight">\(\theta_{f}\)</span>).</p></li>
+<li><p>Calculate the energy lost to friction using <a class="reference internal" href="#equation-eq-energy-lost-angle">(127)</a>.</p></li>
+<li><p>Now connect the resistor by plugging in both plugs into the wand.</p></li>
+<li><p>Press the “Record” button on Capstone with the coil at rest between the magnet poles.</p></li>
+<li><p>Rotate the wand to an initial angle of <span class="math notranslate nohighlight">\(25°\)</span> and let it go.</p></li>
+<li><p>Press the “Stop” button after the wand has reached the other side.</p></li>
+<li><p>Measure again the initial angle (<span class="math notranslate nohighlight">\(\theta_{i}\)</span>) and the angle to which the pendulum rises after it has passed once through the magnet (<span class="math notranslate nohighlight">\(\theta_{f}\)</span>).</p></li>
+<li><p>Calculate the total energy lost using <a class="reference internal" href="#equation-eq-energy-lost-angle">(127)</a>.</p></li>
+<li><p>Highlight both peaks on the power vs. time graph and find the area under the curve. Use the “Area under highlighted region” tool in Capstone for this. Right-click the displayed value to set the numeric format. This area is the energy dissipated by the resistor.</p></li>
+<li><p>Add the energy dissipated by the resistor and the energy lost to friction. Compare this to the total energy lost by the pendulum.</p></li>
+<li><p>Compare these two values for the energy loss.</p></li>
+</ol>
+</li>
+</ul>
+</section>
+<section id="post-lab-submission-interpretation-of-results">
+<h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Make sure to submit your finalized data sheet with summarized data and cleaned-up plots (Excel sheet)</p></li>
+<li><p>Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:</p>
+<ul>
+<li><p>Do your experimental results for induced voltages from part 1 agree with the expected values?</p></li>
+<li><p>Do your values for energy loss from change in gravitational potential energy (<a class="reference internal" href="#equation-eq-energy-lost-angle">(127)</a>) agree with the energy dissipated by the closed circuit (with resistor) agree plus friction of the rotary sensor?</p></li>
+<li><p>What was the induced voltage of the coil of wire swinging into the magnetic field dependent on?</p></li>
+<li><p>Looking at your plot from Capstone of Voltage vs. Time, there should be four spikes in voltage during one whole cycle forward and back; why are the first and second peaks opposite signs (positive vs. negative, look back on the wand’s circuit diagram and think about how current would flow), and how does that relate to Lenz’s Law?</p></li>
+<li><p>Why is the voltage zero as the coil passes through the center of the magnet?</p></li>
+<li><p>Why, for the Power dissipated vs. Time plot were there two peaks, but now of the same sign (i.e. both positive)?</p></li>
+<li><p>Why, if you used a larger resistor, for example a <span class="math notranslate nohighlight">\(10\,\Omega\)</span> resistor in place of the <span class="math notranslate nohighlight">\(4.7\,\Omega\)</span> resistor, would the damping of the pendulum would be reduced.</p></li>
+</ul>
+</li>
+<li><p>Paragraph of your errors and estimated measurement uncertainties. Make sure to include discussion of the following:</p>
+<ul>
+<li><p>Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?</p></li>
+<li><p>What are your measured uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?</p></li>
+<li><p>Change different variables by your best estimation of measurement uncertainties in your Excel sheet; what variables affect the accuracy of your final results the most?</p></li>
+<li><p>If larger or small, are they more or less accurate to expected values?</p></li>
+<li><p>How could you improve your random errors?</p></li>
+<li><p>Were your systematic errors significant; how could this be improved if you were to re-run this experiment?</p></li>
+</ul>
+</li>
+<li><p>Reflect on this week’s lab; what did you learn?</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./ExperimentsGenPhysII"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="EoverM.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Measurement of Electrons’ e/m Ratio &amp; Magnetic Field Measurement</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Waves.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Wave Motion</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#magnetic-flux">Magnetic Flux</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#faraday-s-law">Faraday’s Law</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#energy-in-a-pendulum">Energy in a pendulum</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Angela Biselli
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
