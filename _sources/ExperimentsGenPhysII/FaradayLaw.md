@@ -144,10 +144,10 @@ Left) Coil wand with resistor and an example of the center of mass line and mass
 
 ## Experimental Procedure
 
-```{figure} FaradayLawFigures/Figure02.pdf
+```{figure} FaradayLawFigures/Figure02.png
 :name: fig-setup
 :alt: Complete experimental setup showing coil wand mounted on RMS with horseshoe magnet and sensors
-:width: 600px
+:width: 200px
 :align: center
 
 This picture shows the coil wand mounted on the RMS as well as the horseshoe magnet. The cables connecting to the voltage sensor are plugged into the two jacks at the top of the wand. The magnetic field sensor can be seen in the foreground.
@@ -187,10 +187,10 @@ This picture shows the coil wand mounted on the RMS as well as the horseshoe mag
   \item The magnetic field points from the north pole to the south pole. As the coil enters the magnet, the magnetic flux increases in that direction. Lenz’s Law says that the induced voltage opposes the change in flux. For the first peak, since the coil is entering the field, what does Lenz's law say the induced voltage of the first peak compared to the second peak; should they both be positive or negative, or should one be positive and one be negative? Does it matter which direction the coil is moving or which direction the magnetic field is pointing?
   \end{enumerate}
 
-```{figure} FaradayLawFigures/Figure03.pdf
+```{figure} FaradayLawFigures/Figure03.png
 :name: fig-resistor-load
 :alt: Resistive load attached to coil wand showing voltage sensor connections
-:width: 500px
+:width: 200px
 :align: center
 
 This picture shows the resistive load attached to the coil wand. The cables leading to the voltage sensor are plugged into the resistor. In order to disconnect the resistor without changing the mass-distribution of the coil wand only one of the resistors plugs is connected to the jacks of the wand.
