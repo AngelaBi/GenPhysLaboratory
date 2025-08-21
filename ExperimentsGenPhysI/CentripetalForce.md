@@ -15,7 +15,7 @@ F_{c} = m \frac{v^2}{R}
 
 During each experiment the mass $m$ and the radius $R$ are fixed by attaching a small weight to a holder on a rotating arm as shown in {numref}`M04Fig01`. By measuring the force in the cable and the speed of the attached mass on the rotating arm, the mass $m$ can be determined from a graph of force $F$ vs. $v^2$.
 
-```{figure} ExperimentCentripetalForceFigures/Figure01a.jpg
+```{figure} CentripetalForceFigures/Figure01a.jpg
 :name: M04Fig01
 :width: 500px
 :align: center
@@ -29,7 +29,7 @@ In this experiment, the force needed to keep the mass at its predetermined radiu
 
 ## Experimental Procedure
 
-```{figure} ExperimentCentripetalForceFigures/Figure02.jpg
+```{figure} CentripetalForceFigures/Figure02.jpg
 :name: M04Fig02
 :width: 400px
 :align: center
@@ -37,7 +37,7 @@ In this experiment, the force needed to keep the mass at its predetermined radiu
 Experimental Setup for the centripetal force experiment
 ```
 
-```{figure} ExperimentCentripetalForceFigures/Figure03.jpg
+```{figure} CentripetalForceFigures/Figure03.jpg
 :name: M04Fig03
 :width: 500px
 :align: center

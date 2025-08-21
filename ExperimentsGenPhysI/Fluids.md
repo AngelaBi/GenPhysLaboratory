@@ -12,7 +12,7 @@ Archimedes' Principle states: "When an object is submerged in a fluid, the fluid
 
 As depth increases, pressure in a fluid increases. Therefore, for an object in a fluid, the upward force on the bottom of that object is greater than the downward force on top of that object (see pressure forces $F_{\text{down}}$ vs $F_{\text{up}}$ in {numref}`M08_fluids_Fig00` *left*). There is a net upward force, or **buoyant force**, on any object in any fluid. If the buoyant force is greater than the object's weight, the object will rise to the surface and float. If the buoyant force is less than the object's weight, the object will sink (depicted in {numref}`M08_fluids_Fig00` *right-a* with $F_\text{Buoyancy} < w_\text{object}$). If the buoyant force equals the object's weight, the object will remain suspended at that depth. As such, there is always a buoyant force acting on an object regardless of whether it floats, sinks, or remains suspended.
 
-```{figure} ExperimentFluidsFigures/M08_fig00_2.jpg
+```{figure} FluidsFigures/M08_fig00_2.jpg
 :name: M08_fluids_Fig00
 :width: 530px
 :align: center
@@ -31,7 +31,7 @@ F_\text{B} = w_\text{fl}
 
 In this experiment, we will first determine the mass, volume, and density of 6 objects (see {numref}`M08_fluids_Fig02`). We will then determine the buoyant force acting on each object using Archimedes' Principle by determining the weight of water each object displaces. Finally, we will determine the buoyant force by measuring the apparent weight of an object.
 
-```{figure} ExperimentFluidsFigures/M08_fig02.jpg
+```{figure} FluidsFigures/M08_fig02.jpg
 :name: M08_fluids_Fig02
 :width: 290px
 :align: center
@@ -53,7 +53,7 @@ and the weight of an object is the downward force due to gravity:
 w_\text{obj} = mg
 ```
 
-```{figure} ExperimentFluidsFigures/M08_fig06.jpg
+```{figure} FluidsFigures/M08_fig06.jpg
 :name: M08_fluids_Fig04
 :width: 490px
 :align: center
@@ -72,7 +72,7 @@ F_\text{B} = w_\text{obj in air} - w_\text{obj in water}
 
 Imagine fluid flowing through a channel of varying width (ex. of such a setup in {numref}`M08_fluids_Fig07`). As the cross-sectional area changes, the volumetric flow rate remains constant, but the velocity and pressure of the fluid vary.
 
-```{figure} ExperimentFluidsFigures/M08_fig07.jpg
+```{figure} FluidsFigures/M08_fig07.jpg
 :name: M08_fluids_Fig07
 :width: 390px
 :align: center
@@ -131,7 +131,7 @@ NOTE: The pressure sensor hoses are to have only (or mostly) air such that water
 
 If you require more water in your pitcher, use another pitcher to refill (assuming the catch basin is glass, there will be less of a chance of that breaking if we're not moving it around more than we have to).
 
-```{figure} ExperimentFluidsFigures/M08_fig08.jpg
+```{figure} FluidsFigures/M08_fig08.jpg
 :name: M08_fluids_Fig08
 :width: 590px
 :align: center
@@ -168,7 +168,7 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
    - Tie a string on the irregular object.
    - Gently lower the irregular object into the overflow can until it is completely submerged. Allow the water to stop overflowing and then pour the water from the beaker into the graduated cylinder. Measure the volume of water that was displaced by reading the water level in the graduated cylinder in milliliters (1 ml = 1 cm³)
 
-```{figure} ExperimentFluidsFigures/M08_fig03.jpg
+```{figure} FluidsFigures/M08_fig03.jpg
 :name: M08_fluids_Fig03
 :width: 490px
 :align: center

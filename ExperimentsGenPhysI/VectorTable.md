@@ -46,7 +46,7 @@ Beginning at a convenient point on a piece of graph paper, usually at the origin
 \vec{F}_1 + \vec{F}_2 = \vec{F}_2 + \vec{F}_1 = \vec{R}.
 ```
 
-```{figure} ExperimentVectorTableFigures/M1_ForceTable_01.jpg
+```{figure} VectorTableFigures/M1_ForceTable_01.jpg
 :name: M01Fig01
 :width: 300px
 :align: center
@@ -54,7 +54,7 @@ Beginning at a convenient point on a piece of graph paper, usually at the origin
 Two force vectors $\vec{F}_1$ and $\vec{F}_2$
 ```
 
-```{figure} ExperimentVectorTableFigures/M1_ForceTable_02.jpg
+```{figure} VectorTableFigures/M1_ForceTable_02.jpg
 :name: M01Fig02
 :width: 500px
 :align: center
@@ -68,7 +68,7 @@ It is important that an appropriate scale be selected with which the vectors are
 
 The method of components is a much more useful and quantitatively accurate method of vector addition. Each vector is resolved into components along the $x$- and $y$-axes. That is to say, the vector addition of the two components of the vector is the vector itself. Thus if two vectors are to be added, we add the components along each axis to form the components of the resultant.
 
-```{figure} ExperimentVectorTableFigures/M1_ForceTable_03.jpg
+```{figure} VectorTableFigures/M1_ForceTable_03.jpg
 :name: M01Fig03
 :width: 500px
 :align: center
@@ -127,7 +127,7 @@ $$\tan \theta = (0.707\,\text{N}) / (1.707\,\text{N}) = 0.414,$$
 
 $$\theta = \arctan(0.414) = 22.5°.$$
 
-```{figure} ExperimentVectorTableFigures/Figure04.jpg
+```{figure} VectorTableFigures/Figure04.jpg
 :name: M01Fig04
 :width: 400px
 :align: center
@@ -137,7 +137,7 @@ Example of $\vec{R}$, the sum of 2 vectors, illustrating $x$- and $y$-components
 
 In this laboratory, an object will be presented with two known forces acting on it. Equilibrium will be established by adding a third **equilibrant** force $\vec{F}_3$, such that the sum of the three forces is zero (at equilibrium). Thus, we must find the resultant $\vec{R}$ of the two given forces $\vec{F}_1$ and $\vec{F}_2$, and find the force $\vec{F}_3 = -\vec{R}$ --- equal in magnitude and opposite in direction to the resultant $\vec{R}$ of $\vec{F}_1$ and $\vec{F}_2$. This is illustrated in {numref}`M01Fig05`.
 
-```{figure} ExperimentVectorTableFigures/Figure05.jpg
+```{figure} VectorTableFigures/Figure05.jpg
 :name: M01Fig05
 :width: 400px
 :align: center
@@ -157,7 +157,7 @@ We conclude that the force necessary to equilibrate two or more forces is equal 
 
 ## Apparatus
 
-```{figure} ExperimentVectorTableFigures/M1_ForceTable_06_table.jpg
+```{figure} VectorTableFigures/M1_ForceTable_06_table.jpg
 :name: M01Fig06
 :width: 500px
 :align: center

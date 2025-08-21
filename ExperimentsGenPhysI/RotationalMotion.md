@@ -97,7 +97,7 @@ Using this set of equations one can now solve for the moment of inertia, $I$,
 I = \frac{m \left(g  R_{P} - \alpha R_{P}^2\right)}{\alpha}.
 ```
 
-```{figure} ExperimentRotationalMotionFigures/Figure01.jpg
+```{figure} RotationalMotionFigures/Figure01.jpg
 :name: M08_rotation_Fig01
 :width: 60%
 :align: center
@@ -145,7 +145,7 @@ The experiment makes use of a sensor, which is able to detect and measure angula
 
 In this experiment you will measure the angular acceleration from a graph of angular velocity vs. time using data recorded with the RMS. The data will be collected in **Capstone**, which also provides analysis tools. The moment of inertia of a ring and of two point masses will be determined from the angular acceleration. Finally, you will verify the validity of angular momentum conservation in an inelastic collision.
 
-```{figure} ExperimentRotationalMotionFigures/Figure02.jpg
+```{figure} RotationalMotionFigures/Figure02.jpg
 :name: M08_rotation_Fig02
 :width: 50%
 :align: center
@@ -153,7 +153,7 @@ In this experiment you will measure the angular acceleration from a graph of ang
 Rotary Motion Sensor (RMS) with 3-step pulley (transparent) and Super Pulley (black).
 ```
 
-```{figure} ExperimentRotationalMotionFigures/Figure03a.jpg
+```{figure} RotationalMotionFigures/Figure03a.jpg
 :name: M08_rotation_Fig03
 :width: 80%
 :align: center

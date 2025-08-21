@@ -44,7 +44,7 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 
 ## Experimental Procedure
 
-```{figure} ExperimentIntroLabFigures/M0_dominos.jpg
+```{figure} IntroLabFigures/M0_dominos.jpg
 :name: M00_intro_Fig01
 :width: 80%
 :align: center

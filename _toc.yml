@@ -18,17 +18,17 @@ parts:
     chapters:
     - file: GeneralPhysicsLabI
       sections:
-        - file: ExperimentsGenPhysI/ExperimentIntroLab
-        - file: ExperimentsGenPhysI/ExperimentVectorTable
-        - file: ExperimentsGenPhysI/ExperimentAccGTrack
-        - file: ExperimentsGenPhysI/ExperimentSimpleProjectile
-        - file: ExperimentsGenPhysI/ExperimentCentripetalForce
-        - file: ExperimentsGenPhysI/ExperimentConsEnTrack
-        - file: ExperimentsGenPhysI/ExperimentBallisticPendulum
-        - file: ExperimentsGenPhysI/ExperimentRotationalMotion
-        - file: ExperimentsGenPhysI/ExperimentIdealGas
-        - file: ExperimentsGenPhysI/ExperimentFluids
-        - file: ExperimentsGenPhysI/ExperimentPendulum
+        - file: ExperimentsGenPhysI/IntroLab
+        - file: ExperimentsGenPhysI/VectorTable
+        - file: ExperimentsGenPhysI/AccGTrack
+        - file: ExperimentsGenPhysI/SimpleProjectile
+        - file: ExperimentsGenPhysI/CentripetalForce
+        - file: ExperimentsGenPhysI/ConsEnTrack
+        - file: ExperimentsGenPhysI/BallisticPendulum
+        - file: ExperimentsGenPhysI/RotationalMotion
+        - file: ExperimentsGenPhysI/IdealGas
+        - file: ExperimentsGenPhysI/Fluids
+        - file: ExperimentsGenPhysI/Pendulum
     - file: GeneralPhysicsLabII
       sections:
         - file: ExperimentsGenPhysII/Eps0

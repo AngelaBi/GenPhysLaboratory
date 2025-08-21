@@ -12,7 +12,7 @@ When all of the mass of the pendulum can be considered at a common distance from
 
 Under the assumption of a simple pendulum, the analysis of the motion can be carried out using Newton's Laws of Linear Motion that we have seen in class. {numref}`M03_pendulum_Fig01` illustrates a simple pendulum at some arbitrary point in its swinging motion back and forth. We define this point by the angle of the thread with the vertical, indicated by the dashed line. The forces acting on the mass are its weight straight down and the tension in the thread. The weight can be resolved into a component along the direction of the thread and a component perpendicular to the thread, i.e. along the tangent of the arc of the swing.
 
-```{figure} ExperimentPendulumFigures/M10_figure1_squish_v01.jpg
+```{figure} PendulumFigures/M10_figure1_squish_v01.jpg
 :name: M03_pendulum_Fig01
 :width: 70%
 :align: center

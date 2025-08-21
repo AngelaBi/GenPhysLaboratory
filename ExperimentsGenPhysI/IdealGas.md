@@ -43,7 +43,7 @@ For the Ideal Gas Law experiment the air inside a syringe is compressed by pushi
 For the Absolute Zero experiment a hollow sphere (with a fixed volume) is submerged in liquids of different temperature. Capstone will again collect and record pressure and temperature data of the gas enclosed in the sphere.
 Pictures of the experimental setups are shown in {numref}`H01Fig01` and {numref}`H01Fig02`.
 
-```{figure} ExperimentIdealGasFigures/Figure01a.jpg
+```{figure} IdealGasFigures/Figure01a.jpg
 :name: H01Fig01
 :width: 500px
 :align: center
@@ -51,7 +51,7 @@ Pictures of the experimental setups are shown in {numref}`H01Fig01` and {numref}
 The left picture shows the Ideal Gas Law experiment without the PasPort interface. The two cables coming from the syringe are the temperature and pressure connectors. The plunger of the syringe has a mechanical stop to prevent full compression of the syringe. The right-hand picture shows the Absolute Zero experiment, again without the PasPort interface. The pressure and temperature connectors are shown exiting at the end of the black cable of the device.
 ```
 
-```{figure} ExperimentIdealGasFigures/Figure02.jpg
+```{figure} IdealGasFigures/Figure02.jpg
 :name: H01Fig02
 :width: 600px
 :align: center

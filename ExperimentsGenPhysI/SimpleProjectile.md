@@ -80,7 +80,7 @@ The experimental setup will involve a free-fall timer where a metal ball is drop
 0 = y_{0} + 0 - \frac{1}{2}gt^{2}~~~=>~~~\frac{2y_{0}}{t^2} = g
 ```
 
-```{figure} ExperimentSimpleProjectileFigures/M3_Exp1.jpg
+```{figure} SimpleProjectileFigures/M3_Exp1.jpg
 :name: M03-simpleProjectileLauncher-Exp1
 :width: 500px
 :align: center
@@ -90,7 +90,7 @@ Example of the free fall apparatus used in Exp. 1. Note the release screw will b
 
 ### Horizontal Trajectory (Second experiment)
 
-```{figure} ExperimentSimpleProjectileFigures/M3_ExpOptions_quarter_size.jpg
+```{figure} SimpleProjectileFigures/M3_ExpOptions_quarter_size.jpg
 :name: M03-simpleProjectileLauncher
 :width: 600px
 :align: center
@@ -149,7 +149,7 @@ By launching at an upward angle $\theta$, we are now giving some of the initial 
 v_{x\theta} = v_{x}\cos{\theta}
 ```
 
-```{figure} ExperimentSimpleProjectileFigures/M3_Exp3.jpg
+```{figure} SimpleProjectileFigures/M3_Exp3.jpg
 :name: M03-simpleProjectileLauncher-Exp3
 :width: 400px
 :align: center

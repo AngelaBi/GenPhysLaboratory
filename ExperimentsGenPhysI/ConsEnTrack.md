@@ -6,7 +6,7 @@
 
 The **work** done by a force acting on a mass is the magnitude of the force acting in the direction of motion times the distance the mass moves. Work is only done when the mass moves. (In other words, you can push as hard as you like on a brick wall, but if the wall doesn't move, you didn't do any work!) Assume for the moment that we have a mass $m$ moving on a frictionless, horizontal surface. Assume a force acts on the mass from the position $x = 0$ to $x = x_1$ as illustrated in {numref}`M05Fig01`. At position $x = 0$ it is moving with a velocity $v_{0}$ and at $x = x_1$ the velocity is $v_1$.
 
-```{figure} ExperimentConsEnTrackFigures/Figure01.jpg
+```{figure} ConsEnTrackFigures/Figure01.jpg
 :name: M05Fig01
 :width: 500px
 :align: center
@@ -75,7 +75,7 @@ In order to calculate the potential energy, $U$ at any point, along the track we
 
 {numref}`M05Fig02` is a simplified diagram of the inclined track. The distance $s$ is measured along the track by the scale attached to the side of the track. The change in elevation, $\Delta h$, of any other point $s$ along the track can now be determined from the distance $s$ and the incline angle of track, $\theta$. The incline of the track is produced by placing a spacer of known height under a leg at one end. With the height of the spacer and the distance between the legs, $D$, the angle can be calculated (See {numref}`M05Fig03`).
 
-```{figure} ExperimentConsEnTrackFigures/Figure02.jpg
+```{figure} ConsEnTrackFigures/Figure02.jpg
 :name: M05Fig02
 :width: 450px
 :align: center
@@ -107,7 +107,7 @@ U_s = mg \, \Delta s \frac{H}{D}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CINQAbvNFPw?si=srqk4862Gp_MHdzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-```{figure} ExperimentConsEnTrackFigures/M04_fig2.jpg
+```{figure} ConsEnTrackFigures/M04_fig2.jpg
 :name: M05Fig03
 :width: 580px
 :align: center
