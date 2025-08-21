@@ -1,0 +1,676 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion &#8212; General Physcis Laboratory</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ExperimentsGenPhysI/BallisticPendulum';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Rotational Dynamics with Moment of Inertia &amp; Angular Momentum" href="RotationalMotion.html" />
+    <link rel="prev" title="Conservation of Energy with Glider on Tilted Air Track" href="ConsEnTrack.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="General Physcis Laboratory - Home"/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="General Physcis Laboratory - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to General Physics Lab
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Schedule for PHYS 1171</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Schedule for PHYS 1145</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Intro/IntroLab.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/DataAcquisition.html">Data Acquisition and Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/VernierCaliper.html">Vernier Calipers</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../GeneralPhysicsLabI.html">General Physics Lab I</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="IntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="AccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SimpleProjectile.html">Simple Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ConsEnTrack.html">Conservation of Energy with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RotationalMotion.html">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IdealGas.html">Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Pendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabII.html">General Physics Lab II</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Eps0.html">Electric Force and the Determination of <span class="math notranslate nohighlight">\(\varepsilon_0\)</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/MappingPotential.html">Electric Field and Equipotential Mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/ElectronDeflection.html">Acceleration And Deflection Of Electrons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Resistance.html">Resistivity, Resistors, and DC Circuits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/RCCircuit.html">Electrical Example of an Exponential Decay Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Mu0.html">Magnetic Force and the Determination of μ₀</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/EoverM.html">Measurement of Electrons’ e/m Ratio &amp; Magnetic Field Measurement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/FaradayLaw.html">Faraday’s Law of Induction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Waves.html">Wave Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Optics.html">Light – Diffraction with Lasers &amp; Geometric Optics and Imaging</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FExperimentsGenPhysI/BallisticPendulum.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/ExperimentsGenPhysI/BallisticPendulum.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum">Ballistic Pendulum</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion">Projectile Motion</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-procedure">Ballistic Pendulum Procedure</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-procedure">Projectile Motion Procedure</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="conservation-of-energy-linear-momentum-with-ballistic-pendulum-projectile-motion">
+<h1>Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion<a class="headerlink" href="#conservation-of-energy-linear-momentum-with-ballistic-pendulum-projectile-motion" title="Permalink to this heading">#</a></h1>
+<section id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
+<p>Conservation of energy and linear momentum will be used to measure the initial velocity of a projectile.  Two techniques will be employed.</p>
+<p>In the first, a ballistic pendulum, a device designed to capture a projectile in an initially stationary pendulum, will be used.  The conservation principles are used to analyze the collision and the subsequent motion of the pendulum.  The completely inelastic collision associated with the capture of the projectile in the pendulum and the subsequent motion of the pendulum provide the data necessary for the determination of the initial velocity.</p>
+<p>In the second technique, the measured parameters of the trajectory of a horizontally launched projectile are used to determine the initial velocity.  With the projectile moving in a free-fall trajectory, constant acceleration kinematics will be used to determine the initial velocity from measurements of the horizontal range and vertical drop.</p>
+<p>In each case, the projectile will be launched with the same device allowing a comparison of the initial velocity determinations of the two techniques.</p>
+<section id="ballistic-pendulum">
+<h3>Ballistic Pendulum<a class="headerlink" href="#ballistic-pendulum" title="Permalink to this heading">#</a></h3>
+<p>The ballistic pendulum is so named because it was originally used to measure the velocity of high-speed projectiles such as bullets long before electric and electronic timers made the procedure unnecessary. It remains, however, as a simple and demonstrative device for understanding the conservation principles of energy and momentum. In analyzing the problem, the system will consist of the projectile and the more massive pendulum. As illustrated in the left image in <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 23</span></a>, before the collision, the projectile is in motion horizontally towards the stationary pendulum. After the collision, the projectile is imbedded in the pendulum and the pendulum is moving along the arc as shown in the right image of <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 23</span></a>.</p>
+<figure class="align-center" id="m06fig01">
+<a class="reference internal image-reference" href="../_images/Figure01a.jpg"><img alt="../_images/Figure01a.jpg" src="../_images/Figure01a.jpg" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 23 </span><span class="caption-text">Ballistic Pendulum before (left) and after the collision (right)</span><a class="headerlink" href="#m06fig01" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The horizontally launched brass ball collides rather violently with and is captured by the more massive bob of the pendulum, initially at rest. The violent collision is totally inelastic as the ball is captured by the pendulum with much of the initial kinetic energy of the ball lost through a variety of energy conversions, mostly heat.</p>
+<p>During the collision of the ball with the pendulum, no external forces are acting on the system. Newton’s third law demands that the forces of the ball on the pendulum and the pendulum on the ball are equal and opposite. These two, always equal and opposite, internal forces are acting for the same time and therefore produce equal and opposite impulses on the two bodies. Thus the change in momentum of one body is equal and opposite to the change in momentum of the other. If the momentum changes of the two colliding bodies are equal and opposite, then the total linear momentum of the system cannot change and the total momentum is conserved.</p>
+<p>Notice that there has been no assumption on the nature of the internal forces acting. They do not have to be elastic, i.e. conservative. As such, the conservation of momentum does not imply anything about the conservation of kinetic energy in the collision. Linear momentum is conserved regardless of the nature of the interaction of the two bodies during the collision. Only when the interactive forces are completely elastic, i.e. conservative, will the kinetic energy of the collision be conserved.</p>
+<p>Momentum, like force and velocity, is a vector quantity. The conservation of momentum of a system therefore implies the conservation of the total vector momentum of the system. In our case, the initial momentum of the system is the initial momentum of the brass ball, which is only in the horizontal direction. Therefore the momentum after the collision can only be in the horizontal direction and they must be equal.</p>
+<p>Thus we can write</p>
+<div class="math notranslate nohighlight" id="equation-eq-m06momentum">
+<span class="eqno">(45)<a class="headerlink" href="#equation-eq-m06momentum" title="Permalink to this equation">#</a></span>\[m \vec{v}_0 = (m + M) \vec{V},\]</div>
+<p>where <span class="math notranslate nohighlight">\(m\)</span> is the mass of the ball, <span class="math notranslate nohighlight">\(M\)</span> is the mass of the pendulum, and <span class="math notranslate nohighlight">\(\vec{V}\)</span> is the velocity of the pendulum and ball together. If we can measure or determine <span class="math notranslate nohighlight">\(\vec{V}\)</span>, we can determine <span class="math notranslate nohighlight">\(\vec{v}_0\)</span>. The determination of <span class="math notranslate nohighlight">\(\vec{V}\)</span> can be made by examining the motion of the pendulum after the collision.</p>
+<p>After the collision, the pendulum swings upward until it momentarily comes to rest at the top of its swing where the vertical height of the system has been increased from <span class="math notranslate nohighlight">\(y_1\)</span> to <span class="math notranslate nohighlight">\(y_2\)</span> (right image of <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 23</span></a>). We will now make some assumptions. We will assume that there are no friction losses in the motion of the pendulum and that no collisions take place that might otherwise cause a loss of mechanical energy. In other words, we are assuming that the total mechanical energy of the system is conserved after the collision. By equating the kinetic energy of the system just after the collision at the bottom of the swing to the potential energy at the top, we can write</p>
+<div class="math notranslate nohighlight">
+\[\frac{1}{2}(m+M) V^2 = (m+M) g \left(y_2 - y_1\right).\]</div>
+<p>Solving this expression for <span class="math notranslate nohighlight">\(V\)</span> we have</p>
+<div class="math notranslate nohighlight">
+\[V = \sqrt{2 g \left(y_2 - y_1\right)}.\]</div>
+<p>Substituting in <a class="reference internal" href="#equation-eq-m06momentum">(45)</a> above, we have finally an expression for the initial velocity of the ball in terms of the measurable change in height of the pendulum and the respective masses, i.e.</p>
+<div class="math notranslate nohighlight" id="equation-eq-m06v0">
+<span class="eqno">(46)<a class="headerlink" href="#equation-eq-m06v0" title="Permalink to this equation">#</a></span>\[v_0 = \left( \frac{m+M}{m} \right) \sqrt{2 g \left(y_2 - y_1\right)}.\]</div>
+</section>
+<section id="projectile-motion">
+<h3>Projectile Motion<a class="headerlink" href="#projectile-motion" title="Permalink to this heading">#</a></h3>
+<p>When a projectile is moving solely under the influence of the force of gravity, we say that the projectile is in free-fall. Consider the launching of the same ball used in the ballistic pendulum. In this case, the pendulum will be swung up out of the way so the flight of the ball will continue off the edge of the table, eventually hitting the floor some distance away. This situation is illustrated in <a class="reference internal" href="#m06fig02"><span class="std std-numref">Fig. 24</span></a>.</p>
+<figure class="align-center" id="m06fig02">
+<a class="reference internal image-reference" href="../_images/M06_fig02.jpg"><img alt="../_images/M06_fig02.jpg" src="../_images/M06_fig02.jpg" style="width: 700px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 24 </span><span class="caption-text">Projectile Motion</span><a class="headerlink" href="#m06fig02" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Once the ball leaves the spring gun used to launch the ball, the ball is in free-fall. The vertical and horizontal motions are completely independent. We assume that once the ball leaves the gun, there are no energy loss mechanisms during the flight of the ball.</p>
+<p>In the vertical direction, the initial velocity is zero and the ball is accelerated downward by its weight, finally hitting the floor some time, <span class="math notranslate nohighlight">\(t\)</span>, later, dropping a vertical distance of <span class="math notranslate nohighlight">\(Y\)</span>.
+In the horizontal direction, the ball has a constant velocity of <span class="math notranslate nohighlight">\(v_0\)</span> during the entire flight over the horizontal distance <span class="math notranslate nohighlight">\(X\)</span>.</p>
+<p>Using our kinematic expressions for constant acceleration motion, we have</p>
+<div class="math notranslate nohighlight">
+\[Y = \frac{1}{2} g t^2\]</div>
+<p>and</p>
+<div class="math notranslate nohighlight">
+\[X = v_0 \, t.\]</div>
+<p>Eliminating the time <span class="math notranslate nohighlight">\(t\)</span> from these two expressions, we obtain</p>
+<div class="math notranslate nohighlight" id="equation-eq-m06v0pro">
+<span class="eqno">(47)<a class="headerlink" href="#equation-eq-m06v0pro" title="Permalink to this equation">#</a></span>\[v_0 = X \sqrt{\frac{g}{2 Y}}.\]</div>
+</section>
+</section>
+<section id="experimental-procedure">
+<h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<section id="ballistic-pendulum-procedure">
+<h3>Ballistic Pendulum Procedure<a class="headerlink" href="#ballistic-pendulum-procedure" title="Permalink to this heading">#</a></h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OjMF7Z2Pe6U?si=j9aSi4RHe3IBDj4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<ol class="arabic simple">
+<li><p><strong>Data table:</strong></p>
+<ul class="simple">
+<li><p>Create a table of the common data for the ballistic pendulum experiment including the mass of the ball <span class="math notranslate nohighlight">\(m\)</span>, the mass of the pendulum <span class="math notranslate nohighlight">\(M\)</span>, the initial pendulum height <span class="math notranslate nohighlight">\(y_1\)</span> and any other common data needed for calculations.</p></li>
+<li><p>Create a table with a row for each of the ten trials in the ballistic pendulum part of this lab including the trial number, the pendulum height <span class="math notranslate nohighlight">\(y_2\)</span>, the change in height <span class="math notranslate nohighlight">\(y_2-y_1\)</span>, the calculated velocity of the pendulum <span class="math notranslate nohighlight">\(V\)</span>, and the calculated initial velocity of the ball <span class="math notranslate nohighlight">\(v_0\)</span>.</p></li>
+<li><p>Create a table to summarize the ten trials including the average pendulum height <span class="math notranslate nohighlight">\(y_2\)</span>, the average change in height <span class="math notranslate nohighlight">\(y_2-y_1\)</span>, the average velocity of the pendulum <span class="math notranslate nohighlight">\(V\)</span>, the average initial velocity of the ball <span class="math notranslate nohighlight">\(v_0\)</span>, the standard deviation of <span class="math notranslate nohighlight">\(v_0\)</span>.</p></li>
+</ul>
+</li>
+<li><p>Measure and record the mass of the brass ball projectile.</p></li>
+<li><p>Record the mass of the pendulum that is indicated on the apparatus.</p></li>
+<li><p>Practice the following procedure before actually taking data.</p></li>
+<li><p>The pointer on the side of the bob indicates the center of mass of the pendulum. With the pendulum hanging motionless, measure the height above the base plate of the pointer. This value is <span class="math notranslate nohighlight">\(y_1\)</span>. Record the value in meters.</p></li>
+<li><p>Place the brass ball on the pin of the gun and press the ball so the spring of the gun is compressed until the trigger catches and holds the compressed spring.</p></li>
+<li><p>Fire the gun by squeezing the trigger. The ball will be captured by the bob and the pendulum will swing upwards.</p></li>
+<li><p>A small ratchet engaging a rack will capture the maximum upswing position of the pendulum. Measure the height to the tip of the metal pointer on the pendulum which represents the center of mass of the pendulum with ball.</p></li>
+<li><p>Carefully release the ratchet so the pendulum can swing back to its equilibrium position.</p></li>
+<li><p>Release the ball from the bob of the pendulum by pushing it with your finger or a short cylinder.</p></li>
+<li><p>Fire the ball ten times, and record the pendulum height <span class="math notranslate nohighlight">\(y_2\)</span> for each shot.</p></li>
+<li><p>Calculate the average <span class="math notranslate nohighlight">\(y = y_2-y_1\)</span> and the average <span class="math notranslate nohighlight">\(v_0\)</span> from <a class="reference internal" href="#equation-eq-m06v0">(46)</a>.</p></li>
+<li><p>Record your data and calculations on your spreadsheet.</p></li>
+</ol>
+</section>
+<section id="projectile-motion-procedure">
+<h3>Projectile Motion Procedure<a class="headerlink" href="#projectile-motion-procedure" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p><strong>Data table:</strong></p>
+<ul class="simple">
+<li><p>Create a table of the common data for the projectile motion experiment including the distance to the pad <span class="math notranslate nohighlight">\(x_1\)</span>, the vertical distance <span class="math notranslate nohighlight">\(Y\)</span> and any other measurements.</p></li>
+<li><p>Create a table with a row for each of the ten trials in the projectile motion part of this lab including the trial number, the measured <span class="math notranslate nohighlight">\(x_2\)</span>, the calculated horizontal distance <span class="math notranslate nohighlight">\(X=x_1+x_2\)</span> and the calculated initial velocity of the ball <span class="math notranslate nohighlight">\(v_0\)</span>.</p></li>
+<li><p>Create a table to summarize the ten trials including the average initial velocity <span class="math notranslate nohighlight">\(v_0\)</span> of the ball, the standard deviation of <span class="math notranslate nohighlight">\(v_0\)</span>.</p></li>
+</ul>
+</li>
+<li><p>Set up the projectile motion experiment as shown in <a class="reference internal" href="#m06fig02"><span class="std std-numref">Fig. 24</span></a>.</p></li>
+<li><p>Perform <span class="math notranslate nohighlight">\(n=10\)</span> measurements of <span class="math notranslate nohighlight">\(x_2\)</span>. Be careful that the gun is in the same position for each measurement</p></li>
+<li><p>Calculate the standard deviation for the <span class="math notranslate nohighlight">\(n=10\)</span> measurements of <span class="math notranslate nohighlight">\(x_2\)</span>.</p></li>
+</ol>
+</section>
+</section>
+<section id="post-lab-submission-interpretation-of-results">
+<h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Make sure to submit your finalized data table (Excel sheet)</p></li>
+<li><p>What is the range of your measurements for both pendulum and projectile? Do the initial velocities agree within the ranges when treating your standard deviations as your uncertainty of average values?</p></li>
+<li><p>How and why are they (or could be) different.</p></li>
+<li><p>Which of the two results for the value of <span class="math notranslate nohighlight">\(v_i\)</span> do you trust more? Explain your answer using a Physics argument.</p></li>
+<li><p>Suppose you would have used a more massive marble in the projectile motion portion of the experiment. How would this affect your result? Explain your answer.</p></li>
+<li><p>What are the effects of measured uncertainties on your determined velocities?</p></li>
+<li><p>What are possible systematic errors for today’s experiments?</p></li>
+</ul>
+</section>
+<section id="the-whiteboard">
+<h2>The Whiteboard<a class="headerlink" href="#the-whiteboard" title="Permalink to this heading">#</a></h2>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./ExperimentsGenPhysI"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="ConsEnTrack.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Conservation of Energy with Glider on Tilted Air Track</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="RotationalMotion.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum">Ballistic Pendulum</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion">Projectile Motion</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-procedure">Ballistic Pendulum Procedure</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-procedure">Projectile Motion Procedure</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Angela Biselli
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

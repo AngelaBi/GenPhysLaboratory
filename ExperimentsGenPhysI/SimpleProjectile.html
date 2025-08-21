@@ -1,0 +1,865 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Simple Projectile Motion &#8212; General Physcis Laboratory</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ExperimentsGenPhysI/SimpleProjectile';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Centripetal Force with Mass on Rotating Arm" href="CentripetalForce.html" />
+    <link rel="prev" title="Acceleration due to Gravity, g, with Glider on Tilted Air Track" href="AccGTrack.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="General Physcis Laboratory - Home"/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="General Physcis Laboratory - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to General Physics Lab
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Schedule for PHYS 1171</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Schedule for PHYS 1145</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Intro/IntroLab.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/DataAcquisition.html">Data Acquisition and Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/VernierCaliper.html">Vernier Calipers</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../GeneralPhysicsLabI.html">General Physics Lab I</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="IntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="AccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Simple Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ConsEnTrack.html">Conservation of Energy with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BallisticPendulum.html">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RotationalMotion.html">Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IdealGas.html">Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Pendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabII.html">General Physics Lab II</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Eps0.html">Electric Force and the Determination of <span class="math notranslate nohighlight">\(\varepsilon_0\)</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/MappingPotential.html">Electric Field and Equipotential Mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/ElectronDeflection.html">Acceleration And Deflection Of Electrons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Resistance.html">Resistivity, Resistors, and DC Circuits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/RCCircuit.html">Electrical Example of an Exponential Decay Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Mu0.html">Magnetic Force and the Determination of μ₀</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/EoverM.html">Measurement of Electrons’ e/m Ratio &amp; Magnetic Field Measurement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/FaradayLaw.html">Faraday’s Law of Induction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Waves.html">Wave Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Optics.html">Light – Diffraction with Lasers &amp; Geometric Optics and Imaging</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FExperimentsGenPhysI/SimpleProjectile.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/ExperimentsGenPhysI/SimpleProjectile.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Simple Projectile Motion</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#free-fall-downward-trajectory-first-experiment">Free Fall / Downward Trajectory (First experiment)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#horizontal-trajectory-second-experiment">Horizontal Trajectory (Second experiment)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#angled-trajectory-third-experiment">Angled Trajectory (Third experiment)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-1-free-fall-downward-trajectory">EXPERIMENT 1 – Free Fall / Downward Trajectory</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Horizontal Trajectory (Second experiment)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Angled Trajectory (Third experiment)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="simple-projectile-motion">
+<h1>Simple Projectile Motion<a class="headerlink" href="#simple-projectile-motion" title="Permalink to this heading">#</a></h1>
+<section id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
+<div class="note admonition">
+<p class="admonition-title">OVERALL GOALS</p>
+<p>In this lab, you will:</p>
+<ul class="simple">
+<li><p>Understand and apply kinematic equations to one- and two-dimensional projectile motion.</p></li>
+</ul>
+</div>
+<p><strong>Projectile motion</strong> is the motion of an object thrown or projected into the air, subject only to acceleration as a result of gravity. The applications of projectile motion in physics and engineering are numerous. Some examples include meteors as they enter Earth’s atmosphere, water in a water fountain, and the motion of any ball in sports. Such objects are called <em>projectiles</em>, and their path is called a <strong>trajectory</strong>.</p>
+<p>We can represent a projectile’s motion through kinematics which utilize its position, time, velocity, and acceleration. The kinematic equations we will use during this lab assume both <em><strong>constant acceleration</strong></em> effects of air resistance are <em><strong>negligible</strong></em> (generalized in the next four equations with <span class="math notranslate nohighlight">\(x\)</span> representing position along any given dimension):</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-01">
+<span class="eqno">(21)<a class="headerlink" href="#equation-eq-m03-kinematic-01" title="Permalink to this equation">#</a></span>\[v = v_{0} + at\]</div>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-02">
+<span class="eqno">(22)<a class="headerlink" href="#equation-eq-m03-kinematic-02" title="Permalink to this equation">#</a></span>\[x = x_{0} + v_{0}t + \frac{1}{2}at^{2}\]</div>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-03">
+<span class="eqno">(23)<a class="headerlink" href="#equation-eq-m03-kinematic-03" title="Permalink to this equation">#</a></span>\[v^{2} = v_{0}^{2} + 2a(x - x_{0})\]</div>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-04">
+<span class="eqno">(24)<a class="headerlink" href="#equation-eq-m03-kinematic-04" title="Permalink to this equation">#</a></span>\[x = x_{0} + \frac{1}{2}(v_{0} + v)t\]</div>
+<p>Today, we will analyze both one- and two-dimensional trajectories, where <span class="math notranslate nohighlight">\(x\)</span> will represent the horizontal direction, and <span class="math notranslate nohighlight">\(y\)</span> the vertical. Gravity (which pulls objects down towards the center of the Earth) will be assumed to be the only source of acceleration acting on our projectiles; as such, the acceleration of a projectile is <span class="math notranslate nohighlight">\(a_{y} = -g\)</span> and <span class="math notranslate nohighlight">\(a_{x} = 0\)</span>. Since horizontal acceleration terms are zero, we can represent horizontal motion by:</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-horizontal-kinematic">
+<span class="eqno">(25)<a class="headerlink" href="#equation-eq-m03-horizontal-kinematic" title="Permalink to this equation">#</a></span>\[v_{0x} = v_{x} = \text{constant velocity},~~~ x = x_{0} + v_{x}t\]</div>
+<p>Then, depending on the information we have available to us, we can represent vertical motion by:</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-vertical-01">
+<span class="eqno">(26)<a class="headerlink" href="#equation-eq-m03-kinematic-vertical-01" title="Permalink to this equation">#</a></span>\[v_{y} = v_{0y} - gt\]</div>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-vertical-02">
+<span class="eqno">(27)<a class="headerlink" href="#equation-eq-m03-kinematic-vertical-02" title="Permalink to this equation">#</a></span>\[y = y_{0} + v_{0y}t - \frac{1}{2}gt^{2}\]</div>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-vertical-03">
+<span class="eqno">(28)<a class="headerlink" href="#equation-eq-m03-kinematic-vertical-03" title="Permalink to this equation">#</a></span>\[v_{y}^{2} = v_{0y}^{2} - 2g(y - y_{0})\]</div>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-vertical-04">
+<span class="eqno">(29)<a class="headerlink" href="#equation-eq-m03-kinematic-vertical-04" title="Permalink to this equation">#</a></span>\[y = y_{0} + \frac{1}{2}(v_{0y} + v_{y})t\]</div>
+<section id="free-fall-downward-trajectory-first-experiment">
+<h3>Free Fall / Downward Trajectory (First experiment)<a class="headerlink" href="#free-fall-downward-trajectory-first-experiment" title="Permalink to this heading">#</a></h3>
+<p>In the previous lab, we determined the acceleration due to gravity via the tilted air track to take advantage of a longer time frame to measure a small fraction of the acceleration due to gravity. This week, we will determine the acceleration due to gravity more directly by considering a one-dimensional trajectory (i.e. free fall).</p>
+<p>The experimental setup will involve a free-fall timer where a metal ball is dropped from a release mechanism as shown in <a class="reference internal" href="#m03-simpleprojectilelauncher-exp1"><span class="std std-numref">Fig. 14</span></a>. When the metal ball is in then mechanism, it provides a closed circuit; once the ball is released and the circuit opens, the computer automatically starts timing <span class="math notranslate nohighlight">\(t_{\text{initial}}\)</span>. The ball then hits the receptor pad on the floor, closing the circuit and stopping the timer at <span class="math notranslate nohighlight">\(t_{\text{final}}\)</span>. Using the recorded time difference <span class="math notranslate nohighlight">\(t = t_{\text{final}} - t_{\text{initial}}\)</span>, and the initial height <span class="math notranslate nohighlight">\(y_{0}\)</span> as measured from the bottom of the ball to the top of the receptor plate (which is at the final height <span class="math notranslate nohighlight">\(y = 0\,\text{m}\)</span>), we can rearrange <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-02">(27)</a> to determine acceleration due to gravity.</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-freefall-g">
+<span class="eqno">(30)<a class="headerlink" href="#equation-eq-m03-kinematic-freefall-g" title="Permalink to this equation">#</a></span>\[0 = y_{0} + 0 - \frac{1}{2}gt^{2}~~~=&gt;~~~\frac{2y_{0}}{t^2} = g\]</div>
+<figure class="align-center" id="m03-simpleprojectilelauncher-exp1">
+<a class="reference internal image-reference" href="../_images/M3_Exp1.jpg"><img alt="../_images/M3_Exp1.jpg" src="../_images/M3_Exp1.jpg" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 14 </span><span class="caption-text">Example of the free fall apparatus used in Exp. 1. Note the release screw will be what you tighten or loosen to hold or release the ball from the release mechanism.</span><a class="headerlink" href="#m03-simpleprojectilelauncher-exp1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="horizontal-trajectory-second-experiment">
+<h3>Horizontal Trajectory (Second experiment)<a class="headerlink" href="#horizontal-trajectory-second-experiment" title="Permalink to this heading">#</a></h3>
+<figure class="align-center" id="m03-simpleprojectilelauncher">
+<a class="reference internal image-reference" href="../_images/M3_ExpOptions_quarter_size.jpg"><img alt="../_images/M3_ExpOptions_quarter_size.jpg" src="../_images/M3_ExpOptions_quarter_size.jpg" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 15 </span><span class="caption-text">Left) Position of launcher for lower height in Experiment 2. Right) Position of launcher for higher height in Experiment 2. Right) Position of launcher for angled launches in Experiment 3 where the ball’s initial position is the same as the higher height position.</span><a class="headerlink" href="#m03-simpleprojectilelauncher" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Note: For this experiment as well as the third experiment later on, while we could use our determined value for gravity, for simplicity, we will instead use the accepted value of <span class="math notranslate nohighlight">\(g = 9.803\,\text{m/s}^2\)</span> for Fairfield, CT.</p>
+<p>In this second experiment, we will <strong>1)</strong> first investigate the horizontally launched trajectory of the same metal ball used in the first experiment (launched at 90° relative to <span class="math notranslate nohighlight">\(g\)</span>, or 0° relative to the floor). Then <strong>2)</strong> we will attempt to estimate where the ball will land when launched from a different height and see how accurate we are.</p>
+<p>This setup will involve a marble launcher that can slide into a large holder at different initial heights <span class="math notranslate nohighlight">\(y_{0}\)</span> (and later for the third experiment, different angles, see <a class="reference internal" href="#m03-simpleprojectilelauncher"><span class="std std-numref">Fig. 15</span></a>). Height <span class="math notranslate nohighlight">\(y_{0}\)</span> will be measured from the bottom of the ball (effectively the bottom inside of the launcher’s barrel) to the floor. Once the ball is released, it will begin a two-dimensional trajectory accelerated solely by gravity in the <span class="math notranslate nohighlight">\(y\)</span> direction.</p>
+<p><strong>-1-)</strong> The distance in the <span class="math notranslate nohighlight">\(x\)</span> direction will be measured from the center of the ball in the uncocked position (a plum bob can be used to find the ball’s initial position on the floor) to the average landing position on the floor after the given number of trials. The ball will mark up paper with carbon paper; we will circle this scatter shot and estimate the average position of all trials from the given case, and then measure the distance with a 1 or 2 meter stick to determine <span class="math notranslate nohighlight">\(x\)</span>.</p>
+<p>After investigating how far the ball travels in the <span class="math notranslate nohighlight">\(x\)</span> direction from a given height, we can determine characteristics about the launcher-and-ball system to estimate how far in the <span class="math notranslate nohighlight">\(x\)</span> direction we may expect the ball to travel in the second part of this experiment when we launch it from a different initial height. To estimate how far the ball will travel, we can use <a class="reference internal" href="#equation-eq-m03-horizontal-kinematic">(25)</a> to determine <span class="math notranslate nohighlight">\(x\)</span>. However, to do so, we will need to for how long and how fast it was moving (distance traveled = speed × time). Since we know the initial height <span class="math notranslate nohighlight">\(y_{0}\)</span> of the ball, we can determine the time <span class="math notranslate nohighlight">\(t\)</span> it took to fall to the floor in the <span class="math notranslate nohighlight">\(y\)</span> direction due solely to gravity <span class="math notranslate nohighlight">\(g\)</span> by rearranging <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-02">(27)</a> to solve for <span class="math notranslate nohighlight">\(t\)</span>, knowing that <span class="math notranslate nohighlight">\(v_{0y} = 0\,\text{m/s}\)</span> and treating the floor as <span class="math notranslate nohighlight">\(y = 0\,\text{m}\)</span>:</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-vertical-time">
+<span class="eqno">(31)<a class="headerlink" href="#equation-eq-m03-kinematic-vertical-time" title="Permalink to this equation">#</a></span>\[0 = y_{0} + 0 - \frac{1}{2}gt^{2}~~~=&gt;~~~\sqrt{\frac{2y_{0}}{g}} = t\]</div>
+<p>Now that we know the time <span class="math notranslate nohighlight">\(t\)</span> of the trajectory, and treating the uncocked position as <span class="math notranslate nohighlight">\(x_{0} = 0\,\text{m}\)</span>, we can use <a class="reference internal" href="#equation-eq-m03-horizontal-kinematic">(25)</a> to determine the horizontal velocity <span class="math notranslate nohighlight">\(v_{x}\)</span> when released:</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-horizontal-velocity-01">
+<span class="eqno">(32)<a class="headerlink" href="#equation-eq-m03-kinematic-horizontal-velocity-01" title="Permalink to this equation">#</a></span>\[x = 0 + v_{x}t~~~=&gt;~~~\frac{x}{t} = v_{x}\]</div>
+<p><strong>-2-)</strong> For the second part of this experiment, we move the launcher to the higher 0° slot (~20 cm higher), and we want to determine how far it will travel in the <span class="math notranslate nohighlight">\(x\)</span> direction. This leads us back to <a class="reference internal" href="#equation-eq-m03-horizontal-kinematic">(25)</a> where we want to solve for <span class="math notranslate nohighlight">\(x_{\text{higher height}}\)</span> (where again, <span class="math notranslate nohighlight">\(x_{0} = 0\,\text{m}\)</span> in the uncocked position):</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-horizontal-velocity-02">
+<span class="eqno">(33)<a class="headerlink" href="#equation-eq-m03-kinematic-horizontal-velocity-02" title="Permalink to this equation">#</a></span>\[x = 0 + v_{x}t~~~=&gt;~~~x_{\text{higher height}} = v_{x}t_{\text{higher height}}\]</div>
+<p>We know the ball’s velocity <span class="math notranslate nohighlight">\(v_{x}\)</span>, but we no longer know the time. However, similar to before, we can solve for <span class="math notranslate nohighlight">\(t_{\text{higher height}}\)</span> by plugging <span class="math notranslate nohighlight">\(y_{0\text{,higher height}}\)</span> into <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-time">(31)</a>:</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-vertical-time-higher-height">
+<span class="eqno">(34)<a class="headerlink" href="#equation-eq-m03-kinematic-vertical-time-higher-height" title="Permalink to this equation">#</a></span>\[\sqrt{\frac{2y_{0\text{,higher height}}}{g}} = t_{\text{higher height}}\]</div>
+<p>This subsequent value for time <span class="math notranslate nohighlight">\(t_{\text{higher height}}\)</span> can be used in <a class="reference internal" href="#equation-eq-m03-kinematic-horizontal-velocity-02">(33)</a> to then calculate a theoretical distance <span class="math notranslate nohighlight">\(x_{\text{higher height, theoretical}}\)</span>. We will then launch the ball from this higher height see how accurate we estimated <span class="math notranslate nohighlight">\(x_{\text{higher height, theoretical}}\)</span>. The experimentally determined <span class="math notranslate nohighlight">\(x_{\text{higher height, experimental}}\)</span> will be measured in the same way as the first part of this experiment (circling and estimating the center of the scattershot).</p>
+</section>
+<section id="angled-trajectory-third-experiment">
+<h3>Angled Trajectory (Third experiment)<a class="headerlink" href="#angled-trajectory-third-experiment" title="Permalink to this heading">#</a></h3>
+<p>The third part of this experiment is similar to the 2nd part of the second experiment in that we are staying at the higher height, but now investigating the trajectories when launched from different angles, namely, how far in the <span class="math notranslate nohighlight">\(x\)</span> direction do they reach? The large, launcher holder is designed to hold the ball at rest (uncocked) in the same position (height) regardless of angle, so you should be able to use your previously determined <span class="math notranslate nohighlight">\(y_{0\text{,higher height}}\)</span> as your value for the ball’s initial height (see <a class="reference internal" href="#m03-simpleprojectilelauncher"><span class="std std-numref">Fig. 15</span></a> right).</p>
+<p>By launching at an upward angle <span class="math notranslate nohighlight">\(\theta\)</span>, we are now giving some of the initial velocity to both <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> directions. Once again, as there is no acceleration in the <span class="math notranslate nohighlight">\(x\)</span> direction, we will ultimately use <a class="reference internal" href="#equation-eq-m03-horizontal-kinematic">(25)</a> to determine <span class="math notranslate nohighlight">\(x_{\theta}\)</span>. However, we need to know both <span class="math notranslate nohighlight">\(v_{x\theta}\)</span> and <span class="math notranslate nohighlight">\(t_{\theta}\)</span>. The velocity will merely be the horizontal component of the launch angle:</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-horizontal-velocity-03">
+<span class="eqno">(35)<a class="headerlink" href="#equation-eq-m03-kinematic-horizontal-velocity-03" title="Permalink to this equation">#</a></span>\[v_{x\theta} = v_{x}\cos{\theta}\]</div>
+<figure class="align-center" id="m03-simpleprojectilelauncher-exp3">
+<a class="reference internal image-reference" href="../_images/M3_Exp3.jpg"><img alt="../_images/M3_Exp3.jpg" src="../_images/M3_Exp3.jpg" style="width: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 16 </span><span class="caption-text">Example of the upward and downward portions you’ll analyze in Experiment 3 for an angled launch.</span><a class="headerlink" href="#m03-simpleprojectilelauncher-exp3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>To solve for the time, however, we can characterize motion in the <span class="math notranslate nohighlight">\(y\)</span> direction to determine for how long the ball is in the air.</p>
+<p>As shown in <a class="reference internal" href="#m03-simpleprojectilelauncher-exp3"><span class="std std-numref">Fig. 16</span></a>, we can find that total time by breaking the trajectory into parts (i.e. <span class="math notranslate nohighlight">\(t_{\theta}~=~t_{\text{up}}~+~t_{\text{down}}\)</span>) where <span class="math notranslate nohighlight">\(t_{\text{up}}\)</span> is the time for upward travel to the peak height, and <span class="math notranslate nohighlight">\(t_{\text{down}}\)</span> is the time for downward travel to the floor from that peak height. <strong>UPWARD PORTION)</strong> Starting with <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-01">(26)</a>, where we know for the upward travel portion the initial velocity in the <span class="math notranslate nohighlight">\(y\)</span> direction is <span class="math notranslate nohighlight">\(v_{0y} = v_{0y\text{ higher height}} = v_{x}\sin{\theta}\)</span> and at the peak of the trajectory (end of the upward travel) <span class="math notranslate nohighlight">\(v_{y} = v_{y\text{peak}} = 0\,\text{m/s}\)</span>, thus:</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-vertical-time-03-v2-pt1">
+<span class="eqno">(36)<a class="headerlink" href="#equation-eq-m03-kinematic-vertical-time-03-v2-pt1" title="Permalink to this equation">#</a></span>\[v_{y\text{ peak}} = v_{0y\text{ higher height}} - gt~~~=&gt;~~~0 = v_{x}\sin{\theta} - gt_{\text{up}}~~~=&gt;~~~\frac{v_{x}\sin{\theta}}{g} = t_{\text{up}}\]</div>
+<p><strong>DOWNWARD PORTION)</strong> Then for the downward travel, we need to first know how high we travelled during the upward portion (i.e. <span class="math notranslate nohighlight">\(y_{0\text{,higher height}} \text{ to } y_{\text{ peak}}\)</span>) so we can use <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-02">(27)</a> later to determine the time it took to fall from <span class="math notranslate nohighlight">\(y_{\text{ peak}} \text{ to } y_{\text{ floor}}\)</span>. Since we know our initial height <span class="math notranslate nohighlight">\(y_{0} = y_{0\text{,higher height}}\)</span>, initial velocity <span class="math notranslate nohighlight">\(v_{0} = v_{0y\text{ higher height}} = v_{x}\sin{\theta}\)</span>, and the time it took to get <span class="math notranslate nohighlight">\(t_{\text{up}}\)</span> there from <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-time-03-v2-pt1">(36)</a>, we can use <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-02">(27)</a> to solve for the final height of the upward travel <span class="math notranslate nohighlight">\(y_{\text{peak}}\)</span>:</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-vertical-time-03-v2-pt2">
+<span class="eqno">(37)<a class="headerlink" href="#equation-eq-m03-kinematic-vertical-time-03-v2-pt2" title="Permalink to this equation">#</a></span>\[y_{\text{peak}} = y_{0\text{,higher height}} + v_{x}\sin{\theta}t_{\text{up}} - \frac{1}{2}gt_{\text{up}}^{2}\]</div>
+<p>Now that we know <span class="math notranslate nohighlight">\(y_{\text{peak}}\)</span>, we can use <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-02">(27)</a> to solve for <span class="math notranslate nohighlight">\(t_{down}\)</span>, this time with the final height <span class="math notranslate nohighlight">\(y_{\text{floor}} = 0\,\text{m}\)</span>, initial height of <span class="math notranslate nohighlight">\(y_{\text{peak}}\)</span>, and the initial velocity <span class="math notranslate nohighlight">\(v_{y\text{ peak}} = 0\,\text{m/s}\)</span>.</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-vertical-time-03-v2-pt3">
+<span class="eqno">(38)<a class="headerlink" href="#equation-eq-m03-kinematic-vertical-time-03-v2-pt3" title="Permalink to this equation">#</a></span>\[y_{\text{floor}} = y_{\text{peak}} + v_{y\text{ peak}} - \frac{1}{2}gt_{\text{down}}^{2}~~~=&gt;~~~0 = y_{\text{peak}} + 0 - \frac{1}{2}gt_{\text{down}}^{2}~~~=&gt;~~~\sqrt{\frac{2y_{\text{peak}}}{g}} = t_{\text{down}}\]</div>
+<p><strong>HORIZONTAL DISTANCE)</strong> Finally, we have the total time <span class="math notranslate nohighlight">\(t_{\theta}~=~t_{\text{up}}~+~t_{\text{down}}\)</span> from <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-time-03-v2-pt1">(36)</a> and <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-time-03-v2-pt3">(38)</a> and the initial velocity <span class="math notranslate nohighlight">\(v_{x}\)</span> from <a class="reference internal" href="#equation-eq-m03-kinematic-horizontal-velocity-03">(35)</a> to incorporate into <a class="reference internal" href="#equation-eq-m03-horizontal-kinematic">(25)</a> to determine the theoretical distance <span class="math notranslate nohighlight">\(x_{\theta}\)</span> the ball with travel in the <span class="math notranslate nohighlight">\(x\)</span> direction for any given angle <span class="math notranslate nohighlight">\(\theta\)</span>:</p>
+<div class="math notranslate nohighlight" id="equation-eq-m03-kinematic-vertical-time-03-v2-pt4">
+<span class="eqno">(39)<a class="headerlink" href="#equation-eq-m03-kinematic-vertical-time-03-v2-pt4" title="Permalink to this equation">#</a></span>\[x_{\theta} = v_{x}\cos{\theta}t_{\theta}\]</div>
+</section>
+</section>
+<section id="experimental-procedure">
+<h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NvrdZoWNI5Q?si=ZyCPpqmxdyTGzqpZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<section id="experiment-1-free-fall-downward-trajectory">
+<h3>EXPERIMENT 1 – Free Fall / Downward Trajectory<a class="headerlink" href="#experiment-1-free-fall-downward-trajectory" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW</p>
+<ul class="simple">
+<li><p>Investigate projectile motion in one-dimension (<span class="math notranslate nohighlight">\(y\)</span>).</p></li>
+<li><p>Conduct 5 trials of the free-fall and determine acceleration due to gravity using one-dimensional kinematics.</p></li>
+</ul>
+</div>
+<div class="note admonition">
+<p class="admonition-title">POINT TO CONSIDER</p>
+<p>Will this experiment be more or less accurate in measuring <span class="math notranslate nohighlight">\(g\)</span> than the previous lab using gliders on a tilted air track?</p>
+</div>
+<div class="note admonition">
+<p class="admonition-title">NOTE</p>
+<ul class="simple">
+<li><p>There are only 4 setups, please share, and once you’re done taking your data, move on to ensure other groups have a reasonable chance to use the apparatus.</p></li>
+<li><p>PASCO TIMER Precision: 0.0001 seconds</p></li>
+</ul>
+</div>
+<ol class="arabic simple">
+<li><p>Create a data table for this experiment:</p>
+<ul class="simple">
+<li><p>Common data section with the accepted value of <span class="math notranslate nohighlight">\(g\)</span>, the ball height <span class="math notranslate nohighlight">\(y_{0}\)</span>, and the ball height’s estimated uncertainty <span class="math notranslate nohighlight">\(\delta y\)</span>.</p></li>
+<li><p>With <strong>five rows</strong> (1 for each of the 5 free-fall trials). Also include additional <strong>rows</strong> for the average <span class="math notranslate nohighlight">\(g\)</span> value, the <span class="math notranslate nohighlight">\(\pm\)</span> uncertainty in gravity <span class="math notranslate nohighlight">\(\delta g\)</span>, the magnitude difference compared to the accepted <span class="math notranslate nohighlight">\(g\)</span> <em>DISCUSSION POINT for later</em>: How well does you average value of <span class="math notranslate nohighlight">\(g \pm \delta g\)</span> agree with the accepted value of <span class="math notranslate nohighlight">\(g\)</span>?).</p></li>
+<li><p>Include <strong>six columns</strong> for</p>
+<ul>
+<li><p>Initial time <span class="math notranslate nohighlight">\(t_{\text{initial}}\)</span></p></li>
+<li><p>Initial time uncertainty <span class="math notranslate nohighlight">\(\delta t_{\text{initial}}\)</span></p></li>
+<li><p>Final time <span class="math notranslate nohighlight">\(t_{\text{final}}\)</span></p></li>
+<li><p>Final time uncertainty <span class="math notranslate nohighlight">\(\delta t_{\text{final}}\)</span></p></li>
+<li><p>Total elapsed time <span class="math notranslate nohighlight">\(t = t_{\text{final}} - t_{\text{initial}}\)</span></p></li>
+<li><p>Total elapsed time uncertainty <span class="math notranslate nohighlight">\(\delta t = t_{\text{final}} - t_{\text{initial}}\)</span></p></li>
+<li><p>Calculated <span class="math notranslate nohighlight">\(g\)</span></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>CAPSTONE will be set up with the Free-Fall Adapter which, whenever the circuit opens or closes, will record the time that event occurred.</p></li>
+<li><p>Place your metal ball from your marble launcher into the spring loaded holder at one of the four setups. You will need to push the metal tab in and then hand-tighten the holding/release screw to hold the ball in place.</p></li>
+<li><p>Ensure the receptor pad is beneath the ball such that it hits close to the open side.</p></li>
+<li><p>Measure the height the ball will fall; the initial height <span class="math notranslate nohighlight">\(y_{0}\)</span> is measured from the bottom of the ball to the top of the receptor plate which has a final height <span class="math notranslate nohighlight">\(y = 0\,\text{m}\)</span> if you place the meter stick on the receptor pad.</p></li>
+<li><p>Press Record in CAPSTONE. You can let it run and it’ll continue collecting data even when you reset the ball for additional trials; or restart for each trial, just be aware of which data points are related to your drop.</p></li>
+<li><p>Unscrew the holding/release screw to allow the ball to fall.</p></li>
+<li><p>Record your <span class="math notranslate nohighlight">\(t_{\text{initial}}\)</span> and <span class="math notranslate nohighlight">\(t_{\text{final}}\)</span> times.</p></li>
+<li><p>Repeat the drop for a total of 5 free-fall trials. Determine the total elapsed times <span class="math notranslate nohighlight">\(t\)</span> for each trial.</p></li>
+<li><p>Using <a class="reference internal" href="#equation-eq-m03-kinematic-freefall-g">(30)</a>, calculate the value of <span class="math notranslate nohighlight">\(g\)</span> for each of your trials (benefit here of calculating <span class="math notranslate nohighlight">\(g\)</span> from each trial: you can more easily notice any outlier data).</p></li>
+<li><p>Determine your average <span class="math notranslate nohighlight">\(g\)</span> from the preceding values.</p></li>
+<li><p>Estimate your uncertainty in <span class="math notranslate nohighlight">\(g\)</span>, as represented by <span class="math notranslate nohighlight">\(\delta g = g_\text{test} - g\)</span>, (i.e. how confident [<span class="math notranslate nohighlight">\(\pm\)</span>] you are in what you measured – e.g. distance, time). Plug in each measurements’ uncertainties to make your test value of <span class="math notranslate nohighlight">\(g_\text{test}\)</span> as calculated with <a class="reference internal" href="#equation-eq-m03-kinematic-freefall-g">(30)</a> as big as possible (i.e. larger numerator, smaller denominator). Determine <span class="math notranslate nohighlight">\(\delta g\)</span>.</p></li>
+<li><p>Compare your average <span class="math notranslate nohighlight">\(g\)</span> to the accepted value of <span class="math notranslate nohighlight">\(g = 9.803\,\text{m/s}^2\)</span>; what is the total difference?</p></li>
+<li><p>Does you average <span class="math notranslate nohighlight">\(g \pm \delta g\)</span> cover the difference from the accepted value and agree, or not?</p></li>
+</ol>
+</section>
+<section id="id1">
+<h3>Horizontal Trajectory (Second experiment)<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW</p>
+<ul class="simple">
+<li><p>Investigate projectile motion in two-dimensions when launched horizontally.</p></li>
+<li><p>For simplicity and to decrease error propagation, <strong>for the rest of lab, assume and use</strong> the accepted value of <span class="math notranslate nohighlight">\(g = 9.803\,\text{m/s}^2\)</span> for Fairfield, CT rather than your previously determined value.</p></li>
+<li><p>Characterize the trajectory from the marble launcher at initial height.</p></li>
+<li><p>Calculate the theoretical trajectory (distance <span class="math notranslate nohighlight">\(x\)</span>) for a different height; place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.</p></li>
+<li><p>Conduct 20 launches for each height; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot.</p></li>
+</ul>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Create a data table for this experiment:</p>
+<ul class="simple">
+<li><p>Common data section with the accepted value of <span class="math notranslate nohighlight">\(g\)</span>.</p></li>
+<li><p>Section for the case at a the lower initial height containing:</p>
+<ul>
+<li><p>the ball height <span class="math notranslate nohighlight">\(y_{0}\)</span></p></li>
+<li><p>the ball height’s estimated uncertainty <span class="math notranslate nohighlight">\(\delta y_{0}\)</span></p></li>
+<li><p>distance <span class="math notranslate nohighlight">\(x\)</span></p></li>
+<li><p>distance uncertainty <span class="math notranslate nohighlight">\(\delta x\)</span> based on the radius of the circle you draw around the scattershot</p></li>
+</ul>
+</li>
+<li><p>Additional sections for derived time of the trajectory <span class="math notranslate nohighlight">\(t\)</span> and velocity <span class="math notranslate nohighlight">\(v_{x}\)</span></p></li>
+<li><p>Additional sections for:</p>
+<ul>
+<li><p>Height of the ball at the higher <span class="math notranslate nohighlight">\(0°\)</span> slot height <span class="math notranslate nohighlight">\(y_{0\text{,higher height}}\)</span></p></li>
+<li><p>Time of the trajectory from a higher height <span class="math notranslate nohighlight">\(t_{\text{higher height}}\)</span></p></li>
+<li><p>Theoretical distance <span class="math notranslate nohighlight">\(x_{\text{higher height, theoretical}}\)</span> (calculated with <a class="reference internal" href="#equation-eq-m03-kinematic-horizontal-velocity-02">(33)</a>)</p></li>
+<li><p>Experimentally measured distance <span class="math notranslate nohighlight">\(x_{\text{higher height, experimental}}\)</span></p></li>
+<li><p>Estimated uncertainty in the experimental distance <span class="math notranslate nohighlight">\(\delta x_{\text{higher height, experimental}}\)</span> (essentially <span class="math notranslate nohighlight">\(\pm\)</span> the radius of the circle drawn around your scattershot)</p></li>
+<li><p>Difference (magnitude) between the theoretical and experimental <span class="math notranslate nohighlight">\(x\)</span> distances</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Place the marble launcher in the holder in the lower <span class="math notranslate nohighlight">\(0°\)</span> slot (uncocked to represent where the ball will be once the piston is no longer accelerating the ball up to speed)</p></li>
+<li><p>Measure the height the ball will fall; place the metal ball into the launcher as the initial height <span class="math notranslate nohighlight">\(y_{0}\)</span> is measured from the bottom of the ball to the floor (though the bottom of the inside of the barrel can also be used as the bottom of the ball location if that is easier to measure).</p></li>
+<li><p>Conduct a couple test launches by pulling the piston to the first or second notches (whichever position provides the shorter, <span class="math notranslate nohighlight">\(\sim 1\,\text{m}\)</span>, <span class="math notranslate nohighlight">\(x\)</span> distance). Take mental note of where the ball is generally landing.</p></li>
+<li><p>Get a piece of paper and tape it in the approximate location, and place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.</p></li>
+<li><p>Conduct <strong>20 launches</strong> onto the paper/carbon paper.</p></li>
+<li><p>Put aside the carbon paper and mark the dots with a marker or something else that makes it apparent which dots are your data points for this height. Draw a rough circle surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter.</p></li>
+<li><p>Measure the experimental distance <span class="math notranslate nohighlight">\(x\)</span> from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. To translate the initial location of the ball in the barrel to the floor, you can use a plum bob to make a straight line down to the floor, from which you can more easily measure <span class="math notranslate nohighlight">\(x\)</span></p></li>
+<li><p>From your circle around your scattershot, estimate your uncertainty in distance <span class="math notranslate nohighlight">\(\delta x\)</span></p></li>
+<li><p>Move the marble launcher to the higher <span class="math notranslate nohighlight">\(0°\)</span> slot and remeasure the initial height <span class="math notranslate nohighlight">\(y_{0\text{,higher height}}\)</span></p></li>
+<li><p>Now calculate the theoretical distance <span class="math notranslate nohighlight">\(x_{\text{higher height, theoretical}}\)</span> using <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-time">(31)</a> – <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-time-higher-height">(34)</a></p></li>
+<li><p>Repeat steps 5 to 10 to determine experimentally the distance with its uncertainty at the higher height (i.e. <span class="math notranslate nohighlight">\(x_{\text{higher height, experimental}}\)</span> and <span class="math notranslate nohighlight">\(\delta x_{\text{higher height, experimental}}\)</span>). <strong>ADDITIONALLY: Before any launches from the higher height, draw a bullseye at the theoretical distance you expect the balls at the higher height to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be (to discuss later in <a class="reference internal" href="#interpretation"><span class="std std-ref">Post-Lab Submission — Interpretation of Results</span></a>).</strong></p></li>
+<li><p>Calculate the difference between you theoretical and experimental values of <span class="math notranslate nohighlight">\(x\)</span> at the higher height.</p></li>
+<li><p>DISCUSSION POINT (covered in <a class="reference internal" href="#interpretation"><span class="std std-ref">Post-Lab Submission — Interpretation of Results</span></a>): Does your experimental distance of the higher height agree with what you expected from your theoretical calculation? In other words, does <span class="math notranslate nohighlight">\(x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}\)</span> overlap with <span class="math notranslate nohighlight">\(x_{\text{higher height, theoretical}}\)</span> (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?</p></li>
+</ol>
+</section>
+<section id="id2">
+<h3>Angled Trajectory (Third experiment)<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW</p>
+<ul class="simple">
+<li><p>Investigate projectile motion in two-dimensions when launched at a non-zero angle (for now, we’ll use the 45° slot; if labs go well this semester, we may add additional angles).</p></li>
+<li><p>Calculate the theoretical trajectory (distance <span class="math notranslate nohighlight">\(x\)</span>) for a non-zero angle; place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.</p></li>
+<li><p>Compare the theoretical trajectory’s <span class="math notranslate nohighlight">\(x\)</span> distance to the experimentally determined distance.</p></li>
+<li><p>Conduct 20 launches for each angle; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot, with your uncertainty represented by the radius of the drawn circle.</p></li>
+</ul>
+</div>
+<div class="note admonition">
+<p class="admonition-title">NOTE</p>
+<ul class="simple">
+<li><p>Continue to use the accepted value of <span class="math notranslate nohighlight">\(g = 9.803\,\text{m/s}^2\)</span> for Fairfield, CT rather than your previously determined value.</p></li>
+</ul>
+</div>
+<ol class="arabic simple">
+<li><p>Create a data table for this experiment:</p>
+<ul class="simple">
+<li><p>Common data section with the accepted value of <span class="math notranslate nohighlight">\(g\)</span> and any values you will need from previous experiments to determine the theoretical distance at a given angled launch <span class="math notranslate nohighlight">\(x_{\theta}\)</span> (<a class="reference internal" href="#equation-eq-m03-kinematic-horizontal-velocity-03">(35)</a> to <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-time-03-v2-pt4">(39)</a>).</p></li>
+<li><p>Additional sections for:</p>
+<ul>
+<li><p>Theoretical distance <span class="math notranslate nohighlight">\(x_{\theta\text{, theoretical}}\)</span> (calculated with <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-time-03-v2-pt4">(39)</a>)</p></li>
+<li><p>Experimentally measured distance <span class="math notranslate nohighlight">\(x_{\theta\text{, experimental}}\)</span></p></li>
+<li><p>Estimated uncertainty in the experimental distance <span class="math notranslate nohighlight">\(\delta x_{\theta, experimental}\)</span> (essentially <span class="math notranslate nohighlight">\(\pm\)</span> the radius of the circle drawn around your scattershot)</p></li>
+<li><p>Difference (magnitude) between the theoretical and experimental <span class="math notranslate nohighlight">\(x\)</span> distances</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Place the marble launcher in the holder in the 45° slot</p></li>
+<li><p>Use your previously measured <span class="math notranslate nohighlight">\(y_{0\text{,higher height}}\)</span> as the height the ball will fall for any angled launches (e.g. <span class="math notranslate nohighlight">\(y_{0\text{,higher height}} = y_{\theta\text{,higher height}}\)</span>).</p></li>
+<li><p>Calculate the theoretical distance <span class="math notranslate nohighlight">\(x_{\text{, theoretical}}\)</span> using <a class="reference internal" href="#equation-eq-m03-kinematic-horizontal-velocity-03">(35)</a> to <a class="reference internal" href="#equation-eq-m03-kinematic-vertical-time-03-v2-pt4">(39)</a></p></li>
+<li><p>Before any launches from the higher height, tape a paper and draw a bullseye at the theoretical distance you expect the balls at the given angle to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be.</p></li>
+<li><p>Conduct a few test launches by pulling the piston to the same notch you’ve been using in Experiment 2 to be able to use the same exit velocity as previously determined</p></li>
+<li><p>If need be, tape additional paper in the location from the test launches. Place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.</p></li>
+<li><p>Conduct <strong>20 launches</strong> onto the paper/carbon paper.</p></li>
+<li><p>Put aside the carbon paper and mark the dots with a marker or something else that makes it apparent which dots are your data points for this height. Draw a rough circle surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter.</p></li>
+<li><p>Measure the experimental distance <span class="math notranslate nohighlight">\(x\)</span> from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. The initial position of the ball in the <span class="math notranslate nohighlight">\(x\)</span> direction translated to the floor should be the same as Experiment 2 (to save you some time). Remeasure if that’s no longer the case (e.g. you’ve accidentally moved the launcher holder)</p></li>
+<li><p>From your circle around your scattershot, estimate your uncertainty in distance <span class="math notranslate nohighlight">\(\delta x\)</span></p></li>
+<li><p>Calculate the difference between you theoretical and experimental values of <span class="math notranslate nohighlight">\(x\)</span> at the given angle.</p></li>
+<li><p>If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 5 to 13 if needed.</p></li>
+<li><p>DISCUSSION POINT (covered in <a class="reference internal" href="#interpretation"><span class="std std-ref">Post-Lab Submission — Interpretation of Results</span></a>): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does <span class="math notranslate nohighlight">\(x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}\)</span> overlap with <span class="math notranslate nohighlight">\(x_{\theta\text{, theoretical}}\)</span> (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?</p></li>
+</ol>
+</section>
+</section>
+<section id="post-lab-submission-interpretation-of-results">
+<span id="interpretation"></span><h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Make sure to submit your finalized data table (Excel sheet)</p></li>
+<li><p>What type of system do the kinematic equations represent?</p></li>
+<li><p>Experiment 1:</p>
+<ul>
+<li><p>What are your results (<span class="math notranslate nohighlight">\(g \pm \delta g\)</span>), and how do they compare to the accepted value in Fairfield, CT?</p>
+<ul>
+<li><p>In other words, for Experiment 1, COMPARE your experimental result of <span class="math notranslate nohighlight">\(g\)</span> to the accepted values. Does <span class="math notranslate nohighlight">\(g \pm \delta g\)</span> overlap (and therefore agree) with the accepted value?</p></li>
+</ul>
+</li>
+<li><p>What are the uncertainties of Experiment 1?</p></li>
+<li><p>Would a different sized marble change your derived value of <span class="math notranslate nohighlight">\(g\)</span>? Why or why not?</p></li>
+</ul>
+</li>
+<li><p>Experiment 2:</p>
+<ul>
+<li><p>What were your results for the horizontal trajectories at both lower and higher heights?</p></li>
+<li><p>Does your experimental distance of the higher height agree with what you expected from your theoretical calculation?</p>
+<ul>
+<li><p>In other words, does <span class="math notranslate nohighlight">\(x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}\)</span> overlap with <span class="math notranslate nohighlight">\(x_{\text{higher height, theoretical}}\)</span> (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?</p></li>
+</ul>
+</li>
+<li><p>What uncertainties might make this difference larger or smaller?</p></li>
+<li><p>Was your bullseye target accurate to the experimental results?</p></li>
+</ul>
+</li>
+<li><p>Experiment 3:</p>
+<ul>
+<li><p>What were your results for the trajectories from a non-zero angle(s)?</p></li>
+<li><p>Does your experimental distance agree with what you expected from your theoretical calculation?</p>
+<ul>
+<li><p>In other words, does <span class="math notranslate nohighlight">\(x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}\)</span> overlap with <span class="math notranslate nohighlight">\(x_{\theta\text{, theoretical}}\)</span> (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?</p></li>
+</ul>
+</li>
+<li><p>What uncertainties might make this difference larger or smaller?</p></li>
+<li><p>Was your bullseye target accurate to the experimental results?</p></li>
+</ul>
+</li>
+<li><p>What is the precision of your equipment?</p></li>
+<li><p>What are possible systematic errors for today’s experiments?</p></li>
+</ul>
+</section>
+<section id="the-whiteboard">
+<h2>The Whiteboard<a class="headerlink" href="#the-whiteboard" title="Permalink to this heading">#</a></h2>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./ExperimentsGenPhysI"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="AccGTrack.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="CentripetalForce.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Centripetal Force with Mass on Rotating Arm</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#free-fall-downward-trajectory-first-experiment">Free Fall / Downward Trajectory (First experiment)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#horizontal-trajectory-second-experiment">Horizontal Trajectory (Second experiment)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#angled-trajectory-third-experiment">Angled Trajectory (Third experiment)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-1-free-fall-downward-trajectory">EXPERIMENT 1 – Free Fall / Downward Trajectory</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Horizontal Trajectory (Second experiment)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Angled Trajectory (Third experiment)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Angela Biselli
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
