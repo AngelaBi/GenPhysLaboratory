@@ -306,5 +306,11 @@ The third experiment in this lab shows conservation of angular momentum by illus
 
 ## The Whiteboard
 
+```{figure} RotationalMotionFigures/RotationalDynamics_2024_Fall_01.jpg
+:name: rot1
+:width: 600px
+:align: center
+
+```
 
 

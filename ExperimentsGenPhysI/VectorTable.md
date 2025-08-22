@@ -380,3 +380,24 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 - What are possible systematic errors of the experiment?
 
 ## The Whiteboard
+
+```{figure} VectorTableFigures/ForceTable_2025_Summer_01.jpg
+:name: AccelGTrack
+:width: 600px
+:align: center
+
+```
+
+```{figure} VectorTableFigures/ForceTable_2025_Summer_02.jpg
+:name: vec1
+:width: 600px
+:align: center
+
+```
+
+```{figure} VectorTableFigures/ForceTable_2025_Summer_03.jpg
+:name: vec2
+:width: 600px
+:align: center
+
+```

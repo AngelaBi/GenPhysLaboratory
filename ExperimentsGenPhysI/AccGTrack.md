@@ -166,3 +166,11 @@ h. For each of the **5 trials per case**, release the glider from rest at the $s
 - Assume the track is not level at the beginning of the experiment. Further, assume that what you thought to be a level track was in fact slightly tipped in the same direction as your deliberate tipping via the spacers during the experiment. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of the track not being level?
 
 ## The Whiteboard
+
+```{figure} AccGTrackFigures/AccelGTrack_2024_Summer_01.jpg
+:name: AccelGTrack
+:width: 600px
+:align: center
+
+
+```

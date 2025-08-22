@@ -241,4 +241,23 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
 
 ## The Whiteboard
 
+```{figure} PendulumFigures/SimplePendulum_2024_Fall_01.jpg
+:name: pen1
+:width: 600px
+:align: center
 
+```
+
+```{figure} PendulumFigures/SimplePendulum_2024_Fall_02.jpg
+:name: pen2
+:width: 600px
+:align: center
+
+```
+
+```{figure} PendulumFigures/SimplePendulum_2024_Fall_03.jpg
+:name: pen3
+:width: 600px
+:align: center
+
+```

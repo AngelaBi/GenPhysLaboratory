@@ -387,4 +387,17 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 ## The Whiteboard
 
+```{figure} SimpleProjectileFigures/ProjectileKinetmatic_2024_Fall_01.jpg
+:name: pro1
+:width: 600px
+:align: center
+
+```
+
+```{figure} SimpleProjectileFigures/ProjectileKinetmatic_2024_Fall_02.jpg
+:name: pro2
+:width: 600px
+:align: center
+
+```
 
