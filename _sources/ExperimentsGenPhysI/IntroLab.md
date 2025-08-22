@@ -93,3 +93,17 @@ Create a Data Analysis table including:
 - What are possible systematic errors of the experiment?
 
 ## The Whiteboard
+
+```{figure} IntroLabFigures/IntroDominos_2024_Fall_01.jpg
+:name: AccelGTrack
+:width: 600px
+:align: center
+
+```
+
+```{figure} IntroLabFigures/IntroDominos_2024_Fall_02.jpg
+:name: int1
+:width: 600px
+:align: center
+
+```

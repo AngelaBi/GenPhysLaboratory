@@ -209,3 +209,10 @@ Calculate the following:
   - How could one gain energy between top and bottom?
 
 ## The Whiteboard
+
+```{figure} ConsEnTrackFigures/ConsOfEnergyTrack_2024_Fall_01.jpg
+:name: consE
+:width: 600px
+:align: center
+
+```

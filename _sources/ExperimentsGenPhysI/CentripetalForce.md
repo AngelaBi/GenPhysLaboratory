@@ -127,6 +127,12 @@ From the data collected in the six cases you ran, determine the values of the ma
 
 ## The Whiteboard
 
+```{figure} CentripetalForceFigures/CentripetalForce_2024_Fall_01.jpg
+:name: centr
+:width: 600px
+:align: center
+
+```
 
 
 

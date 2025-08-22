@@ -352,3 +352,24 @@ For each of the objects, find the weight of the water displaced by each one:
   - Imagine that instead of being on the table, the Venturi tube were set on the floor with the rest of the experimental apparatus unchanged. Would the difference in pressures we see on the Capstone plot between $P_1$ and $P_2$ during the smooth, laminar flow section that we analyzed to find average pressures be *larger*, *smaller*, or *the same*. Why?
 
 ## The Whiteboard
+
+```{figure} FluidsFigures/FluidPhysics_2024_Fall_01.jpg
+:name: flu1
+:width: 600px
+:align: center
+
+```
+
+```{figure} FluidsFigures/FluidPhysics_2025_Summer_01.jpg
+:name: flu2
+:width: 600px
+:align: center
+
+```
+
+```{figure} FluidsFigures/FluidPhysics_2025_Summer_02.jpg
+:name: flu3
+:width: 600px
+:align: center
+
+```
