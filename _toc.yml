@@ -9,6 +9,7 @@ parts:
     chapters:
     - file: schedulePHYS1171
     - file: schedulePHYS1145
+    - file: scheduleByProfessor
   - caption: General information
     chapters:
     - file: Intro/IntroLab
