@@ -171,7 +171,7 @@ Using the data from your Part 1 Data Table calculate the value for $V_{0}$ and n
 ## The Whiteboard
 
 ```{figure} IdealGasFigures/IdealGasLawAbsoluteZero_2024_Fall_01.jpg
-:name: AccelGTrack
+:name: ide1
 :width: 600px
 :align: center
 

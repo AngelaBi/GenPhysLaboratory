@@ -148,7 +148,7 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 ## The Whiteboard
 
 ```{figure} BallisticPendulumFigures/ConsEnergyMomentumBallistic_2024_Fall_01.jpg
-:name: AccelGTrack
+:name: ballist
 :width: 600px
 :align: center
 
