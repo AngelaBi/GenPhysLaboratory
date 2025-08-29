@@ -55,7 +55,7 @@ Solving for $g$, we obtain
   g = \frac{2 S}{t^2 \sin(\theta)}.
 ```
 
-If we assume that the incline angle $\theta$ is small, we can approximate the $\sin(\theta)$ by the $\tan(\theta) = \frac{H}{D}$.
+where $\sin(\theta) = \frac{H}{D}$.
 Making this substitution for the $\sin(\theta)$, we have the value of $g$ in terms of easily measurable quantities, namely
 
 ```{math}
@@ -67,7 +67,7 @@ where $H$ is the vertical rise in the horizontal distance $D$. $D$ is the distan
 
 We will compare our results to the measured value of $g$ at sea level. The value at sea level at New York is $g = 9.803\,\text{m/s}^2$.
 
-In the experiment, the presumed frictionless inclined plane will be an air track.  The mass will be a glider, which floats on the air track.  Placing a spacer of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.  Refer to {numref}`M02Fig01` below in the experimental procedure section.
+In the experiment, the presumed frictionless inclined plane will be an air track.  The mass will be a glider, which floats on the air track.  Placing a spacer of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.  Refer to {numref}`M02Fig02` below in the experimental procedure section.
 
 
 
