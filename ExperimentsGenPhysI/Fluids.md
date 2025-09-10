@@ -31,7 +31,7 @@ F_\text{B} = w_\text{fl}
 
 In this experiment, we will first determine the mass, volume, and density of 6 objects (see {numref}`M08_fluids_Fig02`). We will then determine the buoyant force acting on each object using Archimedes' Principle by determining the weight of water each object displaces. Finally, we will determine the buoyant force by measuring the apparent weight of an object.
 
-```{figure} FluidsFigures/M08_fig02.jpg
+```{figure} FluidsFigures/M08_fig02_v2025-01.png
 :name: M08_fluids_Fig02
 :width: 290px
 :align: center
@@ -53,7 +53,7 @@ and the weight of an object is the downward force due to gravity:
 w_\text{obj} = mg
 ```
 
-```{figure} FluidsFigures/M08_fig06.jpg
+```{figure} FluidsFigures/M08_fig06_v2025-01.png
 :name: M08_fluids_Fig04
 :width: 490px
 :align: center
@@ -131,7 +131,7 @@ NOTE: The pressure sensor hoses are to have only (or mostly) air such that water
 
 If you require more water in your pitcher, use another pitcher to refill (assuming the catch basin is glass, there will be less of a chance of that breaking if we're not moving it around more than we have to).
 
-```{figure} FluidsFigures/M08_fig08.jpg
+```{figure} FluidsFigures/M08_fig08_v2025-01.png
 :name: M08_fluids_Fig08
 :width: 590px
 :align: center

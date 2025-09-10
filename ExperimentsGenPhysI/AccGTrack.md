@@ -26,7 +26,7 @@ By measuring the acceleration of a mass moving under the influence of the gravit
 
 Near the surface of the earth, the attractive force of the earth on a mass can be considered a constant over a reasonable range of elevation. This force is commonly called the weight of the object and from Newton's Second Law the weight is the mass, $m$, times the acceleration due to gravity. Using {numref}`M02Fig01` and the derivation following, we can see that the value of $g$ can be easily determined by a few simple measurements.
 
-```{figure} AccGTrackFigures/Figure01.jpg
+```{figure} AccGTrackFigures/Figure01_v2025-01.png
 :name: m02fig01
 :width: 500px
 :align: center
@@ -88,7 +88,7 @@ In the experiment, the presumed frictionless inclined plane will be an air track
 
 ## Experimental Procedure
 
-```{figure} AccGTrackFigures/Figure02.jpg
+```{figure} AccGTrackFigures/Figure02_v2025-01.png
 :name: M02Fig02
 :width: 600px
 :align: center

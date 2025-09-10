@@ -14,7 +14,7 @@ In each case, the projectile will be launched with the same device allowing a co
 
 The ballistic pendulum is so named because it was originally used to measure the velocity of high-speed projectiles such as bullets long before electric and electronic timers made the procedure unnecessary. It remains, however, as a simple and demonstrative device for understanding the conservation principles of energy and momentum. In analyzing the problem, the system will consist of the projectile and the more massive pendulum. As illustrated in the left image in {numref}`M06Fig01`, before the collision, the projectile is in motion horizontally towards the stationary pendulum. After the collision, the projectile is imbedded in the pendulum and the pendulum is moving along the arc as shown in the right image of {numref}`M06Fig01`.
 
-```{figure} BallisticPendulumFigures/Figure01a.jpg
+```{figure} BallisticPendulumFigures/M06_fig01_v2025-01.png
 :name: M06Fig01
 :width: 600px
 :align: center
@@ -58,7 +58,7 @@ v_0 = \left( \frac{m+M}{m} \right) \sqrt{2 g \left(y_2 - y_1\right)}.
 
 When a projectile is moving solely under the influence of the force of gravity, we say that the projectile is in free-fall. Consider the launching of the same ball used in the ballistic pendulum. In this case, the pendulum will be swung up out of the way so the flight of the ball will continue off the edge of the table, eventually hitting the floor some distance away. This situation is illustrated in {numref}`M06Fig02`.
 
-```{figure} BallisticPendulumFigures/M06_fig02.jpg
+```{figure} BallisticPendulumFigures/M06_fig02_v2025-02.png
 :name: M06Fig02
 :width: 700px
 :align: center

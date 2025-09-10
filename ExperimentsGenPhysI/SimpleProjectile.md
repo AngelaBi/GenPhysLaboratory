@@ -149,7 +149,7 @@ By launching at an upward angle $\theta$, we are now giving some of the initial 
 v_{x\theta} = v_{x}\cos{\theta}
 ```
 
-```{figure} SimpleProjectileFigures/M3_Exp3.jpg
+```{figure} SimpleProjectileFigures/M3_Exp3_v2025-01.png
 :name: M03-simpleProjectileLauncher-Exp3
 :width: 400px
 :align: center

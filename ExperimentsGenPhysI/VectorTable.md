@@ -157,12 +157,12 @@ We conclude that the force necessary to equilibrate two or more forces is equal 
 
 ## Apparatus
 
-```{figure} VectorTableFigures/M1_ForceTable_06_table.jpg
+```{figure} VectorTableFigures/M1_ForceTable_06_table_v2025-01.png
 :name: M01Fig06
 :width: 500px
 :align: center
 
-Illustration of the force table, and an example of how to determine the force $\vec{F}_{3}$ needed to balance two given forces $\vec{F}_{1}$ and $\vec{F}_{2}$.
+(Left) Illustration of the force table. (Right) An example of how to determine the force $\vec{F}_{3}$ needed to balance two given forces $\vec{F}_{1}$ and $\vec{F}_{2}$.
 ```
 
 The apparatus for this experiment consist of a force table, weight holders, and weights (see {numref}`M01Fig06`). The force table consists of a circular tabletop mounted on a vertical rod held in a tripod support with leveling screws. The rim of the circular top has a 360° scale engraved on it along which it is possible to clamp a number of pulleys. At the center of the table is a small ring held in place by means of a removable pin. The ends of three cords are tied to the ring with each cord leading over a pulley and ending with a weight holder tied to its other end. When the forces along the cords acting upon the small ring are balanced, or in static equilibrium, the ring remains stationary. For this lab, the force pulling on the ring is the tension of the string, which is merely translated from horizontal on the table to vertical.

@@ -41,30 +41,30 @@ Note that, according to the definition of pressure, gas molecules at absolute ze
 This experiment uses temperature and pressure sensors plugged into an interface so that data for both variables can be recorded simultaneously.
 For the Ideal Gas Law experiment the air inside a syringe is compressed by pushing on the plunger. Pressure and temperature values are collected and recorded with the Capstone program, which is then also used to analyze the data.
 For the Absolute Zero experiment a hollow sphere (with a fixed volume) is submerged in liquids of different temperature. Capstone will again collect and record pressure and temperature data of the gas enclosed in the sphere.
-Pictures of the experimental setups are shown in {numref}`H01Fig01`, `H01Fig01b`,and {numref}`H01Fig02`.
+Pictures of the experimental setups are shown in {numref}`H01Fig01`, {numref}`H01Fig01b`,and {numref}`H01Fig02`.
 
-```{figure} IdealGasFigures/Figure01a.png
+```{figure} IdealGasFigures/Figure01a_v2025-01.png
 :name: H01Fig01
 :width: 300px
 :align: center
 
-The  picture shows the Ideal Gas Law experiment without the PasPort interface. The two cables coming from the syringe are the temperature and pressure connectors. The plunger of the syringe has a mechanical stop to prevent full compression of the syringe. 
+The picture shows the Ideal Gas Law experimental apparatus. The two cables coming from the syringe are the temperature and pressure connectors. The plunger of the syringe has a mechanical stop to prevent full compression of the syringe. Note: be gentle with the pressure connector; you need to insert and gently twist to lock it in place. DO NOT FORCE IT.
 ```
 
-```{figure} IdealGasFigures/Figure01b.png
+```{figure} IdealGasFigures/Figure01b_v2025-01.png
 :name: H01Fig01b
 :width: 100px
 :align: center
 
- The  picture shows the Absolute Zero experiment, again without the PasPort interface. The pressure and temperature connectors are shown exiting at the end of the black cable of the device.
+ The  picture shows the Absolute Zero experiment. The pressure and temperature connectors are shown exiting at the end of the black cable of the device. Note: be gentle with the pressure connector; you need to insert and gently twist to lock it in place. DO NOT FORCE IT.
 ```
 
-```{figure} IdealGasFigures/Figure02.png
+```{figure} IdealGasFigures/Figure02_v2025-02.png
 :name: H01Fig02
 :width: 400px
 :align: center
 
-This picture shows the experimental methods for the Ideal Gas Law (main picture) and Absolute Zero (inlet) experiments. In both cases the temperature and pressure connectors are plugged into the PasPort interface (the small blue box).
+This picture shows the experimental methods for the Ideal Gas Law (left) and Absolute Zero (right) experiments. In both cases the temperature and pressure connectors are plugged into the PasPort Absolute Pressure/Temperature Sensor (the small blue box).
 ```
 
 ### The Ideal Gas Law Experiment
