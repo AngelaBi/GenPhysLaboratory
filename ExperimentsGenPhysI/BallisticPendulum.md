@@ -16,7 +16,7 @@ The ballistic pendulum is so named because it was originally used to measure the
 
 ```{figure} BallisticPendulumFigures/M06_fig01_v2025-01.png
 :name: M06Fig01
-:width: 600px
+:width: 90%
 :align: center
 
 Ballistic Pendulum before (left) and after the collision (right)
@@ -63,13 +63,13 @@ When a projectile is moving solely under the influence of the force of gravity, 
 :width: 700px
 :align: center
 
-Projectile Motion
+Projectile Motion. Note $X$ and $Y$ are broken down into easier-to-measure quantities.
 ```
 
 Once the ball leaves the spring gun used to launch the ball, the ball is in free-fall. The vertical and horizontal motions are completely independent. We assume that once the ball leaves the gun, there are no energy loss mechanisms during the flight of the ball.
 
-In the vertical direction, the initial velocity is zero and the ball is accelerated downward by its weight, finally hitting the floor some time, $t$, later, dropping a vertical distance of $Y$.
-In the horizontal direction, the ball has a constant velocity of $v_0$ during the entire flight over the horizontal distance $X$.
+In the vertical direction, the initial velocity is zero and the ball is accelerated downward by its weight, finally hitting the floor some time, $t$, later, dropping a vertical distance of $Y$, measured from the bottom of the ball to the top of the landing pad.
+In the horizontal direction, the ball has a constant velocity of $v_0$ during the entire flight over the horizontal distance $X$, measured from the bottom of the ball to the center of the impact mark on the landing pad.
 
 Using our kinematic expressions for constant acceleration motion, we have
 
@@ -125,7 +125,7 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 ### Projectile Motion Procedure
 
 1. **Data table:**
-   - Create a table of the common data for the projectile motion experiment including the distance to the pad $x_1$, the vertical distance $Y$ and any other measurements.
+   - Create a table of the common data for the projectile motion experiment including the distance to the pad $x_1$, the vertical distance $Y = y_1 - y_2$ and any other measurements.
    - Create a table with a row for each of the ten trials in the projectile motion part of this lab including the trial number, the measured $x_2$, the calculated horizontal distance $X=x_1+x_2$ and the calculated initial velocity of the ball $v_0$.
    - Create a table to summarize the ten trials including the average initial velocity $v_0$ of the ball, the standard deviation of $v_0$.
 
@@ -137,13 +137,17 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 
 ## Post-Lab Submission --- Interpretation of Results
 
-- Make sure to submit your finalized data table (Excel sheet)
-- What is the range of your measurements for both pendulum and projectile? Do the initial velocities agree within the ranges when treating your standard deviations as your uncertainty of average values?
-- How and why are they (or could be) different.
-- Which of the two results for the value of $v_i$ do you trust more? Explain your answer using a Physics argument.
-- Suppose you would have used a more massive marble in the projectile motion portion of the experiment. How would this affect your result? Explain your answer.
-- What are the effects of measured uncertainties on your determined velocities?
-- What are possible systematic errors for today's experiments?
+- Make sure to submit your finalized data table (Excel sheet). 
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+	- What is the range of your measurements for both pendulum and projectile? Do the initial velocities agree within the ranges when treating your standard deviations as your uncertainty of average values?
+	- How and why are they (or could be) different?    
+	- Which of the two results for the value of $v_i$ do you trust more? Explain your answer using a Physics argument.
+   - Suppose you would have used a more massive marble in the projectile motion portion of the experiment. How would this affect your result? Explain your answer.
+- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
+	- What are the effects of measured uncertainties on your determined velocities?
+	- What are possible systematic errors for today’s experiments?
+	- Use error propagation to defend your results. 
+
 
 ## The Whiteboard
 

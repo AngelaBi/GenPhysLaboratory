@@ -296,13 +296,17 @@ The third experiment in this lab shows conservation of angular momentum by illus
 
 ## Post-Lab Submission --- Interpretation of Results
 
-- Make sure to submit your finalized data table (Excel sheet)
-- Part 1: How do the values of both the $\textbf{ring's}$ and $\textbf{two-point masses'}$ measured I compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?
-- Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in **Capstone**). Why does this happen?
-- Part 2: Is angular momentum $L$ conserved? What might cause any discrepancies in the conservation of angular momentum?
-- Part 2: What is the effect of dropping the ring off-center? Is L conserved when considering the off-axis portion?
-- What are your measurement uncertainties for each experiment?
-- What are possible systematic uncertainties for each experiment?
+- Make sure to submit your finalized data table (Excel sheet). 
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+	- Part 1: How do the values of both the $\textbf{ring's}$ and $\textbf{two-point masses'}$ measured $I$ compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?
+	- Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in **Capstone**). Why does this happen?
+	- Part 2: Is angular momentum $L$ conserved? What might cause any discrepancies in the conservation of angular momentum?
+	- Part 2: What is the effect of dropping the ring off-center? Is $L$ conserved when considering the off-axis portion?
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+	- What are your measurement uncertainties for each experiment?
+	- What are possible systematic uncertainties for each experiment?
+  - How do these uncertainties affect your final results for $I$ and $L$?
+
 
 ## The Whiteboard
 

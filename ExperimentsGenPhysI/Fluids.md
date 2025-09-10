@@ -55,7 +55,7 @@ w_\text{obj} = mg
 
 ```{figure} FluidsFigures/M08_fig06_v2025-01.png
 :name: M08_fluids_Fig04
-:width: 490px
+:width: 80%
 :align: center
 
 Left) Force diagram. Apparent weight in water is the difference of weight in air and buoyant force. Right) Force sensor measuring apparent weight of object in water.
@@ -133,7 +133,7 @@ If you require more water in your pitcher, use another pitcher to refill (assumi
 
 ```{figure} FluidsFigures/M08_fig08_v2025-01.png
 :name: M08_fluids_Fig08
-:width: 590px
+:width: 90%
 :align: center
 
 Sketch of the Venturi tube setup for the second experiment (Bernoulli).
@@ -170,7 +170,7 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
 
 ```{figure} FluidsFigures/M08_fig03.jpg
 :name: M08_fluids_Fig03
-:width: 490px
+:width: 80%
 :align: center
 
 Left) Measuring with calipers. Right) Lowering object into overflow can.
@@ -334,7 +334,7 @@ For each of the objects, find the weight of the water displaced by each one:
 ## Post-Lab Submission --- Interpretation of Results
 
 ### Archimedes' Principle (Post-Lab Questions)
-
+<!---
 - Make sure to submit your finalized data table (Excel sheet)
 
 - First Experiment (Archimedes' Principle)
@@ -350,6 +350,28 @@ For each of the objects, find the weight of the water displaced by each one:
   - How is the Bernoulli Principle different than the Bernoulli Equation?
   - What assumptions about the fluid allows the Bernoulli Principle to work? (i.e. what type or characteristics of the fluid and/or flow are necessary assumptions for Bernoulli to hold true?)
   - Imagine that instead of being on the table, the Venturi tube were set on the floor with the rest of the experimental apparatus unchanged. Would the difference in pressures we see on the Capstone plot between $P_1$ and $P_2$ during the smooth, laminar flow section that we analyzed to find average pressures be *larger*, *smaller*, or *the same*. Why?
+  --->
+
+- Make sure to submit your finalized data table (Excel sheet)
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+	- **First Experiment** (Archimedes' Principle)
+	  - In which list (mass, volume, or density) are the objects grouped similarly?
+	  - In each object case, is the buoyant force that was determined using the upward force (Part III) equal to the weight of the water displaced (Part II)? Were the % differences between the two methods for each case relatively small, or did any case standout?
+	  - Which objects had the same buoyant force when submerged? Why?
+	  - For the plastic cylinder, what was the apparent weight in water? What would be the buoyant force be if plastic cylinder were completely submerged?
+	  - How did the buoyant force for the totally submerged brass cylinder relate to the buoyant force for the half-submerged brass cylinder?
+	  - What does the buoyant force depend on: The mass of the object, or its volume, or its density, or the material from which it is made?
+
+	- **Second Experiment** (Bernoulli's Principle)
+	  - Does your theoretical value for $P_2$ agree with the actual value of $P_2$ as measured with the pressure sensor? (i.e. $P_{2\text{ theoretical}} \pm \delta P_{2\text{ theoretical}}$ overlap with $P_{2\text{ avg actual}} \pm \sigma P_{2\text{ avg actual}}$?)
+	  - How is the Bernoulli Principle different than the Bernoulli Equation?
+	  - What assumptions about the fluid allows the Bernoulli Principle to work? (i.e. what type or characteristics of the fluid and/or flow are necessary assumptions for Bernoulli to hold true?)
+	  - Imagine that instead of being on the table, the Venturi tube were set on the floor with the rest of the experimental apparatus unchanged. Would the difference in pressures we see on the Capstone plot between $P_1$ and $P_2$ during the smooth, laminar flow section that we analyzed to find average pressures be *larger*, *smaller*, or *the same*. Why?
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+	- **First Experiment** (Archimedes' Principle): Where might errors arise in measuring the buoyant force? 
+	- **Second Experiment** (Bernoulli's Principle): What errors might cause your $P_{2 \text{ theoretical}}$ to diverge from $P_{2\text{ avg actual}}$? 
+
+
 
 ## The Whiteboard
 

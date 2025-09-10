@@ -109,7 +109,7 @@ U_s = mg \, \Delta s \frac{H}{D}
 
 ```{figure} ConsEnTrackFigures/Figure02_v2025-02.png
 :name: M05Fig03
-:width: 580px
+:width: 90%
 :align: center
 
 Experimental setup for the Conservation of Energy experiment.
@@ -192,21 +192,17 @@ Calculate the following:
 
 ## Post-Lab Submission --- Interpretation of Results
 
-- Make sure to submit your finalized data table (Excel sheet)
-
-- Arguing your responses with your data ± standard deviation:
-  
-  - Is kinetic plus potential energy conserved going from the top to the bottom?
-  - Is kinetic plus potential energy conserved between the top and the rebound position?
-
-- Why is there a difference in energy conservation between the top/bottom and top/bottom/rebound?
-
-- Uncertainties:
-
-  - What is the precision of your equipment?
-  - What are the effects of measured uncertainties on your determined energies?
-  - What are possible systematic errors for today's experiments?
-  - How could one gain energy between top and bottom?
+- Make sure to submit your finalized data table (Excel sheet). 
+- In a **paragraph**, summarize the results you have determined in each case. Consider
+	- Arguing your responses with your data ± standard deviation:
+	    - Is kinetic plus potential energy conserved going from the top to the bottom?
+		- Is kinetic plus potential energy conserved between the top and the rebound position?
+	- Why is there a difference in energy conservation between the top/bottom and top/bottom/rebound?
+- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
+	- What is the precision of your equipment?
+	- What are the effects of measured uncertainties on your determined energies?
+	- What are possible systematic errors for today’s experiments?
+	- How could one gain energy between top and bottom?
 
 ## The Whiteboard
 

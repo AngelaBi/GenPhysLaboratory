@@ -159,7 +159,7 @@ We conclude that the force necessary to equilibrate two or more forces is equal 
 
 ```{figure} VectorTableFigures/M1_ForceTable_06_table_v2025-01.png
 :name: M01Fig06
-:width: 500px
+:width: 90%
 :align: center
 
 (Left) Illustration of the force table. (Right) An example of how to determine the force $\vec{F}_{3}$ needed to balance two given forces $\vec{F}_{1}$ and $\vec{F}_{2}$.
@@ -309,7 +309,7 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 
 11. Determine the resultant's angle $\theta_R$
 
-12. COMPARE your experimental results of hanger 3 to the theoretical values. Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (and therefore agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section {ref}`interpretation`
+12. COMPARE your experimental results of hanger 3 to the theoretical values. Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (and therefore agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section {ref}`interpretation1`.
 
 13. Repeat for the second case
 
@@ -337,7 +337,7 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
    - $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$: Experimentally determined direction of the force vector in degrees --- **treat as actual given values once you find equilibrium. You will use these to solve for the masses later.**
    - $m_{2,\text{Pikachu-black}}$ & $m_{3,\text{corgi-white}}$: the experimental values of $m_2$ and $m_3$ from {eq}`eq-M01-solveM3` and {eq}`eq-M01-solveM2`
    - $m_{2,\text{Pikachu-black, actual}}$ & $m_{3,\text{corgi-white, actual}}$: the values of $m_2$ and $m_3$ as measured on a triple-beam balance.
-   - % Difference of $m_2$ and $m_3$ experimentally found values to the actual measured values (see {eq}`M1-PercentDiff` in Section {ref}`interpretation`).
+   - % Difference of $m_2$ and $m_3$ experimentally found values to the actual measured values (see {eq}`M1-PercentDiff` in Section {ref}`interpretation1`).
 
 4. Place the respective masses on there hangers, with $m_1$ set to 0°
 
@@ -349,35 +349,39 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 
 8. Using a triple-beam balance, measure directly the actual mass of $m_{2,\text{Pikachu-black, actual}}$ & $m_{3,\text{corgi-white, actual}}$
 
-9. COMPARE your experimental results of each of the unlabeled masses to their actual values. Calculate the % difference of $m_2$ and $m_3$ experimentally found values to the actual measured values. What may be contributing to a larger or smaller difference? To be further discussed in Section {ref}`interpretation`.
+9. COMPARE your experimental results of each of the unlabeled masses to their actual values. Calculate the % difference of $m_2$ and $m_3$ experimentally found values to the actual measured values. What may be contributing to a larger or smaller difference? To be further discussed in Section {ref}`interpretation1`.
 
-(interpreation)=
+(interpretation1)=
 ## Post-Lab Submission --- Interpretation of Results
 
-- Make sure to submit your finalized data table (Excel sheet)
-- What is a vector?
-- Case 1 & 2 (Finding Equilibrant):
-  - Looking at your experiment, why do the two given masses not add up to the third mass?
-  - What are the uncertainties of Experiment 1?
-  - What are your results, and how do they compare to the theoretical predictions?
-    - In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.
-      - Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (and therefore agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$?
-      - Does $m_3 \pm \delta m_3$ overlap with your theoretical value $m_{3,\text{theoretical}}$?
-      - Does $\theta_3 \pm \delta \theta_3$ overlap with your theoretical value $\theta_{3,\text{theoretical}}$?
-  - How does adding a few grams (i.e. $m_3 + \delta m_3$) change your results for $\vec{F}_3$?
-  - How does changing the angle (i.e. $\theta_3 \pm \delta \theta_3$) change your results $\vec{F}_3$?
-- Case 3 (Unlabeled Masses):
-  - How do your values for $m_\text{Pikachu-black}$ and $m_\text{corgi-white}$ compare to your actual values from the triple-beam-balance?
-  - What is the percent difference between your experimentally determine masses and their actual measured values? Calculate the % difference in each of the masses using the following relation:
-
+- Make sure to submit your finalized data table (Excel sheet). 
+- In a **paragraph**, summarize the results you have determined in each case, ie $F_3\pm\Delta F_3$... and answer the following questions (longer does not mean better):
+	- What is a vector?
+  - What is the physics behind balancing our vectors today?
+	- Case 1 & 2 (Finding Equilibrant):
+	  - Looking at your experiment, why do the two given masses not add up to the third mass?
+	  - What are your results, and how do they compare to the theoretical predictions?
+	    - In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.
+	      - Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (and therefore agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$?
+	      - Does $m_3 \pm \delta m_3$ overlap with your theoretical value $m_{3,\text{theoretical}}$? 
+	      - Does $\theta_3 \pm \delta \theta_3$ overlap with your theoretical value $\theta_{3,\text{theoretical}}$? 
+	- Case 3 (Unlabeled Masses):
+	  - How do your values for $m_\text{Pikachu-black}$ and $m_\text{corgi-white}$ compare to your actual values from the triple-beam-balance?
+	  - What is the percent difference between your experimentally determine masses and their actual measured values? Calculate the % difference in each of the masses using the following relation:
 ```{math}
 :label: M1-PercentDiff
 \text{% Difference} = \frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.
 ```
+- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
+	- What are the uncertainties of Experiment 1 (Cases 1 & 2)?
+  - What is the precision of your equipment (force table, masses, etc.)?
+  - What are possible systematic (affecting accuracy) errors of the experiment? What are possible random (affecting precision) errors?
+  - Return to ''In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $F_3$? Do the math in your spread sheet.
+      - What uncertainties might make the difference between your final results and expected values larger or smaller?
 
-  - What uncertainties might make this difference larger or smaller?
-- What is the precision of your equipment (force table, masses, etc.)?
-- What are possible systematic errors of the experiment?
+
+
+
 
 ## The Whiteboard
 

@@ -117,13 +117,17 @@ From the data collected in the six cases you ran, determine the values of the ma
 
 ## Post-Lab Submission --- Interpretation of Results
 
-- Make sure to submit your finalized data table (Excel sheet)
-- Do the graphs display the expected behavior?
-- Discuss your results. Do your experimentally determined masses ± uncertainty agree with the actual mass of the applied masses plus mass holder?
-- Discuss uncertainties (sources of, how do they affect your final mass values; what would have the largest affect?).
-- What is the precision of your equipment?
-- What are possible systematic errors for today's experiments?
-- Why there should be the same mass on the fixed mass holder as compared to the free mass holder?
+- Make sure to submit your finalized data table (Excel sheet). 
+- In a **paragraph**, summarize the results you have determined in each case. Include graphs in your submission
+	- Do the graphs display the expected behavior?
+	- Do your experimentally determined masses ± uncertainty agree with the actual mass of the applied masses plus mass holder?
+	- Why there should be the same mass on the fixed mass holder as compared to the free mass holder? I.e. what might you expect to see in your data if the fixed and free masses and radii were not comparable?
+- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
+	- What are possible systematic errors for today’s experiments?
+	- Discuss uncertainties (sources of, how do they affect your final mass values; what would have the largest affect?).
+	- What is the precision of your equipment?
+	- Defend why your data agrees with or disagrees with the measured values for your masses. Use error propagation and your uncertainties and precision of your equipment to help your argument.
+
 
 ## The Whiteboard
 
