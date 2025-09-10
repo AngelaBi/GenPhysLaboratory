@@ -227,7 +227,7 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
 
 
 ## Post-Lab Submission --- Interpretation of Results
-
+<!---
 - Make sure to submit your finalized data table (Excel sheet)
 - What are your experimental values of g, and how do they compare to the accepted value? Do this for:
   - Case averages of $g_{\text{avg}}$, (i.e. does $g_{\text{avg}} \pm \delta g_{\text{avg}}$ overlap with the accepted value by covering the difference between the experimental and actual values?)
@@ -238,6 +238,21 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
   - How does $g_\text{avg}$ of Case 5 compare to $g_{\text{avg}}$ of Case 4 (at the same $L$)?
   - How does $g_\text{corrected,avg}$ of Case 5 compare to $g_{\text{avg}}$ of Case 4 (at the same $L$)? Do they agree more or less after the consideration of additional terms.
 - How do the periods relate to different lengths of pendulum?
+--->
+
+- Make sure to submit your finalized data table (Excel sheet)
+- In a **paragraph**, summarize the results you have determined in each case
+	- Case averages of $g_{avg}\pm\delta g_{avg}$ 
+	- Case averages of $g{\text{corrected,avg}}$
+	- Case averages of $g_{slope}$
+	- Do your $g\pm\delta g$ overlap for case 4 (same $L$)?
+	- How does the large angle case compare to the other cases?
+	- How does $g_{\text{corrected,avg}}$ of the large angle case compare to the other cases?
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+    - What are your systematic and random errors?
+    - What are sources of uncertainty?
+    - What is the precision of your equipment? 
+    - How do your final results change based on your uncertainties?
 
 ## The Whiteboard
 

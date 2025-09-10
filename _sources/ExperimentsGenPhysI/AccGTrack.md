@@ -26,7 +26,7 @@ By measuring the acceleration of a mass moving under the influence of the gravit
 
 Near the surface of the earth, the attractive force of the earth on a mass can be considered a constant over a reasonable range of elevation. This force is commonly called the weight of the object and from Newton's Second Law the weight is the mass, $m$, times the acceleration due to gravity. Using {numref}`M02Fig01` and the derivation following, we can see that the value of $g$ can be easily determined by a few simple measurements.
 
-```{figure} AccGTrackFigures/Figure01.jpg
+```{figure} AccGTrackFigures/Figure01_v2025-01.png
 :name: m02fig01
 :width: 500px
 :align: center
@@ -88,9 +88,9 @@ In the experiment, the presumed frictionless inclined plane will be an air track
 
 ## Experimental Procedure
 
-```{figure} AccGTrackFigures/Figure02.jpg
+```{figure} AccGTrackFigures/Figure02_v2025-01.png
 :name: M02Fig02
-:width: 600px
+:width: 90%
 :align: center
 
 Experimental Setup.
@@ -157,13 +157,18 @@ h. For each of the **5 trials per case**, release the glider from rest at the $s
 ## Post-Lab Submission --- Interpretation of Results
 
 - Make sure to submit your finalized data table (Excel sheet)
+- In a **paragraph**, summarize the results you have determined in each case, ie $g\pm\sigma g$... and answer the following questions (longer does not mean better):
+	- If you release the glider with an initial velocity up or down the slope, what would you expect to happen to your derived values of $g$?
+	- Suppose there is a frictional force slowing the glider as it moves along the track. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of that there is significant friction along the track?
+	- Assume the track is not level at the beginning of the experiment. Further, assume that what you thought to be a level track was in fact slightly tipped in the same direction as your deliberate tipping via the spacers during the experiment. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of the track not being level?
+- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
+	-  What are sources of uncertainty (initial v, friction, etc.)?
+	- What was the precision of the instrumentation (e.g. caliper, time, distance, etc.)?
+	- Compare your results ($g$ from each of the four cases and one from all 20 trials) to the accepted value. How do the standard deviations compare to the difference between your values of $g$ and the accepted value of $g$? 
+      - I.e. while treating the standard deviations of your measurements as your measurement uncertainties, do your values of $g$ for each case, as well as the overall average $g$, plus or minus the standard deviations overlap (and agree) with the accepted value of $g$? 
+      - What might cause your results to disagree the most?
 
-- If you release the glider with an initial velocity up or down the slope, what would you expect to happen to your derived values of $g$?
-- What are sources of uncertainty (initial v, friction, etc.)?
-- What was the precision of the instrumentation (e.g. caliper, time, distance, etc.)?
-- Compare your results ($g$ from each of the four cases and one from all 20 trials) to the accepted value. How do the standard deviations compare to the difference between your values of $g$ and the accepted value of $g$? I.e. while treating the standard deviations of your measurements as your measurement uncertainties, do your values of $g$ for each case, as well as the overall average $g$, plus or minus the standard deviations overlap (and agree) with the accepted value of $g$? What might cause your results to disagree the most?
-- Suppose there is a frictional force slowing the glider as it moves along the track. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of that there is significant friction along the track?
-- Assume the track is not level at the beginning of the experiment. Further, assume that what you thought to be a level track was in fact slightly tipped in the same direction as your deliberate tipping via the spacers during the experiment. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of the track not being level?
+
 
 ## The Whiteboard
 
