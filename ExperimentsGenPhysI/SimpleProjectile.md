@@ -92,7 +92,7 @@ Example of the free fall apparatus used in Exp. 1. Note the release screw will b
 
 ```{figure} SimpleProjectileFigures/M3_ExpOptions_quarter_size.jpg
 :name: M03-simpleProjectileLauncher
-:width: 600px
+:width: 90%
 :align: center
 
 Left) Position of launcher for lower height in Experiment 2. Right) Position of launcher for higher height in Experiment 2. Right) Position of launcher for angled launches in Experiment 3 where the ball's initial position is the same as the higher height position.
@@ -149,9 +149,9 @@ By launching at an upward angle $\theta$, we are now giving some of the initial 
 v_{x\theta} = v_{x}\cos{\theta}
 ```
 
-```{figure} SimpleProjectileFigures/M3_Exp3.jpg
+```{figure} SimpleProjectileFigures/M3_Exp3_v2025-01.png
 :name: M03-simpleProjectileLauncher-Exp3
-:width: 400px
+:width: 80%
 :align: center
 
 Example of the upward and downward portions you'll analyze in Experiment 3 for an angled launch.
@@ -297,11 +297,11 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 12. Now calculate the theoretical distance $x_{\text{higher height, theoretical}}$ using {eq}`eq-M03-Kinematic-vertical-time` -- {eq}`eq-M03-Kinematic-vertical-time-higher-height`
 
-13. Repeat steps 5 to 10 to determine experimentally the distance with its uncertainty at the higher height (i.e. $x_{\text{higher height, experimental}}$ and $\delta x_{\text{higher height, experimental}}$). **ADDITIONALLY: Before any launches from the higher height, draw a bullseye at the theoretical distance you expect the balls at the higher height to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be (to discuss later in {ref}`interpretation`).**
+13. Repeat steps 5 to 10 to determine experimentally the distance with its uncertainty at the higher height (i.e. $x_{\text{higher height, experimental}}$ and $\delta x_{\text{higher height, experimental}}$). **ADDITIONALLY: Before any launches from the higher height, draw a bullseye at the theoretical distance you expect the balls at the higher height to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be (to discuss later in {ref}`interpretation3`).**
 
 14. Calculate the difference between you theoretical and experimental values of $x$ at the higher height.
 
-15. DISCUSSION POINT (covered in {ref}`interpretation`): Does your experimental distance of the higher height agree with what you expected from your theoretical calculation? In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+15. DISCUSSION POINT (covered in {ref}`interpretation3`): Does your experimental distance of the higher height agree with what you expected from your theoretical calculation? In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
 
 
 
@@ -358,11 +358,11 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 13. If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 5 to 13 if needed.
 
-14. DISCUSSION POINT (covered in {ref}`interpretation`): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+14. DISCUSSION POINT (covered in {ref}`interpretation3`): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
 
-(interpretation)=
+(interpretation3)=
 ## Post-Lab Submission --- Interpretation of Results
-
+<!---
 - Make sure to submit your finalized data table (Excel sheet)
 - What type of system do the kinematic equations represent?
 - Experiment 1:
@@ -384,6 +384,36 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
   - Was your bullseye target accurate to the experimental results?
 - What is the precision of your equipment?
 - What are possible systematic errors for today's experiments?
+--->
+
+- Make sure to submit your finalized data table (Excel sheet)
+- In a **paragraph** per experiment, summarize the results you have determined in each case:
+	- What type of system do the kinematic equations represent?
+	- **Experiment 1:**
+	  - What are your results ($g \pm \delta g$), and how do they compare to the accepted value in Fairfield, CT?
+	    - In other words, for Experiment 1, COMPARE your experimental result of $g$ to the accepted values. Does $g \pm \delta g$ overlap (and therefore agree) with the accepted value?
+	  - Would a different sized marble change your derived value of $g$? Why or why not?
+	- **Experiment 2:**
+	  - What were your results for the horizontal trajectories at lower, higher height, and higher height at an angle? Do your results overlap with your theoretical value? Why or why not?
+	- **Experiment 3:**
+	  - What were your results for the trajectories from a non-zero angle(s)? Do your results overlap with your theoretical value? Why or why not?
+ 
+- In a **paragraph** per experiment, summarize your error analysis. Be qualitative, not only quantitative. 
+	- What is the precision of your equipment?
+	- What are possible systematic errors for today's experiments?
+	- **Experiment 1:**
+		- What are the uncertainties of Experiment 1?
+		-  Does your experimental distance of the higher height agree with what you expected from your theoretical calculation?
+			- In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+	- **Experiment 2:**
+		- What uncertainties might make this difference larger or smaller?
+		- Was your bullseye target (estimation) accurate to the experimental results? Back up your answer with your results.
+	- **Experiment 3:**
+		-  Does your experimental distance agree with what you expected from your theoretical calculation?
+		    - In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+      - What uncertainties might make this difference larger or smaller?
+      - Was your bullseye target (estimation) accurate to the experimental results? Back up your answer with your results.
+
 
 ## The Whiteboard
 

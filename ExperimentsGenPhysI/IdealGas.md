@@ -26,7 +26,11 @@ P V = n R T
 
 where $P$ is the gas pressure in Pascals (1 Pa = 1 N/m²), $T$ is the gas temperature in Kelvin, $V$ is the volume (in m³), and $n$ is the number of moles in the gas (1 mole = 6.022×10²³ molecules). $R$ is called the universal gas constant and for these units has the value $R = 8.3145$ J/(mol·K).
 
-Most gases will behave approximately as an ideal gas within a certain range of conditions, but the law fails at low temperatures or higher pressures when forces between the gas molecules become important.
+Most gases will behave approximately as an ideal gas within a certain range of conditions across a number of different types of processes, but the law fails at low temperatures or higher pressures when forces between the gas molecules become important.
+
+For today's lab, the two processes we will focus on are
+ - **Isothermal**: temperature is kept constant through the process (e.g. a process analyzed when initial temperatures are the same as the final temperatures). This is possible when the ratio ${PV}$ is kept constant.
+ - **Adiabatic**: energy of the system is kept constant (i.e. the parcel of gas does not exchange or lose energy to its surroundings). This is possible when the ratio $\frac{PV}{T}$ is kept constant.
 
 ### Absolute Zero
 
@@ -41,30 +45,30 @@ Note that, according to the definition of pressure, gas molecules at absolute ze
 This experiment uses temperature and pressure sensors plugged into an interface so that data for both variables can be recorded simultaneously.
 For the Ideal Gas Law experiment the air inside a syringe is compressed by pushing on the plunger. Pressure and temperature values are collected and recorded with the Capstone program, which is then also used to analyze the data.
 For the Absolute Zero experiment a hollow sphere (with a fixed volume) is submerged in liquids of different temperature. Capstone will again collect and record pressure and temperature data of the gas enclosed in the sphere.
-Pictures of the experimental setups are shown in {numref}`H01Fig01`, `H01Fig01b`,and {numref}`H01Fig02`.
+Pictures of the experimental setups are shown in {numref}`H01Fig01`, {numref}`H01Fig01b`,and {numref}`H01Fig02`.
 
-```{figure} IdealGasFigures/Figure01a.png
+```{figure} IdealGasFigures/Figure01a_v2025-01.png
 :name: H01Fig01
-:width: 300px
+:width: 50%
 :align: center
 
-The  picture shows the Ideal Gas Law experiment without the PasPort interface. The two cables coming from the syringe are the temperature and pressure connectors. The plunger of the syringe has a mechanical stop to prevent full compression of the syringe. 
+The picture shows the Ideal Gas Law experimental apparatus. The two cables coming from the syringe are the temperature and pressure connectors. The plunger of the syringe has a mechanical stop to prevent full compression of the syringe. Note: be gentle with the pressure connector; you need to insert and gently twist to lock it in place. DO NOT FORCE IT.
 ```
 
-```{figure} IdealGasFigures/Figure01b.png
+```{figure} IdealGasFigures/Figure01b_v2025-01.png
 :name: H01Fig01b
-:width: 100px
+:width: 50%
 :align: center
 
- The  picture shows the Absolute Zero experiment, again without the PasPort interface. The pressure and temperature connectors are shown exiting at the end of the black cable of the device.
+ The  picture shows the Absolute Zero experiment. The pressure and temperature connectors are shown exiting at the end of the black cable of the device. Note: be gentle with the pressure connector; you need to insert and gently twist to lock it in place. DO NOT FORCE IT.
 ```
 
-```{figure} IdealGasFigures/Figure02.png
+```{figure} IdealGasFigures/Figure02_v2025-02.png
 :name: H01Fig02
-:width: 400px
+:width: 80%
 :align: center
 
-This picture shows the experimental methods for the Ideal Gas Law (main picture) and Absolute Zero (inlet) experiments. In both cases the temperature and pressure connectors are plugged into the PasPort interface (the small blue box).
+This picture shows the experimental methods for the Ideal Gas Law (left) and Absolute Zero (right) experiments. In both cases the temperature and pressure connectors are plugged into the PasPort Absolute Pressure/Temperature Sensor (the small blue box).
 ```
 
 ### The Ideal Gas Law Experiment
@@ -128,7 +132,7 @@ Using the data from your Part 1 Data Table calculate the value for $V_{0}$ and n
 
 ### Measurement of Absolute Zero
 
-1. Connect the Absolute Zero apparatus to the PasPort system (both the temperature sensor and the quick-release pressure port need to be connected).
+1. Connect the Absolute Zero apparatus to the PasPort sensor (both the temperature sensor and the quick-release pressure port need to be connected).
 
 2. Close the **Capstone** Program and re-open it from the desktop.
 
@@ -159,7 +163,7 @@ Using the data from your Part 1 Data Table calculate the value for $V_{0}$ and n
 - Create a table for the measurement of absolute zero including the pressure and temperature you measured at the hot, warm and cool temperatures as well as the $y$-intercept and the accepted value of $-273.15$°C.
 
 ## Post-Lab Submission --- Interpretation of Results
-
+<!---
 - Make sure to submit your finalized data table (Excel sheet)
 - Constant Temperature (Isothermal):
   - What properties of a system must be proportional if compression is isothermal?
@@ -175,6 +179,30 @@ Using the data from your Part 1 Data Table calculate the value for $V_{0}$ and n
   - What is your extrapolated result for absolute zero; how does it compare to the accepted value?
   - What measurement uncertainties exist; how do they affect your determined value for absolute zero?
 - What are possible systematic errors for today's experiments?
+--->
+- Make sure to submit your finalized data table (Excel sheet). 
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+	- Constant Temperature (Isothermal):
+	  - What properties of a system must be proportional if compression is isothermal?
+	  - How do the two ratios, $X_{1}$ and $X_{2}$, compare?
+	- Varying Temperature (Adiabatic):
+	  - What properties of a system must be proportional if compression is adiabatic?
+	  - How do the two ratios, $Y_{1}$ and $Y_{2}$, compare?
+	- Absolute Zero:
+	  - What does absolute zero represent about a system?
+	  - What is your extrapolated result for absolute zero? How does it compare to the accepted value?
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - What are possible systematic errors for today's experiments?
+  - Constant Temperature (Isothermal):
+	  - What may cause a discrepancy between the ratios of volumes and pressures?
+  - Varying Temperature (Adiabatic):
+      - What may cause a discrepancy between the ratios of volumes and pressures?
+      - Consider the uncertainty due to volume; do the ratios agree within that uncertainty range?
+  - Absolute Zero:
+	  - What measurement uncertainties exist? How do they affect your determined value for absolute zero?
+	
+	
+
 
 ## The Whiteboard
 

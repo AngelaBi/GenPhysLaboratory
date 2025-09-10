@@ -145,15 +145,15 @@ The experiment makes use of a sensor, which is able to detect and measure angula
 
 In this experiment you will measure the angular acceleration from a graph of angular velocity vs. time using data recorded with the RMS. The data will be collected in **Capstone**, which also provides analysis tools. The moment of inertia of a ring and of two point masses will be determined from the angular acceleration. Finally, you will verify the validity of angular momentum conservation in an inelastic collision.
 
-```{figure} RotationalMotionFigures/Figure02.jpg
+```{figure} RotationalMotionFigures/Figure02_v2025-01.png
 :name: M08_rotation_Fig02
 :width: 50%
 :align: center
 
-Rotary Motion Sensor (RMS) with 3-step pulley (transparent) and Super Pulley (black).
+Rotary Motion Sensor (RMS) with 3-step pulley (transparent) and Super Pulley (black). Super pulley should be at an angle to ensure the thread lines up tangent to the 3-step pulley.
 ```
 
-```{figure} RotationalMotionFigures/Figure03a.jpg
+```{figure} RotationalMotionFigures/Figure03_v2025-01.png
 :name: M08_rotation_Fig03
 :width: 80%
 :align: center
@@ -171,8 +171,8 @@ In Part 1 of the experiment you will measure the moment of inertia of the ring a
 - Calculate the expected moment of inertia of the ring, using {eq}`M08_rotation_Eq04` given in the Background. Note your result as $I_{\mbox{calc}}$ in your Part 1 Data Table.
 - Place the ring onto the disk, which should already be mounted on the Rotary Motion Sensor (RMS). The two pins of the ring should fit into the two holes on the disk.
 - Note the mass of the hanger as $m$ in your Data Table.
-- Using the calipers measure the radius $R_{P}$ of the smaller pulley of the RMS and note your result in your Part 1 Data Table.
-- Wind the string with the attached mass hanger onto the smaller pulley of the RMS. You need to make sure that the string runs over the Super Pulley, is wound nicely onto the smaller pulley of the RMS, and is leaving the pulley of the RMS tangentially before it runs straight over the Super Pulley.
+- Using the calipers measure the radius $R_{P}$ of the middle pulley of the RMS and note your result in your Part 1 Data Table.
+- Wind the string with the attached mass hanger onto the middle pulley of the RMS. You need to make sure that the string runs over the Super Pulley, is wound nicely onto the middle pulley of the RMS, and is leaving the pulley of the RMS tangentially before it runs straight over the Super Pulley.
 - Measure the angular acceleration $\alpha_{\mbox{total}}$ of the ring plus the apparatus (the disk and the RMS).
   1. Make sure that in **Capstone** you have a graph of angular velocity ($y$-axis) vs. time ($x$-axis) open.
   2. Before releasing the mass hanger press the **Record** button on **Capstone**.
@@ -198,8 +198,8 @@ In Part 2 of the experiment, you will measure the moment of inertia of two point
 - Mount the masses into the end of the rod and fasten them with the screws. Measure the distance of the center of the masses from the center of the rod. Note the results as $R_1$ and $R_2$ in your Data Table.
 - Calculate the expected moment of inertia of the two points masses, using {eq}`M08_rotation_Eq01` given in the Introduction. Note your result as $I_{\mbox{calc}}$ in your Data Table.
 - Note the mass of the hanger as $m$ in your Data Table.
-- Note the radius $R_{P}$ of the smaller pulley of the RMS in your Data Table (use the result from Part 1 above).
-- Wind the string with the attached mass hanger onto the smaller pulley of the RMS. You need to make sure that the string runs over the Super Pulley, is wound nicely onto the smaller pulley of the RMS, and is leaving the pulley of the RMS tangentially before it runs straight over the Super Pulley.
+- Note the radius $R_{P}$ of the middle pulley of the RMS in your Data Table (use the result from Part 1 above).
+- Wind the string with the attached mass hanger onto the middle pulley of the RMS. You need to make sure that the string runs over the Super Pulley, is wound nicely onto the middle pulley of the RMS, and is leaving the pulley of the RMS tangentially before it runs straight over the Super Pulley.
 - Measure the angular acceleration $\alpha_{\mbox{total}}$ of the two masses plus the apparatus (the rod and the RMS):
   1. Make sure that in **Capstone** you have a graph of angular velocity ($y$-axis) vs. time ($x$-axis) open.
   2. Before releasing the mass hanger press the **Record** button on **Capstone**.
@@ -296,13 +296,17 @@ The third experiment in this lab shows conservation of angular momentum by illus
 
 ## Post-Lab Submission --- Interpretation of Results
 
-- Make sure to submit your finalized data table (Excel sheet)
-- Part 1: How do the values of both the $\textbf{ring's}$ and $\textbf{two-point masses'}$ measured I compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?
-- Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in **Capstone**). Why does this happen?
-- Part 2: Is angular momentum $L$ conserved? What might cause any discrepancies in the conservation of angular momentum?
-- Part 2: What is the effect of dropping the ring off-center? Is L conserved when considering the off-axis portion?
-- What are your measurement uncertainties for each experiment?
-- What are possible systematic uncertainties for each experiment?
+- Make sure to submit your finalized data table (Excel sheet). 
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+	- Part 1: How do the values of both the $\textbf{ring's}$ and $\textbf{two-point masses'}$ measured $I$ compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?
+	- Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in **Capstone**). Why does this happen?
+	- Part 2: Is angular momentum $L$ conserved? What might cause any discrepancies in the conservation of angular momentum?
+	- Part 2: What is the effect of dropping the ring off-center? Is $L$ conserved when considering the off-axis portion?
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+	- What are your measurement uncertainties for each experiment?
+	- What are possible systematic uncertainties for each experiment?
+  - How do these uncertainties affect your final results for $I$ and $L$?
+
 
 ## The Whiteboard
 

@@ -75,7 +75,7 @@ In order to calculate the potential energy, $U$ at any point, along the track we
 
 {numref}`M05Fig02` is a simplified diagram of the inclined track. The distance $s$ is measured along the track by the scale attached to the side of the track. The change in elevation, $\Delta h$, of any other point $s$ along the track can now be determined from the distance $s$ and the incline angle of track, $\theta$. The incline of the track is produced by placing a spacer of known height under a leg at one end. With the height of the spacer and the distance between the legs, $D$, the angle can be calculated (See {numref}`M05Fig03`).
 
-```{figure} ConsEnTrackFigures/Figure02.jpg
+```{figure} ConsEnTrackFigures/Figure01_v2025-01.png
 :name: M05Fig02
 :width: 450px
 :align: center
@@ -107,9 +107,9 @@ U_s = mg \, \Delta s \frac{H}{D}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CINQAbvNFPw?si=srqk4862Gp_MHdzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-```{figure} ConsEnTrackFigures/M04_fig2.jpg
+```{figure} ConsEnTrackFigures/Figure02_v2025-02.png
 :name: M05Fig03
-:width: 580px
+:width: 90%
 :align: center
 
 Experimental setup for the Conservation of Energy experiment.
@@ -192,21 +192,17 @@ Calculate the following:
 
 ## Post-Lab Submission --- Interpretation of Results
 
-- Make sure to submit your finalized data table (Excel sheet)
-
-- Arguing your responses with your data ± standard deviation:
-  
-  - Is kinetic plus potential energy conserved going from the top to the bottom?
-  - Is kinetic plus potential energy conserved between the top and the rebound position?
-
-- Why is there a difference in energy conservation between the top/bottom and top/bottom/rebound?
-
-- Uncertainties:
-
-  - What is the precision of your equipment?
-  - What are the effects of measured uncertainties on your determined energies?
-  - What are possible systematic errors for today's experiments?
-  - How could one gain energy between top and bottom?
+- Make sure to submit your finalized data table (Excel sheet). 
+- In a **paragraph**, summarize the results you have determined in each case. Consider
+	- Arguing your responses with your data ± standard deviation:
+	    - Is kinetic plus potential energy conserved going from the top to the bottom?
+		- Is kinetic plus potential energy conserved between the top and the rebound position?
+	- Why is there a difference in energy conservation between the top/bottom and top/bottom/rebound?
+- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
+	- What is the precision of your equipment?
+	- What are the effects of measured uncertainties on your determined energies?
+	- What are possible systematic errors for today’s experiments?
+	- How could one gain energy between top and bottom?
 
 ## The Whiteboard
 
