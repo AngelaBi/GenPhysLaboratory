@@ -11,11 +11,20 @@ You will often have a table of common values, another for measurements, and a ta
 The standard way to structure a data analysis spreadsheet saves calculation errors and reduces repetitive typing.
 Use a separate row for each trial and a separate column for each measured or calculated value.
 
-- ▷ Use a row for each trial, labeled in the left cell with, for example, "Trial #1".
-- ▷ Use a column for each measured or calculated value, labeled in the top cell with a description of the column and with units.
-- ▷ Reference cells you need for a calculation. Do not retype numbers. Use `$` for row or column coordinates you don't want to change. `$D5` will always refer to column `D` but the row will change. `D$5` will always refer to row 5 but the column will change. Finally, `$D$5` will always refer to the same cell.
-- ▷ Never enter a value calculated outside the spreadsheet, for example, on your calculator. Any value you can find on the calculator can be calculated and updated automatically on the spreadsheet.
-- ▷ Use the spreadsheet's "fill down" capability by selecting a set of cells in a row and fill down by dragging. Formulas will copy and the row numbers of referenced cells that are not preceded by `$` will increment automatically.
+- Use a row for each trial, labeled in the left cell with, for example, "Trial #1".
+- Use a column for each measured or calculated value, labeled in the top cell with a description of the column and with units.
+- Reference cells you need for a calculation.
+  - Each accepted physical value such as $g$ and all commond data for the experiment must be entered in cells and referenced in formulas that use that quantity. The cells must be labeled with a name and units.
+  - Do not retype numbers. Use `$` for row or column coordinates you don't want to change. 
+    - `$D5` will always refer to column `D` but the row will change.
+    - `D$5` will always refer to row `5` but the column will change. 
+    - `$D$5` will always refer to the same cell.
+- Never enter a value calculated outside the spreadsheet, for example, on your calculator. Any value you can find on the calculator can be calculated and updated automatically on the spreadsheet.
+- Use the spreadsheet's "fill down" capability by selecting a set of cells in a row and fill down by dragging with the little square in the bottom-right of the selected cells. Formulas will copy and the row numbers of referenced cells that are not preceded by `$` will increment automatically.
+- Wherever appropriate, data analysis includes finding averages, standard deviations, or error esitmates.
+- Unless otherwise stated, use Excel for graphs and for fitting data. Display the trendline (the equation of the fit, usually slope and intecept) on the graph itself.
+- When application, conduct all error propagation analysis in your Excel spreadsheet.
+- Use `=LINEST(y_values, x_values, True/False for y-int calculated as normal/set to zero, True/False to show uncertainties and additional stats/just slope)` fuction to calculate a plotted data's slope and y-intercept as well as their uncertainties. This is to have a referenceable cell for calculations that require the use of a trendline's values without having to manually copy the trendline infor from the plot (which could introduce a chance of mistyping and messing up your calculations).
 
 This approach makes it efficient to create a spreadsheet to analyze your data and to correct errors. If you make a mistake in a formula, you can correct the first trial and then correct the other trials by filling down.
 
