@@ -69,7 +69,7 @@ Left) Dominoes provided. Right) Relevant length, width, height dimensions of the
 
 The density of the dominoes' plastic and water are roughly the same. Estimate the value you expect in SI units (kg/m³).
 
-Create data tables ([examples here](#common-data)):
+Create data tables {ref}`common-data`:
 - Create a Common Data Table for values used in all the trials. In this case, include the instrumental tolerance of the triple-beam balance and the Vernier caliper.
 - Create a Data Table with 
    - Rows for each domino trial. A trial is the measurement by one lab group member of one domino color. For a group of two, there will be 8 trials; for a group of three, there will be 12 trials.
@@ -116,7 +116,7 @@ Does this range appear far from your estimated densities from the prior knowledg
 
 Up to this point, each individual trial has its own range of densities based on the measurement uncertainties. If we were only analyzing individual trials, this can be satifactory for error analysis. However, each person measured each color domino. We can therefore also analyze the repeated measurements by looking at the average densities and the spread or variation of the data from that average value (i.e. standard deviation, often denoted as the Greek letter sigma, $\sigma$).
 
-We will analyze the data in two ways, first by sorting your data by domino color (across all group members) and by person (across all domino colors). To do so, create two Data Analysis tables including ([examples here](#analysis-table-1-by-color)):
+We will analyze the data in two ways, first by sorting your data by domino color (across all group members) and by person (across all domino colors). To do so, create two Data Analysis tables including ({ref}`analysis-table-1-by-color`):
 
 - Analysis Table 1 (by color):
   - Average and standard deviations of the length, width, height, mass, volume, and density of each color of domino.
@@ -154,6 +154,7 @@ Based on your data, do you expect some or all of the dominos to float, sink, or 
 
 Example data tables are shown below to assist you in building your spreadsheet for this first lab. Additionally the original whiteboard summary is at the end of this section.
 
+(common-data)=
 ### Common Data
 
 | Variable (units) | Value |
@@ -182,6 +183,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 ---
 
+(analysis-table-1-by-color)=
 ### Analysis Table 1 (by color)
 
 |                | Length (units) | Width (units) | Height (units) | Mass (units) | Volume (units) | Density (units) | Did it float? |
@@ -211,7 +213,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 
 ```{figure} IntroLabFigures/IntroDominos_2024_Fall_01.jpg
-:name: AccelGTrack
+:name: introDominoFig
 :width: 600px
 :align: center
 
