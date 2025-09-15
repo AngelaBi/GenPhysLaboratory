@@ -409,7 +409,13 @@
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#common-data">Common Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trial-data">Trial Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-table-1-by-color">Analysis Table 1 (by color)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-table-2-by-person">Analysis Table 2 (by person)</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -442,9 +448,11 @@
 <p>Volume <span class="math notranslate nohighlight">\(V\)</span> and mass <span class="math notranslate nohighlight">\(m\)</span> are two measures of the size of an object. If an object is made of a uniform material, then doubling the amount of material will double both its mass and its volume.
 Density <span class="math notranslate nohighlight">\(\rho\)</span> is ratio of mass to volume.</p>
 <div class="math notranslate nohighlight" id="equation-m00-intro-eq01">
-<span class="eqno">(4)<a class="headerlink" href="#equation-m00-intro-eq01" title="Permalink to this equation">#</a></span>\[\rho=\frac{m}{V}.\]</div>
+<span class="eqno">(4)<a class="headerlink" href="#equation-m00-intro-eq01" title="Permalink to this equation">#</a></span>\[\rho=\frac{m}{V}\]</div>
 <p>Density is a material property, independent of the amount of material or shape of the object.
-The volume of a rectangular parallelepiped shape, i.e., a box, is the product length times width times height <span class="math notranslate nohighlight">\(V=l\cdot w\cdot h\)</span>.</p>
+The volume of a rectangular parallelepiped shape, i.e., a box, is the product length times width times height, i.e.:</p>
+<div class="math notranslate nohighlight" id="equation-m00-intro-eq02">
+<span class="eqno">(5)<a class="headerlink" href="#equation-m00-intro-eq02" title="Permalink to this equation">#</a></span>\[V=l \cdot w \cdot h\]</div>
 </section>
 <section id="estimating-error">
 <h3>Estimating Error<a class="headerlink" href="#estimating-error" title="Permalink to this heading">#</a></h3>
@@ -460,48 +468,92 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 <figure class="align-center" id="m00-intro-fig01">
 <a class="reference internal image-reference" href="../_images/M0_dominos.jpg"><img alt="../_images/M0_dominos.jpg" src="../_images/M0_dominos.jpg" style="width: 80%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Left) Dominoes provided. Right) Relevant length, width, height dimensions of the dominoes.</span><a class="headerlink" href="#m00-intro-fig01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Left) Dominoes provided. Right) Relevant length, width, height dimensions of the dominoes.</span><a class="headerlink" href="#m00-intro-fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="note admonition">
 <p class="admonition-title">OVERVIEW</p>
 <ul class="simple">
 <li><p>Understand how to take length and mass measurements.</p></li>
-<li><p>Understand how to characterize measurement uncertainties with standard deviation.</p></li>
 <li><p>Understand how to characterize measurement uncertainties due to instrument precision.</p></li>
-<li><p>Each member of the lab group will independently measure the mass, length, width, and height of four provided dominoes per group (i.e. each group gets a pink, green, orange, and blue domino).</p></li>
+<li><p>Understand how to characterize measurement uncertainties with standard deviation.</p></li>
+<li><p>Each member of the lab group will independently measure the length, width, height, and mass of four provided dominoes per group (i.e. each lab group gets one pink, one green, one orange, and one blue domino).</p></li>
 </ul>
 </div>
 <p><em>NOTE:</em> It is good practice to <strong>complete the analysis of trials as you do the experiment</strong>. If there is some error in your experimental method or in your calculation, you can correct it before completing all the other trials. The formulas of the rows for later trials can be created by copying the first trial.</p>
 <p>The density of the dominoes’ plastic and water are roughly the same. Estimate the value you expect in SI units (kg/m³).</p>
+<p>Create data tables <a class="reference internal" href="#common-data"><span class="std std-ref">Common Data</span></a>:</p>
 <ul class="simple">
-<li><p>Create a Common Data Table for values used in all the trials. In this case, include the instrumental tolerance of the lab scale and the Vernier caliper.</p></li>
-<li><p>Create a row for each domino trial. A trial is the measurement by one lab group member of one domino color.</p></li>
-<li><p>Create a Data Table with columns for:</p>
+<li><p>Create a Common Data Table for values used in all the trials. In this case, include the instrumental tolerance of the triple-beam balance and the Vernier caliper.</p></li>
+<li><p>Create a Data Table with</p>
 <ul>
+<li><p>Rows for each domino trial. A trial is the measurement by one lab group member of one domino color. For a group of two, there will be 8 trials; for a group of three, there will be 12 trials.</p></li>
+<li><p>Columns for:</p>
+<ul>
+<li><p>Trial number</p></li>
 <li><p>Initials of the experimenter</p></li>
 <li><p>Color of the domino</p></li>
-<li><p>Measured length <span class="math notranslate nohighlight">\(l\)</span>, width <span class="math notranslate nohighlight">\(w\)</span>, height <span class="math notranslate nohighlight">\(h\)</span> measured with Vernier calipers and mass <span class="math notranslate nohighlight">\(m\)</span> measured with the triple-beam balance in the instruments’ units (e.g. mm, g, etc.)</p></li>
+<li><p>Measured length <span class="math notranslate nohighlight">\(l\)</span>, width <span class="math notranslate nohighlight">\(w\)</span>, height <span class="math notranslate nohighlight">\(h\)</span> (see <a class="reference internal" href="#m00-intro-fig01"><span class="std std-numref">Fig. 9</span></a>) measured with Vernier calipers and mass <span class="math notranslate nohighlight">\(m\)</span> measured with the triple-beam balance in the instruments’ units (e.g. mm, g, etc.)</p></li>
 <li><p><span class="math notranslate nohighlight">\(l\)</span>, <span class="math notranslate nohighlight">\(w\)</span>, <span class="math notranslate nohighlight">\(h\)</span>, and <span class="math notranslate nohighlight">\(m\)</span> converted to SI units</p></li>
 <li><p>Calculated volume <span class="math notranslate nohighlight">\(V_\text{color}\)</span> for the trial in SI units</p></li>
+<li><p>Minimum volume and maximum volume (SI units)</p></li>
 <li><p>Calculated density <span class="math notranslate nohighlight">\(\rho_\text{color}\)</span> for the trial in SI units</p></li>
+<li><p>Minimum density and maximum density (SI units)</p></li>
 </ul>
 </li>
 </ul>
-<p>Create a Data Analysis table including:</p>
+</li>
+</ul>
+<p>Each group member will independently measure each of the four dominoes (i.e. four trials per person). <em><strong>HOWEVER</strong></em>, start with one domino, then go through all the steps minimizing and maximizing <span class="math notranslate nohighlight">\(V\)</span> and <span class="math notranslate nohighlight">\(\rho\)</span> before measuring your second domino to ensure your calculations in Excel are behaving properly and that you are actually measuring the dominoes accurately with the calipers and balance. Otherwise, you may find yourselves redoing the whole experiment if you fail to check your measurement techniques early on in the process.</p>
 <ul class="simple">
-<li><p>Analysis Table 1:</p>
+<li><p>Record the trial number, group member’s name or initials, and the domino color</p></li>
+<li><p>Using the Vernier calipers, note the caliper’s measurement uncertainty in your common data table (smallest measureable increment, <span class="math notranslate nohighlight">\(\delta_{\text{caliper}}\)</span>). Then measure and record, in the units of the calipers, the:</p>
 <ul>
-<li><p>Average and standard deviation of the <span class="math notranslate nohighlight">\(l_\text{avg.}\)</span> length, width, height, volume, and density of each color of domino.</p></li>
-<li><p>Maximum and minimum values of the density and volume based on your experimental value and the instrumental tolerance (i.e. <span class="math notranslate nohighlight">\(\pm\)</span> values). <strong>NOTE:</strong> To maximize Volume <span class="math notranslate nohighlight">\(V\)</span>, maximize <span class="math notranslate nohighlight">\(l\)</span>, <span class="math notranslate nohighlight">\(w\)</span>, <span class="math notranslate nohighlight">\(h\)</span>. To maximize density <span class="math notranslate nohighlight">\(\rho\)</span>, maximize <span class="math notranslate nohighlight">\(V\)</span> and minimize <span class="math notranslate nohighlight">\(m\)</span>.</p></li>
+<li><p>length <span class="math notranslate nohighlight">\(l\)</span></p></li>
+<li><p>width <span class="math notranslate nohighlight">\(w\)</span></p></li>
+<li><p>height <span class="math notranslate nohighlight">\(h\)</span></p></li>
 </ul>
 </li>
-<li><p>Analysis Table 2:</p>
+<li><p>Using the triple-beam balance, note the balance’s measurement uncertainty (smallest measureable increment, <span class="math notranslate nohighlight">\(\delta_m\)</span>) in your common data table. Then measure and record, in the units of the balance, the mass <span class="math notranslate nohighlight">\(m\)</span>.</p></li>
+</ul>
+<p>Convert your measurements into SI units (e.g. kilogram kg, meter m, second s, etc.)</p>
+<p>Calculate volume <span class="math notranslate nohighlight">\(V\)</span> using <a class="reference internal" href="#equation-m00-intro-eq02">(5)</a>, and density <span class="math notranslate nohighlight">\(\rho\)</span> using <a class="reference internal" href="#equation-m00-intro-eq01">(4)</a>.</p>
+<p>You will now analyze your domino measurements in a few ways, through measurement uncertainties and through average and standard deviation (i.e. the spread of the data from the average).</p>
+<ul class="simple">
+<li><p>In your data table, for each trial, calculate the minimized and maximized values for both <span class="math notranslate nohighlight">\(V\)</span> and <span class="math notranslate nohighlight">\(\rho\)</span>.</p>
 <ul>
-<li><p>Average of the length, width, height, volume, and density of the color set measured by each lab group member.</p></li>
+<li><p>To minimize <span class="math notranslate nohighlight">\(V\)</span>, minimize <span class="math notranslate nohighlight">\(l\)</span>, <span class="math notranslate nohighlight">\(w\)</span>, <span class="math notranslate nohighlight">\(h\)</span> by the caliper’s measurement uncertainty in <a class="reference internal" href="#equation-m00-intro-eq02">(5)</a></p>
+<ul>
+<li><p>e.g. <span class="math notranslate nohighlight">\(V_{\min} = (l-\delta l)\cdot(w-\delta w)\cdot(h-\delta h)\)</span> where <span class="math notranslate nohighlight">\(\delta\)</span> (said as “delta”) is representing the uncertainty of each variable from the caliper.</p></li>
+</ul>
+</li>
+<li><p>Maximize <span class="math notranslate nohighlight">\(V\)</span> in a similar manner, now by maximizing <span class="math notranslate nohighlight">\(l\)</span>, <span class="math notranslate nohighlight">\(w\)</span>, <span class="math notranslate nohighlight">\(h\)</span>.</p></li>
+<li><p>In a similar way, minimize and maximize <span class="math notranslate nohighlight">\(\rho\)</span> by using either <span class="math notranslate nohighlight">\(V_{\max}\)</span> or <span class="math notranslate nohighlight">\(V_{\min}\)</span> with <span class="math notranslate nohighlight">\(m\)</span> minimized or maximized.</p>
+<ul>
+<li><p>e.g. for <span class="math notranslate nohighlight">\(\rho_{\min}\)</span>, you would minimize the numerator and maximize the denominator, i.e. <span class="math notranslate nohighlight">\(\frac{m-\delta m}{V_{\max}}\)</span></p></li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+<p>At this point, you should have a complete trial with a range of densities based on your measurement uncertainties.</p>
+<p>Does this range appear far from your estimated densities from the prior knowledge that these dominoes’ densities are close to that of water? If so, this is a good time to double check any of your measurements that may seem like an outlier or any of your calculations that may have been entered into Excel incorrectly.</p>
+<p><em><strong>If you are satisfied, it is at this point that each person can now continue measuring the other dominoes.</strong></em></p>
+<p>Up to this point, each individual trial has its own range of densities based on the measurement uncertainties. If we were only analyzing individual trials, this can be satifactory for error analysis. However, each person measured each color domino. We can therefore also analyze the repeated measurements by looking at the average densities and the spread or variation of the data from that average value (i.e. standard deviation, often denoted as the Greek letter sigma, <span class="math notranslate nohighlight">\(\sigma\)</span>).</p>
+<p>We will analyze the data in two ways, first by sorting your data by domino color (across all group members) and by person (across all domino colors). To do so, create two Data Analysis tables including (<a class="reference internal" href="#analysis-table-1-by-color"><span class="std std-ref">Analysis Table 1 (by color)</span></a>):</p>
+<ul class="simple">
+<li><p>Analysis Table 1 (by color):</p>
+<ul>
+<li><p>Average and standard deviations of the length, width, height, mass, volume, and density of each color of domino.</p></li>
+</ul>
+</li>
+<li><p>Analysis Table 2 (by person):</p>
+<ul>
+<li><p>Average and standard deviations of the length, width, height, mass, volume, and density of the color set measured by each lab group member.</p></li>
+</ul>
+</li>
+</ul>
+<p>Based on your data, do you expect some or all of the dominos to float, sink, or stay neutrally buoyant in room-temperature water? Before you leave, there should be a bucket of water near the front of the lab, test it out!</p>
 </section>
 <section id="post-lab-submission-interpretation-of-results">
 <h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
@@ -517,9 +569,9 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 <li><p>Make sure to submit your finalized data table (Excel sheet).</p></li>
 <li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case. Consider:</p>
 <ul>
-<li><p>Are the densities of all the <strong>different colored dominoes</strong> the same (within experimental uncertainty based on measurement uncertainties)? Example, do all the <span class="math notranslate nohighlight">\(\rho_{\text{blue-person1}}\)</span>, <span class="math notranslate nohighlight">\(\rho_{\text{blue-person2}}\)</span>, etc. agree?</p></li>
-<li><p>Are the average densities of all four dominoes as measured by <strong>each person</strong> consistent (within experimental uncertainty based on measurement uncertainties)? Example, do all the <span class="math notranslate nohighlight">\(\rho_{\text{blue-person1}}\)</span>, <span class="math notranslate nohighlight">\(\rho_{\text{green-person1}}\)</span>, etc. agree?</p></li>
-<li><p>Do you expect the dominoes to float in water (at room temperature)?</p></li>
+<li><p>What were your densities for each of the <strong>different colored dominoes</strong> (based on Analysis Table 1), and did each color agree (within experimental uncertainty assuming the use of standard deviation <span class="math notranslate nohighlight">\(\sigma\)</span> as our uncertainty)? In other words, do all the <span class="math notranslate nohighlight">\(\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person1}}\)</span>, <span class="math notranslate nohighlight">\(\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person2}}\)</span>, etc. agree?</p></li>
+<li><p>Are the average densities of all four dominoes as measured by <strong>each person</strong> consistent (within experimental uncertainty assuming the use of standard deviation <span class="math notranslate nohighlight">\(\sigma\)</span> as our uncertainty)? (i.e. do all the <span class="math notranslate nohighlight">\(\rho_{\text{blue-person1}}\)</span>, <span class="math notranslate nohighlight">\(\rho_{\text{green-person1}}\)</span>, etc. agree?)</p></li>
+<li><p>Based on your measurements, did you expect the dominoes to float in water (at room temperature)? Did you test it? What did you find, confirmation or disconfirmation of your predictions?</p></li>
 </ul>
 </li>
 <li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative not only quantitative.</p>
@@ -527,18 +579,447 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 <li><p>What was the precision of your equipment (calipers, triple-beam balance, etc.)?</p></li>
 <li><p>What are possible systematic errors for today’s experiments?</p></li>
 <li><p>How might your values of <span class="math notranslate nohighlight">\(\rho\)</span> change based on those uncertainties?</p></li>
+<li><p>How does the range of densities for an individual domino trial based on measurement uncertainties (i.e. <span class="math notranslate nohighlight">\(\rho_{\text{min}}\)</span> and <span class="math notranslate nohighlight">\(\rho_{\text{max}}\)</span>) compare to the range of densities given by the standard deviation <span class="math notranslate nohighlight">\(\sigma\)</span> across colors or across group members?</p>
+<ul>
+<li><p>Larger or smaller? IWhat does this comparison imply about the main sources of error in this experiment?</p></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </section>
 <section id="the-whiteboard">
 <h2>The Whiteboard<a class="headerlink" href="#the-whiteboard" title="Permalink to this heading">#</a></h2>
-<figure class="align-center" id="accelgtrack">
+<p>Example data tables are shown below to assist you in building your spreadsheet for this first lab. Additionally the original whiteboard summary is at the end of this section.</p>
+<section id="common-data">
+<span id="id1"></span><h3>Common Data<a class="headerlink" href="#common-data" title="Permalink to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Variable (units)</p></th>
+<th class="head"><p>Value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Mass uncertainty (SI units)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Caliper uncertainty (SI units)</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="trial-data">
+<h3>Trial Data<a class="headerlink" href="#trial-data" title="Permalink to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Trial number</p></th>
+<th class="head"><p>Group Member Initials</p></th>
+<th class="head"><p>Color</p></th>
+<th class="head"><p>Length (measurement units, mm)</p></th>
+<th class="head"><p>Width (measurement units, mm)</p></th>
+<th class="head"><p>Height (measurement units, mm)</p></th>
+<th class="head"><p>Mass  (measurement units, g)</p></th>
+<th class="head"><p>Length (SI units)</p></th>
+<th class="head"><p>Width (SI units)</p></th>
+<th class="head"><p>Height (SI units)</p></th>
+<th class="head"><p>Mass (SI units)</p></th>
+<th class="head"><p>Volume (SI units)</p></th>
+<th class="head"><p>Min Volume (SI units)</p></th>
+<th class="head"><p>Max Volume (SI units)</p></th>
+<th class="head"><p>Density (SI units)</p></th>
+<th class="head"><p>Min Density (SI units)</p></th>
+<th class="head"><p>Max Density  (SI units)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>AB</p></td>
+<td><p>pink</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>AB</p></td>
+<td><p>green</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>AB</p></td>
+<td><p>orange</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>AB</p></td>
+<td><p>blue</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>CD</p></td>
+<td><p>pink</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>CD</p></td>
+<td><p>green</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>CD</p></td>
+<td><p>orange</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>CD</p></td>
+<td><p>blue</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>EF</p></td>
+<td><p>pink</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>EF</p></td>
+<td><p>green</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>EF</p></td>
+<td><p>orange</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>EF</p></td>
+<td><p>blue</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="docutils" />
+</section>
+<section id="analysis-table-1-by-color">
+<span id="id2"></span><h3>Analysis Table 1 (by color)<a class="headerlink" href="#analysis-table-1-by-color" title="Permalink to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Length (units)</p></th>
+<th class="head"><p>Width (units)</p></th>
+<th class="head"><p>Height (units)</p></th>
+<th class="head"><p>Mass (units)</p></th>
+<th class="head"><p>Volume (units)</p></th>
+<th class="head"><p>Density (units)</p></th>
+<th class="head"><p>Did it float?</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Avg pink</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Avg green</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Avg orange</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Avg blue</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Stdev pink</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Stdev green</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Stdev orange</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Stdev blue</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="analysis-table-2-by-person">
+<h3>Analysis Table 2 (by person)<a class="headerlink" href="#analysis-table-2-by-person" title="Permalink to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Length (units)</p></th>
+<th class="head"><p>Width (units)</p></th>
+<th class="head"><p>Height (units)</p></th>
+<th class="head"><p>Mass (units)</p></th>
+<th class="head"><p>Volume (units)</p></th>
+<th class="head"><p>Density (units)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AB avg</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>AB stdev</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>CD avg</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>CD stdev</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>EF avg</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>EF stdev</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<figure class="align-center" id="introdominofig">
 <a class="reference internal image-reference" href="../_images/IntroDominos_2024_Fall_01.jpg"><img alt="../_images/IntroDominos_2024_Fall_01.jpg" src="../_images/IntroDominos_2024_Fall_01.jpg" style="width: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Original whiteboard summary</span><a class="headerlink" href="#introdominofig" title="Permalink to this image">#</a></p>
+</figcaption>
 </figure>
-<figure class="align-center" id="int1">
-<a class="reference internal image-reference" href="../_images/IntroDominos_2024_Fall_02.jpg"><img alt="../_images/IntroDominos_2024_Fall_02.jpg" src="../_images/IntroDominos_2024_Fall_02.jpg" style="width: 600px;" /></a>
-</figure>
+</section>
 </section>
 </section>
 
@@ -614,7 +1095,13 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#common-data">Common Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trial-data">Trial Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-table-1-by-color">Analysis Table 1 (by color)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-table-2-by-person">Analysis Table 2 (by person)</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

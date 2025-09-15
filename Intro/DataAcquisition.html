@@ -432,11 +432,26 @@ You will often have a table of common values, another for measurements, and a ta
 The standard way to structure a data analysis spreadsheet saves calculation errors and reduces repetitive typing.
 Use a separate row for each trial and a separate column for each measured or calculated value.</p>
 <ul class="simple">
-<li><p>▷ Use a row for each trial, labeled in the left cell with, for example, “Trial #1”.</p></li>
-<li><p>▷ Use a column for each measured or calculated value, labeled in the top cell with a description of the column and with units.</p></li>
-<li><p>▷ Reference cells you need for a calculation. Do not retype numbers. Use <code class="docutils literal notranslate"><span class="pre">$</span></code> for row or column coordinates you don’t want to change. <code class="docutils literal notranslate"><span class="pre">$D5</span></code> will always refer to column <code class="docutils literal notranslate"><span class="pre">D</span></code> but the row will change. <code class="docutils literal notranslate"><span class="pre">D$5</span></code> will always refer to row 5 but the column will change. Finally, <code class="docutils literal notranslate"><span class="pre">$D$5</span></code> will always refer to the same cell.</p></li>
-<li><p>▷ Never enter a value calculated outside the spreadsheet, for example, on your calculator. Any value you can find on the calculator can be calculated and updated automatically on the spreadsheet.</p></li>
-<li><p>▷ Use the spreadsheet’s “fill down” capability by selecting a set of cells in a row and fill down by dragging. Formulas will copy and the row numbers of referenced cells that are not preceded by <code class="docutils literal notranslate"><span class="pre">$</span></code> will increment automatically.</p></li>
+<li><p>Use a row for each trial, labeled in the left cell with, for example, “Trial #1”.</p></li>
+<li><p>Use a column for each measured or calculated value, labeled in the top cell with a description of the column and with units.</p></li>
+<li><p>Reference cells you need for a calculation.</p>
+<ul>
+<li><p>Each accepted physical value such as <span class="math notranslate nohighlight">\(g\)</span> and all commond data for the experiment must be entered in cells and referenced in formulas that use that quantity. The cells must be labeled with a name and units.</p></li>
+<li><p>Do not retype numbers. Use <code class="docutils literal notranslate"><span class="pre">$</span></code> for row or column coordinates you don’t want to change.</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">$D5</span></code> will always refer to column <code class="docutils literal notranslate"><span class="pre">D</span></code> but the row will change.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">D$5</span></code> will always refer to row <code class="docutils literal notranslate"><span class="pre">5</span></code> but the column will change.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">$D$5</span></code> will always refer to the same cell.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Never enter a value calculated outside the spreadsheet, for example, on your calculator. Any value you can find on the calculator can be calculated and updated automatically on the spreadsheet.</p></li>
+<li><p>Use the spreadsheet’s “fill down” capability by selecting a set of cells in a row and fill down by dragging with the little square in the bottom-right of the selected cells. Formulas will copy and the row numbers of referenced cells that are not preceded by <code class="docutils literal notranslate"><span class="pre">$</span></code> will increment automatically.</p></li>
+<li><p>Wherever appropriate, data analysis includes finding averages, standard deviations, or error esitmates.</p></li>
+<li><p>Unless otherwise stated, use Excel for graphs and for fitting data. Display the trendline (the equation of the fit, usually slope and intecept) on the graph itself.</p></li>
+<li><p>When application, conduct all error propagation analysis in your Excel spreadsheet.</p></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">=LINEST(y_values,</span> <span class="pre">x_values,</span> <span class="pre">True/False</span> <span class="pre">for</span> <span class="pre">y-int</span> <span class="pre">calculated</span> <span class="pre">as</span> <span class="pre">normal/set</span> <span class="pre">to</span> <span class="pre">zero,</span> <span class="pre">True/False</span> <span class="pre">to</span> <span class="pre">show</span> <span class="pre">uncertainties</span> <span class="pre">and</span> <span class="pre">additional</span> <span class="pre">stats/just</span> <span class="pre">slope)</span></code> fuction to calculate a plotted data’s slope and y-intercept as well as their uncertainties. This is to have a referenceable cell for calculations that require the use of a trendline’s values without having to manually copy the trendline infor from the plot (which could introduce a chance of mistyping and messing up your calculations).</p></li>
 </ul>
 <p>This approach makes it efficient to create a spreadsheet to analyze your data and to correct errors. If you make a mistake in a formula, you can correct the first trial and then correct the other trials by filling down.</p>
 </section>
