@@ -69,9 +69,9 @@ Left) Dominoes provided. Right) Relevant length, width, height dimensions of the
 
 The density of the dominoes' plastic and water are roughly the same. Estimate the value you expect in SI units (kg/m³).
 
-Create data tables {ref}`common-data`:
-- Create a Common Data Table for values used in all the trials. In this case, include the instrumental tolerance of the triple-beam balance and the Vernier caliper.
-- Create a Data Table with 
+Create data tables (See examples in {ref}`common-data` and {ref}`trial-data`):
+- Create a ***Common Data Table*** for values used in all the trials. In this case, include the instrumental tolerance of the triple-beam balance and the Vernier caliper. Reference these values with dollar signs to hold the cells constant in your formulas (e.g. `$A$1`) as needed.
+- Create a ***Data Table*** with 
    - Rows for each domino trial. A trial is the measurement by one lab group member of one domino color. For a group of two, there will be 8 trials; for a group of three, there will be 12 trials.
   - Columns for:
     - Trial number
@@ -88,7 +88,7 @@ Each group member will independently measure each of the four dominoes (i.e. fou
 
 
 - Record the trial number, group member's name or initials, and the domino color
-- Using the Vernier calipers, note the caliper's measurement uncertainty in your common data table (smallest measureable increment, $\delta_{\text{caliper}}$). Then measure and record, in the units of the calipers, the:
+- Using the Vernier calipers, note the caliper's measurement uncertainty in your common data table (smallest measureable increment, $\delta_{\text{caliper}} = \delta_l = \delta_w = \delta_h$). Then measure and record, in the units of the calipers, the:
   - length $l$
   - width $w$
   - height $h$
@@ -103,10 +103,10 @@ You will now analyze your domino measurements in a few ways, through measurement
 
 - In your data table, for each trial, calculate the minimized and maximized values for both $V$ and $\rho$.
   - To minimize $V$, minimize $l$, $w$, $h$ by the caliper's measurement uncertainty in {eq}`M00_intro_Eq02`
-     - e.g. $V_{\min} = (l-\delta l)\cdot(w-\delta w)\cdot(h-\delta h)$ where $\delta$ (said as "delta") is representing the uncertainty of each variable from the caliper.
+     - e.g. $V_{\min} = (l-\delta_l)\cdot(w-\delta_w)\cdot(h-\delta_h)$ where $\delta_\text{variable}$ (said as "delta") is representing the uncertainty of each variable from the caliper.
   - Maximize $V$ in a similar manner, now by maximizing $l$, $w$, $h$.
   - In a similar way, minimize and maximize $\rho$ by using either $V_{\max}$ or $V_{\min}$ with $m$ minimized or maximized.
-    - e.g. for $\rho_{\min}$, you would minimize the numerator and maximize the denominator, i.e. $\frac{m-\delta m}{V_{\max}}$
+    - e.g. for $\rho_{\min}$, you would minimize the numerator and maximize the denominator, i.e. $\frac{m-\delta_m}{V_{\max}}$
 
 At this point, you should have a complete trial with a range of densities based on your measurement uncertainties. 
 
@@ -164,6 +164,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 ---
 
+(trial-data)=
 ### Trial Data
 
 | Trial number | Group Member Initials | Color  | Length (measurement units, mm) | Width (measurement units, mm) | Height (measurement units, mm) | Mass  (measurement units, g) | Length (SI units) | Width (SI units) | Height (SI units) | Mass (SI units) | Volume (SI units) | Min Volume (SI units) | Max Volume (SI units) | Density (SI units) | Min Density (SI units) | Max Density  (SI units) |
