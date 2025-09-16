@@ -180,7 +180,7 @@ For accurate measurements of the angles involved, each cord must be aimed direct
 
 ## Experimental Procedure
 
-### Preview
+### Preview & Examples
 
 For today's lab, two different cases will be assigned involving two given vectors and the **determination of the equilibrant vector**. A third case involves the **determination of the mass of two unlabeled masses** by balancing the system from a single known mass.
 
@@ -255,12 +255,66 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 ```{admonition} OVERVIEW
 :class: note
 - Understand how to add and balance vectors using the **method of components**.
-- Conduct 3 cases of two additive, known vectors (weights at given angles) to experimentally determine the third balancing or equilibrant vector.
+- Conduct 2 cases of two additive, known vectors (weights at given angles) to experimentally determine the third balancing or equilibrant vector.
 - Compare the experimental results to theoretically expected vectors.
 - **Assume** 0° is the +x direction, 90° is the +y direction
 ```
-2. The first two cases are:
+The first two cases' given values are:
 
+
+<!---
+| Hanger   | Mass (g) | Angle (°) |
+| -------- | -------- | --------- |
+| Hanger 1 | 150      | 0°        |
+| Hanger 2 | 150      | 70°       |
+| Hanger 3 | ?        | ?         |
+
+### Comparison Table: Case 1 vs Case 2
+
+| Hanger   | Mass (g) @ Angle (°) — **Case 1** | Mass (g) @ Angle (°) — **Case 2** |
+|----------|----------------------------------|----------------------------------|
+| Hanger 1 | 150 g @ 0°                        | 100 g @ 75°                      |
+| Hanger 2 | 150 g @ 70°                       | 200 g @ 115°                     |
+| Hanger 3 | ? kg @ ?°                         | ? kg @ ?°                        |
+
+
+### Case 1
+
+| Hanger   | Mass (g) | Angle (°) |
+|----------|----------|-----------|
+| Hanger 1 | 150      | 0°        |
+| Hanger 2 | 150      | 70°       |
+| Hanger 3 | ?        | ?         |
+
+### Case 2
+
+| Hanger   | Mass (g) | Angle (°) |
+|----------|----------|-----------|
+| Hanger 1 | 100      | 75°       |
+| Hanger 2 | 200      | 115°      |
+| Hanger 3 | ?        | ?         |
+
+| Hanger   | Mass (g) | Angle (°) |   | Hanger   | Mass (g) | Angle (°) |
+|----------|----------|-----------|---|----------|----------|-----------|
+|          | **Case 1** |          |   |          | **Case 2**           |
+| Hanger 1 | 150      | 0°        |   | Hanger 1 | 100      | 75°       |
+| Hanger 2 | 150      | 70°       |   | Hanger 2 | 200      | 115°      |
+| Hanger 3 | ?        | ?         |   | Hanger 3 | ?        | ?         |
+--->
+
+| Hanger   | Mass (g) | Angle (°) |
+|----------|----------|-----------|
+|    | **Case 1**           |
+|  1 | 150      | 0°        |
+|  2 | 150      | 70°       |
+|  3 | ?        | ?         |
+|    | **Case 2**           |
+|  1 | 100      | 75°       |
+|  2 | 200      | 115°      |
+|  3 | ?        | ?         |
+
+
+<!---
    **Case 1:**
    - hanger 1: 150 g @ 0°
    - hanger 2: 150 g @ 70°
@@ -271,7 +325,11 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
    - hanger 2: 200 g @ 115°
    - hanger 3: ? kg @ ?°
 
-3. Create a data table for the first case. NOTE: The data layout for each of the first two cases is the same. Create for the first case and run the whole experiment, then you can copy/paste the same data table for the additional case(s).
+   --->
+
+Experimentally determine the 3rd (equilibrant) vector and compare to expected values.
+
+1. Create a data table for the first case. NOTE: The data layout for each of the first two cases is the same. Create for the first case and run the whole experiment, then you can copy/paste the same data table for the additional case(s).
    - Common data section with accepted value of $g$ (9.803 m/s²), mass of the hanger, and any other common values. You will reference these values in the calculations.
    - With **three rows** (1 for each of the 3 vectors).
    - Include **columns** for:
@@ -293,25 +351,25 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
        - $m_{3,\text{theoretical}}$: theoretical equilibrant mass in kg
        - $\theta_{3,\text{theoretical}}$: theoretical equilibrant direction in deg. (e.g. $\theta_{R} + 180°$)
 
-4. Starting with the first case, place the respective masses on their hangers 1 & 2
+2. Starting with the first case, place the respective masses on their hangers 1 & 2
 
-5. Unscrew the black pulleys to rotate them around the tabletop to their given angles
+3. Unscrew the black pulleys to rotate them around the tabletop to their given angles
 
-6. With hanger 3, add or subtract masses and scoot the pulley around the table until the ring is as perfectly centered around the center pin as possible to argue equilibrium
+4. With hanger 3, add or subtract masses and scoot the pulley around the table until the ring is as perfectly centered around the center pin as possible to argue equilibrium
 
-7. Note your $m_3$ & $\theta_3$ values. Also note your estimated uncertainties $\delta m_i$ & $\delta \theta_i$
+5. Note your $m_3$ & $\theta_3$ values. Also note your estimated uncertainties $\delta m_i$ & $\delta \theta_i$
 
-8. Derive the hangers' respective forces (e.g. {eq}`eq-M01-ForceG`)
+6. Derive the hangers' respective forces (e.g. {eq}`eq-M01-ForceG`)
 
-9. Determine the hangers' respective $x$ and $y$ components
+7. Determine the hangers' respective $x$ and $y$ components
 
-10. Determine the resultant $\vec{R}$ from your derived values for $\vec{R}_x$, $\vec{R}_y$
+8. Determine the resultant $\vec{R}$ from your derived values for $\vec{R}_x$, $\vec{R}_y$
 
-11. Determine the resultant's angle $\theta_R$
+9. Determine the resultant's angle $\theta_R$
 
-12. COMPARE your experimental results of hanger 3 to the theoretical values. Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (and therefore agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section {ref}`interpretation1`.
+10. COMPARE your experimental results of hanger 3 to the theoretical values. Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (and therefore agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section {ref}`interpretation1`.
 
-13. Repeat for the second case
+11. Repeat for the second case once you are satisfied in your values and calculations.
 
 ### CASE 3 -- Determining 2 Unlabeled Masses
 
@@ -324,14 +382,27 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 - **Assume** the angles for both Pikachu and the corgi, once found, are treated as given values (so you only have two unknowns with two equations).
 ```
 
+The third case's given values are:
+
+| Hanger   | Mass (g) | Angle (°) |
+|----------|----------|-----------|
+|    | **Case 3**           |
+|  1 (empty) | 150      | 0°        |
+|  2 (Pikachu-black) | ?        | ?         |
+|  3 (corgi-white)| ?        | ?         |
+
+Experimentally determine the mass of the Pikachu (black figurine) and the corgi (white figurine) and compare to expected values. The angles for hangers 2 & 3 will be treated as given values once experimentally determined.
+
+<!---
 2. The third case is:
    - hanger 1: 50 g @ 0°
-   - hanger 2 (Pikachu-black): ? kg @ ?° (angle treated as given once determined)
-   - hanger 3 (corgi-white): ? kg @ ?° (angle treated as given once determined)
+   - hanger 2 (Pikachu-black): ? kg @ ?° (angle treated as given once experimentally determined)
+   - hanger 3 (corgi-white): ? kg @ ?° (angle treated as given once experimentally determined)
+   --->
 
-3. Create a data table for this case:
+1. Create a data table for this case:
    - Common data section with the accepted value of $g$ (9.803 m/s²), the mass of the hanger, actual values of the figurines to be determined later, and any other common values.
-   - $m_1$: Given mass will be just the hanger, so 50 g (but record in kg)
+   - $m_1$: Given mass will be just the hanger, so 50 g (but converted to kg)
    - $\theta_1$: Angle of 0° for the empty hanger
    - $\vec{F}_{x,1}$ & $\vec{F}_{y,1}$: $x$ and $y$ components of the known mass's force vector
    - $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$: Experimentally determined direction of the force vector in degrees --- **treat as actual given values once you find equilibrium. You will use these to solve for the masses later.**
@@ -339,46 +410,45 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
    - $m_{2,\text{Pikachu-black, actual}}$ & $m_{3,\text{corgi-white, actual}}$: the values of $m_2$ and $m_3$ as measured on a triple-beam balance.
    - % Difference of $m_2$ and $m_3$ experimentally found values to the actual measured values (see {eq}`M1-PercentDiff` in Section {ref}`interpretation1`).
 
-4. Place the respective masses on there hangers, with $m_1$ set to 0°
+2. Place the respective masses on their hangers, with $m_1$ set to 0°
 
-5. Unscrew the black pulleys to rotate them around the tabletop until you find equilibrium. You are only changing the angles of $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$. NO ADDITIONAL MASS IS REQUIRED.
+3. Unscrew the black pulleys to rotate them around the tabletop until you find equilibrium. You are only changing the angles of $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$. NO ADDITIONAL MASS IS REQUIRED.
 
-6. Once you've found equilibrium, note the $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$ values as actual values to use in later equations (i.e. as if they're given angles)
+4. Once you've found equilibrium, note the $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$ values as actual values to use in later equations (i.e. as if they're given angles)
 
-7. Determine $m_{2,\text{Pikachu-black}}$ & $m_{3,\text{corgi-white}}$ using {eq}`eq-M01-solveM3` and {eq}`eq-M01-solveM2`
+5. Determine $m_{2,\text{Pikachu-black}}$ & $m_{3,\text{corgi-white}}$ using {eq}`eq-M01-solveM3` and {eq}`eq-M01-solveM2`
 
-8. Using a triple-beam balance, measure directly the actual mass of $m_{2,\text{Pikachu-black, actual}}$ & $m_{3,\text{corgi-white, actual}}$
+6. Using a triple-beam balance, measure directly the actual mass of $m_{2,\text{Pikachu-black, actual}}$ & $m_{3,\text{corgi-white, actual}}$
 
-9. COMPARE your experimental results of each of the unlabeled masses to their actual values. Calculate the % difference of $m_2$ and $m_3$ experimentally found values to the actual measured values. What may be contributing to a larger or smaller difference? To be further discussed in Section {ref}`interpretation1`.
+7. COMPARE your experimental results of each of the unlabeled masses to their actual values. Calculate the % difference of $m_2$ and $m_3$ experimentally found values to the actual measured values. What may be contributing to a larger or smaller difference? To be further discussed in Section {ref}`interpretation1`.
 
 (interpretation1)=
 ## Post-Lab Submission --- Interpretation of Results
 
 - Make sure to submit your finalized data table (Excel sheet). 
-- In a **paragraph**, summarize the results you have determined in each case, ie $F_3\pm\Delta F_3$... and answer the following questions (longer does not mean better):
+- In a **paragraph**, summarize the results you have determined in each case, i.e. $F_3\pm\delta F_3$... and answer the following questions (longer does not mean better):
 	- What is a vector?
   - What is the physics behind balancing our vectors today?
 	- Case 1 & 2 (Finding Equilibrant):
 	  - Looking at your experiment, why do the two given masses not add up to the third mass?
 	  - What are your results, and how do they compare to the theoretical predictions?
 	    - In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.
-	      - Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (and therefore agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$?
+	      - Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (i.e. agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$?
 	      - Does $m_3 \pm \delta m_3$ overlap with your theoretical value $m_{3,\text{theoretical}}$? 
 	      - Does $\theta_3 \pm \delta \theta_3$ overlap with your theoretical value $\theta_{3,\text{theoretical}}$? 
 	- Case 3 (Unlabeled Masses):
 	  - How do your values for $m_\text{Pikachu-black}$ and $m_\text{corgi-white}$ compare to your actual values from the triple-beam-balance?
-	  - What is the percent difference between your experimentally determine masses and their actual measured values? Calculate the % difference in each of the masses using the following relation:
+	  - What is the percent difference between your experimentally determined masses and their actual measured values? Calculate the % difference in each of the masses using the following relation:
 ```{math}
 :label: M1-PercentDiff
 \text{% Difference} = \frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.
 ```
 - In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
-	- What are the uncertainties of Experiment 1 (Cases 1 & 2)?
+	- What are the uncertainties of Cases 1 & 2?
   - What is the precision of your equipment (force table, masses, etc.)?
   - What are possible systematic (affecting accuracy) errors of the experiment? What are possible random (affecting precision) errors?
-  - Return to ''In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $F_3$? Do the math in your spread sheet.
+  - Return to results section question: ''In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $F_3$? Do the math in your spread sheet.
       - What uncertainties might make the difference between your final results and expected values larger or smaller?
-
 
 
 
@@ -386,22 +456,22 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 ## The Whiteboard
 
 ```{figure} VectorTableFigures/ForceTable_2025_Summer_01.jpg
-:name: AccelGTrack
-:width: 600px
+:name: vectorTableWhiteboard_01
+:width: 100%
 :align: center
 
 ```
 
 ```{figure} VectorTableFigures/ForceTable_2025_Summer_02.jpg
-:name: vec1
-:width: 600px
+:name: vectorTableWhiteboard_02
+:width: 100%
 :align: center
 
 ```
 
 ```{figure} VectorTableFigures/ForceTable_2025_Summer_03.jpg
-:name: vec2
-:width: 600px
+:name: vectorTableWhiteboard_03
+:width: 100%
 :align: center
 
 ```
