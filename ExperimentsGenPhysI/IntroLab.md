@@ -84,15 +84,18 @@ Create data tables (See examples in {ref}`common-data` and {ref}`trial-data`):
     - Calculated density $\rho_\text{color}$ for the trial in SI units
     - Minimum density and maximum density (SI units)
 
+```{admonition} Run Single Trial with Calculations First (Start to finish of just one trial)
+:class: warning
 Each group member will independently measure each of the four dominoes (i.e. four trials per person). ***HOWEVER***, start with one domino, then go through all the steps minimizing and maximizing $V$ and $\rho$ before measuring your second domino to ensure your calculations in Excel are behaving properly and that you are actually measuring the dominoes accurately with the calipers and balance. Otherwise, you may find yourselves redoing the whole experiment if you fail to check your measurement techniques early on in the process.
+```
 
 
 - Record the trial number, group member's name or initials, and the domino color
-- Using the Vernier calipers, note the caliper's measurement uncertainty in your common data table (smallest measureable increment, $\delta_{\text{caliper}} = \delta_l = \delta_w = \delta_h$). Then measure and record, in the units of the calipers, the:
+- Using the Vernier calipers, note the caliper's measurement uncertainty in your **common data** table (smallest measureable increment, $\delta_{\text{caliper}} = \delta_l = \delta_w = \delta_h$). The Greek letter $\delta$ (said as “delta”) is representing the *measurement* uncertainty of each variable (e.g. $l \pm \delta_l$). Then measure and record, in the units of the calipers, the:
   - length $l$
   - width $w$
   - height $h$
-- Using the triple-beam balance, note the balance's measurement uncertainty (smallest measureable increment, $\delta_m$) in your common data table. Then measure and record, in the units of the balance, the mass $m$.
+- Using the triple-beam balance, note the balance's measurement uncertainty (smallest measureable increment, $\delta_m$) in your **common data** table. Then measure & record the mass $m$, in the units of the balance (e.g. grams).
 
 Convert your measurements into SI units (e.g. kilogram kg, meter m, second s, etc.)
 
@@ -102,17 +105,31 @@ Calculate volume $V$ using {eq}`M00_intro_Eq02`, and density $\rho$ using {eq}`M
 You will now analyze your domino measurements in a few ways, through measurement uncertainties and through average and standard deviation (i.e. the spread of the data from the average).
 
 - In your data table, for each trial, calculate the minimized and maximized values for both $V$ and $\rho$.
-  - To minimize $V$, minimize $l$, $w$, $h$ by the caliper's measurement uncertainty in {eq}`M00_intro_Eq02`
-     - e.g. $V_{\min} = (l-\delta_l)\cdot(w-\delta_w)\cdot(h-\delta_h)$ where $\delta_\text{variable}$ (said as "delta") is representing the uncertainty of each variable from the caliper.
+  - To minimize $V$, minimize the values that go into that calculation ($l$, $w$, $h$) by the caliper's measurement uncertainty in {eq}`M00_intro_Eq02` which results in:
+
+```{math}
+:label: M00_intro_Eq_volumeMin
+V_{\min} = (l-\delta_l)\cdot(w-\delta_w)\cdot(h-\delta_h)
+```
+
   - Maximize $V$ in a similar manner, now by maximizing $l$, $w$, $h$.
   - In a similar way, minimize and maximize $\rho$ by using either $V_{\max}$ or $V_{\min}$ with $m$ minimized or maximized.
-    - e.g. for $\rho_{\min}$, you would minimize the numerator and maximize the denominator, i.e. $\frac{m-\delta_m}{V_{\max}}$
+    - e.g. for $\rho_{\min}$, you would minimize the numerator and maximize the denominator such as:
+
+```{math}
+:label: M00_intro_Eq_densityMin
+\rho = \frac{m_{\min}}{V_{\max}} = \frac{m-\delta_m}{V_{\max}}
+```
 
 At this point, you should have a complete trial with a range of densities based on your measurement uncertainties. 
 
 Does this range appear far from your estimated densities from the prior knowledge that these dominoes' densities are close to that of water? If so, this is a good time to double check any of your measurements that may seem like an outlier or any of your calculations that may have been entered into Excel incorrectly.
 
+```{admonition} Continue to additional trials?
+:class: warning
 ***If you are satisfied, it is at this point that each person can now continue measuring the other dominoes.***
+```
+
 
 Up to this point, each individual trial has its own range of densities based on the measurement uncertainties. If we were only analyzing individual trials, this can be satifactory for error analysis. However, each person measured each color domino. We can therefore also analyze the repeated measurements by looking at the average densities and the spread or variation of the data from that average value (i.e. standard deviation, often denoted as the Greek letter sigma, $\sigma$).
 
