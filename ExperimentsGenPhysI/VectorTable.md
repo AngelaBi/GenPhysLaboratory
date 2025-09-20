@@ -14,7 +14,11 @@ There are two types of physical quantities: ***scalars*** and ***vectors***. The
 
 A ***vector***, meanwhile, is a quantity that is described by both a **magnitude** ***and*** **direction**. Examples of vectors are velocity (speed but with a direction; m/s at some angle) or force (a push or pull on an object with a specific magnitude at some direction).
 
-A force example: a force may be 100 N in magnitude with direction 90° counterclockwise from the $x$-axis. This force vector is written as 100 N @ 90°. We will use bold face type to indicate a vector ($\vec{F_i}$) while the regular typeface will indicate scalar magnitudes and the components of a vector ($F_i$).
+A force vector example: a force may be 100 N in magnitude with direction 90° counterclockwise from the $x$-axis. This force vector is written as 100 N @ 90°. We will use typefont of:
+
+ - Vector --- bold, itallicised, with an arrow overhead --- $\vec{F_i}$
+ - Scalar --- bold, itallicised with *no* arrow --- $m$
+ - Vector component ---  bold, itallicised, with a subscript $x$ or $y$ --- $F_{i,x}$ or $F_{i,y}$
 
 When several vectors act on an object, it is generally desirable to determine the sum of these vectors, called the **resultant vector**. Suppose force vectors $\vec{F}_1$ and $\vec{F}_2$ act on a body. The resultant $\vec{R}$ is defined by the vector sum of the two forces, thus
 
@@ -48,7 +52,7 @@ Beginning at a convenient point on a piece of graph paper, usually at the origin
 
 ```{figure} VectorTableFigures/M1_ForceTable_01.jpg
 :name: M01Fig01
-:width: 300px
+:width: 50%
 :align: center
 
 Two force vectors $\vec{F}_1$ and $\vec{F}_2$
@@ -56,7 +60,7 @@ Two force vectors $\vec{F}_1$ and $\vec{F}_2$
 
 ```{figure} VectorTableFigures/M1_ForceTable_02.jpg
 :name: M01Fig02
-:width: 500px
+:width: 90%
 :align: center
 
 Adding 2 vectors $\vec{F}_1$ and $\vec{F}_2$, using the graphical ("tail-to-tip") method.
@@ -70,7 +74,7 @@ The method of components is a much more useful and quantitatively accurate metho
 
 ```{figure} VectorTableFigures/M1_ForceTable_03.jpg
 :name: M01Fig03
-:width: 500px
+:width: 90%
 :align: center
 
 Adding 2 vectors $\vec{F}_1$ and $\vec{F}_2$ using the method of components.
@@ -81,31 +85,31 @@ In {numref}`M01Fig03`, the magnitudes and directions are shown for the two force
 ```{math}
 :label: eq-M01-cosSinAngle
 \begin{aligned}
-F_{1,x} &= F_1 \, \cos(\theta_{1}) & \qquad F_{2,x} &= F_2 \, \cos(\theta_{2}) \\
+F_{1,x} &= \vec{F}_1 \, \cos(\theta_{1}) & \qquad F_{2,x} &= \vec{F}_2 \, \cos(\theta_{2}) \\
         &= 1\,\text{N} \cos(0°) = 1\,\text{N} & &= 1\,\text{N} \cos(45°) = 0.707\,\text{N} \\
-F_{1,y} &= F_1 \,\sin(\theta_1) & \qquad F_{2,y} &= F_2 \,\sin(\theta_2) \\
+F_{1,y} &= \vec{F}_1 \,\sin(\theta_1) & \qquad F_{2,y} &= \vec{F}_2 \,\sin(\theta_2) \\
         &= 1\,\text{N} \sin(0°) = 0\,\text{N} & &= 1\,\text{N} \sin(45°) = 0.707\,\text{N}.
 \end{aligned}
 ```
 
 Next, add the $x$-components
 
-$$\vec{R}_x = F_{1,x} + F_{2,x} = 1\,\text{N} + 0.707\,\text{N} = 1.707\,\text{N}.$$
+$$R_x = F_{1,x} + F_{2,x} = 1\,\text{N} + 0.707\,\text{N} = 1.707\,\text{N}.$$
 
 Then, add the $y$-components
 
-$$\vec{R}_y = F_{1,y} + F_{2,y} = 0\,\text{N} + 0.707\,\text{N} = 0.707\,\text{N}.$$
+$$R_y = F_{1,y} + F_{2,y} = 0\,\text{N} + 0.707\,\text{N} = 0.707\,\text{N}.$$
 
 The magnitude of the resultant is found using the relation
 
 ```{math}
 :label: eq-M01-resultantMag
-\vec{R}^2 = {\vec{R}_x}^2 + {\vec{R}_y}^2,
+R^2 = {R_x}^2 + {R_y}^2,
 ```
 
 or
 
-$$\vec{R} = \sqrt{\left(1.707\,\text{N}\right)^2 + \left(0.707\,\text{N}\right)^2} = 1.848\,\text{N}.$$
+$$R = \sqrt{\left(1.707\,\text{N}\right)^2 + \left(0.707\,\text{N}\right)^2} = 1.848\,\text{N}.$$
 
 The angle $\theta$ specifies the direction of the resultant and it can be calculated by noting that
 
@@ -129,17 +133,17 @@ $$\theta = \arctan(0.414) = 22.5°.$$
 
 ```{figure} VectorTableFigures/Figure04.jpg
 :name: M01Fig04
-:width: 400px
+:width: 70%
 :align: center
 
-Example of $\vec{R}$, the sum of 2 vectors, illustrating $x$- and $y$-components, as well as its magnitude and angle with the $x$-axis.
+Example of $\vec{R}$, the sum of 2 vectors as $x$- and $y$-components, as well as its magnitude and angle with the $x$-axis.
 ```
 
-In this laboratory, an object will be presented with two known forces acting on it. Equilibrium will be established by adding a third **equilibrant** force $\vec{F}_3$, such that the sum of the three forces is zero (at equilibrium). Thus, we must find the resultant $\vec{R}$ of the two given forces $\vec{F}_1$ and $\vec{F}_2$, and find the force $\vec{F}_3 = -\vec{R}$ --- equal in magnitude and opposite in direction to the resultant $\vec{R}$ of $\vec{F}_1$ and $\vec{F}_2$. This is illustrated in {numref}`M01Fig05`.
+In this laboratory, an object will be presented with two known forces acting on it. Equilibrium will be established by adding a third **equilibrant** force $\vec{F}_3$, such that the sum of the three forces is zero (i.e. at equilibrium). Thus, we must first find the resultant $\vec{R}$ of the two given forces $\vec{F}_1$ and $\vec{F}_2$. Then we can determine the equilibrant, $\vec{F}_3 = -\vec{R}$, equal in magnitude and opposite in direction to the resultant $\vec{R}$. This is illustrated in {numref}`M01Fig05`.
 
 ```{figure} VectorTableFigures/Figure05.jpg
 :name: M01Fig05
-:width: 400px
+:width: 70%
 :align: center
 
 Illustration of the method to determine the force $\vec{F}_{3}$ needed to balance two given forces $\vec{F}_{1}$ and $\vec{F}_{2}$.
@@ -184,32 +188,34 @@ For accurate measurements of the angles involved, each cord must be aimed direct
 
 For today's lab, two different cases will be assigned involving two given vectors and the **determination of the equilibrant vector**. A third case involves the **determination of the mass of two unlabeled masses** by balancing the system from a single known mass.
 
-#### Finding the Equilibrant (First two cases)
+#### EXAMPLE --- Finding the Equilibrant (First two cases)
 
 For each of the first two cases, you will have two given masses at given angles (direction). Each mass, consisting of a 50 g hanger plus the necessary additional mass, will be hung from a cord routed over a pulley at the assigned angular positions and finally tied to the ring. A third cord, hanger, and pulley assembly is put in place for the third, unknown force vector. Each force is the weight of the hanging mass at the pulley angle. Determine the unknown forces for each of the two cases.
 
-If, for example, you are given the following case to work with
+If, for example, you were given the following case to work with
 
-$$\begin{array}{rll}
-\text{Mass #1:} & 200\,\text{g} & \text{@}\,0° \\
-\text{Mass #2:} & 250\,\text{g} & \text{@}\,135°.
-\end{array}$$
+$$
+\begin{array}{rcl}
+\text{Mass 1:} & 200\,\text{g} & @\,0^\circ \\
+\text{Mass 2:} & 250\,\text{g} & @\,135^\circ
+\end{array}
+$$
 
-Place a pulley at 0° and add 150 g to the 50 g weight hanger for a total 200 g. As mentioned in {eq}`eq-M01-ForceG`, the tension on the cord is the same on both sides of the pulley so that the downward pull of gravity on the hanger and masses is equal to the tension in the cord leading to the ring. Thus,
+you would place a pulley at 0° and add 150 g to the 50 g weight hanger for a total 200 g. As mentioned in {eq}`eq-M01-ForceG`, the tension on the cord is the same on both sides of the pulley so that the downward pull of gravity on the hanger and masses is equal to the tension in the cord leading to the ring. Thus,
 
-$$F_1 = m g = 0.20\,\text{kg} \times 9.8\,\text{m/s}^2 = 1.96\,\text{N} \text{ @ } 0°.$$
+$$\vec{F_1} = m \vec{g} = 0.20\,\text{kg} \times 9.8\,\text{m/s}^2 = 1.96\,\text{N} \text{ @ } 0°.$$
 
 Similarly, add 200 g to a 50 g weight hanger and run its cord over a pulley mounted at 135°.
 
-$$F_2 = m g = 0.25\,\text{kg} \times 9.8\,\text{m/s}^2 = 2.45\,\text{N} \text{ @ } 135°.$$
+$$\vec{F_2} = m \vec{g} = 0.25\,\text{kg} \times 9.8\,\text{m/s}^2 = 2.45\,\text{N} \text{ @ } 135°.$$
 
-Having established the given magnitudes and directions for each of the given forces, $\vec{F}_{1}$ and $\vec{F}_{2}$, adjust both the amount of mass hanging on cord 3 and its angular position so that the ring is stationary at the center of the table. In order for angular measurements to be accurate, **each cord must be on a line that crosses through the center of the table**. Sighting *along* each cord towards the center pin can help you to easily and accurately check this.
+Having established the given magnitudes and directions for each of the given forces, $\vec{F}_{1}$ and $\vec{F}_{2}$, you would adjust both the amount of mass hanging on cord 3 and its angular position so that the ring is stationary at the center of the table. In order for angular measurements to be accurate, **each cord must be on a line that crosses through the center of the table**. Sighting *along* each cord towards the center pin can help you to easily and accurately check this.
 
-To determine the equilibrant vector $\vec{F}_{3}$, you will record both the angular position (**direction**) and total mass (to determine **magnitude** of the balancing force from the total hanging weight) required to balance $\vec{F}_{1}$ and $\vec{F}_{2}$.
+To determine the equilibrant vector experimentally $\vec{F}_{3}$, you will record both the angular position (**direction**) and total mass (to determine **magnitude** of the balancing force from the total hanging weight) required to balance $\vec{F}_{1}$ and $\vec{F}_{2}$. You will then compare this vector to the expected vector based on your theoretical calculations.
 
-#### Determining 2 Unlabeled Masses (Third case)
+#### EXAMPLE --- Determining 2 Unlabeled Masses (Third case)
 
-In this case, you will experimentally **determine two unlabeled masses** by balancing the $x$ and $y$ components of the force of a known mass.
+In the third case, you will experimentally **determine two unlabeled masses** by balancing the $x$ and $y$ components of the force of a single known mass.
 Place the pulley with the known mass $M_1 = 50\,\text{g}$ at $\theta_1 = 0°$.
 Experimentally determine the angles $\theta_2$ and $\theta_3$ for the unlabeled masses $M_2$ and $M_3$ that result in the ring being in equilibrium. For this case, **assume angles $\theta_2$ and $\theta_3$ are actual values**.
 
@@ -327,7 +333,12 @@ The first two cases' given values are:
 
    --->
 
-Experimentally determine the 3rd (equilibrant) vector and compare to expected values.
+For these first two cases, experimentally determine the 3rd (equilibrant) vector and compare your results to your expected values.
+
+```{admonition} Run First Case Calculations (Start to finish before moving on to the second case)
+:class: warning
+Reminder, run first case fully before moving on to additional cases. Don't just take all of your data without checking your methodology.
+```
 
 1. Create a data table for the first case. NOTE: The data layout for each of the first two cases is the same. Create for the first case and run the whole experiment, then you can copy/paste the same data table for the additional case(s).
    - Common data section with accepted value of $g$ (9.803 m/s²), mass of the hanger, and any other common values. You will reference these values in the calculations.
@@ -338,14 +349,14 @@ Experimentally determine the 3rd (equilibrant) vector and compare to expected va
      - $F_i$: calculated magnitude of the force in Newtons (N) (see {eq}`eq-M01-ForceG`)
      - $\theta_i$: direction of the force vector in degrees
      - $\delta \theta_i$: your estimate of the experimental uncertainty of the angle
-     - $F_{i,x}$: calculated $x$-component of the force vectors (see {eq}`eq-M01-cosSinAngle`). Reminder, Excel needs angles in radians (use RADIANS() function to convert)
+     - $F_{i,x}$: calculated $x$-component of the force vectors (see {eq}`eq-M01-cosSinAngle`). Reminder, Excel needs angles in radians (use `RADIANS()` function to convert)
      - $F_{i,y}$: calculated $y$-component of the force vectors
    - Create a secondary table to analyze the results of your measurements. This is effectively one row as there would be just a single value for each of the variables. The columns should include variables:
-     - $\vec{R}_x$ & $\vec{R}_y$: the $x$ and $y$ components of the resultant vector $\vec{R}$ of the two given force vectors $\vec{F}_1$ and $\vec{F}_2$
-     - $\vec{R}_\text{mag}$: magnitude of the resultant force vector in Newtons (see Pythagorean Theorem in {eq}`eq-M01-resultantMag`)
-     - $\theta_{R}$: direction of the resultant in degrees (see {eq}`eq-M01-arctan` which stems from trigonometry). Use ATAN2() Excel function to get angle as measured counterclockwise from 0°. Reminder, Excel returns angles in radians (use DEGREES() function to convert)
-     - $\vec{F}_{x,\text{total experimental}}$ & $\vec{F}_{y,\text{total experimental}}$: the vector components of the measured total force, which is the vector sum of $\vec{R}$ and $\vec{F}_3$
-     - $\vec{F}_{\text{mag,total experimental}}$ (a.k.a. $\delta \vec{F}_3$): the magnitude of the total force, determined in similar fashion to {eq}`eq-M01-resultantMag`, but with $\vec{F}_{x,\text{total experimental}}$ & $\vec{F}_{y,\text{total experimental}}$. ***Consider***: The **total force should be zero** because the ring is in equilibrium. The magnitude of the total force is therefore a measure of the *experimental uncertainty*. This effectively represents $\delta \vec{F}_3$ where your experimental result would be $\vec{F}_3 \pm \delta \vec{F}_3$.
+     - $R_x$ & $R_y$: the $x$ and $y$ components of the resultant vector $\vec{R}$ of the two given force vectors $\vec{F}_1$ and $\vec{F}_2$
+     - $R_\text{mag}$: magnitude of the resultant force vector in Newtons (see Pythagorean Theorem in {eq}`eq-M01-resultantMag`)
+     - $\theta_{R}$: direction of the resultant in degrees (see {eq}`eq-M01-arctan` which stems from trigonometry). Use ATAN2() Excel function to get angle as measured counterclockwise from 0°. Reminder, Excel returns angles in radians (use `DEGREES()` function to convert)
+     - $F_{x,\text{total experimental}}$ & $F_{y,\text{total experimental}}$: the vector components of the measured total force, which is the vector sum of $\vec{R}$ and $\vec{F}_3$
+     - $\vec{F}_{\text{mag,total experimental}}$ (a.k.a. $\delta \vec{F}_3$): the magnitude of the total force, determined in similar fashion to {eq}`eq-M01-resultantMag`, but with $\vec{F}_{x,\text{total experimental}}$ & $F_{y,\text{total experimental}}$. ***Consider***: The **total force should be zero** because the ring is in equilibrium. The magnitude of the total force is therefore a measure of the *experimental uncertainty*. This effectively represents $\delta \vec{F}_3$ where your experimental result would be $\vec{F}_3 \pm \delta \vec{F}_3$.
      - Based on your determined resultant $\vec{R}$
        - $\vec{F}_{3,\text{theoretical}}$: your expected or theoretical magnitude of the equilibrant force in N
        - $m_{3,\text{theoretical}}$: theoretical equilibrant mass in kg
@@ -363,11 +374,16 @@ Experimentally determine the 3rd (equilibrant) vector and compare to expected va
 
 7. Determine the hangers' respective $x$ and $y$ components
 
-8. Determine the resultant $\vec{R}$ from your derived values for $\vec{R}_x$, $\vec{R}_y$
+8. Determine the resultant $\vec{R}$ from your derived values for $R_x$, $R_y$
 
 9. Determine the resultant's angle $\theta_R$
 
 10. COMPARE your experimental results of hanger 3 to the theoretical values. Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (and therefore agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section {ref}`interpretation1`.
+
+```{admonition} Continue to additional case?
+:class: warning
+***If you are satisfied your calculations are complete and results seem reasonable (feel free to check with your professor), it is at this point that you may continue to the second case.***
+```
 
 11. Repeat for the second case once you are satisfied in your values and calculations.
 
@@ -402,13 +418,13 @@ Experimentally determine the mass of the Pikachu (black figurine) and the corgi 
 
 1. Create a data table for this case:
    - Common data section with the accepted value of $g$ (9.803 m/s²), the mass of the hanger, actual values of the figurines to be determined later, and any other common values.
-   - $m_1$: Given mass will be just the hanger, so 50 g (but converted to kg)
+   - $m_1$: Given mass will be just the hanger, so 50 g (but convert to kg)
    - $\theta_1$: Angle of 0° for the empty hanger
-   - $\vec{F}_{x,1}$ & $\vec{F}_{y,1}$: $x$ and $y$ components of the known mass's force vector
+   - $F_{1,x}$ & $\vec{F}_{1,y}$: $x$ and $y$ components of the known mass's force vector
    - $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$: Experimentally determined direction of the force vector in degrees --- **treat as actual given values once you find equilibrium. You will use these to solve for the masses later.**
    - $m_{2,\text{Pikachu-black}}$ & $m_{3,\text{corgi-white}}$: the experimental values of $m_2$ and $m_3$ from {eq}`eq-M01-solveM3` and {eq}`eq-M01-solveM2`
    - $m_{2,\text{Pikachu-black, actual}}$ & $m_{3,\text{corgi-white, actual}}$: the values of $m_2$ and $m_3$ as measured on a triple-beam balance.
-   - % Difference of $m_2$ and $m_3$ experimentally found values to the actual measured values (see {eq}`M1-PercentDiff` in Section {ref}`interpretation1`).
+   - The % Difference of $m_2$ and $m_3$ experimentally found values to the actual measured values (see {eq}`M1-PercentDiff` in Section {ref}`interpretation1`).
 
 2. Place the respective masses on their hangers, with $m_1$ set to 0°
 
@@ -426,7 +442,7 @@ Experimentally determine the mass of the Pikachu (black figurine) and the corgi 
 ## Post-Lab Submission --- Interpretation of Results
 
 - Make sure to submit your finalized data table (Excel sheet). 
-- In a **paragraph**, summarize the results you have determined in each case, i.e. $F_3\pm\delta F_3$... and answer the following questions (longer does not mean better):
+- In a **paragraph**, summarize the results you have determined in each case, i.e. $\vec{F}_3\pm\delta \vec{F}_3$... and answer the following questions (longer does not mean better):
 	- What is a vector?
   - What is the physics behind balancing our vectors today?
 	- Case 1 & 2 (Finding Equilibrant):
@@ -447,7 +463,7 @@ Experimentally determine the mass of the Pikachu (black figurine) and the corgi 
 	- What are the uncertainties of Cases 1 & 2?
   - What is the precision of your equipment (force table, masses, etc.)?
   - What are possible systematic (affecting accuracy) errors of the experiment? What are possible random (affecting precision) errors?
-  - Return to results section question: ''In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $F_3$? Do the math in your spread sheet.
+  - Return to results section question: ''In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $\vec{F}_3$? Do the math in your spread sheet.
       - What uncertainties might make the difference between your final results and expected values larger or smaller?
 
 

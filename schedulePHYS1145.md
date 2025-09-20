@@ -4,7 +4,7 @@
 :name: schedulePHYS1145
 :width: 100%
 :align: center
-schedule for PHYS 1145
+Schedule for PHYS 1145
 ```
 
 # Schedule with links to relevant lab

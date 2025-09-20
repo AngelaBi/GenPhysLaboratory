@@ -21,7 +21,7 @@ Please email your instructor; also include both:
 
 
 
-```{figure} ScheduleFigures/2025_Fall_LabSchedulePrintoutTimes_1145L_1171L_v3.jpg
+```{figure} ScheduleFigures/2025_Fall_LabSchedulePrintoutTimes_1145L_1171L_v4.jpg
 :name: schedule
 :width: 100%
 :align: center
