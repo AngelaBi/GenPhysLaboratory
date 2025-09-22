@@ -9,12 +9,11 @@ Use a "force table" to study:
 - the concept of force vectors in equilibrium
 ```
 
-
 There are two types of physical quantities: ***scalars*** and ***vectors***. The number of attributes required to define a scalar and a vector distinguishes them. A ***scalar*** has just a **magnitude** telling us how large or small something is (or positive or negative); an example of a scalar quantity is temperature or speed (m/s)
 
 A ***vector***, meanwhile, is a quantity that is described by both a **magnitude** ***and*** **direction**. Examples of vectors are velocity (speed but with a direction; m/s at some angle) or force (a push or pull on an object with a specific magnitude at some direction).
 
-A force vector example: a force may be 100 N in magnitude with direction 90° counterclockwise from the $x$-axis. This force vector is written as 100 N @ 90°. We will use typefont of:
+A force vector example: a force may be 100 N in magnitude with direction 90° counterclockwise from the $x$-axis. This force vector is written as 100 N @ 90°. We will use typefont of (with a note that bold isn't always bold when viewing on some machines):
 
  - Vector --- bold, itallicised, with an arrow overhead --- $\vec{F_i}$
  - Scalar --- bold, itallicised with *no* arrow --- $m$
@@ -293,46 +292,6 @@ It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUI
 The first two cases' given values are:
 
 
-<!---
-| Hanger   | Mass (g) | Angle (°) |
-| -------- | -------- | --------- |
-| Hanger 1 | 150      | 0°        |
-| Hanger 2 | 150      | 70°       |
-| Hanger 3 | ?        | ?         |
-
-### Comparison Table: Case 1 vs Case 2
-
-| Hanger   | Mass (g) @ Angle (°) — **Case 1** | Mass (g) @ Angle (°) — **Case 2** |
-|----------|----------------------------------|----------------------------------|
-| Hanger 1 | 150 g @ 0°                        | 100 g @ 75°                      |
-| Hanger 2 | 150 g @ 70°                       | 200 g @ 115°                     |
-| Hanger 3 | ? kg @ ?°                         | ? kg @ ?°                        |
-
-
-### Case 1
-
-| Hanger   | Mass (g) | Angle (°) |
-|----------|----------|-----------|
-| Hanger 1 | 150      | 0°        |
-| Hanger 2 | 150      | 70°       |
-| Hanger 3 | ?        | ?         |
-
-### Case 2
-
-| Hanger   | Mass (g) | Angle (°) |
-|----------|----------|-----------|
-| Hanger 1 | 100      | 75°       |
-| Hanger 2 | 200      | 115°      |
-| Hanger 3 | ?        | ?         |
-
-| Hanger   | Mass (g) | Angle (°) |   | Hanger   | Mass (g) | Angle (°) |
-|----------|----------|-----------|---|----------|----------|-----------|
-|          | **Case 1** |          |   |          | **Case 2**           |
-| Hanger 1 | 150      | 0°        |   | Hanger 1 | 100      | 75°       |
-| Hanger 2 | 150      | 70°       |   | Hanger 2 | 200      | 115°      |
-| Hanger 3 | ?        | ?         |   | Hanger 3 | ?        | ?         |
---->
-
 | Hanger (i.e. Vector)   | Mass (g) | Angle (°) |
 |----------|----------|-----------|
 |    | **Case 1**           |
@@ -344,19 +303,6 @@ The first two cases' given values are:
 |  2 | 200      | 115°      |
 |  3 | ?        | ?         |
 
-
-<!---
-   **Case 1:**
-   - hanger 1: 150 g @ 0°
-   - hanger 2: 150 g @ 70°
-   - hanger 3: ? kg @ ?°
-
-   **Case 2:**
-   - hanger 1: 100 g @ 75°
-   - hanger 2: 200 g @ 115°
-   - hanger 3: ? kg @ ?°
-
-   --->
 
 For these first two cases, experimentally determine the 3rd (equilibrant) vector and compare your results to your expected values.
 
@@ -371,7 +317,7 @@ Reminder, run first case fully before moving on to additional cases. Don't just 
      - With **three rows** (1 for each of the 3 vectors).
      - Include **columns** for:
        - $m_i$: hanging mass in kilograms (kg)
-       - $\delta m_i$: your estimate of the experimental uncertainty [± value] of the mass
+       - $\delta m_i$: your estimate of the experimental uncertainty [± value] of the masses
        - $F_i$: calculated magnitude of the force in Newtons (N) (see {eq}`eq-M01-ForceG`)
        - $\theta_i$: direction of the force vector in degrees
        - $\delta \theta_i$: your estimate of the experimental uncertainty of the angle
@@ -381,7 +327,7 @@ Reminder, run first case fully before moving on to additional cases. Don't just 
      - $R_x$ & $R_y$: the $x$ and $y$ components of the resultant vector $\vec{R}$ of the two given force vectors $\vec{F}_1$ and $\vec{F}_2$
      - $\vec{R}$: magnitude of the resultant force vector in Newtons (see Pythagorean Theorem in {eq}`eq-M01-resultantMag`)
      - $\theta_{R}$: direction of the resultant in degrees (see {eq}`eq-M01-arctan` which stems from trigonometry). Use `ATAN2()` Excel function to get angle as measured counterclockwise from 0°. Reminder, Excel returns angles in radians (use `DEGREES()` function to convert)
-     - $F_{x\text{,total,experimental}}$ & $F_{y\text{,total,experimental}}$: total measured force components. Essentially the sum of the experimental $x$ and $y$ vector components from $\vec{R}$ and $\vec{F}_3$
+     - $F_{x\text{,total,experimental}}$ & $F_{y\text{,total,experimental}}$: total of your measured vector components. Could also be stated as the sum of the experimental $x$ and $y$ vector components from $\vec{R}$ and $\vec{F}_3$, or as $\sum_{i=1}^{n=3} F_{i,x}$ and $\sum_{i=1}^{n=3} F_{i,y}$.
      - $\vec{F}_{\text{total,experimental}}$ (a.k.a. $\delta \vec{F}_3$): the magnitude of the total force, determined in similar fashion to {eq}`eq-M01-resultantMag`, but with $F_{x\text{,total,experimental}}$ & $F_{y\text{,total,experimental}}$. ***Consider***: The **total force *should* be zero** because the ring is in equilibrium. The magnitude of the total force is therefore a measure of the ***experimental uncertainty***. This effectively represents $\delta \vec{F}_3$ where your experimental result would be $\vec{F}_3 \pm \delta \vec{F}_3$
      - Based on your determined resultant $\vec{R}$:
        - $\vec{F}_{3,\text{theoretical}}$: your expected or theoretical magnitude of the equilibrant force in N
@@ -394,7 +340,18 @@ Reminder, run first case fully before moving on to additional cases. Don't just 
 
 4. With hanger 3, add or subtract masses and scoot the pulley around the table until the ring is as perfectly centered around the center pin as possible to argue equilibrium.
 
-5. Note your $m_i$ & $\theta_i$ values. Also note your estimated uncertainties $\delta m_i$ & $\delta \theta_i$.
+5. Note your $m_i$ & $\theta_i$ values. 
+
+6. Also note both of your estimated uncertainties $\delta m_i$ & $\delta \theta_i$. For $\delta m_i$, add up the total uncertainty of each of your slotted masses. For today, assume each hanger is exactly 50 g, but the list of uncertainties for the *slotted masses* is:
+   - $200 \pm 2 $ g
+   - $100 \pm 1 $ g
+   - $50 \pm 0.5 $ g
+   - $20 \pm 0.2 $ g
+   - $10 \pm 0.1 $ g
+   - $5 \pm 0.1 $ g
+   - $2 \pm 0.04 $ g
+   - $1 \pm 0.03 $ g
+   - e.g. if you had measured $123$ g from just slotted masses, you could have used one of each `100, 20, 2, 1 g`, which would end up giving an uncertainty of $123 \pm (1 + 0.2 + 0.04 + 0.03)$ g or $123 \pm 1.27$ g.
 
 6. Derive the hangers' respective forces (e.g. {eq}`eq-M01-ForceG`).
 
@@ -406,14 +363,16 @@ Reminder, run first case fully before moving on to additional cases. Don't just 
 
 10. Determine the sum total of the $x$ and $y$ experimental components from $\vec{R}$ and $\vec{F}_3$; use them to determine $\delta \vec{F}_3$.
 
-11. COMPARE your experimental results of hanger 3 to the theoretical values. Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (and therefore agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section {ref}`interpretation1`.
+11. Determine your theoretical equilibrant vector: magnitude $\vec{F}_{3,\text{theoretical}}$, mass $m_{3,\text{theoretical}}$, and direction $\theta_{3,\text{theoretical}}$ based on your results for $\vec{R}$.
+
+12. COMPARE your experimental results of hanger 3 to the theoretical values. Does $\vec{F}_3 \pm \delta \vec{F}_3$ overlap (and therefore agree) with your theoretical value $\vec{F}_{3,\text{theoretical}}$? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section {ref}`interpretation1`.
 
 ```{admonition} Continue to additional case?
 :class: warning
 ***If you are satisfied your calculations are complete and results seem reasonable (feel free to check with your professor), it is at this point that you may continue to the second case.***
 ```
 
-12. Repeat for the second case once you are satisfied in your values and calculations.
+13. Repeat for the second case once you are satisfied in your values and calculations.
 
 ### CASE 3 -- Determining 2 Unlabeled Masses
 
@@ -431,7 +390,7 @@ The third case's given values are:
 | Hanger (i.e. Vector)   | Mass (g) | Angle (°) |
 |----------|----------|-----------|
 |    | **Case 3**           |
-|  1 (empty) | 150      | 0°        |
+|  1 (empty) | 50      | 0°        |
 |  2 (Pikachu-black) | ?        | ?         |
 |  3 (corgi-white)| ?        | ?         |
 
@@ -444,17 +403,15 @@ Experimentally determine the mass of the Pikachu (black figurine) and the corgi 
    - hanger 3 (corgi-white): ? kg @ ?° (angle treated as given once experimentally determined)
    --->
 
-1. Create data tables for this case:
-   - Common data section with the accepted value of $g$ (9.803 m/s²), the mass of the hanger, and any other common values.
-   - Data table including:
-     - Experimental and given masses $m_i$:
-        - Given mass $m_1$ is shown in the previous table for the empty hanger.
-        - $m_{2,\text{Pikachu-black}}$ & $m_{3,\text{corgi-white}}$ as calculated from $M_2$ and $M_3$ in {eq}`eq-M01-solveM3` and {eq}`eq-M01-solveM2`.
-     - Experimental and given angles $\theta_i$:
-        - Given angle $\theta_1$ is shown in the previous table for the empty hanger. 
-        - $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$ as experimentally determined --- **treat as actual given values once you find equilibrium. You will use these to solve for the masses later.**
-     - Actual values for $m_i\text{,actual}$. Masses $m_{2,\text{Pikachu-black,actual}}$ & $m_{3,\text{corgi-white,actual}}$ for each figurine as measured on a triple-beam balance.
-     - The % Difference of $m_2$ and $m_3$ experimentally determined values to their actual measured values (see {eq}`M1-PercentDiff` in Section {ref}`interpretation1`).
+1. Create data table for this case (e.g. {ref}`vectortable-case3data`):
+   - Experimental and given masses $m_i$:
+      - Given mass $m_1$ is shown in the previous table for the empty hanger.
+      - $m_{2,\text{Pikachu-black}}$ & $m_{3,\text{corgi-white}}$ as calculated from $M_2$ and $M_3$ in {eq}`eq-M01-solveM3` and {eq}`eq-M01-solveM2`.
+   - Experimental and given angles $\theta_i$:
+      - Given angle $\theta_1$ is shown in the previous table for the empty hanger. 
+      - $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$ as experimentally determined --- **treat as actual given values once you find equilibrium. You will use these to solve for the masses later.**
+   - Actual values for $m_i\text{,actual}$. Masses $m_{2,\text{Pikachu-black,actual}}$ & $m_{3,\text{corgi-white,actual}}$ for each figurine as measured on a triple-beam balance.
+   - The % Difference of $m_2$ and $m_3$ experimentally determined values to their actual measured values (see {eq}`M1-PercentDiff` in Section {ref}`interpretation1`).
 
 2. Place the respective masses on their hangers, with $m_1$ set to 0°
 
@@ -519,6 +476,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 |----|----|------|----|----------------|----------------|----------------|----------|----------|------------|
 |    |    |      |    |                |                |                |          |          |            |
 
+(vectortable-case3data)=
 ### Case 3 Data
 
 | Vector | $m$ (SI units) Experimental | ($^\circ$) |  $m$ (SI units) Actual | % diff. masses |
