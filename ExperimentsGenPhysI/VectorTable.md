@@ -334,11 +334,11 @@ Reminder, run first case fully before moving on to additional cases. Don't just 
        - $m_{3,\text{theoretical}}$: theoretical equilibrant mass in kg
        - $\theta_{3,\text{theoretical}}$: theoretical equilibrant direction in deg. (e.g. $\theta_{R} + 180°$)
 
-2. Starting with the first case, place the respective masses on their hangers 1 & 2.
+2. Starting with the first case, place the respective masses on their hangers 1 & 2. ***NOTE: Slotted masses are available at the table at the front of the room.***
 
 3. Unscrew the black pulleys to rotate them around the tabletop to their given angles.
 
-4. With hanger 3, add or subtract masses and scoot the pulley around the table until the ring is as perfectly centered around the center pin as possible to argue equilibrium.
+4. With hanger 3, add or subtract masses and scoot the pulley around the force table until the ring is as perfectly centered around the center pin as possible to argue equilibrium.
 
 5. Note your $m_i$ & $\theta_i$ values. 
 
@@ -419,7 +419,7 @@ Experimentally determine the mass of the Pikachu (black figurine) and the corgi 
 
 4. Once you've found equilibrium, note the $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$ values as actual values to use in later equations (i.e. as if they're given angles).
 
-5. Determine $m_{2,\text{Pikachu-black}}$ & $m_{3,\text{corgi-white}}$ by algebraically solving {eq}`eq-M01-solveM3` and {eq}`eq-M01-solveM2` for $M_2$ and $M_3$ and plugging in known values.
+5. Determine $m_{2,\text{Pikachu-black}}$ & $m_{3,\text{corgi-white}}$ by algebraically solving {eq}`eq-M01-solveM3` and {eq}`eq-M01-solveM2` for $M_2$ and $M_3$ and plugging in known values. There should be scratch paper and extra pens & pencils at the front of the room.
 
 6. Using a triple-beam balance, measure directly the actual mass of $m_{2,\text{Pikachu-black, actual}}$ & $m_{3,\text{corgi-white, actual}}$.  You can include the mass of the hanger $m_1$ to double check the mass hanger.
 
