@@ -229,6 +229,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 | EF stdev|        |       |        |      |        |         |
 
 
+### Original Whiteboard Info
 
 ```{figure} IntroLabFigures/IntroDominos_2024_Fall_01.jpg
 :name: introDominoFig
