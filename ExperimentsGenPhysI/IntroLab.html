@@ -414,6 +414,7 @@
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trial-data">Trial Data</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-table-1-by-color">Analysis Table 1 (by color)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-table-2-by-person">Analysis Table 2 (by person)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#original-whiteboard-info">Original Whiteboard Info</a></li>
 </ul>
 </li>
 </ul>
@@ -504,17 +505,20 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 </ul>
 </li>
 </ul>
+<div class="warning admonition">
+<p class="admonition-title">Run Single Trial with Calculations First (Start to finish of just one trial)</p>
 <p>Each group member will independently measure each of the four dominoes (i.e. four trials per person). <em><strong>HOWEVER</strong></em>, start with one domino, then go through all the steps minimizing and maximizing <span class="math notranslate nohighlight">\(V\)</span> and <span class="math notranslate nohighlight">\(\rho\)</span> before measuring your second domino to ensure your calculations in Excel are behaving properly and that you are actually measuring the dominoes accurately with the calipers and balance. Otherwise, you may find yourselves redoing the whole experiment if you fail to check your measurement techniques early on in the process.</p>
+</div>
 <ul class="simple">
 <li><p>Record the trial number, group member’s name or initials, and the domino color</p></li>
-<li><p>Using the Vernier calipers, note the caliper’s measurement uncertainty in your common data table (smallest measureable increment, <span class="math notranslate nohighlight">\(\delta_{\text{caliper}} = \delta_l = \delta_w = \delta_h\)</span>). Then measure and record, in the units of the calipers, the:</p>
+<li><p>Using the Vernier calipers, note the caliper’s measurement uncertainty in your <strong>common data</strong> table (smallest measureable increment, <span class="math notranslate nohighlight">\(\delta_{\text{caliper}} = \delta_l = \delta_w = \delta_h\)</span>). The Greek letter <span class="math notranslate nohighlight">\(\delta\)</span> (said as “delta”) is representing the <em>measurement</em> uncertainty of each variable (e.g. <span class="math notranslate nohighlight">\(l \pm \delta_l\)</span>). Then measure and record, in the units of the calipers, the:</p>
 <ul>
 <li><p>length <span class="math notranslate nohighlight">\(l\)</span></p></li>
 <li><p>width <span class="math notranslate nohighlight">\(w\)</span></p></li>
 <li><p>height <span class="math notranslate nohighlight">\(h\)</span></p></li>
 </ul>
 </li>
-<li><p>Using the triple-beam balance, note the balance’s measurement uncertainty (smallest measureable increment, <span class="math notranslate nohighlight">\(\delta_m\)</span>) in your common data table. Then measure and record, in the units of the balance, the mass <span class="math notranslate nohighlight">\(m\)</span>.</p></li>
+<li><p>Using the triple-beam balance, note the balance’s measurement uncertainty (smallest measureable increment, <span class="math notranslate nohighlight">\(\delta_m\)</span>) in your <strong>common data</strong> table. Then measure &amp; record the mass <span class="math notranslate nohighlight">\(m\)</span>, in the units of the balance (e.g. grams).</p></li>
 </ul>
 <p>Convert your measurements into SI units (e.g. kilogram kg, meter m, second s, etc.)</p>
 <p>Calculate volume <span class="math notranslate nohighlight">\(V\)</span> using <a class="reference internal" href="#equation-m00-intro-eq02">(5)</a>, and density <span class="math notranslate nohighlight">\(\rho\)</span> using <a class="reference internal" href="#equation-m00-intro-eq01">(4)</a>.</p>
@@ -522,23 +526,28 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 <ul class="simple">
 <li><p>In your data table, for each trial, calculate the minimized and maximized values for both <span class="math notranslate nohighlight">\(V\)</span> and <span class="math notranslate nohighlight">\(\rho\)</span>.</p>
 <ul>
-<li><p>To minimize <span class="math notranslate nohighlight">\(V\)</span>, minimize <span class="math notranslate nohighlight">\(l\)</span>, <span class="math notranslate nohighlight">\(w\)</span>, <span class="math notranslate nohighlight">\(h\)</span> by the caliper’s measurement uncertainty in <a class="reference internal" href="#equation-m00-intro-eq02">(5)</a></p>
-<ul>
-<li><p>e.g. <span class="math notranslate nohighlight">\(V_{\min} = (l-\delta_l)\cdot(w-\delta_w)\cdot(h-\delta_h)\)</span> where <span class="math notranslate nohighlight">\(\delta_\text{variable}\)</span> (said as “delta”) is representing the uncertainty of each variable from the caliper.</p></li>
+<li><p>To minimize <span class="math notranslate nohighlight">\(V\)</span>, minimize the values that go into that calculation (<span class="math notranslate nohighlight">\(l\)</span>, <span class="math notranslate nohighlight">\(w\)</span>, <span class="math notranslate nohighlight">\(h\)</span>) by the caliper’s measurement uncertainty in <a class="reference internal" href="#equation-m00-intro-eq02">(5)</a> which results in:</p></li>
 </ul>
 </li>
+</ul>
+<div class="math notranslate nohighlight" id="equation-m00-intro-eq-volumemin">
+<span class="eqno">(6)<a class="headerlink" href="#equation-m00-intro-eq-volumemin" title="Permalink to this equation">#</a></span>\[V_{\min} = (l-\delta_l)\cdot(w-\delta_w)\cdot(h-\delta_h)\]</div>
+<ul class="simple">
 <li><p>Maximize <span class="math notranslate nohighlight">\(V\)</span> in a similar manner, now by maximizing <span class="math notranslate nohighlight">\(l\)</span>, <span class="math notranslate nohighlight">\(w\)</span>, <span class="math notranslate nohighlight">\(h\)</span>.</p></li>
 <li><p>In a similar way, minimize and maximize <span class="math notranslate nohighlight">\(\rho\)</span> by using either <span class="math notranslate nohighlight">\(V_{\max}\)</span> or <span class="math notranslate nohighlight">\(V_{\min}\)</span> with <span class="math notranslate nohighlight">\(m\)</span> minimized or maximized.</p>
 <ul>
-<li><p>e.g. for <span class="math notranslate nohighlight">\(\rho_{\min}\)</span>, you would minimize the numerator and maximize the denominator, i.e. <span class="math notranslate nohighlight">\(\frac{m-\delta_m}{V_{\max}}\)</span></p></li>
+<li><p>e.g. for <span class="math notranslate nohighlight">\(\rho_{\min}\)</span>, you would minimize the numerator and maximize the denominator such as:</p></li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
+<div class="math notranslate nohighlight" id="equation-m00-intro-eq-densitymin">
+<span class="eqno">(7)<a class="headerlink" href="#equation-m00-intro-eq-densitymin" title="Permalink to this equation">#</a></span>\[\rho = \frac{m_{\min}}{V_{\max}} = \frac{m-\delta_m}{V_{\max}}\]</div>
 <p>At this point, you should have a complete trial with a range of densities based on your measurement uncertainties.</p>
 <p>Does this range appear far from your estimated densities from the prior knowledge that these dominoes’ densities are close to that of water? If so, this is a good time to double check any of your measurements that may seem like an outlier or any of your calculations that may have been entered into Excel incorrectly.</p>
+<div class="warning admonition">
+<p class="admonition-title">Continue to additional trials?</p>
 <p><em><strong>If you are satisfied, it is at this point that each person can now continue measuring the other dominoes.</strong></em></p>
+</div>
 <p>Up to this point, each individual trial has its own range of densities based on the measurement uncertainties. If we were only analyzing individual trials, this can be satifactory for error analysis. However, each person measured each color domino. We can therefore also analyze the repeated measurements by looking at the average densities and the spread or variation of the data from that average value (i.e. standard deviation, often denoted as the Greek letter sigma, <span class="math notranslate nohighlight">\(\sigma\)</span>).</p>
 <p>We will analyze the data in two ways, first by sorting your data by domino color (across all group members) and by person (across all domino colors). To do so, create two Data Analysis tables including (<a class="reference internal" href="#analysis-table-1-by-color"><span class="std std-ref">Analysis Table 1 (by color)</span></a>):</p>
 <ul class="simple">
@@ -1013,6 +1022,9 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 </tbody>
 </table>
 </div>
+</section>
+<section id="original-whiteboard-info">
+<h3>Original Whiteboard Info<a class="headerlink" href="#original-whiteboard-info" title="Permalink to this heading">#</a></h3>
 <figure class="align-center" id="introdominofig">
 <a class="reference internal image-reference" href="../_images/IntroDominos_2024_Fall_01.jpg"><img alt="../_images/IntroDominos_2024_Fall_01.jpg" src="../_images/IntroDominos_2024_Fall_01.jpg" style="width: 600px;" /></a>
 <figcaption>
@@ -1100,6 +1112,7 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trial-data">Trial Data</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-table-1-by-color">Analysis Table 1 (by color)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-table-2-by-person">Analysis Table 2 (by person)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#original-whiteboard-info">Original Whiteboard Info</a></li>
 </ul>
 </li>
 </ul>

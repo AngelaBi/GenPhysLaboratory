@@ -442,37 +442,37 @@
 <h3>Moment of Inertia<a class="headerlink" href="#moment-of-inertia" title="Permalink to this heading">#</a></h3>
 <p>In rotational motion the moment of inertia (usually denoted by <span class="math notranslate nohighlight">\(I\)</span>) takes the role of mass. An object with a large value of <span class="math notranslate nohighlight">\(I\)</span> will be reluctant to change its rotational motion. Just as mass this quantity is a scalar, meaning that it has no direction. The moment of inertia of a system of objects can be determined easily by adding the moment of inertia of each of the different components making up the entire system. The moment of inertia depends not only on the mass of the object but also on how the mass is distributed with respect to the axis of rotation. The further the mass is away from the axis of rotation, the higher the moment of inertia will be. For a point mass (an object that can be considered small with respect to its distance from the axis of rotation) the moment of inertia is defined as</p>
 <div class="math notranslate nohighlight" id="equation-m08-rotation-eq01">
-<span class="eqno">(49)<a class="headerlink" href="#equation-m08-rotation-eq01" title="Permalink to this equation">#</a></span>\[I = m\, R^{2}\]</div>
+<span class="eqno">(54)<a class="headerlink" href="#equation-m08-rotation-eq01" title="Permalink to this equation">#</a></span>\[I = m\, R^{2}\]</div>
 <p>where <span class="math notranslate nohighlight">\(m\)</span> is the mass of the object and <span class="math notranslate nohighlight">\(R\)</span> is the distance of the object from the axis of rotation.
 The calculation of the moment of inertia for more complex objects is a rather straightforward process, but can be very tedious. In most cases simple expressions can be found to calculate the value of <span class="math notranslate nohighlight">\(I\)</span>. The list below gives the moment of inertia for a few objects used in this lab:</p>
 <ul class="simple">
 <li><p>A <strong>solid disk</strong> of mass <span class="math notranslate nohighlight">\(M_{D}\)</span> and radius <span class="math notranslate nohighlight">\(R_{D}\)</span> rotating about an axis through its center:</p></li>
 </ul>
 <div class="math notranslate nohighlight" id="equation-m08-rotation-eq02">
-<span class="eqno">(50)<a class="headerlink" href="#equation-m08-rotation-eq02" title="Permalink to this equation">#</a></span>\[I= \frac{1}{2} M_{D} \, R_{D}^{2}\]</div>
+<span class="eqno">(55)<a class="headerlink" href="#equation-m08-rotation-eq02" title="Permalink to this equation">#</a></span>\[I= \frac{1}{2} M_{D} \, R_{D}^{2}\]</div>
 <ul class="simple">
 <li><p>A <strong>thin-walled ring</strong> of mass <span class="math notranslate nohighlight">\(M_{R}\)</span> and radius <span class="math notranslate nohighlight">\(R_{R}\)</span> rotating about an axis through its center:</p></li>
 </ul>
 <div class="math notranslate nohighlight" id="equation-m08-rotation-eq03">
-<span class="eqno">(51)<a class="headerlink" href="#equation-m08-rotation-eq03" title="Permalink to this equation">#</a></span>\[I= M_{R} \, R_{R}^{2}\]</div>
+<span class="eqno">(56)<a class="headerlink" href="#equation-m08-rotation-eq03" title="Permalink to this equation">#</a></span>\[I= M_{R} \, R_{R}^{2}\]</div>
 <ul class="simple">
 <li><p>A <strong>thick ring</strong> mass <span class="math notranslate nohighlight">\(M_{R}\)</span> and inner radius <span class="math notranslate nohighlight">\(R_{i}\)</span> and outer radius <span class="math notranslate nohighlight">\(R_{o}\)</span> rotating about an axis through its center:</p></li>
 </ul>
 <div class="math notranslate nohighlight" id="equation-m08-rotation-eq04">
-<span class="eqno">(52)<a class="headerlink" href="#equation-m08-rotation-eq04" title="Permalink to this equation">#</a></span>\[I=\frac{1}{2} M_{R} \, \left(R_{i}^2 + R_{o}^2\right)\]</div>
+<span class="eqno">(57)<a class="headerlink" href="#equation-m08-rotation-eq04" title="Permalink to this equation">#</a></span>\[I=\frac{1}{2} M_{R} \, \left(R_{i}^2 + R_{o}^2\right)\]</div>
 </section>
 <section id="torque">
 <h3>Torque<a class="headerlink" href="#torque" title="Permalink to this heading">#</a></h3>
 <p>A force by itself is not enough to determine whether an object will start to rotate (just think about how a force that is applied to the hinges of a door will not rotate the door). Instead we define a new quantity, called torque <span class="math notranslate nohighlight">\(\tau\)</span>, which combines the force and the distance from the axis of rotation (also called the lever arm). This quantity is a vector quantity, meaning that it does have a direction</p>
 <div class="math notranslate nohighlight" id="equation-m08-rotation-eq05">
-<span class="eqno">(53)<a class="headerlink" href="#equation-m08-rotation-eq05" title="Permalink to this equation">#</a></span>\[\vec{\tau} = \vec{F}_{\perp} \times \vec{d}.\]</div>
+<span class="eqno">(58)<a class="headerlink" href="#equation-m08-rotation-eq05" title="Permalink to this equation">#</a></span>\[\vec{\tau} = \vec{F}_{\perp} \times \vec{d}.\]</div>
 <p>Here <span class="math notranslate nohighlight">\(\vec{d}\)</span> denotes the lever arm (directed outward from the center) and <span class="math notranslate nohighlight">\(\vec{F}_{\perp}\)</span> is the component of the force perpendicular to the lever arm.</p>
 </section>
 <section id="newton-s-2nd-law-for-rotational-motion">
 <h3>Newton’s 2nd Law for Rotational Motion<a class="headerlink" href="#newton-s-2nd-law-for-rotational-motion" title="Permalink to this heading">#</a></h3>
 <p>With the above definitions we can now formulate a rotational version of Newton’s 2nd Law. An object with moment of inertia <span class="math notranslate nohighlight">\(I\)</span> will experience an angular acceleration <span class="math notranslate nohighlight">\(\vec{\alpha}\)</span>, if a net torque <span class="math notranslate nohighlight">\(\vec{\tau}_{\mbox{net}}\)</span> acts on it</p>
 <div class="math notranslate nohighlight" id="equation-m08-rotation-eq06">
-<span class="eqno">(54)<a class="headerlink" href="#equation-m08-rotation-eq06" title="Permalink to this equation">#</a></span>\[\vec{\tau}_{\mbox{net}} = I \vec{\alpha}.\]</div>
+<span class="eqno">(59)<a class="headerlink" href="#equation-m08-rotation-eq06" title="Permalink to this equation">#</a></span>\[\vec{\tau}_{\mbox{net}} = I \vec{\alpha}.\]</div>
 </section>
 <section id="calculating-the-moment-of-inertia">
 <h3>Calculating the Moment of Inertia<a class="headerlink" href="#calculating-the-moment-of-inertia" title="Permalink to this heading">#</a></h3>
@@ -491,7 +491,7 @@ The net torque acting on the pulley can be written as</p>
 \[a = \alpha R_{P}.\]</div>
 <p>Using this set of equations one can now solve for the moment of inertia, <span class="math notranslate nohighlight">\(I\)</span>,</p>
 <div class="math notranslate nohighlight" id="equation-m08-rotation-eq07">
-<span class="eqno">(55)<a class="headerlink" href="#equation-m08-rotation-eq07" title="Permalink to this equation">#</a></span>\[I = \frac{m \left(g  R_{P} - \alpha R_{P}^2\right)}{\alpha}.\]</div>
+<span class="eqno">(60)<a class="headerlink" href="#equation-m08-rotation-eq07" title="Permalink to this equation">#</a></span>\[I = \frac{m \left(g  R_{P} - \alpha R_{P}^2\right)}{\alpha}.\]</div>
 <figure class="align-center" id="m08-rotation-fig01">
 <a class="reference internal image-reference" href="../_images/Figure011.jpg"><img alt="../_images/Figure011.jpg" src="../_images/Figure011.jpg" style="width: 60%;" /></a>
 <figcaption>
@@ -509,10 +509,10 @@ The net torque acting on the pulley can be written as</p>
 \[\vec{L}_i = {L}_f.\]</div>
 <p>This can be used to determine the angular velocity of a system if the moment of inertia changes</p>
 <div class="math notranslate nohighlight" id="equation-m08-rotation-eq08">
-<span class="eqno">(56)<a class="headerlink" href="#equation-m08-rotation-eq08" title="Permalink to this equation">#</a></span>\[I_i \omega_i = I_f \omega_f.\]</div>
+<span class="eqno">(61)<a class="headerlink" href="#equation-m08-rotation-eq08" title="Permalink to this equation">#</a></span>\[I_i \omega_i = I_f \omega_f.\]</div>
 <p><strong>THE PARALLEL AXIS THEOREM</strong> is used to calculate the moment of inertia of an object of mass <span class="math notranslate nohighlight">\(M\)</span> rotating about a rotation axis that does not pass through the center of mass (e.g. the ring on top of the apparatus is off center). The moment of inertia for the axis <span class="math notranslate nohighlight">\({I_{axis}}\)</span> is</p>
 <div class="math notranslate nohighlight" id="equation-m08-rotation-eq09">
-<span class="eqno">(57)<a class="headerlink" href="#equation-m08-rotation-eq09" title="Permalink to this equation">#</a></span>\[{I_{axis}} = {I_{ring}} + M d_{cm}^2\]</div>
+<span class="eqno">(62)<a class="headerlink" href="#equation-m08-rotation-eq09" title="Permalink to this equation">#</a></span>\[{I_{axis}} = {I_{ring}} + M d_{cm}^2\]</div>
 <p>where <span class="math notranslate nohighlight">\({I_{cm}}\)</span> is the moment of inertia about an axis through the center of mass parallel to the rotation axis. The distance between the parallel axes is <span class="math notranslate nohighlight">\({d_{cm}}\)</span>. In the Conservation of Angular Momentum experiment you drop the ring on the rotating apparatus. Although you try to drop the ring centered on the axis of rotation, it often lands off center. You will run a case where you try to center it, and then another case where you purposefully drop it off center.</p>
 </section>
 </section>
@@ -539,7 +539,7 @@ The net torque acting on the pulley can be written as</p>
 <li><p>Create a Part 1 Data Table for your measurements and calculations of the moment of inertia of the ring.</p></li>
 <li><p>Determine the mass of the ring and note the result as <span class="math notranslate nohighlight">\(M_{\mbox{ring}}\)</span> in your Part 1 Data Table.</p></li>
 <li><p>Measure the inner and outer radii of the ring, using the calipers. Note the result as <span class="math notranslate nohighlight">\(R_{i}\)</span> and <span class="math notranslate nohighlight">\(R_{o}\)</span> in your Part 1 Data Table.</p></li>
-<li><p>Calculate the expected moment of inertia of the ring, using <a class="reference internal" href="#equation-m08-rotation-eq04">(52)</a> given in the Background. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{calc}}\)</span> in your Part 1 Data Table.</p></li>
+<li><p>Calculate the expected moment of inertia of the ring, using <a class="reference internal" href="#equation-m08-rotation-eq04">(57)</a> given in the Background. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{calc}}\)</span> in your Part 1 Data Table.</p></li>
 <li><p>Place the ring onto the disk, which should already be mounted on the Rotary Motion Sensor (RMS). The two pins of the ring should fit into the two holes on the disk.</p></li>
 <li><p>Note the mass of the hanger as <span class="math notranslate nohighlight">\(m\)</span> in your Data Table.</p></li>
 <li><p>Using the calipers measure the radius <span class="math notranslate nohighlight">\(R_{P}\)</span> of the middle pulley of the RMS and note your result in your Part 1 Data Table.</p></li>
@@ -555,7 +555,7 @@ The net torque acting on the pulley can be written as</p>
 <li><p>Note your result in your Data Table.</p></li>
 </ol>
 </li>
-<li><p>Calculate the moment of inertia of the apparatus plus the ring, using <a class="reference internal" href="#equation-m08-rotation-eq07">(55)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{total}}\)</span> in your Part 1 Data Table.</p></li>
+<li><p>Calculate the moment of inertia of the apparatus plus the ring, using <a class="reference internal" href="#equation-m08-rotation-eq07">(60)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{total}}\)</span> in your Part 1 Data Table.</p></li>
 <li><p>Remove the ring from the apparatus and repeat the above steps to determine the moment of inertia of the apparatus without the ring. Note the results as <span class="math notranslate nohighlight">\(\alpha_{\mbox{app}}\)</span> and <span class="math notranslate nohighlight">\(I_{\mbox{app}}\)</span> in your Data Table.</p></li>
 <li><p>To determine the moment of inertia of the ring subtract <span class="math notranslate nohighlight">\(I_{\mbox{app}}\)</span> from <span class="math notranslate nohighlight">\(I_{\mbox{total}}\)</span>. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{exp}}\)</span> in your Data Table.</p></li>
 <li><p>Repeat the above measurements three times.</p></li>
@@ -571,7 +571,7 @@ The net torque acting on the pulley can be written as</p>
 <li><p>Please call the lab instructor for this: Mount the rod onto the pulley of the RMS.</p></li>
 <li><p>Determine the masses of the two brass weights (with screws) and note the result as <span class="math notranslate nohighlight">\(M_1\)</span> and <span class="math notranslate nohighlight">\(M_2\)</span> in your Data Table.</p></li>
 <li><p>Mount the masses into the end of the rod and fasten them with the screws. Measure the distance of the center of the masses from the center of the rod. Note the results as <span class="math notranslate nohighlight">\(R_1\)</span> and <span class="math notranslate nohighlight">\(R_2\)</span> in your Data Table.</p></li>
-<li><p>Calculate the expected moment of inertia of the two points masses, using <a class="reference internal" href="#equation-m08-rotation-eq01">(49)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{calc}}\)</span> in your Data Table.</p></li>
+<li><p>Calculate the expected moment of inertia of the two points masses, using <a class="reference internal" href="#equation-m08-rotation-eq01">(54)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{calc}}\)</span> in your Data Table.</p></li>
 <li><p>Note the mass of the hanger as <span class="math notranslate nohighlight">\(m\)</span> in your Data Table.</p></li>
 <li><p>Note the radius <span class="math notranslate nohighlight">\(R_{P}\)</span> of the middle pulley of the RMS in your Data Table (use the result from Part 1 above).</p></li>
 <li><p>Wind the string with the attached mass hanger onto the middle pulley of the RMS. You need to make sure that the string runs over the Super Pulley, is wound nicely onto the middle pulley of the RMS, and is leaving the pulley of the RMS tangentially before it runs straight over the Super Pulley.</p></li>
@@ -587,7 +587,7 @@ The net torque acting on the pulley can be written as</p>
 <li><p>Note your result in your Data Table.</p></li>
 </ol>
 </li>
-<li><p>Calculate the moment of inertia of the apparatus plus the two point masses, using <a class="reference internal" href="#equation-m08-rotation-eq07">(55)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{total}}\)</span> in your Data Table.</p></li>
+<li><p>Calculate the moment of inertia of the apparatus plus the two point masses, using <a class="reference internal" href="#equation-m08-rotation-eq07">(60)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{total}}\)</span> in your Data Table.</p></li>
 <li><p>Remove the two point masses from the apparatus and repeat the above steps to determine the moment of inertia of the apparatus without the two masses. Note the result as <span class="math notranslate nohighlight">\(I_{\mbox{app}}\)</span> in your Data Table. Please note that you need to again discuss the collected data points/graph with your lab instructor.</p></li>
 <li><p>To determine the moment of inertia of the two point masses subtract <span class="math notranslate nohighlight">\(I_{\mbox{app}}\)</span> from <span class="math notranslate nohighlight">\(I_{\mbox{total}}\)</span>. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{exp}}\)</span> in your Data Table.</p></li>
 <li><p>Repeat the above measurements three times.</p></li>
@@ -632,7 +632,7 @@ The net torque acting on the pulley can be written as</p>
 <ul>
 <li><p>Run an additional test of the angular momentum part where you drop the ring to purposefully be off center.</p></li>
 <li><p>Measure the off-center distance <span class="math notranslate nohighlight">\({d_{cm}}\)</span> when the ring is all the way against the main axis of rotation of the metal plate (i.e. inner edge of the ring against the screw).</p></li>
-<li><p>Calculate the updated moment of inertia of the ring using the parallel axis theorem, <a class="reference internal" href="#equation-m08-rotation-eq09">(57)</a>.</p></li>
+<li><p>Calculate the updated moment of inertia of the ring using the parallel axis theorem, <a class="reference internal" href="#equation-m08-rotation-eq09">(62)</a>.</p></li>
 <li><p>Spin the disk as fast as possible and drop the ring off center to the point where it ends up against the screw, akin to what you just measured for <span class="math notranslate nohighlight">\({d_{cm}}\)</span>.</p></li>
 <li><p>Record both the initial and final angular velocities.</p></li>
 <li><p>Calculate both the initial and final angular momentum.</p></li>
