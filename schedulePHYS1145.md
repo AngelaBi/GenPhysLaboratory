@@ -1,28 +1,29 @@
 # Schedule for PHYS 1145
 
-
 ```{figure} ScheduleFigures/2025_Fall_LabSchedulePrintout_1145L_simplified.jpg
 :name: schedulePHYS1145
-:width: 80%
+:width: 100%
 :align: center
-schedule for PHYS 1145
+Schedule for PHYS 1145
 ```
 
-TO-DO
+# Schedule with links to relevant lab
 
-| Week of     | Monday     | Tuesday   | Wednesday | Thursday  | Friday   |
-|------------|-----------|-----------|-----------|-----------|-----------|
-| 2025-09-01 |           |           |           |           |           |
-| 2025-09-08 |           |           |           |           |           |
-| 2025-09-15 |           |           |           |           |           |
-| 2025-09-22 |           |           |           |           |           |
-| 2025-09-29 |           |           |           |           |           |
-| 2025-10-06 |           |           |           |           |           |
-| 2025-10-13 |           |           |           |           |           |
-| 2025-10-20 |           |           |           |           |           |
-| 2025-10-27 |           |           |           |           |           |
-| 2025-11-03 |           |           |           |           |           |
-| 2025-11-10 |           |           |           |           |           |
-| 2025-11-17 |           |           |           |           |           |
-| 2025-11-24 |           |           |           |           |           |
-| 2025-12-01 |           |           |           |           |           |
+| Week Of | M                                                                 | T                                                                 | W                                                                 | R                                                                 | F                                                                 |
+|:-------:|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|
+| 09-01   | Labor Day                                                         | [First Day of Classes]                                            |                                                                   |                                                                   |                                                                   |
+| 09-08   | [Excel and Spreadsheets, Syllabus](https://angelabi.github.io/GenPhysLaboratory/Intro/DataAcquisition.html) |                                                                   | [Excel and Spreadsheets, Syllabus](https://angelabi.github.io/GenPhysLaboratory/Intro/DataAcquisition.html) |                                                                   |                                                                   |
+| 09-15   | [Introductory Lab: Domino Size & Density](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/IntroLab.html) |                                                                   | [Introductory Lab: Domino Size & Density](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/IntroLab.html) |                                                                   |                                                                   |
+| 09-22   | [Force Table with 3 Vectors at Equilibrium](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/VectorTable.html) |                                                                   | [Force Table with 3 Vectors at Equilibrium](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/VectorTable.html) |                                                                   |                                                                   |
+| 09-29   | [Acceleration due to Gravity, g, with Glider on Tilted Air Track](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/AccGTrack.html) |                                                                   | [Acceleration due to Gravity, g, with Glider on Tilted Air Track](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/AccGTrack.html) |                                                                   |                                                                   |
+| 10-06   | [Simple Projectile Motion with Kinematics](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/SimpleProjectile.html) |                                                                   | [Simple Projectile Motion with Kinematics](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/SimpleProjectile.html) |                                                                   |                                                                   |
+| 10-13   | *Fall Break <br>(no lab)*                                         | *Fall Break <br>(no lab)*                                         | [Centripetal Force with Mass on Rotating Arm](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/CentripetalForce.html) |                                                                   |                                                                   |
+| 10-20   | [Centripetal Force with Mass on Rotating Arm](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/CentripetalForce.html) |                                                                   | [Conservation of Energy with Glider on Tilted Air Track](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/ConsEnTrack.html) |                                                                   |                                                                   |
+| 10-27   | [Conservation of Energy with Glider on Tilted Air Track](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/ConsEnTrack.html) |                                                                   | [Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/BallisticPendulum.html) |                                                                   |                                                                   |
+| 11-03   | [Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/BallisticPendulum.html) |                                                                   | [Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/IdealGas.html) |                                                                   |                                                                   |
+| 11-10   | [Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/IdealGas.html) |                                                                   | [Fluid Physics with Archimedes’ & Bernoulli’s Principles](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/Fluids.html) |                                                                   |                                                                   |
+| 11-17   | [Fluid Physics with Archimedes’ & Bernoulli’s Principles](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/Fluids.html) |                                                                   | [Determination of Acceleration due to Gravity, g, with Simple Pendulum](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/Pendulum.html) |                                                                   |                                                                   |
+| 11-24   | [Determination of Acceleration due to Gravity, g, with Simple Pendulum](https://angelabi.github.io/GenPhysLaboratory/ExperimentsGenPhysI/Pendulum.html) | *Thanksgiving <br>(no lab)*                                       | *Thanksgiving <br>(no lab)*                                       | *Thanksgiving <br>(no lab)*                                       |                                                                   |
+| 12-01   | [Makeup for snowdays]                                             |                                                                   | [Makeup for snowdays]                                             |                                                                   |                                                                   |
+| 12-08   | [Last Day of Classes]                                             | *Reading day*                                                     | *Reading day*                                                     | *Finals week*                                                     | *Finals week*                                                     |
+| 12-15   | *Finals week*                                                     | *Finals week*                                                     | *Finals week*                                                     | ---                                                               | ---                                                               |

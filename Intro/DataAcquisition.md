@@ -2,6 +2,14 @@
 
 In this lab you will perform measurements and calculate results from the measurements. Each trial requires similar calculations. The best way to perform repetitive calculation tasks is to use a computer program such as a spreadsheet. The effort to set up the calculation is more than compensated by the reliability and ease of repeating calculations. Several experiments will make use of sensors to aid in measurements and data gathering. The data in these experiments is collected by an advanced computer program called **Capstone**, which is installed on all computers in the lab. The program is also able to organize, analyze, and display the data. This section will give an overview of the program, explain how to set up sensors, and how to display data. More detailed information will be given in the specific experiments, which will make use of the sensors and data acquisition.
 
+## Spreadsheets - In Microsoft Excel, how to access
+
+To access Microsoft Excel, you can do so through the browser with your Fairfield U. student login. We recommend doing your work in a browser to work with your lab group members on a shared Excel sheet, as that appears to be the most reliable and quick way to edit the same Excel spreadsheet. Follow the instructions here to access:
+
+<a href="https://fairfield-university.atlassian.net/wiki/spaces/ITSKB/pages/30345528/Office+365+at+Fairfield+University" target="_blank">Access Office 365 in a browser at Fairfield University with your student login</a>
+
+
+
 ## Data Analysis with Spreadsheets
 
 Data for each experiment has a set of measurements and calculations.

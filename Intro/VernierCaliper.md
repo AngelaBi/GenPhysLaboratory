@@ -82,7 +82,6 @@ A diagram showing two examples of reading measurements from *Vernier* calipers. 
 
 
 
-
 ### Precautions
 
 For successful use of the calipers, {numref}`VernierManual_Fig03` includes suggested techniques to ensure accurate measurement readings. Do's are shown by the open circle, while don'ts are shown by a circle with a line through it.
@@ -96,6 +95,14 @@ A diagram showing precautions necessary for successful use of *Vernier* calipers
 ```
 
 
+
+### Web Example
+
+Use the following online resources to test yourself whether you are reading the Main and **Vernier** scales on the **Vernier** calipers correctly.
+
+[Simulated Vernier Caliper in the style of the calipers we use in lab](https://www.stefanelli.eng.br/en/virtual-vernier-caliper-simulator-05-millimeter/)
+
+[Simulated Vernier Caliper measurements of an object, simplified](https://www.compadre.org/osp/EJSS/4168/195.htm)
 
 
 
