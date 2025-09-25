@@ -2,31 +2,18 @@
 
 ```{admonition} OVERALL GOALS
 :class: note
-- Measuring acceleration due to gravity using a glider on a tilted air track.
+Use an frictionless airtrack to:
+- Measure acceleration due to gravity.
 ```
 
 ## Background
 
+By measuring the acceleration of a mass moving under the influence of just the gravitational attraction of the earth, namely its weight, we can determine the acceleration due to gravity, usually denoted by $g$.  The mass will be allowed to accelerate down a presumed frictionless, inclined plane.  Measurement of the acceleration along the plane is directly related to the acceleration due to gravity by a simple trigonometric relationship.  The use of the plane permits the convenient measurement of a small, measurable fraction of the acceleration due to gravity.  This of course is in lieu of the much more difficult measurement of a vertically falling mass.
 
 
-By measuring the acceleration of a mass moving under the influence of the gravitational attraction of the earth, namely its weight, we can determine the acceleration due to gravity, usually denoted by $g$.  The mass will be allowed to accelerate down a presumed frictionless, inclined plane.  Measurement of the acceleration along the plane is directly related to the acceleration due to gravity by a simple trigonometric relationship.  The use of the plane permits the convenient measurement of a small, measurable fraction of the acceleration due to gravity.  This of course is in lieu of the much more difficult measurement of a vertically falling mass.
+Near the surface of the earth, the attractive force of the earth on a mass can be considered a constant over a reasonable range of elevation. This force is commonly called the weight of the object and, from Newton's Second Law, the weight is the mass $m$ times the acceleration due to gravity $g$. Using {numref}`M02Fig01` and the derivation following, we can see that the value of $g$ can be easily determined by a few simple measurements.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Near the surface of the earth, the attractive force of the earth on a mass can be considered a constant over a reasonable range of elevation. This force is commonly called the weight of the object and from Newton's Second Law the weight is the mass, $m$, times the acceleration due to gravity. Using {numref}`M02Fig01` and the derivation following, we can see that the value of $g$ can be easily determined by a few simple measurements.
-
-```{figure} AccGTrackFigures/Figure01_v2025-01.png
+```{figure} AccGTrackFigures/Figure01_v2025-02.png
 :name: m02fig01
 :width: 500px
 :align: center
@@ -34,18 +21,18 @@ Near the surface of the earth, the attractive force of the earth on a mass can b
 Force Diagram and variables used in Vector Table Experiment.
 ```
 
-The displacement along the track is $S$ and the component of acceleration $a_s$ along the track is
+The displacement along the track is $S$, the component of the weight along the track is $F_s$, and the component of acceleration $a_s$ along the track is
 
 $$
 a_s = \frac{F_s}{m} = \frac{m g \sin(\theta)}{m} =  g \sin(\theta).
 $$
 
-If the mass is released from rest near the top of the inclined air track and allowed to accelerate down the air track with a magnitude $a_s$, then by measuring the transit time down the track over a measurable distance, $S$, we can determine the value of $g$.
+If the mass is released from *rest* near the top of the inclined air track and allowed to accelerate down the air track with a magnitude $a_s$, then by measuring the transit time down the track over a measurable distance $S$, we can determine the value of $g$.
 
-Since the acceleration $a_s$ is constant, the displacement $S$ as a function of time $t$ is:
+Since the acceleration $a_s$ is constant as gravity itself is constant, the displacement $S$ as a function of time $t$ is:
 
 $$
-  S = \frac{1}{2} a t^2 = \frac{1}{2} g t^{2} \sin(\theta).
+  S = \frac{1}{2} a_s t^2 = \frac{1}{2} g t^{2} \sin(\theta).
 $$
 
 Solving for $g$, we obtain
@@ -55,7 +42,7 @@ Solving for $g$, we obtain
   g = \frac{2 S}{t^2 \sin(\theta)}.
 ```
 
-where $\sin(\theta) = \frac{H}{D}$.
+where, based on our schematic of the experimental setup in {numref}`M02Fig02`, we see $\sin(\theta) = \frac{H}{D}$.
 Making this substitution for the $\sin(\theta)$, we have the value of $g$ in terms of easily measurable quantities, namely
 
 ```{math}
@@ -65,9 +52,6 @@ Making this substitution for the $\sin(\theta)$, we have the value of $g$ in ter
 
 where $H$ is the vertical rise in the horizontal distance $D$. $D$ is the distance between the legs of the air track, and $t$ is the transit time of the mass, starting from zero velocity and accelerating down the plane a distance $S$ along the plane.
 
-We will compare our results to the measured value of $g$ at sea level. The value at sea level at New York is $g = 9.803\,\text{m/s}^2$.
-
-In the experiment, the presumed frictionless inclined plane will be an air track.  The mass will be a glider, which floats on the air track.  Placing a spacer of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.  Refer to {numref}`M02Fig02` below in the experimental procedure section.
 
 
 
@@ -88,35 +72,72 @@ In the experiment, the presumed frictionless inclined plane will be an air track
 
 ## Experimental Procedure
 
-```{figure} AccGTrackFigures/Figure02_v2025-01.png
+```{admonition} OVERVIEW
+:class: note
+- Experimentally determine the acceleration due to gravity $g$ by using a slightly tilted airtrack.
+- Investigate how $g$ is affected by the mass of an object and angle of the track (i.e. initial height of that object).
+- Conduct 4 cases based on 2 glider sizes and 2 initial heights.
+- Compare the experimental results to the expected value of $g$ at Fairfield, CT, of $9.803\,\text{m/s}^2$.
+```
+
+```{admonition} Notes & Assumptions
+:class: note
+- The presumed frictionless inclined plane will be an air track.
+- The mass will be a glider, which floats on the air track.
+- Placing a spacer of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.
+- Time measured by PASCO photogates (stated precision of 0.0001 seconds) PASCO's data logging and visualization software, **Capstone**, installed on the lab computers. The relevant Capstone file will be on the desktop. Please ***DO NOT*** save when you are done, just exit without saving.
+```
+
+
+
+```{figure} AccGTrackFigures/Figure02_v2025-02.png
 :name: M02Fig02
-:width: 90%
+:width: 100%
 :align: center
 
 Experimental Setup.
 ```
 
-In this experiment you will measure the motion of a glider down a tilted track using PASCO photogates (stated precision of 0.0001 seconds) connected to PASCO's data logging and visualization software, **Capstone**, which will be set up as a timer for this experiment.
+
 
 1. **Do not put a glider on the track without air flowing.**
-2. Create a table of the common data including the masses of the gliders, the distance $D$ between the legs of the air track and the heights of the two spacers.
-3. Measure and record the mass of both the large and small glider.
-4. Without the spacer present and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track and note any preferential drift of the glider. Adjust the height of the single leg (screw in or out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, use another glider.
-5. Measure and record the distance $D$. This is the center-to-center distance between the legs.
-6. Measure and record the heights, $H$, of each of the two spacers with the provided Vernier caliper for greater precision.
-7. Four cases will be performed with a tilted air track, two gliders with two spacers (e.g. BIG spacer/small glider, BIG spacer/BIG glider, small spacer/small glider, small spacer/BIG glider).
+2. Create a common data table including:
+    - the masses of each of the gliders in kg
+    - the distance $D$ between the legs of the air track in meter (m)
+    - the heights $H$ of the two spacers in m
+
+3. Measure and record the mass of both the big and small glider with the triple-beam-balance.
+    ```{admonition} Calibration
+    :class: note
+    *Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned*.
+    ```
+
+4. **Level the airtrack.** Without the spacer present and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (at either end and center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, request the use of another glider and we can provide you a different one.
+
+    ```{admonition} Note on drift
+    :class: note
+    There will inevitably be some drift as these airtracks are not perfect, but if it takes more than 10 seconds to drift just 5 cm, you should be good.
+    ```
+
+5. Measure and record the distance $D$. This is the center-to-center distance between the legs. 1 m and 2 m long meter sticks are available for this measurement, with additional meter sticks at the front wall of the room.
+
+6. Measure and record the heights, $H$, of each of the two spacers with the provided Vernier caliper. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`.
+
+7. Four cases will be performed:
+
+    ```{table} Four experimental cases with spacers and gliders
+    :name: tab-four-glider-spacer-cases
+    | Case | Spacer Size | Glider Size |
+    |:----:|:-----------:|:-----------:|
+    |  1   |    BIG      |   small     |
+    |  2   |    BIG      |    BIG      |
+    |  3   |   small     |   small     |
+    |  4   |   small     |    BIG      |
+    ```
+
 8. Determine a convenient point on the glider to use with the scale attached on the side of track. It doesn't matter what point you choose, only that you use the same point for all determinations of $\Delta s$ for that glider. A convenient point is the lower front or rear corner of the glider since it will be very close or overlapping with the length scale on the track itself.
 9. For each of the four cases, perform the steps listed in  {ref}`detailsteps` and record the data appropriately in your spreadsheet
-10.  For each the four cases:
-- Calculate the average of the measured $g$
-- Calculate the standard deviation of the measured $g$
-- Calculate the differences between your average $g$ and the accepted value of $g$
 
-1.   Also, using data from all trials from all the cases:
-- Calculate the average of the measured $g$.
-- Calculate the standard deviation of the measured $g$.
-- Calculate the differences between your average $g$ and the accepted value of $g$
-  
 (detailsteps)=
 ### Steps for each of the four cases with a tilted track
 
@@ -152,6 +173,17 @@ g. Release the glider by quickly pulling your finger away from the track and gli
 
 h. For each of the **5 trials per case**, release the glider from rest at the $s_1$ position. Measure and record the start time $t_1$ and end time $t_0$ to determine transit time $\Delta t$ from release at the top to bottom of the airtrack. Calculate the value of $g$ for this trial.
 
+
+10.  For each the four cases:
+- Calculate the average of the measured $g$
+- Calculate the standard deviation of the measured $g$
+- Calculate the differences between your average $g$ and the accepted value of $g$
+
+1.   Also, using data from all trials from all the cases:
+- Calculate the average of the measured $g$.
+- Calculate the standard deviation of the measured $g$.
+- Calculate the differences between your average $g$ and the accepted value of $g$
+  
 
 
 ## Post-Lab Submission --- Interpretation of Results

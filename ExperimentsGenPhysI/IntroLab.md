@@ -49,13 +49,7 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 
 ## Experimental Procedure
 
-```{figure} IntroLabFigures/M0_dominos.jpg
-:name: M00_intro_Fig01
-:width: 80%
-:align: center
 
-Left) Dominoes provided. Right) Relevant length, width, height dimensions of the dominoes.
-```
 
 ```{admonition} OVERVIEW
 :class: note
@@ -65,12 +59,29 @@ Left) Dominoes provided. Right) Relevant length, width, height dimensions of the
 - Each member of the lab group will independently measure the length, width, height, and mass of four provided dominoes per group (i.e. each lab group gets one pink, one green, one orange, and one blue domino).
 ```
 
-*NOTE:* It is good practice to **complete the analysis of trials as you do the experiment**. If there is some error in your experimental method or in your calculation, you can correct it before completing all the other trials. The formulas of the rows for later trials can be created by copying the first trial.
+```{admonition} Notes
+:class: note
+ - It is good practice to **complete the analysis of trials or cases as you do the experiment**. If there is some error in your experimental method or in your calculations, you can correct it before completing all the other trials. The rows with their Excel formulas for later trials can be created by copying the first trial.
+- The density of the dominoes' plastic and water are roughly the same. Estimate the value you expect in SI units (kg/m³).
+```
 
-The density of the dominoes' plastic and water are roughly the same. Estimate the value you expect in SI units (kg/m³).
+```{figure} IntroLabFigures/M0_dominos.jpg
+:name: M00_intro_Fig01
+:width: 80%
+:align: center
+
+Left) Dominoes provided. Right) Relevant length, width, height dimensions of the dominoes.
+```
 
 Create data tables (See examples in {ref}`common-data` and {ref}`trial-data`):
-- Create a ***Common Data Table*** for values used in all the trials. In this case, include the instrumental tolerance of the triple-beam balance and the Vernier caliper. Reference these values with dollar signs to hold the cells constant in your formulas (e.g. `$A$1`) as needed.
+- Create a ***Common Data Table*** for values used in all the trials. In this case, include 
+  - the instrumental tolerance or precision of the triple-beam balance
+  - the instrumental tolerance or precision of the Vernier caliper. 
+    ```{admonition} Referencing unchanging values
+    :class: note
+    You can reference these values in these cells with dollar signs to hold the cells constant in your formulas (e.g. `$A$1`) as needed. Additional info, see {ref}`spreadsheet-data-analysis-setup`
+    ```
+
 - Create a ***Data Table*** with 
    - Rows for each domino trial. A trial is the measurement by one lab group member of one domino color. For a group of two, there will be 8 trials; for a group of three, there will be 12 trials.
   - Columns for:
@@ -89,9 +100,8 @@ Create data tables (See examples in {ref}`common-data` and {ref}`trial-data`):
 Each group member will independently measure each of the four dominoes (i.e. four trials per person). ***HOWEVER***, start with one domino, then go through all the steps minimizing and maximizing $V$ and $\rho$ before measuring your second domino to ensure your calculations in Excel are behaving properly and that you are actually measuring the dominoes accurately with the calipers and balance. Otherwise, you may find yourselves redoing the whole experiment if you fail to check your measurement techniques early on in the process.
 ```
 
-
 - Record the trial number, group member's name or initials, and the domino color
-- Using the Vernier calipers, note the caliper's measurement uncertainty in your **common data** table (smallest measureable increment, $\delta_{\text{caliper}} = \delta_l = \delta_w = \delta_h$). The Greek letter $\delta$ (said as “delta”) is representing the *measurement* uncertainty of each variable (e.g. $l \pm \delta_l$). Then measure and record, in the units of the calipers, the:
+- Using the Vernier calipers (see {ref}`reading-the-vernier-scale-help`), note the caliper's measurement uncertainty in your **common data** table (smallest measureable increment, $\delta_{\text{caliper}} = \delta_l = \delta_w = \delta_h$). The Greek letter $\delta$ (said as “delta”) is representing the *measurement* uncertainty of each variable (e.g. $l \pm \delta_l$). Then measure and record, in the units of the calipers, the:
   - length $l$
   - width $w$
   - height $h$
