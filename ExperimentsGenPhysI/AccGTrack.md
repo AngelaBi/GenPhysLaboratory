@@ -123,8 +123,18 @@ Experimental Setup.
 
 6. Measure and record the heights, $H$, of each of the two spacers with the provided Vernier caliper. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`.
 
-7. Four cases will be performed:
 
+7. Take a look at the gliders and determine a convenient point on the glider to use with the scale ($\sim2.5$ meter ruler) attached on the side of air track. It doesn't matter what point on the glider you choose, only that you be consistent and use the same point for all determinations of distance along the track $S$ for that glider. A convenient point is the ***lower front or rear corner*** of the glider since it is a clear point on the glider that will overlap or be quite close to the length scale on the track itself (see {ref}`M02Fig03`).
+
+```{figure} AccGTrackFigures/Figure03_v2025-01.png
+:name: M02Fig03
+:width: 60%
+:align: center
+
+Suggested points on glider to read position on airtrack scale.
+```
+
+8. Four cases will be performed as listed in {numref}`tab-four-glider-spacer-cases`. For each of the four cases, perform the following steps listed in {ref}`detailsteps` and record the data appropriately in your spreadsheet.
     ```{table} Four experimental cases with spacers and gliders
     :name: tab-four-glider-spacer-cases
     | Case | Spacer Size | Glider Size |
@@ -134,9 +144,6 @@ Experimental Setup.
     |  3   |   small     |   small     |
     |  4   |   small     |    BIG      |
     ```
-
-8. Determine a convenient point on the glider to use with the scale attached on the side of track. It doesn't matter what point you choose, only that you use the same point for all determinations of $\Delta s$ for that glider. A convenient point is the lower front or rear corner of the glider since it will be very close or overlapping with the length scale on the track itself.
-9. For each of the four cases, perform the steps listed in  {ref}`detailsteps` and record the data appropriately in your spreadsheet
 
 (detailsteps)=
 ### Steps for each of the four cases with a tilted track
@@ -158,7 +165,7 @@ b. Raise the single leg side of the track by placing a spacer under the knob.
 
 c. Place the glider near the bottom of the track. Move it slowly as you approach the bottom photogate. Stop the glider at the exact location when the photogate's red light comes on. Record position on the scale, $s_0$.
 
-d. Next, place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the photogate's red light comes on. Record position on the scale, $s_1$.
+d. Determine and record position on the , $s_1$. Next, place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the photogate's red light comes on. 
 
 e. Before you take the recorded data in the next step, take some practice runs. Your subsequent data will be much improved by your training! Press record in **Capstone** to start the timer. 
 
@@ -204,9 +211,9 @@ h. For each of the **5 trials per case**, release the glider from rest at the $s
 
 ## The Whiteboard
 
-```{figure} AccGTrackFigures/AccelGTrack_2024_Summer_01.jpg
+```{figure} AccGTrackFigures/AccelGTrack_2024_Summer_01_v2025-01.jpg
 :name: AccelGTrack
-:width: 600px
+:width: 80%
 :align: center
 
 
