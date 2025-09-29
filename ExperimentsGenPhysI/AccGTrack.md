@@ -105,7 +105,7 @@ Experimental Setup.
 
 1. **Do not put a glider on the track without air flowing. If the air supply is not yet on, please remind the instructor.**
 
-2. Create a common data table including:
+2. Create a common data table including (e.g. {ref}`AccGTrack-Common-Data`):
     - accepted value of $g$ of $9.803\,\text{m/s}^2$ for Fairfield, CT
     - the masses of each of the gliders in kg
     - the distance $D$ between the legs of the air track in meter (m)
@@ -186,7 +186,7 @@ Suggested points on glider to read position on airtrack scale.
 (detailsteps)=
 ### Steps for each of the four cases with a tilted track
 
-11. For each of the four cases, create a Data table with enough **rows** for the number of trials you are doing, and **columns** for each of the variables you will be measuring or deriving:
+11. For each of the four cases, create a Data table with enough **rows** for the number of trials you are doing, and **columns** for each of the variables you will be measuring or deriving (e.g. {ref}`experimental-data-AccGTrack`):
     - Trial number
     - Lab member's initials
     - $t_1$: start time at the top
@@ -266,7 +266,7 @@ Suggested points on glider to read position on airtrack scale.
 (summary-step-accelGtrack)=
 ### Overall values across all cases
 
-18. Create an Overall data table summarizing ***all 24 trials across all 4 cases***:
+18. Create an Overall data table summarizing ***all 24 trials across all 4 cases*** (e.g. {ref}`experimental-overall-data-AccGTrack`):
     - Calculate $\bar{g}_{\text{allTrials}}$, the average of the measured $g$
     - Calculate $\sigma_{g\text{,allTrials}}$, the standard deviation of the measured $g$
     - Calculate the difference between your average $g$ and the accepted value of $g$ (e.g. $\bar{g}_{\text{allTrials}} - g_{\text{accepted}}$)
@@ -291,9 +291,73 @@ Suggested points on glider to read position on airtrack scale.
 
 ## The Whiteboard
 
+Example data tables are shown below to assist you in building your spreadsheet for this lab. Additionally the original whiteboard summary is at the end of this section.
+
+(AccGTrack-Common-Data)=
+### Example Common Data Table
+
+```{figure} AccGTrackFigures/Figure04_CommonTable_v2025-01.png
+:name: M02Fig04
+:width: 100%
+:align: center
+```
+<!---
+| Variable | Value | As Needed: Additional <br>Case & Updated Values |
+|:--------:|:-----:|:----------------------------------:|
+| $g_{\text{accepted}}$ (m/s$^2$) |       |                                  |
+| Mass Glider 1 (kg) |         |                                  |
+| Mass Glider 2 (kg) |         |                                  |
+| Distance $D$ (m) |         |                                  |
+| Height $H_1$ (m) |         |                                  |
+| Height $H_2$ (m) |         |                                  |
+| $s_1$ (start) (m) |         |                                  |
+| $s_0$ (stop) (m) |         |                                  |
+| $S$ (m) |         |                                  |
+--->
+
+(experimental-data-AccGTrack)=
+### Example Case Data Table
+```{figure} AccGTrackFigures/Figure05_DataTable_v2025-01.png
+:name: M02Fig05
+:width: 100%
+:align: center
+```
+
+<!---
+| Trial # | Initials | $t_1$ (start) | $t_0$ (stop) | $\Delta t$ | $g$ (trial) |
+|:-------:|:--------:|:-------------:|:------------:|:----------:|:------------:|
+| 1       | AB       |               |              |            |              |
+| 2       | AB       |               |              |            |              |
+| 3       | CD       |               |              |            |              |
+| …       |          |               |              |            |              |
+| n       |          |               |              |            |              |
+| Average $\bar{g}$          | ---      | ---          | ---          | ---          |              |
+| Std. Dev. $\sigma_g$         | ---      | ---          | ---          | ---          |              |
+| Difference ($\bar{g} - g_{\text{accepted}}$) | --- | --- | --- | --- |              |
+--->
+
+(experimental-overall-data-AccGTrack)=
+### Example Overall Data Table
+```{figure} AccGTrackFigures/Figure06_OverallTable_v2025-01.png
+:name: M02Fig06
+:width: 100%
+:align: center
+```
+
+<!---
+| Variable | Value |
+|:--------:|:-----:|
+| Average $\bar{g}_{\text{allTrials}}$ |         |
+| Std. Dev. $\sigma_{g,\text{allTrials}}$ |         |
+| Difference ($\bar{g}_{\text{allTrials}} - g_{\text{accepted}}$) |         |
+--->
+
+
+### Original Whiteboard Info
+
 ```{figure} AccGTrackFigures/AccelGTrack_2024_Summer_01_v2025-01.jpg
 :name: AccelGTrack
-:width: 80%
+:width: 100%
 :align: center
 
 
