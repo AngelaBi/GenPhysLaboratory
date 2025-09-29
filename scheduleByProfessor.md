@@ -1,7 +1,7 @@
 # Overview of the schedule for PHYS 1145 and PHYS 1171
 
 
-```{admonition} Lab Attendance Procedure
+```{admonition} Lab Makeup Procedure
 :class: warning
 If you are unable to make it to your normal lab, **request attendance to another lab**, preferably of like kind (e.g., **1145** with **1145**, purple in the chart) and (**1171** with **1171**, yellow in the chart).
 
