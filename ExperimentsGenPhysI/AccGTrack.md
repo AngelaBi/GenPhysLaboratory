@@ -59,6 +59,14 @@ where $H$ is the vertical rise in the horizontal distance $D$. $D$ is the distan
 
 
 
+```{figure} AccGTrackFigures/Figure02_v2025-02.png
+:name: M02Fig02
+:width: 100%
+:align: center
+
+Experimental Setup.
+```
+
 
 
 
@@ -93,15 +101,9 @@ where $H$ is the vertical rise in the horizontal distance $D$. $D$ is the distan
 
 
 
-```{figure} AccGTrackFigures/Figure02_v2025-02.png
-:name: M02Fig02
-:width: 100%
-:align: center
 
-Experimental Setup.
-```
-
-
+(accelGtrack-experimentPrep)=
+### Preliminary Setup
 
 1. **Do not put a glider on the track without air flowing. If the air supply is not yet on, please remind the instructor.**
 
@@ -147,13 +149,15 @@ Suggested points on glider to read position on airtrack scale.
 <div style="text-align: center;">
 
 (demo-video-accelGtrack-s0s1)=
-### Demo Video: Photogate Positions
+#### Demo Video: Photogate Positions
 
 </div>
-
+    <!--- width="560"
+    height="315"
+    --->
 <div style="text-align: center;">
   <iframe
-    width="560"
+    width=80%
     height="315"
     src="https://www.youtube.com/embed/vij2KvbPowU"
     title="YouTube video"
@@ -184,7 +188,7 @@ Suggested points on glider to read position on airtrack scale.
     ```
 
 (detailsteps)=
-### Steps for each of the four cases with a tilted track
+### Experimental Data Collection
 
 11. For each of the four cases, create a Data table with enough **rows** for the number of trials you are doing, and **columns** for each of the variables you will be measuring or deriving (e.g. {ref}`experimental-data-AccGTrack`):
     - Trial number
@@ -227,7 +231,7 @@ Suggested points on glider to read position on airtrack scale.
     <div style="text-align: center;">
       <figure>
         <iframe
-          width="560"
+          width=80%
           height="315"
           src="https://www.youtube.com/embed/Pow7Sllbg6o"
           title="YouTube video"
@@ -264,7 +268,7 @@ Suggested points on glider to read position on airtrack scale.
     ```
 
 (summary-step-accelGtrack)=
-### Overall values across all cases
+### Combined Results Across All Trials
 
 18. Create an Overall data table summarizing ***all 24 trials across all 4 cases*** (e.g. {ref}`experimental-overall-data-AccGTrack`):
     - Calculate $\bar{g}_{\text{allTrials}}$, the average of the measured $g$
