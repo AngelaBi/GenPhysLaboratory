@@ -1,3 +1,4 @@
+(data-acquisition-and-analysis-overall)=
 # Data Acquisition and Analysis
 
 In this lab you will perform measurements and calculate results from the measurements. Each trial requires similar calculations. The best way to perform repetitive calculation tasks is to use a computer program such as a spreadsheet. The effort to set up the calculation is more than compensated by the reliability and ease of repeating calculations. Several experiments will make use of sensors to aid in measurements and data gathering. The data in these experiments is collected by an advanced computer program called **Capstone**, which is installed on all computers in the lab. The program is also able to organize, analyze, and display the data. This section will give an overview of the program, explain how to set up sensors, and how to display data. More detailed information will be given in the specific experiments, which will make use of the sensors and data acquisition.

@@ -1,3 +1,4 @@
+(centripetal-force-lab-overall)=
 # Centripetal Force with Mass on Rotating Arm
 
 ## Background

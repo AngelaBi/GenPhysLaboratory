@@ -1,3 +1,4 @@
+(acceleration-due-to-g-overall)=
 # Acceleration due to Gravity, *g*, with Glider on Tilted Air Track
 
 ```{admonition} OVERALL GOALS
@@ -95,7 +96,7 @@ Experimental Setup.
 :class: note
 - The presumed frictionless inclined plane will be an air track.
 - The mass will be a glider, which floats on the air track.
-- Placing a spacer of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.
+- Placing a spacer (essentially a big slotted mass) of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.
 - Time measured by PASCO photogates (stated precision of 0.0001 seconds). Using PASCO's data logging and visualization software, **Capstone**, installed on the lab computers. The relevant Capstone file will be on the desktop. Please ***DO NOT*** save when you are done, just exit without saving, thanks.
 ```
 
@@ -111,7 +112,7 @@ Experimental Setup.
     - accepted value of $g$ of $9.803\,\text{m/s}^2$ for Fairfield, CT
     - the masses of each of the gliders in kg
     - the distance $D$ between the legs of the air track in meter (m)
-    - the heights $H$ of the two spacers in m
+    - the heights $H$ of the two spacers (big slotted masses) in m
     - $s_1$: starting point at the top
     - $s_0$: stopping point at the bottom
     - $S$: distance between the photogates that the glider travels along the track
@@ -126,12 +127,12 @@ Experimental Setup.
 
     ```{admonition} Note on drift
     :class: note
-    There will inevitably be some drift as these airtracks are not perfect, but if it takes more than 10 seconds to drift just 5 cm, you should be good.
+    There will inevitably be some drift as these airtracks are not perfect, but as a general rule of thumb, if it takes more than $\sim 10$ seconds to drift just 5 cm, you should be pretty good.
     ```
 
 5. Measure and record the distance $D$. This is the center-to-center distance between the legs. 1 m and 2 m long meter sticks are available for this measurement, with additional meter sticks at the front wall of the room.
 
-6. Measure and record the heights, $H$, of each of the two spacers with the provided Vernier caliper. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`.
+6. Measure and record the heights, $H$, of each of the two spacers (big slotted masses) with the provided Vernier caliper. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`.
 
 7. Take a look at the gliders and determine a convenient point on the glider to use with the scale ($\sim2.5$ meter ruler) attached on the side of air track. It doesn't matter what point on the glider you choose, only that you be consistent and use the same point for all determinations of distance along the track $S$ for that glider. A convenient point is the ***lower front or rear corner*** of the glider since it is a clear point on the glider that will overlap or be quite close to the length scale on the track itself (see {numref}`M02Fig03`).
 

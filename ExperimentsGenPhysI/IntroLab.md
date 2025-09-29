@@ -1,3 +1,4 @@
+(intro-lab-dominos-overall)=
 # Introductory Lab: Domino Size & Density
 
 ## Background
