@@ -421,7 +421,8 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#case-1-2-experimental-data">Case 1 &amp; 2 Experimental Data</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#case-1-2-analysis">Case 1 &amp; 2 Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#case-1-2-analysis-resultant-of-given-vectors-experimental-total">Case 1 &amp; 2 Analysis - Resultant of Given Vectors &amp; Experimental Total</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#case-1-2-analysis-theoretical-values">Case 1 &amp; 2 Analysis - Theoretical Values</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#case-3-data">Case 3 Data</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#original-whiteboard-info">Original Whiteboard Info</a></li>
 </ul>
@@ -507,23 +508,23 @@ F_{1,y} &amp;= \vec{F}_1 \,\sin(\theta_1) &amp; \qquad F_{2,y} &amp;= \vec{F}_2 
         &amp;= 1\,\text{N} \sin(0°) = 0\,\text{N} &amp; &amp;= 1\,\text{N} \sin(45°) = 0.707\,\text{N}.
 \end{aligned}\end{split}\]</div>
 <p>Next, add the <span class="math notranslate nohighlight">\(x\)</span>-components</p>
-<div class="math notranslate nohighlight">
-\[R_x = F_{1,x} + F_{2,x} = 1\,\text{N} + 0.707\,\text{N} = 1.707\,\text{N}.\]</div>
+<div class="math notranslate nohighlight" id="equation-eq-m01-addxcomponenets">
+<span class="eqno">(12)<a class="headerlink" href="#equation-eq-m01-addxcomponenets" title="Permalink to this equation">#</a></span>\[R_x = F_{1,x} + F_{2,x} = 1\,\text{N} + 0.707\,\text{N} = 1.707\,\text{N}\]</div>
 <p>Then, add the <span class="math notranslate nohighlight">\(y\)</span>-components</p>
-<div class="math notranslate nohighlight">
-\[R_y = F_{1,y} + F_{2,y} = 0\,\text{N} + 0.707\,\text{N} = 0.707\,\text{N}.\]</div>
+<div class="math notranslate nohighlight" id="equation-eq-m01-addycomponenets">
+<span class="eqno">(13)<a class="headerlink" href="#equation-eq-m01-addycomponenets" title="Permalink to this equation">#</a></span>\[R_y = F_{1,y} + F_{2,y} = 0\,\text{N} + 0.707\,\text{N} = 0.707\,\text{N}\]</div>
 <p>The magnitude of the resultant is found using the relation</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-resultantmag">
-<span class="eqno">(12)<a class="headerlink" href="#equation-eq-m01-resultantmag" title="Permalink to this equation">#</a></span>\[R^2 = {R_x}^2 + {R_y}^2,\]</div>
+<span class="eqno">(14)<a class="headerlink" href="#equation-eq-m01-resultantmag" title="Permalink to this equation">#</a></span>\[R^2 = {R_x}^2 + {R_y}^2,\]</div>
 <p>or</p>
 <div class="math notranslate nohighlight">
 \[R = \sqrt{\left(1.707\,\text{N}\right)^2 + \left(0.707\,\text{N}\right)^2} = 1.848\,\text{N}.\]</div>
 <p>The angle <span class="math notranslate nohighlight">\(\theta\)</span> specifies the direction of the resultant and it can be calculated by noting that</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-tan-theta">
-<span class="eqno">(13)<a class="headerlink" href="#equation-eq-m01-tan-theta" title="Permalink to this equation">#</a></span>\[\tan\theta = R_{y} / R_{x}\]</div>
+<span class="eqno">(15)<a class="headerlink" href="#equation-eq-m01-tan-theta" title="Permalink to this equation">#</a></span>\[\tan\theta = R_{y} / R_{x}\]</div>
 <p>and</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-arctan">
-<span class="eqno">(14)<a class="headerlink" href="#equation-eq-m01-arctan" title="Permalink to this equation">#</a></span>\[\theta = \arctan (R_{y} / R_{x}).\]</div>
+<span class="eqno">(16)<a class="headerlink" href="#equation-eq-m01-arctan" title="Permalink to this equation">#</a></span>\[\theta = \arctan (R_{y} / R_{x}).\]</div>
 <p>For this example illustrated in <a class="reference internal" href="#m01fig04"><span class="std std-numref">Fig. 14</span></a></p>
 <div class="math notranslate nohighlight">
 \[\tan \theta = (0.707\,\text{N}) / (1.707\,\text{N}) = 0.414,\]</div>
@@ -542,10 +543,13 @@ F_{1,y} &amp;= \vec{F}_1 \,\sin(\theta_1) &amp; \qquad F_{2,y} &amp;= \vec{F}_2 
 <p><span class="caption-number">Fig. 15 </span><span class="caption-text">Illustration of the method to determine the force <span class="math notranslate nohighlight">\(\vec{F}_{3}\)</span> needed to balance two given forces <span class="math notranslate nohighlight">\(\vec{F}_{1}\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_{2}\)</span>.</span><a class="headerlink" href="#m01fig05" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Here <span class="math notranslate nohighlight">\(\vec{F}_3\)</span> is the equilibrant force necessary to equilibrate <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>. Note that, the resultant of <span class="math notranslate nohighlight">\(\vec{F}_1+\vec{F}_2+\vec{F}_3\)</span> is zero since the ring is in equilibrium.</p>
-<p>Force <span class="math notranslate nohighlight">\(\vec{F}_3\)</span> has the same magnitude as the resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span>, but acts in a direction opposite to <span class="math notranslate nohighlight">\(\vec{R}\)</span> (recall that <span class="math notranslate nohighlight">\(\vec{R}=\vec{F}_1+\vec{F}_2\)</span>). So we now have</p>
+<p>Here <span class="math notranslate nohighlight">\(\vec{F}_3\)</span> is the equilibrant force necessary to equilibrate <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>. Note that the resultant of all the vectors for today’s lab should add up to zero, i.e.</p>
+<div class="math notranslate nohighlight" id="equation-eq-m01-allvectorsresultant">
+<span class="eqno">(17)<a class="headerlink" href="#equation-eq-m01-allvectorsresultant" title="Permalink to this equation">#</a></span>\[\vec{F}_{\text{total}} = \vec{F}_1+\vec{F}_2+\vec{F}_3 = 0\]</div>
+<p>since the ring is in equilibrium.</p>
+<p>Recall that <span class="math notranslate nohighlight">\(\vec{R}=\vec{F}_1+\vec{F}_2\)</span>, therefore the equilibrant force <span class="math notranslate nohighlight">\(\vec{F}_3\)</span> has the same magnitude as the resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span>, but acts in a direction opposite to <span class="math notranslate nohighlight">\(\vec{R}\)</span>. So we now have</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-equilibrant">
-<span class="eqno">(15)<a class="headerlink" href="#equation-eq-m01-equilibrant" title="Permalink to this equation">#</a></span>\[\vec{F}_3 = -\vec{R}.\]</div>
+<span class="eqno">(18)<a class="headerlink" href="#equation-eq-m01-equilibrant" title="Permalink to this equation">#</a></span>\[\vec{F}_3 = -\vec{R}.\]</div>
 <p>We conclude that the force necessary to equilibrate two or more forces is equal and opposite to the resultant of the two (or more) forces. This is additionally illustrated in an example of the force table apparatus we will use in <a class="reference internal" href="#m01fig06"><span class="std std-numref">Fig. 16</span></a>.</p>
 </section>
 </section>
@@ -560,7 +564,7 @@ F_{1,y} &amp;= \vec{F}_1 \,\sin(\theta_1) &amp; \qquad F_{2,y} &amp;= \vec{F}_2 
 <p>The apparatus for this experiment consist of a force table, weight holders, and weights (see <a class="reference internal" href="#m01fig06"><span class="std std-numref">Fig. 16</span></a>). The force table consists of a circular tabletop mounted on a vertical rod held in a tripod support with leveling screws. The rim of the circular top has a 360° scale engraved on it along which it is possible to clamp a number of pulleys. At the center of the table is a small ring held in place by means of a removable pin. The ends of three cords are tied to the ring with each cord leading over a pulley and ending with a weight holder tied to its other end. When the forces along the cords acting upon the small ring are balanced, or in static equilibrium, the ring remains stationary. For this lab, the force pulling on the ring is the tension of the string, which is merely translated from horizontal on the table to vertical.</p>
 <p>Each hanging mass has an associated weight (force) due to being pulled <em>down</em> by gravity. This weight is balanced by the <em>upward</em> tension force of the vertical part of the cord which is merely translated from vertical to horizontal tension by the pulley. Thus, the force pulling the ring in the direction of the cord is</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-forceg">
-<span class="eqno">(16)<a class="headerlink" href="#equation-eq-m01-forceg" title="Permalink to this equation">#</a></span>\[\vec{F}_\text{weight} = m \cdot \vec{g} = \vec{F}_\text{tension}\]</div>
+<span class="eqno">(19)<a class="headerlink" href="#equation-eq-m01-forceg" title="Permalink to this equation">#</a></span>\[\vec{F}_\text{weight} = m \cdot \vec{g} = \vec{F}_\text{tension}\]</div>
 <p>For accurate measurements of the angles involved, each cord must be aimed directly at the peg at the center of the ring requiring that the equilibrium condition must be established when the ring is exactly centered around the pin on the table. Use consistently  the same counterclockwise protractor.</p>
 </section>
 <section id="experimental-procedure">
@@ -579,7 +583,7 @@ F_{1,y} &amp;= \vec{F}_1 \,\sin(\theta_1) &amp; \qquad F_{2,y} &amp;= \vec{F}_2 
 \text{Mass 2:} &amp; 250\,\text{g} &amp; &#64;\,135^\circ
 \end{array}
 \end{split}\]</div>
-<p>you would place a pulley at 0° and add 150 g to the 50 g weight hanger for a total 200 g. As mentioned in <a class="reference internal" href="#equation-eq-m01-forceg">(16)</a>, the tension on the cord is the same on both sides of the pulley so that the downward pull of gravity on the hanger and masses is equal to the tension in the cord leading to the ring. Thus,</p>
+<p>you would place a pulley at 0° and add 150 g to the 50 g weight hanger for a total 200 g. As mentioned in <a class="reference internal" href="#equation-eq-m01-forceg">(19)</a>, the tension on the cord is the same on both sides of the pulley so that the downward pull of gravity on the hanger and masses is equal to the tension in the cord leading to the ring. Thus,</p>
 <div class="math notranslate nohighlight">
 \[\vec{F_1} = m \vec{g} = 0.20\,\text{kg} \times 9.8\,\text{m/s}^2 = 1.96\,\text{N} \text{ &#64; } 0°.\]</div>
 <p>Similarly, add 200 g to a 50 g weight hanger and run its cord over a pulley mounted at 135°.</p>
@@ -597,26 +601,26 @@ Experimentally determine the angles <span class="math notranslate nohighlight">\
 You have to solve a pair of equations for the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components of force.
 The equation for equilibrium in the <span class="math notranslate nohighlight">\(x\)</span> direction is</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-unknownx">
-<span class="eqno">(17)<a class="headerlink" href="#equation-eq-m01-unknownx" title="Permalink to this equation">#</a></span>\[\sum_{i=1}^{n=3} F_{i,x} = F_{1,x} + F_{2,x} + F_{3,x} = (M_1 + M_2 \cos\theta_2 + M_3 \cos\theta_3)g = 0.\]</div>
+<span class="eqno">(20)<a class="headerlink" href="#equation-eq-m01-unknownx" title="Permalink to this equation">#</a></span>\[\sum_{i=1}^{n=3} F_{i,x} = F_{1,x} + F_{2,x} + F_{3,x} = (M_1 + M_2 \cos\theta_2 + M_3 \cos\theta_3)g = 0.\]</div>
 <p>Similarly, the equation for equilibrium in the <span class="math notranslate nohighlight">\(y\)</span> direction is</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-unknowny">
-<span class="eqno">(18)<a class="headerlink" href="#equation-eq-m01-unknowny" title="Permalink to this equation">#</a></span>\[\sum_{i=1}^{n=3} F_{i,y} = (M_2 \sin\theta_2 + M_3 \sin\theta_3)g = 0.\]</div>
-<p>In these equations, we are assuming we know <span class="math notranslate nohighlight">\(M_1\)</span>, <span class="math notranslate nohighlight">\(\theta_1\)</span>, <span class="math notranslate nohighlight">\(\theta_2\)</span>, <span class="math notranslate nohighlight">\(\theta_3\)</span>, and that we want to determine <span class="math notranslate nohighlight">\(M_2\)</span> and <span class="math notranslate nohighlight">\(M_3\)</span>. Of the various ways your could do this, one way is to multiply <a class="reference internal" href="#equation-eq-m01-unknownx">(17)</a> by <span class="math notranslate nohighlight">\(\sin \theta_2\)</span> and <a class="reference internal" href="#equation-eq-m01-unknowny">(18)</a> by <span class="math notranslate nohighlight">\(\cos \theta_2\)</span>. The result is:</p>
+<span class="eqno">(21)<a class="headerlink" href="#equation-eq-m01-unknowny" title="Permalink to this equation">#</a></span>\[\sum_{i=1}^{n=3} F_{i,y} = (M_2 \sin\theta_2 + M_3 \sin\theta_3)g = 0.\]</div>
+<p>In these equations, we are assuming we know <span class="math notranslate nohighlight">\(M_1\)</span>, <span class="math notranslate nohighlight">\(\theta_1\)</span>, <span class="math notranslate nohighlight">\(\theta_2\)</span>, <span class="math notranslate nohighlight">\(\theta_3\)</span>, and that we want to determine <span class="math notranslate nohighlight">\(M_2\)</span> and <span class="math notranslate nohighlight">\(M_3\)</span>. Of the various ways your could do this, one way is to multiply <a class="reference internal" href="#equation-eq-m01-unknownx">(20)</a> by <span class="math notranslate nohighlight">\(\sin \theta_2\)</span> and <a class="reference internal" href="#equation-eq-m01-unknowny">(21)</a> by <span class="math notranslate nohighlight">\(\cos \theta_2\)</span>. The result is:</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-unknownxsin">
-<span class="eqno">(19)<a class="headerlink" href="#equation-eq-m01-unknownxsin" title="Permalink to this equation">#</a></span>\[(M_1\sin\theta_2 + M_2\cos\theta_2\sin\theta_2 + M_3\cos\theta_3\sin\theta_2) = 0\]</div>
+<span class="eqno">(22)<a class="headerlink" href="#equation-eq-m01-unknownxsin" title="Permalink to this equation">#</a></span>\[(M_1\sin\theta_2 + M_2\cos\theta_2\sin\theta_2 + M_3\cos\theta_3\sin\theta_2) = 0\]</div>
 <div class="math notranslate nohighlight" id="equation-eq-m01-unknownycos">
-<span class="eqno">(20)<a class="headerlink" href="#equation-eq-m01-unknownycos" title="Permalink to this equation">#</a></span>\[(M_2\sin\theta_2\cos\theta_2 + M_3\sin\theta_3\cos\theta_2) = 0\]</div>
-<p>You can then subtract the <span class="math notranslate nohighlight">\(y\)</span> component <a class="reference internal" href="#equation-eq-m01-unknownycos">(20)</a> from the <span class="math notranslate nohighlight">\(x\)</span> component <a class="reference internal" href="#equation-eq-m01-unknownxsin">(19)</a></p>
+<span class="eqno">(23)<a class="headerlink" href="#equation-eq-m01-unknownycos" title="Permalink to this equation">#</a></span>\[(M_2\sin\theta_2\cos\theta_2 + M_3\sin\theta_3\cos\theta_2) = 0\]</div>
+<p>You can then subtract the <span class="math notranslate nohighlight">\(y\)</span> component <a class="reference internal" href="#equation-eq-m01-unknownycos">(23)</a> from the <span class="math notranslate nohighlight">\(x\)</span> component <a class="reference internal" href="#equation-eq-m01-unknownxsin">(22)</a></p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-unknownxsin-unknownycos">
-<span class="eqno">(21)<a class="headerlink" href="#equation-eq-m01-unknownxsin-unknownycos" title="Permalink to this equation">#</a></span>\[(M_1\sin\theta_2 + M_2\cos\theta_2\sin\theta_2 + M_3\cos\theta_3\sin\theta_2)
+<span class="eqno">(24)<a class="headerlink" href="#equation-eq-m01-unknownxsin-unknownycos" title="Permalink to this equation">#</a></span>\[(M_1\sin\theta_2 + M_2\cos\theta_2\sin\theta_2 + M_3\cos\theta_3\sin\theta_2)
 - (M_2\sin\theta_2\cos\theta_2 + M_3\sin\theta_3\cos\theta_2) = 0\]</div>
 <p>to find an equation where the only unknown is <span class="math notranslate nohighlight">\(M_3\)</span>:</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-solvem3">
-<span class="eqno">(22)<a class="headerlink" href="#equation-eq-m01-solvem3" title="Permalink to this equation">#</a></span>\[M_1 \sin \theta_2  + M_3 \cos \theta_3 \sin \theta_2 - M_3 \sin \theta_3 \cos \theta_2 = 0.\]</div>
+<span class="eqno">(25)<a class="headerlink" href="#equation-eq-m01-solvem3" title="Permalink to this equation">#</a></span>\[M_1 \sin \theta_2  + M_3 \cos \theta_3 \sin \theta_2 - M_3 \sin \theta_3 \cos \theta_2 = 0.\]</div>
 <p>After algebraically solving for <span class="math notranslate nohighlight">\(M_3\)</span>, you can use the known values to solve for the experimental <span class="math notranslate nohighlight">\(M_3\)</span> and enter the value in your data table for later comparisons to the actual values.</p>
-<p>After having algebraically solved for <span class="math notranslate nohighlight">\(M_3\)</span> with <a class="reference internal" href="#equation-eq-m01-solvem3">(22)</a>, you could plug that equation back in to <a class="reference internal" href="#equation-eq-m01-unknownycos">(20)</a> to eliminate <span class="math notranslate nohighlight">\(M_3\)</span> to find an equation where the only unknown is <span class="math notranslate nohighlight">\(M_2\)</span>:</p>
+<p>After having algebraically solved for <span class="math notranslate nohighlight">\(M_3\)</span> with <a class="reference internal" href="#equation-eq-m01-solvem3">(25)</a>, you could plug that equation back in to <a class="reference internal" href="#equation-eq-m01-unknownycos">(23)</a> to eliminate <span class="math notranslate nohighlight">\(M_3\)</span> to find an equation where the only unknown is <span class="math notranslate nohighlight">\(M_2\)</span>:</p>
 <div class="math notranslate nohighlight" id="equation-eq-m01-solvem2">
-<span class="eqno">(23)<a class="headerlink" href="#equation-eq-m01-solvem2" title="Permalink to this equation">#</a></span>\[M_1 \sin \theta_3  + M_2 \cos \theta_2 \sin \theta_3 - M_2 \sin \theta_2 \cos \theta_3 = 0.\]</div>
+<span class="eqno">(26)<a class="headerlink" href="#equation-eq-m01-solvem2" title="Permalink to this equation">#</a></span>\[M_1 \sin \theta_3  + M_2 \cos \theta_2 \sin \theta_3 - M_2 \sin \theta_2 \cos \theta_3 = 0.\]</div>
 <p>After algebraically solving for <span class="math notranslate nohighlight">\(M_2\)</span>, you can use the known values to solve for the experimental <span class="math notranslate nohighlight">\(M_2\)</span> and enter the value in your data table for later comparisons to the actual values.</p>
 <p>You would then measure <span class="math notranslate nohighlight">\(M_{2,actual}\)</span> and <span class="math notranslate nohighlight">\(M_{3,actual}\)</span> on the scale and enter the values in the table and comare.</p>
 <div class="warning admonition">
@@ -631,13 +635,13 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <p class="admonition-title">OVERVIEW</p>
 <ul class="simple">
 <li><p>Understand how to add and balance vectors using the <strong>method of components</strong>.</p></li>
-<li><p>Conduct 2 cases of two additive, known vectors (weights at given angles) to experimentally determine the third balancing or equilibrant vector.</p></li>
+<li><p>Conduct 2 cases of two additive, known vectors (weights at given angles in Table <a class="reference internal" href="#tab-case12"><span class="std std-ref">Case 1 &amp; 2 Given Values</span></a>) to experimentally determine the third balancing or equilibrant vector.</p></li>
 <li><p>Compare the experimental results to theoretically expected vectors.</p></li>
 <li><p><strong>Assume</strong> 0° is the +x direction, 90° is the +y direction</p></li>
 </ul>
 </div>
-<p>The first two cases’ given values are:</p>
-<div class="pst-scrollable-table-container"><table class="table">
+<div class="pst-scrollable-table-container"><table class="table" id="tab-case12">
+<caption><span class="caption-number">Table 1 </span><span class="caption-text">Case 1 &amp; 2 Given Values</span><a class="headerlink" href="#tab-case12" title="Permalink to this table">#</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Hanger (i.e. Vector)</p></th>
 <th class="head"><p>Mass (g)</p></th>
@@ -680,80 +684,160 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 </tbody>
 </table>
 </div>
-<p>For these first two cases, experimentally determine the 3rd (equilibrant) vector and compare your results to your expected values.</p>
+<p>For these first two cases, with given initial values in Table <a class="reference internal" href="#tab-case12"><span class="std std-ref">Case 1 &amp; 2 Given Values</span></a>, experimentally determine the 3rd (equilibrant) vector and compare your results to your expected values.</p>
 <div class="warning admonition">
 <p class="admonition-title">Run First Case Calculations (Start to finish before moving on to the second case)</p>
 <p>Reminder, run first case fully before moving on to additional cases. Don’t just take all of your data without checking your methodology.</p>
 </div>
-<ol class="arabic simple">
+<ol class="arabic">
 <li><p>Create data tables for the first case. NOTE: The data layout for each of the first two cases is the same. Create for the first case and run the whole experiment, then you can copy/paste the same data table for the additional case(s).</p>
-<ul class="simple">
-<li><p>Common data section with accepted value of <span class="math notranslate nohighlight">\(g\)</span> (9.803 m/s²), mass of the hanger, and any other common values. You will reference these values in the calculations.</p></li>
+<ul>
+<li><p>Common data section with accepted value of <span class="math notranslate nohighlight">\(g\)</span> (9.803 m/s²), mass of the hanger, list of slotted masses with their uncertainties (see table <a class="reference internal" href="#tab-slotted"><span class="std std-ref">Slotted Masses</span></a> later in the procedure), and any other common values. You will reference these values in the calculations.</p></li>
 <li><p>An experimental data table (e.g. <a class="reference internal" href="#experimental-data-vectortable"><span class="std std-ref">Case 1 &amp; 2 Experimental Data</span></a>) to record your experimental results with:</p>
 <ul>
 <li><p>With <strong>three rows</strong> (1 for each of the 3 vectors).</p></li>
 <li><p>Include <strong>columns</strong> for:</p>
 <ul>
 <li><p><span class="math notranslate nohighlight">\(m_i\)</span>: hanging mass in kilograms (kg)</p></li>
-<li><p><span class="math notranslate nohighlight">\(\delta m_i\)</span>: your estimate of the experimental uncertainty [± value] of the masses</p></li>
-<li><p><span class="math notranslate nohighlight">\(F_i\)</span>: calculated magnitude of the force in Newtons (N) (see <a class="reference internal" href="#equation-eq-m01-forceg">(16)</a>)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\delta m_i\)</span>: your estimate of the experimental uncertainty [± value] of the masses in kg</p>
+<div class="note admonition">
+<p class="admonition-title">Greek</p>
+<p>The Greek letter <span class="math notranslate nohighlight">\(\delta\)</span> (said as “delta”) is representing the <em>measurement</em> uncertainty of each variable (e.g. <span class="math notranslate nohighlight">\(m \pm \delta_m\)</span>)</p>
+</div>
+</li>
+<li><p><span class="math notranslate nohighlight">\(F_i\)</span>: calculated magnitude of the force in Newtons (N)</p></li>
 <li><p><span class="math notranslate nohighlight">\(\theta_i\)</span>: direction of the force vector in degrees</p></li>
-<li><p><span class="math notranslate nohighlight">\(\delta \theta_i\)</span>: your estimate of the experimental uncertainty of the angle</p></li>
-<li><p><span class="math notranslate nohighlight">\(F_{i,x}\)</span>: calculated <span class="math notranslate nohighlight">\(x\)</span>-component of the force vectors (see <a class="reference internal" href="#equation-eq-m01-cossinangle">(11)</a>). Reminder, Excel needs angles in radians (use <code class="docutils literal notranslate"><span class="pre">RADIANS()</span></code> function to convert)</p></li>
-<li><p><span class="math notranslate nohighlight">\(F_{i,y}\)</span>: calculated <span class="math notranslate nohighlight">\(y\)</span>-component of the force vectors</p></li>
+<li><p><span class="math notranslate nohighlight">\(\delta \theta_i\)</span>: your estimate of the experimental uncertainty of the angle in degrees</p></li>
+<li><p><span class="math notranslate nohighlight">\(F_{i,x}\)</span>: calculated <span class="math notranslate nohighlight">\(x\)</span>-component of each force vector in N</p></li>
+<li><p><span class="math notranslate nohighlight">\(F_{i,y}\)</span>: calculated <span class="math notranslate nohighlight">\(y\)</span>-component of each force vector in N</p></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p>A secondary analysis table (e.g. <a class="reference internal" href="#analysis-vectortable"><span class="std std-ref">Case 1 &amp; 2 Analysis</span></a>) to analyze the results of your measurements. This is effectively one row as there would be just a single value for each of the variables. The columns should include variables:</p>
-<ul>
-<li><p><span class="math notranslate nohighlight">\(R_x\)</span> &amp; <span class="math notranslate nohighlight">\(R_y\)</span>: the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components of the resultant vector <span class="math notranslate nohighlight">\(\vec{R}\)</span> of the two given force vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\vec{R}\)</span>: magnitude of the resultant force vector in Newtons (see Pythagorean Theorem in <a class="reference internal" href="#equation-eq-m01-resultantmag">(12)</a>)</p></li>
-<li><p><span class="math notranslate nohighlight">\(\theta_{R}\)</span>: direction of the resultant in degrees (see <a class="reference internal" href="#equation-eq-m01-arctan">(14)</a> which stems from trigonometry). Use <code class="docutils literal notranslate"><span class="pre">ATAN2()</span></code> Excel function to get angle as measured counterclockwise from 0°. Reminder, Excel returns angles in radians (use <code class="docutils literal notranslate"><span class="pre">DEGREES()</span></code> function to convert)</p></li>
-<li><p><span class="math notranslate nohighlight">\(F_{x\text{,total,experimental}}\)</span> &amp; <span class="math notranslate nohighlight">\(F_{y\text{,total,experimental}}\)</span>: total of your measured vector components. Could also be stated as the sum of the experimental <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> vector components from <span class="math notranslate nohighlight">\(\vec{R}\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_3\)</span>, or as <span class="math notranslate nohighlight">\(\sum_{i=1}^{n=3} F_{i,x}\)</span> and <span class="math notranslate nohighlight">\(\sum_{i=1}^{n=3} F_{i,y}\)</span>.</p></li>
-<li><p><span class="math notranslate nohighlight">\(\vec{F}_{\text{total,experimental}}\)</span> (a.k.a. <span class="math notranslate nohighlight">\(\delta \vec{F}_3\)</span>): the magnitude of the total force, determined in similar fashion to <a class="reference internal" href="#equation-eq-m01-resultantmag">(12)</a>, but with <span class="math notranslate nohighlight">\(F_{x\text{,total,experimental}}\)</span> &amp; <span class="math notranslate nohighlight">\(F_{y\text{,total,experimental}}\)</span>. <em><strong>Consider</strong></em>: The <strong>total force <em>should</em> be zero</strong> because the ring is in equilibrium. The magnitude of the total force is therefore a measure of the <em><strong>experimental uncertainty</strong></em>. This effectively represents <span class="math notranslate nohighlight">\(\delta \vec{F}_3\)</span> where your experimental result would be <span class="math notranslate nohighlight">\(\vec{F}_3 \pm \delta \vec{F}_3\)</span></p></li>
-<li><p>Based on your determined resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span>:</p>
-<ul>
-<li><p><span class="math notranslate nohighlight">\(\vec{F}_{3,\text{theoretical}}\)</span>: your expected or theoretical magnitude of the equilibrant force in N</p></li>
-<li><p><span class="math notranslate nohighlight">\(m_{3,\text{theoretical}}\)</span>: theoretical equilibrant mass in kg</p></li>
-<li><p><span class="math notranslate nohighlight">\(\theta_{3,\text{theoretical}}\)</span>: theoretical equilibrant direction in deg. (e.g. <span class="math notranslate nohighlight">\(\theta_{R} + 180°\)</span>)</p></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>Starting with the first case, place the respective masses on their hangers 1 &amp; 2. <em><strong>NOTE: Slotted masses are available at the table at the front of the room.</strong></em></p></li>
-<li><p>Unscrew the black pulleys to rotate them around the tabletop to their given angles.</p></li>
-<li><p>With hanger 3, add or subtract masses and scoot the pulley around the force table until the ring is as perfectly centered around the center pin as possible to argue equilibrium.</p></li>
-<li><p>Note your <span class="math notranslate nohighlight">\(m_i\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_i\)</span> values.</p></li>
-<li><p>Also note both of your estimated uncertainties <span class="math notranslate nohighlight">\(\delta m_i\)</span> &amp; <span class="math notranslate nohighlight">\(\delta \theta_i\)</span>. For <span class="math notranslate nohighlight">\(\delta m_i\)</span>, add up the total uncertainty of each of your slotted masses. For today, assume each hanger is exactly 50 g, but the list of uncertainties for the <em>slotted masses</em> is:</p>
+<li><p>An analysis table (e.g. <a class="reference internal" href="#analysis-vectortable-resultant-and-sum"><span class="std std-ref">Case 1 &amp; 2 Analysis - Resultant of Given Vectors &amp; Experimental Total</span></a>) to analyze the results of your measurements. This is effectively one row as there would be just a single value for each of the variables. The columns should include variables:</p>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(200 \pm 2 \)</span> g</p></li>
-<li><p><span class="math notranslate nohighlight">\(100 \pm 1 \)</span> g</p></li>
-<li><p><span class="math notranslate nohighlight">\(50 \pm 0.5 \)</span> g</p></li>
-<li><p><span class="math notranslate nohighlight">\(20 \pm 0.2 \)</span> g</p></li>
-<li><p><span class="math notranslate nohighlight">\(10 \pm 0.1 \)</span> g</p></li>
-<li><p><span class="math notranslate nohighlight">\(5 \pm 0.1 \)</span> g</p></li>
-<li><p><span class="math notranslate nohighlight">\(2 \pm 0.04 \)</span> g</p></li>
-<li><p><span class="math notranslate nohighlight">\(1 \pm 0.03 \)</span> g</p></li>
-<li><p>e.g. if you had measured <span class="math notranslate nohighlight">\(123\)</span> g from just slotted masses, you could have used one of each <code class="docutils literal notranslate"><span class="pre">100,</span> <span class="pre">20,</span> <span class="pre">2,</span> <span class="pre">1</span> <span class="pre">g</span></code>, which would end up giving an uncertainty of <span class="math notranslate nohighlight">\(123 \pm (1 + 0.2 + 0.04 + 0.03)\)</span> g or <span class="math notranslate nohighlight">\(123 \pm 1.27\)</span> g.</p></li>
+<li><p><span class="math notranslate nohighlight">\(R_x\)</span>: the <span class="math notranslate nohighlight">\(x\)</span> component of the resultant vector <span class="math notranslate nohighlight">\(\vec{R}\)</span> in N</p></li>
+<li><p><span class="math notranslate nohighlight">\(R_y\)</span>: the <span class="math notranslate nohighlight">\(y\)</span> component of the resultant vector <span class="math notranslate nohighlight">\(\vec{R}\)</span> in N</p></li>
+<li><p><span class="math notranslate nohighlight">\(R\)</span>: magnitude of the resultant vector <span class="math notranslate nohighlight">\(\vec{R}\)</span> in N</p></li>
+<li><p><span class="math notranslate nohighlight">\(\theta_{R}\)</span>: direction of the resultant vector <span class="math notranslate nohighlight">\(\vec{R}\)</span> in degrees</p></li>
+<li><p><span class="math notranslate nohighlight">\(F_{x\text{,total,experimental}}\)</span> &amp; <span class="math notranslate nohighlight">\(F_{y\text{,total,experimental}}\)</span>: total of all vector components in N</p></li>
+<li><p><span class="math notranslate nohighlight">\(\vec{F}_{\text{total,experimental}}\)</span>: total overall magnitude of all vectors which we will also treat as <span class="math notranslate nohighlight">\(\delta \vec{F}_3\)</span> in N</p></li>
 </ul>
 </li>
-<li><p>Derive the hangers’ respective forces (e.g. <a class="reference internal" href="#equation-eq-m01-forceg">(16)</a>).</p></li>
-<li><p>Determine the hangers’ respective <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components.</p></li>
-<li><p>Determine the resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span> from your derived values for <span class="math notranslate nohighlight">\(R_x\)</span>, <span class="math notranslate nohighlight">\(R_y\)</span>.</p></li>
-<li><p>Determine the resultant’s angle <span class="math notranslate nohighlight">\(\theta_R\)</span>.</p></li>
-<li><p>Determine the sum total of the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> experimental components from <span class="math notranslate nohighlight">\(\vec{R}\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_3\)</span>; use them to determine <span class="math notranslate nohighlight">\(\delta \vec{F}_3\)</span>.</p></li>
-<li><p>Determine your theoretical equilibrant vector: magnitude <span class="math notranslate nohighlight">\(\vec{F}_{3,\text{theoretical}}\)</span>, mass <span class="math notranslate nohighlight">\(m_{3,\text{theoretical}}\)</span>, and direction <span class="math notranslate nohighlight">\(\theta_{3,\text{theoretical}}\)</span> based on your results for <span class="math notranslate nohighlight">\(\vec{R}\)</span>.</p></li>
-<li><p>COMPARE your experimental results of hanger 3 to the theoretical values. Does <span class="math notranslate nohighlight">\(\vec{F}_3 \pm \delta \vec{F}_3\)</span> overlap (and therefore agree) with your theoretical value <span class="math notranslate nohighlight">\(\vec{F}_{3,\text{theoretical}}\)</span>? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section <a class="reference internal" href="#interpretation1"><span class="std std-ref">Post-Lab Submission — Interpretation of Results</span></a>.</p></li>
+<li><p>A secondary analysis table (e.g. <a class="reference internal" href="#analysis-vectortable-theory"><span class="std std-ref">Case 1 &amp; 2 Analysis - Theoretical Values</span></a>) to analyze your expected values. This is also effectively one row as there would be just a single value for each of the variables. The columns should include variables:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(F_{3,\text{theoreticalMagnitude}}\)</span>: your expected or theoretical magnitude of the equilibrant force in N</p></li>
+<li><p><span class="math notranslate nohighlight">\(m_{3,\text{theoretical}}\)</span>: theoretical equilibrant mass in kg</p></li>
+<li><p><span class="math notranslate nohighlight">\(\theta_{3,\text{theoretical}}\)</span>: theoretical equilibrant direction in degrees</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Starting with the first case, add slotted masses to hangers 1 &amp; 2 to set their masses equal to the given values in Table <a class="reference internal" href="#tab-case12"><span class="std std-ref">Case 1 &amp; 2 Given Values</span></a>.</p>
+<div class="note admonition">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Hangers are 50 g.</p></li>
+<li><p>Slotted masses are available at the table at the front of the room.</p></li>
+</ul>
+</div>
+</li>
+<li><p>Loosen the screws of the black pulleys to rotate them around the tabletop to their given angles and retighten.</p></li>
+<li><p>With hanger 3 (unknown vector), add or subtract slotted masses and scoot the pulley with hanger and masses around the force table until the system is at equilibrium.</p>
+<div class="note admonition">
+<p class="admonition-title">For equilibrium</p>
+<ul class="simple">
+<li><p>The ring should be as perfectly centered around the center pin as possible.</p></li>
+<li><p>You should see all the strings point from the pulley directly towards the center pin.</p></li>
+</ul>
+</div>
+</li>
+<li><p>Double check the given vectors are still lined up with their given angles. If not, readjust as needed.</p></li>
+<li><p>Note your <span class="math notranslate nohighlight">\(m_i\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_i\)</span> values.</p></li>
+<li><p>Also note both of your estimated uncertainties <span class="math notranslate nohighlight">\(\delta m_i\)</span> &amp; <span class="math notranslate nohighlight">\(\delta \theta_i\)</span>.</p>
+<ul>
+<li><p>For <span class="math notranslate nohighlight">\(\delta \theta_i\)</span>, estimate this based on the force table’s increments and your confidence that the ring is still centered on the center pin. Example: move the pulley left or right until you’re no longer convinced the ring is centered; however far you’ve shifted it, that will be your <span class="math notranslate nohighlight">\(\delta \theta_i\)</span> range.</p></li>
+<li><p>For <span class="math notranslate nohighlight">\(\delta m_i\)</span>, add up the total uncertainty of each of your slotted masses. For today, assume each hanger is exactly 50 g, but the list of uncertainties for the <em>slotted masses</em> is below. Example: if you had measured <span class="math notranslate nohighlight">\(123\)</span> g from just slotted masses, you could have used one of each <code class="docutils literal notranslate"><span class="pre">100,</span> <span class="pre">20,</span> <span class="pre">2,</span> <span class="pre">1</span> <span class="pre">g</span></code>, which would end up giving an uncertainty of <span class="math notranslate nohighlight">\(123 \pm (1 + 0.2 + 0.04 + 0.03)\)</span> g or <span class="math notranslate nohighlight">\(123 \pm 1.27\)</span> g:</p>
+<div class="pst-scrollable-table-container"><table class="table" id="tab-slotted">
+<caption><span class="caption-number">Table 2 </span><span class="caption-text">Slotted Masses</span><a class="headerlink" href="#tab-slotted" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head text-center"><p>Mass (g)</p></th>
+<th class="head text-center"><p>Uncertainty (g)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p>200</p></td>
+<td class="text-center"><p>2.0</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>100</p></td>
+<td class="text-center"><p>1.0</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>50</p></td>
+<td class="text-center"><p>0.5</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>20</p></td>
+<td class="text-center"><p>0.2</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>10</p></td>
+<td class="text-center"><p>0.1</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>5</p></td>
+<td class="text-center"><p>0.1</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>2</p></td>
+<td class="text-center"><p>0.04</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>1</p></td>
+<td class="text-center"><p>0.03</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</li>
+<li><p>Calculate the hangers’ respective forces <span class="math notranslate nohighlight">\(F_i\)</span> using <a class="reference internal" href="#equation-eq-m01-forceg">(19)</a>.</p></li>
+<li><p>Determine the hangers’ respective <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components <span class="math notranslate nohighlight">\(F_{i,x}\)</span> and <span class="math notranslate nohighlight">\(F_{i,y}\)</span>. See <a class="reference internal" href="#equation-eq-m01-cossinangle">(11)</a>.</p>
+<div class="note admonition">
+<p class="admonition-title">Excel Uses Radians</p>
+<p>Excel functions require angles to be in radians; use <code class="docutils literal notranslate"><span class="pre">RADIANS()</span></code> function to convert.</p>
+</div>
+</li>
+<li><p>In your analysis table, determine <span class="math notranslate nohighlight">\(R_x\)</span> and <span class="math notranslate nohighlight">\(R_y\)</span>, the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> components of the resultant vector <span class="math notranslate nohighlight">\(\vec{R}\)</span> of this case’s two given force vectors <span class="math notranslate nohighlight">\(\vec{F}_1\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_2\)</span>.</p></li>
+<li><p>Determine the magnitude <span class="math notranslate nohighlight">\(R\)</span> of the resultant vector (see Pythagorean Theorem in <a class="reference internal" href="#equation-eq-m01-resultantmag">(14)</a>).</p></li>
+<li><p>Determine the direction <span class="math notranslate nohighlight">\(\theta_R\)</span> of the resultant vector. See <a class="reference internal" href="#equation-eq-m01-arctan">(16)</a>. Use the <code class="docutils literal notranslate"><span class="pre">ATAN2()</span></code> Excel function to get the angle as measured counterclockwise from 0°.</p>
+<div class="note admonition">
+<p class="admonition-title">We Use Degrees</p>
+<p>Excel trig functions return angles in radians; use <code class="docutils literal notranslate"><span class="pre">DEGREES()</span></code> function to convert.</p>
+</div>
+</li>
+<li><p>Determine <span class="math notranslate nohighlight">\(F_{x\text{,total,experimental}}\)</span> &amp; <span class="math notranslate nohighlight">\(F_{y\text{,total,experimental}}\)</span>, the sum totals of the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> experimental components from all of your vectors, i.e. <span class="math notranslate nohighlight">\(\vec{R}\)</span> and <span class="math notranslate nohighlight">\(\vec{F}_3\)</span> (see also <a class="reference internal" href="#equation-eq-m01-resultant-sum">(9)</a>, <a class="reference internal" href="#equation-eq-m01-addxcomponenets">(12)</a>, <a class="reference internal" href="#equation-eq-m01-addycomponenets">(13)</a>, and <a class="reference internal" href="#equation-eq-m01-allvectorsresultant">(17)</a>). Could also be stated as <span class="math notranslate nohighlight">\(\sum_{i=1}^{n=3} F_{i,x}\)</span> and <span class="math notranslate nohighlight">\(\sum_{i=1}^{n=3} F_{i,y}\)</span>.</p></li>
 </ol>
+<!---; use them to determine $\delta \vec{F}_3$.--->
+<ol class="arabic" start="14">
+<li><p>Determine <span class="math notranslate nohighlight">\(F_{\text{total,experimental}}\)</span> (also treated as <span class="math notranslate nohighlight">\(\delta F_3\)</span>), the sum total experimental magnitude of all three of your vectors determined in similar fashion to <a class="reference internal" href="#equation-eq-m01-resultantmag">(14)</a>, but with <span class="math notranslate nohighlight">\(F_{x\text{,total,experimental}}\)</span> &amp; <span class="math notranslate nohighlight">\(F_{y\text{,total,experimental}}\)</span>.</p>
+<div class="note admonition">
+<p class="admonition-title"><span class="math notranslate nohighlight">\(F_3\)</span> Error Approximation</p>
+<ul class="simple">
+<li><p>For simplicity in your error analysis, we will also treat this value as the minimum uncertainty <span class="math notranslate nohighlight">\(\delta F_3\)</span> of the magnitude of your experimentally determined equilibrant vector such that your experimental magnitude would be <span class="math notranslate nohighlight">\(F_3 \pm \delta F_3\)</span>.</p></li>
+<li><p><em><strong>Consider</strong></em>: The <strong>sum of all three vectors</strong> or <strong>total force <em>should</em> be zero</strong> because the ring and vectors are in equilibrium with no acceleration (Newton’s 2nd Law). The difference between the experimental total force (probably not zero) and theoretical total force (zero) can therefore be an approximation of the <em><strong>minimum experimental uncertainty</strong></em>. Your error in reality may be larger, but your error bars are at minimum <span class="math notranslate nohighlight">\(\delta F_3\)</span> away from zero.</p></li>
+</ul>
+</div>
+</li>
+<li><p>In your secondary analysis table, based on the resultant <span class="math notranslate nohighlight">\(\vec{R}\)</span> of the two given vectors, determine your theoretical equilibrant vector <span class="math notranslate nohighlight">\(\vec{F}_{3,\text{theoretical}}\)</span> that would balance the resultant, and its associated expected mass (see <a class="reference internal" href="#equation-eq-m01-equilibrant">(18)</a>):</p>
+<ul class="simple">
+<li><p>magnitude <span class="math notranslate nohighlight">\(F_{3,\text{theoreticalMagnitude}}\)</span></p></li>
+<li><p>direction <span class="math notranslate nohighlight">\(\theta_{3,\text{theoretical}}\)</span></p></li>
+<li><p>mass <span class="math notranslate nohighlight">\(m_{3,\text{theoretical}}\)</span></p></li>
+</ul>
+</li>
+<li><p>COMPARE your experimental results of hanger/vector 3 to the theoretical values. Does <span class="math notranslate nohighlight">\(F_3 \pm \delta F_3\)</span> overlap (and therefore agree) with your theoretical value <span class="math notranslate nohighlight">\(F_{3,\text{theoreticalMagnitude}}\)</span>? What about <span class="math notranslate nohighlight">\(m_3\)</span> and <span class="math notranslate nohighlight">\(\theta_3\)</span>? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section <a class="reference internal" href="#interpretation1"><span class="std std-ref">Post-Lab Submission — Interpretation of Results</span></a>.</p>
 <div class="warning admonition">
 <p class="admonition-title">Continue to additional case?</p>
 <p><em><strong>If you are satisfied your calculations are complete and results seem reasonable (feel free to check with your professor), it is at this point that you may continue to the second case.</strong></em></p>
 </div>
-<ol class="arabic simple" start="13">
-<li><p>Repeat for the second case once you are satisfied in your values and calculations.</p></li>
+</li>
+<li><p>Repeat for the second case (see Table <a class="reference internal" href="#tab-case12"><span class="std std-ref">Case 1 &amp; 2 Given Values</span></a>) once you have completed the entire analysis procedure for Case 1 and are satisfied in your values and calculations.</p></li>
 </ol>
 </section>
 <section id="case-3-determining-2-unlabeled-masses">
@@ -768,8 +852,8 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <li><p><strong>Assume</strong> the angles for both Pikachu and the corgi, once found, are treated as given values (so you only have two unknowns with two equations).</p></li>
 </ul>
 </div>
-<p>The third case’s given values are:</p>
-<div class="pst-scrollable-table-container"><table class="table">
+<div class="pst-scrollable-table-container"><table class="table" id="tab-case3">
+<caption><span class="caption-number">Table 3 </span><span class="caption-text">Case 3 Initial Given Values</span><a class="headerlink" href="#tab-case3" title="Permalink to this table">#</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Hanger (i.e. Vector)</p></th>
 <th class="head"><p>Mass (g)</p></th>
@@ -781,53 +865,58 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <td><p><strong>Case 3</strong></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>1 (empty)</p></td>
-<td><p>50</p></td>
+<tr class="row-odd"><td><p>1 (empty, <span class="math notranslate nohighlight">\(M_1\)</span>)</p></td>
+<td><p>50  (just hanger, no extra masses)</p></td>
 <td><p>0°</p></td>
 </tr>
-<tr class="row-even"><td><p>2 (Pikachu-black)</p></td>
+<tr class="row-even"><td><p>2 (Pikachu-black, <span class="math notranslate nohighlight">\(M_2\)</span>)</p></td>
 <td><p>?</p></td>
 <td><p>?</p></td>
 </tr>
-<tr class="row-odd"><td><p>3 (corgi-white)</p></td>
+<tr class="row-odd"><td><p>3 (corgi-white, <span class="math notranslate nohighlight">\(M_3\)</span>)</p></td>
 <td><p>?</p></td>
 <td><p>?</p></td>
 </tr>
 </tbody>
 </table>
 </div>
-<p>Experimentally determine the mass of the Pikachu (black figurine) and the corgi (white figurine) and compare to expected values. The angles for hangers 2 &amp; 3 will be treated as given values once experimentally determined.</p>
-<!---
-2. The third case is:
-   - hanger 1: 50 g @ 0°
-   - hanger 2 (Pikachu-black): ? kg @ ?° (angle treated as given once experimentally determined)
-   - hanger 3 (corgi-white): ? kg @ ?° (angle treated as given once experimentally determined)
-   --->
-<ol class="arabic simple">
-<li><p>Create data table for this case (e.g. <a class="reference internal" href="#vectortable-case3data"><span class="std std-ref">Case 3 Data</span></a>):</p>
+<p>Experimentally determine the <em><strong>mass</strong></em> of just the Pikachu (black figurine) and the corgi (white figurine) and compare to actual values. The angles for hangers 2 &amp; 3 will be treated as given values once experimentally determined. <em><strong>Reminder, the hangers are 50 g each.</strong></em></p>
+<ol class="arabic">
+<li><p>Create data table for this case with columns for (e.g. <a class="reference internal" href="#vectortable-case3data"><span class="std std-ref">Case 3 Data</span></a>):</p>
 <ul class="simple">
-<li><p>Experimental and given masses <span class="math notranslate nohighlight">\(m_i\)</span>:</p>
-<ul>
-<li><p>Given mass <span class="math notranslate nohighlight">\(m_1\)</span> is shown in the previous table for the empty hanger.</p></li>
-<li><p><span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white}}\)</span> as calculated from <span class="math notranslate nohighlight">\(M_2\)</span> and <span class="math notranslate nohighlight">\(M_3\)</span> in <a class="reference internal" href="#equation-eq-m01-solvem3">(22)</a> and <a class="reference internal" href="#equation-eq-m01-solvem2">(23)</a>.</p></li>
+<li><p>Experimental masses <span class="math notranslate nohighlight">\(m_{i\text{,experimental}}\)</span> in kg</p></li>
+<li><p>Given/actual angles <span class="math notranslate nohighlight">\(\theta_i\)</span> in degrees</p></li>
+<li><p>Actual values for each mass <span class="math notranslate nohighlight">\(m_{i\text{,actual}}\)</span></p></li>
+<li><p>The % Difference between the experimental and actual mass values in kg</p></li>
 </ul>
 </li>
-<li><p>Experimental and given angles <span class="math notranslate nohighlight">\(\theta_i\)</span>:</p>
-<ul>
-<li><p>Given angle <span class="math notranslate nohighlight">\(\theta_1\)</span> is shown in the previous table for the empty hanger.</p></li>
-<li><p><span class="math notranslate nohighlight">\(\theta_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_{3,\text{corgi-white}}\)</span> as experimentally determined — <strong>treat as actual given values once you find equilibrium. You will use these to solve for the masses later.</strong></p></li>
+<li><p>Place the figurines on their respective hangers and set the empty hanger (<span class="math notranslate nohighlight">\(m_1\)</span>) to its initial angle found in Table <a class="reference internal" href="#tab-case3"><span class="std std-ref">Case 3 Initial Given Values</span></a>.</p></li>
+<li><p>Unscrew the black pulleys to rotate the figurines around the tabletop until you find equilibrium in similar fashion to the first two cases.</p>
+<div class="note admonition">
+<p class="admonition-title">NO ADDITIONAL MASS IS REQUIRED</p>
+<p>You are only changing the angles of <span class="math notranslate nohighlight">\(\theta_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_{3,\text{corgi-white}}\)</span> to balance the system.</p>
+</div>
+</li>
+<li><p>Once you’ve found equilibrium, record the given mass <span class="math notranslate nohighlight">\(m_1\)</span> and angle <span class="math notranslate nohighlight">\(\theta_1\)</span> as shown in the Table <a class="reference internal" href="#tab-case3"><span class="std std-ref">Case 3 Initial Given Values</span></a> for the empty hanger.</p></li>
+<li><p>Record your experimentally determined angles <span class="math notranslate nohighlight">\(\theta_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_{3,\text{corgi-white}}\)</span>.</p>
+<div class="note admonition">
+<p class="admonition-title">“Actual” angles</p>
+<p>Treat these values as <em>actual</em> or <em>given values</em> to use in later equations to solve for the unlabeled masses in the next step.</p>
+</div>
+</li>
+<li><p>Determine <span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black,experimental}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white,experimental}}\)</span>:</p>
+<ul class="simple">
+<li><p>First algebraically solve <a class="reference internal" href="#equation-eq-m01-solvem2">(26)</a> and <a class="reference internal" href="#equation-eq-m01-solvem3">(25)</a> for <span class="math notranslate nohighlight">\(M_2\)</span> and <span class="math notranslate nohighlight">\(M_3\)</span>, respectively. Do this by hand before plugging the equations into your spreadsheet. There should be scratch paper and extra pens &amp; pencils at the front of the room if needed.</p></li>
+<li><p>Calculate your experimental masses for both figurines in your speadsheet using now your now solved equations. <em>Reminders: hangers are 50 g, and there are trigonometric identities you could look up that could simplify the equations for your spreadsheet.</em></p></li>
 </ul>
 </li>
-<li><p>Actual values for <span class="math notranslate nohighlight">\(m_i\text{,actual}\)</span>. Masses <span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black,actual}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white,actual}}\)</span> for each figurine as measured on a triple-beam balance.</p></li>
-<li><p>The % Difference of <span class="math notranslate nohighlight">\(m_2\)</span> and <span class="math notranslate nohighlight">\(m_3\)</span> experimentally determined values to their actual measured values (see <a class="reference internal" href="#equation-m1-percentdiff">(24)</a> in Section <a class="reference internal" href="#interpretation1"><span class="std std-ref">Post-Lab Submission — Interpretation of Results</span></a>).</p></li>
-</ul>
+<li><p>Measure and record the actual masses of each figurine, <span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black, actual}}\)</span> and <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white, actual}}\)</span>, with a triple-beam balance.</p>
+<div class="note admonition">
+<p class="admonition-title">Calibration</p>
+<p><em>Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned</em>.</p>
+</div>
 </li>
-<li><p>Place the respective masses on their hangers, with <span class="math notranslate nohighlight">\(m_1\)</span> set to 0°</p></li>
-<li><p>Unscrew the black pulleys to rotate them around the tabletop until you find equilibrium. You are only changing the angles of <span class="math notranslate nohighlight">\(\theta_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_{3,\text{corgi-white}}\)</span>. <em><strong>NO ADDITIONAL MASS IS REQUIRED</strong></em>.</p></li>
-<li><p>Once you’ve found equilibrium, note the <span class="math notranslate nohighlight">\(\theta_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(\theta_{3,\text{corgi-white}}\)</span> values as actual values to use in later equations (i.e. as if they’re given angles).</p></li>
-<li><p>Determine <span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white}}\)</span> by algebraically solving <a class="reference internal" href="#equation-eq-m01-solvem3">(22)</a> and <a class="reference internal" href="#equation-eq-m01-solvem2">(23)</a> for <span class="math notranslate nohighlight">\(M_2\)</span> and <span class="math notranslate nohighlight">\(M_3\)</span> and plugging in known values. There should be scratch paper and extra pens &amp; pencils at the front of the room.</p></li>
-<li><p>Using a triple-beam balance, measure directly the actual mass of <span class="math notranslate nohighlight">\(m_{2,\text{Pikachu-black, actual}}\)</span> &amp; <span class="math notranslate nohighlight">\(m_{3,\text{corgi-white, actual}}\)</span>.  You can include the mass of the hanger <span class="math notranslate nohighlight">\(m_1\)</span> to double check the mass hanger.</p></li>
-<li><p>COMPARE your experimental results of each of the unlabeled masses to their actual values. Calculate the % difference of <span class="math notranslate nohighlight">\(m_2\)</span> and <span class="math notranslate nohighlight">\(m_3\)</span> experimentally found values to the actual measured values. What may be contributing to a larger or smaller difference? To be further discussed in Section <a class="reference internal" href="#interpretation1"><span class="std std-ref">Post-Lab Submission — Interpretation of Results</span></a>.</p></li>
+<li><p>COMPARE your experimental figurine masses to their actual values. Do they generally agree? Calculate the % difference of your experimental <span class="math notranslate nohighlight">\(m_2\)</span> and <span class="math notranslate nohighlight">\(m_3\)</span> to their actual measured values (see <a class="reference internal" href="#equation-m1-percentdiff">(27)</a>). What may be contributing to a larger or smaller difference? To be further discussed in Section <a class="reference internal" href="#interpretation1"><span class="std std-ref">Post-Lab Submission — Interpretation of Results</span></a>.</p></li>
 </ol>
 </section>
 </section>
@@ -835,10 +924,10 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <span id="interpretation1"></span><h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Make sure to submit your finalized data table (Excel sheet).</p></li>
-<li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case, i.e. <span class="math notranslate nohighlight">\(\vec{F}_3\pm\delta \vec{F}_3\)</span>… and answer the following questions (longer does not mean better):</p>
+<li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case, i.e. <span class="math notranslate nohighlight">\(F_3\pm\delta F_3\)</span>… and answer the following questions (longer does not mean better):</p>
 <ul>
 <li><p>What is a vector?</p></li>
-<li><p>What is the physics behind balancing our vectors today?</p>
+<li><p>What is the physics behind balancing your vectors today?</p>
 <ul>
 <li><p>Case 1 &amp; 2 (Finding Equilibrant):</p>
 <ul>
@@ -847,7 +936,7 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <ul>
 <li><p>In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.</p>
 <ul>
-<li><p>Does <span class="math notranslate nohighlight">\(\vec{F}_3 \pm \delta \vec{F}_3\)</span> overlap (i.e. agree) with your theoretical value <span class="math notranslate nohighlight">\(\vec{F}_{3,\text{theoretical}}\)</span>?</p></li>
+<li><p>Does the vector magnitude <span class="math notranslate nohighlight">\(F_3 \pm \delta F_3\)</span> overlap (i.e. agree) with your theoretical value <span class="math notranslate nohighlight">\(F_{3,\text{theoreticalMagnitude}}\)</span>?</p></li>
 <li><p>Does <span class="math notranslate nohighlight">\(m_3 \pm \delta m_3\)</span> overlap with your theoretical value <span class="math notranslate nohighlight">\(m_{3,\text{theoretical}}\)</span>?</p></li>
 <li><p>Does <span class="math notranslate nohighlight">\(\theta_3 \pm \delta \theta_3\)</span> overlap with your theoretical value <span class="math notranslate nohighlight">\(\theta_{3,\text{theoretical}}\)</span>?</p></li>
 </ul>
@@ -868,16 +957,16 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 </li>
 </ul>
 <div class="math notranslate nohighlight" id="equation-m1-percentdiff">
-<span class="eqno">(24)<a class="headerlink" href="#equation-m1-percentdiff" title="Permalink to this equation">#</a></span>\[\text{% Difference} = \frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.\]</div>
+<span class="eqno">(27)<a class="headerlink" href="#equation-m1-percentdiff" title="Permalink to this equation">#</a></span>\[\text{% Difference} = \frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.\]</div>
 <ul class="simple">
 <li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative not only quantitative.</p>
 <ul>
 <li><p>What are the uncertainties of Cases 1 &amp; 2 (Finding Equilibrant)?</p></li>
 <li><p>What is the precision of your equipment (force table, masses, etc.)?</p></li>
 <li><p>What are possible systematic (affecting accuracy) errors of the experiment? What are possible random (affecting precision) errors?</p></li>
-<li><p>Return to results section question: ‘’In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.’’ How does changing <span class="math notranslate nohighlight">\(m_3\)</span> by <span class="math notranslate nohighlight">\(\delta m_3\)</span> and <span class="math notranslate nohighlight">\(\theta_3\)</span> by <span class="math notranslate nohighlight">\(\delta \theta_3\)</span> change <span class="math notranslate nohighlight">\(\vec{F}_3\)</span>? Do the math in your spread sheet.</p>
+<li><p>Return to results section question: ‘’In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.’’ How does changing <span class="math notranslate nohighlight">\(m_3\)</span> by <span class="math notranslate nohighlight">\(\delta m_3\)</span> and <span class="math notranslate nohighlight">\(\theta_3\)</span> by <span class="math notranslate nohighlight">\(\delta \theta_3\)</span> change <span class="math notranslate nohighlight">\(F_3\)</span>? Do the math in your spread sheet.</p>
 <ul>
-<li><p>What uncertainties might make the difference between your final results and expected values larger or smaller?</p></li>
+<li><p>What uncertainties might make the difference between your final results and expected values larger or smaller? Is there any source of uncertainty that contributes the most variability of <span class="math notranslate nohighlight">\(F_3\)</span>?</p></li>
 </ul>
 </li>
 <li><p>For Case 3 (Unlabeled Masses), what errors may contribute to larger or smaller % differences to the actual measured-by-triple-beam-balance values?</p></li>
@@ -934,20 +1023,17 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 </table>
 </div>
 </section>
-<section id="case-1-2-analysis">
-<span id="analysis-vectortable"></span><h3>Case 1 &amp; 2 Analysis<a class="headerlink" href="#case-1-2-analysis" title="Permalink to this heading">#</a></h3>
+<section id="case-1-2-analysis-resultant-of-given-vectors-experimental-total">
+<span id="analysis-vectortable-resultant-and-sum"></span><h3>Case 1 &amp; 2 Analysis - Resultant of Given Vectors &amp; Experimental Total<a class="headerlink" href="#case-1-2-analysis-resultant-of-given-vectors-experimental-total" title="Permalink to this heading">#</a></h3>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p><span class="math notranslate nohighlight">\(R_x\)</span> (SI units)</p></th>
 <th class="head"><p><span class="math notranslate nohighlight">\(R_y\)</span> (SI Units)</p></th>
-<th class="head"><p><span class="math notranslate nohighlight">\(\vec{R}\)</span> (SI Units)</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(R\)</span> (SI Units)</p></th>
 <th class="head"><p><span class="math notranslate nohighlight">\(\theta_R\)</span> (<span class="math notranslate nohighlight">\(^\circ\)</span>)</p></th>
-<th class="head"><p><span class="math notranslate nohighlight">\(F_{x\text{,total,experimental}}\)</span> (SI Units)</p></th>
-<th class="head"><p><span class="math notranslate nohighlight">\(F_{y\text{,total,experimental}}\)</span> (SI Units)</p></th>
-<th class="head"><p><span class="math notranslate nohighlight">\(\vec{F}_{\text{total,experimental}}\)</span> or <span class="math notranslate nohighlight">\(\delta \vec{F}_3\)</span> (SI Units)</p></th>
-<th class="head"><p><span class="math notranslate nohighlight">\(F_{3,theoretical}\)</span> (SI Units)</p></th>
-<th class="head"><p><span class="math notranslate nohighlight">\(M_{3,theoretical}\)</span> (SI Units)</p></th>
-<th class="head"><p><span class="math notranslate nohighlight">\(\theta_{3,theoretical}\)</span> (<span class="math notranslate nohighlight">\(^\circ\)</span>)</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(F_{x,\text{total,experimental}}\)</span> (SI Units)</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(F_{y,\text{total,experimental}}\)</span> (SI Units)</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(F_{\text{total,experimental}}\)</span> treated as <span class="math notranslate nohighlight">\(\delta F_3\)</span> (SI Units)</p></th>
 </tr>
 </thead>
 <tbody>
@@ -958,7 +1044,22 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>
-<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="case-1-2-analysis-theoretical-values">
+<span id="analysis-vectortable-theory"></span><h3>Case 1 &amp; 2 Analysis - Theoretical Values<a class="headerlink" href="#case-1-2-analysis-theoretical-values" title="Permalink to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><span class="math notranslate nohighlight">\(F_{3,\text{theoreticalMagnitude}}\)</span> (SI Units)</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(\theta_{3,\text{theoretical}}\)</span> (<span class="math notranslate nohighlight">\(^\circ\)</span>)</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(m_{3,\text{theoretical}}\)</span> (SI Units)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
@@ -971,9 +1072,9 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Vector</p></th>
-<th class="head"><p><span class="math notranslate nohighlight">\(m\)</span> (SI units) Experimental</p></th>
-<th class="head"><p>(<span class="math notranslate nohighlight">\(^\circ\)</span>)</p></th>
-<th class="head"><p><span class="math notranslate nohighlight">\(m\)</span> (SI units) Actual</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(m_{i\text{,experimental}}\)</span> (SI units)</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(\theta_i\)</span> (<span class="math notranslate nohighlight">\(^\circ\)</span>)</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(m_{i\text{,actual}}\)</span> (SI units)</p></th>
 <th class="head"><p>% diff. masses</p></th>
 </tr>
 </thead>
@@ -1002,9 +1103,6 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 </section>
 <section id="original-whiteboard-info">
 <h3>Original Whiteboard Info<a class="headerlink" href="#original-whiteboard-info" title="Permalink to this heading">#</a></h3>
-<figure class="align-center" id="vectortablewhiteboard-01">
-<a class="reference internal image-reference" href="../_images/ForceTable_2025_Summer_01.jpg"><img alt="../_images/ForceTable_2025_Summer_01.jpg" src="../_images/ForceTable_2025_Summer_01.jpg" style="width: 100%;" /></a>
-</figure>
 <figure class="align-center" id="vectortablewhiteboard-02">
 <a class="reference internal image-reference" href="../_images/ForceTable_2025_Summer_02_v2025-01.jpg"><img alt="../_images/ForceTable_2025_Summer_02_v2025-01.jpg" src="../_images/ForceTable_2025_Summer_02_v2025-01.jpg" style="width: 100%;" /></a>
 </figure>
@@ -1096,7 +1194,8 @@ The equation for equilibrium in the <span class="math notranslate nohighlight">\
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#case-1-2-experimental-data">Case 1 &amp; 2 Experimental Data</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#case-1-2-analysis">Case 1 &amp; 2 Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#case-1-2-analysis-resultant-of-given-vectors-experimental-total">Case 1 &amp; 2 Analysis - Resultant of Given Vectors &amp; Experimental Total</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#case-1-2-analysis-theoretical-values">Case 1 &amp; 2 Analysis - Theoretical Values</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#case-3-data">Case 3 Data</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#original-whiteboard-info">Original Whiteboard Info</a></li>
 </ul>

@@ -9,7 +9,7 @@ To access Microsoft Excel, you can do so through the browser with your Fairfield
 <a href="https://fairfield-university.atlassian.net/wiki/spaces/ITSKB/pages/30345528/Office+365+at+Fairfield+University" target="_blank">Access Office 365 in a browser at Fairfield University with your student login</a>
 
 
-
+(spreadsheet-data-analysis-setup)=
 ## Data Analysis with Spreadsheets
 
 Data for each experiment has a set of measurements and calculations.

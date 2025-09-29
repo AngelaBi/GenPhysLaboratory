@@ -56,7 +56,7 @@ A diagram showing Vernier calipers and their main measurement scales. The second
 ```
 
 
-
+(reading-the-vernier-scale-help)=
 ## Reading the Vernier scale
 
 ### Simplified example
