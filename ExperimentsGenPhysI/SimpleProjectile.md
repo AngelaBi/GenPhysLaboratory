@@ -6,12 +6,15 @@
 ```{admonition} OVERALL GOALS
 :class: note
 In this lab, you will:
-- Understand and apply kinematic equations to one- and two-dimensional projectile motion.
+- Understand and apply kinematic equations to two-dimensional projectile motion.
 ```
+
+### Projectile Motion
+
 
 **Projectile motion** is the motion of an object thrown or projected into the air, subject only to acceleration as a result of gravity. The applications of projectile motion in physics and engineering are numerous. Some examples include meteors as they enter Earth's atmosphere, water in a water fountain, and the motion of any ball in sports. Such objects are called *projectiles*, and their path is called a **trajectory**.
 
-We can represent a projectile's motion through kinematics which utilize its position, time, velocity, and acceleration. The kinematic equations we will use during this lab assume both ***constant acceleration*** effects of air resistance are ***negligible*** (generalized in the next four equations with $x$ representing position along any given dimension): 
+We can represent a projectile's motion through kinematics which utilize its position, time, velocity, and acceleration. The kinematic equations we will use during this lab assume both ***constant acceleration*** and that the effects of air resistance are ***negligible*** (generalized in the next four equations with $x$ representing position along any given dimension): 
 
 ```{math}
 :label: eq-M03-Kinematic-01
@@ -35,14 +38,14 @@ x = x_{0} + \frac{1}{2}(v_{0} + v)t
 
 
 
-Today, we will analyze both one- and two-dimensional trajectories, where $x$ will represent the horizontal direction, and $y$ the vertical. Gravity (which pulls objects down towards the center of the Earth) will be assumed to be the only source of acceleration acting on our projectiles; as such, the acceleration of a projectile is $a_{y} = -g$ and $a_{x} = 0$. Since horizontal acceleration terms are zero, we can represent horizontal motion by:
+Today, we will analyze two-dimensional trajectories, where $x$ will represent the horizontal direction, and $y$ the vertical. Gravity (which pulls objects down towards the center of the Earth) will be assumed to be the only source of acceleration acting on our projectiles; as such, the acceleration of a projectile is $a_{y} = -g$ and $a_{x} = 0$. Since horizontal acceleration terms are zero, we can represent today's horizontal motion by:
 
 ```{math}
 :label: eq-M03-horizontal-Kinematic
 v_{0x} = v_{x} = \text{constant velocity},~~~ x = x_{0} + v_{x}t
 ```
 
-Then, depending on the information we have available to us, we can represent vertical motion by:
+Then, depending on the information we have available to us, we can represent today's vertical motion by:
 
 ```{math}
 :label: eq-M03-Kinematic-vertical-01
@@ -68,7 +71,7 @@ y = y_{0} + \frac{1}{2}(v_{0y} + v_{y})t
 
 
 
-
+<!---
 
 ### Free Fall / Downward Trajectory (First experiment)
 
@@ -89,29 +92,55 @@ The experimental setup will involve a free-fall timer where a metal ball is drop
 Example of the free fall apparatus used in Exp. 1. Note the release screw will be what you tighten or loosen to hold or release the ball from the release mechanism.
 ```
 
-### Horizontal Trajectory (Second experiment)
+--->
 
-```{figure} SimpleProjectileFigures/M3_ExpOptions_quarter_size.jpg
-:name: M03-simpleProjectileLauncher
-:width: 90%
-:align: center
+### Experimental Summary
 
-Left) Position of launcher for lower height in Experiment 2. Right) Position of launcher for higher height in Experiment 2. Right) Position of launcher for angled launches in Experiment 3 where the ball's initial position is the same as the higher height position.
+```{admonition} Three Cases
+:class: note
+There will be three cases run today (setups shown in {numref}`M03-simpleProjectileLauncher`):
+1. Investigate the ***zero-angle-launched*** trajectory of a small ball at our initial ***lower height*** (i.e. launched at 90° relative to $g$, or 0° relative to the floor). 
+2. Estimate where the ball will land when ***zero-angle launched*** at a ***higher height***, then test to see how accurate our estimation was.
+3. Similarly estimate where the ball will land when launched at an ***upwards angle*** from the ***same higher height*** of Case 2, then test to see how accurate our estimation was.
 ```
 
-Note: For this experiment as well as the third experiment later on, while we could use our determined value for gravity, for simplicity, we will instead use the accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT.
 
-In this second experiment, we will **1)** first investigate the horizontally launched trajectory of the same metal ball used in the first experiment (launched at 90° relative to $g$, or 0° relative to the floor). Then **2)** we will attempt to estimate where the ball will land when launched from a different height and see how accurate we are.
+The setup today will involve a marble launcher that can slide into a large holder at different initial heights $y_{0}$ (and later for the third case, different angle(s), see {numref}`M03-simpleProjectileLauncher`). Height $y_{0}$ will be measured from the bottom of the ball (effectively the bottom inside of the launcher's barrel) to the floor. Distance $x_{0}$ will be measured from the center of the ball to the estimated center of all of your trials for a given case (see {numref}`M03-simpleProjectileLauncher_meas_case-1`). Once the ball is released, it will begin a two-dimensional trajectory accelerated solely by gravity in the $y$ direction. For second and third cases, you will calculate the theoretical $x$, mark on the landing paper where your estimated landing zone would be, then test with your experimental trials (see {numref}`M03-simpleProjectileLauncher_meas_case-2-3`).
 
-This setup will involve a marble launcher that can slide into a large holder at different initial heights $y_{0}$ (and later for the third experiment, different angles, see {numref}`M03-simpleProjectileLauncher`). Height $y_{0}$ will be measured from the bottom of the ball (effectively the bottom inside of the launcher's barrel) to the floor. Once the ball is released, it will begin a two-dimensional trajectory accelerated solely by gravity in the $y$ direction.
 
-**-1-)** The distance in the $x$ direction will be measured from the center of the ball in the uncocked position (a plum bob can be used to find the ball's initial position on the floor) to the average landing position on the floor after the given number of trials. The ball will mark up paper with carbon paper; we will circle this scatter shot and estimate the average position of all trials from the given case, and then measure the distance with a 1 or 2 meter stick to determine $x$.
+```{figure} SimpleProjectileFigures/M3_ExpOptions_v2025-03.png
+:name: M03-simpleProjectileLauncher
+:width: 100%
+:align: center
 
-After investigating how far the ball travels in the $x$ direction from a given height, we can determine characteristics about the launcher-and-ball system to estimate how far in the $x$ direction we may expect the ball to travel in the second part of this experiment when we launch it from a different initial height. To estimate how far the ball will travel, we can use {eq}`eq-M03-horizontal-Kinematic` to determine $x$. However, to do so, we will need to for how long and how fast it was moving (distance traveled = speed × time). Since we know the initial height $y_{0}$ of the ball, we can determine the time $t$ it took to fall to the floor in the $y$ direction due solely to gravity $g$ by rearranging {eq}`eq-M03-Kinematic-vertical-02` to solve for $t$, knowing that $v_{0y} = 0\,\text{m/s}$ and treating the floor as $y = 0\,\text{m}$:
+Stars denote projectile height. Left) Position of launcher for lower height in Case 1. Right) Position of launcher for higher height in Case 2. Right) Position of launcher for angled launches in Case 3 where the ball's initial position is at the same higher height position.
+```
+
+```{figure} SimpleProjectileFigures/M3_Measurements_v2025-05.png
+:name: M03-simpleProjectileLauncher_meas_case-1
+:width: 100%
+:align: center
+
+Example of Case 1 data aquisition.
+```
+
+```{figure} SimpleProjectileFigures/M4_Measurements_v2025-04.png
+:name: M03-simpleProjectileLauncher_meas_case-2-3
+:width: 100%
+:align: center
+
+Example of Case 2 and 3 estimation and data aquisition.
+```
+
+#### Zero-Angle Trajectories (Background for Cases 1 & 2)
+
+The distance traveled in the in the $x$ direction ($\Delta x = x - x_0$) will be measured from the center of the ball in the uncocked position to the average landing position on the floor after the given number of trials. The ball will mark up white printer paper with black carbon paper; we will note each landing point and then circle this scatter shot and estimate the average position of all trials from the given case, and then measure the distance with a 1 and 2 meter sticks to determine final horizontal position $x$.
+
+After investigating how far the ball travels in the $x$ direction from a given height, we can determine characteristics about the launcher-and-ball system to estimate how far in the $x$ direction we may expect the ball to travel in the second and third cases when we launch from a different initial height. To estimate how far the ball will travel, we can use {eq}`eq-M03-horizontal-Kinematic` to determine $\Delta x$. However, to do so, we will need to know for how long and how fast it was moving (distance traveled = speed $\times$ time). If we call the ball's final height on the floor $y$, and we measure the initial height $y_{0}$ of the ball, we can use the height difference ($\Delta y = y - y_0$) to determine the time $t$ it took to fall to the floor in the $y$ direction due solely to gravity $g$. Rearranging {eq}`eq-M03-Kinematic-vertical-02` to solve for $t$, and knowing that $v_{0y} = 0\,\text{m/s}$ and treating the floor as $y = 0\,\text{m}$:
 
 ```{math}
 :label: eq-M03-Kinematic-vertical-time
-0 = y_{0} + 0 - \frac{1}{2}gt^{2}~~~=>~~~\sqrt{\frac{2y_{0}}{g}} = t
+0 = y_{0} + 0 - \frac{1}{2}gt^{2}~~~~~\Rightarrow~~~~~\sqrt{\frac{2y_{0}}{g}} = t
 ```
 
 Now that we know the time $t$ of the trajectory, and treating the uncocked position as $x_{0} = 0\,\text{m}$, we can use {eq}`eq-M03-horizontal-Kinematic` to determine the horizontal velocity $v_{x}$ when released:
@@ -121,7 +150,7 @@ Now that we know the time $t$ of the trajectory, and treating the uncocked posit
 x = 0 + v_{x}t~~~=>~~~\frac{x}{t} = v_{x}
 ```
 
-**-2-)** For the second part of this experiment, we move the launcher to the higher 0° slot (~20 cm higher), and we want to determine how far it will travel in the $x$ direction. This leads us back to {eq}`eq-M03-horizontal-Kinematic` where we want to solve for $x_{\text{higher height}}$ (where again, $x_{0} = 0\,\text{m}$ in the uncocked position):
+For the second case, we move the launcher to the higher 0° slot (~20 cm higher), and we want to determine how far it will travel in the $x$ direction. This leads us back to {eq}`eq-M03-horizontal-Kinematic` where we want to solve for $x_{\text{higher height}}$ (where again, $x_{0} = 0\,\text{m}$ in the uncocked position):
 
 ```{math}
 :label: eq-M03-Kinematic-horizontal-velocity-02
@@ -139,7 +168,7 @@ This subsequent value for time $t_{\text{higher height}}$ can be used in {eq}`eq
 
 
 
-### Angled Trajectory (Third experiment)
+#### Angled Trajectory (Background for Case 3)
 
 The third part of this experiment is similar to the 2nd part of the second experiment in that we are staying at the higher height, but now investigating the trajectories when launched from different angles, namely, how far in the $x$ direction do they reach? The large, launcher holder is designed to hold the ball at rest (uncocked) in the same position (height) regardless of angle, so you should be able to use your previously determined $y_{0\text{,higher height}}$ as your value for the ball's initial height (see {numref}`M03-simpleProjectileLauncher` right).
 
@@ -192,6 +221,25 @@ x_{\theta} = v_{x}\cos{\theta}t_{\theta}
 
 ## Experimental Procedure
 
+
+
+```{admonition} OVERVIEW
+:class: note
+- Investigate projectile motion in two-dimensions.
+- Conduct 3 cases:
+  - Case 1: Zero-angle launches at a lower height. Characterize the trajectory and exit velocity from the marble launcher.
+  - Case 2: Zero-angle launches at a higher height. Calculate the theoretical trajectory (distance $x$); place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
+  - Case 3: Angled launches ($45^\circ$) at the same higher height. Calculate the theoretical trajectory (distance $x$); place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
+- Conduct ***30 launches (trials)*** for ***one overall measured data point*** for each case; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot.
+```
+
+```{admonition} NOTE
+:class: note
+- The accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT.
+```
+
+
+<!---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NvrdZoWNI5Q?si=ZyCPpqmxdyTGzqpZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -250,17 +298,13 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 14. Does you average $g \pm \delta g$ cover the difference from the accepted value and agree, or not?
 
+--->
 
-### Horizontal Trajectory (Second experiment)
+### Horizontal Launch (First experiment)
 
-```{admonition} OVERVIEW
-:class: note
-- Investigate projectile motion in two-dimensions when launched horizontally.
-- For simplicity and to decrease error propagation, **for the rest of lab, assume and use** the accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT rather than your previously determined value.
-- Characterize the trajectory from the marble launcher at initial height.
-- Calculate the theoretical trajectory (distance $x$) for a different height; place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
-- Conduct 20 launches for each height; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot.
-```
+
+(a plum bob will be used to find the ball's initial position on the floor)
+
 
 2. Create a data table for this experiment:
     - Common data section with the accepted value of $g$.
@@ -286,7 +330,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 6. Get a piece of paper and tape it in the approximate location, and place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.
 
-7. Conduct **20 launches** onto the paper/carbon paper.
+7. Conduct **30 launches** onto the paper/carbon paper.
 
 8. Put aside the carbon paper and mark the dots with a marker or something else that makes it apparent which dots are your data points for this height. Draw a rough circle surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter.
 
@@ -315,17 +359,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 ### Angled Trajectory (Third experiment)
 
-```{admonition} OVERVIEW
-:class: note
-- Investigate projectile motion in two-dimensions when launched at a non-zero angle (for now, we'll use the 45° slot; if labs go well this semester, we may add additional angles).
-- Calculate the theoretical trajectory (distance $x$) for a non-zero angle; place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
-- Compare the theoretical trajectory's $x$ distance to the experimentally determined distance.
-- Conduct 20 launches for each angle; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot, with your uncertainty represented by the radius of the drawn circle.
-```
-```{admonition} NOTE
-:class: note
-- Continue to use the accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT rather than your previously determined value.
-```
+
 
 1. Create a data table for this experiment:
     - Common data section with the accepted value of $g$ and any values you will need from previous experiments to determine the theoretical distance at a given angled launch $x_{\theta}$ ({eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`).
@@ -347,7 +381,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 7. If need be, tape additional paper in the location from the test launches. Place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.
 
-8. Conduct **20 launches** onto the paper/carbon paper.
+8. Conduct **30 launches** onto the paper/carbon paper.
 
 9.  Put aside the carbon paper and mark the dots with a marker or something else that makes it apparent which dots are your data points for this height. Draw a rough circle surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter.
 
@@ -390,22 +424,26 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 - Make sure to submit your finalized data table (Excel sheet)
 - In a **paragraph** per experiment, summarize the results you have determined in each case:
 	- What type of system do the kinematic equations represent?
+  <!---
 	- **Experiment 1:**
 	  - What are your results ($g \pm \delta g$), and how do they compare to the accepted value in Fairfield, CT?
 	    - In other words, for Experiment 1, COMPARE your experimental result of $g$ to the accepted values. Does $g \pm \delta g$ overlap (and therefore agree) with the accepted value?
 	  - Would a different sized marble change your derived value of $g$? Why or why not?
+    --->
+	- **Experiment 1:**
+	  - What were your results for the horizontally-launched trajectories at the initial lower height and then higher height? Do your results overlap with your theoretical value? Why or why not?
 	- **Experiment 2:**
-	  - What were your results for the horizontal trajectories at lower, higher height, and higher height at an angle? Do your results overlap with your theoretical value? Why or why not?
-	- **Experiment 3:**
-	  - What were your results for the trajectories from a non-zero angle(s)? Do your results overlap with your theoretical value? Why or why not?
+	  - What were your results for the trajectories from a non-zero angle(s) at the higher height? Do your results overlap with your theoretical value? Why or why not?
  
 - In a **paragraph** per experiment, summarize your error analysis. Be qualitative, not only quantitative. 
 	- What is the precision of your equipment?
 	- What are possible systematic errors for today's experiments?
+  <!---
 	- **Experiment 1:**
 		- What are the uncertainties of Experiment 1?
 		-  Does your experimental distance of the higher height agree with what you expected from your theoretical calculation?
 			- In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+      --->
 	- **Experiment 2:**
 		- What uncertainties might make this difference larger or smaller?
 		- Was your bullseye target (estimation) accurate to the experimental results? Back up your answer with your results.
@@ -418,17 +456,21 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 ## The Whiteboard
 
-```{figure} SimpleProjectileFigures/ProjectileKinetmatic_2024_Fall_01.jpg
+```{figure} SimpleProjectileFigures/ProjectileKinetmatic_2024_Fall_01_v2025-02.jpg
 :name: pro1
-:width: 600px
+:width: 100%
 :align: center
 
 ```
+
+
+<!---
 
 ```{figure} SimpleProjectileFigures/ProjectileKinetmatic_2024_Fall_02.jpg
 :name: pro2
-:width: 600px
+:width: 60%
 :align: center
 
 ```
 
+--->
