@@ -42,7 +42,7 @@ Today, we will analyze two-dimensional trajectories, where $x$ will represent th
 
 ```{math}
 :label: eq-M03-horizontal-Kinematic
-v_{0x} = v_{x} = \text{constant velocity},~~~ x = x_{0} + v_{x}t
+v_{0x} = v_{x} = \text{constant velocity},~~~ x = x_{0} + v_{0x}t
 ```
 
 Then, depending on the information we have available to us, we can represent today's vertical motion by:
@@ -81,7 +81,7 @@ The experimental setup will involve a free-fall timer where a metal ball is drop
 
 ```{math}
 :label: eq-M03-Kinematic-freefall-g
-0 = y_{0} + 0 - \frac{1}{2}gt^{2}~~~=>~~~\frac{2y_{0}}{t^2} = g
+0 = y_{0} + 0 - \frac{1}{2}gt^{2}~~~~~\Rightarrow~~~~~\frac{2y_{0}}{t^2} = g
 ```
 
 ```{figure} SimpleProjectileFigures/M3_Exp1.jpg
@@ -105,7 +105,10 @@ There will be three cases run today (setups shown in {numref}`M03-simpleProjecti
 ```
 
 
-The setup today will involve a marble launcher that can slide into a large holder at different initial heights $y_{0}$ (and later for the third case, different angle(s), see {numref}`M03-simpleProjectileLauncher`). Height $y_{0}$ will be measured from the bottom of the ball (effectively the bottom inside of the launcher's barrel) to the floor. Distance $x_{0}$ will be measured from the center of the ball to the estimated center of all of your trials for a given case (see {numref}`M03-simpleProjectileLauncher_meas_case-1`). Once the ball is released, it will begin a two-dimensional trajectory accelerated solely by gravity in the $y$ direction. For second and third cases, you will calculate the theoretical $x$, mark on the landing paper where your estimated landing zone would be, then test with your experimental trials (see {numref}`M03-simpleProjectileLauncher_meas_case-2-3`).
+The setup today will involve a marble launcher that can slide into a large holder at different initial heights $y_{0}$ (and later for the third case, different angle(s), see {numref}`M03-simpleProjectileLauncher`). Once the ball is launched, it will begin a two-dimensional trajectory accelerated solely by gravity in the $y$ direction. 
+<!---  Position of the initial height $y_{0}$ will be measured from the bottom of the ball in the uncocked position to the floor (final height $y = 0\,\text{m}$$). Distance $\Delta x$ will be determined by measuring final position $x$ from the center of the ball in the uncocked (at $x_0 = 0\,\text{m}$) launcher to the estimated center of all of your trials for a
+given case (see {numref}`M03-simpleProjectileLauncher_meas_case-1`).  ---> 
+For the first case, you will measure distances traveled in both $x$ and $y$ directions (see {numref}`M03-simpleProjectileLauncher_meas_case-1`). For the second and third cases, you will calculate the theoretical distance (based on your results from Case 1) in the $x\,\text{direction}$, mark on the landing paper where your estimated landing zone would be, and then test with your experimental trials (see {numref}`M03-simpleProjectileLauncher_meas_case-2-3`).
 
 
 ```{figure} SimpleProjectileFigures/M3_ExpOptions_v2025-03.png
@@ -134,50 +137,57 @@ Example of Case 2 and 3 estimation and data aquisition.
 
 #### Zero-Angle Trajectories (Background for Cases 1 & 2)
 
-The distance traveled in the in the $x$ direction ($\Delta x = x - x_0$) will be measured from the center of the ball in the uncocked position to the average landing position on the floor after the given number of trials. The ball will mark up white printer paper with black carbon paper; we will note each landing point and then circle this scatter shot and estimate the average position of all trials from the given case, and then measure the distance with a 1 and 2 meter sticks to determine final horizontal position $x$.
+The distance traveled in the in the $x$ direction $\Delta x$ will be measured from the center of the ball in the uncocked position (initial position $x_0$) to the average landing position on the floor (final position $x$) after the given number of trials. Note: $\Delta x = x - x_0$, however since initial position $x_0 = 0\,\text{m}$ for all cases throughout the lab, $\Delta x = x$. 
 
-After investigating how far the ball travels in the $x$ direction from a given height, we can determine characteristics about the launcher-and-ball system to estimate how far in the $x$ direction we may expect the ball to travel in the second and third cases when we launch from a different initial height. To estimate how far the ball will travel, we can use {eq}`eq-M03-horizontal-Kinematic` to determine $\Delta x$. However, to do so, we will need to know for how long and how fast it was moving (distance traveled = speed $\times$ time). If we call the ball's final height on the floor $y$, and we measure the initial height $y_{0}$ of the ball, we can use the height difference ($\Delta y = y - y_0$) to determine the time $t$ it took to fall to the floor in the $y$ direction due solely to gravity $g$. Rearranging {eq}`eq-M03-Kinematic-vertical-02` to solve for $t$, and knowing that $v_{0y} = 0\,\text{m/s}$ and treating the floor as $y = 0\,\text{m}$:
+The ball will mark up white printer paper with black carbon paper; we will note each landing point (e.g. with colored marker to ignore accidental carbon marks). We will then circle this scatter shot and estimate the average position of all trials from the given case, and then measure the distance with 1 and 2 meter sticks to determine final horizontal position $x$.
+
+After investigating how far the ball travels in the $x$ direction from a given height in Case 1, we can determine characteristics about the launcher-and-ball system to estimate how far in the $x$ direction we may expect the ball to travel when launched from a different initial height and/or angle in Cases 2 and 3. 
+
+To estimate how far the ball will travel horizontally in Case 2 where we move the launcher to the higher 0° slot (~19 -- 21 cm higher), we can use {eq}`eq-M03-horizontal-Kinematic` to determine $x_{\text{case 2 theoretical}}$. However, to do so, we will need to know:
+
+- for how long ($t_{\text{case 2}}$) and 
+- how fast ($v_{0x\text{,case 2}}$) it will be moving
+
+since distance traveled = speed $\times$ time. 
+
+To determine $v_{0x\text{,case 2}}$, we can realize the balls are launched at a zero angle with respect to the floor, similar to that of Case 1. Therefore $v_{0x\text{,case 2}} = v_{0x\text{,case 1}}$. Thus we can use our data from Case 1 to determine $v_{0x\text{,case 1}}$. Since the total velocity for Case 1 is solely in the $x$ direction, we can also call $v_{0x\text{,case 1}}$ the launcher's exit velocity $v_{\text{0,exit}}$. Therefore for today, $v_{0x\text{,case 2}} = v_{0x\text{,case 1}} = v_{\text{0,exit}}$.
+
+Before we can solve for the exit velocity from Case 1 with {eq}`eq-M03-horizontal-Kinematic`, we need to know for how long the ball was in the air. If we call the ball's final height on the floor $y$, and we measure the initial height $y_{0}$ of the ball, we can use the height difference ($\Delta y = y - y_0$) to determine the time $t$ it took to fall to the floor in the $y$ direction due solely to gravity $g$. Rearranging {eq}`eq-M03-Kinematic-vertical-02` to solve for $t_{\text{case 1}}$, and knowing that the ball starts at rest in the $y$ direction $\text{(}\,v_{0y{\text{,case 1}}} = 0\,\text{m/s}\,\text{)}$ and treating the floor as $y_{\text{case 1}} = 0\,\text{m}$:
 
 ```{math}
 :label: eq-M03-Kinematic-vertical-time
-0 = y_{0} + 0 - \frac{1}{2}gt^{2}~~~~~\Rightarrow~~~~~\sqrt{\frac{2y_{0}}{g}} = t
+y = y_{0} + v_{0y}t - \frac{1}{2}gt^{2}~~~~~\Rightarrow~~~~~0 = y_{0} + 0 - \frac{1}{2}gt^{2}~~~~~\Rightarrow~~~~~\sqrt{\frac{2y_{0{\text{,case 1}}}}{g}} = t_{\text{case 1}}
 ```
 
-Now that we know the time $t$ of the trajectory, and treating the uncocked position as $x_{0} = 0\,\text{m}$, we can use {eq}`eq-M03-horizontal-Kinematic` to determine the horizontal velocity $v_{x}$ when released:
+Now that we know the time $t_{\text{case 1}}$, and treating the uncocked position as $x_{0{\text{,case 1}}} = 0\,\text{m}$, we can use {eq}`eq-M03-horizontal-Kinematic` to determine the initial horizontal velocity $v_{0x\text{,case 1}}$ when released. Reminder, since the total velocity for the zero-angle launch was solely in the $x$ direction, we are calling this the launcher's exit velocity $v_{\text{0,exit}}$ for the rest of the lab:
 
 ```{math}
 :label: eq-M03-Kinematic-horizontal-velocity-01
-x = 0 + v_{x}t~~~=>~~~\frac{x}{t} = v_{x}
+x = x_{0} + v_{0x}t~~~~~\Rightarrow~~~~~x = 0 + v_{0x}t~~~~~\Rightarrow~~~~~\frac{x_{\text{case 1}}}{t_{\text{case 1}}} = v_{0x{\text{,case 1}}} = v_{\text{0,exit}}
 ```
 
-For the second case, we move the launcher to the higher 0° slot (~20 cm higher), and we want to determine how far it will travel in the $x$ direction. This leads us back to {eq}`eq-M03-horizontal-Kinematic` where we want to solve for $x_{\text{higher height}}$ (where again, $x_{0} = 0\,\text{m}$ in the uncocked position):
-
-```{math}
-:label: eq-M03-Kinematic-horizontal-velocity-02
-x = 0 + v_{x}t~~~=>~~~x_{\text{higher height}} = v_{x}t_{\text{higher height}}
-```
-
-We know the ball's velocity $v_{x}$, but we no longer know the time. However, similar to before, we can solve for $t_{\text{higher height}}$ by plugging $y_{0\text{,higher height}}$ into {eq}`eq-M03-Kinematic-vertical-time`:
+Now that we know $v_{0x\text{,case 2}} = v_{\text{0,exit}}$ at this higher height of Case 2, we focus on $t_{\text{case 2}}$. Similar to before, we can solve for the time by measuring $y_{0\text{,case 2}}$ and plugging it into {eq}`eq-M03-Kinematic-vertical-time`:
 
 ```{math}
 :label: eq-M03-Kinematic-vertical-time-higher-height
-\sqrt{\frac{2y_{0\text{,higher height}}}{g}} = t_{\text{higher height}}
+\sqrt{\frac{2y_{0\text{,case 2}}}{g}} = t_{\text{case 2}}
 ```
 
-This subsequent value for time $t_{\text{higher height}}$ can be used in {eq}`eq-M03-Kinematic-horizontal-velocity-02` to then calculate a theoretical distance $x_{\text{higher height, theoretical}}$. We will then launch the ball from this higher height see how accurate we estimated $x_{\text{higher height, theoretical}}$. The experimentally determined $x_{\text{higher height, experimental}}$ will be measured in the same way as the first part of this experiment (circling and estimating the center of the scattershot).
+ This leads us back to {eq}`eq-M03-horizontal-Kinematic` where we want to solve for $x_{\text{case 2 theoretical}}$. Using the time $t_{\text{case 2}}$ and by saying $x_{0\text{,case 2}} = 0\,\text{m}$ in the uncocked position, we find:
+
+```{math}
+:label: eq-M03-Kinematic-horizontal-velocity-02
+x = 0 + v_{x}t~~~~~\Rightarrow~~~~~x_{\text{case 2 theoretical}} = v_{\text{0,exit}}t_{\text{case 2}}
+```
+
+
+We will then launch the ball at Case 2's height and see how accurate we estimated $x_{\text{case 2 theoretical}}$. The experimentally determined $x_{\text{case 2 experimental}}$ will be measured in the same way as in Case 1 (circling and estimating the center of the scattershot).
 
 
 
 #### Angled Trajectory (Background for Case 3)
 
-The third part of this experiment is similar to the 2nd part of the second experiment in that we are staying at the higher height, but now investigating the trajectories when launched from different angles, namely, how far in the $x$ direction do they reach? The large, launcher holder is designed to hold the ball at rest (uncocked) in the same position (height) regardless of angle, so you should be able to use your previously determined $y_{0\text{,higher height}}$ as your value for the ball's initial height (see {numref}`M03-simpleProjectileLauncher` right).
-
-By launching at an upward angle $\theta$, we are now giving some of the initial velocity to both $x$ and $y$ directions. Once again, as there is no acceleration in the $x$ direction, we will ultimately use {eq}`eq-M03-horizontal-Kinematic` to determine $x_{\theta}$. However, we need to know both $v_{x\theta}$ and $t_{\theta}$. The velocity will merely be the horizontal component of the launch angle:
-
-```{math}
-:label: eq-M03-Kinematic-horizontal-velocity-03
-v_{x\theta} = v_{x}\cos{\theta}
-```
+The third case of this experiment is similar to Case 2 in that we are staying at the higher height, but now investigating angled trajectories and how far in the $x$ direction do they reach? The large, launcher holder is designed to hold the ball at rest (uncocked) in the same position (both horizontal and height) regardless of angle, so you can treat $y_{0\text{,case 3}} = y_{0\text{,case 2}}$ as your value for the ball's initial height and $x_{0\text{,case 3}} = x_{0\text{,case 2}}$ for the ball's initial horizontal position (see {numref}`M03-simpleProjectileLauncher` right).
 
 ```{figure} SimpleProjectileFigures/M3_Exp3_v2025-01.png
 :name: M03-simpleProjectileLauncher-Exp3
@@ -187,13 +197,18 @@ v_{x\theta} = v_{x}\cos{\theta}
 Example of the upward and downward portions you'll analyze in Experiment 3 for an angled launch.
 ```
 
-To solve for the time, however, we can characterize motion in the $y$ direction to determine for how long the ball is in the air.
+By launching at an upward angle $\theta$ (see {numref}`M03-simpleProjectileLauncher-Exp3`), we are now giving some of the initial velocity to both $x$ and $y$ directions. Once again, as there is no acceleration in the $x$ direction, we will ultimately use {eq}`eq-M03-horizontal-Kinematic` to determine $x_{{\text{case 3,theoretical}}}$. However, we need to know both $v_{0x\text{,case 3}}$ and $t_{\text{case 3}}$. The velocity will merely be the horizontal component of the exit velocity determined in the previous cases:
 
-As shown in {numref}`M03-simpleProjectileLauncher-Exp3`, we can find that total time by breaking the trajectory into parts (i.e. $t_{\theta}~=~t_{\text{up}}~+~t_{\text{down}}$) where $t_{\text{up}}$ is the time for upward travel to the peak height, and $t_{\text{down}}$ is the time for downward travel to the floor from that peak height. **UPWARD PORTION)** Starting with {eq}`eq-M03-Kinematic-vertical-01`, where we know for the upward travel portion the initial velocity in the $y$ direction is $v_{0y} = v_{0y\text{ higher height}} = v_{x}\sin{\theta}$ and at the peak of the trajectory (end of the upward travel) $v_{y} = v_{y\text{peak}} = 0\,\text{m/s}$, thus:
+```{math}
+:label: eq-M03-Kinematic-horizontal-velocity-03
+v_{0x\text{,case 3}} = v_{\text{0,exit}}\cos{\theta}
+```
+
+To solve for the time, we can characterize motion in the $y$ direction to determine for how long the ball is in the air. As shown in {numref}`M03-simpleProjectileLauncher-Exp3`, we can find that total time by breaking the trajectory into parts (i.e. $t_{\text{case 3}}~=~t_{\text{up}}~+~t_{\text{down}}$) where $t_{\text{up}}$ is the time for upward travel to the peak height, and $t_{\text{down}}$ is the time for downward travel to the floor from that peak height. **UPWARD PORTION)** Starting with {eq}`eq-M03-Kinematic-vertical-01`, where we know for the upward travel portion the initial velocity in the $y$ direction is $v_{0y} = v_{0y\text{ higher height}} = v_{x}\sin{\theta}$ and at the peak of the trajectory (end of the upward travel) $v_{y} = v_{y\text{peak}} = 0\,\text{m/s}$, thus:
 
 ```{math}
 :label: eq-M03-Kinematic-vertical-time-03-v2-pt1
-v_{y\text{ peak}} = v_{0y\text{ higher height}} - gt~~~=>~~~0 = v_{x}\sin{\theta} - gt_{\text{up}}~~~=>~~~\frac{v_{x}\sin{\theta}}{g} = t_{\text{up}}
+v_{y\text{ peak}} = v_{0y\text{ higher height}} - gt~~~~~\Rightarrow~~~~~0 = v_{x}\sin{\theta} - gt_{\text{up}}~~~~~\Rightarrow~~~~~\frac{v_{x}\sin{\theta}}{g} = t_{\text{up}}
 ```
 
 **DOWNWARD PORTION)** Then for the downward travel, we need to first know how high we travelled during the upward portion (i.e. $y_{0\text{,higher height}} \text{ to } y_{\text{ peak}}$) so we can use {eq}`eq-M03-Kinematic-vertical-02` later to determine the time it took to fall from $y_{\text{ peak}} \text{ to } y_{\text{ floor}}$. Since we know our initial height $y_{0} = y_{0\text{,higher height}}$, initial velocity $v_{0} = v_{0y\text{ higher height}} = v_{x}\sin{\theta}$, and the time it took to get $t_{\text{up}}$ there from {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt1`, we can use {eq}`eq-M03-Kinematic-vertical-02` to solve for the final height of the upward travel $y_{\text{peak}}$:
@@ -207,7 +222,7 @@ Now that we know $y_{\text{peak}}$, we can use {eq}`eq-M03-Kinematic-vertical-02
 
 ```{math}
 :label: eq-M03-Kinematic-vertical-time-03-v2-pt3
-y_{\text{floor}} = y_{\text{peak}} + v_{y\text{ peak}} - \frac{1}{2}gt_{\text{down}}^{2}~~~=>~~~0 = y_{\text{peak}} + 0 - \frac{1}{2}gt_{\text{down}}^{2}~~~=>~~~\sqrt{\frac{2y_{\text{peak}}}{g}} = t_{\text{down}}
+y_{\text{floor}} = y_{\text{peak}} + v_{y\text{ peak}} - \frac{1}{2}gt_{\text{down}}^{2}~~~~~\Rightarrow~~~~~0 = y_{\text{peak}} + 0 - \frac{1}{2}gt_{\text{down}}^{2}~~~~~\Rightarrow~~~~~\sqrt{\frac{2y_{\text{peak}}}{g}} = t_{\text{down}}
 ```
 
 **HORIZONTAL DISTANCE)** Finally, we have the total time $t_{\theta}~=~t_{\text{up}}~+~t_{\text{down}}$ from {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt1` and {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt3` and the initial velocity $v_{x}$ from {eq}`eq-M03-Kinematic-horizontal-velocity-03` to incorporate into {eq}`eq-M03-horizontal-Kinematic` to determine the theoretical distance $x_{\theta}$ the ball with travel in the $x$ direction for any given angle $\theta$:
@@ -326,13 +341,21 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 4. Measure the height the ball will fall; place the metal ball into the launcher as the initial height $y_{0}$ is measured from the bottom of the ball to the floor (though the bottom of the inside of the barrel can also be used as the bottom of the ball location if that is easier to measure).
 
-5. Conduct a couple test launches by pulling the piston to the first or second notches (whichever position provides the shorter, $\sim 1\,\text{m}$, $x$ distance). Take mental note of where the ball is generally landing.
+5. Conduct a few test launches by pulling the piston back to the denoted notch for your launcher. Take mental note of where the ball is generally landing and ensure it's generally consistent.
 
-6. Get a piece of paper and tape it in the approximate location, and place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.
+    ```{admonition} Push, don't smack. Use release bar, not finger.
+    :class: note
+    - Ensure the ball is resting against the piston such that the piston will push rather than hit the ball out of the launcher.
+    - Ensure you use the release bar, and not your finger, to quickly release the piston.
+    - Before continuing, try some test launches with the ball not resting against the piston. Notice the greater inconsistency.
+    - Before continuing, try releasing the launcher with just your finger instead of the release bar. Notice the greater inconsistency.
+    ```
 
-7. Conduct **30 launches** onto the paper/carbon paper.
+6. Get some pieces of white printer paper and tape them in the approximate landing zone, and place pieces of carbon paper on top (no need to tape that one since you'll be moving it between trials) so the ball can mark up the white paper when it lands. Materials available at the table in the middle of the room.
 
-8. Put aside the carbon paper and mark the dots with a marker or something else that makes it apparent which dots are your data points for this height. Draw a rough circle surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter.
+7. Conduct **30 launches** onto the paper/carbon paper. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case.
+
+8. Draw a rough circle/ellipse surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter. Flashlights are available at the table in the middle of the room that could asist in drawing your circle/ellipse.
 
 9. Measure the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. To translate the initial location of the ball in the barrel to the floor, you can use a plum bob to make a straight line down to the floor, from which you can more easily measure $x$
 
