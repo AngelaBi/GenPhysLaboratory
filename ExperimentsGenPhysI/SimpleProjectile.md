@@ -119,7 +119,7 @@ For the first case, you will measure distances traveled in both $x$ and $y$ dire
 Stars denote projectile height. Left) Position of launcher for lower height in Case 1. Right) Position of launcher for higher height in Case 2. Right) Position of launcher for angled launches in Case 3 where the ball's initial position is at the same higher height position.
 ```
 
-```{figure} SimpleProjectileFigures/M3_Measurements_v2025-05.png
+```{figure} SimpleProjectileFigures/M3_Measurements_v2025-06.png
 :name: M03-simpleProjectileLauncher_meas_case-1
 :width: 100%
 :align: center
@@ -127,7 +127,7 @@ Stars denote projectile height. Left) Position of launcher for lower height in C
 Example of Case 1 data aquisition.
 ```
 
-```{figure} SimpleProjectileFigures/M4_Measurements_v2025-04.png
+```{figure} SimpleProjectileFigures/M4_Measurements_v2025-05.png
 :name: M03-simpleProjectileLauncher_meas_case-2-3
 :width: 100%
 :align: center
@@ -137,7 +137,7 @@ Example of Case 2 and 3 estimation and data aquisition.
 
 #### Zero-Angle Trajectories (Background for Cases 1 & 2)
 
-The distance traveled in the in the $x$ direction $\Delta x$ will be measured from the center of the ball in the uncocked position (initial position $x_0$) to the average landing position on the floor (final position $x$) after the given number of trials. Note: $\Delta x = x - x_0$, however since initial position $x_0 = 0\,\text{m}$ for all cases throughout the lab, $\Delta x = x$. 
+The distance traveled in the in the $x$ direction $\Delta x$ will be measured from the center of the ball in the uncocked position (initial position $x_0$) to the average landing position on the floor (final position $x$) after the given number of trials. Note: $\Delta x = x - x_0$, however since initial position $x_0 = 0\,\text{m}$ for all cases throughout the lab today, $\Delta x = x$. 
 
 The ball will mark up white printer paper with black carbon paper; we will note each landing point (e.g. with colored marker to ignore accidental carbon marks). We will then circle this scatter shot and estimate the average position of all trials from the given case, and then measure the distance with 1 and 2 meter sticks to determine final horizontal position $x$.
 
@@ -204,32 +204,53 @@ By launching at an upward angle $\theta$ (see {numref}`M03-simpleProjectileLaunc
 v_{0x\text{,case 3}} = v_{\text{0,exit}}\cos{\theta}
 ```
 
-To solve for the time, we can characterize motion in the $y$ direction to determine for how long the ball is in the air. As shown in {numref}`M03-simpleProjectileLauncher-Exp3`, we can find that total time by breaking the trajectory into parts (i.e. $t_{\text{case 3}}~=~t_{\text{up}}~+~t_{\text{down}}$) where $t_{\text{up}}$ is the time for upward travel to the peak height, and $t_{\text{down}}$ is the time for downward travel to the floor from that peak height. **UPWARD PORTION)** Starting with {eq}`eq-M03-Kinematic-vertical-01`, where we know for the upward travel portion the initial velocity in the $y$ direction is $v_{0y} = v_{0y\text{ higher height}} = v_{x}\sin{\theta}$ and at the peak of the trajectory (end of the upward travel) $v_{y} = v_{y\text{peak}} = 0\,\text{m/s}$, thus:
+To solve for the time, we can characterize motion in the $y$ direction to determine for how long the ball is in the air. One way to solve for the total travel time is via the quadratic equation with {eq}`eq-M03-Kinematic-vertical-02` (not shown here). An alternative method to find the total time can be conducted by breaking the trajectory into parts (i.e. $t_{\text{case 3}}~=~t_{\text{up}}~+~t_{\text{down}}$ as depicted in {numref}`M03-simpleProjectileLauncher-Exp3`) where $t_{\text{up}}$ is the time for upward travel from launch to the peak height, and $t_{\text{down}}$ is the time for downward travel to the floor from that peak height. 
+
+**UPWARD PORTION $t_{\text{up}}$)** Starting with {eq}`eq-M03-Kinematic-vertical-01`, we know the initial velocity in the $y$ direction is the vertical portion of the exit velocity, $v_0 = v_{0y\text{,case 3 up}} = v_{\text{0,exit}}\sin{\theta}$. At the peak of the trajectory, the ball goes to rest in the vertical direction such that the final velocity is $v_{y} = v_{y\text{,case 3 up}} = 0\,\text{m/s}$, thus:
+
+
+```{math}
+:label: eq-M03-Kinematic-vertical-time-03-v2-pt1_0
+v_{y\text{,case 3 up}} = v_{0y\text{,case 3 up}} - gt_{\text{up}}~~~~~\Rightarrow~~~~~0 = v_{\text{0,exit}}\sin{\theta} - gt_{\text{up}}
+```
+
+leads to
 
 ```{math}
 :label: eq-M03-Kinematic-vertical-time-03-v2-pt1
-v_{y\text{ peak}} = v_{0y\text{ higher height}} - gt~~~~~\Rightarrow~~~~~0 = v_{x}\sin{\theta} - gt_{\text{up}}~~~~~\Rightarrow~~~~~\frac{v_{x}\sin{\theta}}{g} = t_{\text{up}}
+\frac{v_{\text{0,exit}}\sin{\theta}}{g} = t_{\text{up}}
 ```
 
-**DOWNWARD PORTION)** Then for the downward travel, we need to first know how high we travelled during the upward portion (i.e. $y_{0\text{,higher height}} \text{ to } y_{\text{ peak}}$) so we can use {eq}`eq-M03-Kinematic-vertical-02` later to determine the time it took to fall from $y_{\text{ peak}} \text{ to } y_{\text{ floor}}$. Since we know our initial height $y_{0} = y_{0\text{,higher height}}$, initial velocity $v_{0} = v_{0y\text{ higher height}} = v_{x}\sin{\theta}$, and the time it took to get $t_{\text{up}}$ there from {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt1`, we can use {eq}`eq-M03-Kinematic-vertical-02` to solve for the final height of the upward travel $y_{\text{peak}}$:
+**DOWNWARD PORTION $t_{\text{down}}$)** For the downward travel, we can use {eq}`eq-M03-Kinematic-vertical-02` to determine the time $t_{\text{down}}$ it took to fall from the peak $y_{\text{0,case 3 down}}$ to the floor $y_{\text{case 3 down}}$. To do this, we need to determine the ***initial velocity***, ***initial height***, and ***final height***. 
+
+As mentioned in the upward portion, we know the velocity at the peak of the trajectory in the vertical direction is zero, therefore the downward portion's ***initial velocity*** $v_{0y\text{,case 3 down}} = v_{y\text{,case 3 up}} = 0\,\text{m/s}$. Then, as in previous cases, we also know the ***final height*** at the floor is $y_{\text{case 3 down}} = 0\,\text{m}$. 
+
+To determine the ***initial height*** for the downward portion, we can realize this equals our final height from the upward portion (i.e. peak height $y_{\text{peak}} = y_{\text{0,case 3 down}} = y_{\text{case 3 up}}$). We can then use {eq}`eq-M03-Kinematic-vertical-02` to solve for the final peak height using values regarding the upward portion. We already know our measured initial launch height $y_{0\text{,case 3}}$ as noted from earlier measurements, and the initial velocity in the $y$ direction $v_{0y\text{,case 3 up}}$ and the time of the upward travel $t_{\text{up}}$ as used in {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt1`. Plugging this all in to {eq}`eq-M03-Kinematic-vertical-02`, we find the peak height to be:
 
 ```{math}
 :label: eq-M03-Kinematic-vertical-time-03-v2-pt2
-y_{\text{peak}} = y_{0\text{,higher height}} + v_{x}\sin{\theta}t_{\text{up}} - \frac{1}{2}gt_{\text{up}}^{2}
+y_{\text{peak}} = y_{0\text{,case 3}} + v_{\text{0,exit}}\sin{(\theta)}t_{\text{up}} - \frac{1}{2}gt_{\text{up}}^{2}
 ```
 
-Now that we know $y_{\text{peak}}$, we can use {eq}`eq-M03-Kinematic-vertical-02` to solve for $t_{down}$, this time with the final height $y_{\text{floor}} = 0\,\text{m}$, initial height of $y_{\text{peak}}$, and the initial velocity $v_{y\text{ peak}} = 0\,\text{m/s}$.
+Now that we know $y_{\text{peak}}$, we can use {eq}`eq-M03-Kinematic-vertical-02` also to solve for $t_{down}$. Plugging in variables and substituting the zero floor height and zero initial vertical velocity:
+
+```{math}
+:label: eq-M03-Kinematic-vertical-time-03-v2-pt3_0
+y_{\text{case 3 down}} = y_{\text{peak}} + v_{0y\text{,case 3 down}}t_{\text{down}} - \frac{1}{2}gt_{\text{down}}^{2}~~~~~\Rightarrow~~~~~0 = y_{\text{peak}} + 0 - \frac{1}{2}gt_{\text{down}}^{2}
+```
+
+we subsequently get:
 
 ```{math}
 :label: eq-M03-Kinematic-vertical-time-03-v2-pt3
-y_{\text{floor}} = y_{\text{peak}} + v_{y\text{ peak}} - \frac{1}{2}gt_{\text{down}}^{2}~~~~~\Rightarrow~~~~~0 = y_{\text{peak}} + 0 - \frac{1}{2}gt_{\text{down}}^{2}~~~~~\Rightarrow~~~~~\sqrt{\frac{2y_{\text{peak}}}{g}} = t_{\text{down}}
+\sqrt{\frac{2y_{\text{peak}}}{g}} = t_{\text{down}}
 ```
 
-**HORIZONTAL DISTANCE)** Finally, we have the total time $t_{\theta}~=~t_{\text{up}}~+~t_{\text{down}}$ from {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt1` and {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt3` and the initial velocity $v_{x}$ from {eq}`eq-M03-Kinematic-horizontal-velocity-03` to incorporate into {eq}`eq-M03-horizontal-Kinematic` to determine the theoretical distance $x_{\theta}$ the ball with travel in the $x$ direction for any given angle $\theta$:
+**HORIZONTAL DISTANCE)** Finally, we have the total time $t_{\text{case 3}}~=~t_{\text{up}}~+~t_{\text{down}}$ from {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt1` and {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt3` as well as the initial velocity $v_{0x\text{,case 3}}$ from {eq}`eq-M03-Kinematic-horizontal-velocity-03`. Plugging into {eq}`eq-M03-horizontal-Kinematic` to determine the theoretical distance $x_{\text{case 3 theoretical}}$ the ball with travel in the $x$ direction for any given non-zero angle $\theta$:
 
 ```{math}
 :label: eq-M03-Kinematic-vertical-time-03-v2-pt4
-x_{\theta} = v_{x}\cos{\theta}t_{\theta}
+x_{\text{case 3 theoretical}} = v_{\text{0,exit}}\cos{(\theta)}t_{\text{case 3}}
 ```
 
 
@@ -315,33 +336,29 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 --->
 
-### Horizontal Launch (First experiment)
+### Case 1 --- Zero-angle Launch
 
 
-(a plum bob will be used to find the ball's initial position on the floor)
-
-
-2. Create a data table for this experiment:
+1. Create a data table for Case 1 including but not limited to:
     - Common data section with the accepted value of $g$.
-    - Section for the case at a the lower initial height containing:
-        - the ball height $y_{0}$
+    - Section containing:
+        - the ball initial height $y_{0}$
         - the ball height's estimated uncertainty $\delta y_{0}$
-        - distance $x$
-        - distance uncertainty $\delta x$ based on the radius of the circle you draw around the scattershot
-    - Additional sections for derived time of the trajectory $t$ and velocity $v_{x}$
-    - Additional sections for:
-        - Height of the ball at the higher $0°$ slot height $y_{0\text{,higher height}}$
-        - Time of the trajectory from a higher height $t_{\text{higher height}}$
-        - Theoretical distance $x_{\text{higher height, theoretical}}$ (calculated with {eq}`eq-M03-Kinematic-horizontal-velocity-02`)
-        - Experimentally measured distance $x_{\text{higher height, experimental}}$
-        - Estimated uncertainty in the experimental distance $\delta x_{\text{higher height, experimental}}$ (essentially $\pm$ the radius of the circle drawn around your scattershot)
-        - Difference (magnitude) between the theoretical and experimental $x$ distances
+        - experimental overall distance $x$
+        - experimental distance estimated uncertainty $\delta x$ based on the radius of the circle/ellipse you draw around the scattershot
+    - Additional sections for derived time of the trajectory $t$ and initial velocity $v_{\text{0,exit}}$.
+    
 
-3. Place the marble launcher in the holder in the lower $0°$ slot (uncocked to represent where the ball will be once the piston is no longer accelerating the ball up to speed)
+2. Place the marble launcher in the holder in the lower $0°$ slot (uncocked to represent where the ball will be once the piston is no longer accelerating the ball up to speed, and the ball is released).
 
-4. Measure the height the ball will fall; place the metal ball into the launcher as the initial height $y_{0}$ is measured from the bottom of the ball to the floor (though the bottom of the inside of the barrel can also be used as the bottom of the ball location if that is easier to measure).
+3. Measure the height the ball will fall; place the ball into the launcher as the initial height $y_{0}$ is measured from the bottom of the ball to the floor (though the bottom of the inside of the barrel can also be used as the bottom of the ball location if that is easier to measure). Ensure the ruler you use has the zero meter end on the floor. Use a plum bob to find and note the ball's initial position on the floor.
 
-5. Conduct a few test launches by pulling the piston back to the denoted notch for your launcher. Take mental note of where the ball is generally landing and ensure it's generally consistent.
+4. Conduct a few test launches by pulling the piston back to the denoted notch for your launcher. Take mental note of where the ball is generally landing and ensure it's generally consistent.
+
+    ```{admonition} Which Loaded Piston Position?
+    :class: warning
+    Only pull piston back to slot denoted by arrows on the launcher itself.
+    ```
 
     ```{admonition} Push, don't smack. Use release bar, not finger.
     :class: note
@@ -351,72 +368,82 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     - Before continuing, try releasing the launcher with just your finger instead of the release bar. Notice the greater inconsistency.
     ```
 
-6. Get some pieces of white printer paper and tape them in the approximate landing zone, and place pieces of carbon paper on top (no need to tape that one since you'll be moving it between trials) so the ball can mark up the white paper when it lands. Materials available at the table in the middle of the room.
+5. Get some pieces of white printer paper and tape them in the approximate landing zone, and place pieces of carbon paper on top (no need to tape that one since you'll be moving it between trials) so the ball can mark up the white paper when it lands. Materials available at the table in the middle of the room.
 
-7. Conduct **30 launches** onto the paper/carbon paper. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case.
+6. Conduct **30 launches** onto the paper/carbon paper. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case.
 
-8. Draw a rough circle/ellipse surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter. Flashlights are available at the table in the middle of the room that could asist in drawing your circle/ellipse.
+7. Draw a rough circle/ellipse surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter. Flashlights are available at the table in the middle of the room that could asist in drawing your circle/ellipse.
 
-9. Measure the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. To translate the initial location of the ball in the barrel to the floor, you can use a plum bob to make a straight line down to the floor, from which you can more easily measure $x$
+8. Measure the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. To translate the initial location of the ball in the barrel to the floor, you can use a plum bob to make a straight line down to the floor, from which you can more easily measure $x$
 
-10. From your circle around your scattershot, estimate your uncertainty in distance $\delta x$
+9. From your circle around your scattershot, estimate your uncertainty in distance $\delta x$
 
-11. Move the marble launcher to the higher $0°$ slot and remeasure the initial height $y_{0\text{,higher height}}$
+### Case 2 --- Zero-angle Launch at a Higher Height
 
-12. Now calculate the theoretical distance $x_{\text{higher height, theoretical}}$ using {eq}`eq-M03-Kinematic-vertical-time` -- {eq}`eq-M03-Kinematic-vertical-time-higher-height`
+10. Create additional data section for Case 2 including but not limited to:
+    - Height of the ball at the higher $0°$ slot height $y_{0\text{,case 2}}$
+    - Time of the trajectory from a higher height $t_{\text{case 2}}$
+    - Theoretical distance $x_{\text{case 2, theoretical}}$ (calculated with {eq}`eq-M03-Kinematic-horizontal-velocity-02`)
+    - Experimentally measured distance $x_{\text{case 2, experimental}}$
+    - Estimated uncertainty in the experimental distance $\delta x_{\text{case 2, experimental}}$ (essentially $\pm$ the radius of the circle drawn around your scattershot)
+    - Difference (magnitude) between the theoretical and experimental $x$ distances
 
-13. Repeat steps 5 to 10 to determine experimentally the distance with its uncertainty at the higher height (i.e. $x_{\text{higher height, experimental}}$ and $\delta x_{\text{higher height, experimental}}$). **ADDITIONALLY: Before any launches from the higher height, draw a bullseye at the theoretical distance you expect the balls at the higher height to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be (to discuss later in {ref}`interpretation3`).**
+11. Move the marble launcher to the higher $0°$ slot and remeasure the initial height $y_{0\text{,case 2}}$
 
-14. Calculate the difference between you theoretical and experimental values of $x$ at the higher height.
+12. Now calculate the theoretical distance $x_{\text{case 2, theoretical}}$ using {eq}`eq-M03-Kinematic-vertical-time` -- {eq}`eq-M03-Kinematic-vertical-time-higher-height`
 
-15. DISCUSSION POINT (covered in {ref}`interpretation3`): Does your experimental distance of the higher height agree with what you expected from your theoretical calculation? In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+13. Repeat steps 5 to 10 to determine experimentally the distance with its uncertainty at the higher height (i.e. $x_{\text{case 2, experimental}}$ and $\delta x_{\text{case 2, experimental}}$). **ADDITIONALLY: Before any launches from the higher height, draw a bullseye at the theoretical distance you expect the balls at the higher height to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be (to discuss later in {ref}`interpretation3`). See example in {numref}`M03-simpleProjectileLauncher_meas_case-2-3`.**
 
+14. Calculate the difference between your theoretical and experimental values of $x_{\text{case 2}}$.
 
-
-
-
-
-
-
-
-
-### Angled Trajectory (Third experiment)
-
+15. DISCUSSION POINT (covered in {ref}`interpretation3`): Does your experimental distance of the higher height agree with what you expected from your theoretical calculation? In other words, does $x_{\text{case 2, experimental}} \pm \delta x_{\text{case 2, experimental}}$ overlap with $x_{\text{case 2, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
 
 
-1. Create a data table for this experiment:
-    - Common data section with the accepted value of $g$ and any values you will need from previous experiments to determine the theoretical distance at a given angled launch $x_{\theta}$ ({eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`).
+
+
+
+
+
+
+
+
+### Case 3 --- Angled Trajectory at a Higher Height
+
+
+
+16. Create additional data section for Case 3 including but not limited to:
+    - Common data section with the accepted value of $g$ and any values you will need from previous cases to determine the theoretical horizontal distance at a given angled launch ({eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`).
     - Additional sections for:
-        - Theoretical distance $x_{\theta\text{, theoretical}}$ (calculated with {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`)
-        - Experimentally measured distance $x_{\theta\text{, experimental}}$
-        - Estimated uncertainty in the experimental distance $\delta x_{\theta, experimental}$ (essentially $\pm$ the radius of the circle drawn around your scattershot)
+        - Theoretical distance $x_{\text{case 3, theoretical}}$ (calculated with {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`)
+        - Experimentally measured distance $x_{\text{case 3, experimental}}$
+        - Estimated uncertainty in the experimental distance $\delta x_{\text{case 3, experimental}}$ (essentially $\pm$ the radius of the circle drawn around your scattershot)
         - Difference (magnitude) between the theoretical and experimental $x$ distances
 
-2. Place the marble launcher in the holder in the 45° slot
+17. Place the marble launcher in the holder in the $45^\circ$ slot.
 
-3. Use your previously measured $y_{0\text{,higher height}}$ as the height the ball will fall for any angled launches (e.g. $y_{0\text{,higher height}} = y_{\theta\text{,higher height}}$).
+18. Use your previously measured $y_{0\text{,case 2}}$ as the height the ball will fall for any angled launches (e.g. $y_{0\text{,case 2}} = y_{0\text{,case 3}}$).
 
-4. Calculate the theoretical distance $x_{\text{, theoretical}}$ using {eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`
+19. Calculate the theoretical distance $x_{\text{case 3, theoretical}}$ using {eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`
 
-5. Before any launches from the higher height, tape a paper and draw a bullseye at the theoretical distance you expect the balls at the given angle to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be.
+20. Before any launches from the higher height, tape a paper and draw a bullseye at the theoretical distance you expect the balls at the given angle to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be.
 
-6. Conduct a few test launches by pulling the piston to the same notch you've been using in Experiment 2 to be able to use the same exit velocity as previously determined
+21. Conduct a few test launches by pulling the piston to the same notch you've been using in Experiment 2 to be able to use the same exit velocity as previously determined
 
-7. If need be, tape additional paper in the location from the test launches. Place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.
+22. If need be, tape additional paper in the location from the test launches. Place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.
 
-8. Conduct **30 launches** onto the paper/carbon paper.
+23. Conduct **30 launches** onto the paper/carbon paper.
 
-9.  Put aside the carbon paper and mark the dots with a marker or something else that makes it apparent which dots are your data points for this height. Draw a rough circle surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter.
+24.  Put aside the carbon paper and mark the dots with a marker or something else that makes it apparent which dots are your data points for this height. Draw a rough circle surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter.
 
-10. Measure the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. The initial position of the ball in the $x$ direction translated to the floor should be the same as Experiment 2 (to save you some time). Remeasure if that's no longer the case (e.g. you've accidentally moved the launcher holder)
+25. Measure the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. The initial position of the ball in the $x$ direction translated to the floor should be the same as Experiment 2 (to save you some time). Remeasure if that's no longer the case (e.g. you've accidentally moved the launcher holder)
 
-11. From your circle around your scattershot, estimate your uncertainty in distance $\delta x$
+26. From your circle around your scattershot, estimate your uncertainty in distance $\delta x$
 
-12. Calculate the difference between you theoretical and experimental values of $x$ at the given angle.
+27. Calculate the difference between you theoretical and experimental values of $x$ at the given angle.
 
-13. If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 5 to 13 if needed.
+28. If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 5 to 13 if needed.
 
-14. DISCUSSION POINT (covered in {ref}`interpretation3`): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+29. DISCUSSION POINT (covered in {ref}`interpretation3`): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
 
 (interpretation3)=
 ## Post-Lab Submission --- Interpretation of Results
@@ -445,7 +472,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 --->
 
 - Make sure to submit your finalized data table (Excel sheet)
-- In a **paragraph** per experiment, summarize the results you have determined in each case:
+- In a **paragraph** per experiment, summarize the results you have determined in each case and argue your conclusions with your data values.:
 	- What type of system do the kinematic equations represent?
   <!---
 	- **Experiment 1:**
@@ -453,12 +480,12 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 	    - In other words, for Experiment 1, COMPARE your experimental result of $g$ to the accepted values. Does $g \pm \delta g$ overlap (and therefore agree) with the accepted value?
 	  - Would a different sized marble change your derived value of $g$? Why or why not?
     --->
-	- **Experiment 1:**
+	- **Cases 1 & 2:**
 	  - What were your results for the horizontally-launched trajectories at the initial lower height and then higher height? Do your results overlap with your theoretical value? Why or why not?
-	- **Experiment 2:**
+	- **Case 3:**
 	  - What were your results for the trajectories from a non-zero angle(s) at the higher height? Do your results overlap with your theoretical value? Why or why not?
  
-- In a **paragraph** per experiment, summarize your error analysis. Be qualitative, not only quantitative. 
+- In a **paragraph** per experiment, summarize your error analysis. Be qualitative, not only quantitative. Argue your conclusions with your data values. 
 	- What is the precision of your equipment?
 	- What are possible systematic errors for today's experiments?
   <!---
