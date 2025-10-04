@@ -1,3 +1,4 @@
+(cons-energy-glider-track-lab-overall)=
 # Conservation of Energy with Glider on Tilted Air Track
 
 ## Background

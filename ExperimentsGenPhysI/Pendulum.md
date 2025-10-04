@@ -1,3 +1,4 @@
+(simple-pendulum-g-lab-overall)=
 # Determination of Acceleration due to Gravity, *g*, with Simple Pendulum
 
 ## Background
