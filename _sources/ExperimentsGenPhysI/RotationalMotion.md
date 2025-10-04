@@ -1,3 +1,4 @@
+(rotational-dynamics-moi-angmom-lab-overall)=
 # Rotational Dynamics with Moment of Inertia & Angular Momentum
 
 ## Background

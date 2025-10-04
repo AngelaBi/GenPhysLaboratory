@@ -1,3 +1,4 @@
+(force-table-with-3-vectors-overall)=
 # Force Table with 3 Vectors at Equilibrium
 
 ## Background

@@ -1,3 +1,4 @@
+(fluid-physics-arch-bern-lab-overall)=
 # Fluid Physics with Archimedes' & Bernoulli's Principles
 
 ## Background 

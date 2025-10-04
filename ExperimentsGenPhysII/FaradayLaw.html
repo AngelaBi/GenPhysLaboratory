@@ -445,57 +445,57 @@
 <h3>Magnetic Flux<a class="headerlink" href="#magnetic-flux" title="Permalink to this heading">#</a></h3>
 <p>The magnetic field in a volume of space can be described by vectors, which give the strength of the field (its magnitude) and the field’s direction at each point of the volume. A closed loop (closed, so that the area of the loop is defined) will then have field vectors “punch through” the area bounded by the loop. One can think of this as the field “flowing” through the area defined by the loop (very similar to water flowing through a cross sectional area of a pipe). This flux can be defined by:</p>
 <div class="math notranslate nohighlight" id="equation-eq-magnetic-flux">
-<span class="eqno">(126)<a class="headerlink" href="#equation-eq-magnetic-flux" title="Permalink to this equation">#</a></span>\[\Phi=\oint \vec{B} \cdot d \vec{A}=\vec{B} \cdot \vec{A}\]</div>
+<span class="eqno">(127)<a class="headerlink" href="#equation-eq-magnetic-flux" title="Permalink to this equation">#</a></span>\[\Phi=\oint \vec{B} \cdot d \vec{A}=\vec{B} \cdot \vec{A}\]</div>
 <p>Note that, the second equation holds only if <span class="math notranslate nohighlight">\(B\)</span> is constant over the area defined by the loop. The flux will be zero if the magnetic field is parallel to the area of the loop and maximum if the field is perpendicular to the area of the loop.</p>
 </section>
 <section id="faraday-s-law">
 <h3>Faraday’s Law<a class="headerlink" href="#faraday-s-law" title="Permalink to this heading">#</a></h3>
 <p>If a loop of wire (for example a coil) is moving in a magnetic field or if the magnetic field over the area of the loop changes (either direction or magnitude) then an electro-magnetic force (a voltage) might be induced in the loop due to the fact that the magnetic flux through the loop changes. Faraday’s Law states that the induced electro-motive force [EMF] or voltage in the loop is directly proportional to the rate of change of the flux through the loop. In this experiment, the magnet and coil are arranged so that the magnetic field is perpendicular to the coil loops and:</p>
 <div class="math notranslate nohighlight" id="equation-eq-faraday">
-<span class="eqno">(127)<a class="headerlink" href="#equation-eq-faraday" title="Permalink to this equation">#</a></span>\[\mathcal{E} = \Delta V= -N \frac{d\Phi}{dt}\]</div>
+<span class="eqno">(128)<a class="headerlink" href="#equation-eq-faraday" title="Permalink to this equation">#</a></span>\[\mathcal{E} = \Delta V= -N \frac{d\Phi}{dt}\]</div>
 <p>Here <span class="math notranslate nohighlight">\(N\)</span> is the number of windings in the coil and the negative sign in front of the expression indicates that the EMF is induced in such a way that it opposes the change in flux through the loop (this is commonly known as Lenz’s Law).</p>
 <p>In this lab the area of the coil is constant, but the field through the area defined by the coil will change. Therefore Faraday’s Law here can be written as:</p>
 <div class="math notranslate nohighlight" id="equation-eq-faraday-db-dt">
-<span class="eqno">(128)<a class="headerlink" href="#equation-eq-faraday-db-dt" title="Permalink to this equation">#</a></span>\[\Delta V= -N A \frac{d B}{dt}\]</div>
+<span class="eqno">(129)<a class="headerlink" href="#equation-eq-faraday-db-dt" title="Permalink to this equation">#</a></span>\[\Delta V= -N A \frac{d B}{dt}\]</div>
 <p>or, if we average over a time <span class="math notranslate nohighlight">\(\Delta t\)</span>:</p>
 <div class="math notranslate nohighlight" id="equation-eq-faraday-average">
-<span class="eqno">(129)<a class="headerlink" href="#equation-eq-faraday-average" title="Permalink to this equation">#</a></span>\[\Delta V_{ave}= -N A \frac{\Delta B}{\Delta t}\]</div>
-<p>Integrating <a class="reference internal" href="#equation-eq-faraday">(127)</a> gives:</p>
+<span class="eqno">(130)<a class="headerlink" href="#equation-eq-faraday-average" title="Permalink to this equation">#</a></span>\[\Delta V_{ave}= -N A \frac{\Delta B}{\Delta t}\]</div>
+<p>Integrating <a class="reference internal" href="#equation-eq-faraday">(128)</a> gives:</p>
 <div class="math notranslate nohighlight" id="equation-eq-faraday-integrated">
-<span class="eqno">(130)<a class="headerlink" href="#equation-eq-faraday-integrated" title="Permalink to this equation">#</a></span>\[\int_{\textrm{peak}}\Delta V dt= -N A \Delta B\]</div>
+<span class="eqno">(131)<a class="headerlink" href="#equation-eq-faraday-integrated" title="Permalink to this equation">#</a></span>\[\int_{\textrm{peak}}\Delta V dt= -N A \Delta B\]</div>
 <p>If the area is integrated from the beginning of the peak to the point where the voltage is zero and the coil is at the maximum field, then <span class="math notranslate nohighlight">\(\Delta B\)</span> will equal the maximum field. Capstone has an area function that can be used to measure the integral of the voltage.</p>
 <p>If the coil is in a closed circuit with total resistance <span class="math notranslate nohighlight">\(R\)</span> then a current will flow through the coil according to Ohm’s Law:</p>
 <div class="math notranslate nohighlight" id="equation-eq-ohms-law2">
-<span class="eqno">(131)<a class="headerlink" href="#equation-eq-ohms-law2" title="Permalink to this equation">#</a></span>\[V = I R\]</div>
+<span class="eqno">(132)<a class="headerlink" href="#equation-eq-ohms-law2" title="Permalink to this equation">#</a></span>\[V = I R\]</div>
 <p>The circuit will dissipate energy at a rate of:</p>
 <div class="math notranslate nohighlight" id="equation-eq-power-dissipation">
-<span class="eqno">(132)<a class="headerlink" href="#equation-eq-power-dissipation" title="Permalink to this equation">#</a></span>\[P= V I= I^{2} R\]</div>
+<span class="eqno">(133)<a class="headerlink" href="#equation-eq-power-dissipation" title="Permalink to this equation">#</a></span>\[P= V I= I^{2} R\]</div>
 <p>Since power is work per time, the energy that is lost in the circuit can be found by calculating the area under the power vs. time graph (i.e. the integral of the Power <span class="math notranslate nohighlight">\(P\)</span> over time <span class="math notranslate nohighlight">\(t\)</span>):</p>
 <div class="math notranslate nohighlight" id="equation-eq-energy-loss">
-<span class="eqno">(133)<a class="headerlink" href="#equation-eq-energy-loss" title="Permalink to this equation">#</a></span>\[E_{lost}=\int P\, dt= \textrm{Area under the P vs t graph}\]</div>
+<span class="eqno">(134)<a class="headerlink" href="#equation-eq-energy-loss" title="Permalink to this equation">#</a></span>\[E_{lost}=\int P\, dt= \textrm{Area under the P vs t graph}\]</div>
 </section>
 <section id="energy-in-a-pendulum">
 <h3>Energy in a pendulum<a class="headerlink" href="#energy-in-a-pendulum" title="Permalink to this heading">#</a></h3>
 <p>The center of mass of a pendulum starting at an initial height <span class="math notranslate nohighlight">\(h_{i}\)</span>, then swinging through its lowest point and finally rising to a height <span class="math notranslate nohighlight">\(h_{f}\)</span>, will experience a change in potential energy of:</p>
 <div class="math notranslate nohighlight" id="equation-eq-potential-energy-change">
-<span class="eqno">(134)<a class="headerlink" href="#equation-eq-potential-energy-change" title="Permalink to this equation">#</a></span>\[\Delta PE= m g (h_{f}-h_{i})\]</div>
-<p>If no energy was dissipated, then the change in potential energy would be zero (no potential energy would be lost in this case). If the final height were less, as indicated in <a class="reference internal" href="#fig-pendulum-energy"><span class="std std-numref">Figure 68</span></a>, then the change in energy would give the energy lost during the motion:</p>
+<span class="eqno">(135)<a class="headerlink" href="#equation-eq-potential-energy-change" title="Permalink to this equation">#</a></span>\[\Delta PE= m g (h_{f}-h_{i})\]</div>
+<p>If no energy was dissipated, then the change in potential energy would be zero (no potential energy would be lost in this case). If the final height were less, as indicated in <a class="reference internal" href="#fig-pendulum-energy"><span class="std std-numref">Figure 70</span></a>, then the change in energy would give the energy lost during the motion:</p>
 <div class="math notranslate nohighlight" id="equation-eq-energy-lost-height">
-<span class="eqno">(135)<a class="headerlink" href="#equation-eq-energy-lost-height" title="Permalink to this equation">#</a></span>\[E_{lost}=\Delta PE = m g (h_{f}-h_{i})\]</div>
-<p>Finally the initial and final heights can be related to the angles <span class="math notranslate nohighlight">\(\theta_i\)</span> and <span class="math notranslate nohighlight">\(\theta_f\)</span> the pendulum makes with the vertical direction at these location (see <a class="reference internal" href="#fig-pendulum-energy"><span class="std std-numref">Figure 68</span></a>):</p>
+<span class="eqno">(136)<a class="headerlink" href="#equation-eq-energy-lost-height" title="Permalink to this equation">#</a></span>\[E_{lost}=\Delta PE = m g (h_{f}-h_{i})\]</div>
+<p>Finally the initial and final heights can be related to the angles <span class="math notranslate nohighlight">\(\theta_i\)</span> and <span class="math notranslate nohighlight">\(\theta_f\)</span> the pendulum makes with the vertical direction at these location (see <a class="reference internal" href="#fig-pendulum-energy"><span class="std std-numref">Figure 70</span></a>):</p>
 <div class="math notranslate nohighlight" id="equation-eq-energy-lost-angle">
-<span class="eqno">(136)<a class="headerlink" href="#equation-eq-energy-lost-angle" title="Permalink to this equation">#</a></span>\[E_{lost}=\Delta PE = m g\, L(\cos\theta_f-\cos\theta_i)\]</div>
+<span class="eqno">(137)<a class="headerlink" href="#equation-eq-energy-lost-angle" title="Permalink to this equation">#</a></span>\[E_{lost}=\Delta PE = m g\, L(\cos\theta_f-\cos\theta_i)\]</div>
 <p>In this equation <span class="math notranslate nohighlight">\(L\)</span> indicates the distance from the center of mass to the pivot of the pendulum.</p>
 <figure class="align-center" id="fig-pendulum-energy">
 <a class="reference internal image-reference" href="../_images/Figure012.jpg"><img alt="Coil wand swinging from initial angle to final angle showing energy loss" src="../_images/Figure012.jpg" style="width: 450px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 68 </span><span class="caption-text">This picture shows the coil wand swinging from an initial angle <span class="math notranslate nohighlight">\(\theta_{i}\)</span> to a final angle <span class="math notranslate nohighlight">\(\theta_{f}\)</span>. The final angle is less because of energy lost in the process, which reduces the potential energy by an amount <span class="math notranslate nohighlight">\(E_{Lost}\)</span> (see <a class="reference internal" href="#equation-eq-energy-lost-angle">(136)</a>).</span><a class="headerlink" href="#fig-pendulum-energy" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 70 </span><span class="caption-text">This picture shows the coil wand swinging from an initial angle <span class="math notranslate nohighlight">\(\theta_{i}\)</span> to a final angle <span class="math notranslate nohighlight">\(\theta_{f}\)</span>. The final angle is less because of energy lost in the process, which reduces the potential energy by an amount <span class="math notranslate nohighlight">\(E_{Lost}\)</span> (see <a class="reference internal" href="#equation-eq-energy-lost-angle">(137)</a>).</span><a class="headerlink" href="#fig-pendulum-energy" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="fig-experimental-equipment">
 <a class="reference internal image-reference" href="../_images/Figure_80_experimentalequipment.png"><img alt="Coil wand experimental equipment showing center of mass, resistor, and internal components" src="../_images/Figure_80_experimentalequipment.png" style="width: 600px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 69 </span><span class="caption-text">Left) Coil wand with resistor and an example of the center of mass line and mass noted on the wand itself. Center) Resistor and circuit diagram of the wand; resistor plugs in and completes the circuit allowing energy to be dissipated. Right) Internals of the wand; wires lead from the ports to the coil at the bottom of the wand. The area of the loop refers to the area inside the white loop of wire at the bottom.</span><a class="headerlink" href="#fig-experimental-equipment" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 71 </span><span class="caption-text">Left) Coil wand with resistor and an example of the center of mass line and mass noted on the wand itself. Center) Resistor and circuit diagram of the wand; resistor plugs in and completes the circuit allowing energy to be dissipated. Right) Internals of the wand; wires lead from the ports to the coil at the bottom of the wand. The area of the loop refers to the area inside the white loop of wire at the bottom.</span><a class="headerlink" href="#fig-experimental-equipment" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -504,12 +504,12 @@
 <h2>Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Variable Gap Horseshoe Magnet</p></li>
-<li><p>Induction Wand as shown in <a class="reference internal" href="#fig-experimental-equipment"><span class="std std-numref">Figure 69</span></a>. The number of turns of the coil is <span class="math notranslate nohighlight">\(N=200\)</span> and the area of the coil is <span class="math notranslate nohighlight">\(A = \pi r^2 = \pi (0.013\,\text{m})^2\)</span>.; mass and center of mass are noted on the white label.</p></li>
+<li><p>Induction Wand as shown in <a class="reference internal" href="#fig-experimental-equipment"><span class="std std-numref">Figure 71</span></a>. The number of turns of the coil is <span class="math notranslate nohighlight">\(N=200\)</span> and the area of the coil is <span class="math notranslate nohighlight">\(A = \pi r^2 = \pi (0.013\,\text{m})^2\)</span>.; mass and center of mass are noted on the white label.</p></li>
 <li><p><span class="math notranslate nohighlight">\(\sim 4.7\,\Omega\)</span> resistor (you will measure your resistor directly to confirm later on). It can be inserted into the wand to complete the circuit in the wand in order to measure the energy dissipated in the resistive load by the induced current.</p></li>
 <li><p>Stand, rods, and clamps</p></li>
 <li><p>Voltage Sensor to Capstone; records the voltage induced in the coil. The plugs of this sensor are connected to the jacks at the end of the coil wand. The voltage sensor is plugged into an analog input with a sample rate set to <span class="math notranslate nohighlight">\(1000\,\text{Hz}\)</span>.</p></li>
 <li><p>PASPORT 2-Axis Magnetic Field Sensor (axial measures positive B-field into the end of the probe; perpendicular measures positive B-field upwards through the probe) for measuring strength of horseshoe magnet.</p></li>
-<li><p>Rotary Motion Sensor (RMS) connected to Capstone. Detects and measures angular displacement, angular velocity, and angular acceleration. A 3-step pulley is affixed to its axle (see <a class="reference internal" href="#fig-setup"><span class="std std-numref">Figure 70</span></a>). The coil wand is mounted onto the 3-step pulley so that the rotational motion of the wand (and therefore the coil) can be measured. The RMS is set to a nominal sample rate of <span class="math notranslate nohighlight">\(500\,\text{Hz}\)</span>.</p></li>
+<li><p>Rotary Motion Sensor (RMS) connected to Capstone. Detects and measures angular displacement, angular velocity, and angular acceleration. A 3-step pulley is affixed to its axle (see <a class="reference internal" href="#fig-setup"><span class="std std-numref">Figure 72</span></a>). The coil wand is mounted onto the 3-step pulley so that the rotational motion of the wand (and therefore the coil) can be measured. The RMS is set to a nominal sample rate of <span class="math notranslate nohighlight">\(500\,\text{Hz}\)</span>.</p></li>
 </ul>
 </section>
 <section id="experimental-procedure">
@@ -517,15 +517,15 @@
 <figure class="align-center" id="fig-setup">
 <a class="reference internal image-reference" href="../_images/Figure02.png"><img alt="Complete experimental setup showing coil wand mounted on RMS with horseshoe magnet and sensors" src="../_images/Figure02.png" style="width: 200px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 70 </span><span class="caption-text">This picture shows the coil wand mounted on the RMS as well as the horseshoe magnet. The cables connecting to the voltage sensor are plugged into the two jacks at the top of the wand. The magnetic field sensor can be seen in the foreground.</span><a class="headerlink" href="#fig-setup" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 72 </span><span class="caption-text">This picture shows the coil wand mounted on the RMS as well as the horseshoe magnet. The cables connecting to the voltage sensor are plugged into the two jacks at the top of the wand. The magnetic field sensor can be seen in the foreground.</span><a class="headerlink" href="#fig-setup" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
-<li><p>The experiment should be already set up for you as shown in <a class="reference internal" href="#fig-setup"><span class="std std-numref">Figure 70</span></a>.</p></li>
+<li><p>The experiment should be already set up for you as shown in <a class="reference internal" href="#fig-setup"><span class="std std-numref">Figure 72</span></a>.</p></li>
 <li><p>Magnetic Field measurements</p>
 <ol class="arabic simple">
 <li><p>Set gap between the plates on the magnet to <span class="math notranslate nohighlight">\(1.5\,\text{cm}\)</span> (Case 2 will be <span class="math notranslate nohighlight">\(3.0\,\text{cm}\)</span>).</p></li>
-<li><p>Starting in the first tab in the Capstone file, click Record and use the magnetic field sensor to measure the magnetic field strength between the poles of the magnet. First press the Tare button on the 2 Axis Magnetic Field Sensor with it held far from the magnets. Hold the field sensor sideways (same position as in <a class="reference internal" href="#fig-setup"><span class="std std-numref">Figure 70</span></a>) and insert the tip into the gap between the poles of the magnet. When the measured field is positive the label of the magnetic field sensor points towards the South pole of the magnet. The magnetic field direction as measured (positive or negative) is as shown in the diagram on the sensor. The field lines coming out of the side of the sensor with the diagram and tare button on it indicate the magnetic field strength as positive, pointing North to South when external to the magnet.</p></li>
+<li><p>Starting in the first tab in the Capstone file, click Record and use the magnetic field sensor to measure the magnetic field strength between the poles of the magnet. First press the Tare button on the 2 Axis Magnetic Field Sensor with it held far from the magnets. Hold the field sensor sideways (same position as in <a class="reference internal" href="#fig-setup"><span class="std std-numref">Figure 72</span></a>) and insert the tip into the gap between the poles of the magnet. When the measured field is positive the label of the magnetic field sensor points towards the South pole of the magnet. The magnetic field direction as measured (positive or negative) is as shown in the diagram on the sensor. The field lines coming out of the side of the sensor with the diagram and tare button on it indicate the magnetic field strength as positive, pointing North to South when external to the magnet.</p></li>
 <li><p>Hold the Induction Wand pendulum up out of the way. Insert the Magnetic Field Sensor probe between the magnetic pole plates. If the pole plate on the same side as the label on the magnetic field sensor is a south, the Magnetic Field Sensor signal is positive.</p></li>
 <li><p>Click RECORD. Use the Magnetic Field Sensor to determine which pole plate is north and put a label on it. You will need that for the Lenz’s law part of the experiment. If a compass is available, check to make sure you have labeled your magnet correctly.</p></li>
 <li><p>Use the Magnetic Field Sensor to probe the field between the plates. Record the maximum field at the center of the plates. Next, determine the distance from the horseshoe magnet where the field drops to less than <span class="math notranslate nohighlight">\(0.001\,\text{T}\)</span>. You will start the coil wand swinging this far from the magnet so that it begins its swing in approximately zero field. Enter your values in the Magnetic Field Data table.</p></li>
@@ -546,7 +546,7 @@
 <li><p>Enable and use the Multi-coordinates tool (four black arrows pointing to each other in the top toolbar of the plots) to determine the difference in time from the beginning to the end of the first peak.</p></li>
 <li><p>Find the average voltage by highlighting the first peak from when voltage lifts off from zero and returns to zero.
 \item Find the experimental area under the curve of the voltage versus time graph for the first peak using the area tool. You will have to CHANGE the tool properties number format to show sufficient significant digits.
-\item Calculate the expected value of the average induced voltage using <a class="reference internal" href="#equation-eq-faraday-average">(129)</a>. Calculate the expected area of the induced voltage using <a class="reference internal" href="#equation-eq-faraday-integrated">(130)</a>. Use <span class="math notranslate nohighlight">\(N = 200\)</span> for the number of turns of the coil and <span class="math notranslate nohighlight">\(A = \pi r^2 = \pi (0.013\,\text{m})^2\)</span> for its area.
+\item Calculate the expected value of the average induced voltage using <a class="reference internal" href="#equation-eq-faraday-average">(130)</a>. Calculate the expected area of the induced voltage using <a class="reference internal" href="#equation-eq-faraday-integrated">(131)</a>. Use <span class="math notranslate nohighlight">\(N = 200\)</span> for the number of turns of the coil and <span class="math notranslate nohighlight">\(A = \pi r^2 = \pi (0.013\,\text{m})^2\)</span> for its area.
 \item\label{E8Item:analysis}   Compare your experimental and expected values.
 \item\label{E8:PascoA11} Increase the magnet gap to <span class="math notranslate nohighlight">\(3.0\,\centi\meter\)</span> and repeat the steps~\ref{E8:PascoA3} to~\ref{E8Item:analysis}, except start the pendulum from the same position you used before.
 \end{enumerate}</p></li>
@@ -563,7 +563,7 @@
 <figure class="align-center" id="fig-resistor-load">
 <a class="reference internal image-reference" href="../_images/Figure03.png"><img alt="Resistive load attached to coil wand showing voltage sensor connections" src="../_images/Figure03.png" style="width: 200px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 71 </span><span class="caption-text">This picture shows the resistive load attached to the coil wand. The cables leading to the voltage sensor are plugged into the resistor. In order to disconnect the resistor without changing the mass-distribution of the coil wand only one of the resistors plugs is connected to the jacks of the wand.</span><a class="headerlink" href="#fig-resistor-load" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 73 </span><span class="caption-text">This picture shows the resistive load attached to the coil wand. The cables leading to the voltage sensor are plugged into the resistor. In order to disconnect the resistor without changing the mass-distribution of the coil wand only one of the resistors plugs is connected to the jacks of the wand.</span><a class="headerlink" href="#fig-resistor-load" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -575,18 +575,18 @@
 <li><p>Remove the magnet pole plates. Move the magnets as close to each other as possible, making sure that you leave enough space for the coil to move through the gap. Connect the RMS and the voltage sensor.</p></li>
 <li><p>Measure the distance of the center of mass of the wand (marked on the wand) from the pivot (the screw). Note the result in the data table.</p></li>
 <li><p>Note the mass of the wand (noted on the wand) in your data table.</p></li>
-<li><p>First determine the amount of energy lost to friction by letting the pendulum swing through the magnet with the resistor disconnected. This is done by having the resistor plugged into the wand with only one of his plugs connected (see <a class="reference internal" href="#fig-resistor-load"><span class="std std-numref">Figure 71</span></a>). This makes sure that no current flows through the wand (and the resistor) while leaving the center of mass of the wand unchanged.</p></li>
+<li><p>First determine the amount of energy lost to friction by letting the pendulum swing through the magnet with the resistor disconnected. This is done by having the resistor plugged into the wand with only one of his plugs connected (see <a class="reference internal" href="#fig-resistor-load"><span class="std std-numref">Figure 73</span></a>). This makes sure that no current flows through the wand (and the resistor) while leaving the center of mass of the wand unchanged.</p></li>
 <li><p>Press the “Record” button on Capstone with the coil <strong>at rest</strong> between the magnet poles. The rotary sensor zeros itself out whenever you start recording, we want to make sure <span class="math notranslate nohighlight">\(0°\)</span> is when the wand is at rest.</p></li>
 <li><p>Rotate the wand to an initial angle of <span class="math notranslate nohighlight">\(25°\)</span> and let it go.</p></li>
 <li><p>Press the “Stop” button after the wand has reached the other side.</p></li>
 <li><p>Use the “Magnifier” tool to enlarge the portion of the angle vs. time graph where the coil passed through the magnet. Select the peak and get the maximum and minimum angle of the motion to find the initial angle (<span class="math notranslate nohighlight">\(\theta_{i}\)</span>) and the angle to which the pendulum rises after it has passed once through the magnet (<span class="math notranslate nohighlight">\(\theta_{f}\)</span>).</p></li>
-<li><p>Calculate the energy lost to friction using <a class="reference internal" href="#equation-eq-energy-lost-angle">(136)</a>.</p></li>
+<li><p>Calculate the energy lost to friction using <a class="reference internal" href="#equation-eq-energy-lost-angle">(137)</a>.</p></li>
 <li><p>Now connect the resistor by plugging in both plugs into the wand.</p></li>
 <li><p>Press the “Record” button on Capstone with the coil at rest between the magnet poles.</p></li>
 <li><p>Rotate the wand to an initial angle of <span class="math notranslate nohighlight">\(25°\)</span> and let it go.</p></li>
 <li><p>Press the “Stop” button after the wand has reached the other side.</p></li>
 <li><p>Measure again the initial angle (<span class="math notranslate nohighlight">\(\theta_{i}\)</span>) and the angle to which the pendulum rises after it has passed once through the magnet (<span class="math notranslate nohighlight">\(\theta_{f}\)</span>).</p></li>
-<li><p>Calculate the total energy lost using <a class="reference internal" href="#equation-eq-energy-lost-angle">(136)</a>.</p></li>
+<li><p>Calculate the total energy lost using <a class="reference internal" href="#equation-eq-energy-lost-angle">(137)</a>.</p></li>
 <li><p>Highlight both peaks on the power vs. time graph and find the area under the curve. Use the “Area under highlighted region” tool in Capstone for this. Right-click the displayed value to set the numeric format. This area is the energy dissipated by the resistor.</p></li>
 <li><p>Add the energy dissipated by the resistor and the energy lost to friction. Compare this to the total energy lost by the pendulum.</p></li>
 <li><p>Compare these two values for the energy loss.</p></li>
@@ -601,7 +601,7 @@
 <li><p>Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:</p>
 <ul>
 <li><p>Do your experimental results for induced voltages from part 1 agree with the expected values?</p></li>
-<li><p>Do your values for energy loss from change in gravitational potential energy (<a class="reference internal" href="#equation-eq-energy-lost-angle">(136)</a>) agree with the energy dissipated by the closed circuit (with resistor) agree plus friction of the rotary sensor?</p></li>
+<li><p>Do your values for energy loss from change in gravitational potential energy (<a class="reference internal" href="#equation-eq-energy-lost-angle">(137)</a>) agree with the energy dissipated by the closed circuit (with resistor) agree plus friction of the rotary sensor?</p></li>
 <li><p>What was the induced voltage of the coil of wire swinging into the magnetic field dependent on?</p></li>
 <li><p>Looking at your plot from Capstone of Voltage vs. Time, there should be four spikes in voltage during one whole cycle forward and back; why are the first and second peaks opposite signs (positive vs. negative, look back on the wand’s circuit diagram and think about how current would flow), and how does that relate to Lenz’s Law?</p></li>
 <li><p>Why is the voltage zero as the coil passes through the center of the magnet?</p></li>

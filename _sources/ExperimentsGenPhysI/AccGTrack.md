@@ -1,3 +1,4 @@
+(acceleration-due-to-g-overall)=
 # Acceleration due to Gravity, *g*, with Glider on Tilted Air Track
 
 ```{admonition} OVERALL GOALS
@@ -59,8 +60,22 @@ where $H$ is the vertical rise in the horizontal distance $D$. $D$ is the distan
 
 
 
+```{figure} AccGTrackFigures/Figure02_v2025-02.png
+:name: M02Fig02
+:width: 100%
+:align: center
+
+Experimental Setup.
+```
 
 
+```{figure} AccGTrackFigures/Figure07_spacers_v2025-01.png
+:name: M02Fig07
+:width: 60%
+:align: center
+
+Example of small and large spacers used to incline the air track.
+```
 
 
 
@@ -87,21 +102,15 @@ where $H$ is the vertical rise in the horizontal distance $D$. $D$ is the distan
 :class: note
 - The presumed frictionless inclined plane will be an air track.
 - The mass will be a glider, which floats on the air track.
-- Placing a spacer of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.
+- Placing a spacer (essentially a big slotted mass, see {numref}`M02Fig07`) of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.
 - Time measured by PASCO photogates (stated precision of 0.0001 seconds). Using PASCO's data logging and visualization software, **Capstone**, installed on the lab computers. The relevant Capstone file will be on the desktop. Please ***DO NOT*** save when you are done, just exit without saving, thanks.
 ```
 
 
 
-```{figure} AccGTrackFigures/Figure02_v2025-02.png
-:name: M02Fig02
-:width: 100%
-:align: center
 
-Experimental Setup.
-```
-
-
+(accelGtrack-experimentPrep)=
+### Preliminary Setup
 
 1. **Do not put a glider on the track without air flowing. If the air supply is not yet on, please remind the instructor.**
 
@@ -109,7 +118,7 @@ Experimental Setup.
     - accepted value of $g$ of $9.803\,\text{m/s}^2$ for Fairfield, CT
     - the masses of each of the gliders in kg
     - the distance $D$ between the legs of the air track in meter (m)
-    - the heights $H$ of the two spacers in m
+    - the heights $H$ of the two spacers (big slotted masses) in m
     - $s_1$: starting point at the top
     - $s_0$: stopping point at the bottom
     - $S$: distance between the photogates that the glider travels along the track
@@ -124,12 +133,12 @@ Experimental Setup.
 
     ```{admonition} Note on drift
     :class: note
-    There will inevitably be some drift as these airtracks are not perfect, but if it takes more than 10 seconds to drift just 5 cm, you should be good.
+    There will inevitably be some drift as these airtracks are not perfect, but as a general rule of thumb, if it takes more than $\sim 10$ seconds to drift just 5 cm, you should be pretty good.
     ```
 
 5. Measure and record the distance $D$. This is the center-to-center distance between the legs. 1 m and 2 m long meter sticks are available for this measurement, with additional meter sticks at the front wall of the room.
 
-6. Measure and record the heights, $H$, of each of the two spacers with the provided Vernier caliper. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`.
+6. Measure and record the heights, $H$, of each of the two spacers (big slotted masses) with the provided Vernier caliper. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`.
 
 7. Take a look at the gliders and determine a convenient point on the glider to use with the scale ($\sim2.5$ meter ruler) attached on the side of air track. It doesn't matter what point on the glider you choose, only that you be consistent and use the same point for all determinations of distance along the track $S$ for that glider. A convenient point is the ***lower front or rear corner*** of the glider since it is a clear point on the glider that will overlap or be quite close to the length scale on the track itself (see {numref}`M02Fig03`).
 
@@ -147,13 +156,15 @@ Suggested points on glider to read position on airtrack scale.
 <div style="text-align: center;">
 
 (demo-video-accelGtrack-s0s1)=
-### Demo Video: Photogate Positions
+#### Demo Video: Photogate Positions
 
 </div>
-
+    <!--- width="560"
+    height="315"
+    --->
 <div style="text-align: center;">
   <iframe
-    width="560"
+    width=80%
     height="315"
     src="https://www.youtube.com/embed/vij2KvbPowU"
     title="YouTube video"
@@ -183,8 +194,14 @@ Suggested points on glider to read position on airtrack scale.
     |  4   |   small     |    BIG      |
     ```
 
+
+```{admonition} Reminder, Run First Case Fully
+:class: warning
+Reminder, run your first case completely **before** moving on to additional cases. Don't just take all of your data without checking your methodology. If you have some error in your experimental method or in your calculations, you can correct it before completing all the other cases and finding out you have to completely redo the whole lab. The data tables for additional cases can be created by copying the first case **after** you are confident in and can explain your results from the first case.
+```
+
 (detailsteps)=
-### Steps for each of the four cases with a tilted track
+### Experimental Data Collection
 
 11. For each of the four cases, create a Data table with enough **rows** for the number of trials you are doing, and **columns** for each of the variables you will be measuring or deriving (e.g. {ref}`experimental-data-AccGTrack`):
     - Trial number
@@ -227,7 +244,7 @@ Suggested points on glider to read position on airtrack scale.
     <div style="text-align: center;">
       <figure>
         <iframe
-          width="560"
+          width=80%
           height="315"
           src="https://www.youtube.com/embed/Pow7Sllbg6o"
           title="YouTube video"
@@ -264,7 +281,7 @@ Suggested points on glider to read position on airtrack scale.
     ```
 
 (summary-step-accelGtrack)=
-### Overall values across all cases
+### Combined Results Across All Trials
 
 18. Create an Overall data table summarizing ***all 24 trials across all 4 cases*** (e.g. {ref}`experimental-overall-data-AccGTrack`):
     - Calculate $\bar{g}_{\text{allTrials}}$, the average of the measured $g$

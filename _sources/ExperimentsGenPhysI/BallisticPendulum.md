@@ -1,3 +1,4 @@
+(ballistic-pendulum-lab-overall)=
 # Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion
 
 ## Background
