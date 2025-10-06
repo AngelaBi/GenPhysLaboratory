@@ -272,8 +272,8 @@ x_{\text{case 3 theoretical}} = v_{\text{0,exit}}\cos{(\theta)}t_{\text{case 3}}
 ```{admonition} NOTE
 :class: note
 - The accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT.
+- Demo of the procedure is found in {ref}`demo-video-simple-projectile-motion`.
 ```
-
 
 ```{table} Three Primary Experimental Cases with Four Extended Cases
 :name: simple-projectile-cases
@@ -286,6 +286,26 @@ x_{\text{case 3 theoretical}} = v_{\text{0,exit}}\cos{(\theta)}t_{\text{case 3}}
 | Additional  | Higher | $15^\circ$, $30^\circ$, $60^\circ$, $75^\circ$ |
 ```
 
+
+(demo-video-simple-projectile-motion)=
+### Demo Video: Procedure for Simple Projectle Motion
+
+<div align="center">
+
+<iframe  
+  width="80%"  
+  height="315"  
+  src="https://www.youtube.com/embed/NvrdZoWNI5Q"  
+  title="Rough overview of Simple Progectile Motion"  
+  frameborder="0"  
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  
+  referrerpolicy="strict-origin-when-cross-origin"  
+  allowfullscreen>
+</iframe>
+
+<figcaption><em>Overview of Experimental Procedure for the Simple Projectile Motion lab. Notes: All launchers now use the orange balls.</em></figcaption>
+
+</div>
 
 <!---
 
@@ -372,6 +392,11 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     Only pull piston back to slot denoted by arrows on the launcher itself.
     ```
 
+    ```{admonition} Hold Launcher Plate
+    :class: warning
+    To help prevent the launcher from falling to the floor and breaking, please hold on to the rectangular plate that holds the launcher.
+    ```
+
     ```{admonition} Push, don't smack. Use release bar, not finger.
     :class: note
     - Ensure the ball is resting against the piston such that the piston will push rather than hit the ball out of the launcher.
@@ -381,8 +406,23 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     ```
 
 5. Get some pieces of white printer paper and tape them in the approximate landing zone, and place pieces of carbon paper on top (no need to tape that one since you'll be moving it between trials) so the ball can mark up the white paper when it lands. Materials available at the table towards the middle of the room. **Use this same set of paper throughout all cases.**
+    ```{admonition} Reminder
+    :class: note
+    Please do not take the tape away from the table as everyone will need it, thanks
+    ```
 
-6. Conduct **30 launches** onto the paper/carbon paper. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case. Additional markers should be available.
+6. Conduct **30 launches** onto the paper/carbon paper. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case. Additional markers should be available on the table towards the middle of the room.
+
+    ```{admonition} Reminder: Take turns
+    :class: note
+    - Groups of 2 students, each student will conduct 10 launches
+    - Groups of 3 students, each student will conduct 15 launches
+    ```
+
+    ```{admonition} Hold Launcher Plate
+    :class: warning
+    To help prevent the launcher from falling to the floor and breaking, please hold on to the rectangular plate that holds the launcher.
+    ```
 
 7. Draw a rough circle/ellipse surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter. Flashlights are available at the table towards the middle of the room that could asist in drawing your circle/ellipse. (e.g. {numref}`exampleDataSimpleProjectile`)
 
@@ -461,6 +501,10 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     Take a photo to include in your results submission.
     ```
 
+    ```{admonition} Return carbon paper and other supplies
+    :class: note
+    If your carbon paper is still intact, please return it to the pile on the table towards the middle of the room for use in future labs.
+    ```
 <!---
 30. DISCUSSION POINT (covered in {ref}`interpretation3`): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\text{case 3, experimental}} \pm \delta x_{\text{case 3, experimental}}$ overlap with $x_{\text{case 3, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
 --->
