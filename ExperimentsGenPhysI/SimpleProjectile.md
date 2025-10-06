@@ -266,7 +266,7 @@ x_{\text{case 3 theoretical}} = v_{\text{0,exit}}\cos{(\theta)}t_{\text{case 3}}
   - Case 1: Zero-angle launches at a lower height. Characterize the trajectory and exit velocity from the marble launcher.
   - Case 2: Zero-angle launches at a higher height. Calculate the theoretical trajectory (distance $x$); place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
   - Case 3: Angled launches ($45^\circ$) at the same higher height. Calculate the theoretical trajectory (distance $x$); place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
-- Conduct ***30 launches (trials)*** for ***one overall measured data point*** for each case; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot.
+- Conduct ***40 -- 45 launches (trials)*** depending on group size for ***one overall measured data point*** for each case; estimate the experimental landing scattershot by circling your carbon-paper dots and estimating the center of the scattershot.
 ```
 
 ```{admonition} NOTE
@@ -411,11 +411,11 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     Please do not take the tape away from the table as everyone will need it, thanks
     ```
 
-6. Conduct **30 launches** onto the paper/carbon paper. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case. Additional markers should be available on the table towards the middle of the room.
+6. Conduct **40 -- 45 launches** onto the paper/carbon paper. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case. Additional markers should be available on the table towards the middle of the room.
 
     ```{admonition} Reminder: Take turns
     :class: note
-    - Groups of 2 students, each student will conduct 10 launches
+    - Groups of 2 students, each student will conduct 20 launches
     - Groups of 3 students, each student will conduct 15 launches
     ```
 
