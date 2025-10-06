@@ -262,7 +262,7 @@ x_{\text{case 3 theoretical}} = v_{\text{0,exit}}\cos{(\theta)}t_{\text{case 3}}
 ```{admonition} OVERVIEW
 :class: note
 - Investigate projectile motion in two-dimensions.
-- Conduct 3 cases:
+- Conduct 3 cases as listed in {numref}`simple-projectile-cases`. If time allows, the instructor may opt for additional angled cases.:
   - Case 1: Zero-angle launches at a lower height. Characterize the trajectory and exit velocity from the marble launcher.
   - Case 2: Zero-angle launches at a higher height. Calculate the theoretical trajectory (distance $x$); place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
   - Case 3: Angled launches ($45^\circ$) at the same higher height. Calculate the theoretical trajectory (distance $x$); place a bullseye at your expected location and compare your experimental landing scattershot to the theoretical distance.
@@ -272,6 +272,18 @@ x_{\text{case 3 theoretical}} = v_{\text{0,exit}}\cos{(\theta)}t_{\text{case 3}}
 ```{admonition} NOTE
 :class: note
 - The accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT.
+```
+
+
+```{table} Three Primary Experimental Cases with Four Extended Cases
+:name: simple-projectile-cases
+
+| Case        | Height | Angle                                  |
+|:-----------:|:------:|:--------------------------------------:|
+| 1           | Lower  | $0^\circ$                              |
+| 2           | Higher | $0^\circ$                              |
+| 3           | Higher | $45^\circ$                             |
+| Additional  | Higher | $15^\circ$, $30^\circ$, $60^\circ$, $75^\circ$ |
 ```
 
 
@@ -351,7 +363,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 2. Place the marble launcher in the holder in the lower $0°$ slot (uncocked to represent where the ball will be once the piston is no longer accelerating the ball up to speed, and the ball is released).
 
-3. Measure the height the ball will fall; place the ball into the launcher as the initial height $y_{0}$ is measured from the bottom of the ball to the floor (though the bottom of the inside of the barrel can also be used as the bottom of the ball location if that is easier to measure). Ensure the ruler you use has the zero meter end on the floor. Use a plum bob to find and note the ball's initial position on the floor.
+3. Measure the height the ball will fall; place the ball into the launcher as the initial height $y_{0}$ is measured from the bottom of the ball to the floor (though the bottom of the inside of the barrel can also be used as the bottom of the ball location if that is easier to measure). Ensure the ruler you use has the zero meter end on the floor. Use a plumb bob to find and note the ball's initial position on the floor.
 
 4. Conduct a few test launches by pulling the piston back to the denoted notch for your launcher. Take mental note of where the ball is generally landing and ensure it's generally consistent.
 
@@ -368,82 +380,81 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     - Before continuing, try releasing the launcher with just your finger instead of the release bar. Notice the greater inconsistency.
     ```
 
-5. Get some pieces of white printer paper and tape them in the approximate landing zone, and place pieces of carbon paper on top (no need to tape that one since you'll be moving it between trials) so the ball can mark up the white paper when it lands. Materials available at the table in the middle of the room.
+5. Get some pieces of white printer paper and tape them in the approximate landing zone, and place pieces of carbon paper on top (no need to tape that one since you'll be moving it between trials) so the ball can mark up the white paper when it lands. Materials available at the table towards the middle of the room. **Use this same set of paper throughout all cases.**
 
-6. Conduct **30 launches** onto the paper/carbon paper. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case.
+6. Conduct **30 launches** onto the paper/carbon paper. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case. Additional markers should be available.
 
-7. Draw a rough circle/ellipse surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter. Flashlights are available at the table in the middle of the room that could asist in drawing your circle/ellipse.
+7. Draw a rough circle/ellipse surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter. Flashlights are available at the table towards the middle of the room that could asist in drawing your circle/ellipse. (e.g. {numref}`exampleDataSimpleProjectile`)
 
-8. Measure the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. To translate the initial location of the ball in the barrel to the floor, you can use a plum bob to make a straight line down to the floor, from which you can more easily measure $x$
+8. Measure the single value for the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. To translate the initial location of the ball in the barrel to the floor, use a plumb bob to make a straight line down to the floor for $x_0\text{,}$ from which you can more easily measure final distance $x$.
 
-9. From your circle around your scattershot, estimate your uncertainty in distance $\delta x$
+9. From your circle around your scattershot, estimate and measured your uncertainty in horizontal distance $\delta x$, effectively the radius of your circle/ellipse. (if coming from Case 2, return to step 15; if Case 3, return to step 26)
 
 ### Case 2 --- Zero-angle Launch at a Higher Height
 
 10. Create additional data section for Case 2 including but not limited to:
     - Height of the ball at the higher $0°$ slot height $y_{0\text{,case 2}}$
     - Time of the trajectory from a higher height $t_{\text{case 2}}$
-    - Theoretical distance $x_{\text{case 2, theoretical}}$ (calculated with {eq}`eq-M03-Kinematic-horizontal-velocity-02`)
+    - Theoretical distance $x_{\text{case 2, theoretical}}$
     - Experimentally measured distance $x_{\text{case 2, experimental}}$
     - Estimated uncertainty in the experimental distance $\delta x_{\text{case 2, experimental}}$ (essentially $\pm$ the radius of the circle drawn around your scattershot)
     - Difference (magnitude) between the theoretical and experimental $x$ distances
 
-11. Move the marble launcher to the higher $0°$ slot and remeasure the initial height $y_{0\text{,case 2}}$
+11. Move the marble launcher to the higher $0°$ slot and remeasure the initial height $y_{0\text{,case 2}}$. Use a plumb bob to ensure you measure vertically.
 
-12. Now calculate the theoretical distance $x_{\text{case 2, theoretical}}$ using {eq}`eq-M03-Kinematic-vertical-time` -- {eq}`eq-M03-Kinematic-vertical-time-higher-height`
+12. Now, calculate the theoretical distance $x_{\text{case 2, theoretical}}$ using {eq}`eq-M03-Kinematic-vertical-time` -- {eq}`eq-M03-Kinematic-horizontal-velocity-02`.
 
-13. Repeat steps 5 to 10 to determine experimentally the distance with its uncertainty at the higher height (i.e. $x_{\text{case 2, experimental}}$ and $\delta x_{\text{case 2, experimental}}$). **ADDITIONALLY: Before any launches from the higher height, draw a bullseye at the theoretical distance you expect the balls at the higher height to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be (to discuss later in {ref}`interpretation3`). See example in {numref}`M03-simpleProjectileLauncher_meas_case-2-3`.**
+13. Add paper as needed. **Before any launches from the higher height, draw a bullseye at the theoretical distance you expect the balls at the higher height to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be (to discuss later in {ref}`interpretation3`). See example in {numref}`M03-simpleProjectileLauncher_meas_case-2-3`.** 
 
-14. Calculate the difference between your theoretical and experimental values of $x_{\text{case 2}}$.
+14. Conduct a few test launches by pulling the piston to the same notch you've been using in previous case(s) to ensure you have paper coverage for the landing zone. Additionally, by using the same notch, you will also be able to use the same exit velocity as previously determined for the launcher. Add paper as needed.
 
-15. DISCUSSION POINT (covered in {ref}`interpretation3`): Does your experimental distance of the higher height agree with what you expected from your theoretical calculation? In other words, does $x_{\text{case 2, experimental}} \pm \delta x_{\text{case 2, experimental}}$ overlap with $x_{\text{case 2, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+15. If need be, tape additional paper in the location from the test launches, while still including paper from previous case(s). Place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.
 
+16. On the same set of white paper on the floor as you retrieved in step 5, repeat steps 6 to 9 to experimentally determine the horizontal distance and its uncertainty when launched from the higher height (i.e. $x_{\text{case 2, experimental}}$ and $\delta x_{\text{case 2, experimental}}$).
 
-
-
-
-
-
-
+17. Calculate the difference (magnitude, not percent) between your theoretical and experimental values of $x_{\text{case 2}}$.
+    ```{admonition} Discussion Point
+    :class: note
+    - To be discussed further in {ref}`interpretation3`.
+    - Does your experimental distance from the higher height agree with what you expected from your theoretical calculation? In other words, does $x_{\text{case 2, experimental}} \pm \delta x_{\text{case 2, experimental}}$ overlap with $x_{\text{case 2, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+    ```
 
 
 ### Case 3 --- Angled Trajectory at a Higher Height
 
-
-
-16. Create additional data section for Case 3 including but not limited to:
+18. Create additional data section for Case 3 including but not limited to:
     - Common data section with the accepted value of $g$ and any values you will need from previous cases to determine the theoretical horizontal distance at a given angled launch ({eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`).
     - Additional sections for:
-        - Theoretical distance $x_{\text{case 3, theoretical}}$ (calculated with {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`)
+        - Theoretical distance $x_{\text{case 3, theoretical}}$
         - Experimentally measured distance $x_{\text{case 3, experimental}}$
         - Estimated uncertainty in the experimental distance $\delta x_{\text{case 3, experimental}}$ (essentially $\pm$ the radius of the circle drawn around your scattershot)
         - Difference (magnitude) between the theoretical and experimental $x$ distances
 
-17. Place the marble launcher in the holder in the $45^\circ$ slot.
+19. Place the marble launcher in the holder in the $45^\circ$ slot.
 
-18. Use your previously measured $y_{0\text{,case 2}}$ as the height the ball will fall for any angled launches (e.g. $y_{0\text{,case 2}} = y_{0\text{,case 3}}$).
+20. Use your previously measured $y_{0\text{,case 2}}$ as the height the ball will fall for any angled launches (e.g. $y_{0\text{,case 2}} = y_{0\text{,case 3}}$) as the large holder is designed to release the ball from the same position regardless of angle.
 
-19. Calculate the theoretical distance $x_{\text{case 3, theoretical}}$ using {eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`
+21. Calculate the theoretical distance $x_{\text{case 3, theoretical}}$ using {eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`.
 
-20. Before any launches from the higher height, tape a paper and draw a bullseye at the theoretical distance you expect the balls at the given angle to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be.
+22. Before any launches from the higher height for the non-zero angle, draw a bullseye at the theoretical distance you expect the balls to land to visually see how close we get. You can draw both a cross hair for the distance and estimate how big the scatter will be. Add paper as needed.
 
-21. Conduct a few test launches by pulling the piston to the same notch you've been using in Experiment 2 to be able to use the same exit velocity as previously determined
+23. Conduct a few test launches by pulling the piston to the same notch you've been using in previous case(s) to ensure you have paper coverage for the landing zone. Additionally, by using the same notch, you will also be able to use the same exit velocity as previously determined for the launcher.
 
-22. If need be, tape additional paper in the location from the test launches. Place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.
+24. If need be, tape additional paper in the location from the test launches, while still including paper from previous case(s). Place (no tape needed) a piece of carbon paper on top (no need to tape that one) so the ball can mark up the paper when it lands.
 
-23. Conduct **30 launches** onto the paper/carbon paper.
+25. On the same set of white paper on the floor, repeat steps 6 to 9 to experimentally determine the horizontal distance and its uncertainty when angle-launched from the higher height (i.e. $x_{\text{case 3, experimental}}$ and $\delta x_{\text{case 3, experimental}}$).
 
-24.  Put aside the carbon paper and mark the dots with a marker or something else that makes it apparent which dots are your data points for this height. Draw a rough circle surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter.
+26. Calculate the difference (magnitude, not percent) between your theoretical and experimental values of $x_{\text{case 3}}$.
+    ```{admonition} Discussion Point
+    :class: note
+    - To be discussed further in {ref}`interpretation3`.
+    - Does your experimental distance from an angled launch at the higher height agree with what you expected from your theoretical calculation? In other words, does $x_{\text{case 3, experimental}} \pm \delta x_{\text{case 3, experimental}}$ overlap with $x_{\text{case 3, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+    ```
 
-25. Measure the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. The initial position of the ball in the $x$ direction translated to the floor should be the same as Experiment 2 (to save you some time). Remeasure if that's no longer the case (e.g. you've accidentally moved the launcher holder)
 
-26. From your circle around your scattershot, estimate your uncertainty in distance $\delta x$
+27. If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 6 to 9 as needed, as well as step 27.
 
-27. Calculate the difference between you theoretical and experimental values of $x$ at the given angle.
-
-28. If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 5 to 13 if needed.
-
-29. ***TAKE A PHOTO OF YOUR DATA (paper with all your marble impacts measured and noted).***
+28. ***TAKE A PHOTO OF YOUR DATA (paper with all your marble impacts measured and noted).***
 
     ```{admonition} Photo of Experimental Data
     :class: warning
@@ -513,10 +524,11 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 ## The Whiteboard
 
 ```{figure} SimpleProjectileFigures/ProjectileKinetmatic_2024_Fall_01_v2025-02.jpg
-:name: pro1
+:name: exampleDataSimpleProjectile
 :width: 100%
 :align: center
 
+Examples of what experimental data may look like including uncertainty estimations.
 ```
 
 
