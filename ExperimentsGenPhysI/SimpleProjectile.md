@@ -119,7 +119,7 @@ For the first case, you will measure distances traveled in both $x$ and $y$ dire
 Stars denote projectile height. Left) Position of launcher for lower height in Case 1. Right) Position of launcher for higher height in Case 2. Right) Position of launcher for angled launches in Case 3 where the ball's initial position is at the same higher height position.
 ```
 
-```{figure} SimpleProjectileFigures/M3_Measurements_v2025-06.png
+```{figure} SimpleProjectileFigures/M3_Measurements_v2025-07.png
 :name: M03-simpleProjectileLauncher_meas_case-1
 :width: 100%
 :align: center
@@ -127,7 +127,7 @@ Stars denote projectile height. Left) Position of launcher for lower height in C
 Example of Case 1 data aquisition.
 ```
 
-```{figure} SimpleProjectileFigures/M4_Measurements_v2025-05.png
+```{figure} SimpleProjectileFigures/M4_Measurements_v2025-06.png
 :name: M03-simpleProjectileLauncher_meas_case-2-3
 :width: 100%
 :align: center
@@ -383,7 +383,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 2. Place the marble launcher in the holder in the lower $0°$ slot (uncocked to represent where the ball will be once the piston is no longer accelerating the ball up to speed, and the ball is released).
 
-3. Measure the height the ball will fall; place the ball into the launcher as the initial height $y_{0}$ is measured from the bottom of the ball to the floor (though the bottom of the inside of the barrel can also be used as the bottom of the ball location if that is easier to measure). Ensure the ruler you use has the zero meter end on the floor. Use a plumb bob to find and note the ball's initial position on the floor.
+3. Measure the height the ball will fall (as seen in {numref}`M03-simpleProjectileLauncher_meas_case-1`); place the ball into the launcher as the initial height $y_{0}$ is measured from the bottom of the ball to the floor (though the bottom of the inside of the barrel can also be used as the bottom of the ball location if that is easier to measure). Ensure the ruler you use has the zero meter end on the floor. Use a plumb bob to find and note the ball's initial position on the floor.
 
 4. Conduct a few test launches by pulling the piston back to the denoted notch for your launcher. Take mental note of where the ball is generally landing and ensure it's generally consistent.
 
@@ -406,7 +406,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     ```
 
 5. Get some pieces of white printer paper and tape them in the approximate landing zone, and place pieces of carbon paper on top (no need to tape that one since you'll be moving it between trials) so the ball can mark up the white paper when it lands. Materials available at the table towards the middle of the room. **Use this same set of paper throughout all cases.**
-    ```{admonition} Reminder
+    ```{admonition} Reminder: Share supplies
     :class: note
     Please do not take the tape away from the table as everyone will need it, thanks
     ```
@@ -415,20 +415,27 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
     ```{admonition} Reminder: Take turns
     :class: note
-    - Groups of 2 students, each student will conduct 20 launches
-    - Groups of 3 students, each student will conduct 15 launches
+    - Groups of 2 students, each student will conduct 20 launches for a total 40/case.
+    - Groups of 3 students, each student will conduct 15 launches for a total 45/case.
     ```
 
-    ```{admonition} Hold Launcher Plate
+    ```{admonition} Hold Launcher Plate - Safety and Consistency
     :class: warning
-    To help prevent the launcher from falling to the floor and breaking, please hold on to the rectangular plate that holds the launcher.
+    - To help prevent the launcher from falling to the floor and breaking, please hold on to the rectangular plate that holds the launcher.
+    - Holding the plate the whole way back each time can also provide additional consistency to your launches.
     ```
 
 7. Draw a rough circle/ellipse surrounding the scattershot of all launches across all group members for the current case. Flashlights are available at the table towards the middle of the room that could asist in drawing your circle/ellipse. (e.g. {numref}`exampleDataSimpleProjectile`) **Something to consider when determining how large your circle/ellipse should be:** remember that we’ve used the standard deviation (the spread of the data relative to the mean) as a stand-in for uncertainty in previous labs. The standard deviation typically includes about two-thirds of the data. Therefore, for use in the following steps, you can estimate your average horizontal distance and uncertainty by drawing a circle/ellipse that encompasses roughly two-thirds of your data, centered around the densest region of your scattershot. Mark the center of your circle/ellipse with a cross hair to represent your average horizontal distance.
 
 8. Measure the *single value* for the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. To translate the initial location of the ball in the barrel to the floor, use a plumb bob to make a straight line down to the floor for $x_0\text{,}$ from which you can more easily measure final distance $x$.
 
-9. From your circle around your scattershot, estimate and measure your uncertainty in horizontal distance $\delta x$, effectively the radius of your circle/ellipse. ***DO NOT DISPOSE OF YOUR PAPER, YOU WILL CONTINUE TO USE IT IN FUTURE CASES.*** (if coming from Case 2, return to step 15; if Case 3, return to step 26)
+9. From your circle around your scattershot, estimate and measure your uncertainty in horizontal distance $\delta x$, effectively the radius of your circle/ellipse. (if coming from Case 2, return to step 15; if Case 3, return to step 26)
+
+    ```{admonition} Future Photo of Experimental Data
+    :class: warning
+    At the end of Case 3, you will take a photo of all of your data to include in your results write up. Do not dispose of your paper or untape it from the floor; you will continue to use it in future cases. Add paper as needed for additional cases.
+    ```
+
 
 ### Case 2 --- Zero-angle Launch at a Higher Height
 
@@ -440,7 +447,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     - Estimated uncertainty in the experimental distance $\delta x_{\text{case 2, experimental}}$ (essentially $\pm$ the radius of the circle drawn around your scattershot)
     - Difference (magnitude) between the theoretical and experimental $x$ distances
 
-11. Move the marble launcher to the higher $0°$ slot and remeasure the initial height $y_{0\text{,case 2}}$. Use a plumb bob to ensure you measure vertically.
+11. Move the marble launcher to the higher $0°$ slot and remeasure the initial height $y_{0\text{,case 2}}$ (see {numref}`M03-simpleProjectileLauncher_meas_case-2-3`). Use a plumb bob to ensure you measure vertically.
 
 12. Now, calculate the theoretical distance $x_{\text{case 2, theoretical}}$ using {eq}`eq-M03-Kinematic-vertical-time` -- {eq}`eq-M03-Kinematic-horizontal-velocity-02`.
 
@@ -470,7 +477,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
         - Estimated uncertainty in the experimental distance $\delta x_{\text{case 3, experimental}}$ (essentially $\pm$ the radius of the circle drawn around your scattershot)
         - Difference (magnitude) between the theoretical and experimental $x$ distances
 
-19. Place the marble launcher in the holder in the $45^\circ$ slot.
+19. Place the marble launcher in the holder in the $45^\circ$ slot (see {numref}`M03-simpleProjectileLauncher_meas_case-2-3`).
 
 20. Use your previously measured $y_{0\text{,case 2}}$ as the height the ball will fall for any angled launches (e.g. $y_{0\text{,case 2}} = y_{0\text{,case 3}}$) as the large holder is designed to release the ball from the same position regardless of angle.
 
