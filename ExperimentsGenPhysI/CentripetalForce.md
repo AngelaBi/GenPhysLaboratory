@@ -3,6 +3,12 @@
 
 ## Background
 
+```{admonition} OVERALL GOALS
+:class: note
+In this lab, you will:
+- Investigate centripetal forces and determine mass of a object rotating in uniform circular motion by measuring the centripetal force across different, constant, tangential velocities and compare to actual mass from triple-beam balance.
+```
+
 Acceleration is the measure of the rate of change of the velocity of an object by an external force. An object moving in a circle with radius $R$ is always being accelerated, even if its speed does not change. Since velocity is a vector quantity, a centripetal force is required to change its direction. The radial centripetal acceleration, towards the axis of the rotational motion, has magnitude $v^{2}/R$. The force producing this acceleration on an object of mass $m$ will then have a magnitude of $m v^{2} / R$.
 
 In this experiment, this centripetal force is measured for an object in circular motion while varying the object's speed. The centripetal force is supplied by a string pulling on the mass in an inwardly radial direction and is then measured by a force sensor (PASCO stated resolution of 0.002 N).
