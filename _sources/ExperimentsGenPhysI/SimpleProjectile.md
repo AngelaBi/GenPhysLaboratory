@@ -377,7 +377,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
         - the ball initial height $y_{0}$
         - the ball height's estimated uncertainty $\delta y_{0}$
         - experimental overall distance $x$
-        - experimental distance estimated uncertainty $\delta x$ based on the radius of the circle/ellipse you draw around the scattershot
+        - experimental distance estimated uncertainty $\delta x$ based on the radius of the circle/ellipse you draw around the scattershot of all launches for case
     - Additional sections for derived time of the trajectory $t$ and initial velocity $v_{\text{0,exit}}$.
     
 
@@ -411,7 +411,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     Please do not take the tape away from the table as everyone will need it, thanks
     ```
 
-6. Conduct **40 -- 45 launches** onto the paper/carbon paper. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case. Additional markers should be available on the table towards the middle of the room.
+6. Conduct **40 -- 45 launches** onto the paper/carbon paper. Make sure the launcher plate is the whole way into the slot to ensure a consistent starting position. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case. Additional markers should be available on the table towards the middle of the room.
 
     ```{admonition} Reminder: Take turns
     :class: note
@@ -424,11 +424,11 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     To help prevent the launcher from falling to the floor and breaking, please hold on to the rectangular plate that holds the launcher.
     ```
 
-7. Draw a rough circle/ellipse surrounding the scattershot and visually estimate the center by drawing a cross hair to represent the center of the scatter. Flashlights are available at the table towards the middle of the room that could asist in drawing your circle/ellipse. (e.g. {numref}`exampleDataSimpleProjectile`)
+7. Draw a rough circle/ellipse surrounding the scattershot of all launches across all group members for the current case. Flashlights are available at the table towards the middle of the room that could asist in drawing your circle/ellipse. (e.g. {numref}`exampleDataSimpleProjectile`) **Something to consider when determining how large your circle/ellipse should be:** remember that we’ve used the standard deviation (the spread of the data relative to the mean) as a stand-in for uncertainty in previous labs. The standard deviation typically includes about two-thirds of the data. Therefore, for use in the following steps, you can estimate your average horizontal distance and uncertainty by drawing a circle/ellipse that encompasses roughly two-thirds of your data, centered around the densest region of your scattershot. Mark the center of your circle/ellipse with a cross hair to represent your average horizontal distance.
 
-8. Measure the single value for the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. To translate the initial location of the ball in the barrel to the floor, use a plumb bob to make a straight line down to the floor for $x_0\text{,}$ from which you can more easily measure final distance $x$.
+8. Measure the *single value* for the experimental distance $x$ from the center of the ball at rest in the barrel (uncocked) to the cross hair center that you drew in your scatter shot on the floor. To translate the initial location of the ball in the barrel to the floor, use a plumb bob to make a straight line down to the floor for $x_0\text{,}$ from which you can more easily measure final distance $x$.
 
-9. From your circle around your scattershot, estimate and measured your uncertainty in horizontal distance $\delta x$, effectively the radius of your circle/ellipse. (if coming from Case 2, return to step 15; if Case 3, return to step 26)
+9. From your circle around your scattershot, estimate and measure your uncertainty in horizontal distance $\delta x$, effectively the radius of your circle/ellipse. ***DO NOT DISPOSE OF YOUR PAPER, YOU WILL CONTINUE TO USE IT IN FUTURE CASES.*** (if coming from Case 2, return to step 15; if Case 3, return to step 26)
 
 ### Case 2 --- Zero-angle Launch at a Higher Height
 
