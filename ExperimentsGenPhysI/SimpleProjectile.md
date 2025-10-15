@@ -433,7 +433,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
     ```{admonition} Future Photo of Experimental Data
     :class: warning
-    At the end of Case 3, you will take a photo of all of your data to include in your results write up. Do not dispose of your paper or untape it from the floor; you will continue to use it in future cases. Add paper as needed for additional cases.
+    At the end of Case 3, you will take a photo of all of your data to include in your spreadsheet / data submission (example in {numref}`exampleDataSimpleProjectile`). Do not dispose of your paper or untape it from the floor; you will continue to use it in future cases. Add paper as needed for additional cases.
     ```
 
 
@@ -501,11 +501,11 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 27. If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 6 to 9 as needed, as well as step 27.
 
-28. ***TAKE A PHOTO OF YOUR DATA (paper with all your marble impacts measured and noted).***
+28. ***TAKE A PHOTO OF ALL YOUR DATA (paper with all your marble impacts measured and labeled across all cases).***
 
     ```{admonition} Photo of Experimental Data
     :class: warning
-    Take a photo to include in your results submission.
+    Take a photo to include in your Excel datasheet / spreadsheet submission.
     ```
 
     ```{admonition} Return carbon paper and other supplies
@@ -543,6 +543,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 --->
 
 - Make sure to submit your finalized data table (Excel sheet)
+  - Please include an photo of your experimental data papers.
 - In a **paragraph**, summarize the results you have determined in each case, i.e. $x_{\text{experimental}} \pm \delta x_{\text{experimental}}$... and answer the following questions (longer does not mean better) while arguing your conclusions with your data values:
 	- What type of system do the kinematic equations represent?
   <!---
@@ -556,7 +557,6 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 	- **Case 3:**
 	  - What were your results for the trajectories from a non-zero angle(s) at the higher height? Do your results overlap with your theoretical value? Another way to think about it, does your uncertainty cover the magnitude of the difference between your experimental and theoretical values? If not, what may be a physical reason why?
 	- Were your bullseye targets (estimation) accurate to the experimental results; any bias towards being an over- or under-estimate? Back up your answer with your results.
-  - Please include an photo of your experimental data papers.
 
 - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative. Argue your conclusions with your data values. 
 	- What is the precision of your equipment?

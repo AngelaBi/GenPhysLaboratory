@@ -19,7 +19,7 @@ Near the surface of the earth, the attractive force of the earth on a mass can b
 :width: 500px
 :align: center
 
-Force Diagram and variables used in Vector Table Experiment.
+Force diagram based on the angle of the tilted air track.
 ```
 
 The displacement along the track is $S$, the component of the weight along the track is $F_s$, and the component of acceleration $a_s$ along the track is
