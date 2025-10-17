@@ -180,6 +180,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../Intro/IntroLab.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Intro/DataAcquisition.html">Data Acquisition and Analysis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Intro/VernierCaliper.html">Vernier Calipers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/CapstoneNotes.html">Capstone Notes &amp; Tools</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
 <ul class="current nav bd-sidenav">
@@ -479,7 +480,7 @@ The calculation of the moment of inertia for more complex objects is a rather st
 <p>One can use Newton’s 2nd Law for Rotational Motion to calculate the moment of inertia of an object from the angular acceleration <span class="math notranslate nohighlight">\(\alpha\)</span> and the net torque acting on the object.</p>
 <div class="math notranslate nohighlight">
 \[I = \frac{\left|\vec{\tau}_{\mbox{net}}\right|}{\left|\vec{\alpha}\right|}\]</div>
-<p>The simplified sketch in <a class="reference internal" href="#m08-rotation-fig01"><span class="std std-numref">Fig. 39</span></a> shows the setup used in this lab.
+<p>The simplified sketch in <a class="reference internal" href="#m08-rotation-fig01"><span class="std std-numref">Fig. 43</span></a> shows the setup used in this lab.
 The net torque acting on the pulley can be written as</p>
 <div class="math notranslate nohighlight">
 \[|\vec{\tau}_{\mbox{net}}| = T \, R_{P}\]</div>
@@ -495,7 +496,7 @@ The net torque acting on the pulley can be written as</p>
 <figure class="align-center" id="m08-rotation-fig01">
 <a class="reference internal image-reference" href="../_images/Figure011.jpg"><img alt="../_images/Figure011.jpg" src="../_images/Figure011.jpg" style="width: 60%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 39 </span><span class="caption-text">Left: Sketch of a pulley of mass <span class="math notranslate nohighlight">\(M\)</span> and radius <span class="math notranslate nohighlight">\(R\)</span> being accelerated by a hanging mass <span class="math notranslate nohighlight">\(m\)</span>. Note that the pulley in the lab is actually horizontal, but is drawn vertically here for simplicity. Right: Force diagram for the hanging mass <span class="math notranslate nohighlight">\(m\)</span>.</span><a class="headerlink" href="#m08-rotation-fig01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 43 </span><span class="caption-text">Left: Sketch of a pulley of mass <span class="math notranslate nohighlight">\(M\)</span> and radius <span class="math notranslate nohighlight">\(R\)</span> being accelerated by a hanging mass <span class="math notranslate nohighlight">\(m\)</span>. Note that the pulley in the lab is actually horizontal, but is drawn vertically here for simplicity. Right: Force diagram for the hanging mass <span class="math notranslate nohighlight">\(m\)</span>.</span><a class="headerlink" href="#m08-rotation-fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -518,18 +519,18 @@ The net torque acting on the pulley can be written as</p>
 </section>
 <section id="experimental-procedure">
 <h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
-<p>The experiment makes use of a sensor, which is able to detect and measure angular displacement, angular velocity, and angular acceleration. This Rotary Motion Sensor (RMS), with a <strong>stated uncertainty of 0.09°</strong>, is attached to a vertical rod and has a 3-step pulley affixed to its axle (see <a class="reference internal" href="#m08-rotation-fig02"><span class="std std-numref">Fig. 40</span></a>). Objects with different moment of inertia can be mounted onto the 3-step pulley and their rotational motion be measured. A second pulley (called a Super Pulley) is attached to the RMS to allow a string to spool off the 3-step pulley as shown in <a class="reference internal" href="#m08-rotation-fig02"><span class="std std-numref">Fig. 40</span></a> and <a class="reference internal" href="#m08-rotation-fig03"><span class="std std-numref">Fig. 41</span></a>. A weight hanger of known mass <span class="math notranslate nohighlight">\(m\)</span> is attached to the free end of the string and provides an accelerating torque to the 3-step pulley and therefore to the object mounted on it.</p>
+<p>The experiment makes use of a sensor, which is able to detect and measure angular displacement, angular velocity, and angular acceleration. This Rotary Motion Sensor (RMS), with a <strong>stated uncertainty of 0.09°</strong>, is attached to a vertical rod and has a 3-step pulley affixed to its axle (see <a class="reference internal" href="#m08-rotation-fig02"><span class="std std-numref">Fig. 44</span></a>). Objects with different moment of inertia can be mounted onto the 3-step pulley and their rotational motion be measured. A second pulley (called a Super Pulley) is attached to the RMS to allow a string to spool off the 3-step pulley as shown in <a class="reference internal" href="#m08-rotation-fig02"><span class="std std-numref">Fig. 44</span></a> and <a class="reference internal" href="#m08-rotation-fig03"><span class="std std-numref">Fig. 45</span></a>. A weight hanger of known mass <span class="math notranslate nohighlight">\(m\)</span> is attached to the free end of the string and provides an accelerating torque to the 3-step pulley and therefore to the object mounted on it.</p>
 <p>In this experiment you will measure the angular acceleration from a graph of angular velocity vs. time using data recorded with the RMS. The data will be collected in <strong>Capstone</strong>, which also provides analysis tools. The moment of inertia of a ring and of two point masses will be determined from the angular acceleration. Finally, you will verify the validity of angular momentum conservation in an inelastic collision.</p>
 <figure class="align-center" id="m08-rotation-fig02">
 <a class="reference internal image-reference" href="../_images/Figure02_v2025-01.png"><img alt="../_images/Figure02_v2025-01.png" src="../_images/Figure02_v2025-01.png" style="width: 50%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 40 </span><span class="caption-text">Rotary Motion Sensor (RMS) with 3-step pulley (transparent) and Super Pulley (black). Super pulley should be at an angle to ensure the thread lines up tangent to the 3-step pulley.</span><a class="headerlink" href="#m08-rotation-fig02" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 44 </span><span class="caption-text">Rotary Motion Sensor (RMS) with 3-step pulley (transparent) and Super Pulley (black). Super pulley should be at an angle to ensure the thread lines up tangent to the 3-step pulley.</span><a class="headerlink" href="#m08-rotation-fig02" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="m08-rotation-fig03">
 <a class="reference internal image-reference" href="../_images/Figure03_v2025-012.png"><img alt="../_images/Figure03_v2025-012.png" src="../_images/Figure03_v2025-012.png" style="width: 80%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 41 </span><span class="caption-text">Experimental setup of the RMS apparatus with disk alone (left) and with disk and ring mounted (right). The setup varies slightly from the one used in the lab.</span><a class="headerlink" href="#m08-rotation-fig03" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 45 </span><span class="caption-text">Experimental setup of the RMS apparatus with disk alone (left) and with disk and ring mounted (right). The setup varies slightly from the one used in the lab.</span><a class="headerlink" href="#m08-rotation-fig03" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <section id="moment-of-inertia-of-the-ring">

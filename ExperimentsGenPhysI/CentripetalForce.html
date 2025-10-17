@@ -180,6 +180,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../Intro/IntroLab.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Intro/DataAcquisition.html">Data Acquisition and Analysis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Intro/VernierCaliper.html">Vernier Calipers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/CapstoneNotes.html">Capstone Notes &amp; Tools</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
 <ul class="current nav bd-sidenav">
@@ -405,8 +406,11 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preliminary-setup">Preliminary Setup</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-collection">Experimental Data Collection</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#combined-results-and-error-propagation-for-current-case">Combined Results and Error Propagation For Current Case</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-collection-for-single-case">Experimental Data Collection for Single Case</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#combined-results-for-current-case">Combined Results for Current Case</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#error-propagation-for-current-case">Error Propagation for Current Case</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
@@ -436,11 +440,11 @@
 <p>Acceleration is the rate of change of velocity. An object moving in a circle of radius <span class="math notranslate nohighlight">\(R\)</span> is always being accelerated even if its speed remains constant. This is because velocity is a vector quantity whose direction is continuously changing. This rotational change in direction requires a centripetal force that is pointed in towards the axis of rotation (center-seeking). The corresponding centripetal acceleration also points toward the axis of rotation with a magnitude <span class="math notranslate nohighlight">\(a_\text{c} = v^{2}/R\)</span>. For an object of mass <span class="math notranslate nohighlight">\(M_\text{object}\)</span>, the required force for this circular motion is thus related quadratically to the speed of the object and inversely to its radius of curvature:</p>
 <div class="math notranslate nohighlight" id="equation-eq-centripetal-force">
 <span class="eqno">(50)<a class="headerlink" href="#equation-eq-centripetal-force" title="Permalink to this equation">#</a></span>\[F_{c} = M_\text{object} \frac{v^2}{R}\]</div>
-<p>For each case, the object’s mass <span class="math notranslate nohighlight">\(M_\text{object}\)</span> and radius <span class="math notranslate nohighlight">\(R\)</span> are set by attaching small masses to a freely-sliding holder on the rotating arm (shown in <a class="reference internal" href="#m04fig01"><span class="std std-numref">Fig. 26</span></a>). The tangential speed of the object <span class="math notranslate nohighlight">\(v\)</span> is obtained from the rate at which a small white-ish pin beneath the fixed-in-place counterweight holder passes through the photogate. The centripetal force is determined by measuring the force in the cable with a force sensor (seen later in <a class="reference internal" href="#m04fig02"><span class="std std-numref">Fig. 27</span></a>). Subsequently, the <span class="math notranslate nohighlight">\(M_\text{object}\)</span> is determined from graphs relating <span class="math notranslate nohighlight">\(F\)</span> vs. <span class="math notranslate nohighlight">\(v^2\)</span> and <span class="math notranslate nohighlight">\(F\)</span> vs. <span class="math notranslate nohighlight">\(v\)</span>. The procedure is repeated for different masses and radii to study how centripetal force depends on velocity.</p>
+<p>For each case, the object’s mass <span class="math notranslate nohighlight">\(M_\text{object}\)</span> and radius <span class="math notranslate nohighlight">\(R\)</span> are set by attaching small masses to a freely-sliding holder on the rotating arm (shown in <a class="reference internal" href="#m04fig01"><span class="std std-numref">Fig. 29</span></a>). The tangential speed of the object <span class="math notranslate nohighlight">\(v\)</span> is obtained from the rate at which a small white-ish pin beneath the fixed-in-place counterweight holder passes through the photogate. The centripetal force is determined by measuring the force in the cable with a force sensor (seen later in <a class="reference internal" href="#m04fig02"><span class="std std-numref">Fig. 30</span></a>). Subsequently, the <span class="math notranslate nohighlight">\(M_\text{object}\)</span> is determined from graphs relating <span class="math notranslate nohighlight">\(F\)</span> vs. <span class="math notranslate nohighlight">\(v^2\)</span> and <span class="math notranslate nohighlight">\(F\)</span> vs. <span class="math notranslate nohighlight">\(v\)</span>. The procedure is repeated for different masses and radii to study how centripetal force depends on velocity.</p>
 <figure class="align-center" id="m04fig01">
 <a class="reference internal image-reference" href="../_images/Figure01a_v2025-02.png"><img alt="../_images/Figure01a_v2025-02.png" src="../_images/Figure01a_v2025-02.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 26 </span><span class="caption-text">Experimental Setup showing the rotating arm and the attached masses. The photogate to measure the speed is shown as well. The small white-ish pin attached underneath the fixed-counterweight mass holder is used to determine the speed <span class="math notranslate nohighlight">\(v\)</span> of the mass.</span><a class="headerlink" href="#m04fig01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 29 </span><span class="caption-text">Experimental Setup showing the rotating arm and the attached masses. The photogate to measure the speed is shown as well. The small white-ish pin attached underneath the fixed-counterweight mass holder is used to determine the speed <span class="math notranslate nohighlight">\(v\)</span> of the mass.</span><a class="headerlink" href="#m04fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -457,14 +461,15 @@
 </ul>
 </li>
 <li><p>Compare the experimental results to the actual values as measured with triple-beam balance.</p></li>
+<li><p>Include a screenshot/photo of the graphs from 1 trial from just one case representative of your data to for spreadsheet submission and post-lab discussions.</p></li>
 </ul>
 </div>
-<div class="note admonition">
-<p class="admonition-title">Notes</p>
+<div class="tip admonition">
+<p class="admonition-title">Sensors &amp; Capstone</p>
 <ul class="simple">
 <li><p>Time measured by PASCO photogate for velocity calculation in <strong>Capstone</strong> (stated precision of 0.0001 seconds).</p></li>
 <li><p>Force measured by PASCO High-Resolution Force Sensor (stated precision of 0.002 N).</p></li>
-<li><p>The relevant Capstone file will be on the desktop. Please <em><strong>DO NOT</strong></em> save when you are done, just exit without saving, thanks.</p></li>
+<li><p>The relevant <strong>Capstone</strong> file will be on the desktop. Please <em><strong>DO NOT</strong></em> save when you are done, just exit without saving, thanks.</p></li>
 </ul>
 </div>
 <section id="preliminary-setup">
@@ -472,19 +477,19 @@
 <figure class="align-center" id="m04fig02">
 <a class="reference internal image-reference" href="../_images/Figure02_v2025-021.png"><img alt="../_images/Figure02_v2025-021.png" src="../_images/Figure02_v2025-021.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 27 </span><span class="caption-text">Experimental Setup for the centripetal force experiment</span><a class="headerlink" href="#m04fig02" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 30 </span><span class="caption-text">Experimental Setup for the centripetal force experiment</span><a class="headerlink" href="#m04fig02" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ol class="arabic">
-<li><p>The experiment should already be setup for you as shown in <a class="reference internal" href="#m04fig02"><span class="std std-numref">Fig. 27</span></a> with masses attached to both the freely-sliding and fixed-counterweight mass holders as well as already being hooked up to the computer interface and power supply. Reminder, the relevant Capstone file will be on the desktop (e.g. <a class="reference internal" href="#m04fig07"><span class="std std-numref">Fig. 28</span></a>). Prepared are relevant notes, a stopwatch, and two graphs:</p>
+<li><p>The experiment should already be setup for you as shown in <a class="reference internal" href="#m04fig02"><span class="std std-numref">Fig. 30</span></a> with masses attached to both the freely-sliding and fixed-counterweight mass holders as well as already being hooked up to the computer interface and power supply. Reminder, the relevant <strong>Capstone</strong> file will be on the desktop (e.g. <a class="reference internal" href="#m04fig07"><span class="std std-numref">Fig. 31</span></a>). Prepared are relevant notes, a stopwatch, and two graphs:</p>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(F\)</span> versus <span class="math notranslate nohighlight">\(v^2\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(F\)</span> versus <span class="math notranslate nohighlight">\(v\)</span></p></li>
 </ul>
 <figure class="align-center" id="m04fig07">
-<a class="reference internal image-reference" href="../_images/Figure07_v2025-01.png"><img alt="../_images/Figure07_v2025-01.png" src="../_images/Figure07_v2025-01.png" style="width: 80%;" /></a>
+<a class="reference internal image-reference" href="../_images/Figure07_v2025-01.png"><img alt="../_images/Figure07_v2025-01.png" src="../_images/Figure07_v2025-01.png" style="width: 85%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 28 </span><span class="caption-text">Example of today’s <strong>Capstone</strong> layout. Review notes for helpful info.</span><a class="headerlink" href="#m04fig07" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 31 </span><span class="caption-text">Example of today’s <strong>Capstone</strong> layout. Review notes for helpful info.</span><a class="headerlink" href="#m04fig07" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </li>
@@ -494,19 +499,19 @@
 <li><p>uncertainty of the mass of the freely-sliding mass holder (kg)</p></li>
 </ul>
 </li>
-<li><p>Remove the freely-sliding mass holder and measure its mass with a triple-beam balance. Record this in your data sheet. Re-attach the assembly to the rotating arm with one plastic washer below the arm and one above. Then the silver nut, tightened down enough to prevent tipping, but the assembly must slide freely. Then the cable loop. Then use the black nut to attach the applied disk masses above the loop. See order in <a class="reference internal" href="#m04fig04"><span class="std std-numref">Fig. 29</span></a>.</p>
-<div class="note admonition">
+<li><p>Remove the freely-sliding mass holder and measure its mass with a triple-beam balance. Record this in your data sheet. Re-attach the assembly to the rotating arm with one plastic washer below the arm and one above. Then the silver nut, tightened down enough to prevent tipping, but the assembly must slide freely. Then the cable loop. Then use the black nut to attach the applied disk masses above the loop. See order in <a class="reference internal" href="#m04fig04"><span class="std std-numref">Fig. 32</span></a>.</p>
+<div class="tip admonition">
 <p class="admonition-title">Calibration</p>
 <p><em>Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned</em>.</p>
 </div>
 <figure class="align-center" id="m04fig04">
 <a class="reference internal image-reference" href="../_images/Figure04_v2025-02.png"><img alt="../_images/Figure04_v2025-02.png" src="../_images/Figure04_v2025-02.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 29 </span><span class="caption-text">Reassemly procedure for reattaching the freely-sliding mass holder</span><a class="headerlink" href="#m04fig04" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 32 </span><span class="caption-text">Reassemly procedure for reattaching the freely-sliding mass holder</span><a class="headerlink" href="#m04fig04" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </li>
-<li><p>Four cases will be performed, each with 3 trials, as listed in <a class="reference internal" href="#tab-four-centripetal-force-cases"><span class="std std-numref">Table 6</span></a>. For each of the four cases, perform the following steps listed in <a class="reference internal" href="#detailsteps-centripetal-force"><span class="std std-ref">Experimental Data Collection</span></a> and record the data appropriately in your spreadsheet.</p>
+<li><p>Four cases will be performed, each with 3 trials, as listed in <a class="reference internal" href="#tab-four-centripetal-force-cases"><span class="std std-numref">Table 6</span></a>. For each of the four cases, perform the following steps listed in <a class="reference internal" href="#detailsteps-centripetal-force"><span class="std std-ref">Experimental Data Collection for Single Case</span></a> and record the data appropriately in your spreadsheet.</p>
 <div class="pst-scrollable-table-container"><table class="table" id="tab-four-centripetal-force-cases">
 <caption><span class="caption-number">Table 6 </span><span class="caption-text">Four experimental cases applied masses and radii</span><a class="headerlink" href="#tab-four-centripetal-force-cases" title="Permalink to this table">#</a></caption>
 <thead>
@@ -526,24 +531,24 @@
 </tr>
 <tr class="row-even"><td class="text-center"><p>3</p></td>
 <td class="text-center"><p>5</p></td>
-<td class="text-center"><p>short (<span class="math notranslate nohighlight">\(\sim60-70\)</span>)</p></td>
+<td class="text-center"><p>short (<span class="math notranslate nohighlight">\(\sim55-65\)</span>)</p></td>
 </tr>
 <tr class="row-odd"><td class="text-center"><p>4</p></td>
 <td class="text-center"><p>15</p></td>
-<td class="text-center"><p>short (<span class="math notranslate nohighlight">\(\sim60-70\)</span>)</p></td>
+<td class="text-center"><p>short (<span class="math notranslate nohighlight">\(\sim55-65\)</span>)</p></td>
 </tr>
 </tbody>
 </table>
 </div>
-<div class="warning admonition">
-<p class="admonition-title">Reminder, Run First Case Fully</p>
-<p>Reminder, run your first case completely <strong>before</strong> moving on to additional cases. Don’t just take all of your data without checking your methodology. If you have some error in your experimental method or in your calculations, you can correct it before completing all the other cases and finding out you have to completely redo the whole lab. The data tables for additional cases can be created by copying the first case <strong>after</strong> you are confident in and can explain your results from the first case.</p>
-</div>
 </li>
 </ol>
 </section>
-<section id="experimental-data-collection">
-<span id="detailsteps-centripetal-force"></span><h3>Experimental Data Collection<a class="headerlink" href="#experimental-data-collection" title="Permalink to this heading">#</a></h3>
+<section id="experimental-data-collection-for-single-case">
+<span id="detailsteps-centripetal-force"></span><h3>Experimental Data Collection for Single Case<a class="headerlink" href="#experimental-data-collection-for-single-case" title="Permalink to this heading">#</a></h3>
+<div class="important admonition">
+<p class="admonition-title">Reminder, Run First Case Fully</p>
+<p>Reminder, run your first case completely <strong>before</strong> moving on to additional cases. Don’t just take all of your data without checking your methodology. If you have some error in your experimental method or in your calculations, you can correct it before completing all the other cases and finding out you have to completely redo the whole lab. The data tables for additional cases can be created by copying the first case <strong>after</strong> you are confident in and can explain your results from the first case.</p>
+</div>
 <ol class="arabic" start="5">
 <li><p>For each case, construct:</p>
 <ul class="simple">
@@ -555,7 +560,7 @@
 <li><p><span class="math notranslate nohighlight">\(\delta R\)</span>: your estimate of the uncertainty in the radius (m) (i.e. <span class="math notranslate nohighlight">\(\text{radius} \pm \delta R\)</span>)</p></li>
 </ul>
 </li>
-<li><p>A data table with a row for each trial and average values as well as columns (but not limited to):</p>
+<li><p>A data table with a row for each trial, average values, error-maximized “trial” for error propagation later on as well as columns for (but not limited to):</p>
 <ul>
 <li><p><span class="math notranslate nohighlight">\(m\)</span>: fit parameter <span class="math notranslate nohighlight">\(m\)</span> from the <span class="math notranslate nohighlight">\(F_\text{c}\)</span> vs. <span class="math notranslate nohighlight">\(v^2\)</span> (linear fit)</p></li>
 <li><p><span class="math notranslate nohighlight">\(M_\text{object,experimental,linear}\)</span>: the mass determined from <span class="math notranslate nohighlight">\(F_\text{c}\)</span> vs. <span class="math notranslate nohighlight">\(v^2\)</span></p></li>
@@ -563,30 +568,34 @@
 <li><p><span class="math notranslate nohighlight">\(A\)</span>: fit parameter <span class="math notranslate nohighlight">\(A\)</span> from the <span class="math notranslate nohighlight">\(F_\text{c}\)</span> vs. <span class="math notranslate nohighlight">\(v\)</span> (quadratic fit)</p></li>
 <li><p><span class="math notranslate nohighlight">\(M_\text{object,experimental,quadratic}\)</span>: the mass determined from <span class="math notranslate nohighlight">\(F_\text{c}\)</span> vs. <span class="math notranslate nohighlight">\(v\)</span></p></li>
 <li><p>the difference between <span class="math notranslate nohighlight">\(M_\text{object,experimental,quadratic}\)</span> and <span class="math notranslate nohighlight">\(M_\text{object,actual}\)</span></p></li>
+</ul>
+</li>
+<li><p>Additional section for:</p>
+<ul>
 <li><p><span class="math notranslate nohighlight">\(\delta M_\text{object,experimental}\)</span> the uncertainty in the mass from the centripetal force due to your estimated radius uncertainty (<em>Point to consider</em>: how much does the derived mass change if you change your value for radius in <strong>Capstone calculator</strong> by the amount of your estimated radius uncertainty?)</p></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p>Attach the necessary applied masses for the current case as listed in <a class="reference internal" href="#tab-four-centripetal-force-cases"><span class="std std-numref">Table 6</span></a> following steps depicted in <a class="reference internal" href="#m04fig04"><span class="std std-numref">Fig. 29</span></a>. Record <span class="math notranslate nohighlight">\(M_\text{applied}\)</span>. Calculate the total mass of the rotating object <span class="math notranslate nohighlight">\(M_\text{object,actual}\)</span> — the sum total of the freely-sliding mass holder and the applied mass.</p></li>
-<li><p>Set radius <span class="math notranslate nohighlight">\(R\)</span> to the value listed in <a class="reference internal" href="#tab-four-centripetal-force-cases"><span class="std std-numref">Table 6</span></a> for the current case; it just needs to be within the range listed. Do this by raising or lowering the force sensor (see bar &amp; clamp holding force sensor in <a class="reference internal" href="#m04fig02"><span class="std std-numref">Fig. 27</span></a>). It is important that the force sensor be <em><strong>exactly above the center of the apparatus.</strong></em> To check this, pull on the freely-sliding mass to put tension in the cable. Then observe the cable from the front and side of the system to verify it is parallel to the L-stand’s vertical rod and perpendicular to the rotating arm. Adjust the horizontal rod holding the force sensor until that is that is achieved. Ensure the force sensor is still pointed downwards towards the pulley at the axis of rotation. <em>Any time you change the position of the Force Sensor, you will have to <strong>repeat</strong> this step.</em></p></li>
+<li><p>Attach the necessary applied masses for the current case as listed in <a class="reference internal" href="#tab-four-centripetal-force-cases"><span class="std std-numref">Table 6</span></a> following steps depicted in <a class="reference internal" href="#m04fig04"><span class="std std-numref">Fig. 32</span></a>. Record <span class="math notranslate nohighlight">\(M_\text{applied}\)</span>. Calculate the total mass of the rotating object <span class="math notranslate nohighlight">\(M_\text{object,actual}\)</span> — the sum total of the freely-sliding mass holder and the applied mass.</p></li>
+<li><p>Set radius <span class="math notranslate nohighlight">\(R\)</span> to the value listed in <a class="reference internal" href="#tab-four-centripetal-force-cases"><span class="std std-numref">Table 6</span></a> for the current case; it just needs to be within the range listed. Do this by raising or lowering the force sensor (see bar &amp; clamp holding force sensor in <a class="reference internal" href="#m04fig02"><span class="std std-numref">Fig. 30</span></a>). It is important that the force sensor be <em><strong>exactly above the center of the apparatus.</strong></em> To check this, pull on the freely-sliding mass to put tension in the cable. Then observe the cable from the front and side of the system to verify it is parallel to the L-stand’s vertical rod and perpendicular to the rotating arm. Adjust the horizontal rod holding the force sensor until that is that is achieved. Ensure the force sensor is still pointed downwards towards the pulley at the axis of rotation. <em>Any time you change the position of the Force Sensor, you will have to <strong>repeat</strong> this step.</em></p></li>
 <li><p>Measure and record radius <span class="math notranslate nohighlight">\(R\)</span>. Pull the mass to tighten the cable to determine the actual radius to the nearest millimeter. You can do this using the scale attached to the side of the apparatus.</p>
-<div class="note admonition">
+<div class="question admonition">
 <p class="admonition-title">Discussion Point: Why tighten?</p>
 <p>Why do we measure the radius when the cable is taut?</p>
 </div>
 </li>
-<li><p>Estimate <span class="math notranslate nohighlight">\(\delta R\)</span>, your estimated uncertainty in the radius. Remember, this is a bit subjective relating to how confident you are that the freely-sliding object is at your stated radius, not soley the precision of your tools. It essentially becomes how far you could move the object a bit towards or away from the axis of rotation, and still be confident in saying your radius measurement is accurate.</p></li>
-<li><p>Set the radius in <strong>Capstone’s Calculator</strong> which is set up to determine instantaneous tangential velocity. Select <strong>Calculator</strong> in the menu on the left-hand side (example shown in <a class="reference internal" href="#m04fig03"><span class="std std-numref">Fig. 30</span></a>). In line 1, replace the <code class="docutils literal notranslate"><span class="pre">0.###</span></code> value with the value that you actually measured in the previous step. Click the <strong>Calculator</strong> again to close it. <em>Any time you change the radius, you will need to <strong>update</strong> the value in <strong>Calculator.</strong></em></p>
+<li><p>Estimate <span class="math notranslate nohighlight">\(\delta R\)</span>, your estimated uncertainty in the radius. Remember, this is a bit subjective relating to how confident you are that the freely-sliding object is at your stated radius, not soley the precision of your tools. It essentially becomes how far you could move the object a bit towards or away from the axis of rotation, and still be confident in saying your radius measurement is accurate. <em>Also consider how stiff the attachment cable is; does that impact how constant the radius is during rotation?</em></p></li>
+<li><p>Set the radius in <strong>Capstone’s Calculator</strong> which is set up to determine instantaneous tangential velocity. Select <strong>Calculator</strong> in the menu on the left-hand side (example shown in <a class="reference internal" href="#m04fig03"><span class="std std-numref">Fig. 33</span></a>). In line 1, replace the <code class="docutils literal notranslate"><span class="pre">0.###</span></code> value with the value that you actually measured in the previous step. Click the <strong>Calculator</strong> again to close it. <em>Any time you change the radius, you will need to <strong>update</strong> the value in <strong>Calculator.</strong></em></p>
 <figure class="align-center" id="m04fig03">
 <a class="reference internal image-reference" href="../_images/Figure03_v2025-011.png"><img alt="../_images/Figure03_v2025-011.png" src="../_images/Figure03_v2025-011.png" style="width: 80%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 30 </span><span class="caption-text">Calculator setup in <strong>Capstone</strong> to determine the speed of the rotating objects. Make sure to adjust the value for the radius in this window to the actual value used in your experimental setup.</span><a class="headerlink" href="#m04fig03" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 33 </span><span class="caption-text">Calculator setup in <strong>Capstone</strong> to determine the tangential speed of the rotating objects. Adjust the radius (red boxed) to your measured radius in your experimental setup.</span><a class="headerlink" href="#m04fig03" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </li>
 <li><p>To avoid wobbling, tighten an identical fixed-counterwieght mass to the opposite side of the rotating arm such that it is as far from the axis of rotation as your previously measured <span class="math notranslate nohighlight">\(R\)</span>. Tighten so it doesn’t move — <strong>DON’T OVERTIGHTEN, THIS CAN DAMAGE THE RUBBER WASHERS.</strong></p>
-<div class="note admonition">
+<div class="question admonition">
 <p class="admonition-title">Discussion Point: Counterweight</p>
 <p>Why should there be the same mass on the fixed-counterweight mass holder as compared to the freely-sliding mass holder? What might you expect to see in your data if the fixed-counterweight and freely-sliding masses and radii were not comparable?</p>
 </div>
@@ -597,118 +606,185 @@
 <li><p><strong>ZERO</strong> the force sensor with the physical <em>ZERO</em> button on the force sensor while ensuring the connecting cable is slack.</p></li>
 <li><p>You can check the force sensor is now zeroed out by again wiggling the rotating arm to cross the photogate and find that the data points are now plotting on the  <span class="math notranslate nohighlight">\(0\,\text{line}\)</span>. If this is not the case, try again until it does.</p></li>
 <li><p>You can stop recording and ignore that data.</p></li>
-<li><p>Double check the force sensor calibration at least for each case.</p></li>
+<li><p>Double check the force sensor calibration as needed, including after changing the radius.</p></li>
 </ul>
 </li>
-<li><p>Start the data acquisition on <strong>Capstone</strong> by pressing the <strong>Record</strong> button.
+<li><p>Start the data acquisition in <strong>Capstone</strong> by pressing the <strong>Record</strong> button.
 You should notice that the program might not show values; this is normal as it will only record a value once the photogate has been crossed by the white pin underneath the fixed-counterweight.</p>
-<div class="warning admonition">
+<div class="danger admonition">
 <p class="admonition-title">⚠️⚠️⚠️ CAUTION: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️</p>
 <p>The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.</p>
 </div>
 </li>
-<li><p>Over the course of about 60 seconds (see stopwatch in top right of <a class="reference internal" href="#m04fig07"><span class="std std-numref">Fig. 28</span></a>), slowly increase the voltage on the power supply from <span class="math notranslate nohighlight">\(0\,\text{V}\)</span> to <span class="math notranslate nohighlight">\(10\,\text{V}\)</span>. The metal arm will begin to rotate, and you will notice the graphs display the data as it is collected. You may notice kinks in the data (e.g. <a class="reference internal" href="#m04fig08"><span class="std std-numref">Fig. 31</span></a>); that is alright as some power supplies may have small jumps in the voltage as it switches to different internal circuits. Just focus on slowly and consistenty increasing the voltage.</p>
-<div class="warning admonition">
+<li><p>Over the course of about 60 seconds (see stopwatch in top right of <strong>Capstone</strong>, e.g. <a class="reference internal" href="#m04fig07"><span class="std std-numref">Fig. 31</span></a>), slowly increase the voltage on the power supply from <span class="math notranslate nohighlight">\(0\,\text{V}\)</span> to <span class="math notranslate nohighlight">\(10\,\text{V}\)</span>. The metal arm will begin to rotate, and you will notice the graphs display the data as it is collected. You may notice kinks in the data (e.g. <a class="reference internal" href="#m04fig08"><span class="std std-numref">Fig. 34</span></a>); that is alright as some power supplies may have small jumps in the voltage as it switches to different internal circuits. <em>If there is a kink, what does that represent?</em> For your trial, focus on slowly and consistenty increasing the voltage.</p>
+<div class="caution admonition">
 <p class="admonition-title">Voltage Limits</p>
 <p>Do not exceed <span class="math notranslate nohighlight">\(10\,\text{V}\)</span>, we don’t want to burn out the motor — only rated for <span class="math notranslate nohighlight">\(12\,\text{V}\)</span></p>
 </div>
 <figure class="align-center" id="m04fig08">
 <a class="reference internal image-reference" href="../_images/Figure08_v2025-01.png"><img alt="../_images/Figure08_v2025-01.png" src="../_images/Figure08_v2025-01.png" style="width: 60%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 31 </span><span class="caption-text">Example of kink in the data due to possible irregularities or voltage jumps in the power supplies.</span><a class="headerlink" href="#m04fig08" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 34 </span><span class="caption-text">Example of kink in the data due to possible irregularities or voltage jumps in the power supplies.</span><a class="headerlink" href="#m04fig08" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </li>
-<li><p><strong>Before</strong> returning the power supply to zero, press the <strong>STOP</strong> button in Capstone to stop data acquisition. When you are finished taking data, you can scale both axes of either graph using the tool shown in <a class="reference internal" href="#m04fig06"><span class="std std-numref">Fig. 32</span></a>.</p>
+<li><p><strong>Before</strong> returning the power supply to zero, press the <strong>STOP</strong> button in <strong>Capstone</strong> to stop data acquisition. When you are finished taking data, you can scale both axes of either graph using the tool shown in <a class="reference internal" href="#m04fig06"><span class="std std-numref">Fig. 35</span></a>.</p>
 <figure class="align-center" id="m04fig06">
 <a class="reference internal image-reference" href="../_images/Figure06_v2025-01.png"><img alt="../_images/Figure06_v2025-01.png" src="../_images/Figure06_v2025-01.png" style="width: 60%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 32 </span><span class="caption-text">Autoscale axes tool.</span><a class="headerlink" href="#m04fig06" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 35 </span><span class="caption-text">Autoscale axes tool.</span><a class="headerlink" href="#m04fig06" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
+<div class="tip admonition">
+<p class="admonition-title">Recording/Deleting Data in Capstone</p>
+<p><em>NEVER</em> need to click the Delete Last Run button in <strong>Capstone</strong>. <img alt="dontDeleteCapstoneCentripetal" src="../_images/Figure10_v2025-01.png" /> <strong>Capstone</strong> will just hold on to that data as a past trial that you could go back and look at as needed. When you press Record, <strong>Capstone</strong> will just create a new <em>Run</em> of data to keep track of.</p>
+</div>
 </li>
-<li><p>Once you have finished your trial, <strong>fit a straight line</strong> to your <span class="math notranslate nohighlight">\(F\)</span> vs. <span class="math notranslate nohighlight">\(v^2\)</span> graph and set its y-intecept <span class="math notranslate nohighlight">\(b\)</span> to zero.  <em>Note: you will need to do this for each trial as <strong>Capstone</strong> resets to the default settings for each trial.</em> For visual instructions, see <a class="reference internal" href="#m04fig05"><span class="std std-numref">Fig. 33</span></a>. Select the fit box <span class="math notranslate nohighlight">\(\rightarrow\)</span> select Curve Fit Editor <span class="math notranslate nohighlight">\(\rightarrow\)</span> lock the y-intercept <span class="math notranslate nohighlight">\(b = 0\)</span> <span class="math notranslate nohighlight">\(\rightarrow\)</span> update the fit. Notice the change in slope <span class="math notranslate nohighlight">\(m\)</span> when you lock <span class="math notranslate nohighlight">\(b\)</span>.</p>
+<li><p>Once you have finished your trial:</p>
+<div class="question admonition">
+<p class="admonition-title">Discussion Point: Graph Shape</p>
+<p>Do the graphs display the expected behavior?</p>
+</div>
+</li>
+<li><p><strong>Fit a straight line</strong> to your <span class="math notranslate nohighlight">\(F\)</span> vs. <span class="math notranslate nohighlight">\(v^2\)</span> graph and set its y-intecept <span class="math notranslate nohighlight">\(b\)</span> to zero.  <em>Note: you will need to do this for each trial as <strong>Capstone</strong> resets to the default settings for each trial.</em> For visual instructions, see <a class="reference internal" href="#m04fig05"><span class="std std-numref">Fig. 36</span></a>. Select the fit box <span class="math notranslate nohighlight">\(\rightarrow\)</span> select Curve Fit Editor <span class="math notranslate nohighlight">\(\rightarrow\)</span> lock the y-intercept <span class="math notranslate nohighlight">\(b = 0\)</span> <span class="math notranslate nohighlight">\(\rightarrow\)</span> update the fit. Notice the change in slope <span class="math notranslate nohighlight">\(m\)</span> when you lock <span class="math notranslate nohighlight">\(b\)</span>.</p>
 <figure class="align-center" id="m04fig05">
 <a class="reference internal image-reference" href="../_images/Figure05_v2025-01.png"><img alt="../_images/Figure05_v2025-01.png" src="../_images/Figure05_v2025-01.png" style="width: 70%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 33 </span><span class="caption-text">Process for applying fits to plotted data, updating the y-intercept and other curve-fit terms, and updating sig. figs.</span><a class="headerlink" href="#m04fig05" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 36 </span><span class="caption-text">Process for applying fits to plotted data, updating the y-intercept and other curve-fit terms, and updating sig. figs.</span><a class="headerlink" href="#m04fig05" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<div class="note admonition">
+<div class="question admonition">
 <p class="admonition-title">Discussion Point: Y-Intercept</p>
 <p>Why should the y-intercept be zero? If your fit appears to have changed a lot, why might your data not agree? Is there a step you may have missed?</p>
 </div>
 </li>
-<li><p>Increase the number of significant figures in for the fit. <em>Note: you will need to do this for each trial.</em> For visual instructions, see <a class="reference internal" href="#m04fig05"><span class="std std-numref">Fig. 33</span></a>. Select the fit box <span class="math notranslate nohighlight">\(\rightarrow\)</span> select Curve Fit Properties (gear) <span class="math notranslate nohighlight">\(\rightarrow\)</span> Numerical Format <span class="math notranslate nohighlight">\(\rightarrow\)</span> Coefficients <span class="math notranslate nohighlight">\(\rightarrow\)</span> update sig. figs. to at least <strong>4</strong>.</p></li>
+<li><p>Increase the number of significant figures in for the fit. <em>Note: you will need to do this for each trial.</em> For visual instructions, see <a class="reference internal" href="#m04fig05"><span class="std std-numref">Fig. 36</span></a>. Select the fit box <span class="math notranslate nohighlight">\(\rightarrow\)</span> select Curve Fit Properties (gear) <span class="math notranslate nohighlight">\(\rightarrow\)</span> Numerical Format <span class="math notranslate nohighlight">\(\rightarrow\)</span> Coefficients <span class="math notranslate nohighlight">\(\rightarrow\)</span> update sig. figs. to at least <strong>4</strong>.</p></li>
 <li><p>Record <span class="math notranslate nohighlight">\(m\)</span>, the linear fit’s slope in your data table (based on <span class="math notranslate nohighlight">\(y = mx+b\)</span>).</p></li>
 <li><p>Calculate your experimental mass of the rotating object based on your linear fit <span class="math notranslate nohighlight">\(M_\text{object,experimental,linear}\)</span> using <a class="reference internal" href="#equation-eq-centripetal-force">(50)</a>.</p>
-<div class="note admonition">
+<div class="question admonition">
 <p class="admonition-title">Discussion Point: Mass of Rotating Object</p>
 <p>How do you determine the value for the mass of the rotating object from your data?</p>
 </div>
 </li>
 <li><p>Calculate the difference between your experimental <span class="math notranslate nohighlight">\(M_\text{object,experimental,linear}\)</span> and the actual mass <span class="math notranslate nohighlight">\(M_\text{object,actual}\)</span>.</p></li>
-<li><p><strong>Fit a quadratic curve</strong> to your <span class="math notranslate nohighlight">\(F\)</span> vs. <span class="math notranslate nohighlight">\(v\)</span> graph and set its coefficients <span class="math notranslate nohighlight">\(B\)</span> and <span class="math notranslate nohighlight">\(C\)</span> to zero y-intecept <span class="math notranslate nohighlight">\(b\)</span> to zero in a similar fashion to your linear plot. <em>Note: you will need to do this for each trial.</em> For visual instructions, see <a class="reference internal" href="#m04fig05"><span class="std std-numref">Fig. 33</span></a>. Notice the change in coefficient <span class="math notranslate nohighlight">\(A\)</span> when you lock <span class="math notranslate nohighlight">\(B\)</span> and <span class="math notranslate nohighlight">\(C\)</span>.</p>
-<div class="note admonition">
+<li><p><strong>Fit a quadratic curve</strong> to your <span class="math notranslate nohighlight">\(F\)</span> vs. <span class="math notranslate nohighlight">\(v\)</span> graph and set its coefficients <span class="math notranslate nohighlight">\(B\)</span> and <span class="math notranslate nohighlight">\(C\)</span> to zero y-intecept <span class="math notranslate nohighlight">\(b\)</span> to zero in a similar fashion to your linear plot. <em>Note: you will need to do this for each trial.</em> For visual instructions, see <a class="reference internal" href="#m04fig05"><span class="std std-numref">Fig. 36</span></a>. Notice the change in coefficient <span class="math notranslate nohighlight">\(A\)</span> when you lock <span class="math notranslate nohighlight">\(B\)</span> and <span class="math notranslate nohighlight">\(C\)</span>.</p>
+<div class="question admonition">
 <p class="admonition-title">Discussion Point: Quadratic fit</p>
 <p>Why should the <span class="math notranslate nohighlight">\(B\)</span> and <span class="math notranslate nohighlight">\(C\)</span> coefficients be zero? If your fit appears to have changed a lot, why might your data not agree? Is there a step you may have missed?</p>
 </div>
 </li>
-<li><p>Increase the number of significant figures for the quadratic fit to at least <strong>4</strong> in a similar fashion to the linear plot. <em>Note: you will need to do this for each trial.</em> For visual instructions, see <a class="reference internal" href="#m04fig05"><span class="std std-numref">Fig. 33</span></a>.</p></li>
+<li><p>Increase the number of significant figures for the quadratic fit to at least <strong>4</strong> in a similar fashion to the linear plot. <em>Note: you will need to do this for each trial.</em> For visual instructions, see <a class="reference internal" href="#m04fig05"><span class="std std-numref">Fig. 36</span></a>.</p></li>
 <li><p>Record <span class="math notranslate nohighlight">\(A\)</span>, the first term’s coefficient in your data table (based on <span class="math notranslate nohighlight">\(y = Ax^2+bx+c\)</span>).</p></li>
 <li><p>Calculate your experimental mass of the rotating object based on your quadratic fit <span class="math notranslate nohighlight">\(M_\text{object,experimental,quadratic}\)</span>, again using <a class="reference internal" href="#equation-eq-centripetal-force">(50)</a>.</p></li>
 <li><p>Calculate the difference between your experimental <span class="math notranslate nohighlight">\(M_\text{object,experimental,quadratic}\)</span> and the actual mass <span class="math notranslate nohighlight">\(M_\text{object,actual}\)</span>.</p></li>
-<li><p>Repeat the previous steps for the other the trials <em>for this current case.</em></p>
-<div class="note admonition">
-<p class="admonition-title">Note on data in Capstone</p>
-<p>There is a Delete Last Run button in Capstone. You <em>NEVER</em> need to press that as Capstone will just hold on to that data as a past trial that you could go back and look at as needed. When you press Record, Capstone will just create a new <em>Run</em> of data to keep track of.</p>
-</div>
-</li>
+<li><p>Repeat the previous steps of <a class="reference internal" href="#detailsteps-centripetal-force"><span class="std std-ref">Experimental Data Collection for Single Case</span></a> for rest of the trials <em>for this current case,</em> then continue to the analysis of the current case in the next sections: <a class="reference internal" href="#summary-step-centripetal-force"><span class="std std-ref">Combined Results for Current Case</span></a> and <a class="reference internal" href="#error-step-centripetal-force"><span class="std std-ref">Error Propagation for Current Case</span></a>.</p></li>
+</ol>
+<section id="combined-results-for-current-case">
+<span id="summary-step-centripetal-force"></span><h4>Combined Results for Current Case<a class="headerlink" href="#combined-results-for-current-case" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple" start="28">
+<li><p>Calculate the averages of all your previously determined values in your data table for the current case.</p></li>
+<li><p>By now, we should see that when we force both linear and quadratic fits to the origin, <span class="math notranslate nohighlight">\(M_\text{object,experimental,linear} = M_\text{object,experimental,quadratic}\)</span>. If not, please discuss with your instructor.</p></li>
+<li><p>Assuming they are equal, the average mass of the rotating object will be written as <span class="math notranslate nohighlight">\(\bar{M}_\text{object,exp}\)</span> (the bar over the <span class="math notranslate nohighlight">\(M\)</span> represents the average value). In the next section, <a class="reference internal" href="#error-step-centripetal-force"><span class="std std-ref">Error Propagation for Current Case</span></a>, you will propagate measurement uncertainty(ies) to determine the uncertainty in your average experimental mass <span class="math notranslate nohighlight">\(\delta \bar{M}_\text{object,exp}\)</span></p></li>
 </ol>
 </section>
-<section id="combined-results-and-error-propagation-for-current-case">
-<span id="summary-step-centripetal-force"></span><h3>Combined Results and Error Propagation For Current Case<a class="headerlink" href="#combined-results-and-error-propagation-for-current-case" title="Permalink to this heading">#</a></h3>
-<ol class="arabic" start="26">
-<li><p>Calculate the averages of all your previously determined values in your data table for the current case.</p></li>
-<li><p>Error propagation to find <span class="math notranslate nohighlight">\(\delta M_\text{object,experimental}\)</span>:</p>
-<ul>
-<li><p>Using just one of your trials from this case, determine your estimated uncertainty in the experimental mass <span class="math notranslate nohighlight">\(\delta M_\text{object,experimental}\)</span> of the rotating object.</p></li>
-<li><p>Assumption: Error in mass is primarily due to radius.</p></li>
-<li><p>To do so, essentially create an additional trial for this case. Return to the calculator (<a class="reference internal" href="#m04fig03"><span class="std std-numref">Fig. 30</span></a>) and update the radius to be either larger or smaller based on your values <span class="math notranslate nohighlight">\(R \pm \delta R\)</span>. Notice how your graphs and fits change. Use those updated values in this error propagation trial to effectively determine the range of experimental masses by finding a larger or smaller value for your object mass <span class="math notranslate nohighlight">\(M_\text{object,experimental,errorTrialLarger}\)</span>.</p></li>
-<li><p><em>Reminder: you updated the radius in Capstone; how did you use <a class="reference internal" href="#equation-eq-centripetal-force">(50)</a> to determine mass?</em></p></li>
-<li><p>Determine the uncertainty in your experimental mass <span class="math notranslate nohighlight">\(\delta M_\text{object,experimental}\)</span> as the magnitude/absolute value of the difference between this larger or smaller value for mass and your average experimental mass from the original trials</p>
-<div class="math notranslate nohighlight" id="equation-eq-centripetal-force-errorprop">
-<span class="eqno">(51)<a class="headerlink" href="#equation-eq-centripetal-force-errorprop" title="Permalink to this equation">#</a></span>\[\delta M_\text{object,experimental} = | M_\text{object,experimental,errorTrialLarger} - M_\text{object,experimental,linear} |\]</div>
-</li>
-<li><p>Treat this difference as your <span class="math notranslate nohighlight">\(\delta M_\text{object,experimental}\)</span>.</p></li>
+<section id="error-propagation-for-current-case">
+<span id="error-step-centripetal-force"></span><h4>Error Propagation for Current Case<a class="headerlink" href="#error-propagation-for-current-case" title="Permalink to this heading">#</a></h4>
+<div class="note admonition">
+<p class="admonition-title">Notes &amp; Assumptions for Errors Today</p>
+<ul class="simple">
+<li><p>Assumption: Error in experimental object mass is primarily due to radius.</p></li>
+<li><p>Radius impacts both determined velocity and mass.</p></li>
+<li><p>Determine range of uncertainty from just one trial for each case and use that for the uncertainty of the average value.</p></li>
 </ul>
-<div class="note admonition">
-<p class="admonition-title">Discussion Point: Experimental Mass</p>
-<p>How much does the experimental mass change if you change your value for radius in <strong>Capstone calculator</strong> by the amount of your estimated radius uncertainty?</p>
+</div>
+<ol class="arabic" start="31">
+<li><p>Over the next few steps, use error propagation to determine uncertainty in your average mass of the rotating object <span class="math notranslate nohighlight">\(\delta \bar{M}_\text{object,exp}\)</span>:</p>
+<p>A. Using just 1 of your trials from this case, determine the propagated uncertainty in the experimental mass <span class="math notranslate nohighlight">\(\delta M_\text{object,experimental,linear}\)</span> of the rotating object by maximizing the <span class="math notranslate nohighlight">\(R\)</span> by <span class="math notranslate nohighlight">\(\delta R\)</span>. See how that changes the graph, determine the maximized or minimized error-test mass <span class="math notranslate nohighlight">\(M_\text{object,experimental,error-test}\)</span>, take the difference between the error-test and trial mass values, and treat that difference as <span class="math notranslate nohighlight">\(\delta \bar{M}_\text{object,exp}\)</span> for this case (rather than doing all trials to save time).</p>
+<div class="tip admonition">
+<p class="admonition-title">Return to Previous Run in Capstone</p>
+<p>If you need to return to a previous trial/run in <strong>Capstone</strong>, see <a class="reference internal" href="#m04fig09"><span class="std std-numref">Fig. 37</span></a> for that process.</p>
+</div>
+<figure class="align-center" id="m04fig09">
+<a class="reference internal image-reference" href="../_images/Figure09_v2025-01.png"><img alt="../_images/Figure09_v2025-01.png" src="../_images/Figure09_v2025-01.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 37 </span><span class="caption-text">Process for returning to previous run in <strong>Capstone.</strong></span><a class="headerlink" href="#m04fig09" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>B. Essentially create an additional trial for this case in a new row in your data table.</p>
+<p>C. Return to the calculator (<a class="reference internal" href="#m04fig03"><span class="std std-numref">Fig. 33</span></a>) and update the radius to be larger or smaller based on your values <span class="math notranslate nohighlight">\(R \pm \delta R\)</span>. Notice how your graphs and fits change.</p>
+<p>D. Use those updated values in this error-test trial to determine <span class="math notranslate nohighlight">\(M_\text{object,experimental,error-test}\)</span>. Notice how the experimental mass of the object changes (maximized or minimized). <em>Reminder: you updated the radius in <strong>Capstone</strong>; how did you then determine mass?</em></p>
+<p>E. Determine the uncertainty in your selected trial’s experimental mass <span class="math notranslate nohighlight">\(\delta M_\text{object,experimental,linear}\)</span> as the magnitude or absolute value of the difference between the error-test and trial values for object’s mass:</p>
+<div class="math notranslate nohighlight" id="equation-eq-centripetal-force-errorprop">
+<span class="eqno">(51)<a class="headerlink" href="#equation-eq-centripetal-force-errorprop" title="Permalink to this equation">#</a></span>\[\delta M_\text{object,experimental,linear} = | M_\text{object,experimental,error-test} - M_\text{object,experimental,linear} |\]</div>
+<p>F. Treat this difference as your uncertainty in your average mass of the rotating object, <span class="math notranslate nohighlight">\(\delta \bar{M}_\text{object,exp}\)</span>.</p>
+<div class="question admonition">
+<p class="admonition-title">Discussion Point: Experimental Mass Variance</p>
+<p>How much does the experimental mass change if you change your value for radius in <strong>Capstone calculator</strong> by the amount of your estimated radius uncertainty? Does your overall result <span class="math notranslate nohighlight">\(\bar{M}_\text{object,exp} \pm \delta \bar{M}_\text{object,exp}\)</span> agree with the actual value? Why or why not?</p>
 </div>
 </li>
-<li><p>Repeat the previous steps in <a class="reference internal" href="#detailsteps-centripetal-force"><span class="std std-ref">Experimental Data Collection</span></a> and <a class="reference internal" href="#summary-step-centripetal-force"><span class="std std-ref">Combined Results and Error Propagation For Current Case</span></a> for the next case with the relevant applied mass and radius as listed in <a class="reference internal" href="#tab-four-centripetal-force-cases"><span class="std std-numref">Table 6</span></a>. Please call for help as needed for setting up next cases.</p>
-<div class="warning admonition">
+<li><p>Repeat the previous steps in <a class="reference internal" href="#detailsteps-centripetal-force"><span class="std std-ref">Experimental Data Collection for Single Case</span></a> for the next case with the relevant applied mass and radius as listed in <a class="reference internal" href="#tab-four-centripetal-force-cases"><span class="std std-numref">Table 6</span></a>. Please call for help as needed for setting up next cases.</p>
+<div class="important admonition">
 <p class="admonition-title">Continue to additional case?</p>
-<p><em><strong>If you are satisfied that your calculations and <em><strong>error propagation</strong></em> are complete and results seem reasonable (feel free to check with your professor), it is at this point that you may continue to the next case.</strong></em></p>
+<p><em><strong>If you are satisfied that your calculations and <em><strong>error propagation</strong></em> are complete and results seem reasonable (feel free to check with your professor), it is only at this point that you should continue to the next case.</strong></em></p>
 </div>
 </li>
-<li><p><em><strong>BEFORE CLOSING CAPSTONE: TAKE A Screenshot or photo of at least 1 trial representative of your data for discussion later.</strong></em></p>
-<div class="note admonition">
-<p class="admonition-title">Discussion Point: Graph Shape</p>
-<p>Do the graphs display the expected behavior?</p>
-</div>
-<div class="warning admonition">
+<li><p><em><strong>BEFORE CLOSING CAPSTONE:</strong></em></p>
+<div class="important admonition">
 <p class="admonition-title">Photo of Experimental Data</p>
-<p>Take a screenshot/photo to include in your Excel datasheet / spreadsheet submission.</p>
+<p>Take a screenshot/photo of your graphs from 1 trial from one case representative of your data to include in your Excel spreadsheet for post-lab discussions.</p>
+</div>
+</li>
+<li><p><em><strong>BEFORE LEAVING LAB:</strong></em></p>
+<div class="danger admonition">
+<p class="admonition-title">Turn Off Power Supply</p>
+<p>Ensure voltage is back to zero and shut off the power supply.</p>
 </div>
 </li>
 </ol>
+<!---
+```{admonition} ⚠️⚠️⚠️ CAUTION: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️
+:class: danger
+The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.
+```
+```{admonition} ⚠️⚠️⚠️ note: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️
+:class: note
+The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.
+```
+```{admonition} ⚠️⚠️⚠️ tip: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️
+:class: tip
+The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.
+```
+```{admonition} ⚠️⚠️⚠️ important: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️
+:class: important
+The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.
+```
+```{admonition} ⚠️⚠️⚠️ warning: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️
+:class: warning
+The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.
+```
+```{admonition} ⚠️⚠️⚠️ CAUTION: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️
+:class: caution
+The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.
+```
+```{admonition} ⚠️⚠️⚠️ danger: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️
+:class: danger
+The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.
+```
+```{admonition} ⚠️⚠️⚠️ error: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️
+:class: error
+The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.
+```
+```{admonition} ⚠️⚠️⚠️ seealso: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️
+:class: seealso
+The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.
+```
+--->
+</section>
 </section>
 </section>
 <section id="post-lab-submission-interpretation-of-results">
 <h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
-<div class="warning admonition">
+<div class="important admonition">
 <p class="admonition-title">Defend your conclusions with your data</p>
 <p>Defend why your data agrees with or disagrees with the measured values for your masses. Use error propagation from your uncertainties and precision of your equipment to help your argument.</p>
 </div>
@@ -723,7 +799,7 @@ You should notice that the program might not show values; this is normal as it w
 <li><p>What is the precision of your equipment?</p></li>
 <li><p>What are possible random errors for today’s experiment?</p></li>
 <li><p>What are possible systematic errors for today’s experiments?</p></li>
-<li><p>Discuss your uncertainties (see <code class="xref std std-numref docutils literal notranslate"><span class="pre">summary-step-centripetal-force</span></code>) and their effects</p>
+<li><p>Discuss your uncertainties (see <a class="reference internal" href="#error-step-centripetal-force"><span class="std std-ref">Error Propagation for Current Case</span></a>) and their effects</p>
 <ul>
 <li><p>Sources of measured or esitmated uncertainties (values); how large are they?</p></li>
 <li><p>How do they affect your final mass values; what has the largest affect?</p></li>
@@ -733,7 +809,7 @@ You should notice that the program might not show values; this is normal as it w
 </li>
 <li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case.</p>
 <ul>
-<li><p>From where did you determine your experimental mass? Do your experimentally determined masses with uncertainties (<span class="math notranslate nohighlight">\(i.e. M_\text{object,experimental} \pm \delta M_\text{object,experimental}\)</span>) agree with the actual mass of the applied masses plus mass holder (i.e. range overalapping with actual value)?</p></li>
+<li><p>From where did you determine your experimental mass? Do your experimentally determined masses with uncertainties (<span class="math notranslate nohighlight">\(\text{e.g.}\,\bar{M}_\text{object,exp} \pm \delta \bar{M}_\text{object,exp}\)</span>) agree with the actual mass of the applied masses plus mass holder (i.e. range overalapping with actual value)?</p></li>
 <li><p>How does the shape of the <span class="math notranslate nohighlight">\(F_\text{c}\)</span> vs. <span class="math notranslate nohighlight">\(v^2\)</span> plot compare to the <span class="math notranslate nohighlight">\(F_\text{c}\)</span> vs. <span class="math notranslate nohighlight">\(v\)</span> plot?</p>
 <ul>
 <li><p>What does this tell you about the mathematical relationship between centripetal force and velocity?</p></li>
@@ -833,8 +909,11 @@ You should notice that the program might not show values; this is normal as it w
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preliminary-setup">Preliminary Setup</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-collection">Experimental Data Collection</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#combined-results-and-error-propagation-for-current-case">Combined Results and Error Propagation For Current Case</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-collection-for-single-case">Experimental Data Collection for Single Case</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#combined-results-for-current-case">Combined Results for Current Case</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#error-propagation-for-current-case">Error Propagation for Current Case</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
