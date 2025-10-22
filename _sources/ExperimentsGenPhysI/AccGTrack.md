@@ -74,7 +74,7 @@ Experimental Setup.
 :width: 60%
 :align: center
 
-Example of small and large spacers used to incline the air track.
+Example of small and large spacers used to incline the air track. Remember to put the black plastic footer (not shown) on top of the spacers.
 ```
 
 
@@ -99,7 +99,7 @@ Example of small and large spacers used to incline the air track.
 ```
 
 ```{admonition} Notes & Assumptions
-:class: note
+:class: tip
 - The presumed frictionless inclined plane will be an air track.
 - The mass will be a glider, which floats on the air track.
 - Placing a spacer (essentially a big slotted mass, see {numref}`M02Fig07`) of height $H$ under the leg at one end of the track, which is a distance $D$ from the leg(s) at the opposite end, will incline the track.
@@ -129,10 +129,10 @@ Example of small and large spacers used to incline the air track.
     *Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned*.
     ```
 
-4. **Level the airtrack.** Without the spacer present and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (at either end and center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, request the use of another glider and we can provide you a different one.
+4. **Level the airtrack.** Without the spacer present and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (somewhere between the photogates, center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes. <!---request the use of another glider and we can provide you a different one.--->
 
-    ```{admonition} Note on drift
-    :class: note
+    ```{admonition} Drift
+    :class: tip
     There will inevitably be some drift as these airtracks are not perfect, but as a general rule of thumb, if it takes more than $\sim 10$ seconds to drift just 5 cm, you should be pretty good.
     ```
 
@@ -178,12 +178,12 @@ Suggested points on glider to read position on airtrack scale.
 
 9. Similarly, determine and record the starting photogate position $s_1$ at the top end of the track. Place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the photogate's red light comes on. Move the glider back and forth to confirm your scale reading. Ensure your scale reading on the track was based on the same location of the glider as for your $s_0$ reading (i.e. {numref}`M02Fig03`).
 
-    ```{admonition} Note on Accurate Photogate Positions
-    :class: note
+    ```{admonition} Accurate Photogate Positions
+    :class: tip
     Be careful not to bump the photogates, as that could change their positions and lead to inaccurate distances. Check during each case; if need be, expand your common data table with additional $s_0$ and $s_1$ positions.
     ```
 
-10. Four cases will be performed as listed in {numref}`tab-four-glider-spacer-cases`. For each of the four cases, perform the following steps listed in {ref}`detailsteps` and record the data appropriately in your spreadsheet.
+10. Four cases will be performed as listed in {numref}`tab-four-glider-spacer-cases`. For each of the four cases, perform the following steps listed in {ref}`detailsteps-accelGTrack` and record the data appropriately in your spreadsheet.
     ```{table} Four experimental cases with spacers and gliders
     :name: tab-four-glider-spacer-cases
     | Case | Spacer Size | Glider Size |
@@ -200,7 +200,7 @@ Suggested points on glider to read position on airtrack scale.
 Reminder, run your first case completely **before** moving on to additional cases. Don't just take all of your data without checking your methodology. If you have some error in your experimental method or in your calculations, you can correct it before completing all the other cases and finding out you have to completely redo the whole lab. The data tables for additional cases can be created by copying the first case **after** you are confident in and can explain your results from the first case.
 ```
 
-(detailsteps)=
+(detailsteps-accelGTrack)=
 ### Experimental Data Collection
 
 11. For each of the four cases, create a Data table with enough **rows** for the number of trials you are doing, and **columns** for each of the variables you will be measuring or deriving (e.g. {ref}`experimental-data-AccGTrack`):
@@ -216,16 +216,16 @@ Reminder, run your first case completely **before** moving on to additional case
 
 12. Ensure $s_1$ and $s_0$ haven't changed.
 
-13. Raise the single leg side of the track by placing a spacer under the black foot as seen in {numref}`M02Fig02`.
+13. Raise the single leg side of the track by placing the case-relevant spacer under the black foot as seen in {numref}`M02Fig02`.
 
 14. Before you take the recorded data in the next steps, take some practice runs. Your subsequent data will be much improved by your training! Press record in **Capstone** to start the timer.
 
-  ```{admonition} Notes on the Capstone timer
-  :class: note
-  - The timer shown is coded in Capstone; once you press record, it will take a few seconds for the timer to start, wait until you confirm the timer is ready before releasing the glider.
-  - Capstone will display the time whenever a photogate beam is broken; the time shown is the time at the higher (start) photogate $t_1$ as well as the time at the lower (end) photogate $t_0$. To determine the total transit time $\Delta t$, take the difference of the start and end times.
-  - Additional notes on the timer are in the Capstone file itself, ***please read***.
-  ```   
+    ```{admonition} Capstone Timer
+    :class: tip
+    - The timer shown is coded in Capstone; once you press record, it will take a few seconds for the timer to start, wait until you confirm the timer is ready before releasing the glider.
+    - Capstone will display the time whenever a photogate beam is broken; the time shown is the time at the higher (start) photogate $t_1$ as well as the time at the lower (end) photogate $t_0$. To determine the total transit time $\Delta t$, take the difference of the start and end times.
+    - Additional notes on the timer are in the Capstone file itself, ***please read***.
+    ```   
 
 15. For each of the **6 trials per case**, release the glider from rest at the $s_1$ position. Measure and record the start time $t_1$ and end time $t_0$ to determine transit time $\Delta t$ from the release at the top to bottom of the airtrack. Calculate the value of $g$. To do so:
 

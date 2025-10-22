@@ -404,7 +404,20 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preliminary-setup">Preliminary Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-video-photogate-positions">Demo Video: Photogate Positions</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-collection">Experimental Data Collection</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-videos-glider-release">Demo Videos: Glider Release</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-video-energy-conservation-across-single-trial">Demo Video: Energy Conservation Across Single Trial</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#averaged-results-for-current-case">Averaged Results for Current Case</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summarized-results-for-entire-lab">Summarized Results for Entire Lab</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
@@ -422,6 +435,13 @@
 <span id="cons-energy-glider-track-lab-overall"></span><h1>Conservation of Energy with Glider on Tilted Air Track<a class="headerlink" href="#conservation-of-energy-with-glider-on-tilted-air-track" title="Permalink to this heading">#</a></h1>
 <section id="background">
 <h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
+<div class="note admonition">
+<p class="admonition-title">OVERALL GOALS</p>
+<p>In this lab, you will use an inclined, frictionless airtrack to:</p>
+<ul class="simple">
+<li><p>Investigate energy conservation by determining potential and kinetic energies of a glider.</p></li>
+</ul>
+</div>
 <p><strong>Energy cannot be created nor destroyed.</strong> All that can really happen is a change in its form. We shall consider the conservation of mechanical energy, in particular, the sum of the kinetic energy and potential energy of a mass. The kinetic energy is due to the motion of the mass and the potential energy is due to the relative position of the mass in the earth’s gravitational field. This total mechanical energy can only change if nonconservative forces are acting on any part of the system. We will examine the exchange of kinetic and potential energy and the conservation of mechanical energy under the presumption of no nonconservative forces acting. If the mechanical energy is not conserved we will attempt to determine potential sources of nonconservative work being done that would change the mechanical energy.</p>
 <p>The <strong>work</strong> done by a force acting on a mass is the magnitude of the force acting in the direction of motion times the distance the mass moves. Work is only done when the mass moves. (In other words, you can push as hard as you like on a brick wall, but if the wall doesn’t move, you didn’t do any work!) Assume for the moment that we have a mass <span class="math notranslate nohighlight">\(m\)</span> moving on a frictionless, horizontal surface. Assume a force acts on the mass from the position <span class="math notranslate nohighlight">\(x = 0\)</span> to <span class="math notranslate nohighlight">\(x = x_1\)</span> as illustrated in <a class="reference internal" href="#m05fig01"><span class="std std-numref">Fig. 38</span></a>. At position <span class="math notranslate nohighlight">\(x = 0\)</span> it is moving with a velocity <span class="math notranslate nohighlight">\(v_{0}\)</span> and at <span class="math notranslate nohighlight">\(x = x_1\)</span> the velocity is <span class="math notranslate nohighlight">\(v_1\)</span>.</p>
 <figure class="align-center" id="m05fig01">
@@ -466,112 +486,334 @@
 </figcaption>
 </figure>
 <p>At <span class="math notranslate nohighlight">\(s_0\)</span>, <span class="math notranslate nohighlight">\(U_{b} = 0\)</span>, therefore <span class="math notranslate nohighlight">\(U_{s} = mg\, \Delta h = mg\, \Delta s \sin(\theta)\)</span>.
-Referring to <a class="reference internal" href="#m05fig03"><span class="std std-numref">Fig. 40</span></a>, the <span class="math notranslate nohighlight">\(\tan(\theta) = \text{(height of the spacer)} / \text{(distance between legs)}\)</span> or</p>
+Referring to our schematic of the experimental setup in <a class="reference internal" href="#m05fig03"><span class="std std-numref">Fig. 40</span></a>, we see <span class="math notranslate nohighlight">\(\sin(\theta) = \text{(height of the spacer)} / \text{(distance between legs)}\)</span> or</p>
 <div class="math notranslate nohighlight">
-\[\tan(\theta) = \frac{H}{D}\]</div>
-<p>With the very small angles of incline being used, we can safely assume that</p>
-<div class="math notranslate nohighlight">
-\[\tan(\theta) \sim \sin(\theta)\]</div>
+\[\sin(\theta) = \frac{H}{D}\]</div>
+<!--- With the very small angles of incline being used, we can safely assume that
+
+```{math}
+\tan(\theta) \sim \sin(\theta)
+```
+--->
 <p>therefore the potential energy, <span class="math notranslate nohighlight">\(U\)</span>, at some position, <span class="math notranslate nohighlight">\(s\)</span>, along the track is finally given by measurable quantities as</p>
 <div class="math notranslate nohighlight" id="equation-eq-potential-energy">
 <span class="eqno">(55)<a class="headerlink" href="#equation-eq-potential-energy" title="Permalink to this equation">#</a></span>\[U_s = mg \, \Delta s \frac{H}{D}\]</div>
 </section>
 <section id="experimental-procedure">
 <h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CINQAbvNFPw?si=srqk4862Gp_MHdzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW</p>
+<ul class="simple">
+<li><p>Experimentally determine potential and kinetic energies of a glider on a slightly tilted airtrack.</p></li>
+<li><p>Investigate how energy is converted, gained, or lost to different forms across two sequences in each trial:</p>
+<ul>
+<li><p>Potential energy at the top to the kinetic energy at the bottom.</p></li>
+<li><p>Potential energy at the top to the potential energy at some rebounded position.</p></li>
+</ul>
+</li>
+<li><p>Conduct 4 cases based on 2 glider sizes and 2 initial heights.</p>
+<ul>
+<li><p>Each case will have a total of 6 trials:</p>
+<ul>
+<li><p>Groups of 2 students, each student will release the glider for 3 trials</p></li>
+<li><p>Groups of 3 students, each student will release the glider for 2 trials</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="tip admonition">
+<p class="admonition-title">Notes &amp; Assumptions, Sensors &amp; Capstone</p>
+<ul class="simple">
+<li><p>The presumed frictionless inclined plane will be an air track.</p></li>
+<li><p>The mass will be a glider, which floats on the air track.</p></li>
+<li><p>Placing a spacer (essentially a big slotted mass, see <a class="reference internal" href="#m05fig05"><span class="std std-numref">Fig. 41</span></a>) of height <span class="math notranslate nohighlight">\(H\)</span> under the leg at one end of the track, which is a distance <span class="math notranslate nohighlight">\(D\)</span> from the pivoting leg(s) at the opposite end, will incline the track.</p></li>
+<li><p>Time measured by PASCO photogate for velocity calculation in <strong>Capstone</strong> (stated precision of 0.0001 seconds).</p></li>
+<li><p>The relevant <strong>Capstone</strong> file will be on the desktop. Please <em><strong>DO NOT</strong></em> save when you are done, just exit without saving, thanks.</p></li>
+</ul>
+</div>
 <figure class="align-center" id="m05fig03">
-<a class="reference internal image-reference" href="../_images/Figure02_v2025-022.png"><img alt="../_images/Figure02_v2025-022.png" src="../_images/Figure02_v2025-022.png" style="width: 90%;" /></a>
+<a class="reference internal image-reference" href="../_images/Figure02_v2025-022.png"><img alt="../_images/Figure02_v2025-022.png" src="../_images/Figure02_v2025-022.png" style="width: 100%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 40 </span><span class="caption-text">Experimental setup for the Conservation of Energy experiment.</span><a class="headerlink" href="#m05fig03" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
+<figure class="align-center" id="m05fig05">
+<a class="reference internal image-reference" href="../_images/Figure05_spacers_v2025-02.png"><img alt="../_images/Figure05_spacers_v2025-02.png" src="../_images/Figure05_spacers_v2025-02.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 41 </span><span class="caption-text">Example of small and large spacers used to incline the air track. The cases today will be the BIG and Stacked heights. Remember to put the black plastic footer on top of the spacers as shown in the <em>stacked</em> case.</span><a class="headerlink" href="#m05fig05" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="preliminary-setup">
+<span id="consentrack-experimentprep"></span><h3>Preliminary Setup<a class="headerlink" href="#preliminary-setup" title="Permalink to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Do not put a glider on the track without air flowing. If the air supply is not yet on, please remind the instructor.</strong></p></li>
+<li><p>Create a common data table including:</p>
 <ul class="simple">
-<li><p>Turn on the air and allow it to run a couple of minutes before proceeding. It is very important that the track is clean and free of dirt. This will prevent any damage to the very expensive air track and will keep friction to an absolute minimum. Do not put a glider on the track without air flowing.</p></li>
-<li><p>Measure and record the mass of both a large and a small glider.</p></li>
-<li><p>Without the spacer present and the air track resting directly on the tabletop, place one of the gliders on the track and note any preferential drift of the glider. Adjust the height of the single leg until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, use another glider.</p></li>
-<li><p>Measure and record the distance <span class="math notranslate nohighlight">\(D\)</span>. This is the center-to-center distance between the legs.</p></li>
-<li><p>Measure and record the heights <span class="math notranslate nohighlight">\(H\)</span>, of each of the two spacers. Use a Vernier caliper for maximum accuracy. See the instructions at Fig. VernierFig02 for using the Vernier caliper.</p></li>
-<li><p>Four cases will be performed, two gliders for two spacers. Determine a convenient point on the glider to use with the scale attached on the side of track. It doesn’t matter what point you choose, only that you use the same point for all <span class="math notranslate nohighlight">\(s\)</span> determinations for that glider. A convenient point is the lower front or rear corner of the glider since it will be very close to the scale.</p></li>
-<li><p>For each case, perform the following steps and record the data appropriately in your spreadsheet:</p>
-<ol class="arabic simple">
-<li><p>Raise the single leg side of the track by placing a spacer under the knob.</p></li>
-<li><p>Place the glider at the bottom of the track resting against the bumper. Record <span class="math notranslate nohighlight">\(s_0\)</span>. (Note: With the car at this position, the red light on the bottom photogate should be lit. Moving the glider to the right the slightest distance should put the light out. If this is not the case, adjust the position of the photogate.)</p></li>
-<li><p>Next, place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the red light comes on. Record <span class="math notranslate nohighlight">\(s_1\)</span>.</p></li>
-<li><p>Before you take the recorded data in the next step, take some practice runs. Your subsequent data will be much improved by your training!</p>
-<ul>
-<li><p>Position the glider so it is blocking the top photogate and the red light is on. Place one finger on the track in front of the glider and gently push the glider to the right until the red light on the photogate just goes out.</p></li>
-<li><p>Press record in <strong>Capstone</strong> to start the timer. <em>NOTE:</em> <strong>Capstone</strong> may take a few seconds to start displaying times, once it’s going, it will display the time whenever a photogate beam is broken; the time at the higher (start) photogate <span class="math notranslate nohighlight">\(t_1\)</span> as well as the time at the lower (end) photogate <span class="math notranslate nohighlight">\(t_0\)</span>. Total transit time <span class="math notranslate nohighlight">\(\Delta t\)</span> will be the difference of the start and end times.</p></li>
-<li><p>Release the glider by quickly pulling your finger away from the track. After the glider bounces off the lower bumper, you can calculate the time of travel from top to bottom <span class="math notranslate nohighlight">\(\Delta t\)</span>.</p></li>
+<li><p>accepted value of <span class="math notranslate nohighlight">\(g\)</span> of <span class="math notranslate nohighlight">\(9.803\,\text{m/s}^2\)</span> for Fairfield, CT</p></li>
+<li><p>the masses of each of the gliders in kg</p></li>
+<li><p>the distance <span class="math notranslate nohighlight">\(D\)</span> between the legs of the air track in meter (m)</p></li>
+<li><p>the heights <span class="math notranslate nohighlight">\(H\)</span> of the two spacers (big slotted masses) in m</p></li>
+<li><p><span class="math notranslate nohighlight">\(s_1\)</span>: starting point at the top</p></li>
+<li><p><span class="math notranslate nohighlight">\(s_0\)</span>: stopping point at the bottom</p></li>
+<li><p><span class="math notranslate nohighlight">\(\Delta s_1\)</span>: distance between the photogates that the glider travels down along the track</p></li>
 </ul>
 </li>
-<li><p>For each of the five trials, release the glider from the <span class="math notranslate nohighlight">\(s_1\)</span> point and measure and record the following:</p>
-<ul>
-<li><p>The transit time <span class="math notranslate nohighlight">\(\Delta t\)</span> from release at the top to the collision at the bottom. Release the glider very carefully to insure that the initial velocity is zero.</p></li>
-<li><p>Allowing the glider to rebound off the bumper, record the rebound position <span class="math notranslate nohighlight">\(s_2\)</span>. As the glider slows to a stop, capture the glider by gently pressing your finger near a lower corner of the glider just as it comes to a stop and then read <span class="math notranslate nohighlight">\(s_2\)</span> off the scale. Use the same point on the glider to read <span class="math notranslate nohighlight">\(s_2\)</span> that you used to read <span class="math notranslate nohighlight">\(s_1\)</span> and <span class="math notranslate nohighlight">\(s_0\)</span>.</p></li>
+<li><p>Measure and record the mass of both the big and small glider with the triple-beam-balance.</p>
+<div class="tip admonition">
+<p class="admonition-title">Calibration</p>
+<p><em>Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned</em>.</p>
+</div>
+</li>
+<li><p><strong>Level the airtrack.</strong> Without the spacer present and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (somewhere between the photogates, center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes. &lt;!—request the use of another glider and we can provide you a different one.—&gt;</p>
+<div class="tip admonition">
+<p class="admonition-title">Drift</p>
+<p>There will inevitably be some drift as these airtracks are not perfect, but as a general rule of thumb, if it takes more than <span class="math notranslate nohighlight">\(\sim 10\)</span> seconds to drift just 5 cm, you should be pretty good.</p>
+</div>
+</li>
+<li><p>Measure and record the distance <span class="math notranslate nohighlight">\(D\)</span>. This is the center-to-center distance between the legs. 1 m and 2 m long meter sticks are available for this measurement, with additional meter sticks at the front wall of the room.</p></li>
+<li><p>Measure and record the heights, <span class="math notranslate nohighlight">\(H\)</span>, of each of the two spacers (big slotted masses) with the provided Vernier caliper. If you need a refresher on using Vernier calipers, see <a class="reference internal" href="../Intro/VernierCaliper.html#reading-the-vernier-scale-help"><span class="std std-ref">Reading the Vernier scale</span></a>. Since we’ll be stacking the spacers for some of the cases today, include a stacked spacers value in your common data table for easier use of the height later.</p></li>
+<li><p>Take a look at the gliders and determine a convenient point on the glider to use with the scale (<span class="math notranslate nohighlight">\(\sim2.5\)</span> meter ruler) attached on the side of air track. It doesn’t matter what point on the glider you choose, only that you be consistent and use the same point for all determinations of distance along the track <span class="math notranslate nohighlight">\(S\)</span> for that glider. A convenient point is the <em><strong>lower front or rear corner</strong></em> of the glider since it is a clear point on the glider that will overlap or be quite close to the length scale on the track itself (see <a class="reference internal" href="#m05fig04"><span class="std std-numref">Fig. 42</span></a>).</p></li>
+</ol>
+<figure class="align-center" id="m05fig04">
+<a class="reference internal image-reference" href="../_images/Figure04_v2025-01.png"><img alt="../_images/Figure04_v2025-01.png" src="../_images/Figure04_v2025-01.png" style="width: 60%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 42 </span><span class="caption-text">Suggested points on glider to read position on airtrack scale.</span><a class="headerlink" href="#m05fig04" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple" start="8">
+<li><p>Determine and record the bottom photogate position <span class="math notranslate nohighlight">\(s_0\)</span> at the bottom end of the track. Place the glider near the bottom of the track. Move it slowly as you approach the bottom photogate. Stop the glider at the exact location when the photogate’s red light comes on. Move the glider back and forth to confirm your scale reading. See <a class="reference internal" href="#demo-video-consentrack-s0s1"><span class="std std-ref">Demo Video: Photogate Positions</span></a> for example method.</p></li>
+</ol>
+<div style="text-align: center;">
+<section id="demo-video-photogate-positions">
+<span id="demo-video-consentrack-s0s1"></span><h4>Demo Video: Photogate Positions<a class="headerlink" href="#demo-video-photogate-positions" title="Permalink to this heading">#</a></h4>
+</div>
+    <!--- width="560"
+    height="315"
+    --->
+<div style="text-align: center;">
+  <iframe
+    width=80%
+    height="315"
+    src="https://www.youtube.com/embed/vij2KvbPowU"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Determine photogate position on air track with glider.</figcaption>
+</div>
+<ol class="arabic" start="9">
+<li><p>Similarly, determine and record the starting photogate position <span class="math notranslate nohighlight">\(s_1\)</span> at the top end of the track, then use those values to calculate and record <span class="math notranslate nohighlight">\(\Delta s_1=s_1-s_0\)</span>. Place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the photogate’s red light comes on. Move the glider back and forth to confirm your scale reading. Ensure your scale reading on the track was based on the same location of the glider as for your <span class="math notranslate nohighlight">\(s_0\)</span> reading (i.e. <a class="reference internal" href="#m05fig04"><span class="std std-numref">Fig. 42</span></a>).</p>
+<div class="tip admonition">
+<p class="admonition-title">Accurate Photogate Positions</p>
+<p>Be careful not to bump the photogates, as that could change their positions and lead to inaccurate distances. Check during each case; if need be, expand your common data table with additional <span class="math notranslate nohighlight">\(s_0\)</span> and <span class="math notranslate nohighlight">\(s_1\)</span> positions.</p>
+</div>
+</li>
+<li><p>Four cases will be performed as listed in <a class="reference internal" href="#tab-four-glider-spacer-cases-consentrack"><span class="std std-numref">Table 7</span></a>. For each of the four cases, perform the following steps listed in <a class="reference internal" href="#detailsteps-consentrack"><span class="std std-ref">Experimental Data Collection</span></a> and record the data appropriately in your spreadsheet. <em><strong>Note: We are not doing the small spacer by itself today.</strong></em></p>
+<div class="pst-scrollable-table-container"><table class="table" id="tab-four-glider-spacer-cases-consentrack">
+<caption><span class="caption-number">Table 7 </span><span class="caption-text">Four experimental cases with spacers and gliders</span><a class="headerlink" href="#tab-four-glider-spacer-cases-consentrack" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head text-center"><p>Case</p></th>
+<th class="head text-center"><p>Spacer Size</p></th>
+<th class="head text-center"><p>Glider Size</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p>1</p></td>
+<td class="text-center"><p>Stacked BIG + small [see <a class="reference internal" href="#m05fig05"><span class="std std-numref">Fig. 41</span></a>]</p></td>
+<td class="text-center"><p>small</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>2</p></td>
+<td class="text-center"><p>Stacked BIG + small [see <a class="reference internal" href="#m05fig05"><span class="std std-numref">Fig. 41</span></a>]</p></td>
+<td class="text-center"><p>BIG</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>3</p></td>
+<td class="text-center"><p>BIG</p></td>
+<td class="text-center"><p>small</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>4</p></td>
+<td class="text-center"><p>BIG</p></td>
+<td class="text-center"><p>BIG</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+<div class="warning admonition">
+<p class="admonition-title">Reminder, Run First Case Fully</p>
+<p>Reminder, run your first case completely <strong>before</strong> moving on to additional cases. Don’t just take all of your data without checking your methodology. If you have some error in your experimental method or in your calculations, you can correct it before completing all the other cases and finding out you have to completely redo the whole lab. The data tables for additional cases can be created by copying the first case <strong>after</strong> you are confident in and can explain your results from the first case.</p>
+</div>
+<!--- <iframe width="560" height="315" src="https://www.youtube.com/embed/CINQAbvNFPw?si=srqk4862Gp_MHdzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+--->
+</section>
+</section>
+<section id="experimental-data-collection">
+<span id="detailsteps-consentrack"></span><h3>Experimental Data Collection<a class="headerlink" href="#experimental-data-collection" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple" start="11">
+<li><p>For each of the four cases, create a <em>data table</em> with enough <strong>rows</strong> for the number of trials you are doing along with average and standard deviations, and <strong>columns</strong> for each of the variables you will be measuring or deriving:</p>
+<ul class="simple">
+<li><p>Trial number</p></li>
+<li><p>Lab member’s initials</p></li>
+<li><p><span class="math notranslate nohighlight">\(t_1\)</span>: start time at the top</p></li>
+<li><p><span class="math notranslate nohighlight">\(t_0\)</span>: stop time at the bottom</p></li>
+<li><p><span class="math notranslate nohighlight">\(\Delta t\)</span>: time of travel between the photogates</p></li>
+<li><p><span class="math notranslate nohighlight">\(s_2\)</span>: The rebound position partway up the track</p></li>
+<li><p><span class="math notranslate nohighlight">\(U_{\text{top}}\)</span>: Initial potential energy at top</p></li>
+<li><p><span class="math notranslate nohighlight">\(v_{\text{b}}\)</span>: The speed at the bottom</p></li>
+<li><p><span class="math notranslate nohighlight">\(K_{\text{b}}\)</span>: Kinetic energy at the bottom</p></li>
+<li><p><span class="math notranslate nohighlight">\(\Delta s_2=s_2-s_0\)</span>: Final rebounded distance</p></li>
+<li><p><span class="math notranslate nohighlight">\(U_{\text{rebound}}\)</span>: Final potential energy at the rebound position</p></li>
+<li><p><span class="math notranslate nohighlight">\(\%\text{ Change}_{U_{\text{top}}\text{ to }K_{\text{b}}}\)</span>: Percent change in mechanical energy during the first sequence of motion (top to bottom)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\%\text{ Change}_{U_{\text{top}}\text{ to }U_{\text{rebound}}}\)</span>: Percent change in mechanical energy during the second sequence of motion (top to rebound)</p></li>
 </ul>
 </li>
 </ol>
-</li>
-</ul>
-<p><strong>Data Table:</strong></p>
+<!---    - **Capstone** Run Number (for returning to previous trial data)
+--->
+<ol class="arabic simple" start="12">
+<li><p>Ensure <span class="math notranslate nohighlight">\(s_1\)</span> and <span class="math notranslate nohighlight">\(s_0\)</span> haven’t changed.</p></li>
+<li><p>Raise the single leg side of the track by placing the case-relevant spacer under the black foot as seen in <a class="reference internal" href="#m05fig03"><span class="std std-numref">Fig. 40</span></a> and <a class="reference internal" href="#m05fig05"><span class="std std-numref">Fig. 41</span></a>.</p></li>
+<li><p>Before you take the recorded data in the next steps, take some practice runs. Your subsequent data will be much improved by your training! Review the following demo videos as well.</p></li>
+</ol>
+<section id="demo-videos-glider-release">
+<span id="demo-video-consentrack-gliderrelease"></span><h4>Demo Videos: Glider Release<a class="headerlink" href="#demo-videos-glider-release" title="Permalink to this heading">#</a></h4>
+  <div style="text-align: center;">
+    <figure>
+      <iframe
+        width=80%
+        height="315"
+        src="https://www.youtube.com/embed/Pow7Sllbg6o"
+        title="YouTube video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+      <figcaption>Demonstration of glider release to minimize initial velocity.</figcaption>
+    </figure>
+  </div>
+</section>
+<section id="demo-video-energy-conservation-across-single-trial">
+<h4>Demo Video: Energy Conservation Across Single Trial<a class="headerlink" href="#demo-video-energy-conservation-across-single-trial" title="Permalink to this heading">#</a></h4>
+<div style="text-align: center;">
+  <iframe
+    width="80%"
+    height="315"
+    src="https://www.youtube.com/embed/CINQAbvNFPw"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Demo video: Trial of Energy Conservation on the Airtracks. Note: This video predates the use of the timer in Capstone, so you will see an older style of timer.</figcaption>
+</div>
+<ol class="arabic" start="15">
+<li><p>Press record in <strong>Capstone</strong> to start the timer.</p>
+<div class="tip admonition">
+<p class="admonition-title">Capstone Timer</p>
 <ul class="simple">
-<li><p>Create a table of the common data including the masses of the gliders, the distance <span class="math notranslate nohighlight">\(D\)</span> between the legs of the air track and the heights of the two spacers.</p></li>
-<li><p>Create a table for each case with rows for each of the five trials including:</p>
-<ul>
-<li><p>The starting point <span class="math notranslate nohighlight">\(s_1\)</span> at the top</p></li>
-<li><p>The stopping point <span class="math notranslate nohighlight">\(s_0\)</span> at the bottom</p></li>
-<li><p>Start time at the top <span class="math notranslate nohighlight">\(t_1\)</span></p></li>
-<li><p>End time at the bottom <span class="math notranslate nohighlight">\(t_0\)</span></p></li>
-<li><p>The time <span class="math notranslate nohighlight">\(\Delta t\)</span> (s) for each of the five trials</p></li>
-<li><p>The rebound position <span class="math notranslate nohighlight">\(s_2\)</span> at the top</p></li>
-<li><p>Initial distance, <span class="math notranslate nohighlight">\(\Delta s_1=s_1-s_0\)</span></p></li>
-<li><p>Initial potential energy at top, <span class="math notranslate nohighlight">\(U_{\text{top}}\)</span></p></li>
-<li><p>The speed at the bottom, <span class="math notranslate nohighlight">\(v_{\text{b}}\)</span></p></li>
-<li><p>Kinetic energy at the bottom, <span class="math notranslate nohighlight">\(K_{\text{b}}\)</span></p></li>
-<li><p>Final distance, <span class="math notranslate nohighlight">\(\Delta s_2=s_2-s_0\)</span></p></li>
-<li><p>Final potential energy at the rebound position, <span class="math notranslate nohighlight">\(U_{\text{rebound}}\)</span></p></li>
+<li><p>The timer shown is coded in Capstone; once you press record, it will take a few seconds for the timer to start, wait until you confirm the timer is ready before releasing the glider.</p></li>
+<li><p><strong>Capstone</strong> will display the time whenever a photogate beam is broken; the time shown is the time at the higher (start) photogate <span class="math notranslate nohighlight">\(t_1\)</span> as well as the time at the lower (end) photogate <span class="math notranslate nohighlight">\(t_0\)</span>. To determine the total transit time <span class="math notranslate nohighlight">\(\Delta t\)</span>, take the difference of the start and end times.</p></li>
+<li><p>Additional notes on the timer are in the Capstone file itself, <em><strong>please read</strong></em>.</p></li>
 </ul>
+</div>
 </li>
-<li><p>Create a summary table of the analysis with a row for each case including the following data:</p>
-<ul>
-<li><p>The average and standard deviation of the time, <span class="math notranslate nohighlight">\(\Delta t\)</span>, for the five trials</p></li>
-<li><p>The average and standard deviation of the speed at the bottom, <span class="math notranslate nohighlight">\(v_{\text{b}}\)</span></p></li>
-<li><p>The average and standard deviation of the kinetic energy at the bottom, <span class="math notranslate nohighlight">\(K_{\text{b}}\)</span></p></li>
-<li><p>The average and standard deviation of the final potential energy at the rebound position, <span class="math notranslate nohighlight">\(U_{\text{rebound}}\)</span></p></li>
-<li></li>
-<li></li>
-</ul>
-</li>
-</ul>
-<p>Calculate the following:</p>
+<li><p>For each of the <strong>6 trials per case</strong>, release the glider from rest at the <span class="math notranslate nohighlight">\(s_1\)</span> position. Note the rebound position <span class="math notranslate nohighlight">\(s_2\)</span> where the glider returns to rest after it rebounds up the track. Measure and record the start time <span class="math notranslate nohighlight">\(t_1\)</span> and end time <span class="math notranslate nohighlight">\(t_0\)</span> to determine transit time <span class="math notranslate nohighlight">\(\Delta t\)</span> from the release at the top to bottom of the airtrack. Calculate the value of potential and kinetic energies, and discuss the conservation of energy throughout the experiment. To do so:</p>
+<div class="important admonition">
+<p class="admonition-title">Reminder: Take turns</p>
 <ul class="simple">
-<li><p>For each case, calculate the initial potential energy at <span class="math notranslate nohighlight">\(s_1\)</span>. Average the transit times, <span class="math notranslate nohighlight">\(\Delta t\)</span>, and calculate the velocity <span class="math notranslate nohighlight">\(v_b\)</span> and the <span class="math notranslate nohighlight">\(K_b\)</span>.</p></li>
-<li><p>For each case, average the rebound position, <span class="math notranslate nohighlight">\(s_2\)</span>. Using this averaged value, calculate the final <span class="math notranslate nohighlight">\(U_2\)</span>.</p></li>
-<li><p>Calculate the percent change in mechanical energy from the top to the bottom.</p></li>
-<li><p>Calculate the percent change in mechanical energy from the initial release point <span class="math notranslate nohighlight">\(s_1\)</span> to the final rebound point <span class="math notranslate nohighlight">\(s_2\)</span>.</p></li>
+<li><p>Groups of 2 students, each student will release the glider for 3 trials</p></li>
+<li><p>Groups of 3 students, each student will release the glider for 2 trials</p></li>
 </ul>
+</div>
+<p><strong>a.</strong> Position the glider so it is blocking the top photogate and the red light is on. Use the red glider-release mechanism to hold the glider in place. <em><strong>Shift the mechanism up or down the track as necessary to move and hold the glider just before the photogate beam such that the red light on the photogate just goes out.</strong></em></p>
+<p><strong>b.</strong> Check the Capstone timer is ready, then release the glider by <em>quickly</em> flipping the glider release bar to minimize any additional push or pull on the glider to <strong>ensure its initial velocity is zero</strong>. (reminder, see <a class="reference internal" href="#demo-video-consentrack-gliderrelease"><span class="std std-ref">Demo Videos: Glider Release</span></a>).</p>
+<p><strong>c.</strong> Allowing the glider to rebound off the bumper, record the rebound position <span class="math notranslate nohighlight">\(s_2\)</span>. As the glider slows to a stop, capture the glider by gently pressing your finger near the lower edge of the glider just as it comes to a stop and then read <span class="math notranslate nohighlight">\(s_2\)</span> off the scale. Use the same point on the glider to read <span class="math notranslate nohighlight">\(s_2\)</span> that you used to read <span class="math notranslate nohighlight">\(s_1\)</span> and <span class="math notranslate nohighlight">\(s_0\)</span> (<a class="reference internal" href="#m05fig04"><span class="std std-numref">Fig. 42</span></a>).</p>
+<p><strong>d.</strong> Record the relevant <span class="math notranslate nohighlight">\(t_1\)</span> and <span class="math notranslate nohighlight">\(t_0\)</span> values in your spreadsheet. There is not a time for the rebound position. Calculate <span class="math notranslate nohighlight">\(\Delta t\)</span>.</p>
+<p><strong>e.</strong> Calculate the relevant velocity, distance, and energies at the top starting point, the bottom of the track, and the ending rebound position (i.e. <span class="math notranslate nohighlight">\(U_{\text{top}}\)</span>, <span class="math notranslate nohighlight">\(v_{\text{b}}\)</span>, <span class="math notranslate nohighlight">\(K_{\text{b}}\)</span>, <span class="math notranslate nohighlight">\(\Delta s_2=s_2-s_0\)</span>, <span class="math notranslate nohighlight">\(U_{\text{rebound}}\)</span>) using <a class="reference internal" href="#equation-eq-velocity-bottom">(53)</a>, <a class="reference internal" href="#equation-eq-kinetic-bottom">(54)</a>, <a class="reference internal" href="#equation-eq-potential-energy">(55)</a>.</p>
+<p><strong>f.</strong> Calculate <span class="math notranslate nohighlight">\(\%\text{ Change}_{U_{\text{top}}\text{ to }K_{\text{b}}}\)</span>, the percent change <a class="reference internal" href="#equation-m5-percentchange">(56)</a> in mechanical energy from the initial release point <span class="math notranslate nohighlight">\(s_1\)</span> to the bottom photogate position <span class="math notranslate nohighlight">\(s_0\)</span> (<em>Note: If you change the Excel number format of this cell to <code class="docutils literal notranslate"><span class="pre">Percentage</span></code> do not multiply by 100 as Excel will do that for you</em>).</p>
+<div class="question admonition">
+<p class="admonition-title">Discussion Point: Conservation of Energy?</p>
+<p>Was energy conserved?</p>
+</div>
+<div class="math notranslate nohighlight" id="equation-m5-percentchange">
+<span class="eqno">(56)<a class="headerlink" href="#equation-m5-percentchange" title="Permalink to this equation">#</a></span>\[\text{% Change} = \frac{\text{Final Value} - \text{Initial Value}}{\text{Initial Value}} \times 100\%.\]</div>
+<p><strong>g.</strong> Calculate <span class="math notranslate nohighlight">\(\%\text{ Change}_{U_{\text{top}}\text{ to }U_{\text{rebound}}}\)</span>, the percent change <a class="reference internal" href="#equation-m5-percentchange">(56)</a> in mechanical energy from the initial release point <span class="math notranslate nohighlight">\(s_1\)</span> to the final rebound point <span class="math notranslate nohighlight">\(s_2\)</span>.</p>
+<div class="question admonition">
+<p class="admonition-title">Discussion Point: Conservation of Energy?</p>
+<p>Was energy conserved? Why might there be a difference in energy conservation between the top-to-bottom sequence and top-to-bottom-to-rebound sequence?</p>
+</div>
+</li>
+</ol>
+</section>
+<section id="averaged-results-for-current-case">
+<span id="summary-step-consentrack"></span><h4>Averaged Results for Current Case<a class="headerlink" href="#averaged-results-for-current-case" title="Permalink to this heading">#</a></h4>
+<ol class="arabic" start="17">
+<li><p>Calculate the average and standard deviations of your measured and experimentally determined values from <span class="math notranslate nohighlight">\(\Delta t\)</span> to <span class="math notranslate nohighlight">\(\%\text{ Change}_{U_{\text{top}}\text{ to }U_{\text{rebound}}}\)</span>.</p></li>
+<li><p>Repeat the previous steps in <a class="reference internal" href="#detailsteps-consentrack"><span class="std std-ref">Experimental Data Collection</span></a> for the next case as listed in <a class="reference internal" href="#tab-four-glider-spacer-cases-consentrack"><span class="std std-numref">Table 7</span></a>. After you’ve completed all cases, move on to the next section summarizing your data from all cases.</p>
+<div class="important admonition">
+<p class="admonition-title">Continue to additional case?</p>
+<p><em><strong>If you are satisfied that you’ve completed all necessary calculations and energy consevation results seem reasonable (feel free to check with your professor), it is only at this point that you should continue to the next case.</strong></em></p>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="summarized-results-for-entire-lab">
+<h3>Summarized Results for Entire Lab<a class="headerlink" href="#summarized-results-for-entire-lab" title="Permalink to this heading">#</a></h3>
+<ol class="arabic" start="19">
+<li><p>Create a summary table of the analysis with a section for each case including the averages (denoted by overbar) and standard deviations (denoted by sigma, <span class="math notranslate nohighlight">\(\sigma\)</span>) of the following:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\overline{U}_{\text{top}}\)</span> and <span class="math notranslate nohighlight">\(\sigma{U}_{\text{top}}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\overline{K}_{\text{b}}\)</span> and <span class="math notranslate nohighlight">\(\sigma{K}_{\text{b}}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\overline{U}_{\text{rebound}}\)</span> and <span class="math notranslate nohighlight">\(\sigma{U}_{\text{rebound}}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\overline{\%\text{ Change}}_{U_{\text{top}}\text{ to }K_{\text{b}}}\)</span> and <span class="math notranslate nohighlight">\(\sigma{\%\text{ Change}}_{U_{\text{top}}\text{ to }K_{\text{b}}}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\overline{\%\text{ Change}}_{U_{\text{top}}\text{ to }U_{\text{rebound}}}\)</span> and <span class="math notranslate nohighlight">\(\sigma{\%\text{ Change}}_{U_{\text{top}}\text{ to }KU_{\text{rebound}}}\)</span></p></li>
+</ul>
+<div class="tip admonition">
+<p class="admonition-title">Excel References</p>
+<p>To ensure your summary table has the correct values, reference the cells (e.g. <code class="docutils literal notranslate"><span class="pre">$A$1</span></code>) you are collecting rather than just copying and pasting. See <a class="reference internal" href="../Intro/DataAcquisition.html#spreadsheet-data-analysis-setup"><span class="std std-ref">Data Analysis with Spreadsheets</span></a>.</p>
+</div>
+</li>
+</ol>
+</section>
 </section>
 <section id="post-lab-submission-interpretation-of-results">
 <h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<div class="important admonition">
+<p class="admonition-title">Defend your conclusions with your data</p>
+<p>Defend why your data agrees with or disagrees with the concept of energy conservation. Use your error analysis to help your argument.</p>
+</div>
 <ul class="simple">
 <li><p>Make sure to submit your finalized data table (Excel sheet).</p></li>
+<li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative not only quantitative.</p>
+<ul>
+<li><p>What is the precision of your equipment?</p></li>
+<li><p>What are possible random errors for today’s experiment?</p></li>
+<li><p>What are possible systematic errors for today’s experiments?</p></li>
+<li><p>Answering using physics reasoning: How could one gain energy during the top-to-bottom sequence?</p></li>
+<li><p>For today’s lab, assume that your calculated kinetic energies are their average +/- standard deviation values where the uncertanty comes from only the spread of the data. However, regarding the quantities of potential energy (at both top and rebound positions), <em><strong>consider</strong></em> for just one case:</p>
+<ul>
+<li><p>Our measurable quantities (reminder <a class="reference internal" href="#equation-eq-potential-energy">(55)</a>) and their estimated uncertainties (i.e. how confident you are in each of those values, rather than just your tools’ precision).</p></li>
+<li><p>What are the effects of those measurement uncertainties on your determined potential energies? (e.g.  how does <span class="math notranslate nohighlight">\(m\pm\delta\,m\)</span> affect <span class="math notranslate nohighlight">\(U\)</span>)?</p></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case. Consider</p>
 <ul>
-<li><p>Arguing your responses with your data ± standard deviation:</p>
+<li><p>Arguing your responses with your average values <span class="math notranslate nohighlight">\(\pm\)</span> standard deviations:</p>
 <ul>
 <li><p>Is kinetic plus potential energy conserved going from the top to the bottom?</p></li>
 <li><p>Is kinetic plus potential energy conserved between the top and the rebound position?</p></li>
 </ul>
 </li>
-<li><p>Why is there a difference in energy conservation between the top/bottom and top/bottom/rebound?</p></li>
-</ul>
-</li>
-<li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative not only quantitative.</p>
-<ul>
-<li><p>What is the precision of your equipment?</p></li>
-<li><p>What are the effects of measured uncertainties on your determined energies?</p></li>
-<li><p>What are possible systematic errors for today’s experiments?</p></li>
-<li><p>How could one gain energy between top and bottom?</p></li>
+<li><p>Why is there a difference in energy conservation between the top-to-bottom sequence and top-to-bottom-to-rebound sequence? Explain using physical concepts and reasoning.</p></li>
 </ul>
 </li>
 </ul>
@@ -579,7 +821,7 @@ Referring to <a class="reference internal" href="#m05fig03"><span class="std std
 <section id="the-whiteboard">
 <h2>The Whiteboard<a class="headerlink" href="#the-whiteboard" title="Permalink to this heading">#</a></h2>
 <figure class="align-center" id="conse">
-<a class="reference internal image-reference" href="../_images/ConsOfEnergyTrack_2024_Fall_01.jpg"><img alt="../_images/ConsOfEnergyTrack_2024_Fall_01.jpg" src="../_images/ConsOfEnergyTrack_2024_Fall_01.jpg" style="width: 600px;" /></a>
+<a class="reference internal image-reference" href="../_images/ConsOfEnergyTrack_2024_Fall_02.jpg"><img alt="../_images/ConsOfEnergyTrack_2024_Fall_02.jpg" src="../_images/ConsOfEnergyTrack_2024_Fall_02.jpg" style="width: 100%;" /></a>
 </figure>
 </section>
 </section>
@@ -650,7 +892,20 @@ Referring to <a class="reference internal" href="#m05fig03"><span class="std std
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preliminary-setup">Preliminary Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-video-photogate-positions">Demo Video: Photogate Positions</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-collection">Experimental Data Collection</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-videos-glider-release">Demo Videos: Glider Release</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-video-energy-conservation-across-single-trial">Demo Video: Energy Conservation Across Single Trial</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#averaged-results-for-current-case">Averaged Results for Current Case</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summarized-results-for-entire-lab">Summarized Results for Entire Lab</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
