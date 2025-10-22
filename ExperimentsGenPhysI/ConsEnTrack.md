@@ -259,7 +259,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
 
 
-11. For each of the four cases, create a Data table with enough **rows** for the number of trials you are doing, and **columns** for each of the variables you will be measuring or deriving:
+11. For each of the four cases, create a *data table* with enough **rows** for the number of trials you are doing along with average and standard deviations, and **columns** for each of the variables you will be measuring or deriving:
     - Trial number
     - Lab member's initials
     - $t_1$: start time at the top
@@ -271,6 +271,8 @@ Reminder, run your first case completely **before** moving on to additional case
     - $K_{\text{b}}$: Kinetic energy at the bottom
     - $\Delta s_2=s_2-s_0$: Final rebounded distance
     - $U_{\text{rebound}}$: Final potential energy at the rebound position
+    - $\%\text{ Change}_{U_{\text{top}}\text{ to }K_{\text{b}}}$: Percent change in mechanical energy during the first sequence of motion (top to bottom)
+    - $\%\text{ Change}_{U_{\text{top}}\text{ to }U_{\text{rebound}}}$: Percent change in mechanical energy during the second sequence of motion (top to rebound)
 
 <!---    - **Capstone** Run Number (for returning to previous trial data)
 --->
@@ -281,12 +283,9 @@ Reminder, run your first case completely **before** moving on to additional case
 
 14. Before you take the recorded data in the next steps, take some practice runs. Your subsequent data will be much improved by your training! Review the following demo videos as well.
 
-  <div style="text-align: center;">
 
   (demo-video-ConsEnTrack-gliderRelease)=
-  #### Demo Videos: Glider Release and Energy Conservation Across Single Trial
-
-  </div>
+  #### Demo Videos: Glider Release
 
   <div style="text-align: center;">
     <figure>
@@ -303,7 +302,9 @@ Reminder, run your first case completely **before** moving on to additional case
       <figcaption>Demonstration of glider release to minimize initial velocity.</figcaption>
     </figure>
   </div>
-
+   
+#### Demo Video: Energy Conservation Across Single Trial
+   
 <div style="text-align: center;">
   <iframe
     width="80%"
@@ -315,7 +316,7 @@ Reminder, run your first case completely **before** moving on to additional case
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen>
   </iframe>
-  <figcaption>Demo video: Energy Conservation.</figcaption>
+  <figcaption>Demo video: Trial of Energy Conservation on the Airtracks. Note: This video predates the use of the timer in Capstone, so you will see an older style of timer.</figcaption>
 </div>
 
 
@@ -330,75 +331,103 @@ Reminder, run your first case completely **before** moving on to additional case
     ```  
 
 
-16. For each of the **6 trials per case**, release the glider from rest at the $s_1$ position. Measure and record the start time $t_1$ and end time $t_0$ to determine transit time $\Delta t$ from the release at the top to bottom of the airtrack. Note the rebound position $s_2$ where the glider goes to rest after it rebounds up the track. Calculate the value of potential and kinetic energies, and discuss the conservation of energy throughout the experiment. To do so:
-
-    a. Position the glider so it is blocking the top photogate and the red light is on. Use the red glider-release mechanism to hold the glider in place. ***Shift the mechanism up or down the track as necessary to move and hold the glider just before the photogate beam such that the red light on the photogate just goes out.***
-
-    b. Check the Capstone timer is ready, then release the glider by *quickly* flipping the glider release bar to minimize any additional push or pull on the glider to **ensure its initial velocity is zero**. (reminder, see {ref}`demo-video-ConsEnTrack-gliderRelease`).
-
-    c. Allowing the glider to rebound off the bumper, record the rebound position $s_2$. As the glider slows to a stop, capture the glider by gently pressing your finger near the lower edge of the glider just as it comes to a stop and then read $s_2$ off the scale. Use the same point on the glider to read $s_2$ that you used to read $s_1$ and $s_0$.
-
-    c. Record the relevant $t_1$ and $t_0$ values in your spreadsheet. There is not a time for the rebound position. Calculate $\Delta t$.
-
-    d. Calculate the relevant energies at the top starting point, the bottom of the track, and the rebound position (i.e. $U_{\text{top}}$, $K_{\text{b}}$ using the calculated veleocity at the bottom photogate $v_{\text{b}}$, $\Delta s_2=s_2-s_0$, $U_{\text{rebound}}$).
-
-    e. Repeat for each trial of this case. Reminder, you do not need to turn off the timer, you just need the relevant times as you will be using the time difference.
+16. For each of the **6 trials per case**, release the glider from rest at the $s_1$ position. Note the rebound position $s_2$ where the glider returns to rest after it rebounds up the track. Measure and record the start time $t_1$ and end time $t_0$ to determine transit time $\Delta t$ from the release at the top to bottom of the airtrack. Calculate the value of potential and kinetic energies, and discuss the conservation of energy throughout the experiment. To do so:
 
     ```{admonition} Reminder: Take turns
-    :class: note
+    :class: important
     - Groups of 2 students, each student will release the glider for 3 trials
     - Groups of 3 students, each student will release the glider for 2 trials
     ```
 
+    **a.** Position the glider so it is blocking the top photogate and the red light is on. Use the red glider-release mechanism to hold the glider in place. ***Shift the mechanism up or down the track as necessary to move and hold the glider just before the photogate beam such that the red light on the photogate just goes out.***
+
+    **b.** Check the Capstone timer is ready, then release the glider by *quickly* flipping the glider release bar to minimize any additional push or pull on the glider to **ensure its initial velocity is zero**. (reminder, see {ref}`demo-video-ConsEnTrack-gliderRelease`).
+
+    **c.** Allowing the glider to rebound off the bumper, record the rebound position $s_2$. As the glider slows to a stop, capture the glider by gently pressing your finger near the lower edge of the glider just as it comes to a stop and then read $s_2$ off the scale. Use the same point on the glider to read $s_2$ that you used to read $s_1$ and $s_0$ ({numref}`M05Fig04`).
+
+    **d.** Record the relevant $t_1$ and $t_0$ values in your spreadsheet. There is not a time for the rebound position. Calculate $\Delta t$.
+
+    **e.** Calculate the relevant velocity, distance, and energies at the top starting point, the bottom of the track, and the ending rebound position (i.e. $U_{\text{top}}$, $v_{\text{b}}$, $K_{\text{b}}$, $\Delta s_2=s_2-s_0$, $U_{\text{rebound}}$) using {eq}`eq:velocity-bottom`, {eq}`eq:kinetic-bottom`, {eq}`eq:potential-energy`.
+
+    **f.** Calculate $\%\text{ Change}_{U_{\text{top}}\text{ to }K_{\text{b}}}$, the percent change {eq}`M5-PercentChange` in mechanical energy from the initial release point $s_1$ to the bottom photogate position $s_0$ (*Note: If you change the Excel number format of this cell to `Percentage` do not multiply by 100 as Excel will do that for you*).
+
+    ```{admonition} Discussion Point: Conservation of Energy?
+    :class: question
+    Was energy conserved?
+    ```
+
+    ```{math}
+    :label: M5-PercentChange
+    \text{% Change} = \frac{\text{Final Value} - \text{Initial Value}}{\text{Initial Value}} \times 100\%.
+    ```
 
 
 
+    **g.** Calculate $\%\text{ Change}_{U_{\text{top}}\text{ to }U_{\text{rebound}}}$, the percent change {eq}`M5-PercentChange` in mechanical energy from the initial release point $s_1$ to the final rebound point $s_2$.
 
-**Data Table:**
+    ```{admonition} Discussion Point: Conservation of Energy?
+    :class: question
+    Was energy conserved? Why might there be a difference in energy conservation between the top-to-bottom sequence and top-to-bottom-to-rebound sequence?
+    ```
 
 
+(summary-step-ConsEnTrack)=
+#### Averaged Results for Current Case
 
-- Create a summary table of the analysis with a row for each case including the following data:
+17. Calculate the average and standard deviations of your measured and experimentally determined values from $\Delta t$ to $\%\text{ Change}_{U_{\text{top}}\text{ to }U_{\text{rebound}}}$.
 
-  - The average and standard deviation of the time, $\Delta t$, for the five trials
-  - The average and standard deviation of the speed at the bottom, $v_{\text{b}}$
-  - The average and standard deviation of the kinetic energy at the bottom, $K_{\text{b}}$
-  - The average and standard deviation of the final potential energy at the rebound position, $U_{\text{rebound}}$
-  - Percent change from initial potential energy to kinetic energy at the bottom
-  - Percent change from initial potential energy to final potential energy
+18. Repeat the previous steps in {ref}`detailsteps-ConsEnTrack` for the next case as listed in {numref}`tab-four-glider-spacer-cases-ConsEnTrack`. After you've completed all cases, move on to the next section summarizing your data from all cases.
 
-Calculate the following:
+    ```{admonition} Continue to additional case?
+    :class: important
+    ***If you are satisfied that you've completed all necessary calculations and energy consevation results seem reasonable (feel free to check with your professor), it is only at this point that you should continue to the next case.***
+    ```
 
-- For each case, calculate the initial potential energy at $s_1$. Average the transit times, $\Delta t$, and calculate the velocity $v_b$ and the $K_b$.
+### Summarized Results for Entire Lab
 
-- For each case, average the rebound position, $s_2$. Using this averaged value, calculate the final $U_2$.
+19.  Create a summary table of the analysis with a section for each case including the averages (denoted by overbar) and standard deviations (denoted by sigma, $\sigma$) of the following:
 
-- Calculate the percent change in mechanical energy from the top to the bottom.
+      - $\overline{U}_{\text{top}}$ and $\sigma{U}_{\text{top}}$
+      - $\overline{K}_{\text{b}}$ and $\sigma{K}_{\text{b}}$
+      - $\overline{U}_{\text{rebound}}$ and $\sigma{U}_{\text{rebound}}$
+      - $\overline{\%\text{ Change}}_{U_{\text{top}}\text{ to }K_{\text{b}}}$ and $\sigma{\%\text{ Change}}_{U_{\text{top}}\text{ to }K_{\text{b}}}$
+      - $\overline{\%\text{ Change}}_{U_{\text{top}}\text{ to }U_{\text{rebound}}}$ and $\sigma{\%\text{ Change}}_{U_{\text{top}}\text{ to }KU_{\text{rebound}}}$
 
-- Calculate the percent change in mechanical energy from the initial release point $s_1$ to the final rebound point $s_2$.
-
+      ```{admonition} Excel References
+      :class: tip
+      To ensure your summary table has the correct values, reference the cells (e.g. `$A$1`) you are collecting rather than just copying and pasting. See {ref}`spreadsheet-data-analysis-setup`.
+      ```
 
 
 
 ## Post-Lab Submission --- Interpretation of Results
 
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with the concept of energy conservation. Use your error analysis to help your argument.
+```
+
 - Make sure to submit your finalized data table (Excel sheet). 
-- In a **paragraph**, summarize the results you have determined in each case. Consider
-	- Arguing your responses with your data ± standard deviation:
-	    - Is kinetic plus potential energy conserved going from the top to the bottom?
-		- Is kinetic plus potential energy conserved between the top and the rebound position?
-	- Why is there a difference in energy conservation between the top/bottom and top/bottom/rebound?
 - In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
 	- What is the precision of your equipment?
-	- What are the effects of measured uncertainties on your determined energies?
-	- What are possible systematic errors for today’s experiments?
-	- How could one gain energy between top and bottom?
+  - What are possible random errors for today's experiment?
+  - What are possible systematic errors for today’s experiments?
+  - Answering using physics reasoning: How could one gain energy during the top-to-bottom sequence?
+  - For today’s lab, assume that your calculated kinetic energies are their average +/- standard deviation values where the uncertanty comes from only the spread of the data. However, regarding the quantities of potential energy (at both top and rebound positions), ***consider*** for just one case:
+    - Our measurable quantities (reminder {eq}`eq:potential-energy`) and their estimated uncertainties (i.e. how confident you are in each of those values, rather than just your tools' precision). 
+    - What are the effects of those measurement uncertainties on your determined potential energies? (e.g.  how does $m\pm\delta\,m$ affect $U$)?
+- In a **paragraph**, summarize the results you have determined in each case. Consider
+	- Arguing your responses with your average values $\pm$ standard deviations:
+	    - Is kinetic plus potential energy conserved going from the top to the bottom?
+      - Is kinetic plus potential energy conserved between the top and the rebound position?
+  - Why is there a difference in energy conservation between the top-to-bottom sequence and top-to-bottom-to-rebound sequence? Explain using physical concepts and reasoning.
+
 
 ## The Whiteboard
 
-```{figure} ConsEnTrackFigures/ConsOfEnergyTrack_2024_Fall_01.jpg
+```{figure} ConsEnTrackFigures/ConsOfEnergyTrack_2024_Fall_02.jpg
 :name: consE
-:width: 600px
+:width: 100%
 :align: center
 
 ```
