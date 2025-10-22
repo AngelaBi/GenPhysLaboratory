@@ -3,6 +3,13 @@
 
 ## Background
 
+```{admonition} OVERALL GOALS
+:class: note
+In this lab, you will use an inclined, frictionless airtrack to:
+- Investigate energy conservation by determining potential and kinetic energies of a glider.
+```
+
+
 **Energy cannot be created nor destroyed.** All that can really happen is a change in its form. We shall consider the conservation of mechanical energy, in particular, the sum of the kinetic energy and potential energy of a mass. The kinetic energy is due to the motion of the mass and the potential energy is due to the relative position of the mass in the earth's gravitational field. This total mechanical energy can only change if nonconservative forces are acting on any part of the system. We will examine the exchange of kinetic and potential energy and the conservation of mechanical energy under the presumption of no nonconservative forces acting. If the mechanical energy is not conserved we will attempt to determine potential sources of nonconservative work being done that would change the mechanical energy.
 
 The **work** done by a force acting on a mass is the magnitude of the force acting in the direction of motion times the distance the mass moves. Work is only done when the mass moves. (In other words, you can push as hard as you like on a brick wall, but if the wall doesn't move, you didn't do any work!) Assume for the moment that we have a mass $m$ moving on a frictionless, horizontal surface. Assume a force acts on the mass from the position $x = 0$ to $x = x_1$ as illustrated in {numref}`M05Fig01`. At position $x = 0$ it is moving with a velocity $v_{0}$ and at $x = x_1$ the velocity is $v_1$.
@@ -85,17 +92,18 @@ Schematic Drawing explaining the relationship between the track elevation $\Delt
 ```
 
 At $s_0$, $U_{b} = 0$, therefore $U_{s} = mg\, \Delta h = mg\, \Delta s \sin(\theta)$.
-Referring to {numref}`M05Fig03`, the $\tan(\theta) = \text{(height of the spacer)} / \text{(distance between legs)}$ or
+Referring to our schematic of the experimental setup in {numref}`M05Fig03`, we see $\sin(\theta) = \text{(height of the spacer)} / \text{(distance between legs)}$ or
 
 ```{math}
-\tan(\theta) = \frac{H}{D}
+\sin(\theta) = \frac{H}{D}
 ```
 
-With the very small angles of incline being used, we can safely assume that
+<!--- With the very small angles of incline being used, we can safely assume that
 
 ```{math}
 \tan(\theta) \sim \sin(\theta)
 ```
+--->
 
 therefore the potential energy, $U$, at some position, $s$, along the track is finally given by measurable quantities as
 
@@ -106,68 +114,249 @@ U_s = mg \, \Delta s \frac{H}{D}
 
 ## Experimental Procedure
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CINQAbvNFPw?si=srqk4862Gp_MHdzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```{admonition} OVERVIEW
+:class: note
+- Experimentally determine potential and kinetic energies of a glider on a slightly tilted airtrack.
+- Investigate how energy is converted, gained, or lost to different forms across two sequences in each trial:
+  - Potential energy at the top to the kinetic energy at the bottom.
+  - Potential energy at the top to the potential energy at some rebounded position.
+- Conduct 4 cases based on 2 glider sizes and 2 initial heights.
+  - Each case will have a total of 6 trials:
+    - Groups of 2 students, each student will release the glider for 3 trials
+    - Groups of 3 students, each student will release the glider for 2 trials
+```
+
+```{admonition} Notes & Assumptions, Sensors & Capstone
+:class: tip
+- The presumed frictionless inclined plane will be an air track.
+- The mass will be a glider, which floats on the air track.
+- Placing a spacer (essentially a big slotted mass, see {numref}`M05Fig05`) of height $H$ under the leg at one end of the track, which is a distance $D$ from the pivoting leg(s) at the opposite end, will incline the track.
+- Time measured by PASCO photogate for velocity calculation in **Capstone** (stated precision of 0.0001 seconds).
+- The relevant **Capstone** file will be on the desktop. Please ***DO NOT*** save when you are done, just exit without saving, thanks.
+```
+
 
 ```{figure} ConsEnTrackFigures/Figure02_v2025-02.png
 :name: M05Fig03
-:width: 90%
+:width: 100%
 :align: center
 
 Experimental setup for the Conservation of Energy experiment.
 ```
 
-- Turn on the air and allow it to run a couple of minutes before proceeding. It is very important that the track is clean and free of dirt. This will prevent any damage to the very expensive air track and will keep friction to an absolute minimum. Do not put a glider on the track without air flowing.
+```{figure} ConsEnTrackFigures/Figure05_spacers_v2025-02.png
+:name: M05Fig05
+:width: 100%
+:align: center
 
-- Measure and record the mass of both a large and a small glider.
+Example of small and large spacers used to incline the air track. The cases today will be the BIG and Stacked heights. Remember to put the black plastic footer on top of the spacers as shown in the *stacked* case.
+```
 
-- Without the spacer present and the air track resting directly on the tabletop, place one of the gliders on the track and note any preferential drift of the glider. Adjust the height of the single leg until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, use another glider.
 
-- Measure and record the distance $D$. This is the center-to-center distance between the legs.
 
-- Measure and record the heights $H$, of each of the two spacers. Use a Vernier caliper for maximum accuracy. See the instructions at Fig. VernierFig02 for using the Vernier caliper.
+(consEnTrack-experimentPrep)=
+### Preliminary Setup
 
-- Four cases will be performed, two gliders for two spacers. Determine a convenient point on the glider to use with the scale attached on the side of track. It doesn't matter what point you choose, only that you use the same point for all $s$ determinations for that glider. A convenient point is the lower front or rear corner of the glider since it will be very close to the scale.
+1. **Do not put a glider on the track without air flowing. If the air supply is not yet on, please remind the instructor.**
 
-- For each case, perform the following steps and record the data appropriately in your spreadsheet:
+2. Create a common data table including:
+    - accepted value of $g$ of $9.803\,\text{m/s}^2$ for Fairfield, CT
+    - the masses of each of the gliders in kg
+    - the distance $D$ between the legs of the air track in meter (m)
+    - the heights $H$ of the two spacers (big slotted masses) in m
+    - $s_1$: starting point at the top
+    - $s_0$: stopping point at the bottom
+    - $\Delta s_1$: distance between the photogates that the glider travels down along the track
 
-  1. Raise the single leg side of the track by placing a spacer under the knob.
+3. Measure and record the mass of both the big and small glider with the triple-beam-balance.
+    ```{admonition} Calibration
+    :class: tip
+    *Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned*.
+    ```
 
-  2. Place the glider at the bottom of the track resting against the bumper. Record $s_0$. (Note: With the car at this position, the red light on the bottom photogate should be lit. Moving the glider to the right the slightest distance should put the light out. If this is not the case, adjust the position of the photogate.)
+4. **Level the airtrack.** Without the spacer present and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (somewhere between the photogates, center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes. <!---request the use of another glider and we can provide you a different one.--->
 
-  3. Next, place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the red light comes on. Record $s_1$.
+    ```{admonition} Drift
+    :class: tip
+    There will inevitably be some drift as these airtracks are not perfect, but as a general rule of thumb, if it takes more than $\sim 10$ seconds to drift just 5 cm, you should be pretty good.
+    ```
 
-  4. Before you take the recorded data in the next step, take some practice runs. Your subsequent data will be much improved by your training!
+5. Measure and record the distance $D$. This is the center-to-center distance between the legs. 1 m and 2 m long meter sticks are available for this measurement, with additional meter sticks at the front wall of the room.
 
-     - Position the glider so it is blocking the top photogate and the red light is on. Place one finger on the track in front of the glider and gently push the glider to the right until the red light on the photogate just goes out.
+6. Measure and record the heights, $H$, of each of the two spacers (big slotted masses) with the provided Vernier caliper. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`. Since we'll be stacking the spacers for some of the cases today, include a stacked spacers value in your common data table for easier use of the height later.
 
-     - Press record in **Capstone** to start the timer. *NOTE:* **Capstone** may take a few seconds to start displaying times, once it's going, it will display the time whenever a photogate beam is broken; the time at the higher (start) photogate $t_1$ as well as the time at the lower (end) photogate $t_0$. Total transit time $\Delta t$ will be the difference of the start and end times.
+7. Take a look at the gliders and determine a convenient point on the glider to use with the scale ($\sim2.5$ meter ruler) attached on the side of air track. It doesn't matter what point on the glider you choose, only that you be consistent and use the same point for all determinations of distance along the track $S$ for that glider. A convenient point is the ***lower front or rear corner*** of the glider since it is a clear point on the glider that will overlap or be quite close to the length scale on the track itself (see {numref}`M05Fig04`).
 
-     - Release the glider by quickly pulling your finger away from the track. After the glider bounces off the lower bumper, you can calculate the time of travel from top to bottom $\Delta t$.
+```{figure} ConsEnTrackFigures/Figure04_v2025-01.png
+:name: M05Fig04
+:width: 60%
+:align: center
 
-  5. For each of the five trials, release the glider from the $s_1$ point and measure and record the following:
+Suggested points on glider to read position on airtrack scale.
+```
 
-     - The transit time $\Delta t$ from release at the top to the collision at the bottom. Release the glider very carefully to insure that the initial velocity is zero.
+8. Determine and record the bottom photogate position $s_0$ at the bottom end of the track. Place the glider near the bottom of the track. Move it slowly as you approach the bottom photogate. Stop the glider at the exact location when the photogate's red light comes on. Move the glider back and forth to confirm your scale reading. See {ref}`demo-video-ConsEnTrack-s0s1` for example method.
 
-     - Allowing the glider to rebound off the bumper, record the rebound position $s_2$. As the glider slows to a stop, capture the glider by gently pressing your finger near a lower corner of the glider just as it comes to a stop and then read $s_2$ off the scale. Use the same point on the glider to read $s_2$ that you used to read $s_1$ and $s_0$.
+
+<div style="text-align: center;">
+
+(demo-video-ConsEnTrack-s0s1)=
+#### Demo Video: Photogate Positions
+
+</div>
+    <!--- width="560"
+    height="315"
+    --->
+<div style="text-align: center;">
+  <iframe
+    width=80%
+    height="315"
+    src="https://www.youtube.com/embed/vij2KvbPowU"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Determine photogate position on air track with glider.</figcaption>
+</div>
+
+9. Similarly, determine and record the starting photogate position $s_1$ at the top end of the track, then use those values to calculate and record $\Delta s_1=s_1-s_0$. Place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the photogate's red light comes on. Move the glider back and forth to confirm your scale reading. Ensure your scale reading on the track was based on the same location of the glider as for your $s_0$ reading (i.e. {numref}`M05Fig04`).
+
+    ```{admonition} Accurate Photogate Positions
+    :class: tip
+    Be careful not to bump the photogates, as that could change their positions and lead to inaccurate distances. Check during each case; if need be, expand your common data table with additional $s_0$ and $s_1$ positions.
+    ```
+
+10. Four cases will be performed as listed in {numref}`tab-four-glider-spacer-cases-ConsEnTrack`. For each of the four cases, perform the following steps listed in {ref}`detailsteps-ConsEnTrack` and record the data appropriately in your spreadsheet. ***Note: We are not doing the small spacer by itself today.***
+    ```{table} Four experimental cases with spacers and gliders
+    :name: tab-four-glider-spacer-cases-ConsEnTrack
+    | Case | Spacer Size | Glider Size |
+    |:----:|:-----------:|:-----------:|
+    |  1   |   Stacked BIG + small [see {numref}`M05Fig05`]     |   small     |
+    |  2   |   Stacked BIG + small [see {numref}`M05Fig05`]     |    BIG      |
+    |  3   |    BIG      |   small     |
+    |  4   |    BIG      |    BIG      |
+    ```
+
+
+```{admonition} Reminder, Run First Case Fully
+:class: warning
+Reminder, run your first case completely **before** moving on to additional cases. Don't just take all of your data without checking your methodology. If you have some error in your experimental method or in your calculations, you can correct it before completing all the other cases and finding out you have to completely redo the whole lab. The data tables for additional cases can be created by copying the first case **after** you are confident in and can explain your results from the first case.
+```
+
+
+
+
+
+
+<!--- <iframe width="560" height="315" src="https://www.youtube.com/embed/CINQAbvNFPw?si=srqk4862Gp_MHdzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+--->
+
+
+(detailsteps-ConsEnTrack)=
+### Experimental Data Collection
+
+
+
+11. For each of the four cases, create a Data table with enough **rows** for the number of trials you are doing, and **columns** for each of the variables you will be measuring or deriving:
+    - Trial number
+    - Lab member's initials
+    - $t_1$: start time at the top
+    - $t_0$: stop time at the bottom
+    - $\Delta t$: time of travel between the photogates
+    - $s_2$: The rebound position partway up the track
+    - $U_{\text{top}}$: Initial potential energy at top
+    - $v_{\text{b}}$: The speed at the bottom
+    - $K_{\text{b}}$: Kinetic energy at the bottom
+    - $\Delta s_2=s_2-s_0$: Final rebounded distance
+    - $U_{\text{rebound}}$: Final potential energy at the rebound position
+
+<!---    - **Capstone** Run Number (for returning to previous trial data)
+--->
+
+12. Ensure $s_1$ and $s_0$ haven't changed.
+
+13. Raise the single leg side of the track by placing the case-relevant spacer under the black foot as seen in {numref}`M05Fig03` and {numref}`M05Fig05`.
+
+14. Before you take the recorded data in the next steps, take some practice runs. Your subsequent data will be much improved by your training! Review the following demo videos as well.
+
+  <div style="text-align: center;">
+
+  (demo-video-ConsEnTrack-gliderRelease)=
+  #### Demo Videos: Glider Release and Energy Conservation Across Single Trial
+
+  </div>
+
+  <div style="text-align: center;">
+    <figure>
+      <iframe
+        width=80%
+        height="315"
+        src="https://www.youtube.com/embed/Pow7Sllbg6o"
+        title="YouTube video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+      <figcaption>Demonstration of glider release to minimize initial velocity.</figcaption>
+    </figure>
+  </div>
+
+<div style="text-align: center;">
+  <iframe
+    width="80%"
+    height="315"
+    src="https://www.youtube.com/embed/CINQAbvNFPw"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Demo video: Energy Conservation.</figcaption>
+</div>
+
+
+
+15. Press record in **Capstone** to start the timer.
+
+    ```{admonition} Capstone Timer
+    :class: tip
+    - The timer shown is coded in Capstone; once you press record, it will take a few seconds for the timer to start, wait until you confirm the timer is ready before releasing the glider.
+    - **Capstone** will display the time whenever a photogate beam is broken; the time shown is the time at the higher (start) photogate $t_1$ as well as the time at the lower (end) photogate $t_0$. To determine the total transit time $\Delta t$, take the difference of the start and end times.
+    - Additional notes on the timer are in the Capstone file itself, ***please read***.
+    ```  
+
+
+16. For each of the **6 trials per case**, release the glider from rest at the $s_1$ position. Measure and record the start time $t_1$ and end time $t_0$ to determine transit time $\Delta t$ from the release at the top to bottom of the airtrack. Note the rebound position $s_2$ where the glider goes to rest after it rebounds up the track. Calculate the value of potential and kinetic energies, and discuss the conservation of energy throughout the experiment. To do so:
+
+    a. Position the glider so it is blocking the top photogate and the red light is on. Use the red glider-release mechanism to hold the glider in place. ***Shift the mechanism up or down the track as necessary to move and hold the glider just before the photogate beam such that the red light on the photogate just goes out.***
+
+    b. Check the Capstone timer is ready, then release the glider by *quickly* flipping the glider release bar to minimize any additional push or pull on the glider to **ensure its initial velocity is zero**. (reminder, see {ref}`demo-video-ConsEnTrack-gliderRelease`).
+
+    c. Allowing the glider to rebound off the bumper, record the rebound position $s_2$. As the glider slows to a stop, capture the glider by gently pressing your finger near the lower edge of the glider just as it comes to a stop and then read $s_2$ off the scale. Use the same point on the glider to read $s_2$ that you used to read $s_1$ and $s_0$.
+
+    c. Record the relevant $t_1$ and $t_0$ values in your spreadsheet. There is not a time for the rebound position. Calculate $\Delta t$.
+
+    d. Calculate the relevant energies at the top starting point, the bottom of the track, and the rebound position (i.e. $U_{\text{top}}$, $K_{\text{b}}$ using the calculated veleocity at the bottom photogate $v_{\text{b}}$, $\Delta s_2=s_2-s_0$, $U_{\text{rebound}}$).
+
+    e. Repeat for each trial of this case. Reminder, you do not need to turn off the timer, you just need the relevant times as you will be using the time difference.
+
+    ```{admonition} Reminder: Take turns
+    :class: note
+    - Groups of 2 students, each student will release the glider for 3 trials
+    - Groups of 3 students, each student will release the glider for 2 trials
+    ```
+
+
+
+
 
 **Data Table:**
 
-- Create a table of the common data including the masses of the gliders, the distance $D$ between the legs of the air track and the heights of the two spacers.
 
-- Create a table for each case with rows for each of the five trials including:
-
-  - The starting point $s_1$ at the top
-  - The stopping point $s_0$ at the bottom
-  - Start time at the top $t_1$
-  - End time at the bottom $t_0$
-  - The time $\Delta t$ (s) for each of the five trials
-  - The rebound position $s_2$ at the top
-  - Initial distance, $\Delta s_1=s_1-s_0$
-  - Initial potential energy at top, $U_{\text{top}}$
-  - The speed at the bottom, $v_{\text{b}}$
-  - Kinetic energy at the bottom, $K_{\text{b}}$
-  - Final distance, $\Delta s_2=s_2-s_0$
-  - Final potential energy at the rebound position, $U_{\text{rebound}}$
 
 - Create a summary table of the analysis with a row for each case including the following data:
 
@@ -175,8 +364,8 @@ Experimental setup for the Conservation of Energy experiment.
   - The average and standard deviation of the speed at the bottom, $v_{\text{b}}$
   - The average and standard deviation of the kinetic energy at the bottom, $K_{\text{b}}$
   - The average and standard deviation of the final potential energy at the rebound position, $U_{\text{rebound}}$
-  - % change from initial potential energy to kinetic energy at the bottom
-  - % change from initial potential energy to final potential energy
+  - Percent change from initial potential energy to kinetic energy at the bottom
+  - Percent change from initial potential energy to final potential energy
 
 Calculate the following:
 
