@@ -3,7 +3,15 @@
 
 ## Background
 
-Conservation of energy and linear momentum will be used to measure the initial velocity of a projectile.  Two techniques will be employed.
+```{admonition} OVERALL GOALS
+:class: note
+In this lab, you will use a ballistic projectile launcher to:
+- Determine initial exit velocities of a projectile using two different techniques to investigate and compare:
+   - Motion explained by conservation of linear momentum and energy
+   - Motion explained by kinematics
+```
+
+Two techniques will be employed today.
 
 In the first, a ballistic pendulum, a device designed to capture a projectile in an initially stationary pendulum, will be used.  The conservation principles are used to analyze the collision and the subsequent motion of the pendulum.  The completely inelastic collision associated with the capture of the projectile in the pendulum and the subsequent motion of the pendulum provide the data necessary for the determination of the initial velocity.
 

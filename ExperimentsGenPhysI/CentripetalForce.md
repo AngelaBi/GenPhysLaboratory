@@ -19,7 +19,7 @@ F_{c} = M_\text{object} \frac{v^2}{R}
 
 For each case, the object’s mass $M_\text{object}$ and radius $R$ are set by attaching small masses to a freely-sliding holder on the rotating arm (shown in {numref}`M04Fig01`). The tangential speed of the object $v$ is obtained from the rate at which a small white-ish pin beneath the fixed-in-place counterweight holder passes through the photogate. The centripetal force is determined by measuring the force in the cable with a force sensor (seen later in {numref}`M04Fig02`). Subsequently, the $M_\text{object}$ is determined from graphs relating $F$ vs. $v^2$ and $F$ vs. $v$. The procedure is repeated for different masses and radii to study how centripetal force depends on velocity.
 
-```{figure} CentripetalForceFigures/Figure01a_v2025-02.png
+```{figure} CentripetalForceFigures/Figure01a_v2025-03.png
 :name: M04Fig01
 :width: 100%
 :align: center
@@ -131,7 +131,7 @@ Reminder, run your first case completely **before** moving on to additional case
     - Additional section for:
         - $\delta M_\text{object,experimental}$ the uncertainty in the mass from the centripetal force due to your estimated radius uncertainty (*Point to consider*: how much does the derived mass change if you change your value for radius in **Capstone calculator** by the amount of your estimated radius uncertainty?)
 
-6. Attach the necessary applied masses for the current case as listed in {numref}`tab-four-centripetal-force-cases` following steps depicted in {numref}`M04Fig04`. Record $M_\text{applied}$. Calculate the total mass of the rotating object $M_\text{object,actual}$ --- the sum total of the freely-sliding mass holder and the applied mass.
+6. Attach the necessary applied masses for the current case as listed in {numref}`tab-four-centripetal-force-cases` following steps depicted in {numref}`M04Fig04`. Record $M_\text{applied}$. Calculate the total mass of the rotating object $M_\text{object,actual}$ (i.e. the sum total of the freely-sliding mass holder and the applied mass).
 
 
 7. Set radius $R$ to the value listed in {numref}`tab-four-centripetal-force-cases` for the current case; it just needs to be within the range listed. Do this by raising or lowering the force sensor (see bar & clamp holding force sensor in {numref}`M04Fig02`). It is important that the force sensor be ***exactly above the center of the apparatus.*** To check this, pull on the freely-sliding mass to put tension in the cable. Then observe the cable from the front and side of the system to verify it is parallel to the L-stand's vertical rod and perpendicular to the rotating arm. Adjust the horizontal rod holding the force sensor until that is that is achieved. Ensure the force sensor is still pointed downwards towards the pulley at the axis of rotation. *Any time you change the position of the Force Sensor, you will have to **repeat** this step.*
