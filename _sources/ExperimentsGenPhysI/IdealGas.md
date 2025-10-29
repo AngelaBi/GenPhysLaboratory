@@ -3,6 +3,16 @@
 
 ## Background
 
+```{admonition} OVERALL GOALS
+:class: note
+Conduct two experiments:
+ - Investigate Ideal Gas Law relationships betweent temperature, pressure, and volume for two thermodynamic processes:
+   - Isothermal (no change in temperature)
+   - Adiabatic (no change in energy)
+ - Also use those Ideal Gas Law relationships to:
+   - Predict the value for Absolute Zero
+```
+
 A general and complete description of an ensemble of many atoms or molecules is a very difficult, if not impossible task, given the large number of objects involved. Luckily enough most gases follow a relatively simple approximation for a rather large range of conditions.
 
 The ideal gas law describes the behavior of a gas of point-like particles. While there is no such thing as an ideal gas (all real molecules have a small but non-zero size), it is nevertheless a good approximation to the behaviour of gasses at ordinary temperatures and pressures.
@@ -182,6 +192,15 @@ Using the data from your Part 1 Data Table calculate the value for $V_{0}$ and n
 - What are possible systematic errors for today's experiments?
 --->
 - Make sure to submit your finalized data table (Excel sheet). 
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - What are possible systematic errors for today's experiments?
+  - Constant Temperature (Isothermal):
+	  - What may cause a discrepancy between the ratios of volumes and pressures?
+  - Varying Temperature (Adiabatic):
+      - What may cause a discrepancy between the ratios of volumes and pressures?
+      - Consider the uncertainty due to volume; do the ratios agree within that uncertainty range?
+  - Absolute Zero:
+	  - What measurement uncertainties exist? How do they affect your determined value for absolute zero?
 - In a **paragraph**, summarize the results you have determined in each case. Consider:
 	- Constant Temperature (Isothermal):
 	  - What properties of a system must be proportional if compression is isothermal?
@@ -192,16 +211,7 @@ Using the data from your Part 1 Data Table calculate the value for $V_{0}$ and n
 	- Absolute Zero:
 	  - What does absolute zero represent about a system?
 	  - What is your extrapolated result for absolute zero? How does it compare to the accepted value?
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
-  - What are possible systematic errors for today's experiments?
-  - Constant Temperature (Isothermal):
-	  - What may cause a discrepancy between the ratios of volumes and pressures?
-  - Varying Temperature (Adiabatic):
-      - What may cause a discrepancy between the ratios of volumes and pressures?
-      - Consider the uncertainty due to volume; do the ratios agree within that uncertainty range?
-  - Absolute Zero:
-	  - What measurement uncertainties exist? How do they affect your determined value for absolute zero?
-	
+
 	
 
 

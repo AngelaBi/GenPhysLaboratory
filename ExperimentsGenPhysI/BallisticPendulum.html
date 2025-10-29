@@ -404,15 +404,27 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum">Ballistic Pendulum</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion">Projectile Motion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-review">Ballistic Pendulum Review</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-review">Projectile Motion Review</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-procedure">Ballistic Pendulum Procedure</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-procedure">Projectile Motion Procedure</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-video-ballistic-pendulum-projectile-motion-experiment">Demo Video: Ballistic Pendulum &amp; Projectile Motion Experiment</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-experiment">Ballistic Pendulum Experiment</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-preliminary-setup">Ballistic Pendulum — Preliminary Setup</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-data-collection">Ballistic Pendulum — Data Collection</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-data-summary-and-error-propagation">Ballistic Pendulum — Data Summary and Error Propagation</a></li>
 </ul>
 </li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-experiment">Projectile Motion Experiment</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-preliminary-setup">Projectile Motion — Preliminary Setup</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-data-collection">Projectile Motion — Data Collection</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-data-summary-and-error-propagation">Projectile Motion — Data Summary and Error Propagation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-comparison">Experiment Comparison</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
@@ -432,27 +444,34 @@
 <h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
 <div class="note admonition">
 <p class="admonition-title">OVERALL GOALS</p>
-<p>In this lab, you will use a ballistic projectile launcher to:</p>
+<p>Use a ballistic pendulum to:</p>
 <ul class="simple">
-<li><p>Determine initial exit velocities of a projectile using two different techniques to investigate and compare:</p>
+<li><p>Determine initial exit velocities of a projectile to investigate and compare two different techniques:</p>
 <ul>
-<li><p>Motion explained by conservation of linear momentum and energy</p></li>
+<li><p>Motion explained by conservation of linear momentum and mechanical energy</p></li>
 <li><p>Motion explained by kinematics</p></li>
 </ul>
 </li>
 </ul>
 </div>
 <p>Two techniques will be employed today.</p>
-<p>In the first, a ballistic pendulum, a device designed to capture a projectile in an initially stationary pendulum, will be used.  The conservation principles are used to analyze the collision and the subsequent motion of the pendulum.  The completely inelastic collision associated with the capture of the projectile in the pendulum and the subsequent motion of the pendulum provide the data necessary for the determination of the initial velocity.</p>
-<p>In the second technique, the measured parameters of the trajectory of a horizontally launched projectile are used to determine the initial velocity.  With the projectile moving in a free-fall trajectory, constant acceleration kinematics will be used to determine the initial velocity from measurements of the horizontal range and vertical drop.</p>
-<p>In each case, the projectile will be launched with the same device allowing a comparison of the initial velocity determinations of the two techniques.</p>
-<section id="ballistic-pendulum">
-<h3>Ballistic Pendulum<a class="headerlink" href="#ballistic-pendulum" title="Permalink to this heading">#</a></h3>
-<p>The ballistic pendulum is so named because it was originally used to measure the velocity of high-speed projectiles such as bullets long before electric and electronic timers made the procedure unnecessary. It remains, however, as a simple and demonstrative device for understanding the conservation principles of energy and momentum. In analyzing the problem, the system will consist of the projectile and the more massive pendulum. As illustrated in the left image in <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 43</span></a>, before the collision, the projectile is in motion horizontally towards the stationary pendulum. After the collision, the projectile is imbedded in the pendulum and the pendulum is moving along the arc as shown in the right image of <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 43</span></a>.</p>
-<figure class="align-center" id="m06fig01">
-<a class="reference internal image-reference" href="../_images/M06_fig01_v2025-01.png"><img alt="../_images/M06_fig01_v2025-01.png" src="../_images/M06_fig01_v2025-01.png" style="width: 90%;" /></a>
+<p>In the first, a ballistic pendulum, a device designed to capture a projectile in an initially stationary pendulum, will be used.  The conservation principles are used to analyze the collision and the subsequent motion of the pendulum.  The completely inelastic collision associated with the capture of the projectile in the pendulum and the subsequent motion of the pendulum provide the data necessary for the determination of the initial exit velocity.</p>
+<p>In the second technique, the measured parameters of the trajectory of a horizontally launched projectile are used to determine the initial exit velocity.  With the projectile moving in a free-fall trajectory, constant acceleration kinematics will be used to determine the initial exit velocity from measurements of the horizontal range and vertical drop.</p>
+<p>In each case, the projectile will be launched with the same device allowing a comparison of the initial exit velocity determinations of the two techniques.</p>
+<section id="ballistic-pendulum-review">
+<h3>Ballistic Pendulum Review<a class="headerlink" href="#ballistic-pendulum-review" title="Permalink to this heading">#</a></h3>
+<p>The ballistic pendulum is so named because it was originally used to measure the velocity of high-speed projectiles such as bullets long before electric and electronic timers made the procedure unnecessary. It remains, however, as a simple and demonstrative device for understanding the conservation principles of energy and momentum. In analyzing the problem, the system will consist of the projectile and the more massive pendulum (see <a class="reference internal" href="#m06fig03"><span class="std std-numref">Fig. 43</span></a>).</p>
+<figure class="align-center" id="m06fig03">
+<a class="reference internal image-reference" href="../_images/M06_fig03_v2025-01.png"><img alt="../_images/M06_fig03_v2025-01.png" src="../_images/M06_fig03_v2025-01.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 43 </span><span class="caption-text">Ballistic Pendulum before (left) and after the collision (right)</span><a class="headerlink" href="#m06fig01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 43 </span><span class="caption-text">Left) Ballistic pendulum apparatus showing path of the rotating arm during the pendulum experiment. Right) Arm with metal bob that catches the projectile (metal ball with hole, not shown) when launched from the spring-powered gun of the apparatus.</span><a class="headerlink" href="#m06fig03" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>As illustrated in the left image in <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 44</span></a>, before the collision, the projectile is in motion horizontally towards the stationary pendulum. After the collision, the projectile is imbedded in the pendulum and the pendulum is moving along the arc as shown in the right image of <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 44</span></a>.</p>
+<figure class="align-center" id="m06fig01">
+<a class="reference internal image-reference" href="../_images/M06_fig01_v2025-02.png"><img alt="../_images/M06_fig01_v2025-02.png" src="../_images/M06_fig01_v2025-02.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 44 </span><span class="caption-text">Ballistic Pendulum before (left) and after the collision (right)</span><a class="headerlink" href="#m06fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>The horizontally launched brass ball collides rather violently with and is captured by the more massive bob of the pendulum, initially at rest. The violent collision is totally inelastic as the ball is captured by the pendulum with much of the initial kinetic energy of the ball lost through a variety of energy conversions, mostly heat.</p>
@@ -463,99 +482,280 @@
 <div class="math notranslate nohighlight" id="equation-eq-m06momentum">
 <span class="eqno">(57)<a class="headerlink" href="#equation-eq-m06momentum" title="Permalink to this equation">#</a></span>\[m \vec{v}_0 = (m + M) \vec{V},\]</div>
 <p>where <span class="math notranslate nohighlight">\(m\)</span> is the mass of the ball, <span class="math notranslate nohighlight">\(M\)</span> is the mass of the pendulum, and <span class="math notranslate nohighlight">\(\vec{V}\)</span> is the velocity of the pendulum and ball together. If we can measure or determine <span class="math notranslate nohighlight">\(\vec{V}\)</span>, we can determine <span class="math notranslate nohighlight">\(\vec{v}_0\)</span>. The determination of <span class="math notranslate nohighlight">\(\vec{V}\)</span> can be made by examining the motion of the pendulum after the collision.</p>
-<p>After the collision, the pendulum swings upward until it momentarily comes to rest at the top of its swing where the vertical height of the system has been increased from <span class="math notranslate nohighlight">\(y_1\)</span> to <span class="math notranslate nohighlight">\(y_2\)</span> (right image of <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 43</span></a>). We will now make some assumptions. We will assume that there are no friction losses in the motion of the pendulum and that no collisions take place that might otherwise cause a loss of mechanical energy. In other words, we are assuming that the total mechanical energy of the system is conserved after the collision. By equating the kinetic energy of the system just after the collision at the bottom of the swing to the potential energy at the top, we can write</p>
-<div class="math notranslate nohighlight">
-\[\frac{1}{2}(m+M) V^2 = (m+M) g \left(y_2 - y_1\right).\]</div>
+<p>After the collision, the pendulum swings upward until it momentarily comes to rest at the top of its swing where the vertical height of the system has been increased from <span class="math notranslate nohighlight">\(y_1\)</span> to <span class="math notranslate nohighlight">\(y_2\)</span> (right image of <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 44</span></a>). We will now make some assumptions. We will assume that there are no friction losses in the motion of the pendulum and that no collisions take place that might otherwise cause a loss of mechanical energy. In other words, we are assuming that the total mechanical energy of the system is conserved after the collision. By equating the kinetic energy of the system just after the collision at the bottom of the swing to the potential energy at the top, we can write</p>
+<div class="math notranslate nohighlight" id="equation-eq-m06pendulumenergy">
+<span class="eqno">(58)<a class="headerlink" href="#equation-eq-m06pendulumenergy" title="Permalink to this equation">#</a></span>\[\frac{1}{2}(m+M) V^2 = (m+M) g \left(y_2 - y_1\right)\]</div>
 <p>Solving this expression for <span class="math notranslate nohighlight">\(V\)</span> we have</p>
-<div class="math notranslate nohighlight">
-\[V = \sqrt{2 g \left(y_2 - y_1\right)}.\]</div>
-<p>Substituting in <a class="reference internal" href="#equation-eq-m06momentum">(57)</a> above, we have finally an expression for the initial velocity of the ball in terms of the measurable change in height of the pendulum and the respective masses, i.e.</p>
+<div class="math notranslate nohighlight" id="equation-eq-m06pendulumv">
+<span class="eqno">(59)<a class="headerlink" href="#equation-eq-m06pendulumv" title="Permalink to this equation">#</a></span>\[V = \sqrt{2 g \left(y_2 - y_1\right)}\]</div>
+<p>Substituting in <a class="reference internal" href="#equation-eq-m06momentum">(57)</a> above, we have finally an expression for the initial exit velocity of the ball in terms of the measurable change in height of the pendulum and the respective masses, i.e.</p>
 <div class="math notranslate nohighlight" id="equation-eq-m06v0">
-<span class="eqno">(58)<a class="headerlink" href="#equation-eq-m06v0" title="Permalink to this equation">#</a></span>\[v_0 = \left( \frac{m+M}{m} \right) \sqrt{2 g \left(y_2 - y_1\right)}.\]</div>
+<span class="eqno">(60)<a class="headerlink" href="#equation-eq-m06v0" title="Permalink to this equation">#</a></span>\[v_0 = \left( \frac{m+M}{m} \right) \sqrt{2 g \left(y_2 - y_1\right)}.\]</div>
 </section>
-<section id="projectile-motion">
-<h3>Projectile Motion<a class="headerlink" href="#projectile-motion" title="Permalink to this heading">#</a></h3>
-<p>When a projectile is moving solely under the influence of the force of gravity, we say that the projectile is in free-fall. Consider the launching of the same ball used in the ballistic pendulum. In this case, the pendulum will be swung up out of the way so the flight of the ball will continue off the edge of the table, eventually hitting the floor some distance away. This situation is illustrated in <a class="reference internal" href="#m06fig02"><span class="std std-numref">Fig. 44</span></a>.</p>
+<section id="projectile-motion-review">
+<h3>Projectile Motion Review<a class="headerlink" href="#projectile-motion-review" title="Permalink to this heading">#</a></h3>
+<p>When a projectile is moving solely under the influence of the force of gravity, we say that the projectile is in free-fall. Consider the launching of the same ball used in the ballistic pendulum. In this case, the pendulum will be swung up out of the way so the flight of the ball will continue off the edge of the table, eventually hitting the floor some distance away. This situation is illustrated in <a class="reference internal" href="#m06fig02"><span class="std std-numref">Fig. 45</span></a>.</p>
 <figure class="align-center" id="m06fig02">
-<a class="reference internal image-reference" href="../_images/M06_fig02_v2025-02.png"><img alt="../_images/M06_fig02_v2025-02.png" src="../_images/M06_fig02_v2025-02.png" style="width: 700px;" /></a>
+<a class="reference internal image-reference" href="../_images/M06_fig02_v2025-02.png"><img alt="../_images/M06_fig02_v2025-02.png" src="../_images/M06_fig02_v2025-02.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 44 </span><span class="caption-text">Projectile Motion. Note <span class="math notranslate nohighlight">\(X\)</span> and <span class="math notranslate nohighlight">\(Y\)</span> are broken down into easier-to-measure quantities.</span><a class="headerlink" href="#m06fig02" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 45 </span><span class="caption-text">Projectile Motion. Note <span class="math notranslate nohighlight">\(X\)</span> and <span class="math notranslate nohighlight">\(Y\)</span> are broken down into easier-to-measure quantities.</span><a class="headerlink" href="#m06fig02" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Once the ball leaves the spring gun used to launch the ball, the ball is in free-fall. The vertical and horizontal motions are completely independent. We assume that once the ball leaves the gun, there are no energy loss mechanisms during the flight of the ball.</p>
 <p>In the vertical direction, the initial velocity is zero and the ball is accelerated downward by its weight, finally hitting the floor some time, <span class="math notranslate nohighlight">\(t\)</span>, later, dropping a vertical distance of <span class="math notranslate nohighlight">\(Y\)</span>, measured from the bottom of the ball to the top of the landing pad.
 In the horizontal direction, the ball has a constant velocity of <span class="math notranslate nohighlight">\(v_0\)</span> during the entire flight over the horizontal distance <span class="math notranslate nohighlight">\(X\)</span>, measured from the bottom of the ball to the center of the impact mark on the landing pad.</p>
 <p>Using our kinematic expressions for constant acceleration motion, we have</p>
-<div class="math notranslate nohighlight">
-\[Y = \frac{1}{2} g t^2\]</div>
+<div class="math notranslate nohighlight" id="equation-eq-m06kinemtaticsy">
+<span class="eqno">(61)<a class="headerlink" href="#equation-eq-m06kinemtaticsy" title="Permalink to this equation">#</a></span>\[Y = \frac{1}{2} g t^2\]</div>
 <p>and</p>
-<div class="math notranslate nohighlight">
-\[X = v_0 \, t.\]</div>
+<div class="math notranslate nohighlight" id="equation-eq-m06kinemtaticsx">
+<span class="eqno">(62)<a class="headerlink" href="#equation-eq-m06kinemtaticsx" title="Permalink to this equation">#</a></span>\[X = v_0 \, t\]</div>
 <p>Eliminating the time <span class="math notranslate nohighlight">\(t\)</span> from these two expressions, we obtain</p>
 <div class="math notranslate nohighlight" id="equation-eq-m06v0pro">
-<span class="eqno">(59)<a class="headerlink" href="#equation-eq-m06v0pro" title="Permalink to this equation">#</a></span>\[v_0 = X \sqrt{\frac{g}{2 Y}}.\]</div>
+<span class="eqno">(63)<a class="headerlink" href="#equation-eq-m06v0pro" title="Permalink to this equation">#</a></span>\[v_0 = X \sqrt{\frac{g}{2 Y}}.\]</div>
 </section>
 </section>
 <section id="experimental-procedure">
 <h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
-<section id="ballistic-pendulum-procedure">
-<h3>Ballistic Pendulum Procedure<a class="headerlink" href="#ballistic-pendulum-procedure" title="Permalink to this heading">#</a></h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OjMF7Z2Pe6U?si=j9aSi4RHe3IBDj4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<ol class="arabic simple">
-<li><p><strong>Data table:</strong></p>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW</p>
 <ul class="simple">
-<li><p>Create a table of the common data for the ballistic pendulum experiment including the mass of the ball <span class="math notranslate nohighlight">\(m\)</span>, the mass of the pendulum <span class="math notranslate nohighlight">\(M\)</span>, the initial pendulum height <span class="math notranslate nohighlight">\(y_1\)</span> and any other common data needed for calculations.</p></li>
-<li><p>Create a table with a row for each of the ten trials in the ballistic pendulum part of this lab including the trial number, the pendulum height <span class="math notranslate nohighlight">\(y_2\)</span>, the change in height <span class="math notranslate nohighlight">\(y_2-y_1\)</span>, the calculated velocity of the pendulum <span class="math notranslate nohighlight">\(V\)</span>, and the calculated initial velocity of the ball <span class="math notranslate nohighlight">\(v_0\)</span>.</p></li>
-<li><p>Create a table to summarize the ten trials including the average pendulum height <span class="math notranslate nohighlight">\(y_2\)</span>, the average change in height <span class="math notranslate nohighlight">\(y_2-y_1\)</span>, the average velocity of the pendulum <span class="math notranslate nohighlight">\(V\)</span>, the average initial velocity of the ball <span class="math notranslate nohighlight">\(v_0\)</span>, the standard deviation of <span class="math notranslate nohighlight">\(v_0\)</span>.</p></li>
+<li><p>Experimentally determine initial exit velocity of the metal ball (i.e. projectile) with two different experiments.</p></li>
+<li><p>Ballistic Pendulum - Investigate how energy is converted and momentum is conserved:</p>
+<ul>
+<li><p>Potential energy at the top and kinetic energy at the bottom.</p></li>
+<li><p>Momentum after the collision and momentum before the collision.</p></li>
 </ul>
 </li>
-<li><p>Measure and record the mass of the brass ball projectile.</p></li>
-<li><p>Record the mass of the pendulum that is indicated on the apparatus.</p></li>
-<li><p>Practice the following procedure before actually taking data.</p></li>
-<li><p>The pointer on the side of the bob indicates the center of mass of the pendulum. With the pendulum hanging motionless, measure the height above the base plate of the pointer. This value is <span class="math notranslate nohighlight">\(y_1\)</span>. Record the value in meters.</p></li>
-<li><p>Place the brass ball on the pin of the gun and press the ball so the spring of the gun is compressed until the trigger catches and holds the compressed spring.</p></li>
-<li><p>Fire the gun by squeezing the trigger. The ball will be captured by the bob and the pendulum will swing upwards.</p></li>
-<li><p>A small ratchet engaging a rack will capture the maximum upswing position of the pendulum. Measure the height to the tip of the metal pointer on the pendulum which represents the center of mass of the pendulum with ball.</p></li>
-<li><p>Carefully release the ratchet so the pendulum can swing back to its equilibrium position.</p></li>
-<li><p>Release the ball from the bob of the pendulum by pushing it with your finger or a short cylinder.</p></li>
-<li><p>Fire the ball ten times, and record the pendulum height <span class="math notranslate nohighlight">\(y_2\)</span> for each shot.</p></li>
-<li><p>Calculate the average <span class="math notranslate nohighlight">\(y = y_2-y_1\)</span> and the average <span class="math notranslate nohighlight">\(v_0\)</span> from <a class="reference internal" href="#equation-eq-m06v0">(58)</a>.</p></li>
-<li><p>Record your data and calculations on your spreadsheet.</p></li>
-</ol>
-</section>
-<section id="projectile-motion-procedure">
-<h3>Projectile Motion Procedure<a class="headerlink" href="#projectile-motion-procedure" title="Permalink to this heading">#</a></h3>
-<ol class="arabic simple">
-<li><p><strong>Data table:</strong></p>
-<ul class="simple">
-<li><p>Create a table of the common data for the projectile motion experiment including the distance to the pad <span class="math notranslate nohighlight">\(x_1\)</span>, the vertical distance <span class="math notranslate nohighlight">\(Y = y_1 - y_2\)</span> and any other measurements.</p></li>
-<li><p>Create a table with a row for each of the ten trials in the projectile motion part of this lab including the trial number, the measured <span class="math notranslate nohighlight">\(x_2\)</span>, the calculated horizontal distance <span class="math notranslate nohighlight">\(X=x_1+x_2\)</span> and the calculated initial velocity of the ball <span class="math notranslate nohighlight">\(v_0\)</span>.</p></li>
-<li><p>Create a table to summarize the ten trials including the average initial velocity <span class="math notranslate nohighlight">\(v_0\)</span> of the ball, the standard deviation of <span class="math notranslate nohighlight">\(v_0\)</span>.</p></li>
+<li><p>Projectile Motion - Investigate kinematic motion for comparison.</p></li>
+<li><p>Each experiment will have a total of <em><strong>15 trials</strong></em>:</p>
+<ul>
+<li><p>Groups of 2 students, each student will launch the projectile for 7 – 8 trials.</p></li>
+<li><p>Groups of 3 students, each student will launch the projectile for 5 trials.</p></li>
 </ul>
 </li>
-<li><p>Set up the projectile motion experiment as shown in <a class="reference internal" href="#m06fig02"><span class="std std-numref">Fig. 44</span></a>.</p></li>
-<li><p>Perform <span class="math notranslate nohighlight">\(n=10\)</span> measurements of <span class="math notranslate nohighlight">\(x_2\)</span>. Be careful that the gun is in the same position for each measurement</p></li>
-<li><p>Calculate the standard deviation for the <span class="math notranslate nohighlight">\(n=10\)</span> measurements of <span class="math notranslate nohighlight">\(x_2\)</span>.</p></li>
+</ul>
+</div>
+<div class="tip admonition">
+<p class="admonition-title">Additional Tips</p>
+<ul class="simple">
+<li><p>The accepted value of <span class="math notranslate nohighlight">\(g = 9.803\,\text{m/s}^2\)</span> for Fairfield, CT.</p></li>
+<li><p>Demo of the procedure is found in <a class="reference internal" href="#demo-video-ballisticpendulum-overall"><span class="std std-ref">Demo Video: Ballistic Pendulum &amp; Projectile Motion Experiment</span></a>.</p></li>
+</ul>
+</div>
+<section id="demo-video-ballistic-pendulum-projectile-motion-experiment">
+<span id="demo-video-ballisticpendulum-overall"></span><h3>Demo Video: Ballistic Pendulum &amp; Projectile Motion Experiment<a class="headerlink" href="#demo-video-ballistic-pendulum-projectile-motion-experiment" title="Permalink to this heading">#</a></h3>
+<div style="text-align: center;">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/OjMF7Z2Pe6U?si=j9aSi4RHe3IBDj4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <figcaption>First half covers the measurements necessary for the ballistic pendulum experiment. Second half covers the measurements necessary to the projectile motion experiment. Reminder, the ball will need to be marked up significantly with a dry-erase marker to show impact location on the landing board due to the rifling that can happen -- see high-speed at end of the video.</figcaption>
+</div>
+</section>
+<section id="ballistic-pendulum-experiment">
+<h3>Ballistic Pendulum Experiment<a class="headerlink" href="#ballistic-pendulum-experiment" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW — Ballistic Pendulum Experiment</p>
+<p>Determine the initial exit velocity of the ball using conservation of energy and conservation of momentum.</p>
+</div>
+<section id="ballistic-pendulum-preliminary-setup">
+<h4>Ballistic Pendulum — Preliminary Setup<a class="headerlink" href="#ballistic-pendulum-preliminary-setup" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>Create a <em>common data table</em> including (but not limited to):</p>
+<ul class="simple">
+<li><p>accepted value of <span class="math notranslate nohighlight">\(g\)</span> of <span class="math notranslate nohighlight">\(9.803\,\text{m/s}^2\)</span> for Fairfield, CT</p></li>
+<li><p><span class="math notranslate nohighlight">\(m\)</span>: mass of the ball (i.e. projectile)</p></li>
+<li><p><span class="math notranslate nohighlight">\(M\)</span>: mass of the pendulum</p></li>
+<li><p><span class="math notranslate nohighlight">\(y_1\)</span>: initial pendulum height</p></li>
+</ul>
+</li>
+<li><p>Set up the projectile motion experiment as shown in <a class="reference internal" href="#m06fig03"><span class="std std-numref">Fig. 43</span></a> and <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 44</span></a>. Review the first half of the demonstration video <a class="reference internal" href="#demo-video-ballisticpendulum-overall"><span class="std std-ref">Demo Video: Ballistic Pendulum &amp; Projectile Motion Experiment</span></a>.</p></li>
+<li><p>Measure and record the mass <span class="math notranslate nohighlight">\(m\)</span> of the brass ball projectile.</p></li>
+<li><p>Record the mass <span class="math notranslate nohighlight">\(M\)</span> of the pendulum that is <em><strong>indicated</strong></em> on the apparatus base plate (<em><strong>DO NOT REMOVE THE ARM</strong></em>).</p></li>
+<li><p>Measure and record <span class="math notranslate nohighlight">\(y_1\)</span>. The pointer on the side of the bob indicates the center of mass of the pendulum. With the pendulum hanging motionless, measure the height from the base plate (saying the base plate is our zero-point for the height) to the metal pointer on the pendulum bob as illustrated in <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 44</span></a>.</p></li>
 </ol>
 </section>
+<section id="ballistic-pendulum-data-collection">
+<span id="id1"></span><h4>Ballistic Pendulum — Data Collection<a class="headerlink" href="#ballistic-pendulum-data-collection" title="Permalink to this heading">#</a></h4>
+<ol class="arabic" start="6">
+<li><p>Create a <em>data table</em> with enough <strong>rows</strong> for the number of trials you are doing along with average and standard deviations; include <strong>columns</strong> for each of the variables you will be measuring or deriving including, but not limited to:</p>
+<ul class="simple">
+<li><p>Trial number</p></li>
+<li><p>Lab member’s initials</p></li>
+<li><p><span class="math notranslate nohighlight">\(y_2\)</span>: final pendulum height</p></li>
+<li><p><span class="math notranslate nohighlight">\(\Delta y\)</span>: change in height of the combined pendulum and projectile</p></li>
+<li><p><span class="math notranslate nohighlight">\(V\)</span>: initial pendulum velocity of the combined pendulum and projectile</p></li>
+<li><p><span class="math notranslate nohighlight">\(v_{0\text{,ballistic-pendulum}}\)</span>: initial exit velocity of the ball</p></li>
+</ul>
+<div class="danger admonition">
+<p class="admonition-title">⚠️⚠️⚠️ CAUTION: HIGH SPEED PROJECTILES AND PISTON ⚠️⚠️⚠️</p>
+<p>Keep clear of the pendulum and piston when spring-loaded gun is cocked. Fingers can be crushed.</p>
+</div>
+</li>
+<li><p>Practice the following steps before actually taking data.</p></li>
+<li><p>Place the brass ball on the pin of the gun, and press the ball so the spring of the gun is compressed until the trigger catches and holds the compressed spring. <em>Loading launcher might require full body weight, hold on to the ball and slowly lean back.</em></p></li>
+<li><p>Ensure the pendulum is stationary.</p></li>
+<li><p>Ensure the ball is fully pushed onto the piston.</p></li>
+<li><p>Fire the gun by squeezing the trigger with <em><strong>CONVICTION</strong></em> (quickly) to ensure more consistent firings. The ball will be captured by the brass bob and the pendulum will swing upwards.</p></li>
+<li><p>A small ratchet on the bottom of the pendulum will tick up a rack that will capture the maximum upswing position of the pendulum.</p>
+<div class="tip admonition">
+<p class="admonition-title">Request Assistance — Ball Falls Out After Collision</p>
+<p>Sometimes the ball may not stay in the pendulum. Repeat the trial. If it continues falling out, the apparatus may need adjusting. Please ask for assistance.</p>
+</div>
+</li>
+<li><p>Measure the height <span class="math notranslate nohighlight">\(y_2\)</span> between a similar zero-height location to the tip of the metal pointer on the pendulum as illustrated in <a class="reference internal" href="#m06fig01"><span class="std std-numref">Fig. 44</span></a>.</p></li>
+<li><p>Carefully release the ratchet on the bottom of the pendulum so the pendulum can swing back to its equilibrium position. <strong>Do not twist or slide the pendulum off the rack, use the little handle on the spring loaded ratchet beneath the brass bob.</strong></p></li>
+<li><p>Release the ball from the bob of the pendulum by pushing it with your finger, a pencil, or other short cylinder.</p></li>
+<li><p>Calculate <span class="math notranslate nohighlight">\(\Delta y = y_2 - y_1\)</span>, the change in height.</p></li>
+<li><p>Determine the initial velocity <span class="math notranslate nohighlight">\(V\)</span> of the combined pendulum and ball by going backwards through the sequence of events. Use the conservation of and change in energy from kinetic to gravitational potential energy during the upward swing (see <a class="reference internal" href="#equation-eq-m06pendulumenergy">(58)</a> and <a class="reference internal" href="#equation-eq-m06pendulumv">(59)</a>).</p></li>
+<li><p>Determine the initial exit velocity <span class="math notranslate nohighlight">\(v_{0\text{,ballistic-pendulum}}\)</span> of the ball by going further backwards in the sequence of events. Use conservation of momentum to analyze the momentum of the pendulum and ball combination after the collision vs. the momentum of just the ball before the collision (see <a class="reference internal" href="#equation-eq-m06v0">(60)</a>).</p>
+<div class="question admonition">
+<p class="admonition-title">Discussion Point: Sources of Error</p>
+<p>During the sequence of the launch, collision, and upward swing:</p>
+<ul class="simple">
+<li><p>What do you expect to be conserved or not conserved?</p></li>
+<li><p>What physical processes may affect your results?</p></li>
+<li><p>What are your measurement uncertainties?</p></li>
+</ul>
+</div>
+</li>
+<li><p>After you double-check your methodology and that calculations are accurate in Excel and complete, repeat the steps in <a class="reference internal" href="#ballistic-pendulum-data-collection"><span class="std std-ref">Ballistic Pendulum — Data Collection</span></a> for the rest of your trials.</p></li>
+</ol>
+</section>
+<section id="ballistic-pendulum-data-summary-and-error-propagation">
+<span id="ballistic-pendulum-data-summary"></span><h4>Ballistic Pendulum — Data Summary and Error Propagation<a class="headerlink" href="#ballistic-pendulum-data-summary-and-error-propagation" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple" start="20">
+<li><p>If you haven’t already, add rows for average and standard deviation calculations.</p></li>
+<li><p>Calculate the average and standard deviations of your measured and determined quantities across all experimental trials.</p></li>
+<li><p>Using one of your trials, propagate your measurement uncertainties to see how your initial exit velocity might change (you could copy and paste it as a “test” trial at the bottom of your data table).</p>
+<ul class="simple">
+<li><p>Note how individual quantities affect the initial exit velocity — does any specific quantity affect more than the others?</p></li>
+<li><p>Note how the initial exit velocity changes (becoming faster or slower) when you consider all quantities exaggerated by their uncertainties.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+</section>
+<section id="projectile-motion-experiment">
+<h3>Projectile Motion Experiment<a class="headerlink" href="#projectile-motion-experiment" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW — Projectile Motion Experiment</p>
+<p>Determine the initial exit velocity of the ball using kinematics.</p>
+</div>
+<section id="projectile-motion-preliminary-setup">
+<h4>Projectile Motion — Preliminary Setup<a class="headerlink" href="#projectile-motion-preliminary-setup" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>Add necessary common quantities to your <em>common data table</em> including (but not limited to):</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(y_1\)</span>: initial height from the bottom of the ball to the floor</p></li>
+<li><p><span class="math notranslate nohighlight">\(y_2\)</span>: final height from the landing pad to the floor</p></li>
+<li><p><span class="math notranslate nohighlight">\(Y\)</span>: total vertical distance traveled from bottom of ball to top of landing pad</p></li>
+<li><p><span class="math notranslate nohighlight">\(x_1\)</span>: distance from bottom of the ball (uncocked) to the front edge of the landing pad</p></li>
+</ul>
+</li>
+<li><p>Set up the projectile motion experiment as shown in <a class="reference internal" href="#m06fig02"><span class="std std-numref">Fig. 45</span></a>. Review the later half of the demonstration video <a class="reference internal" href="#demo-video-ballisticpendulum-overall"><span class="std std-ref">Demo Video: Ballistic Pendulum &amp; Projectile Motion Experiment</span></a>.</p></li>
+<li><p>Measure and record initial height <span class="math notranslate nohighlight">\(y_1\)</span> (see <a class="reference internal" href="#m06fig02"><span class="std std-numref">Fig. 45</span></a>). This is the height from the bottom of the brass ball (i.e. projectile) to the floor.</p></li>
+<li><p>Measure and record final height <span class="math notranslate nohighlight">\(y_2\)</span>, effectively the thickness of the landing pad.</p></li>
+<li><p>Determine total vertical distance traveled <span class="math notranslate nohighlight">\(Y\)</span>.</p></li>
+<li><p>Measure horizontal distance <span class="math notranslate nohighlight">\(x_1\)</span>. Use a plumb bob to transpose the position of the center of the ball to the floor, and measure to the edge of the landing pad.</p></li>
+</ol>
+</section>
+<section id="projectile-motion-data-collection">
+<span id="id2"></span><h4>Projectile Motion — Data Collection<a class="headerlink" href="#projectile-motion-data-collection" title="Permalink to this heading">#</a></h4>
+<ol class="arabic" start="7">
+<li><p>Create a <em>data table</em> with enough <strong>rows</strong> for the number of trials you are doing along with average and standard deviations; include <strong>columns</strong> for each of the variables you will be measuring or deriving including, but not limited to:</p>
+<ul class="simple">
+<li><p>Trial number</p></li>
+<li><p>Lab member’s initials</p></li>
+<li><p><span class="math notranslate nohighlight">\(x_2\)</span>: distance of impact from the edge of the landing pad</p></li>
+<li><p><span class="math notranslate nohighlight">\(X\)</span>: total horizontal distance traveled from center of ball when uncocked (at initial release position) to center of impact</p></li>
+<li><p><span class="math notranslate nohighlight">\(v_{0\text{,projectile-motion}}\)</span>: initial exit velocity of the ball</p></li>
+</ul>
+<div class="danger admonition">
+<p class="admonition-title">⚠️⚠️⚠️ CAUTION: HIGH SPEED PROJECTILES AND PISTON ⚠️⚠️⚠️</p>
+<ul class="simple">
+<li><p>DO NOT BE DOWN RANGE OF LAUNCHER — stand off to the side to keep from being hit.</p></li>
+<li><p>Keep clear of the pendulum and piston when spring-loaded gun is cocked. Fingers can be crushed.</p></li>
+</ul>
+</div>
+</li>
+<li><p>Practice the following steps before actually taking data.</p></li>
+<li><p>Ensure the pendulum is resting on the ratchet rack and out of the way.</p></li>
+<li><p>Place the brass ball on the pin of the gun, and press the ball so the spring of the gun is compressed until the trigger catches and holds the compressed spring. <em>Loading launcher might require full body weight, hold on to the ball and slowly lean back.</em></p></li>
+<li><p>Using a dry-erase marker, mark up the edges of the ball such that it will leave a mark on the landing pad.</p></li>
+<li><p>Ensure the ball is fully pushed onto the piston.</p></li>
+<li><p>Fire the gun by squeezing the trigger with <em><strong>CONVICTION</strong></em> (quickly) to ensure more consistent firings. The ball will impact the landing pad and leave a dot from the dry-erase marker.</p></li>
+<li><p>Measure the distance $x_2 from the edge of the landing pad to the center of the impact mark as illustrated in <a class="reference internal" href="#m06fig02"><span class="std std-numref">Fig. 45</span></a>.</p></li>
+<li><p>Calculate <span class="math notranslate nohighlight">\(X = x_1 + x_2\)</span>, the total horizontal distance traveled.</p></li>
+<li><p>Determine the initial exit velocity <span class="math notranslate nohighlight">\(v_{0\text{,projectile-motion}}\)</span> of the ball by using kinematics (see <a class="reference internal" href="#equation-eq-m06kinemtaticsy">(61)</a> to <a class="reference internal" href="#equation-eq-m06v0pro">(63)</a>).</p>
+<div class="question admonition">
+<p class="admonition-title">Discussion Point: Sources of Error</p>
+<p>During the sequence of the launch and projectile motion:</p>
+<ul class="simple">
+<li><p>What do you expect to be conserved or not conserved?</p></li>
+<li><p>What physical processes may affect your results?</p></li>
+<li><p>What are your measurement uncertainties?</p></li>
+</ul>
+</div>
+</li>
+<li><p>After you double-check your methodology and that calculations are accurate in Excel and complete, repeat the steps in <a class="reference internal" href="#projectile-motion-data-collection"><span class="std std-ref">Projectile Motion — Data Collection</span></a> for the rest of your trials.</p>
+<div class="important admonition">
+<p class="admonition-title">Clean up</p>
+<p>Once you’re finished with the projectile motion launches, wipe off the marker from the ball, thanks.</p>
+</div>
+</li>
+</ol>
+</section>
+<section id="projectile-motion-data-summary-and-error-propagation">
+<span id="projectile-motion-data-summary"></span><h4>Projectile Motion — Data Summary and Error Propagation<a class="headerlink" href="#projectile-motion-data-summary-and-error-propagation" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple" start="18">
+<li><p>If you haven’t already, add rows for average and standard deviation calculations.</p></li>
+<li><p>Calculate the average and standard deviations of your measured and determined quantities across all experimental trials.</p></li>
+<li><p>Using one of your trials, propagate your measurement uncertainties to see how your initial exit velocity might change (you could copy and paste it as a “test” trial at the bottom of your data table).</p>
+<ul class="simple">
+<li><p>Note how individual quantities affect the initial exit velocity — does any specific quantity affect more than the others?</p></li>
+<li><p>Note how the initial exit velocity changes (becoming faster or slower) when you consider all quantities exaggerated by their uncertainties.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="experiment-comparison">
+<h2>Experiment Comparison<a class="headerlink" href="#experiment-comparison" title="Permalink to this heading">#</a></h2>
+<p>Create a <em>summary table</em> to summarize the results from both experiments including the average and standard deviations of the initial exit velocities of the ball from both experiments (i.e.  avg. and std. dev. of <span class="math notranslate nohighlight">\(v_{0\text{,ballistic-pendulum}}\)</span> and <span class="math notranslate nohighlight">\(v_{0\text{,projectile-motion}}\)</span>).</p>
+<div class="important admonition">
+<p class="admonition-title">Trust?</p>
+<ul class="simple">
+<li><p>Considering both experiments, do your results agree with each other?</p></li>
+<li><p>Since we don’t have an accepted or “true” value for the ball’s initial exit velocity, which experiment do you trust more — consider the errors, uncertainties, and physical processes and assumptions from each experiment.</p></li>
+</ul>
+</div>
 </section>
 <section id="post-lab-submission-interpretation-of-results">
 <h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Make sure to submit your finalized data table (Excel sheet).</p></li>
-<li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case. Consider:</p>
-<ul>
-<li><p>What is the range of your measurements for both pendulum and projectile? Do the initial velocities agree within the ranges when treating your standard deviations as your uncertainty of average values?</p></li>
-<li><p>How and why are they (or could be) different?</p></li>
-<li><p>Which of the two results for the value of <span class="math notranslate nohighlight">\(v_i\)</span> do you trust more? Explain your answer using a Physics argument.</p></li>
-<li><p>Suppose you would have used a more massive marble in the projectile motion portion of the experiment. How would this affect your result? Explain your answer.</p></li>
-</ul>
-</li>
 <li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative not only quantitative.</p>
 <ul>
-<li><p>What are the effects of measured uncertainties on your determined velocities?</p></li>
+<li><p>What is the precision of your equipment?</p></li>
+<li><p>What are possible random errors for today’s experiment?</p></li>
 <li><p>What are possible systematic errors for today’s experiments?</p></li>
-<li><p>Use error propagation to defend your results.</p></li>
+<li><p>What are the effects of your measurement uncertainties on your determined exit velocities for both experiments?</p>
+<ul>
+<li><p>Use error propagation to defend your results; look back at <a class="reference internal" href="#equation-eq-m06v0">(60)</a> and <a class="reference internal" href="#equation-eq-m06v0pro">(63)</a> as needed.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case. Consider:</p>
+<ul>
+<li><p>What were your initial exit velocity results for both pendulum and projectile experiments? Use your average values and treat your standard deviations as your <span class="math notranslate nohighlight">\(\pm\)</span> uncertainty of those average values.</p></li>
+<li><p>Do the initial velocities from both experiments agree with one another?</p>
+<ul>
+<li><p>How and why are they (or could be more) different regarding physical concepts?</p></li>
+</ul>
+</li>
+<li><p>Considering both experiments and their sources of error, which experimental exit velocity do you trust more? Explain your answer using both physical concepts and your error propagation.</p></li>
+<li><p>Suppose you would have used a more massive marble in the projectile motion portion of the experiment. How would this affect your result? Explain your answer using a physics argument.</p></li>
 </ul>
 </li>
 </ul>
@@ -563,7 +763,7 @@ In the horizontal direction, the ball has a constant velocity of <span class="ma
 <section id="the-whiteboard">
 <h2>The Whiteboard<a class="headerlink" href="#the-whiteboard" title="Permalink to this heading">#</a></h2>
 <figure class="align-center" id="ballist">
-<a class="reference internal image-reference" href="../_images/ConsEnergyMomentumBallistic_2024_Fall_01.jpg"><img alt="../_images/ConsEnergyMomentumBallistic_2024_Fall_01.jpg" src="../_images/ConsEnergyMomentumBallistic_2024_Fall_01.jpg" style="width: 600px;" /></a>
+<a class="reference internal image-reference" href="../_images/ConsEnergyMomentumBallistic_2024_Fall_02.jpg"><img alt="../_images/ConsEnergyMomentumBallistic_2024_Fall_02.jpg" src="../_images/ConsEnergyMomentumBallistic_2024_Fall_02.jpg" style="width: 100%;" /></a>
 </figure>
 </section>
 </section>
@@ -634,15 +834,27 @@ In the horizontal direction, the ball has a constant velocity of <span class="ma
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum">Ballistic Pendulum</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion">Projectile Motion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-review">Ballistic Pendulum Review</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-review">Projectile Motion Review</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-procedure">Ballistic Pendulum Procedure</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-procedure">Projectile Motion Procedure</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-video-ballistic-pendulum-projectile-motion-experiment">Demo Video: Ballistic Pendulum &amp; Projectile Motion Experiment</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-experiment">Ballistic Pendulum Experiment</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-preliminary-setup">Ballistic Pendulum — Preliminary Setup</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-data-collection">Ballistic Pendulum — Data Collection</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ballistic-pendulum-data-summary-and-error-propagation">Ballistic Pendulum — Data Summary and Error Propagation</a></li>
 </ul>
 </li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-experiment">Projectile Motion Experiment</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-preliminary-setup">Projectile Motion — Preliminary Setup</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-data-collection">Projectile Motion — Data Collection</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#projectile-motion-data-summary-and-error-propagation">Projectile Motion — Data Summary and Error Propagation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-comparison">Experiment Comparison</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
