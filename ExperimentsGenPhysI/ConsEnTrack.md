@@ -174,7 +174,7 @@ Example of small and large spacers used to incline the air track. The cases toda
     *Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned*.
     ```
 
-4. **Level the airtrack.** Without the spacer present and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (somewhere between the photogates, center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes. <!---request the use of another glider and we can provide you a different one.--->
+4. **Level the airtrack.** Without the spacer present and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (somewhere between the photogates, center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes. 
 
     ```{admonition} Drift
     :class: tip

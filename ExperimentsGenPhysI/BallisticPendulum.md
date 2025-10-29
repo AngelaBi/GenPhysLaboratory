@@ -5,9 +5,9 @@
 
 ```{admonition} OVERALL GOALS
 :class: note
-In this lab, you will use a ballistic projectile launcher to:
-- Determine initial exit velocities of a projectile using two different techniques to investigate and compare:
-   - Motion explained by conservation of linear momentum and energy
+Use a ballistic pendulum to:
+- Determine initial exit velocities of a projectile to investigate and compare two different techniques:
+   - Motion explained by conservation of linear momentum and mechanical energy
    - Motion explained by kinematics
 ```
 
@@ -19,13 +19,27 @@ In the second technique, the measured parameters of the trajectory of a horizont
 
 In each case, the projectile will be launched with the same device allowing a comparison of the initial velocity determinations of the two techniques.
 
-### Ballistic Pendulum
+### Ballistic Pendulum Review
 
-The ballistic pendulum is so named because it was originally used to measure the velocity of high-speed projectiles such as bullets long before electric and electronic timers made the procedure unnecessary. It remains, however, as a simple and demonstrative device for understanding the conservation principles of energy and momentum. In analyzing the problem, the system will consist of the projectile and the more massive pendulum. As illustrated in the left image in {numref}`M06Fig01`, before the collision, the projectile is in motion horizontally towards the stationary pendulum. After the collision, the projectile is imbedded in the pendulum and the pendulum is moving along the arc as shown in the right image of {numref}`M06Fig01`.
+The ballistic pendulum is so named because it was originally used to measure the velocity of high-speed projectiles such as bullets long before electric and electronic timers made the procedure unnecessary. It remains, however, as a simple and demonstrative device for understanding the conservation principles of energy and momentum. In analyzing the problem, the system will consist of the projectile and the more massive pendulum (see {numref}`M06Fig03`). 
 
-```{figure} BallisticPendulumFigures/M06_fig01_v2025-01.png
+
+```{figure} BallisticPendulumFigures/M06_fig03_v2025-01.png
+:name: M06Fig03
+:width: 100%
+:align: center
+
+Left) Ballistic pendulum apparatus showing path of the rotating arm during the pendulum experiment. Right) Arm with metal bob that catches the projectile (metal ball with hole, not shown) when launched from the spring-powered gun of the apparatus.
+```
+
+
+
+
+As illustrated in the left image in {numref}`M06Fig01`, before the collision, the projectile is in motion horizontally towards the stationary pendulum. After the collision, the projectile is imbedded in the pendulum and the pendulum is moving along the arc as shown in the right image of {numref}`M06Fig01`.
+
+```{figure} BallisticPendulumFigures/M06_fig01_v2025-02.png
 :name: M06Fig01
-:width: 90%
+:width: 100%
 :align: center
 
 Ballistic Pendulum before (left) and after the collision (right)
@@ -63,13 +77,13 @@ Substituting in {eq}`eq-M06momentum` above, we have finally an expression for th
 v_0 = \left( \frac{m+M}{m} \right) \sqrt{2 g \left(y_2 - y_1\right)}.
 ```
 
-### Projectile Motion
+### Projectile Motion Review
 
 When a projectile is moving solely under the influence of the force of gravity, we say that the projectile is in free-fall. Consider the launching of the same ball used in the ballistic pendulum. In this case, the pendulum will be swung up out of the way so the flight of the ball will continue off the edge of the table, eventually hitting the floor some distance away. This situation is illustrated in {numref}`M06Fig02`.
 
 ```{figure} BallisticPendulumFigures/M06_fig02_v2025-02.png
 :name: M06Fig02
-:width: 700px
+:width: 100%
 :align: center
 
 Projectile Motion. Note $X$ and $Y$ are broken down into easier-to-measure quantities.
@@ -97,35 +111,65 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 
 ## Experimental Procedure
 
+```{admonition} OVERVIEW
+:class: note
+- Experimentally determine initial exit velocity of the metal ball (projectile) with two different experiments.
+- Ballistic Pendulum - Investigate how energy is converted and momentum is conserved:
+  - Potential energy at the top and kinetic energy at the bottom.
+  - Momentum after the collision and momentum before the collision.
+- Projectile Motion - Investigate kinematic motion for comparison.
+- Each experiment will have a total of 15 trials:
+    - Groups of 2 students, each student will launch the projectile for 7 -- 8 trials.
+    - Groups of 3 students, each student will launch the projectile for 5 trials.
+```
+
+
+
+
+(demo-video-ballisticPendulum_overall)=
+### Demo Video: Ballistic Pendulum & Projectile Motion Experiment
+
+<div style="text-align: center;">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/OjMF7Z2Pe6U?si=j9aSi4RHe3IBDj4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <figcaption>First half covers the measurements necessary for the ballistic pendulum experiment. Second half covers the measurements necessary to the projectile motion experiment. Reminder, the ball will need to be marked up significantly with a dry-erase marker to show impact location on the landing board due to the rifling that can happen -- see high-speed at end of the video.</figcaption>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 ### Ballistic Pendulum Procedure
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OjMF7Z2Pe6U?si=j9aSi4RHe3IBDj4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 1. **Data table:**
    - Create a table of the common data for the ballistic pendulum experiment including the mass of the ball $m$, the mass of the pendulum $M$, the initial pendulum height $y_1$ and any other common data needed for calculations.
-   - Create a table with a row for each of the ten trials in the ballistic pendulum part of this lab including the trial number, the pendulum height $y_2$, the change in height $y_2-y_1$, the calculated velocity of the pendulum $V$, and the calculated initial velocity of the ball $v_0$.
-   - Create a table to summarize the ten trials including the average pendulum height $y_2$, the average change in height $y_2-y_1$, the average velocity of the pendulum $V$, the average initial velocity of the ball $v_0$, the standard deviation of $v_0$.
+   - Create a table with a row for each trial in the ballistic pendulum part of this lab including the trial number, lab member's initials, the pendulum height $y_2$, the change in height $y_2-y_1$, the calculated velocity of the pendulum $V$, and the calculated initial velocity of the ball $v_0$.
+   - Create a table to summarize the experiment including the average pendulum height $y_2$, the average change in height $y_2-y_1$, the average velocity of the pendulum $V$, the average initial velocity of the ball $v_0$, the standard deviation of $v_0$.
 
 2. Measure and record the mass of the brass ball projectile.
 
-3. Record the mass of the pendulum that is indicated on the apparatus.
+3. Record the mass of the pendulum that is ***indicated*** on the apparatus (***DO NOT REMOVE THE ARM***).
 
 4. Practice the following procedure before actually taking data.
 
-5. The pointer on the side of the bob indicates the center of mass of the pendulum. With the pendulum hanging motionless, measure the height above the base plate of the pointer. This value is $y_1$. Record the value in meters.
+5. The pointer on the side of the bob indicates the center of mass of the pendulum. With the pendulum hanging motionless, measure the height of the metal pointer on the pendulum from the base plate as illustrated in {numref}`M06Fig01`. This value is $y_1$. Record the value in meters.
 
-6. Place the brass ball on the pin of the gun and press the ball so the spring of the gun is compressed until the trigger catches and holds the compressed spring.
+6. Place the brass ball on the pin of the gun, and press the ball so the spring of the gun is compressed until the trigger catches and holds the compressed spring.
 
-7. Fire the gun by squeezing the trigger. The ball will be captured by the bob and the pendulum will swing upwards.
+7. Fire the gun by squeezing the trigger with ***CONVICTION*** (quickly) to ensure more consistent firings. The ball will be captured by the bob and the pendulum will swing upwards.
 
-8. A small ratchet engaging a rack will capture the maximum upswing position of the pendulum. Measure the height to the tip of the metal pointer on the pendulum which represents the center of mass of the pendulum with ball.
+8. A small ratchet engaging a rack will capture the maximum upswing position of the pendulum. Measure the height to the tip of the metal pointer on the pendulum as illustrated in {numref}`M06Fig01`.
 
-9. Carefully release the ratchet so the pendulum can swing back to its equilibrium position.
+9. Carefully release the ratchet so the pendulum can swing back to its equilibrium position. **Do not twist or slide the pendulum off the rack, use the little handle on the spring loaded ratchet beneath the brass bob.**
 
-10. Release the ball from the bob of the pendulum by pushing it with your finger or a short cylinder.
+10. Release the ball from the bob of the pendulum by pushing it with your finger, a pencil, or other short cylinder.
 
-11. Fire the ball ten times, and record the pendulum height $y_2$ for each shot.
+11. Fire the ball 15 times with ***CONVICTION*** (quickly), and record the pendulum height $y_2$ for each shot (trial).
 
 12. Calculate the average $y = y_2-y_1$ and the average $v_0$ from {eq}`eq-M06v0`.
 
@@ -134,35 +178,45 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 ### Projectile Motion Procedure
 
 1. **Data table:**
-   - Create a table of the common data for the projectile motion experiment including the distance to the pad $x_1$, the vertical distance $Y = y_1 - y_2$ and any other measurements.
-   - Create a table with a row for each of the ten trials in the projectile motion part of this lab including the trial number, the measured $x_2$, the calculated horizontal distance $X=x_1+x_2$ and the calculated initial velocity of the ball $v_0$.
-   - Create a table to summarize the ten trials including the average initial velocity $v_0$ of the ball, the standard deviation of $v_0$.
+   - Create a table of the common data for the projectile motion experiment including the distance to the landing pad $x_1$, the vertical distance $Y = y_1 - y_2$ and any other measurements.
+   - Create a table with a row for each of the 15 trials in the projectile motion part of this lab including the trial number, lab member's initials, the inidividually measured $x_2$, the calculated horizontal distance $X=x_1+x_2$, and the calculated initial velocity of the ball $v_0$.
+   - Create a table to summarize the experiment including the average and standard deviation of the distance on the landing pad $x_2$, average and standard deviations of the initial velocity $v_0$ of the ball.
 
 2. Set up the projectile motion experiment as shown in {numref}`M06Fig02`.
 
-3. Perform $n=10$ measurements of $x_2$. Be careful that the gun is in the same position for each measurement
+3. Fire the ball 15 times with ***CONVICTION*** (quickly), and record the measurements of $x_2$. Be careful that the gun is in the same position for each measurement.
 
-4. Calculate the standard deviation for the $n=10$ measurements of $x_2$.
+4. Calculate the initial exit velocity $v_0$.
+
+5. Calculate the average and standard deviations for the $n=15$ measurements of $x_2$ and $v_0$.
 
 ## Post-Lab Submission --- Interpretation of Results
 
 - Make sure to submit your finalized data table (Excel sheet). 
-- In a **paragraph**, summarize the results you have determined in each case. Consider:
-	- What is the range of your measurements for both pendulum and projectile? Do the initial velocities agree within the ranges when treating your standard deviations as your uncertainty of average values?
-	- How and why are they (or could be) different?    
-	- Which of the two results for the value of $v_i$ do you trust more? Explain your answer using a Physics argument.
-   - Suppose you would have used a more massive marble in the projectile motion portion of the experiment. How would this affect your result? Explain your answer.
 - In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
-	- What are the effects of measured uncertainties on your determined velocities?
-	- What are possible systematic errors for today’s experiments?
-	- Use error propagation to defend your results. 
+	- What is the precision of your equipment?
+   - What are possible random errors for today's experiment?
+   - What are possible systematic errors for today’s experiments?
+	- What are the effects of your measurement uncertainties on your determined exit velocities for both experiments?
+      - Use error propagation to defend your results; look back at {eq}`eq-M06v0` and {eq}`eq-M06v0pro` as needed.
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+   - What were your initial (exit) velocity results for both pendulum and projectile experiments? Treat your standard deviations as your uncertainty of their average values.
+   - Do the initial velocities from both experiments agree with one another?
+      - How and why are they (or could be more) different regarding physical concepts?
+   - Considering both experiments and their sources of error, which experimental exit velocity do you trust more? Explain your answer using both physical concepts and your error propagation.
+   - Suppose you would have used a more massive marble in the projectile motion portion of the experiment. How would this affect your result? Explain your answer using a physics argument.
+
+
+   
+   
+
 
 
 ## The Whiteboard
 
-```{figure} BallisticPendulumFigures/ConsEnergyMomentumBallistic_2024_Fall_01.jpg
+```{figure} BallisticPendulumFigures/ConsEnergyMomentumBallistic_2024_Fall_02.jpg
 :name: ballist
-:width: 600px
+:width: 100%
 :align: center
 
 ```

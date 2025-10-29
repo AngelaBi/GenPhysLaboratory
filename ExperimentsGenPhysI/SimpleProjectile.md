@@ -5,7 +5,7 @@
 
 ```{admonition} OVERALL GOALS
 :class: note
-In this lab, you will:
+Use a marble (projectile) launcher to:
 - Understand and apply kinematic equations to two-dimensional projectile motion.
 ```
 
