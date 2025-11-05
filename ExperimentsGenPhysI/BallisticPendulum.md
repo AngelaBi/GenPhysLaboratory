@@ -11,6 +11,13 @@ Use a ballistic pendulum to:
    - Motion explained by kinematics
 ```
 
+```{admonition} DO NOT FIRE LAUNCHER WITHOUT BALL
+:class: important
+To prevent damage to the piston, please only fire the spring-loaded piston gun with a ball loaded. Damage has been done before, therefore this note is now here. Thanks.
+```
+
+
+
 Two techniques will be employed today.
 
 In the first, a ballistic pendulum, a device designed to capture a projectile in an initially stationary pendulum, will be used.  The conservation principles are used to analyze the collision and the subsequent motion of the pendulum.  The completely inelastic collision associated with the capture of the projectile in the pendulum and the subsequent motion of the pendulum provide the data necessary for the determination of the initial exit velocity.
@@ -150,7 +157,9 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
   <figcaption>First half covers the measurements necessary for the ballistic pendulum experiment. Second half covers the measurements necessary to the projectile motion experiment. Reminder, the ball will need to be marked up significantly with a dry-erase marker to show impact location on the landing board due to the rifling that can happen -- see high-speed at end of the video.</figcaption>
 </div>
 
-
+<!---
+!!!!!!!!!!!!!! Update video to have pendulum experiment y1 (yellow flag) closer to where the pendulum is when at rest, and then move the y2 (red flag) closer to where the pendulum is up the rack
+--->
 
 
 
@@ -180,6 +189,11 @@ Determine the initial exit velocity of the ball using conservation of energy and
 3. Measure and record the mass $m$ of the brass ball projectile.
 
 4. Record the mass $M$ of the pendulum that is ***indicated*** on the apparatus base plate (***DO NOT REMOVE THE ARM***).
+
+   ```{admonition} DO NOT REMOVE THE ARM
+   :class: important
+   Mass is written on the apparatus base plate.
+   ```
 
 5. Measure and record $y_1$. The pointer on the side of the bob indicates the center of mass of the pendulum. With the pendulum hanging motionless, measure the height from the base plate (saying the base plate is our zero-point for the height) to the metal pointer on the pendulum bob as illustrated in {numref}`M06Fig01`.
 
@@ -211,9 +225,10 @@ Determine the initial exit velocity of the ball using conservation of energy and
 
 12. A small ratchet on the bottom of the pendulum will tick up a rack that will capture the maximum upswing position of the pendulum. 
 
-      ```{admonition} Request Assistance --- Ball Falls Out After Collision
+      ```{admonition} Ball Falls Out After Collision? Make Sure To AIM
       :class: tip
-      Sometimes the ball may not stay in the pendulum. Repeat the trial. If it continues falling out, the apparatus may need adjusting. Please ask for assistance.
+      - Sometimes the ball may not stay in the pendulum. Repeat the trial. If it continues falling out, the apparatus may need adjusting. Please ask for assistance.
+      - There is some side-to-side play in the pendulum itself; when firing, line yourself up with the piston and check that the pendulum bob is lined up with the piston.
       ```
 
 13. Measure the height $y_2$ between a similar zero-height location to the tip of the metal pointer on the pendulum as illustrated in {numref}`M06Fig01`.
@@ -306,7 +321,7 @@ Determine the initial exit velocity of the ball using kinematics.
 
 13. Fire the gun by squeezing the trigger with ***CONVICTION*** (quickly) to ensure more consistent firings. The ball will impact the landing pad and leave a dot from the dry-erase marker.
 
-14. Measure the distance $x_2 from the edge of the landing pad to the center of the impact mark as illustrated in {numref}`M06Fig02`.
+14. Measure the distance $x_2$ from the edge of the landing pad to the center of the impact mark as illustrated in {numref}`M06Fig02`.
 
 15. Calculate $X = x_1 + x_2$, the total horizontal distance traveled.
 
