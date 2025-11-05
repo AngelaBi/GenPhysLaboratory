@@ -51,7 +51,7 @@ $$0\,\text{K} = -273.15\,°\text{C}.$$
 
 Note that, according to the definition of pressure, gas molecules at absolute zero will also exert no pressure on the walls of the container the gas is in.
 
-## Experimental Procedure
+### Experimental Equipment Review
 
 This experiment uses temperature and pressure sensors plugged into an interface so that data for both variables can be recorded simultaneously.
 For the Ideal Gas Law experiment the air inside a syringe is compressed by pushing on the plunger. Pressure and temperature values are collected and recorded with the Capstone program, which is then also used to analyze the data.
@@ -82,15 +82,30 @@ The picture shows the Ideal Gas Law experimental apparatus. The two cables comin
 This picture shows the experimental methods for the Ideal Gas Law (left) and Absolute Zero (right) experiments. In both cases the temperature and pressure connectors are plugged into the PasPort Absolute Pressure/Temperature Sensor (the small blue box).
 ```
 
-### The Ideal Gas Law Experiment
+(overall-ideal-gas-law-data-acquisition)=
+## Experimental Procedure --- Thermodynamic Processes
 
-1. Create a Part 1 Data Table for your ideal gas law measurements and calculations.
+```{admonition} OVERVIEW --- Thermodynamic Processes
+:class: note
+Investigate Ideal Gas Law relationships betweent temperature, pressure, and volume for two thermodynamic processes:
+   - Isothermal (no change in temperature)
+   - Adiabatic (no change in energy)
+
+Take **3 trials** of data, you can then analyze each trial in two different ways for the processes noted above.
+```
+
+(ideal-gas-law-preliminary-acquisition)=
+### Preliminary Data Acquisition
+
+1. Create a *data table* for your ideal gas law measurements and calculations for your isothermal analysis including, but not limited to:
+    - Measured values $V_1, P_1, V_2, P_2$
+    - Calculated ratios $X_1, X_2$
 
 2. Open graphs of absolute pressure ($y$-axis) vs. time ($x$-axis) and temperature in Kelvin ($y$-axis) vs. time ($x$-axis) in the **Capstone** program. Also have a table displaying absolute pressure and temperature open. All these can be opened by double-clicking on the corresponding items on the right-had side of the **Capstone** program.
 
   ```{figure} IdealGasFigures/Figure06_v2025-01.png
   :name: H01Fig06
-  :width: 80%
+  :width: 90%
   :align: center
 
   Example of Page 1 in today's **Capstone** file for the different theromdynamic processes.
@@ -112,11 +127,11 @@ This picture shows the experimental methods for the Ideal Gas Law (left) and Abs
 
 10. Press the **Record** button again on **Capstone** to stop recording data.
 
-#### Analysis with Constant Temperature (Isothermal)
+### Analysis Part I --- Constant Temperature (Isothermal)
 
   ```{figure} IdealGasFigures/Figure04_v2025-02.png
   :name: H01Fig04
-  :width: 80%
+  :width: 90%
   :align: center
 
   Example of initial and final pressure and temperature locations for the isothermal process.
@@ -132,7 +147,6 @@ This picture shows the experimental methods for the Ideal Gas Law (left) and Abs
 
 5. Compare the two ratios. According to the ideal gas law ({eq}`eq-idealgas`) the two values should be equal, since $P_{1} V_{1} = P_{2} V_{2}$ for constant temperature (note that the temperature is room temperature in both cases). Discuss, first amongst yourselves and then with your instructor, why the values are different.
 
-
 By now you have (hopefully) figured out that you have not accounted for the small amount of volume of air inside the tubing of the apparatus. Using the ideal gas law ({eq}`eq-idealgas`) and the data you collected in part 1, you can actually calculate this volume $V_{0}$ by solving the following equation for $V_{0}$
 
 ```{math}
@@ -140,43 +154,69 @@ By now you have (hopefully) figured out that you have not accounted for the smal
 \frac{(V_{1} + V_{0})}{(V_{2} + V_{0})} = \frac{P_{2}}{P_{1}}.
 ```
 
+Using the data from your first data table, calculate the value for $V_{0}$ and note the result for use in your upcoming data table.
 
-Using the data from your Part 1 Data Table calculate the value for $V_{0}$ and note the result in your upcoming Part 2 Data Table.
+### Analysis Part II --- Varying Temperature and No Energy Loss (Adiabatic)
 
-#### Analysis with Varying Temperature and No Energy Loss (Adiabatic)
 
   ```{figure} IdealGasFigures/Figure05_v2025-01.png
   :name: H01Fig05
-  :width: 80%
+  :width: 90%
   :align: center
 
   Example of initial and final pressure and temperature locations for the adiabatic process. Note: the temperature sensor lags slightly behind the pressure sensor, focus on the peak or max values when necessary. The quicker you compress the syringe, the closer in time the pressure and temperature peaks will be.
   ```
 
-1. Highlight an area (click and drag with the mouse) on the temperature graph at the beginning of the data-collecting run, before you compressed the air in the syringe. The highlighted values of the selected data points will appear in the data table of **Capstone**. Record the initial pressure and the initial temperature as $P_{1}$ and $T_{1}$ in your Part 2 Data Table.
+1. Create a second *data table* for your ideal gas law measurements and calculations for your adiabatic analysis including, but not limited to:
+    - Measured values $V_0, V_1, P_1, V_2, P_2$
+    - Calculated values $V^\prime_1, V^\prime_2, Y_1, Y_2$
 
-2. Note the initial volume $V_{1}^\prime = V_{1} + V_{0}$ in your Part 2 Data Table.
+2. Highlight an area (click and drag with the mouse) on the temperature graph at the beginning of the data-collecting run, before you compressed the air in the syringe. The highlighted values of the selected data points will appear in the data table of **Capstone**. Record the initial pressure and the initial temperature as $P_{1}$ and $T_{1}$ in your Part 2 Data Table.
+
+3. Note the initial volume $V_{1}^\prime = V_{1} + V_{0}$ in your Part 2 Data Table.
 
 
-3. Highlight the area (click and drag with the mouse) on the temperature graph where the temperature peaks. The highlighted values of the selected data points will appear in the data table of **Capstone**. Note the peak temperature and the corresponding pressure at this instant as $P_{2}$ and $T_{2}$ in your Part 2 Data Table.
+4. Highlight the area (click and drag with the mouse) on the temperature graph where the temperature peaks. The highlighted values of the selected data points will appear in the data table of **Capstone**. Note the peak temperature and the corresponding pressure at this instant as $P_{2}$ and $T_{2}$ in your Part 2 Data Table.
 
-4. Note the volume $V_{2}^\prime = V_{2} + V_{0}$ in your Part 2 Data Table.
+5. Note the volume $V_{2}^\prime = V_{2} + V_{0}$ in your Part 2 Data Table.
 
-5. Calculate the ratio $Y_{1} = \frac{P_{1} V_{1}^\prime}{T_{1}}$ and record the result in your Part 2 Data Table.
+6. Calculate the ratio $Y_{1} = \frac{P_{1} V_{1}^\prime}{T_{1}}$ and record the result in your Part 2 Data Table.
 
-6. Calculate the ratio $Y_{2} = \frac{P_{2} V_{2}^\prime}{T_{2}}$ and record the result in your Part 2 Data Table.
+7. Calculate the ratio $Y_{2} = \frac{P_{2} V_{2}^\prime}{T_{2}}$ and record the result in your Part 2 Data Table.
 
-7. Assuming the most significant error is in the volume, compare the difference between the two ratios with your estimate of the uncertainty in the volume.
+8. Assuming the most significant error is in the volume, compare the difference between the two ratios with your estimate of the uncertainty in the volume.
 
-### Measurement of Absolute Zero
+9. Return to {ref}`ideal-gas-law-preliminary-acquisition` to repeat the previous steps for additional trials.
 
-1. Connect the Absolute Zero apparatus to the PasPort sensor (both the temperature sensor and the quick-release pressure port need to be connected).
+10. Create additional rows in your data tables for average and standard deviation calculations of your data for comparisons for each of the thermodynamic processes.
 
-2. Switch to the second page in your **Capstone** file (see {numref}`H01Fig07`)
+
+    ```{admonition} Continue to next experiment?
+    :class: important
+    ***If you are satisfied that you've completed all necessary calculations and comparisons (feel free to check with your professor), it is only at this point that you should continue to the next experiment.***
+    ```
+
+## Experimental Procedure --- Absolute Zero
+
+```{admonition} OVERVIEW --- Absolute Zero
+:class: note
+Investigate Ideal Gas Law relationships betweent temperature and pressure under constant volume to predict the value for Absolute Zero.
+
+Take **3 trials** of data by doing the following hot-warm-cold procedure three times (you would end up with three different plots in Captsone, **NOT** JUST KEEPING THREE DATA POINTS AT THE SAME TIME for a single plot)
+
+```
+
+1. Create a third *data table* for the measurement of absolute zero including, but not limited to:
+    - the pressure and temperature you measured at the hot, warm and cool temperatures
+    - $y$-intercept and the accepted value of $-273.15$°C
+
+2. Connect the Absolute Zero apparatus to the PasPort sensor (both the temperature sensor and the quick-release pressure port need to be connected).
+
+3. Switch to the second page in your **Capstone** file (see {numref}`H01Fig07`)
 
   ```{figure} IdealGasFigures/Figure07_v2025-01.png
   :name: H01Fig07
-  :width: 80%
+  :width: 90%
   :align: center
 
   Example of Page 2 in today's **Capstone** file for the absolute zero estimation.
@@ -188,7 +228,7 @@ Using the data from your Part 1 Data Table calculate the value for $V_{0}$ and n
 4. Now click on the **Continuous Mode** and select **Keep mode** from the pull-down menu that will appear. Click on the **Preview** button to start collecting data.
 --->
 
-3. Click on the **Preview** button to start collecting data. The data from the sensors will continuously update, but not save any data point until you press the **Keep Sample** button in the following steps.
+4. Click on the **Preview** button to start collecting data. The data from the sensors will continuously update, but not save any data point until you press the **Keep Sample** button in the following steps.
 
 5. Run the hot water until steam rises from the sink. Fill a pitcher to the 2 quart mark.
 
@@ -213,11 +253,6 @@ Using the data from your Part 1 Data Table calculate the value for $V_{0}$ and n
 
 
 
-## Data Analysis
-
-- Create a table for the analysis at constant temperature including the measured values $V_1, P_1, V_2, P_2$ and the calculated values $X_1, X_2$.
-- Create a table for the analysis with varying temperature including $V_0, V_1, P_1, V_2, P_2$ and the calculated values $V^\prime_1, V^\prime_2, Y_1, Y_2$.
-- Create a table for the measurement of absolute zero including the pressure and temperature you measured at the hot, warm and cool temperatures as well as the $y$-intercept and the accepted value of $-273.15$°C.
 
 ## Post-Lab Submission --- Interpretation of Results
 <!---
