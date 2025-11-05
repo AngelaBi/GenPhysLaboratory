@@ -412,13 +412,18 @@
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#moment-of-inertia-of-the-ring">Moment of Inertia of the Ring</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#moment-of-inertia-of-two-point-masses">Moment of Inertia of Two Point Masses</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conservation-of-angular-momentum">Conservation of Angular Momentum</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preliminary-setup">Preliminary Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-moment-of-inertia-of-a-thick-ring">Part I — Moment of Inertia of a <strong>Thick Ring</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-moment-of-inertia-of-two-point-masses">Part I — Moment of Inertia of <strong>Two Point Masses</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-conservation-of-angular-momentum">Part II — Conservation of Angular Momentum</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis">Data Analysis</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized Spreadsheets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#moment-of-inertia-post-lab">Moment of Inertia Post-Lab</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#angular-momentum-post-lab">Angular Momentum Post-Lab</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
             </nav>
@@ -443,7 +448,7 @@
 <li><p>Conservation of Angular Momentum by measuring angular velocity</p></li>
 </ul>
 </div>
-<p>The motion of an object can be divided into two, completely independent parts: the linear (translational) motion of the center of mass and the rotational motion of the object around an axis through the center of mass. The - Part 1: How do the values of both the <strong>ring’s</strong> and <strong>two-point masses’</strong> measured I compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?inear motion is explained by Newton’s 2nd Law of motion: a net force <span class="math notranslate nohighlight">\(F_{net}\)</span> acting on an object of mass <span class="math notranslate nohighlight">\(m\)</span> will cause the object to experience a linear acceleration <span class="math notranslate nohighlight">\(a\)</span> given by</p>
+<p>The motion of an object can be divided into two, completely independent parts: the linear (translational) motion of the center of mass and the rotational motion of the object around an axis through the center of mass. The linear motion is explained by Newton’s 2nd Law of motion: a net force <span class="math notranslate nohighlight">\(F_{net}\)</span> acting on an object of mass <span class="math notranslate nohighlight">\(m\)</span> will cause the object to experience a linear acceleration <span class="math notranslate nohighlight">\(a\)</span> given by</p>
 <div class="math notranslate nohighlight">
 \[F_{net} = m a.\]</div>
 <p>Rotational motion can be described in a very similar manner, but the quantities involved need to be changed to rotational quantities. These quantities are described and explained in detail in the following paragraphs.</p>
@@ -492,19 +497,19 @@ The calculation of the moment of inertia for more complex objects is a rather st
 The net torque acting on the pulley can be written as</p>
 <div class="math notranslate nohighlight">
 \[|\vec{\tau}_{\mbox{net}}| = T \, R_{P}\]</div>
-<p>where <span class="math notranslate nohighlight">\(T\)</span> is the tension in the string and <span class="math notranslate nohighlight">\(R_{P}\)</span> is the radius of the 3-step pulley. Since the tension is not known it has to be determined from the linear acceleration a of the hanging mass, using the net force acting on the mass <span class="math notranslate nohighlight">\(m\)</span> (see force diagram in the sketch):</p>
+<p>where <span class="math notranslate nohighlight">\(T\)</span> is the tension in the string and <span class="math notranslate nohighlight">\(R_{P}\)</span> is the radius of the 3-step pulley. Since the tension is not known it has to be determined from the linear acceleration a of the hanging mass, using the net force acting on the mass <span class="math notranslate nohighlight">\(m_\text{hanger}\)</span> (see force diagram in the sketch):</p>
 <div class="math notranslate nohighlight">
-\[F_{\mbox{net}} = m g - T = m a.\]</div>
+\[F_{\mbox{net}} = m_\text{hanger} g - T = m_\text{hanger} a.\]</div>
 <p>In addition the linear acceleration <span class="math notranslate nohighlight">\(a\)</span> is related to the angular acceleration <span class="math notranslate nohighlight">\(\alpha\)</span> by</p>
 <div class="math notranslate nohighlight">
 \[a = \alpha R_{P}.\]</div>
 <p>Using this set of equations one can now solve for the moment of inertia, <span class="math notranslate nohighlight">\(I\)</span>,</p>
 <div class="math notranslate nohighlight" id="equation-m08-rotation-eq07">
-<span class="eqno">(70)<a class="headerlink" href="#equation-m08-rotation-eq07" title="Permalink to this equation">#</a></span>\[I = \frac{m \left(g  R_{P} - \alpha R_{P}^2\right)}{\alpha}.\]</div>
+<span class="eqno">(70)<a class="headerlink" href="#equation-m08-rotation-eq07" title="Permalink to this equation">#</a></span>\[I = \frac{m_\text{hanger} \left(g  R_{P} - \alpha R_{P}^2\right)}{\alpha}.\]</div>
 <figure class="align-center" id="m08-rotation-fig01">
-<a class="reference internal image-reference" href="../_images/Figure011.jpg"><img alt="../_images/Figure011.jpg" src="../_images/Figure011.jpg" style="width: 60%;" /></a>
+<a class="reference internal image-reference" href="../_images/Figure01_v2025_02.png"><img alt="../_images/Figure01_v2025_02.png" src="../_images/Figure01_v2025_02.png" style="width: 60%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 46 </span><span class="caption-text">Left: Sketch of a pulley of mass <span class="math notranslate nohighlight">\(M\)</span> and radius <span class="math notranslate nohighlight">\(R\)</span> being accelerated by a hanging mass <span class="math notranslate nohighlight">\(m\)</span>. Note that the pulley in the lab is actually horizontal, but is drawn vertically here for simplicity. Right: Force diagram for the hanging mass <span class="math notranslate nohighlight">\(m\)</span>.</span><a class="headerlink" href="#m08-rotation-fig01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 46 </span><span class="caption-text">Left: Sketch of a pulley of mass <span class="math notranslate nohighlight">\(M\)</span> and radius <span class="math notranslate nohighlight">\(R\)</span> being accelerated by a hanging mass <span class="math notranslate nohighlight">\(m_\text{hanger}\)</span>. Note that the pulley in the lab is actually horizontal, but is drawn vertically here for simplicity. Right: Force diagram for the hanging mass <span class="math notranslate nohighlight">\(m_\text{hanger}\)</span>.</span><a class="headerlink" href="#m08-rotation-fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -527,8 +532,11 @@ The net torque acting on the pulley can be written as</p>
 </section>
 <section id="experimental-procedure">
 <h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
-<p>The experiment makes use of a sensor, which is able to detect and measure angular displacement, angular velocity, and angular acceleration. This Rotary Motion Sensor (RMS), with a <strong>stated uncertainty of 0.09°</strong>, is attached to a vertical rod and has a 3-step pulley affixed to its axle (see <a class="reference internal" href="#m08-rotation-fig02"><span class="std std-numref">Fig. 47</span></a>). Objects with different moment of inertia can be mounted onto the 3-step pulley and their rotational motion be measured. A second pulley (called a Super Pulley) is attached to the RMS to allow a string to spool off the 3-step pulley as shown in <a class="reference internal" href="#m08-rotation-fig02"><span class="std std-numref">Fig. 47</span></a> and <a class="reference internal" href="#m08-rotation-fig03"><span class="std std-numref">Fig. 48</span></a>. A weight hanger of known mass <span class="math notranslate nohighlight">\(m\)</span> is attached to the free end of the string and provides an accelerating torque to the 3-step pulley and therefore to the object mounted on it.</p>
-<p>In this experiment you will measure the angular acceleration from a graph of angular velocity vs. time using data recorded with the RMS. The data will be collected in <strong>Capstone</strong>, which also provides analysis tools. The moment of inertia of a ring and of two point masses will be determined from the angular acceleration. Finally, you will verify the validity of angular momentum conservation in an inelastic collision.</p>
+<section id="preliminary-setup">
+<h3>Preliminary Setup<a class="headerlink" href="#preliminary-setup" title="Permalink to this heading">#</a></h3>
+<p>The lab today makes use of a rotary sensor, which is able to detect and measure angular displacement, angular velocity, and angular acceleration. This Rotary Motion Sensor (RMS), with a <strong>stated uncertainty of 0.09°</strong>, is attached to a vertical rod and has a 3-step pulley affixed to its axle (see <a class="reference internal" href="#m08-rotation-fig02"><span class="std std-numref">Fig. 47</span></a>). Objects with different moment of inertia can be mounted onto the 3-step pulley and their rotational motion be measured. A second, black pulley (called a Super Pulley) is attached at an angle to the RMS to allow a string to spool off the 3-step pulley as shown in <a class="reference internal" href="#m08-rotation-fig02"><span class="std std-numref">Fig. 47</span></a>. A weight hanger of known mass <span class="math notranslate nohighlight">\(m_\text{hanger}\)</span> is attached to the free end of the string and provides an accelerating torque to the 3-step pulley and therefore to the object mounted on it.</p>
+<p>The objects to be mounted are either a disk with an accompanying thick ring in <a class="reference internal" href="#m08-rotation-fig03"><span class="std std-numref">Fig. 48</span></a> and a rod with point masses in <a class="reference internal" href="#m08-rotation-fig04"><span class="std std-numref">Fig. 49</span></a>.</p>
+<p>In this lab, you will run a Moment of Inertia experiment and an Angular Momentum experiment. You will first determine the angular acceleration from a graph of angular velocity vs. time using data recorded with the RMS. The data will be collected and analyzed in <strong>Capstone</strong>. The moment of inertia of both a ring and of two point masses will be determined from those experimental angular acceleration values. Finally in the Angular Momentum experiment, you will verify the validity of angular momentum conservation in an inelastic collision, and consider the parallel axis theorem.</p>
 <figure class="align-center" id="m08-rotation-fig02">
 <a class="reference internal image-reference" href="../_images/Figure02_v2025-01.png"><img alt="../_images/Figure02_v2025-01.png" src="../_images/Figure02_v2025-01.png" style="width: 50%;" /></a>
 <figcaption>
@@ -541,158 +549,158 @@ The net torque acting on the pulley can be written as</p>
 <p><span class="caption-number">Fig. 48 </span><span class="caption-text">Experimental setup of the RMS apparatus with disk alone (left) and with disk and ring mounted (right). The setup varies slightly from the one used in the lab.</span><a class="headerlink" href="#m08-rotation-fig03" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<section id="moment-of-inertia-of-the-ring">
-<h3>Moment of Inertia of the Ring<a class="headerlink" href="#moment-of-inertia-of-the-ring" title="Permalink to this heading">#</a></h3>
-<p>In Part 1 of the experiment you will measure the moment of inertia of the ring and of the apparatus by measuring angular acceleration with a known torque.</p>
+<figure class="align-center" id="m08-rotation-fig04">
+<a class="reference internal image-reference" href="../_images/Figure04_v2025-03.png"><img alt="../_images/Figure04_v2025-03.png" src="../_images/Figure04_v2025-03.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 49 </span><span class="caption-text">Sketch of similar setup but for “point masses” on a rotating rod. Left) Just apparatus (i.e. rod), Right) total from the apparatus and point masses combined.</span><a class="headerlink" href="#m08-rotation-fig04" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="part-i-moment-of-inertia-of-a-thick-ring">
+<h3>Part I — Moment of Inertia of a <strong>Thick Ring</strong><a class="headerlink" href="#part-i-moment-of-inertia-of-a-thick-ring" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW — Moment of Inertia of a Thick Ring</p>
+<p>Determine the moment of inertia of the ring by running 3 trials of:</p>
 <ul class="simple">
-<li><p>Create a Part 1 Data Table for your measurements and calculations of the moment of inertia of the ring.</p></li>
-<li><p>Determine the mass of the ring and note the result as <span class="math notranslate nohighlight">\(M_{\mbox{ring}}\)</span> in your Part 1 Data Table.</p></li>
-<li><p>Measure the inner and outer radii of the ring, using the calipers. Note the result as <span class="math notranslate nohighlight">\(R_{i}\)</span> and <span class="math notranslate nohighlight">\(R_{o}\)</span> in your Part 1 Data Table.</p></li>
-<li><p>Calculate the expected moment of inertia of the ring, using <a class="reference internal" href="#equation-m08-rotation-eq04">(67)</a> given in the Background. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{calc}}\)</span> in your Part 1 Data Table.</p></li>
+<li><p>Determining the moment of inertia of the combined apparatus plus ring (total) by measuring angular acceleration with a known torque in <strong>Capstone</strong></p></li>
+<li><p>Similarly determining the moment of inertia of the apparatus by itself (disk only, no ring)</p></li>
+</ul>
+</div>
+<ul>
+<li><p>Create a <em>data table</em> to find <span class="math notranslate nohighlight">\(I_{\mbox{expected,ringOnly}}\)</span> including:</p>
+<ul class="simple">
+<li><p>the ring mass <span class="math notranslate nohighlight">\(M_{\mbox{ring}}\)</span></p></li>
+<li><p>the inner and outer radii of the ring (<span class="math notranslate nohighlight">\(R_i\)</span>, <span class="math notranslate nohighlight">\(R_o\)</span>)</p></li>
+<li><p>the expected moment of inertia of the ring <span class="math notranslate nohighlight">\(I_{\mbox{expected,ringOnly}}\)</span></p></li>
+</ul>
+</li>
+<li><p>Create a <em>data table</em> to find <span class="math notranslate nohighlight">\(I_{\mbox{experimental,ringOnly}}\)</span> including:</p>
+<ul class="simple">
+<li><p>the hanging mass <span class="math notranslate nohighlight">\(m_\text{hanger}\)</span></p></li>
+<li><p>the radius of the pulley <span class="math notranslate nohighlight">\(R_P\)</span></p></li>
+<li><p>the experimental angular acceleration and moment of inertia with the ring and apparatus (total)</p></li>
+<li><p>the experimental angular acceleration and moment of inertia of the apparatus</p></li>
+<li><p>the experimental moment of inertia of the ring <span class="math notranslate nohighlight">\(I_{\mbox{experimental,ringOnly}}\)</span></p></li>
+</ul>
+</li>
+<li><p>Determine the mass of the ring and note the result as <span class="math notranslate nohighlight">\(M_{\mbox{ring}}\)</span> in your data table.</p></li>
+<li><p>Measure and record the inner and outer radii of the ring, using the calipers. Note the result as <span class="math notranslate nohighlight">\(R_{i}\)</span> and <span class="math notranslate nohighlight">\(R_{o}\)</span> in your data table.</p></li>
+<li><p>Calculate the expected moment of inertia of the ring, using <a class="reference internal" href="#equation-m08-rotation-eq04">(67)</a> given in the Background. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{expected,ringOnly}}\)</span> in your data table.</p></li>
 <li><p>Place the ring onto the disk, which should already be mounted on the Rotary Motion Sensor (RMS). The two pins of the ring should fit into the two holes on the disk.</p></li>
-<li><p>Note the mass of the hanger as <span class="math notranslate nohighlight">\(m\)</span> in your Data Table.</p></li>
-<li><p>Using the calipers measure the radius <span class="math notranslate nohighlight">\(R_{P}\)</span> of the middle pulley of the RMS and note your result in your Part 1 Data Table.</p></li>
-<li><p>Wind the string with the attached mass hanger onto the middle pulley of the RMS. You need to make sure that the string runs over the Super Pulley, is wound nicely onto the middle pulley of the RMS, and is leaving the pulley of the RMS tangentially before it runs straight over the Super Pulley.</p></li>
-<li><p>Measure the angular acceleration <span class="math notranslate nohighlight">\(\alpha_{\mbox{total}}\)</span> of the ring plus the apparatus (the disk and the RMS).</p>
+<li><p>Note the mass of the hanger as <span class="math notranslate nohighlight">\(m_\text{hanger}\)</span> in your Data Table.</p></li>
+<li><p>Using the calipers measure the radius <span class="math notranslate nohighlight">\(R_{P}\)</span> of the middle pulley of the RMS and note your result in your data table. NOT THE EDGES, MAKE SURE THE CALIPER FITS IN THE GROOVE. THERE IS AN ADDITIONAL EMPTY CLEAR PULLY IN YOUR BOX YOU CAN MEASURE FOR EASE OF USE (and for the angular momentum lab later on).</p></li>
+<li><p>Wind the string with the attached mass hanger onto the middle pulley of the RMS. You need to make sure that the string runs over the black Super Pulley (reminder, see off angle orientation noted in <a class="reference internal" href="#m08-rotation-fig02"><span class="std std-numref">Fig. 47</span></a>), is wound nicely onto the middle pulley of the RMS, and is leaving the pulley of the RMS tangentially before it runs straight over the Super Pulley.</p></li>
+<li><p>Measure the angular acceleration <span class="math notranslate nohighlight">\(\alpha_{\mbox{total,ring}}\)</span> of the ring plus the apparatus (i.e. the disk and the RMS).</p>
 <ol class="arabic simple">
 <li><p>Make sure that in <strong>Capstone</strong> you have a graph of angular velocity (<span class="math notranslate nohighlight">\(y\)</span>-axis) vs. time (<span class="math notranslate nohighlight">\(x\)</span>-axis) open.</p></li>
+</ol>
+<figure class="align-center" id="m08-rotation-fig05">
+<a class="reference internal image-reference" href="../_images/Figure05_v2025-02.png"><img alt="../_images/Figure05_v2025-02.png" src="../_images/Figure05_v2025-02.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 50 </span><span class="caption-text">Example of Page 1 in today’s <strong>Capstone</strong> file for both ring and point mass moment of inertia cases. Review notes in the text box to assist in your data taking and analysis.</span><a class="headerlink" href="#m08-rotation-fig05" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple" start="2">
 <li><p>Before releasing the mass hanger press the <strong>Record</strong> button on <strong>Capstone</strong>.</p></li>
 <li><p>Release the mass hanger and note that the recorded graph is a straight line.</p></li>
 <li><p>Press the <strong>Record</strong> button again right before the string is completely unwound from the pulley to stop recording any more data points.</p></li>
 <li><p>Using the <strong>Fit</strong> option in <strong>Capstone</strong>, fit a straight line (linear fit) to the data, in the region where the system is accelerating (highlight the data region in the graph you want to fit).</p></li>
-<li><p>The slope of this graph is the angular acceleration <span class="math notranslate nohighlight">\(\alpha_{\mbox{total}}\)</span>.</p></li>
+<li><p>The slope of this graph is the angular acceleration <span class="math notranslate nohighlight">\(\alpha_{\mbox{total,ring}}\)</span>.</p></li>
 <li><p>Note your result in your Data Table.</p></li>
 </ol>
 </li>
-<li><p>Calculate the moment of inertia of the apparatus plus the ring, using <a class="reference internal" href="#equation-m08-rotation-eq07">(70)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{total}}\)</span> in your Part 1 Data Table.</p></li>
-<li><p>Remove the ring from the apparatus and repeat the above steps to determine the moment of inertia of the apparatus without the ring. Note the results as <span class="math notranslate nohighlight">\(\alpha_{\mbox{app}}\)</span> and <span class="math notranslate nohighlight">\(I_{\mbox{app}}\)</span> in your Data Table.</p></li>
-<li><p>To determine the moment of inertia of the ring subtract <span class="math notranslate nohighlight">\(I_{\mbox{app}}\)</span> from <span class="math notranslate nohighlight">\(I_{\mbox{total}}\)</span>. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{exp}}\)</span> in your Data Table.</p></li>
-<li><p>Repeat the above measurements three times.</p></li>
+<li><p>Calculate the moment of inertia of the apparatus plus the ring, using <a class="reference internal" href="#equation-m08-rotation-eq07">(70)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{total,ring}}\)</span> in your data table.</p></li>
+<li><p>Remove the ring from the apparatus and repeat the above steps to determine the moment of inertia of the apparatus without the ring. Note the results as <span class="math notranslate nohighlight">\(\alpha_{\mbox{apparatus,ring}}\)</span> and <span class="math notranslate nohighlight">\(I_{\mbox{apparatus,ring}}\)</span> in your Data Table.</p></li>
+<li><p>To determine the moment of inertia of the ring, subtract <span class="math notranslate nohighlight">\(I_{\mbox{apparatus,ring}}\)</span> from <span class="math notranslate nohighlight">\(I_{\mbox{total,ring}}\)</span>. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{experimental,ringOnly}}\)</span> in your Data Table.</p></li>
+<li><p>Repeat the above measurements for a total of 3 trials.</p></li>
 <li><p>Calculate averages and standard deviations <span class="math notranslate nohighlight">\(\sigma(I)\)</span> for the moments of inertia.</p></li>
-<li><p>Compare the difference between your calculated value and the experimental value with its uncertainty.</p></li>
+<li><p>Compare the difference between your expected value and the experimental value with the standard deviation treated as your uncertainty range.</p></li>
 </ul>
 </section>
-<section id="moment-of-inertia-of-two-point-masses">
-<h3>Moment of Inertia of Two Point Masses<a class="headerlink" href="#moment-of-inertia-of-two-point-masses" title="Permalink to this heading">#</a></h3>
-<p>In Part 2 of the experiment, you will measure the moment of inertia of two point masses on a rod.</p>
+<section id="part-i-moment-of-inertia-of-two-point-masses">
+<h3>Part I — Moment of Inertia of <strong>Two Point Masses</strong><a class="headerlink" href="#part-i-moment-of-inertia-of-two-point-masses" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW — Moment of Inertia of Two Point Masses</p>
+<p>Determine the moment of inertia of the two point masses by running 3 trials of:</p>
 <ul class="simple">
-<li><p>Create a Part 2 Data Table for your measurements and calculations of the moment of inertia of the point masses.</p></li>
-<li><p>Please call the lab instructor for this: Mount the rod onto the pulley of the RMS.</p></li>
+<li><p>Determining the moment of inertia of the combined apparatus plus point masses (total) by measuring angular acceleration with a known torque in <strong>Capstone</strong></p></li>
+<li><p>Similarly determining the moment of inertia of the apparatus by itself (empty rod, no point masses)</p></li>
+</ul>
+</div>
+<ul>
+<li><p>Create a <em>data table</em> to find <span class="math notranslate nohighlight">\(I_{\mbox{expected,pointMassesOnly}}\)</span> including:</p>
+<ul class="simple">
+<li><p>the masses <span class="math notranslate nohighlight">\(M_1\)</span> and <span class="math notranslate nohighlight">\(M_2\)</span></p></li>
+<li><p>the radii <span class="math notranslate nohighlight">\(R_1\)</span> and <span class="math notranslate nohighlight">\(R_2\)</span></p></li>
+<li><p>the expected moment of inertia of the point masses together <span class="math notranslate nohighlight">\(I_{\mbox{expected,pointMassesOnly}}\)</span></p></li>
+</ul>
+</li>
+<li><p>Create a <em>data table</em> to find <span class="math notranslate nohighlight">\(I_{\mbox{experimental,pointMassesOnly}}\)</span> including:</p>
+<ul class="simple">
+<li><p>the hanging mass <span class="math notranslate nohighlight">\(m_\text{hanger}\)</span></p></li>
+<li><p>the radius of the pulley <span class="math notranslate nohighlight">\(R_P\)</span></p></li>
+<li><p>the experimental angular acceleration and moment of inertia of the apparatus (rod) and masses</p></li>
+<li><p>the experimental angular acceleration and moment of inertia of the apparatus</p></li>
+<li><p>the experimental moment of inertia of the masses <span class="math notranslate nohighlight">\(I_{\mbox{experimental,pointMassesOnly}}\)</span>.</p></li>
+</ul>
+</li>
+<li><p>Please call the lab instructor for assistance</p>
+<ul>
+<li><p>Mount the rod onto the pulley of the RMS by removing the disk and screw, flipping over the clear RMS pulley, and placing the rod onto the notches of the clear RMS pulley, then using the longer screw on the rod to tighten everything back together.</p>
+<div class="important admonition">
+<p class="admonition-title">DO NOT FORCE THE PULLEY (it’s slotted/keyed)</p>
+<ul class="simple">
+<li><p>Be gentle when re-applying the clear RMS pulley to the RMS, the RMS axel has a slot that the clear pulley is keyed to slide into</p></li>
+<li><p><strong>DO NOT FORCE IT</strong>, that will break the pulley</p></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
 <li><p>Determine the masses of the two brass weights (with screws) and note the result as <span class="math notranslate nohighlight">\(M_1\)</span> and <span class="math notranslate nohighlight">\(M_2\)</span> in your Data Table.</p></li>
 <li><p>Mount the masses into the end of the rod and fasten them with the screws. Measure the distance of the center of the masses from the center of the rod. Note the results as <span class="math notranslate nohighlight">\(R_1\)</span> and <span class="math notranslate nohighlight">\(R_2\)</span> in your Data Table.</p></li>
-<li><p>Calculate the expected moment of inertia of the two points masses, using <a class="reference internal" href="#equation-m08-rotation-eq01">(64)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{calc}}\)</span> in your Data Table.</p></li>
-<li><p>Note the mass of the hanger as <span class="math notranslate nohighlight">\(m\)</span> in your Data Table.</p></li>
-<li><p>Note the radius <span class="math notranslate nohighlight">\(R_{P}\)</span> of the middle pulley of the RMS in your Data Table (use the result from Part 1 above).</p></li>
+<li><p>Calculate the expected moment of inertia of the two points masses, using <a class="reference internal" href="#equation-m08-rotation-eq01">(64)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{expected,pointMassesOnly}}\)</span> in your Data Table.</p></li>
+<li><p>Note the mass of the hanger as <span class="math notranslate nohighlight">\(m_\text{hanger}\)</span> in your Data Table.</p></li>
+<li><p>Note the radius <span class="math notranslate nohighlight">\(R_{P}\)</span> of the middle pulley of the RMS in your Data Table (use the result from the previous case).</p></li>
 <li><p>Wind the string with the attached mass hanger onto the middle pulley of the RMS. You need to make sure that the string runs over the Super Pulley, is wound nicely onto the middle pulley of the RMS, and is leaving the pulley of the RMS tangentially before it runs straight over the Super Pulley.</p></li>
-<li><p>Measure the angular acceleration <span class="math notranslate nohighlight">\(\alpha_{\mbox{total}}\)</span> of the two masses plus the apparatus (the rod and the RMS):</p>
+<li><p>Measure the angular acceleration <span class="math notranslate nohighlight">\(\alpha_{\mbox{total,pointMasses}}\)</span> of the two masses plus the apparatus (the rod and the RMS):</p>
 <ol class="arabic simple">
-<li><p>Make sure that in <strong>Capstone</strong> you have a graph of angular velocity (<span class="math notranslate nohighlight">\(y\)</span>-axis) vs. time (<span class="math notranslate nohighlight">\(x\)</span>-axis) open.</p></li>
+<li><p>Make sure that in <strong>Capstone</strong> you have a graph of angular velocity (<span class="math notranslate nohighlight">\(y\)</span>-axis) vs. time (<span class="math notranslate nohighlight">\(x\)</span>-axis) open; same plot as seen in <a class="reference internal" href="#m08-rotation-fig05"><span class="std std-numref">Fig. 50</span></a>.</p></li>
 <li><p>Before releasing the mass hanger press the <strong>Record</strong> button on <strong>Capstone</strong>.</p></li>
 <li><p>Release the mass hanger and observe the recorded data points/graph.</p></li>
 <li><p>Press the <strong>Record</strong> button again right before the string is completely unwound from the pulley to stop recording any more data points.</p></li>
 <li><p>Discuss (among yourselves and with your instructor) the resulting graph before continuing.</p></li>
 <li><p>Using the <strong>Fit</strong> option in <strong>Capstone</strong>, fit a straight line (linear fit) to the data, in the region where the system is accelerating (highlight the data region in the graph you want to fit).</p></li>
-<li><p>The slope of this graph is the angular acceleration <span class="math notranslate nohighlight">\(\alpha_{\mbox{total}}\)</span>.</p></li>
+<li><p>The slope of this graph is the angular acceleration <span class="math notranslate nohighlight">\(\alpha_{\mbox{total,pointMasses}}\)</span>.</p></li>
 <li><p>Note your result in your Data Table.</p></li>
 </ol>
 </li>
-<li><p>Calculate the moment of inertia of the apparatus plus the two point masses, using <a class="reference internal" href="#equation-m08-rotation-eq07">(70)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{total}}\)</span> in your Data Table.</p></li>
-<li><p>Remove the two point masses from the apparatus and repeat the above steps to determine the moment of inertia of the apparatus without the two masses. Note the result as <span class="math notranslate nohighlight">\(I_{\mbox{app}}\)</span> in your Data Table. Please note that you need to again discuss the collected data points/graph with your lab instructor.</p></li>
-<li><p>To determine the moment of inertia of the two point masses subtract <span class="math notranslate nohighlight">\(I_{\mbox{app}}\)</span> from <span class="math notranslate nohighlight">\(I_{\mbox{total}}\)</span>. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{exp}}\)</span> in your Data Table.</p></li>
+<li><p>Calculate the moment of inertia of the apparatus plus the two point masses, using <a class="reference internal" href="#equation-m08-rotation-eq07">(70)</a> given in the Introduction. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{total,pointMasses}}\)</span> in your Data Table.</p></li>
+<li><p>Remove the two point masses from the apparatus and repeat the above steps to determine the moment of inertia of the apparatus without the two masses. Note the result as <span class="math notranslate nohighlight">\(I_{\mbox{apparatus,pointMasses}}\)</span> in your Data Table. Please note that you need to again discuss the collected data points/graph with your lab instructor.</p></li>
+<li><p>To determine the moment of inertia of the two point masses subtract <span class="math notranslate nohighlight">\(I_{\mbox{apparatus,pointMasses}}\)</span> from <span class="math notranslate nohighlight">\(I_{\mbox{total,pointMasses}}\)</span>. Note your result as <span class="math notranslate nohighlight">\(I_{\mbox{experimental,pointMassesOnly}}\)</span> in your Data Table.</p></li>
 <li><p>Repeat the above measurements three times.</p></li>
 <li><p>Calculate averages and standard deviations <span class="math notranslate nohighlight">\(\sigma(I)\)</span> for the moments of inertia.</p></li>
-<li><p>Compare the difference between your calculated value and the experimental value with its uncertainty.</p></li>
+<li><p>Compare the difference between your expected value and the experimental value with the standard deviation treated as your uncertainty range.</p></li>
 </ul>
 </section>
-<section id="conservation-of-angular-momentum">
-<h3>Conservation of Angular Momentum<a class="headerlink" href="#conservation-of-angular-momentum" title="Permalink to this heading">#</a></h3>
-<p>In Part 3 of the experiment you will observe the conservation of angular momentum in an inelastic collision.</p>
+<section id="part-ii-conservation-of-angular-momentum">
+<h3>Part II — Conservation of Angular Momentum<a class="headerlink" href="#part-ii-conservation-of-angular-momentum" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW — Conservation of Angular Momentum</p>
+<p>Confirm conservation of angular momentum by:</p>
 <ul class="simple">
-<li><p>Create a Part 3 Data Table for your measurements and calculations of the conservation of angular momentum.</p></li>
-<li><p>Please call the lab instructor for this: Mount the disk onto the pulley of the RMS.</p></li>
-<li><p>Copy the result of the moment of inertia of the ring (<span class="math notranslate nohighlight">\(I_{\mbox{ring}}\)</span>) from the Part 1 Data Table to your Part 3 Data Table.</p></li>
-<li><p>Copy the result of the moment of inertia of the apparatus, which includes the mounted disk (<span class="math notranslate nohighlight">\(I_{\mbox{app}}\)</span>) from the Part 1 Data Table your Part 3 Data Table.</p></li>
-<li><p>Hold the ring with the pins facing up just above the center of the disk.</p></li>
-<li><p>Practice the drop a few times before continuing:</p>
-<ol class="arabic simple">
-<li><p>Give the disk a spin with your hand.</p></li>
-<li><p>Hold the ring a few millimeters above the spinning disk centered on the axis of the disk.</p></li>
-<li><p>Drop the ring onto the spinning disk, so that the ring is centered on the disk.</p></li>
-</ol>
-</li>
-<li><p>Measure the angular speeds <span class="math notranslate nohighlight">\(\omega_{i}\)</span> and <span class="math notranslate nohighlight">\(\omega_{f}\)</span> (before and after dropping the ring onto the disk):</p>
-<ol class="arabic simple">
-<li><p>Make sure that in <strong>Capstone</strong> you have two graphs of angular position (<span class="math notranslate nohighlight">\(y\)</span>-axis) vs. time (<span class="math notranslate nohighlight">\(x\)</span>-axis) and of angular velocity (<span class="math notranslate nohighlight">\(y\)</span>-axis) vs. time (<span class="math notranslate nohighlight">\(x\)</span>-axis) open.</p></li>
-<li><p>Make sure that in <strong>Capstone</strong> you have a data table of the angular velocity open.</p></li>
-<li><p>Give the disk a spin with your hand and press the <strong>Record</strong> button on <strong>Capstone</strong>, while still holding the ring above the (now spinning) disk.</p></li>
-<li><p>Record about 25 data points (about 2–3 seconds), then let the disk drop onto the disk.</p></li>
-<li><p>Press the <strong>Record</strong> button again after collecting about 25 more points (again about 2–3 seconds).</p></li>
-<li><p>Using the <strong>Fit</strong> option in <strong>Capstone</strong>, fit a straight line (linear fit) to the angular position vs. time graph, in the two data regions (highlight the data region in the graph you want to fit).</p></li>
-<li><p>The two slopes are the angular velocities <span class="math notranslate nohighlight">\(\omega_i\)</span> and <span class="math notranslate nohighlight">\(\omega_f\)</span>.</p></li>
-<li><p>Discuss among yourselves and with your instructor why this will not be a good determination of the speeds <span class="math notranslate nohighlight">\(\omega_i\)</span> and <span class="math notranslate nohighlight">\(\omega_f\)</span>.</p></li>
-<li><p>Among yourselves and with your instructor discuss a better way to determine the speeds (Hint: Think about the exact instant at which you need to determine the speeds). Explain why your new method is better than the one mentioned above.</p></li>
-<li><p>Note the final results for the speeds <span class="math notranslate nohighlight">\(\omega_i\)</span> and <span class="math notranslate nohighlight">\(\omega_f\)</span> in your Part 3 Data Table.</p></li>
-</ol>
-</li>
-<li><p>Calculate the angular momentum of the disk-ring system before the ring is dropped onto the disk. Note your result as <span class="math notranslate nohighlight">\(L_i\)</span> in your Data Table.</p></li>
-<li><p>Calculate the angular momentum of the disk-ring system after the ring is dropped onto the disk. Note your result as <span class="math notranslate nohighlight">\(L_f\)</span> in your Data Table.</p></li>
-<li><p>Compare the difference between your calculated value and the experimental value with its uncertainty.</p></li>
-<li><p>Parallel Axis Theorem test:</p>
-<ul>
-<li><p>Run an additional test of the angular momentum part where you drop the ring to purposefully be off center.</p></li>
-<li><p>Measure the off-center distance <span class="math notranslate nohighlight">\({d_{cm}}\)</span> when the ring is all the way against the main axis of rotation of the metal plate (i.e. inner edge of the ring against the screw).</p></li>
-<li><p>Calculate the updated moment of inertia of the ring using the parallel axis theorem, <a class="reference internal" href="#equation-m08-rotation-eq09">(72)</a>.</p></li>
-<li><p>Spin the disk as fast as possible and drop the ring off center to the point where it ends up against the screw, akin to what you just measured for <span class="math notranslate nohighlight">\({d_{cm}}\)</span>.</p></li>
-<li><p>Record both the initial and final angular velocities.</p></li>
-<li><p>Calculate both the initial and final angular momentum.</p></li>
+<li><p>Determining the change in angular velocity and moment of inertia</p></li>
 </ul>
-</li>
-</ul>
-</section>
-</section>
-<section id="data-analysis">
-<h2>Data Analysis<a class="headerlink" href="#data-analysis" title="Permalink to this heading">#</a></h2>
-<p>The first experiment determines the moment of inertia of the ring by measuring its angular acceleration.</p>
+<p>Investigate the Parallel Axis Theorem by:</p>
 <ul class="simple">
-<li><p><strong>Create a table to find <span class="math notranslate nohighlight">\(I_{\mbox{calc}}\)</span> including:</strong></p>
+<li><p>Accounting for an object whose center of mass is not aligned with the axis of rotaion.</p></li>
+<li><p>Determining the change in angular velocity and moment of inertia</p></li>
+</ul>
+</div>
 <ul>
-<li><p>the ring mass <span class="math notranslate nohighlight">\(M_{\mbox{ring}}\)</span></p></li>
-<li><p>the inner and outer radii of the ring (<span class="math notranslate nohighlight">\(R_i\)</span>, <span class="math notranslate nohighlight">\(R_o\)</span>)</p></li>
-<li><p>the calculated moment of inertia <span class="math notranslate nohighlight">\(I_{\mbox{calc}}\)</span></p></li>
-</ul>
-</li>
-<li><p><strong>Create a table to find <span class="math notranslate nohighlight">\(I_{\mbox{exp}}\)</span> including:</strong></p>
-<ul>
-<li><p>the hanging mass <span class="math notranslate nohighlight">\(m\)</span></p></li>
-<li><p>the radius of the pulley <span class="math notranslate nohighlight">\(R_P\)</span></p></li>
-<li><p>the angular acceleration and calculated moment of inertia with the ring and apparatus</p></li>
-<li><p>the angular acceleration and calculated moment of inertia of the apparatus</p></li>
-<li><p>the experimental moment of inertia of the ring <span class="math notranslate nohighlight">\(I_{\mbox{exp}}\)</span></p></li>
-</ul>
-</li>
-</ul>
-<p>The second experiment determines the moment of inertia of a rod with two masses by measuring its angular acceleration.</p>
+<li><p>Create a <em>common data table</em> including <span class="math notranslate nohighlight">\(I_{\mbox{apparatus,ring}}\)</span> and <span class="math notranslate nohighlight">\(I_{\mbox{total,ring}}\)</span>.</p></li>
+<li><p>Create a <em>data table</em> with a row for each trial including</p>
 <ul class="simple">
-<li><p>▷ Create a table to find <span class="math notranslate nohighlight">\(I_{\mbox{calc}}\)</span> including</p>
-<ul>
-<li><p>the masses <span class="math notranslate nohighlight">\(M_1\)</span> and <span class="math notranslate nohighlight">\(M_2\)</span>,</p></li>
-<li><p>the radii <span class="math notranslate nohighlight">\(R_1\)</span> and <span class="math notranslate nohighlight">\(R_2\)</span>,</p></li>
-<li><p>the calculated moment of inertia of the masses <span class="math notranslate nohighlight">\(I_{\mbox{calc}}\)</span>.</p></li>
-</ul>
-</li>
-<li><p>▷ Create a table to find <span class="math notranslate nohighlight">\(I_{\mbox{exp}}\)</span> including:</p>
-<ul>
-<li><p>the hanging mass <span class="math notranslate nohighlight">\(m\)</span>,</p></li>
-<li><p>the radius of the pulley <span class="math notranslate nohighlight">\(R_P\)</span>,</p></li>
-<li><p>the angular acceleration and calculated moment of inertia of the apparatus (rod) and masses,</p></li>
-<li><p>the angular acceleration and calculated moment of inertia of the apparatus,</p></li>
-<li><p>the experimental moment of inertia of the masses <span class="math notranslate nohighlight">\(I_{\mbox{exp}}\)</span>.
-The third experiment in this lab shows conservation of angular momentum by illustrating the change in angular velocity with an increase in moment of inertia.</p></li>
-</ul>
-</li>
-<li><p>▷ Create a table of common data <span class="math notranslate nohighlight">\(I_{\mbox{ring}}\)</span> and <span class="math notranslate nohighlight">\(I_{\mbox{app}}\)</span>.</p></li>
-<li><p>▷ Create a table with a row for each trial including</p>
-<ul>
 <li><p>the initial angular velocity, <span class="math notranslate nohighlight">\(\omega_i\)</span>,</p></li>
 <li><p>the final angular velocity, <span class="math notranslate nohighlight">\(\omega_f\)</span>,</p></li>
 <li><p>the initial angular momentum, <span class="math notranslate nohighlight">\(L_i\)</span>,</p></li>
@@ -700,33 +708,156 @@ The third experiment in this lab shows conservation of angular momentum by illus
 <li><p>the change in angular momentum, <span class="math notranslate nohighlight">\(\Delta L\)</span>.</p></li>
 </ul>
 </li>
+<li><p>Please call the lab instructor for assistance:</p>
+<ol class="arabic">
+<li><p>Change out the current clear RMS pulley (with a string and hanging mass) for the empty RMS pulley.</p></li>
+<li><p>Mount the disk onto the empty RMS pulley.</p>
+<div class="important admonition">
+<p class="admonition-title">DO NOT FORCE THE PULLEY (it’s slotted/keyed)</p>
+<ul class="simple">
+<li><p>Be gentle when re-applying the clear RMS pulley to the RMS, the RMS axel has a slot that the clear pulley is keyed to slide into</p></li>
+<li><p><strong>DO NOT FORCE IT</strong>, that will break the pulley</p></li>
 </ul>
+</div>
+</li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+</li>
+<li><p>Copy your experimental value for the moment of inertia of the apparatus <span class="math notranslate nohighlight">\(I_{\mbox{apparatus,ring}}\)</span> (i.e. just the disk) from the first experiment for use here (reminder, you can easily reference cells in Excel).</p></li>
+<li><p>Copy your experimental value for the moment of inertia of the ring plus apparatus <span class="math notranslate nohighlight">\(I_{\mbox{total,ring}}\)</span> from the first experiment.</p></li>
+<li><p>Hold the ring with the pins facing up just above the center of the disk.</p></li>
+<li><p><strong>Practice</strong> the drop a few times before continuing:</p>
+<ol class="arabic simple">
+<li><p>Give the disk a quick spin with your hand.</p></li>
+<li><p>Hold the ring a few millimeters above the spinning disk centered on the axis of the disk.</p></li>
+<li><p>Drop the ring onto the spinning disk, so that the ring is centered on the disk.</p></li>
+</ol>
+</li>
+<li><p>Measure the angular speeds <span class="math notranslate nohighlight">\(\omega_{i}\)</span> and <span class="math notranslate nohighlight">\(\omega_{f}\)</span> (before and after dropping the ring onto the disk):</p>
+<ol class="arabic simple">
+<li><p>Switch to page 2 in your <strong>Capstone</strong> file. You shouce have a graph of angular position (<span class="math notranslate nohighlight">\(y\)</span>-axis) vs. time (<span class="math notranslate nohighlight">\(x\)</span>-axis); see <a class="reference internal" href="#m08-rotation-fig06"><span class="std std-numref">Fig. 51</span></a>.</p></li>
+</ol>
+<figure class="align-center" id="m08-rotation-fig06">
+<a class="reference internal image-reference" href="../_images/Figure06_v2025-03.png"><img alt="../_images/Figure06_v2025-03.png" src="../_images/Figure06_v2025-03.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 51 </span><span class="caption-text">Example of Page 2 in today’s <strong>Capstone</strong> file for the angular momentum experiment. Review notes in the text box to assist in your data taking and analysis. Note the region in the plot <em>before</em> and <em>after</em> the collision.</span><a class="headerlink" href="#m08-rotation-fig06" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple" start="2">
+<li><p>Press the <strong>Record</strong> button in <strong>Capstone</strong>.</p></li>
+<li><p>Give the disk a spin with your hand and notice the angular position change.</p></li>
+<li><p>Ensure you’ve recorded a few seconds of data, then drop the ring as centered as you can onto the disk.</p></li>
+<li><p>Press the <strong>Stop</strong> button after collecting a few more seconds of data.</p></li>
+<li><p>Using the <strong>Highlight Data</strong> tool, highlight first the data region immediately before the collision; <span class="math notranslate nohighlight">\(\sim 0.5\,\text{seconds}\)</span>.</p></li>
+<li><p>Using the <strong>Curve Fit</strong> tool, fit a straight line (linear fit) to that highlighted data, and record the slope as initial angular velocity <span class="math notranslate nohighlight">\(\omega_i\)</span>.</p></li>
+<li><p>Shift your data hightlight box to immediately after the collision; again covering <span class="math notranslate nohighlight">\(\sim 0.5\,\text{seconds}\)</span>.</p></li>
+<li><p>The curve fit should update, and you can record the slope as final angular velocity <span class="math notranslate nohighlight">\(\omega_f\)</span>.</p></li>
+</ol>
+</li>
+<li><p>Calculate the angular momentum of the appartus before the ring is dropped onto the disk. Note your result as <span class="math notranslate nohighlight">\(L_i\)</span> in your Data Table.</p></li>
+<li><p>Calculate the angular momentum of the disk-plus-ring system after the ring is dropped onto the disk. Note your result as <span class="math notranslate nohighlight">\(L_f\)</span> in your Data Table.</p></li>
+<li><p>Compare the difference between your expected value and the experimental value, also compare with a percent difference.</p>
+<div class="question admonition">
+<p class="admonition-title">Discussion Point: Conserved?</p>
+<ul class="simple">
+<li><p>Is angular momentum <span class="math notranslate nohighlight">\(L\)</span> conserved?</p></li>
+<li><p>What might cause any discrepancies in the conservation of angular momentum?</p></li>
+</ul>
+</div>
+</li>
+<li><p>Parallel Axis Theorem test:</p>
+<ul>
+<li><p>Run an additional test of the angular momentum part where you drop the ring to purposefully be off center.</p></li>
+<li><p>Measure the off-center distance <span class="math notranslate nohighlight">\({d_{cm}}\)</span> when the ring is all the way against the main axis of rotation of the metal plate (i.e. inner edge of the ring against the screw).</p></li>
+<li><p>Calculate the updated moment of inertia of the ring using the parallel axis theorem, <a class="reference internal" href="#equation-m08-rotation-eq09">(72)</a>.</p></li>
+<li><p>Spin the disk as fast as possible and drop the ring off center to the point where it ends up against the screw, akin to what you just measured for <span class="math notranslate nohighlight">\({d_{cm}}\)</span>.</p></li>
+<li><p>Record both the initial and final angular velocities.</p></li>
+<li><p>Calculate both the initial and final angular momentum.</p>
+<div class="question admonition">
+<p class="admonition-title">Discussion Point: Off-axis</p>
+<ul class="simple">
+<li><p>What is the effect of dropping the ring off-center?</p></li>
+<li><p>Is <span class="math notranslate nohighlight">\(L\)</span> conserved when considering the off-axis portion?</p></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</section>
 </section>
 <section id="post-lab-submission-interpretation-of-results">
 <h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<p>This week’s lab is built of essentially two different, but still related to rotational motion, experiments. To assist in your analysis and writeups, the suggested talking points below are broken up into the Moment of Inertia and Angular Momentum parts of the lab. You will still have single document for error analysis and single document for results as assignments in Blackboard.</p>
+<section id="finalized-spreadsheets">
+<h3>Finalized Spreadsheets<a class="headerlink" href="#finalized-spreadsheets" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Make sure to submit your finalized data table (Excel sheet).</p></li>
+<li><p>Make sure to submit your finalized data table (Excel sheet).</p>
+<ul>
+<li><p>Please include relevant screenshots of your Capstone plots including:</p>
+<ul>
+<li><p>Moment of Inertia:</p>
+<ul>
+<li><p>1 plot of Angular Velocity vs. Time for disk (apparatus)</p></li>
+<li><p>1 plot of Angular Vecotity vs. Time for disk plus thick black ring (total)</p></li>
+<li><p>1 plot of Angular Velocity vs. Time for empty rod (apparatus)</p></li>
+<li><p>1 plot of Angular Vecotity vs. Time for empty rod plus point masses (total)</p></li>
+</ul>
+</li>
+<li><p>Angular Momentum:</p>
+<ul>
+<li><p>1 plot of Angular Position vs. Time showing changing slope before and after collision (dropping of ring)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="moment-of-inertia-post-lab">
+<h3>Moment of Inertia Post-Lab<a class="headerlink" href="#moment-of-inertia-post-lab" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
 <li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative, not only quantitative.</p>
 <ul>
 <li><p>What are your measurement uncertainties for each experiment?</p></li>
 <li><p>What are possible systematic uncertainties for each experiment?</p></li>
-<li><p>How do these uncertainties affect your final results for <span class="math notranslate nohighlight">\(I\)</span> and <span class="math notranslate nohighlight">\(L\)</span>?</p></li>
+<li><p>How do these uncertainties affect your final results for <span class="math notranslate nohighlight">\(I\)</span>?</p></li>
 </ul>
 </li>
 <li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case. Consider:</p>
 <ul>
-<li><p>Part 1: How do the values of both the <span class="math notranslate nohighlight">\(\textbf{ring's}\)</span> and <span class="math notranslate nohighlight">\(\textbf{two-point masses'}\)</span> measured <span class="math notranslate nohighlight">\(I\)</span> compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?</p></li>
+<li><p>Part 1: How do the values of both the <strong>ring’s</strong> and <strong>two-point masses’</strong> measured <span class="math notranslate nohighlight">\(I\)</span> compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?</p></li>
 <li><p>Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in <strong>Capstone</strong>). Why does this happen?</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="angular-momentum-post-lab">
+<h3>Angular Momentum Post-Lab<a class="headerlink" href="#angular-momentum-post-lab" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative, not only quantitative.</p>
+<ul>
+<li><p>What are your measurement uncertainties for each experiment?</p></li>
+<li><p>What are possible systematic uncertainties for each experiment?</p></li>
+<li><p>How do these uncertainties affect your final results for <span class="math notranslate nohighlight">\(L\)</span>?</p></li>
+</ul>
+</li>
+<li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case. Consider:</p>
+<ul>
 <li><p>Part 2: Is angular momentum <span class="math notranslate nohighlight">\(L\)</span> conserved? What might cause any discrepancies in the conservation of angular momentum?</p></li>
 <li><p>Part 2: What is the effect of dropping the ring off-center? Is <span class="math notranslate nohighlight">\(L\)</span> conserved when considering the off-axis portion?</p></li>
 </ul>
 </li>
 </ul>
 </section>
+</section>
 <section id="the-whiteboard">
 <h2>The Whiteboard<a class="headerlink" href="#the-whiteboard" title="Permalink to this heading">#</a></h2>
 <figure class="align-center" id="rot1">
-<a class="reference internal image-reference" href="../_images/RotationalDynamics_2024_Fall_01.jpg"><img alt="../_images/RotationalDynamics_2024_Fall_01.jpg" src="../_images/RotationalDynamics_2024_Fall_01.jpg" style="width: 600px;" /></a>
+<a class="reference internal image-reference" href="../_images/RotationalDynamics_2024_Fall_01.jpg"><img alt="../_images/RotationalDynamics_2024_Fall_01.jpg" src="../_images/RotationalDynamics_2024_Fall_01.jpg" style="width: 100%;" /></a>
 </figure>
 </section>
 </section>
@@ -805,13 +936,18 @@ The third experiment in this lab shows conservation of angular momentum by illus
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#moment-of-inertia-of-the-ring">Moment of Inertia of the Ring</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#moment-of-inertia-of-two-point-masses">Moment of Inertia of Two Point Masses</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conservation-of-angular-momentum">Conservation of Angular Momentum</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preliminary-setup">Preliminary Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-moment-of-inertia-of-a-thick-ring">Part I — Moment of Inertia of a <strong>Thick Ring</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-moment-of-inertia-of-two-point-masses">Part I — Moment of Inertia of <strong>Two Point Masses</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-conservation-of-angular-momentum">Part II — Conservation of Angular Momentum</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis">Data Analysis</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized Spreadsheets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#moment-of-inertia-post-lab">Moment of Inertia Post-Lab</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#angular-momentum-post-lab">Angular Momentum Post-Lab</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
   </nav></div>

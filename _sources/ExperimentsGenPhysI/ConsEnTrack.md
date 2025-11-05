@@ -9,6 +9,7 @@ In this lab, you will use an inclined, frictionless airtrack to:
 - Investigate energy conservation by determining potential and kinetic energies of a glider.
 ```
 
+<!--- use y instead of h in mgh, e.g. mgY since we use H for the height of the spacer(s)--->
 
 **Energy cannot be created nor destroyed.** All that can really happen is a change in its form. We shall consider the conservation of mechanical energy, in particular, the sum of the kinetic energy and potential energy of a mass. The kinetic energy is due to the motion of the mass and the potential energy is due to the relative position of the mass in the earth's gravitational field. This total mechanical energy can only change if nonconservative forces are acting on any part of the system. We will examine the exchange of kinetic and potential energy and the conservation of mechanical energy under the presumption of no nonconservative forces acting. If the mechanical energy is not conserved we will attempt to determine potential sources of nonconservative work being done that would change the mechanical energy.
 
