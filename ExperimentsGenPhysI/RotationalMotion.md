@@ -5,30 +5,49 @@
 
 ```{admonition} OVERALL GOALS
 :class: note
-Conduct two experiments by using both a thick ring and point masses to investigate:
- - Moment of inertia of rotating objects by determining angular acceleration
- - Conservation of Angular Momentum by measuring angular velocity
+Conduct two experiments to investigate:
+- ***Moment of inertia*** by determining angular acceleration for:
+  - two point masses (mounted on a rod)
+  - thick ring (placed on a disk)
+- ***Conservation of Angular Momentum*** by determining angular velocity for:
+  - thick ring dropped centered on axis of rotation
+  - thick ring dropped off-axis
 ```
 
-The motion of an object can be divided into two, completely independent parts: the linear (translational) motion of the center of mass and the rotational motion of the object around an axis through the center of mass. The linear motion is explained by Newton's 2nd Law of motion: a net force $F_{net}$ acting on an object of mass $m$ will cause the object to experience a linear acceleration $a$ given by
+The motion of an object can be divided into two, completely independent parts: the **linear** (translational) motion of the center of mass and the **rotational** motion of the object around an axis *through the center of mass*. The linear motion is explained by Newton's 2nd Law of motion: a net force $F_{net}$ acting on an object of mass $m$ will cause the object to experience a linear acceleration $a$ given by
 
 ```{math}
-F_{net} = m a.
+F_{net} = m a
 ```
 
 Rotational motion can be described in a very similar manner, but the quantities involved need to be changed to rotational quantities. These quantities are described and explained in detail in the following paragraphs.
 
 ### Moment of Inertia
 
-In rotational motion the moment of inertia (usually denoted by $I$) takes the role of mass. An object with a large value of $I$ will be reluctant to change its rotational motion. Just as mass this quantity is a scalar, meaning that it has no direction. The moment of inertia of a system of objects can be determined easily by adding the moment of inertia of each of the different components making up the entire system. The moment of inertia depends not only on the mass of the object but also on how the mass is distributed with respect to the axis of rotation. The further the mass is away from the axis of rotation, the higher the moment of inertia will be. For a point mass (an object that can be considered small with respect to its distance from the axis of rotation) the moment of inertia is defined as
+In rotational motion the moment of inertia (usually denoted by $I$) takes the role of mass. An object with a large value of $I$ will be reluctant to change its rotational motion. Just as mass this quantity is a scalar, meaning that it has no direction. The moment of inertia of a system of objects can be determined easily by adding the moment of inertia of each of the different components making up the entire system. The moment of inertia depends not only on the mass of the object but also on how the mass is distributed with respect to the axis of rotation. The further the mass is away from the axis of rotation, the higher the moment of inertia will be. For a ***point mass*** (an object that can be considered small with respect to its distance from the axis of rotation) the moment of inertia is defined as
 
 ```{math}
 :label: M08_rotation_Eq01
 I = m\, R^{2}
 ```
 
-where $m$ is the mass of the object and $R$ is the distance of the object from the axis of rotation.
+where $m$ is the mass of the object and $R$ is the distance of the object from the axis of rotation. 
+
 The calculation of the moment of inertia for more complex objects is a rather straightforward process, but can be very tedious. In most cases simple expressions can be found to calculate the value of $I$. The list below gives the moment of inertia for a few objects used in this lab:
+
+- **Multiple point masses** of mass $M_{i}$ and radius $R_{i}$ considered as a single object, the moment of inertia can be represented as the sum of $N$ point masses:
+
+```{math}
+:label: M08_rotation_Eq01_multi
+I_\text{allPointMasses} = \sum_{i=1}^N I_i = \sum_{i=1}^N M_i\,R_i^{2}
+```
+
+- A **thin rod** of mass $M_{rod}$ and length $L_{rod}$ rotating about an axis through its center:
+
+```{math}
+:label: M08_rotation_Eq02_rod
+I= \frac{1}{12} M_{rod} \, L_{rod}^{2}
+```
 
 - A **solid disk** of mass $M_{D}$ and radius $R_{D}$ rotating about an axis through its center:
 
@@ -64,11 +83,11 @@ Here $\vec{d}$ denotes the lever arm (directed outward from the center) and $\ve
 
 ### Newton's 2nd Law for Rotational Motion
 
-With the above definitions we can now formulate a rotational version of Newton's 2nd Law. An object with moment of inertia $I$ will experience an angular acceleration $\vec{\alpha}$, if a net torque $\vec{\tau}_{\mbox{net}}$ acts on it
+With the above definitions we can now formulate a rotational version of Newton's 2nd Law. An object with moment of inertia $I$ will experience an angular acceleration $\vec{\alpha}$, if a net torque $\vec{\tau}_{\text{net}}$ acts on it
 
 ```{math}
 :label: M08_rotation_Eq06
-\vec{\tau}_{\mbox{net}} = I \vec{\alpha}.
+\vec{\tau}_{\text{net}} = I \vec{\alpha}.
 ```
 
 ### Calculating the Moment of Inertia
@@ -76,20 +95,20 @@ With the above definitions we can now formulate a rotational version of Newton's
 One can use Newton's 2nd Law for Rotational Motion to calculate the moment of inertia of an object from the angular acceleration $\alpha$ and the net torque acting on the object.
 
 ```{math}
-I = \frac{\left|\vec{\tau}_{\mbox{net}}\right|}{\left|\vec{\alpha}\right|}
+I = \frac{\left|\vec{\tau}_{\text{net}}\right|}{\left|\vec{\alpha}\right|}
 ```
 
 The simplified sketch in {numref}`M08_rotation_Fig01` shows the setup used in this lab.
 The net torque acting on the pulley can be written as
 
 ```{math}
-|\vec{\tau}_{\mbox{net}}| = T \, R_{P}
+|\vec{\tau}_{\text{net}}| = T \, R_{P}
 ```
 
 where $T$ is the tension in the string and $R_{P}$ is the radius of the 3-step pulley. Since the tension is not known it has to be determined from the linear acceleration a of the hanging mass, using the net force acting on the mass $m_\text{hanger}$ (see force diagram in the sketch):
 
 ```{math}
-F_{\mbox{net}} = m_\text{hanger} g - T = m_\text{hanger} a.
+F_{\text{net}} = m_\text{hanger} g - T = m_\text{hanger} a.
 ```
 
 In addition the linear acceleration $a$ is related to the angular acceleration $\alpha$ by
@@ -150,11 +169,11 @@ where ${I_{cm}}$ is the moment of inertia about an axis through the center of ma
 ## Experimental Procedure
 
 ### Preliminary Setup
-The lab today makes use of a rotary sensor, which is able to detect and measure angular displacement, angular velocity, and angular acceleration. This Rotary Motion Sensor (RMS), with a **stated uncertainty of 0.09°**, is attached to a vertical rod and has a 3-step pulley affixed to its axle (see {numref}`M08_rotation_Fig02`). Objects with different moment of inertia can be mounted onto the 3-step pulley and their rotational motion be measured. A second, black pulley (called a Super Pulley) is attached at an angle to the RMS to allow a string to spool off the 3-step pulley as shown in {numref}`M08_rotation_Fig02`. A weight hanger of known mass $m_\text{hanger}$ is attached to the free end of the string and provides an accelerating torque to the 3-step pulley and therefore to the object mounted on it.
+The lab today makes use of a rotary sensor, which is able to detect and measure angular displacement, angular velocity, and angular acceleration. This Rotary Motion Sensor (RMS), with a **stated uncertainty of 0.09°**, is attached to a vertical rod and has a 3-step pulley affixed to its axle (see {numref}`M08_rotation_Fig02`). Objects with different moments of inertia can be mounted onto the 3-step pulley and their rotational motion be measured. A second, black pulley (called a Super Pulley) is attached ***at an angle*** to the RMS to allow a string to spool off the 3-step pulley as shown in {numref}`M08_rotation_Fig02`. A weight hanger of known mass $m_\text{hanger}$ is attached to the free end of the string and provides an accelerating ***torque*** to the 3-step pulley and therefore to the object mounted on it.
 
-The objects to be mounted are either a disk with an accompanying thick ring in {numref}`M08_rotation_Fig03` and a rod with point masses in {numref}`M08_rotation_Fig04`.
+The objects to be mounted are either a rod with point masses in {numref}`M08_rotation_Fig04` and a disk with an accompanying thick ring in {numref}`M08_rotation_Fig03`.
 
-In this lab, you will run a Moment of Inertia experiment and an Angular Momentum experiment. You will first determine the angular acceleration from a graph of angular velocity vs. time using data recorded with the RMS. The data will be collected and analyzed in **Capstone**. The moment of inertia of both a ring and of two point masses will be determined from those experimental angular acceleration values. Finally in the Angular Momentum experiment, you will verify the validity of angular momentum conservation in an inelastic collision, and consider the parallel axis theorem.
+In this lab, you will run a ***Moment of Inertia*** experiment and an ***Angular Momentum*** experiment. You will first determine the angular acceleration from a graph of angular velocity vs. time using data recorded with the RMS. The data will be collected and analyzed in **Capstone**. The moment of inertia of both two point masses and a thick ring will be determined from those experimental angular acceleration values. Finally in the Angular Momentum experiment, you will verify the validity of angular momentum conservation in an inelastic collision, and consider the parallel axis theorem.
 
 ```{figure} RotationalMotionFigures/Figure02_v2025-01.png
 :name: M08_rotation_Fig02
@@ -162,6 +181,15 @@ In this lab, you will run a Moment of Inertia experiment and an Angular Momentum
 :align: center
 
 Rotary Motion Sensor (RMS) with 3-step pulley (transparent) and Super Pulley (black). Super pulley should be at an angle to ensure the thread lines up tangent to the 3-step pulley.
+```
+
+
+```{figure} RotationalMotionFigures/Figure04_v2025-03.png
+:name: M08_rotation_Fig04
+:width: 80%
+:align: center
+
+Sketch of the RMS apparatus setup for "point masses" on a rotating rod. Left) Just apparatus (i.e. rod), Right) total from the apparatus and point masses combined.
 ```
 
 ```{figure} RotationalMotionFigures/Figure03_v2025-01.png
@@ -173,41 +201,106 @@ Experimental setup of the RMS apparatus with disk alone (left) and with disk and
 ```
 
 
-```{figure} RotationalMotionFigures/Figure04_v2025-03.png
-:name: M08_rotation_Fig04
+```{figure} RotationalMotionFigures/Figure07_v2025-01.png
+:name: M08_rotation_Fig07
 :width: 80%
 :align: center
 
-Sketch of similar setup but for "point masses" on a rotating rod. Left) Just apparatus (i.e. rod), Right) total from the apparatus and point masses combined.
+Experimental setup of the Conservation of Angular Momentum experiment with **collisions*: Left) Thick ring dropped on-axis, Right) Thick ring dropped off-axis.
 ```
 
-### Part I --- Moment of Inertia of a **Thick Ring**
+
+### Part I$_\text{a}$ --- Moment of Inertia of **Two Point Masses**
+
+```{admonition} OVERVIEW --- Moment of Inertia of Two Point Masses
+:class: note
+Determine the moment of inertia of the two point masses (denoted as *pointMassesOnly*) by running 3 trials of:
+ - Determining the moment of inertia of the combined apparatus plus point masses (denoted as *pulleyRodPointMasses*) by measuring angular acceleration with a known torque in **Capstone**
+ - Similarly determining the moment of inertia of the apparatus by itself (empty rod, no point masses, denoted as *pulleyRodOnly*)
+```
+
+- Create a *data table* to find $I_{\text{expected,pointMassesOnly}}$ including:
+  - the masses $M_1$ and $M_2$
+  - the radii $R_1$ and $R_2$
+  - the expected moment of inertia of the point masses together $I_{\text{expected,pointMassesOnly}}$
+- Create a *data table* to find $I_{\text{experimental,pointMassesOnly}}$ including:
+  - the hanging mass $m_\text{hanger}$
+  - the radius of the pulley $R_P$
+  - the total experimental angular acceleration and moment of inertia of the apparatus with masses (pulleyRodPointMasses) 
+  - the experimental angular acceleration and moment of inertia of just the apparatus (pulleyRodOnly) 
+  - the experimental moment of inertia of just the point masses $I_{\text{experimental,pointMassesOnly}}$.
+- Please call the lab instructor for assistance if not yet set up:
+  - Mount the rod onto the pulley of the RMS by removing the screw, remounting the clear RMS pulley with the key/slot in the widest-at-top orientation (see {numref}`M08_rotation_Fig04`), and placing the rod onto the notches of the clear RMS pulley, then using the longer screw on the rod to tighten everything back together.
+    ```{admonition} DO NOT FORCE THE PULLEY (it's slotted/keyed)
+     :class: important
+     - Be gentle when re-applying the clear RMS pulley to the RMS, the RMS axel has a slot that the clear pulley is keyed to slide into
+     - **DO NOT FORCE IT**, that will break the pulley
+    ```
+- Determine the masses of the two brass weights (with screws) and note the result as $M_1$ and $M_2$ in your Data Table.
+- Mount the masses into the end of the rod and fasten them with the screws. Measure the distance of the center of the masses from the center of the rod. Note the results as $R_1$ and $R_2$ in your Data Table.
+- Calculate the expected moment of inertia of just the two points masses, using {eq}`M08_rotation_Eq01` and {eq}`M08_rotation_Eq01_multi` given in the Introduction. Note your result as $I_{\text{expected,pointMassesOnly}}$ in your Data Table.
+- Note the mass of the hanger as $m_\text{hanger}$ in your Data Table.
+- Note the radius $R_{P}$ of the middle pulley of the RMS in your Data Table (use the result from the previous case).
+- Wind the string, with the mass hanger attached, counter-clockwise onto the middle pulley of the RMS. You need to make sure that the string is wound nicely onto the clear middle pulley of the RMS, leaves tangentially from the clear pulley straight in line with and over the black Super Pulley (reminder, see off angle orientation noted in {numref}`M08_rotation_Fig02`).
+- Measure the angular acceleration of the whole system $\alpha_{\text{experimental,pulleyRodPointMasses}}$ (i.e. of the two masses plus the apparatus):
+  1. Make sure that in **Capstone** you have a graph of angular velocity ($y$-axis) vs. time ($x$-axis) open; same plot as seen in {numref}`M08_rotation_Fig05`.
+  2. Before releasing the mass hanger press the **Record** button on **Capstone**.
+  3. Release the mass hanger and observe the recorded data points/graph.
+  4. Press the **Record** button again right before the string is completely unwound from the pulley to stop recording any more data points.
+  5. Discuss (among yourselves and with your instructor) the resulting graph before continuing.
+  6. Using the **Fit** option in **Capstone**, fit a straight line (linear fit) to the data, in the region where the system is accelerating (highlight the data region in the graph you want to fit).
+  7. The slope of this graph is the angular acceleration $\alpha_{\text{experimental,pulleyRodPointMasses}}$.
+  8. Note your result in your Data Table.
+- Calculate the moment of inertia of the apparatus plus the two point masses, using {eq}`M08_rotation_Eq07` given in the Introduction. Note your result as $I_{\text{experimental,pulleyRodPointMasses}}$ in your Data Table.
+- Remove the two point masses from the apparatus and repeat the above steps to determine the moment of inertia of the apparatus without the two masses. Note the result as $I_{\text{experimental,pulleyRodOnly}}$ in your Data Table. Please note that you need to again discuss the collected data points/graph with your lab instructor.
+
+    ```{admonition} Constant or Variable Angular Acceleration? Linear vs. Non-linear?
+    :class: question
+    Notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in Capstone). Why does this happen?
+    
+    Discuss the collected data points/graph with your lab group and lab instructor
+    ```
+
+- To determine the moment of inertia of the two point masses subtract $I_{\text{experimental,pulleyRodOnly}}$ from $I_{\text{experimental,pulleyRodPointMasses}}$. Note your result as $I_{\text{experimental,pointMassesOnly}}$ in your Data Table.
+- Repeat the above measurements for a total of 3 trials.
+- Calculate averages and standard deviations $\sigma(I)$ for the moments of inertia.
+- Compare the difference between your expected value and the experimental value with the standard deviation treated as your uncertainty range.
+
+
+### Part I$_\text{b}$ --- Moment of Inertia of a **Thick Ring**
 
 ```{admonition} OVERVIEW --- Moment of Inertia of a Thick Ring
 :class: note
-Determine the moment of inertia of the ring by running 3 trials of:
- - Determining the moment of inertia of the combined apparatus plus ring (total) by measuring angular acceleration with a known torque in **Capstone**
- - Similarly determining the moment of inertia of the apparatus by itself (disk only, no ring)
+Determine the moment of inertia of the ring (denoted as *ringOnly*) by running 3 trials of:
+ - Determining the moment of inertia of the combined apparatus plus ring (denoted as *pulleyDiskRing*) by measuring angular acceleration with a known torque in **Capstone**
+ - Similarly determining the moment of inertia of the apparatus by itself (disk only, no ring, denoted as *pulleyDiskOnly*)
 ```
 
-- Create a *data table* to find $I_{\mbox{expected,ringOnly}}$ including:
-    - the ring mass $M_{\mbox{ring}}$
+- Create a *data table* to find $I_{\text{expected,ringOnly}}$ including:
+    - the ring mass $M_{\text{ring}}$
     - the inner and outer radii of the ring ($R_i$, $R_o$)
-    - the expected moment of inertia of the ring $I_{\mbox{expected,ringOnly}}$
-- Create a *data table* to find $I_{\mbox{experimental,ringOnly}}$ including:
+    - the expected moment of inertia of the ring $I_{\text{expected,ringOnly}}$
+- Create a *data table* to find $I_{\text{experimental,ringOnly}}$ including:
     - the hanging mass $m_\text{hanger}$
     - the radius of the pulley $R_P$
-    - the experimental angular acceleration and moment of inertia with the ring and apparatus (total)
-    - the experimental angular acceleration and moment of inertia of the apparatus
-    - the experimental moment of inertia of the ring $I_{\mbox{experimental,ringOnly}}$
-- Determine the mass of the ring and note the result as $M_{\mbox{ring}}$ in your data table.
+    - the experimental angular acceleration and moment of inertia with the apparatus with the ring (pulleyDiskRing)
+    - the experimental angular acceleration and moment of inertia of just the apparatus (pulleyDiskOnly)
+    - the experimental moment of inertia of the ring $I_{\text{experimental,ringOnly}}$
+- Please call the lab instructor for assistance:
+  - Mount the disk onto the pulley of the RMS by removing the screw and rod, flipping over and remounting the clear RMS pulley with the key/slot lined up and in the smallest-at-top orientation (see {numref}`M08_rotation_Fig02` & {numref}`M08_rotation_Fig03`), and placing the disk onto the square of the clear RMS pulley, then using the shorter screw to tighten everything back together.
+    ```{admonition} DO NOT FORCE THE PULLEY (it's slotted/keyed)
+     :class: important
+     - Be gentle when re-applying the clear RMS pulley to the RMS, the RMS axel has a slot that the clear pulley is keyed to slide into
+     - **DO NOT FORCE IT**, that will break the pulley
+    ```
+- Determine the mass of the ring and note the result as $M_{\text{ring}}$ in your data table.
 - Measure and record the inner and outer radii of the ring, using the calipers. Note the result as $R_{i}$ and $R_{o}$ in your data table.
-- Calculate the expected moment of inertia of the ring, using {eq}`M08_rotation_Eq04` given in the Background. Note your result as $I_{\mbox{expected,ringOnly}}$ in your data table.
+- Calculate the expected moment of inertia of the ring, using {eq}`M08_rotation_Eq04` given in the Background. Note your result as $I_{\text{expected,ringOnly}}$ in your data table.
 - Place the ring onto the disk, which should already be mounted on the Rotary Motion Sensor (RMS). The two pins of the ring should fit into the two holes on the disk.
 - Note the mass of the hanger as $m_\text{hanger}$ in your Data Table.
 - Using the calipers measure the radius $R_{P}$ of the middle pulley of the RMS and note your result in your data table. NOT THE EDGES, MAKE SURE THE CALIPER FITS IN THE GROOVE. THERE IS AN ADDITIONAL EMPTY CLEAR PULLY IN YOUR BOX YOU CAN MEASURE FOR EASE OF USE (and for the angular momentum lab later on).
-- Wind the string with the attached mass hanger onto the middle pulley of the RMS. You need to make sure that the string runs over the black Super Pulley (reminder, see off angle orientation noted in {numref}`M08_rotation_Fig02`), is wound nicely onto the middle pulley of the RMS, and is leaving the pulley of the RMS tangentially before it runs straight over the Super Pulley.
-- Measure the angular acceleration $\alpha_{\mbox{total,ring}}$ of the ring plus the apparatus (i.e. the disk and the RMS).
+- Wind the string, with the mass hanger attached, counter-clockwise onto the middle pulley of the RMS. You need to make sure that the string is wound nicely onto the clear middle pulley of the RMS, leaves tangentially from the clear pulley straight in line with and over the black Super Pulley (reminder, see off angle orientation noted in {numref}`M08_rotation_Fig02`).
+- Measure the angular acceleration $\alpha_{\text{total,ring}}$ of the ring plus the apparatus (i.e. the disk and the RMS).
   1. Make sure that in **Capstone** you have a graph of angular velocity ($y$-axis) vs. time ($x$-axis) open.
   ```{figure} RotationalMotionFigures/Figure05_v2025-02.png
   :name: M08_rotation_Fig05
@@ -220,62 +313,15 @@ Determine the moment of inertia of the ring by running 3 trials of:
   3. Release the mass hanger and note that the recorded graph is a straight line.
   4. Press the **Record** button again right before the string is completely unwound from the pulley to stop recording any more data points.
   5. Using the **Fit** option in **Capstone**, fit a straight line (linear fit) to the data, in the region where the system is accelerating (highlight the data region in the graph you want to fit).
-  6. The slope of this graph is the angular acceleration $\alpha_{\mbox{total,ring}}$.
+  6. The slope of this graph is the angular acceleration $\alpha_{\text{total,ring}}$.
   7. Note your result in your Data Table.
-- Calculate the moment of inertia of the apparatus plus the ring, using {eq}`M08_rotation_Eq07` given in the Introduction. Note your result as $I_{\mbox{total,ring}}$ in your data table.
-- Remove the ring from the apparatus and repeat the above steps to determine the moment of inertia of the apparatus without the ring. Note the results as $\alpha_{\mbox{apparatus,ring}}$ and $I_{\mbox{apparatus,ring}}$ in your Data Table.
-- To determine the moment of inertia of the ring, subtract $I_{\mbox{apparatus,ring}}$ from $I_{\mbox{total,ring}}$. Note your result as $I_{\mbox{experimental,ringOnly}}$ in your Data Table.
+- Calculate the moment of inertia of the apparatus plus the ring, using {eq}`M08_rotation_Eq07` given in the Introduction. Note your result as $I_{\text{total,ring}}$ in your data table.
+- Remove the ring from the apparatus and repeat the above steps to determine the moment of inertia of the apparatus without the ring. Note the results as $\alpha_{\text{apparatus,ring}}$ and $I_{\text{apparatus,ring}}$ in your Data Table.
+- To determine the moment of inertia of the ring, subtract $I_{\text{apparatus,ring}}$ from $I_{\text{total,ring}}$. Note your result as $I_{\text{experimental,ringOnly}}$ in your Data Table.
 - Repeat the above measurements for a total of 3 trials.
 - Calculate averages and standard deviations $\sigma(I)$ for the moments of inertia.
 - Compare the difference between your expected value and the experimental value with the standard deviation treated as your uncertainty range.
 
-### Part I --- Moment of Inertia of **Two Point Masses**
-
-```{admonition} OVERVIEW --- Moment of Inertia of Two Point Masses
-:class: note
-Determine the moment of inertia of the two point masses by running 3 trials of:
- - Determining the moment of inertia of the combined apparatus plus point masses (total) by measuring angular acceleration with a known torque in **Capstone**
- - Similarly determining the moment of inertia of the apparatus by itself (empty rod, no point masses)
-```
-
-- Create a *data table* to find $I_{\mbox{expected,pointMassesOnly}}$ including:
-  - the masses $M_1$ and $M_2$
-  - the radii $R_1$ and $R_2$
-  - the expected moment of inertia of the point masses together $I_{\mbox{expected,pointMassesOnly}}$
-- Create a *data table* to find $I_{\mbox{experimental,pointMassesOnly}}$ including:
-  - the hanging mass $m_\text{hanger}$
-  - the radius of the pulley $R_P$
-  - the experimental angular acceleration and moment of inertia of the apparatus (rod) and masses
-  - the experimental angular acceleration and moment of inertia of the apparatus
-  - the experimental moment of inertia of the masses $I_{\mbox{experimental,pointMassesOnly}}$.
-- Please call the lab instructor for assistance
-  - Mount the rod onto the pulley of the RMS by removing the disk and screw, flipping over the clear RMS pulley, and placing the rod onto the notches of the clear RMS pulley, then using the longer screw on the rod to tighten everything back together.
-    ```{admonition} DO NOT FORCE THE PULLEY (it's slotted/keyed)
-     :class: important
-     - Be gentle when re-applying the clear RMS pulley to the RMS, the RMS axel has a slot that the clear pulley is keyed to slide into
-     - **DO NOT FORCE IT**, that will break the pulley
-    ```
-- Determine the masses of the two brass weights (with screws) and note the result as $M_1$ and $M_2$ in your Data Table.
-- Mount the masses into the end of the rod and fasten them with the screws. Measure the distance of the center of the masses from the center of the rod. Note the results as $R_1$ and $R_2$ in your Data Table.
-- Calculate the expected moment of inertia of the two points masses, using {eq}`M08_rotation_Eq01` given in the Introduction. Note your result as $I_{\mbox{expected,pointMassesOnly}}$ in your Data Table.
-- Note the mass of the hanger as $m_\text{hanger}$ in your Data Table.
-- Note the radius $R_{P}$ of the middle pulley of the RMS in your Data Table (use the result from the previous case).
-- Wind the string with the attached mass hanger onto the middle pulley of the RMS. You need to make sure that the string runs over the Super Pulley, is wound nicely onto the middle pulley of the RMS, and is leaving the pulley of the RMS tangentially before it runs straight over the Super Pulley.
-- Measure the angular acceleration $\alpha_{\mbox{total,pointMasses}}$ of the two masses plus the apparatus (the rod and the RMS):
-  1. Make sure that in **Capstone** you have a graph of angular velocity ($y$-axis) vs. time ($x$-axis) open; same plot as seen in {numref}`M08_rotation_Fig05`.
-  2. Before releasing the mass hanger press the **Record** button on **Capstone**.
-  3. Release the mass hanger and observe the recorded data points/graph.
-  4. Press the **Record** button again right before the string is completely unwound from the pulley to stop recording any more data points.
-  5. Discuss (among yourselves and with your instructor) the resulting graph before continuing.
-  6. Using the **Fit** option in **Capstone**, fit a straight line (linear fit) to the data, in the region where the system is accelerating (highlight the data region in the graph you want to fit).
-  7. The slope of this graph is the angular acceleration $\alpha_{\mbox{total,pointMasses}}$.
-  8. Note your result in your Data Table.
-- Calculate the moment of inertia of the apparatus plus the two point masses, using {eq}`M08_rotation_Eq07` given in the Introduction. Note your result as $I_{\mbox{total,pointMasses}}$ in your Data Table.
-- Remove the two point masses from the apparatus and repeat the above steps to determine the moment of inertia of the apparatus without the two masses. Note the result as $I_{\mbox{apparatus,pointMasses}}$ in your Data Table. Please note that you need to again discuss the collected data points/graph with your lab instructor.
-- To determine the moment of inertia of the two point masses subtract $I_{\mbox{apparatus,pointMasses}}$ from $I_{\mbox{total,pointMasses}}$. Note your result as $I_{\mbox{experimental,pointMassesOnly}}$ in your Data Table.
-- Repeat the above measurements three times.
-- Calculate averages and standard deviations $\sigma(I)$ for the moments of inertia.
-- Compare the difference between your expected value and the experimental value with the standard deviation treated as your uncertainty range.
 
 
 ### Part II --- Conservation of Angular Momentum
@@ -290,7 +336,7 @@ Investigate the Parallel Axis Theorem by:
   - Determining the change in angular velocity and moment of inertia
 ```
 
-- Create a *common data table* including $I_{\mbox{apparatus,ring}}$ and $I_{\mbox{total,ring}}$.
+- Create a *common data table* including $I_{\text{apparatus,ring}}$ and $I_{\text{total,ring}}$.
 - Create a *data table* with a row for each trial including
   - the initial angular velocity, $\omega_i$,
   - the final angular velocity, $\omega_f$,
@@ -300,18 +346,18 @@ Investigate the Parallel Axis Theorem by:
 - Please call the lab instructor for assistance:
   1. Change out the current clear RMS pulley (with a string and hanging mass) for the empty RMS pulley.
   2. Mount the disk onto the empty RMS pulley.
-      ```{admonition} DO NOT FORCE THE PULLEY (it's slotted/keyed)
-     :class: important
-     - Be gentle when re-applying the clear RMS pulley to the RMS, the RMS axel has a slot that the clear pulley is keyed to slide into
-     - **DO NOT FORCE IT**, that will break the pulley
+    ```{admonition} DO NOT FORCE THE PULLEY (it's slotted/keyed)
+    :class: important
+    - Be gentle when re-applying the clear RMS pulley to the RMS, the RMS axel has a slot that the clear pulley is keyed to slide into
+    - **DO NOT FORCE IT**, that will break the pulley
     ```
-- Copy your experimental value for the moment of inertia of the apparatus $I_{\mbox{apparatus,ring}}$ (i.e. just the disk) from the first experiment for use here (reminder, you can easily reference cells in Excel).
-- Copy your experimental value for the moment of inertia of the ring plus apparatus $I_{\mbox{total,ring}}$ from the first experiment.
+- Copy your experimental value for the moment of inertia of the apparatus $I_{\text{apparatus,ring}}$ (i.e. just the disk) from the first experiment for use here (reminder, you can easily reference cells in Excel).
+- Copy your experimental value for the moment of inertia of the ring plus apparatus $I_{\text{total,ring}}$ from the first experiment.
 - Hold the ring with the pins facing up just above the center of the disk.
 - **Practice** the drop a few times before continuing:
   1. Give the disk a quick spin with your hand.
   2. Hold the ring a few millimeters above the spinning disk centered on the axis of the disk.
-  3. Drop the ring onto the spinning disk, so that the ring is centered on the disk.
+  3. Drop the ring onto the spinning disk, so that the ring is centered on the disk (see {numref}`M08_rotation_Fig07`-left).
 - Measure the angular speeds $\omega_{i}$ and $\omega_{f}$ (before and after dropping the ring onto the disk):
   1. Switch to page 2 in your **Capstone** file. You shouce have a graph of angular position ($y$-axis) vs. time ($x$-axis); see {numref}`M08_rotation_Fig06`.
     ```{figure} RotationalMotionFigures/Figure06_v2025-03.png
@@ -340,7 +386,7 @@ Investigate the Parallel Axis Theorem by:
     ```
 
 - Parallel Axis Theorem test:
-  - Run an additional test of the angular momentum part where you drop the ring to purposefully be off center.
+  - Run an additional test of the angular momentum part where you drop the ring to purposefully be off center (see {numref}`M08_rotation_Fig07`-right).
   - Measure the off-center distance ${d_{cm}}$ when the ring is all the way against the main axis of rotation of the metal plate (i.e. inner edge of the ring against the screw).
   - Calculate the updated moment of inertia of the ring using the parallel axis theorem, {eq}`M08_rotation_Eq09`.
   - Spin the disk as fast as possible and drop the ring off center to the point where it ends up against the screw, akin to what you just measured for ${d_{cm}}$.
@@ -354,6 +400,30 @@ Investigate the Parallel Axis Theorem by:
     ```
 
 
+14. ***BEFORE CLOSING CAPSTONE:***
+    ```{admonition} Photo of Experimental Data
+    :class: important
+    Ensure you've taken a screenshot/photo of your graphs for your spreadsheet submission:
+      - Moment of Inertia:
+        - 1 plot of Angular Velocity vs. Time for disk (apparatus)
+        - 1 plot of Angular Velocity vs. Time for disk plus thick black ring (total)
+        - 1 plot of Angular Velocity vs. Time for empty rod (apparatus)
+        - 1 plot of Angular Velocity vs. Time for empty rod plus point masses (total)
+      - Angular Momentum:
+        - 1 plot of Angular Position vs. Time showing changing slope before and after collision (dropping of ring)
+    ```
+
+
+15. ***BEFORE LEAVING LAB:***
+    ```{admonition} ✨🧹 PLEASE CLEAN UP & RETURN LAB TO ORIGINAL STATE 🧹✨
+    :class: important
+    - Remount the rod with the clear pulley with string and hanging mass for the first experiment.
+    - Put away all the other parts in the provided box.
+    - Close, **DO NOT SAVE**, the Capstone file you used today.
+    - Don't leave a mess, leave it better than you found it, thank you.
+    ```
+
+
 
 ## Post-Lab Submission --- Interpretation of Results
 
@@ -364,9 +434,9 @@ This week's lab is built of essentially two different, but still related to rota
     - Please include relevant screenshots of your Capstone plots including:
       - Moment of Inertia:
         - 1 plot of Angular Velocity vs. Time for disk (apparatus)
-        - 1 plot of Angular Vecotity vs. Time for disk plus thick black ring (total)
+        - 1 plot of Angular Velocity vs. Time for disk plus thick black ring (total)
         - 1 plot of Angular Velocity vs. Time for empty rod (apparatus)
-        - 1 plot of Angular Vecotity vs. Time for empty rod plus point masses (total)
+        - 1 plot of Angular Velocity vs. Time for empty rod plus point masses (total)
       - Angular Momentum:
         - 1 plot of Angular Position vs. Time showing changing slope before and after collision (dropping of ring)
 
