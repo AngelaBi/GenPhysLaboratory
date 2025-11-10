@@ -79,7 +79,7 @@ The picture shows the Ideal Gas Law experimental apparatus. The two cables comin
 :width: 80%
 :align: center
 
-This picture shows the experimental methods for the Ideal Gas Law (left) and Absolute Zero (right) experiments. In both cases the temperature and pressure connectors are plugged into the PasPort Absolute Pressure/Temperature Sensor (the small blue box).
+This picture shows the experimental methods for the Ideal Gas Law (left) and Absolute Zero (right) experiments. In both cases the temperature and pressure connectors are plugged into the PasPort Absolute Pressure Temperature Sensor (the small blue box).
 ```
 
 (overall-ideal-gas-law-data-acquisition)=
@@ -145,9 +145,9 @@ Take **3 trials** of data, you can then analyze each trial in two different ways
 
 4. Calculate the ratio of final pressure over the initial pressure, $X_{2} = P_{2}/P_{1}$ and record the result in your Part 1 Data Table.
 
-5. Compare the two ratios. According to the ideal gas law ({eq}`eq-idealgas`) the two values should be equal, since $P_{1} V_{1} = P_{2} V_{2}$ for constant temperature (note that the temperature is room temperature in both cases). Discuss, first amongst yourselves and then with your instructor, why the values are different.
+5. Compare the two ratios. According to the ideal gas law {eq}`eq-idealgas` the two values should be equal, since $P_{1} V_{1} = P_{2} V_{2}$ for constant temperature (note that the temperature is room temperature in both cases). Discuss, first amongst yourselves and then with your instructor, why the values are different.
 
-By now you have (hopefully) figured out that you have not accounted for the small amount of volume of air inside the tubing of the apparatus. Using the ideal gas law ({eq}`eq-idealgas`) and the data you collected in part 1, you can actually calculate this volume $V_{0}$ by solving the following equation for $V_{0}$
+By now you have (hopefully) figured out that you have not accounted for the small amount of volume of air inside the tubing of the apparatus. Using the ideal gas law {eq}`eq-idealgas` and the data you collected in part 1, you can actually calculate this volume $V_{0}$ by solving the following equation for $V_{0}$
 
 ```{math}
 :label: eq-volume-correction
@@ -155,6 +155,11 @@ By now you have (hopefully) figured out that you have not accounted for the smal
 ```
 
 Using the data from your first data table, calculate the value for $V_{0}$ and note the result for use in your upcoming data table.
+
+
+6. Take a screenshot/photo of your graph --- 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Isothermal Compression. Note which locations on the plot you are using for your measurements. Adjust axes as necessary.
+
+
 
 ### Analysis Part II --- Varying Temperature and No Energy Loss (Adiabatic)
 
@@ -190,6 +195,7 @@ Using the data from your first data table, calculate the value for $V_{0}$ and n
 
 10. Create additional rows in your data tables for average and standard deviation calculations of your data for comparisons for each of the thermodynamic processes.
 
+11. Take a screenshot/photo of your graph --- 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Adiabatic Compression. Note which locations on the plot you are using for your measurements. Adjust axes as necessary.
 
     ```{admonition} Continue to next experiment?
     :class: important
@@ -202,15 +208,14 @@ Using the data from your first data table, calculate the value for $V_{0}$ and n
 :class: note
 Investigate Ideal Gas Law relationships betweent temperature and pressure under constant volume to predict the value for Absolute Zero.
 
-Take **3 trials** of data by doing the following hot-warm-cold procedure three times (you would end up with three different plots in Captsone, **NOT** JUST KEEPING THREE DATA POINTS AT THE SAME TIME for a single plot)
-
+Take **1 trial** of data by doing the following hot-warm-cold procedure.\
 ```
 
 1. Create a third *data table* for the measurement of absolute zero including, but not limited to:
-    - the pressure and temperature you measured at the hot, warm and cool temperatures
+    - the pressure and temperature you measured at the hot, warm, and cold temperatures
     - $y$-intercept and the accepted value of $-273.15$°C
 
-2. Connect the Absolute Zero apparatus to the PasPort sensor (both the temperature sensor and the quick-release pressure port need to be connected).
+2. Connect the Absolute Zero apparatus to the PasPort Absolute Pressure Temperature sensor (both the temperature sensor and the quick-release pressure port need to be connected, see {numref}`H01Fig01b` and {numref}`H01Fig02`-right).
 
 3. Switch to the second page in your **Capstone** file (see {numref}`H01Fig07`)
 
@@ -232,13 +237,13 @@ Take **3 trials** of data by doing the following hot-warm-cold procedure three t
 
 5. Run the hot water until steam rises from the sink. Fill a pitcher to the 2 quart mark.
 
-6. First fully submerge the sphere in hot water: Observe the data points appearing on the graph. Make sure the sphere stays completely submerged the entire time you take data. Once the temperature has reached equilibrium (i.e. the value in the digital display no longer changes), press the **Keep Sample** button (Do **NOT** stop the data collection by clicking on the red square button again). Read and note the values for pressure and temperature in your data table.
+6. ***Hot*** --- First fully submerge the sphere in hot water (see {numref}`H01Fig02`-right): Observe the data points appearing on the graph. Make sure the sphere stays completely submerged the entire time you take data. Once the temperature has reached equilibrium (i.e. the value in the digital display no longer changes), press the **Keep Sample** button (Do **NOT** stop the data collection by clicking on the red square button again). Read and note the values for pressure and temperature in your data table.
 
-7. Next remove half of the water in your container and replace it with cold water from the sink. Again fully submerge the sphere in the water and make sure the sphere stays completely submerged the entire time you take data. Note how the point moves in the Temperature vs. Pressure graph as the values change. Discuss the outcome among yourselves and with your instructor. Once the temperature is stable again (this will take a few minutes) press the **Keep Sample** button again. Read off and note the values for pressure and temperature in your data table.
+7. ***Warm*** --- Next remove half of the water in your container and replace it with cold water from the sink to get warm water. Again fully submerge the sphere in the water and make sure the sphere stays completely submerged the entire time you take data. Note how the point moves in the Temperature vs. Pressure graph as the values change. Discuss the outcome among yourselves and with your instructor. Once the temperature is stable again (this will take a few minutes) press the **Keep Sample** button again. Read off and note the values for pressure and temperature in your data table.
 
-8. Finally submerge the sphere in the cold water. Once again you need to make sure the sphere is completely submerged during the time you take data. Note how the point moves in the Temperature vs. Pressure graph as the values change. Discuss the outcome among yourselves and with your instructor. Once the temperature is stable again (this will take a few minutes) press the **Keep Sample** button again. Read off and note the values for pressure and temperature in your data table.
+8. ***Cold*** --- Finally submerge the sphere in the cold water. Once again you need to make sure the sphere is completely submerged during the time you take data. Note how the point moves in the Temperature vs. Pressure graph as the values change. Discuss the outcome among yourselves and with your instructor. Once the temperature is stable again (this will take a few minutes) press the **Keep Sample** button again. Read off and note the values for pressure and temperature in your data table.
 
-9. Press the **Record** button once again on **Capstone** to stop recording data.
+9. Press the **Stop** button to stop recording data.
 
 10. Using the fitting tool in **Capstone**, fit a straight line to the 3 data points you have taken.
 
@@ -248,7 +253,28 @@ Take **3 trials** of data by doing the following hot-warm-cold procedure three t
 
     ```{math}
     :label: H7-PercentDiff
-    \text{% Difference} = \frac{\text{Final Value} - \text{Initial Value}}{\text{Initial Value}} \times 100\%
+    \text{% Difference} = \frac{\text{Experimental Value} - \text{Accepted Value}}{\text{Accepted Value}} \times 100\%
+    ```
+
+13. Take a screenshot/photo of your graph --- 1 of Temperature vs. Pressure plot with axes scaled to see y-intercept(full absolute zero extrapolation). Note which locations on the plot you are using for your measurements. Adjust axes to show $time = 0$, i.e. the y-intercept.
+
+
+14. ***BEFORE CLOSING CAPSTONE:***
+    ```{admonition} Photo of Experimental Data
+    :class: important
+    Ensure you've taken a screenshot/photo of your graphs for your spreadsheet submission:
+      - 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Isothermal Compression
+      - 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Adiabatic Compression
+      - 1 of Temperature vs. Pressure plot with axes scaled to see y-intercept(full absolute zero extrapolation)
+    ```
+
+15. ***BEFORE LEAVING LAB:***
+    ```{admonition} ✨🧹 PLEASE CLEAN UP & RETURN LAB TO ORIGINAL STATE 🧹✨
+    :class: important
+    - Dry off the space.
+    - Put away the plunger and wand in the pitcher.
+    - Close, **DO NOT SAVE**, the Capstone file you used today.
+    - Don't leave a mess, leave it better than you found it, thank you.
     ```
 
 
