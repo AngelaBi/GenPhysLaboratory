@@ -156,6 +156,9 @@ By now you have (hopefully) figured out that you have not accounted for the smal
 
 Using the data from your first data table, calculate the value for $V_{0}$ and note the result for use in your upcoming data table.
 
+<!---
+MAKE V_0 the AVERAGE VALUE TO USE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+--->
 
 6. Take a screenshot/photo of your graph --- 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Isothermal Compression. Note which locations on the plot you are using for your measurements. Adjust axes as necessary.
 
