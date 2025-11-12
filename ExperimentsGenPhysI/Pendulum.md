@@ -3,6 +3,13 @@
 
 ## Background
 
+```{admonition} OVERALL GOALS
+:class: note
+Investigate the simple harmonic motion of a simple pendulum by:
+- Examining the relationship between a simple pendulum's length and period
+- Determining acceleration due to g
+```
+
 In this lab, the acceleration due to gravity is determined by measuring the parameters of the nearly simple harmonic motion of a simple pendulum.  The construction of the pendulum and restrictions on the motion of the pendulum permit some simplifying assumptions to be used to derive a relationship for $g$ in terms of easily measured parameters.
 
 The gravitational attraction of the Earth on any massive body provides a force, which can accelerate a mass free to move under the influence of this force.  This acceleration $g$ is dependent on the mass of the earth and inversely on the distance of the mass from the center of the earth.  The value of $g$ is usually assumed to be constant over small vertical distances, i.e.\ distances that are small with respect to the distance to the center of the earth.  Thus we will compare our results to the measured value of $g$ at sea level.  The value at sea level in Fairfield is $g = 9.803\,{\rm m}/ {\rm s^2}$.
@@ -36,6 +43,11 @@ To see what this motion looks like we will use Newton's Second Law,
 ```{math}
 :label: M03_pendulum_Eq01
 F = -m g \frac{x}{L} = m a
+```
+
+```{admonition} Deriving Period $T$
+:class: note
+The following steps reviews the derivation of the pendulum's period for small angles. This is good for review, however you can jump to {eq}`M03_pendulum_Eq02`.
 ```
 
 where $a$ is the acceleration of the mass in the $x$-direction.
@@ -218,8 +230,8 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
     
     - *Consider*: Assuming similar uncertainty in $g$ from the average $\delta g_{\text{avg}}$, does the slope-derived value of $g_\text{slope}$ agree with the accepted value of $g$ better than average $g_{\text{avg}}$ of any individual small amplitude case?
 
-
-
+- LINEST !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
@@ -241,19 +253,30 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
 - How do the periods relate to different lengths of pendulum?
 --->
 
-- Make sure to submit your finalized data table (Excel sheet)
-- In a **paragraph**, summarize the results you have determined in each case
-	- Case averages of $g_{avg}\pm\delta g_{avg}$ 
-	- Case averages of $g{\text{corrected,avg}}$
-	- Case averages of $g_{slope}$
-	- Do your $g\pm\delta g$ overlap for case 4 (same $L$)?
-	- How does the large angle case compare to the other cases?
-	- How does $g_{\text{corrected,avg}}$ of the large angle case compare to the other cases?
+### Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet)
+    - Please include relevant plot(s) including:
+      - $T^2$ vs. $L$ with all data points across the four small-angle cases (i.e. Cases 1 -- 4)
+
+
+### Post-lab Writeup
+
 - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
-    - What are your systematic and random errors?
-    - What are sources of uncertainty?
-    - What is the precision of your equipment? 
-    - How do your final results change based on your uncertainties?
+	- What is the precision of your equipment?
+  - What are your systematic and random errors?
+  - What are sources of uncertainty?
+  - How do your final results change based on your uncertainties (e.g. maximizing/minimizing values)?
+    - Of your quantities' uncertainties, which quantity affects your final result for $g$ the most?
+<!--- ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! make g slope unceratinty from excel--->
+- In a **paragraph**, summarize the results you have determined in each case
+  - Compare your averaged values to the accepted value of $g$ for Fairfield, CT, for each length case including:
+    - $g_{avg}\pm\delta g_{avg}$
+    - $g{\text{corrected,avg}}\pm\delta g_{avg}$
+    - $g_{slope}\pm\delta g_{slope}$
+  - Do each of the small-angle cases agree with each other (Cases 1 -- 4)? Why or why not using physical arguements?
+  - How do the **uncorrected** and **corrected** acceleration due to gravity values for the large angle case (Case 5) compare to the other cases?
+  - What is the relationship between period and length for a simple pendulum (i.e. longer/shorter)?
 
 ## The Whiteboard
 
