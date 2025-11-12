@@ -178,16 +178,16 @@ F_\text{B} = w_\text{obj in air} - w_\text{obj in water}
    - Tie a string on the irregular object.
    - Gently lower the irregular object into the overflow can until it is completely submerged. Allow the water to stop overflowing and then pour the water from the beaker into the graduated cylinder. Measure the volume of water that was displaced by reading the water level in the graduated cylinder in milliliters (1 ml = 1 cm³)
 
+--->
 ```{figure} FluidsFigures/M08_fig03.jpg
 :name: M08_fluids_Fig03
 :width: 80%
 :align: center
 
-Left) Measuring with calipers. Right) Lowering object into overflow can.
+Left) Measuring with calipers (not done in this lab). Right) Lowering object into overflow can.
 ```
 
 
---->
 
 3. List the 6 objects in order from least to greatest volume. *Consider: Is this the same order as the mass list? Are any of the volumes nearly the same?*
 
@@ -209,7 +209,7 @@ For each of the objects, find the weight of the water displaced by each one:
 7. Find the mass of the beaker. Put the beaker under the overflow can spout as shown in {numref}`M08_fluids_Fig03`.
 8. Pour water into the overflow can until it overflows into the beaker. Allow the water to stop overflowing on its own and empty the beaker into the pitcher and return it to its position under the overflow can spout without jarring the overflow can.
 9. If not already attached, tie a string onto each of the objects.
-10. Gently lower the first object into the overflow can until it is completely submerged. Allow the water to stop overflowing. Find the mass of the water plus beaker. Subtract the mass of the beaker to determine the mass of the displaced water. Multiply the mass by the acceleration due to gravity (9.803 m/s²) to find the weight of the water.
+10. Lower the first object into the overflow can until it is completely submerged. Allow the water to stop overflowing. Measure the mass of the water plus beaker. Subtract the mass of the beaker to determine the mass of the displaced water. Multiply the mass by the acceleration due to gravity (9.803 m/s²) to find the weight of the water.
 11. Repeat this procedure for the other objects. Note that the plastic cylinder will float so don’t try to completely submerge it in the water. Also find the weight of the displaced water when only half the brass cylinder is submerged.
 12. List the objects in order from least buoyant force to greatest buoyant force.
 
@@ -352,6 +352,14 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
       4. Set Standard Value to average atmospheric pressure of 101.3 kPa --- Click the "Set Current Value to Standard Value" button 
       5. Finish
     - Both Absolute Pressure Channels 1 and 2, when you press record, should now read at about 101.3 kPa, if not, retry the calibration.
+
+    ```{admonition} Pascals (Pa), kiloPascals (kPa), Quad Pressure Sensor
+    :class: tip
+    - The Quad Pressure Sensor we are using today returns pressures in units of kPa
+    - 1 kPa = 1000 Pa
+    - Atmospheric pressure of about 101.3 kPa = 101300 Pa
+    - The resolution of these pressure sensors is 0.01 kPa
+    ```
 
 17. Ensure no water is near the end of the air hoses to prevent any water getting into the pressure sensors. Reconnect the air hoses to the pressure sensors. $P_1$ is marked with red tape.
 
