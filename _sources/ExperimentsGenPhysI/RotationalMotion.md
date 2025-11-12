@@ -240,8 +240,8 @@ Determine the moment of inertia of the two point masses (denoted as *pointMasses
 - Mount the masses into the end of the rod and fasten them with the screws. Measure the distance of the center of the masses from the center of the rod. Note the results as $R_1$ and $R_2$ in your Data Table.
 - Calculate the expected moment of inertia of just the two points masses, using {eq}`M08_rotation_Eq01` and {eq}`M08_rotation_Eq01_multi` given in the Introduction. Note your result as $I_{\text{expected,pointMassesOnly}}$ in your Data Table.
 - Note the mass of the hanger as $m_\text{hanger}$ in your Data Table.
-- Note the radius $R_{P}$ of the middle pulley of the RMS in your Data Table (use the result from the previous case).
-- Wind the string, with the mass hanger attached, counter-clockwise onto the middle pulley of the RMS. You need to make sure that the string is wound nicely onto the clear middle pulley of the RMS, leaves tangentially from the clear pulley straight in line with and over the black Super Pulley (reminder, see off angle orientation noted in {numref}`M08_rotation_Fig02`).
+- Using the calipers measure the radius $R_{P}$ of the middle pulley of the RMS and note your result in your data table. NOT THE EDGES, MAKE SURE THE CALIPER FITS IN THE GROOVE. THERE IS AN ADDITIONAL EMPTY CLEAR PULLY IN YOUR BOX YOU CAN MEASURE FOR EASE OF USE (and for the angular momentum lab later on).
+- Wind the string, with the mass hanger attached, clockwise onto the middle pulley of the RMS. You need to make sure that the string is wound nicely onto the clear middle pulley of the RMS, leaves tangentially from the clear pulley straight in line with and over the black Super Pulley (reminder, see off angle orientation noted in {numref}`M08_rotation_Fig02`).
 - Measure the angular acceleration of the whole system $\alpha_{\text{experimental,pulleyRodPointMasses}}$ (i.e. of the two masses plus the apparatus):
   1. Make sure that in **Capstone** you have a graph of angular velocity ($y$-axis) vs. time ($x$-axis) open; same plot as seen in {numref}`M08_rotation_Fig05`.
   2. Before releasing the mass hanger press the **Record** button on **Capstone**.
@@ -298,8 +298,8 @@ Determine the moment of inertia of the ring (denoted as *ringOnly*) by running 3
 - Calculate the expected moment of inertia of the ring, using {eq}`M08_rotation_Eq04` given in the Background. Note your result as $I_{\text{expected,ringOnly}}$ in your data table.
 - Place the ring onto the disk, which should already be mounted on the Rotary Motion Sensor (RMS). The two pins of the ring should fit into the two holes on the disk.
 - Note the mass of the hanger as $m_\text{hanger}$ in your Data Table.
-- Using the calipers measure the radius $R_{P}$ of the middle pulley of the RMS and note your result in your data table. NOT THE EDGES, MAKE SURE THE CALIPER FITS IN THE GROOVE. THERE IS AN ADDITIONAL EMPTY CLEAR PULLY IN YOUR BOX YOU CAN MEASURE FOR EASE OF USE (and for the angular momentum lab later on).
-- Wind the string, with the mass hanger attached, counter-clockwise onto the middle pulley of the RMS. You need to make sure that the string is wound nicely onto the clear middle pulley of the RMS, leaves tangentially from the clear pulley straight in line with and over the black Super Pulley (reminder, see off angle orientation noted in {numref}`M08_rotation_Fig02`).
+- Note the radius $R_{P}$ of the middle pulley of the RMS in your Data Table (use the result from the previous case).
+- Wind the string, with the mass hanger attached, clockwise onto the middle pulley of the RMS. You need to make sure that the string is wound nicely onto the clear middle pulley of the RMS, leaves tangentially from the clear pulley straight in line with and over the black Super Pulley (reminder, see off angle orientation noted in {numref}`M08_rotation_Fig02`).
 - Measure the angular acceleration $\alpha_{\text{total,ring}}$ of the ring plus the apparatus (i.e. the disk and the RMS).
   1. Make sure that in **Capstone** you have a graph of angular velocity ($y$-axis) vs. time ($x$-axis) open.
   ```{figure} RotationalMotionFigures/Figure05_v2025-02.png

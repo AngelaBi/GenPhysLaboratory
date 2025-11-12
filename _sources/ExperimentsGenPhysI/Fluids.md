@@ -39,46 +39,7 @@ How could we determine the buoyancy force $F_\text{B}$ acting on the object with
 F_\text{B} = w_\text{fl}
 ```
 
-**First experiment (Archimedes)**
 
-In this experiment, we will first determine the mass, volume, and density of 6 objects (see {numref}`M08_fluids_Fig02`). We will then determine the buoyant force acting on each object using Archimedes' Principle by determining the weight of water each object displaces. Finally, we will determine the buoyant force by measuring the apparent weight of an object.
-
-```{figure} FluidsFigures/M08_fig02_v2025-01.png
-:name: M08_fluids_Fig02
-:width: 290px
-:align: center
-
-3 cylinders, 2 blocks, 1 irregular.
-```
-
-As a reminder, the density $\rho$ of an object depends on its mass $m$ and volume $V$:
-
-```{math}
-:label: M08_fluids_Eq02
-\rho = \frac{m}{V}
-```
-
-and the weight of an object is the downward force due to gravity:
-
-```{math}
-:label: M08_fluids_Eq03
-w_\text{obj} = mg
-```
-
-```{figure} FluidsFigures/M08_fig06_v2025-01.png
-:name: M08_fluids_Fig04
-:width: 80%
-:align: center
-
-Left) Force diagram. Apparent weight in water is the difference of weight in air and buoyant force. Right) Force sensor measuring apparent weight of object in water.
-```
-
-When an object is submerged in a fluid, the apparent weight of the object is less than the weight in air because of the upward buoyant force (see {numref}`M08_fluids_Fig04`). Thus, the buoyant force can be calculated by finding the difference between the weight of the object in air and the apparent weight of the object when it is submerged in water.
-
-```{math}
-:label: M08_fluids_Eq04
-F_\text{B} = w_\text{obj in air} - w_\text{obj in water}
-```
 
 ### Bernoulli's Principle
 
@@ -129,27 +90,7 @@ Rearranged another way to determine the pressure at the constriction:
 P_2 = P_1 - \frac{1}{2}\rho (v_{2}^2 - v_{1}^2)
 ```
 
-**Second experiment (Bernoulli)**
 
-In our experiment, we will assume we don't know the pressure at the constriction $P_2$, and will use the Continuity and Bernoulli equations to determine theoretically what $P_2\text{ theoretical}$ should be and compare to the actual value $P_2\text{ actual}$ as measure by our pressure sensor.
-
-The setup will be as in {numref}`M08_fluids_Fig08`. Water can be released from the pitcher sitting on the white/plexiglass box with the cooler-style spout as the release valve. On the other end of the water hose will be a hose clamp for use during the determination of the flow-rate to rapidly stop the flow of water (if you only used the spout at the pitcher, much of the water would continue flowing out of the tube even after shutting if off, messing up the flow-rate calculations).
-
-$P_1$, as measured by the Quad Pressure Sensor, will be treated as a known actual or accepted value to be used in our calculations to solve for $P_{2\text{ theoretical}}$. It will be connected to port 1 (or port 3 if in the future these sensors break).
-
-We will calculate $P_{2\text{ theoretical}}$ from our Continuity and Bernoulli equations. The value of $P_{2\text{, actual}}$, as measured by the Quad Pressure Sensor, will be treated as the known actual value to compare to. $P_2$ will be connected to port 2 (or port 4 if sensor is damaged).
-
-NOTE: The pressure sensor hoses are to have only (or mostly) air such that water does not reach the pressure sensor. To avoid water getting up the air hoses, ensure the Venturi tube is positioned with the air hoses pointed upward. After passing through the Venturi tube, the water will flow into a catch basin. There will also be a stopwatch to measure flow-rate during the first part of the experiment.
-
-If you require more water in your pitcher, use another pitcher to refill (assuming the catch basin is glass, there will be less of a chance of that breaking if we're not moving it around more than we have to).
-
-```{figure} FluidsFigures/M08_fig08_v2025-01.png
-:name: M08_fluids_Fig08
-:width: 90%
-:align: center
-
-Sketch of the Venturi tube setup for the second experiment (Bernoulli).
-```
 
 
 
@@ -163,6 +104,47 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
   - Part I: Determine mass, volume, density of different objects.
   - Part II: Determine buoyant force using Archimedes' Principle.
   - Part III: Determine buoyant force by measuring the upward force directly.
+```
+
+#### Archimedes --- Preliminary Setup
+
+In this experiment, we will first determine the mass, volume, and density of 6 objects (see {numref}`M08_fluids_Fig02`). We will then determine the buoyant force acting on each object using Archimedes' Principle by determining the weight of water each object displaces. Finally, we will determine the buoyant force by measuring the apparent weight of an object.
+
+```{figure} FluidsFigures/M08_fig02_v2025-01.png
+:name: M08_fluids_Fig02
+:width: 290px
+:align: center
+
+3 cylinders, 2 blocks, 1 irregular.
+```
+
+As a reminder, the density $\rho$ of an object depends on its mass $m$ and volume $V$:
+
+```{math}
+:label: M08_fluids_Eq02
+\rho = \frac{m}{V}
+```
+
+and the weight of an object is the downward force due to gravity:
+
+```{math}
+:label: M08_fluids_Eq03
+w_\text{obj} = mg
+```
+
+```{figure} FluidsFigures/M08_fig06_v2025-01.png
+:name: M08_fluids_Fig04
+:width: 100%
+:align: center
+
+Left) Force diagram. Apparent weight in water is the difference of weight in air and buoyant force. Right) Force sensor measuring apparent weight of object in water.
+```
+
+When an object is submerged in a fluid, the apparent weight of the object is less than the weight in air because of the upward buoyant force (see {numref}`M08_fluids_Fig04`). Thus, the buoyant force can be calculated by finding the difference between the weight of the object in air and the apparent weight of the object when it is submerged in water.
+
+```{math}
+:label: M08_fluids_Eq04
+F_\text{B} = w_\text{obj in air} - w_\text{obj in water}
 ```
 
 #### Part I: Mass, Volume, and Density
@@ -196,16 +178,16 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
    - Tie a string on the irregular object.
    - Gently lower the irregular object into the overflow can until it is completely submerged. Allow the water to stop overflowing and then pour the water from the beaker into the graduated cylinder. Measure the volume of water that was displaced by reading the water level in the graduated cylinder in milliliters (1 ml = 1 cm³)
 
+--->
 ```{figure} FluidsFigures/M08_fig03.jpg
 :name: M08_fluids_Fig03
 :width: 80%
 :align: center
 
-Left) Measuring with calipers. Right) Lowering object into overflow can.
+Left) Measuring with calipers (not done in this lab). Right) Lowering object into overflow can.
 ```
 
 
---->
 
 3. List the 6 objects in order from least to greatest volume. *Consider: Is this the same order as the mass list? Are any of the volumes nearly the same?*
 
@@ -217,15 +199,17 @@ Left) Measuring with calipers. Right) Lowering object into overflow can.
 
 For each of the objects, find the weight of the water displaced by each one:
 
-6. Create a data table with:
-   - Mass of beaker and other common data
-   - Columns for the mass $m_\text{water} = m_\text{total} - m_\text{beaker}$, weight $w_\text{water} = m_\text{water} g = F_\text{B}$
-   - Rows for each of the 6 objects plus a half-submerged brass cylinder (so 7 rows). Clearly label or describe the objects in the table.
+6. Create a common data section and data table with:
+    - Mass of beaker, $g = 9.803\,\text{m/s}^2$ for Fairfield, and other common data.
+    - Columns including (but not limited to):
+      - mass $m_\text{water} = m_\text{total} - m_\text{beaker}$
+      - weight $w_\text{water} = m_\text{water} g = F_\text{B, Archimedes' method}$
+    - Rows for each of the 6 objects plus a half-submerged brass cylinder (so 7 rows). Clearly label or describe the objects in the table.
 
 7. Find the mass of the beaker. Put the beaker under the overflow can spout as shown in {numref}`M08_fluids_Fig03`.
 8. Pour water into the overflow can until it overflows into the beaker. Allow the water to stop overflowing on its own and empty the beaker into the pitcher and return it to its position under the overflow can spout without jarring the overflow can.
 9. If not already attached, tie a string onto each of the objects.
-10. Gently lower the first object into the overflow can until it is completely submerged. Allow the water to stop overflowing. Find the mass of the water plus beaker. Subtract the mass of the beaker to determine the mass of the displaced water. Multiply the mass by the acceleration due to gravity (9.803 m/s²) to find the weight of the water.
+10. Lower the first object into the overflow can until it is completely submerged. Allow the water to stop overflowing. Measure the mass of the water plus beaker. Subtract the mass of the beaker to determine the mass of the displaced water. Multiply the mass by the acceleration due to gravity (9.803 m/s²) to find the weight of the water.
 11. Repeat this procedure for the other objects. Note that the plastic cylinder will float so don’t try to completely submerge it in the water. Also find the weight of the displaced water when only half the brass cylinder is submerged.
 12. List the objects in order from least buoyant force to greatest buoyant force.
 
@@ -238,7 +222,10 @@ For each of the objects, find the weight of the water displaced by each one:
 
 13. Create a data table:
     - Seven rows for each of the 6 objects as well as the brass cylinder half-submerged (clearly label or describe the objects in the table).
-    - Columns for weight in air $w_\text{obj in air}$, apparent weight in water $w_\text{obj in water}$, buoyant force $F_\text{B}$ as determined with {eq}`M08_fluids_Eq04`.
+    - Columns including (but not limited to):
+      - $w_\text{obj in air}$: weight in air
+      - $w_\text{obj in water}$: apparent weight in water
+      - $F_\text{B, upward force method}$: buoyant force as determined with {eq}`M08_fluids_Eq04`
 
 14. Ensure there is a loop of string attached to each object so they can be hooked onto the force sensor.
 
@@ -252,9 +239,11 @@ For each of the objects, find the weight of the water displaced by each one:
 
 19. Now place the pitcher of water beneath the force sensor such that when you hang each object from the force sensor hook, the objects can be fully submerged. Record the apparent weight of each object in water $w_\text{water}$.
 
-20. Calculate the buoyant force for each object by taking the difference between the weight in air and the weight in water ({eq}`M08_fluids_Eq04`).
+20. Calculate the buoyant force for each object by taking the difference between the weight in air and the weight in water with {eq}`M08_fluids_Eq04`.
 
-21. Add an additional column and calculate for each object case the % difference between the buoyancy force (found here by measuring the upward force) and the buoyancy force found previously by Archimedes' Principle of the displaced water.
+21. Add an additional column and calculate the difference (magnitude of difference in $N$) in $F_\text{B}$ between each method. (i.e. $F_\text{B, upward force method} - F_\text{B, Archimedes' method}$).
+
+21. Add an additional column and calculate for each object case the % difference between the buoyancy force (found here by measuring directly with the force sensor) and the buoyancy force found previously by Archimedes' Principle of the displaced water.
 
 ```{math}
 \% \text{ diff.} = \frac{F_\text{B, upward force method} - F_\text{B, Archimedes' method}}{F_\text{B, Archimedes' method}} \times 100
@@ -262,7 +251,7 @@ For each of the objects, find the weight of the water displaced by each one:
 
   ```{admonition} Discussion Point: Archimedes' vs. Force Sensor
   :class: question
-  For each object case, is the buoyant force that was determined using the upward force equal to the weight of the water displaced?
+  For each object case, is the buoyant force that was determined using the upward force method equal to the weight of the water displaced? How do the magnitudes of the difference between methods as well as the % diff. between methods compare?
   ```
 
 ### Bernoulli's Principle (Second experiment)
@@ -270,10 +259,34 @@ For each of the objects, find the weight of the water displaced by each one:
 ```{admonition} OVERVIEW
 :class: note
 - Understand fluid-flow continuity through different constrictions by:
-  - Part I: Determine flow-rate of our system using the Continuity Equation.
+  - Part I (**5 trials**): Determining flow-rate of our system using the Continuity Equation.
 - Understand Bernoulli's Principle of fluid flow at a constant height by:
-  - Investigating the Venturi effect.
-  - Determining the pressure of a fluid at a constriction point (in a Venturi tube).
+  - Part II (**5 trials**): Determining the pressure of a fluid at a constriction point (in a Venturi tube) due to the Venturi effect.
+```
+
+#### Bernoulli --- Preliminary Setup
+
+In our experiment, we will assume we don't know the pressure at the constriction $P_2$, and will use the Continuity and Bernoulli equations to determine experimentally what $P_{2\text{,experimental}}$ should be and compare to the actual value $P_{2\text{,actual}}$ as measured by our pressure sensor.
+
+The setup will be as in {numref}`M08_fluids_Fig08`. Water can be released from the pitcher sitting on the white/plexiglass box with the cooler-style spout as the release valve. On the other end of the water hose will be another release valve (at the bottom) for use during the determination of the flow-rate to rapidly stop the flow of water (if you only used the spout at the pitcher, much of the water would continue flowing out of the tube even after shutting if off, messing up the flow-rate calculations).
+
+$P_1$, as measured by the Quad Pressure Sensor, will be treated as a known actual or accepted value to be used in our calculations to solve for $P_{2\text{,experimental}}$. It will be connected to port 1 (or port 3 if in the future these sensors break). We will calculate $P_{2\text{,experimental}}$ from our Continuity and Bernoulli Principle equations. 
+
+The value of $P_{2\text{,actual}}$, as measured by the Quad Pressure Sensor, will be treated as the ***known actual value*** to compare to. $P_2$ will be connected to port 2 (or port 4 if sensor is damaged).
+
+```{admonition} Protecting the Pressure Sensor --- Air Only in Hoses
+:class: important
+The pressure sensor hoses are to have only (or mostly) air such that water does not reach the pressure sensor. To avoid water getting up the air hoses, ensure the Venturi tube is positioned with the air hoses pointed upward. This should already be the case for today's setup, but double check.
+```
+
+After passing through the Venturi tube, the water will flow into a catch basin. There will also be a stopwatch to measure flow-rate during the first part of the experiment. If you require more water in your pitcher, use a separate pitcher to refill.
+
+```{figure} FluidsFigures/M08_fig08_v2025-01.png
+:name: M08_fluids_Fig08
+:width: 90%
+:align: center
+
+Sketch of the Venturi tube setup for the second experiment (Bernoulli).
 ```
 
 #### Part I: Determining Flow Rate $R$
@@ -292,71 +305,108 @@ For each of the objects, find the weight of the water displaced by each one:
 
 6. Measure the volume of water that flowed out of (or into) the apparatus (either with the scale on the catch basin or graduated cylinder).
 
-8. Calculate the average flow rate for the current trial $R = \frac{\Delta V}{\Delta t}$ where $\Delta V$ is the volume of water and $\Delta t$ is the elapsed time.
+7. Calculate the average flow rate for the current trial $R = \frac{\Delta V}{\Delta t}$ where $\Delta V$ is the volume of water and $\Delta t$ is the elapsed time.
 
-9. Empty the catch basin or graduated cylinder back into the pitcher to keep a consistent amount of water in it.
+8. Empty the catch basin or graduated cylinder back into the pitcher to keep a consistent amount of water in it.
 
-10. Rerun this process starting with the empty catch basin (assuming the water hose is still clear of air bubbles) 4 more times for a total of 5 trials.
+9. Rerun this process starting with the empty catch basin (assuming the water hose is still clear of air bubbles) 4 more times for a total of 5 trials.
 
-11. From the individual trial flow rates, calculate the average flow rate $R_\text{avg}$ and standard deviation $\sigma_R$ which we will use to represent our uncertainty in the flow rate ($R_\text{avg} \pm \sigma_R$).
+10. From the individual trial flow rates, calculate the average flow rate $R_\text{avg}$ and standard deviation $\sigma_R$ which we will use to represent our uncertainty in the flow rate ($R_\text{avg} \pm \sigma_R$).
 
-12. NOTE: Typically the flow rate varies with the level of water in the reservoir. To keep the flow rate close to constant, make the pressure measurements with the water level approximately the same as it was for the flow rate measurement.
-
+    ```{admonition} Water Level Consistency
+    :class: tip
+    Typically the flow rate varies with the level of water in the reservoir. To keep the flow rate close to constant, make the following pressure measurements with the water level approximately the same as it was for the flow rate measurement.
+    ```
 
 
 #### Part II: Determining Pressure at a Constriction (with Continuity and Bernoulli Equations)
 
-13. Create a data table:
+11. Create a data table:
     - Common data section including:
       - Flow rate $R_\text{avg} \pm \sigma_R$ from Part I.
       - Cross-sectional areas $A_1$ and $A_2$ and their uncertainties $\delta_{A_1}$ and $\delta_{A_2}$.
       - Velocities $v_1$ and $v_2$. Also include the max values for each (Used to estimate pressure uncertainty later).
-      - Density of water $\rho$ (use 1000 kg/m³)
-    - 7 rows for five trials of the measuring $P_1$ and $P_2$ in Capstone as well as their averages $P_{1\text{ avg actual}}$ and $P_{2\text{ avg actual}}$ and standard deviations $\sigma_{P_{1\text{ avg actual}}}$ and $\sigma_{P_{2\text{ avg actual}}}$.
+      - Density of water $\rho$ (use 998.2 kg/m$^3$ for room temperature)
+    - 7 rows for: 
+      - five trials of the measuring $P_1$ and $P_2$ in Capstone as well as their averages $P_{1\text{,actual,avg}}$ and $P_{2\text{,actual,avg}}$ and standard deviations $\sigma_{P_{1\text{,actual,avg}}}$ and $\sigma_{P_{2\text{,actual,avg}}}$.
     - Columns for $P_1$ and $P_2$.
 
-14. Determine the cross-sectional areas of the wide and narrow constrictions ($A_1$ and $A_2$ respectively) with the calipers from the cutaway version of the Venturi tubes ($A = \pi r^2$). Note your uncertainty due to your measurement precision ($\delta_{A_1}$ and $\delta_{A_2}$).
+12. Determine the cross-sectional areas $A_1$ and $A_2$ of the wide and narrow constrictions respectively. 
+    - Reminder, $A = \pi r^2$
+    - Radii values are provided to save time: $r_1 = 4.93 \pm 0.02\,\text{mm}$ at the wide, $r_2 = 2.46 \pm 0.02\,\text{mm}$ at the narrow (see {ref}`m08-whiteboard-section`). 
+    - Determine the areas' uncertainties $\delta_{A_1}$ and $\delta_{A_2}$ by maximizing the area using radii uncertainties (e.g. $A_{1\text{ max}} = \pi (r_1+\delta r_1)^2$) and taking the difference (e.g. $\delta_{A_1} = A_{1\text{ max}} - A_1$).
 
-15. Calculate $v_1$ and $v_2$ with the Continuity {eq}`M08_fluids_Eq05` based on your measured areas and average flow rate. Similarly, calculate $v_{1\text{ max}}$ and $v_{2\text{ max}}$ by maximizing the flow rate ($R_\text{avg} + \sigma_R$) and minimizing the areas (e.g. $A_1 - \delta_{A_1}$).
+13. Calculate $v_1$ and $v_2$ with the Continuity {eq}`M08_fluids_Eq05` based on your determined areas and average flow rate. Similarly, calculate $v_{1\text{ max}}$ and $v_{2\text{ max}}$ by maximizing the flow rate (e.g. $R_\text{avg} + \sigma_R$) and minimizing the areas (e.g. $A_1 - \delta_{A_1}$).
 
-16. Capstone will be set up to show two pressures representing $P_1$ and $P_2$. Double check the the pressure taps of the Venturi tube are appropriately connected like in {numref}`M08_fluids_Fig08` where Channel 1 is connected to the wider part of the Venturi tube, and Channel 2 to the narrow constriction of the Venturi tube. (It'll be easier to keep track of which pressure is which when the labels are similar.)
+14. Capstone will be set up to show two pressures representing $P_1$ and $P_2$. Double check that the pressure taps of the Venturi tube are appropriately connected like in {numref}`M08_fluids_Fig08` where Channel 1 is connected to the wider part of the Venturi tube, and Channel 2 to the narrow constriction of the Venturi tube. (It'll be easier to keep track of which pressure is which when the labels are similar.)
 
-17. Capstone will also show a plot with both $P_1$ and $P_2$ on the y-axis as a function of time on the x-axis. To analyze either data set later on, you can click directly on the plotted data.
+15. Capstone will also show a plot with both $P_1$ and $P_2$ on the y-axis as a function of time on the x-axis. To analyze either data set later on, you can click directly on the plotted data.
 
-18. Calibrate the pressure sensor by:
-    - Ensure both the top release valve and bottom releave valve are closed.
-    - Disconnect the air hoses from the Quad Pressure Sensor via the quick connectors so the pressure sensors are open to atmospheric pressure. Set the air hoses on top of the white box (or in a bracket to hold them if I get them prepared in time) so the end of the hose is above the spout water level to prevent water from siphoning through the air hoses.
+16. Calibrate the pressure sensor by:
+    - ***Ensure both the top release valve and bottom releave valve are closed.***
+    - Disconnect the air hoses from the Quad Pressure Sensor via the quick connectors so the pressure sensors are open to atmospheric pressure. Set the air hoses to the side, ensuring at least part of the hoses are above the water level in the pitcher to prevent water from siphoning through the air hoses. The white bracket should provide this, but double check
     - In Capstone, select the green Calibration tab on the left-hand panel.
-    - 1) Pressure 2) Select all "Pressure Measurements" 3) Type of Calibration as "One Standard (1 point offset)" 4) Set Standard Value to average atmospheric pressure of 101.3 kPa --- Click the "Set Current Value to Standard Value" button 5) Finish
+      1. Pressure 
+      2. Select all "Pressure Measurements"
+      3. Type of Calibration as "One Standard (1 point offset)" 
+      4. Set Standard Value to average atmospheric pressure of 101.3 kPa --- Click the "Set Current Value to Standard Value" button 
+      5. Finish
     - Both Absolute Pressure Channels 1 and 2, when you press record, should now read at about 101.3 kPa, if not, retry the calibration.
 
-19. Ensure no water is near the end of the air hoses to prevent any water getting into the pressure sensors. Reconnect the air hoses to the pressure sensors.
+    ```{admonition} Pascals (Pa), kiloPascals (kPa), Quad Pressure Sensor
+    :class: tip
+    - The Quad Pressure Sensor we are using today returns pressures in units of kPa
+    - 1 kPa = 1000 Pa
+    - Atmospheric pressure of about 101.3 kPa = 101300 Pa
+    - The resolution of these pressure sensors is 0.01 kPa
+    ```
 
-20. You can open the hose clamp at the end of the hose as it will not be needed for the rest of this experiment. You will just need to catch basin to collect the water and avoid making a mess.
+17. Ensure no water is near the end of the air hoses to prevent any water getting into the pressure sensors. Reconnect the air hoses to the pressure sensors. $P_1$ is marked with red tape.
 
-21. Press record, then open the release valve to allow the water to flow into the catch basin. After any air bubbles have passed and the water is flowing with minimal turbulence, continue recording pressure data for ~5 seconds, then close the release valve (spout) and stop recording.
+18. You can open the hose clamp at the end of the hose as it will not be needed for the rest of this experiment. You will just need to catch basin to collect the water and avoid making a mess.
 
-22. Find the section of your Pressure vs. Time plot where flow was laminar (smooth without bubbles), should be a generally flat section of the Pressure vs Time plot. Click on the $P_1$ data on the plot, enable the highlight tool, and select a chunk of the plot when flow was laminar (no bubbles, the flat part). Do the same for the $P_2$ data. You can find the average value for $P_1$ and $P_2$ at the bottom of the table on the left hand side of your screen, where the mean is representing the average value of whichever subset of the data you've highlighted.
+19. Press record, then open the release valve to allow the water to flow into the catch basin. After any air bubbles have passed and the water is flowing with minimal turbulence, continue recording pressure data for ~5 seconds, then close the release valve (spout) and stop recording.
 
-23. Record both $P_{1\text{ actual}}$ and $P_{2\text{ actual}}$. There should be a difference of ~2--5 kPa, if not, double check with an instructor.
+20. Find the section of your Pressure vs. Time plot where flow was laminar (smooth without bubbles), should be a generally flat section of the Pressure vs Time plot. Click on the $P_1$ data on the plot, enable the highlight tool, and select a chunk of the plot when flow was laminar (no bubbles, the flat part). Do the same for the $P_2$ data. You can find the average value for $P_1$ and $P_2$ at the bottom of the table on the left hand side of your screen, where the mean is representing the average value of whichever subset of the data you've highlighted.
 
-24. Rerun this process from Step 21 an additional 4 times for a total of 5 trials.
+21. Record both $P_{1\text{,actual}}$ and $P_{2\text{,actual}}$. There should be a difference of ~2--5 kPa, if not, double check that the pressure tubing was properly reconnected and water is flowing was flowing. As needed, check with an instructor.
 
-25. Determine the $P_{1\text{ avg actual}}$ and $P_{2\text{ avg actual}}$ values from your five trials. Also determine their standard deviations $\sigma_{P_{1\text{ avg actual}}}$ and $\sigma_{P_{2\text{ avg actual}}}$.
+22. Rerun this process from Step 21 an additional 4 times for a total of 5 trials.
 
-26. Calculate your theoretical value of $P_{2\text{ theoretical}}$ with {eq}`M08_fluids_Eq08` using your previously determined velocities $v_1$ and $v_2$ and your average $P_{1\text{ avg actual}}$ treated as the known actual value for the wider part of the Venturi tube.
+23. Determine the averages $P_{1\text{,actual,avg}}$ and $P_{2\text{,actual,avg}}$ values from your five trials. Also determine their standard deviations $\sigma_{P_{1\text{,actual,avg}}}$ and $\sigma_{P_{2\text{,actual,avg}}}$.
 
-27. Similarly calculate your max theoretical value of $P_{2\text{, max theoretical}}$ by maximizing ${P_{1\text{ avg actual}}}$ (e.g. ${P_{1\text{ avg actual}}} + \sigma_{P_{1\text{ avg actual}}}$) and using your already determined maximized velocities $v_{1\text{ max}}$ and $v_{2\text{ max}}$.
+24. Calculate your experimental value of $P_{2\text{,experimental}}$ with {eq}`M08_fluids_Eq08` using your previously determined velocities $v_1$ and $v_2$ and your average $P_{1\text{,actual,avg}}$ treated as the known actual value for the wider part of the Venturi tube.
 
-28. Represent your uncertainty $\delta P_{2\text{ theoretical}}$ with the difference of your maximized value and average values (e.g. $\delta P_{2\text{ theoretical}} = P_{2\text{, max theoretical}} - P_{2\text{ theoretical}}$).
+25. Similarly, for estimating an uncertainty in your average experimental value in the next step, calculate your max experimental value of $P_{2\text{,experimental,max}}$ by maximizing ${P_{1\text{,actual,avg}}}$ (e.g. ${P_{1\text{,actual,avg}}} + \sigma_{P_{1\text{,actual,avg}}}$) and using your already determined maximized velocities $v_{1\text{ max}}$ and $v_{2\text{ max}}$.
 
-29. *Consider:* Does you theoretical value for $P_2$ agree with the actual value of $P_2$ as measured with the pressure sensor?
+26. Represent your uncertainty $\delta P_{2\text{,experimental}}$ with the difference of your maximized value and average values:
 
+```{math}
+\delta P_{2\text{,experimental}} = P_{2\text{,experimental,max}} - P_{2\text{,experimental}}
+```
 
+```{admonition} Discussion Point: Pressure Comparison
+:class: question
+Does you experimental value for the pressure at the narrow constriction, $P_2$, agree with the actual value as measured with the pressure sensor?
+```
 
+27. ***BEFORE CLOSING CAPSTONE:***
+    ```{admonition} Photo of Experimental Data
+    :class: important
+    Ensure you've taken a screenshot/photo of your graphs for your spreadsheet submission:
+      - 1 plot of $P_1$ and $P_2$ vs. Time (just 1 trial) --- note where you are measuring.
+    ```
 
-
-
+28. ***BEFORE LEAVING LAB:***
+    ```{admonition} ✨🧹 PLEASE CLEAN UP & RETURN LAB TO ORIGINAL STATE 🧹✨
+    :class: important
+    - Drain the top water pitcher into the non-attached pitcher (the one you used for filling).
+    - Empty water back into the sinks.
+    - Clean up any spills.
+    - Put back the different objects, the overflow can, and beaker.
+    - Close, **DO NOT SAVE**, the Capstone file you used today.
+    - Don't leave a mess, leave it better than you found it, thank you.
+    ```
 
 
 
@@ -372,31 +422,10 @@ For each of the objects, find the weight of the water displaced by each one:
 
 ## Post-Lab Submission --- Interpretation of Results
 
-<!--- ### Archimedes' Principle (Post-Lab Questions) --->
-<!---
-- Make sure to submit your finalized data table (Excel sheet)
-
-- First Experiment (Archimedes' Principle)
-  - In which list (mass, volume, or density) are the objects grouped similarly?
-  - In each object case, is the buoyant force that was determined using the upward force (Part III) equal to the weight of the water displaced (Part II)? Were the % differences between the two methods for each case relatively small, or did any case standout?
-  - Which objects had the same buoyant force when submerged? Why?
-  - For the plastic cylinder, what was the apparent weight in water? What would be the buoyant force be if plastic cylinder were completely submerged?
-  - How did the buoyant force for the totally submerged brass cylinder relate to the buoyant force for the half-submerged brass cylinder?
-  - What does the buoyant force depend on: The mass of the object, or its volume, or its density, or the material from which it is made?
-
-- Second Experiment (Bernoulli's Principle)
-  - Does you theoretical value for $P_2$ agree with the actual value of $P_2$ as measured with the pressure sensor? (i.e. $P_{2\text{ theoretical}} \pm \delta P_{2\text{ theoretical}}$ overlap with $P_{2\text{ avg actual}} \pm \sigma P_{2\text{ avg actual}}$?)
-  - How is the Bernoulli Principle different than the Bernoulli Equation?
-  - What assumptions about the fluid allows the Bernoulli Principle to work? (i.e. what type or characteristics of the fluid and/or flow are necessary assumptions for Bernoulli to hold true?)
-  - Imagine that instead of being on the table, the Venturi tube were set on the floor with the rest of the experimental apparatus unchanged. Would the difference in pressures we see on the Capstone plot between $P_1$ and $P_2$ during the smooth, laminar flow section that we analyzed to find average pressures be *larger*, *smaller*, or *the same*. Why?
-  --->
-
-
-  ### Finalized Spreadsheets
+### Finalized Spreadsheets
   - Make sure to submit your finalized data table (Excel sheet).
-    - Please include relevant screenshots of your Capstone plots including:
-      - 1 plot of $P_1$ and $P_2$ vs. Time (just 1 trial)
-
+    - Please include for discussion relevant screenshots of your Capstone plots including:
+      - 1 plot of $P_1$ and $P_2$ vs. Time (just 1 trial) --- note where you are measuring.
 
 
 ### Archimedes' Principle --- Post-Lab Error & Results Analysis
@@ -407,7 +436,8 @@ For each of the objects, find the weight of the water displaced by each one:
     - How do these uncertainties affect your final results for $F_\text{B}$?
   - In a **paragraph**, summarize the results you have determined in each case. Consider:
 	  - In which list (mass, volume, or density) are the objects grouped similarly?
-	  - In each object case, is the buoyant force that was determined using the upward force (Part III) equal to the weight of the water displaced (Part II)? Were the % differences between the two methods for each case relatively small, or did any case standout?
+	  - In each object case, compare the the buoyant force determined from each method --- Part II was with displaced water for $F_\text{B, Archimedes' method}$, Part III was direct force sensor measurements for $F_\text{B, upward force method}$. Were they equal? How different were they?
+        - Were the % differences between the two methods for each case relatively small, consistent, or did any case standout?
 	  - Which objects had the same buoyant force when submerged? Why?
 	  - For the plastic cylinder, what was the apparent weight in water? What would be the buoyant force be if plastic cylinder were completely submerged?
 	  - How did the buoyant force for the totally submerged brass cylinder relate to the buoyant force for the half-submerged brass cylinder?
@@ -419,33 +449,34 @@ For each of the objects, find the weight of the water displaced by each one:
     - Where might errors arise in measuring the flow rate?
     - What are your measurement uncertainties for each experiment?
     - What are possible systematic uncertainties for each experiment?
-    - What errors might cause your $P_{2 \text{ theoretical}}$ to diverge from $P_{2\text{ avg actual}}$? 
+    - What errors might cause your $P_{2 \text{,experimental}}$ to diverge from $P_{2\text{ avg actual}}$? 
   - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - Does your theoretical value for $P_2$ agree with the actual value of $P_2$ as measured with the pressure sensor? (i.e. $P_{2\text{ theoretical}} \pm \delta P_{2\text{ theoretical}}$ overlap with $P_{2\text{ avg actual}} \pm \sigma P_{2\text{ avg actual}}$?)
+	  - Does your experimental value for $P_2$ agree with the actual value of $P_2$ as measured with the pressure sensor? (i.e. does $P_{2\text{,experimental}} \pm \delta P_{2\text{,experimental}}$ overlap with $P_{2\text{,actual,avg}} \pm \sigma P_{2\text{,actual,avg}}$?)
 	  - How is the Bernoulli Principle different than the Bernoulli Equation?
 	  - What assumptions about the fluid allows the Bernoulli Principle to work? (i.e. what type or characteristics of the fluid and/or flow are necessary assumptions for Bernoulli to hold true?)
 	  - Imagine that instead of being on the table, the Venturi tube were set on the floor with the rest of the experimental apparatus unchanged. Would the difference in pressures we see on the Capstone plot between $P_1$ and $P_2$ during the smooth, laminar flow section that we analyzed to find average pressures be *larger*, *smaller*, or *the same*. Why?
 
 
+(m08-whiteboard-section)=
 ## The Whiteboard
 
 ```{figure} FluidsFigures/FluidPhysics_2024_Fall_01.jpg
 :name: flu1
-:width: 600px
+:width: 100%
 :align: center
 
 ```
 
 ```{figure} FluidsFigures/FluidPhysics_2025_Summer_01.jpg
 :name: flu2
-:width: 600px
+:width: 100%
 :align: center
 
 ```
 
-```{figure} FluidsFigures/FluidPhysics_2025_Summer_02.jpg
-:name: flu3
-:width: 600px
+```{figure} FluidsFigures/FluidPhysics_2025_Summer_02_v02.jpg
+:name: M08_fluids_whiteboard3
+:width: 80%
 :align: center
 
 ```

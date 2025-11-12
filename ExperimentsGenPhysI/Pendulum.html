@@ -405,7 +405,11 @@
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized Spreadsheets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-writeup">Post-lab Writeup</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
             </nav>
@@ -422,15 +426,23 @@
 <span id="simple-pendulum-g-lab-overall"></span><h1>Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum<a class="headerlink" href="#determination-of-acceleration-due-to-gravity-g-with-simple-pendulum" title="Permalink to this heading">#</a></h1>
 <section id="background">
 <h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
+<div class="note admonition">
+<p class="admonition-title">OVERALL GOALS</p>
+<p>Investigate the simple harmonic motion of a simple pendulum by:</p>
+<ul class="simple">
+<li><p>Examining the relationship between a simple pendulum’s length and period</p></li>
+<li><p>Determining acceleration due to g</p></li>
+</ul>
+</div>
 <p>In this lab, the acceleration due to gravity is determined by measuring the parameters of the nearly simple harmonic motion of a simple pendulum.  The construction of the pendulum and restrictions on the motion of the pendulum permit some simplifying assumptions to be used to derive a relationship for <span class="math notranslate nohighlight">\(g\)</span> in terms of easily measured parameters.</p>
 <p>The gravitational attraction of the Earth on any massive body provides a force, which can accelerate a mass free to move under the influence of this force.  This acceleration <span class="math notranslate nohighlight">\(g\)</span> is dependent on the mass of the earth and inversely on the distance of the mass from the center of the earth.  The value of <span class="math notranslate nohighlight">\(g\)</span> is usually assumed to be constant over small vertical distances, i.e.\ distances that are small with respect to the distance to the center of the earth.  Thus we will compare our results to the measured value of <span class="math notranslate nohighlight">\(g\)</span> at sea level.  The value at sea level in Fairfield is <span class="math notranslate nohighlight">\(g = 9.803\,{\rm m}/ {\rm s^2}\)</span>.</p>
 <p>A pendulum is a massive body suspended such that it can swing freely.  In the general case, the mass of the pendulum is an extended mass and is called a physical pendulum.  An example of a physical pendulum might be a long piece of lumber, which is suspended from a nail through a hole near one end of the wood. This pendulum, when displaced sideways from its rest position, will swing back and forth under the influence of gravitational force which acts to restore the pendulum to its stationary hanging position.  The harmonic motion of the swinging pendulum must be analyzed carefully by considering torque on the pendulum and the pendulum’s inertia.  The torque is the turning force produced by gravity and its inertia is the total effect of all the mass parts of the pendulum resisting rotation around the pivot.  The torque and inertia are exactly analogous to force and mass in the linear motion case described by Newton’s Second Law, <span class="math notranslate nohighlight">\(F = m a\)</span>.</p>
 <p>When all of the mass of the pendulum can be considered at a common distance from the pivot, then the physical pendulum is a simple pendulum.  An example of a simple pendulum is a relatively small, massive object suspended from a long, nearly massless connection to a pivot like a short, heavy bolt, tied to a pivot with a thin thread.</p>
-<p>Under the assumption of a simple pendulum, the analysis of the motion can be carried out using Newton’s Laws of Linear Motion that we have seen in class. <a class="reference internal" href="#m03-pendulum-fig01"><span class="std std-numref">Fig. 65</span></a> illustrates a simple pendulum at some arbitrary point in its swinging motion back and forth. We define this point by the angle of the thread with the vertical, indicated by the dashed line. The forces acting on the mass are its weight straight down and the tension in the thread. The weight can be resolved into a component along the direction of the thread and a component perpendicular to the thread, i.e. along the tangent of the arc of the swing.</p>
+<p>Under the assumption of a simple pendulum, the analysis of the motion can be carried out using Newton’s Laws of Linear Motion that we have seen in class. <a class="reference internal" href="#m03-pendulum-fig01"><span class="std std-numref">Fig. 66</span></a> illustrates a simple pendulum at some arbitrary point in its swinging motion back and forth. We define this point by the angle of the thread with the vertical, indicated by the dashed line. The forces acting on the mass are its weight straight down and the tension in the thread. The weight can be resolved into a component along the direction of the thread and a component perpendicular to the thread, i.e. along the tangent of the arc of the swing.</p>
 <figure class="align-center" id="m03-pendulum-fig01">
 <a class="reference internal image-reference" href="../_images/M10_figure1_squish_v01.jpg"><img alt="../_images/M10_figure1_squish_v01.jpg" src="../_images/M10_figure1_squish_v01.jpg" style="width: 70%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 65 </span><span class="caption-text">Force Diagram and variables used in the pendulum experiment.</span><a class="headerlink" href="#m03-pendulum-fig01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 66 </span><span class="caption-text">Force Diagram and variables used in the pendulum experiment.</span><a class="headerlink" href="#m03-pendulum-fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p><span class="math notranslate nohighlight">\(F_{1}\)</span>, the force along the direction of motion, is equal to <span class="math notranslate nohighlight">\(F \sin(\theta) = m g \sin(\theta)\)</span>.  We will now make a further simplifying assumption which is to assume that the maximum angular displacement, i.e.\ the maximum value of <span class="math notranslate nohighlight">\(x\)</span> is small.  If the value of <span class="math notranslate nohighlight">\(x\)</span> and therefore <span class="math notranslate nohighlight">\(\theta\)</span> is small, then the magnitude of both the <span class="math notranslate nohighlight">\(\sin(\theta)\)</span> and <span class="math notranslate nohighlight">\(\tan(\theta)\)</span> are essentially equal to <span class="math notranslate nohighlight">\(\theta\)</span>, measured in radians.  For small angles then, the value of the <span class="math notranslate nohighlight">\(\sin(\theta) = x/L\)</span>.  The implication of this assumption is that the pendulum never swings very far from the vertical.  Therefore the restoring force, i.e.\ the force that is acting to return the pendulum to its equilibrium vertical position, is assumed to be acting horizontally.  This is clearly never true except at the equilibrium position where the restoring force is zero.  The implication of this assumption is that the actual restoring force is always less than the value we assume it to be.</p>
@@ -441,6 +453,10 @@
 <p>To see what this motion looks like we will use Newton’s Second Law,</p>
 <div class="math notranslate nohighlight" id="equation-m03-pendulum-eq01">
 <span class="eqno">(87)<a class="headerlink" href="#equation-m03-pendulum-eq01" title="Permalink to this equation">#</a></span>\[F = -m g \frac{x}{L} = m a\]</div>
+<div class="note admonition">
+<p class="admonition-title">Deriving Period <span class="math notranslate nohighlight">\(T\)</span></p>
+<p>The following steps reviews the derivation of the pendulum’s period for small angles. This is good for review, however you can jump to <a class="reference internal" href="#equation-m03-pendulum-eq02">(88)</a>.</p>
+</div>
 <p>where <span class="math notranslate nohighlight">\(a\)</span> is the acceleration of the mass in the <span class="math notranslate nohighlight">\(x\)</span>-direction.
 Substituting the definition of acceleration</p>
 <div class="math notranslate nohighlight">
@@ -596,6 +612,10 @@ Substituting the definition of acceleration</p>
 </ul>
 </li>
 </ol>
+<ul class="simple">
+<li><p>LINEST !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p></li>
+</ul>
 </section>
 <section id="post-lab-submission-interpretation-of-results">
 <h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
@@ -611,27 +631,54 @@ Substituting the definition of acceleration</p>
   - How does $g_\text{corrected,avg}$ of Case 5 compare to $g_{\text{avg}}$ of Case 4 (at the same $L$)? Do they agree more or less after the consideration of additional terms.
 - How do the periods relate to different lengths of pendulum?
 --->
+<section id="finalized-spreadsheets">
+<h3>Finalized Spreadsheets<a class="headerlink" href="#finalized-spreadsheets" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Make sure to submit your finalized data table (Excel sheet)</p></li>
-<li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case</p>
+<li><p>Make sure to submit your finalized data table (Excel sheet)</p>
 <ul>
-<li><p>Case averages of <span class="math notranslate nohighlight">\(g_{avg}\pm\delta g_{avg}\)</span></p></li>
-<li><p>Case averages of <span class="math notranslate nohighlight">\(g{\text{corrected,avg}}\)</span></p></li>
-<li><p>Case averages of <span class="math notranslate nohighlight">\(g_{slope}\)</span></p></li>
-<li><p>Do your <span class="math notranslate nohighlight">\(g\pm\delta g\)</span> overlap for case 4 (same <span class="math notranslate nohighlight">\(L\)</span>)?</p></li>
-<li><p>How does the large angle case compare to the other cases?</p></li>
-<li><p>How does <span class="math notranslate nohighlight">\(g_{\text{corrected,avg}}\)</span> of the large angle case compare to the other cases?</p></li>
+<li><p>Please include relevant plot(s) including:</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(T^2\)</span> vs. <span class="math notranslate nohighlight">\(L\)</span> with all data points across the four small-angle cases (i.e. Cases 1 – 4)</p></li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="post-lab-writeup">
+<h3>Post-lab Writeup<a class="headerlink" href="#post-lab-writeup" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
 <li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative, not only quantitative.</p>
 <ul>
+<li><p>What is the precision of your equipment?</p></li>
 <li><p>What are your systematic and random errors?</p></li>
 <li><p>What are sources of uncertainty?</p></li>
-<li><p>What is the precision of your equipment?</p></li>
-<li><p>How do your final results change based on your uncertainties?</p></li>
+<li><p>How do your final results change based on your uncertainties (e.g. maximizing/minimizing values)?</p>
+<ul>
+<li><p>Of your quantities’ uncertainties, which quantity affects your final result for <span class="math notranslate nohighlight">\(g\)</span> the most?</p></li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+<!--- ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! make g slope unceratinty from excel--->
+<ul class="simple">
+<li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case</p>
+<ul>
+<li><p>Compare your averaged values to the accepted value of <span class="math notranslate nohighlight">\(g\)</span> for Fairfield, CT, for each length case including:</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(g_{avg}\pm\delta g_{avg}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(g{\text{corrected,avg}}\pm\delta g_{avg}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(g_{slope}\pm\delta g_{slope}\)</span></p></li>
+</ul>
+</li>
+<li><p>Do each of the small-angle cases agree with each other (Cases 1 – 4)? Why or why not using physical arguements?</p></li>
+<li><p>How do the <strong>uncorrected</strong> and <strong>corrected</strong> acceleration due to gravity values for the large angle case (Case 5) compare to the other cases?</p></li>
+<li><p>What is the relationship between period and length for a simple pendulum (i.e. longer/shorter)?</p></li>
+</ul>
+</li>
+</ul>
+</section>
 </section>
 <section id="the-whiteboard">
 <h2>The Whiteboard<a class="headerlink" href="#the-whiteboard" title="Permalink to this heading">#</a></h2>
@@ -714,7 +761,11 @@ Substituting the definition of acceleration</p>
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized Spreadsheets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-writeup">Post-lab Writeup</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
   </nav></div>
