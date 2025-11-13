@@ -96,6 +96,25 @@ P_2 = P_1 - \frac{1}{2}\rho (v_{2}^2 - v_{1}^2)
 
 ## Experimental Procedure
 
+
+### Demo Video: Procedure Summary
+
+<div style="text-align: center;">
+  <iframe
+    width="80%"
+    height="315"
+    src="https://www.youtube.com/embed/M7vvhe71DOg"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Demonstration video: The whole Fluids lab.</figcaption>
+</div>
+
+--- https://www.youtube.com/watch?v=M7vvhe71DOg
+
 ### Archimedes' Principle (First experiment)
 
 ```{admonition} OVERVIEW
@@ -105,6 +124,7 @@ P_2 = P_1 - \frac{1}{2}\rho (v_{2}^2 - v_{1}^2)
   - Part II: Determine buoyant force using Archimedes' Principle.
   - Part III: Determine buoyant force by measuring the upward force directly.
 ```
+
 
 #### Archimedes --- Preliminary Setup
 
@@ -150,7 +170,7 @@ F_\text{B} = w_\text{obj in air} - w_\text{obj in water}
 #### Part I: Mass, Volume, and Density
 
 1. Create a data table with:
-   - Columns for the mass $m$, relevant dimensions (length, width, height, radius), volume $V$, and density $\rho$
+   - Columns for the mass $m$, volume $V$, and density $\rho$
    - Rows for each of the 6 objects (clearly label or describe the objects in the table).
 
 2. Normally, you would measure the volume and mass of each object ({numref}`M08_fluids_Fig02`) with Vernier calipers and a triple-beam balance, however, to save time during lab, the volume and mass of each object is presented here:
