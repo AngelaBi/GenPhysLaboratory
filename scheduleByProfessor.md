@@ -1,5 +1,6 @@
 # Overview of the schedule for PHYS 1145 and PHYS 1171
 
+## Lab Makeup Procedure
 
 ```{admonition} Lab Makeup Procedure
 :class: warning
@@ -21,7 +22,7 @@ Please email and include (note, all the emails below end with ***@fairfield.edu*
 ```
 
 
-
+## Weekly Lab Schedule
 
 <table id="lab-schedule-week-overview" style="width:100%; text-align:left; border-collapse:collapse; font-size:15px;">
   <caption style="caption-side:top; text-align:center; font-weight:bold; font-size:18px; margin-bottom:10px;">Weekly Lab Schedule</caption>
@@ -104,7 +105,7 @@ Please email and include (note, all the emails below end with ***@fairfield.edu*
 </table>
 
 
-
+## Printed Weekly Lab Schedule
 
 ```{figure} ScheduleFigures/2025_Fall_LabSchedulePrintoutTimes_1145L_1171L_v5.jpg
 :name: schedule
