@@ -1,5 +1,7 @@
 # Schedule for PHYS 1145
 
+## Printed Lab Schedule
+
 ```{figure} ScheduleFigures/2025_Fall_LabSchedulePrintout_1145L_simplified.jpg
 :name: schedulePHYS1145
 :width: 100%
