@@ -345,7 +345,8 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
     - Common data section including:
       - Flow rate $R_\text{avg} \pm \sigma_R$ from Part I.
       - Cross-sectional areas $A_1$ and $A_2$ and their uncertainties $\delta_{A_1}$ and $\delta_{A_2}$.
-      - Velocities $v_1$ and $v_2$. Also include the max values for each (Used to estimate pressure uncertainty later).
+      - Velocities $v_1$ and $v_2$. 
+        - Also include the maximum velocity at the wide ($v_{1\text{ max}}$) and minimum velocity at the narrow constriction ($v_{2\text{ min}}$) (Used to estimate pressure uncertainty later).
       - Density of water $\rho$ (use 998.2 kg/m$^3$ for room temperature)
     - 7 rows for: 
       - five trials of the measuring $P_1$ and $P_2$ in Capstone as well as their averages $P_{1\text{,actual,avg}}$ and $P_{2\text{,actual,avg}}$ and standard deviations $\sigma_{P_{1\text{,actual,avg}}}$ and $\sigma_{P_{2\text{,actual,avg}}}$.
@@ -356,7 +357,16 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
     - Radii values are provided to save time: $r_1 = 4.93 \pm 0.02\,\text{mm}$ at the wide, $r_2 = 2.46 \pm 0.02\,\text{mm}$ at the narrow (see {ref}`m08-whiteboard-section`). 
     - Determine the areas' uncertainties $\delta_{A_1}$ and $\delta_{A_2}$ by maximizing the area using radii uncertainties (e.g. $A_{1\text{ max}} = \pi (r_1+\delta r_1)^2$) and taking the difference (e.g. $\delta_{A_1} = A_{1\text{ max}} - A_1$).
 
-13. Calculate $v_1$ and $v_2$ with the Continuity {eq}`M08_fluids_Eq05` based on your determined areas and average flow rate. Similarly, calculate $v_{1\text{ max}}$ and $v_{2\text{ max}}$ by maximizing the flow rate (e.g. $R_\text{avg} + \sigma_R$) and minimizing the areas (e.g. $A_1 - \delta_{A_1}$).
+13. Calculate $v_1$ and $v_2$ with the Continuity {eq}`M08_fluids_Eq05` based on your determined areas and average flow rate.
+
+    - Similarly, calculate **MAXIMUM** $v_{1\text{ max}}$ by maximizing the flow rate (e.g. $R_\text{avg} + \sigma_R$) and minimizing the areas (e.g. $A_1 - \delta_{A_1}$).
+  
+    - Similarly, calculate **MINIMUM** $v_{2\text{ min}}$ by minimizing the flow rate (e.g. $R_\text{avg} - \sigma_R$) and maximizing the areas (e.g. $A_2 + \delta_{A_2}$).
+
+    ```{admonition} Discussion Point: Minimize or Maximize for Error Propagation?
+    :class: question
+    Why do we maximize the velocity of the narrow constriction and minimize the velocity of the wide section of the venturi tube? What calculations will the velocity be used for? (hint: see {eq}`M08_fluids_Eq09`)
+    ```
 
 14. Capstone will be set up to show two pressures representing $P_1$ and $P_2$. Double check that the pressure taps of the Venturi tube are appropriately connected like in {numref}`M08_fluids_Fig08` where Channel 1 is connected to the wider part of the Venturi tube, and Channel 2 to the narrow constriction of the Venturi tube. (It'll be easier to keep track of which pressure is which when the labels are similar.)
 
@@ -395,9 +405,9 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
 
 23. Determine the averages $P_{1\text{,actual,avg}}$ and $P_{2\text{,actual,avg}}$ values from your five trials. Also determine their standard deviations $\sigma_{P_{1\text{,actual,avg}}}$ and $\sigma_{P_{2\text{,actual,avg}}}$.
 
-24. Calculate your experimental value of $P_{2\text{,experimental}}$ with {eq}`M08_fluids_Eq08` using your previously determined velocities $v_1$ and $v_2$ and your average $P_{1\text{,actual,avg}}$ treated as the known actual value for the wider part of the Venturi tube.
+24. Calculate your experimental value of $P_{2\text{,experimental}}$ with {eq}`M08_fluids_Eq09` using your previously determined velocities $v_1$ and $v_2$ and your average $P_{1\text{,actual,avg}}$ treated as the known actual value for the wider part of the Venturi tube.
 
-25. Similarly, for estimating an uncertainty in your average experimental value in the next step, calculate your max experimental value of $P_{2\text{,experimental,max}}$ by maximizing ${P_{1\text{,actual,avg}}}$ (e.g. ${P_{1\text{,actual,avg}}} + \sigma_{P_{1\text{,actual,avg}}}$) and using your already determined maximized velocities $v_{1\text{ max}}$ and $v_{2\text{ max}}$.
+25. Similarly, for estimating an uncertainty in your average experimental value in the next step, calculate your max experimental value of $P_{2\text{,experimental,max}}$ by maximizing ${P_{1\text{,actual,avg}}}$ (e.g. ${P_{1\text{,actual,avg}}} + \sigma_{P_{1\text{,actual,avg}}}$) and using your already determined maximized or minimized velocities $v_{1\text{ max}}$ and $v_{2\text{ min}}$.
 
 26. Represent your uncertainty $\delta P_{2\text{,experimental}}$ with the difference of your maximized value and average values:
 
