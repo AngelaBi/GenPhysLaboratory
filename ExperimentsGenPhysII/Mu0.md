@@ -1,4 +1,5 @@
-# Magnetic Force and the Determination of μ₀
+(magnetic-force-mu0-overall)=
+# Magnetic Force and the Determination of $\mu_0$
 
 ```{danger}
 ⚠️ ⚠️ ⚠️ ⚠️ WARNING ⚠️ ⚠️ ⚠️ ⚠️

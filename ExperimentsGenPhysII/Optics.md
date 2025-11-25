@@ -1,3 +1,4 @@
+(light-diffraction-lasers-and-geometric-optics-imaging-overall)=
 # Light – Diffraction with Lasers & Geometric Optics and Imaging
 
 ```{danger}

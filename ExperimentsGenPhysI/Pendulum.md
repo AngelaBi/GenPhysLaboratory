@@ -107,7 +107,7 @@ T = 2\pi \sqrt{\frac{L}{g}}  \left[ 1 +
   \frac{9}{64} \sin^4\left(\frac{\theta}{2}\right) + \ldots \right]
 ```
 
-Thus as the angle gets larger, the period increases. See an example of this in the latter half of {ref}`SimplePendulumDemoVideo-01`.
+where everything in the brackets will be called the ***Taylor Series correction factor*** for our uses today. Thus as the angle gets larger, the period increases. See an example of this in the latter half of {ref}`SimplePendulumDemoVideo-01`.
 
 When the pendulum swings with very small angles, the period is essentially independent of the amplitude.  However, from the more precise expression above for the period, this is not strictly true.  An amplitude decrease could result from the effects of friction in the pivot or air drag of the thread and mass.  Pendulum clock makers go to great pains to not only keep the length constant, but the amplitude of the swing as well.  Since we will average over many cycles, we must also assume that the amplitude does not change as we measure the period.  In our experiment, we might be tempted to average a very large number of cycles to reduce measurement errors.  However the necessarily larger initial amplitude together with the decreasing amplitude caused by friction effects would change the average period.  For the last case, we will do just that by deliberately start with a large amplitude and observe whether there is an increase in the measured period.
 
@@ -185,7 +185,8 @@ When the pendulum swings with very small angles, the period is essentially indep
         - $g_\text{experimental}$: Experimental values for from small amplitude approximation {eq}`M03_pendulum_Eq03`
         - $\delta g_\text{experimental}$: Uncertainty of experimental value from error propagation
         - $Difference\,(g_{\text{experimental}} - g)$: Magntitude of difference between $g_{\text{experimental}}$ and the accepted $g$, i.e. how far away your small amplitude approximated value is from the accepted value of $g$.
-        - $g_\text{corrected}$: *Corrected* value of $g_\text{experimental}$ by incorporating the additional terms of the series in {eq}`M03_pendulum_Eq04` that increases the period.
+        - **Taylor Series correction factor** from {eq}`M03_pendulum_Eq04`
+        - $g_\text{corrected}$: *Corrected* value of $g_\text{experimental}$ by incorporating the additional terms of the **Taylor Series correction factor** that increases the period.
         - $Difference\,(g_{\text{corrected}} - g)$: Magntitude of difference between $g_{\text{corrected}}$ and the accepted $g$, i.e. how far away your corrected value is from the accepted value of $g$.
       - Include an additional row for summarizing your results including, but not limited to:
         - $T_\text{avg}$: Average $T$ from all trials of the current case
@@ -265,7 +266,18 @@ g_{\text{maximize}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
     Did your value agree with the accepted value of $g$? I.e. was your uncertainty larger than the magnitude of the difference between your value and the accepted? If not, what errors could cause worse accuracy or disagreement between them?
     ```
 
-13. Calculate the corrected value, $g_\text{corrected}$, by including the next two terms of the series according to {eq}`M03_pendulum_Eq04` obtained by multiplying by the square of the factor in square brackets. This is like {eq}`M03_pendulum_Eq03` becoming {eq}`M03_pendulum_Eq06`. ***Note:*** we will just assume the uncertainty of the corrected value is the same as $\delta g_{\text{experimental}}$.
+13. Calculate the corrected value, $g_\text{corrected}$ by:
+
+    - Calculate the **Taylor Series correction factor** $C_\text{Taylor}$ which is the bracket portion of {eq}`M03_pendulum_Eq03` that incorportes 
+
+```{math}
+:label: M03_pendulum_Eq08
+[ 1 +
+  \frac{1}{ 4} \sin^2\left(\frac{\theta}{2}\right) +
+  \frac{9}{64} \sin^4\left(\frac{\theta}{2}\right) \right]
+```
+
+    - by multiplying your experimental value by your **Taylor Series correction factor** including the next two terms of the series according to {eq}`M03_pendulum_Eq04` obtained by multiplying by the square of the factor in square brackets. This is like {eq}`M03_pendulum_Eq03` becoming {eq}`M03_pendulum_Eq06`. ***Note:*** we will just assume the uncertainty of the corrected value is the same as $\delta g_{\text{experimental}}$.
 
 ```{math}
 :label: M03_pendulum_Eq06
@@ -288,7 +300,7 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
 
 16. **Graphical Analysis:**
 
-    - Using ***all data points*** (not just the averages) from the four small amplitude cases (Cases 1--4), plot the square of the average period, $T^2$, as a function of the length $L$. **Do not** use the large angle Case 5.
+    - Using ***all data points*** (not just the averages) from the four small amplitude cases (Cases 1--4), plot the square of the period, $T^2$, as a function of the length $L$. **Do not** use the large angle Case 5.
     - Plot all data points from your lab group and draw the best fit straight line through your data points (force the fit to pass through the origin by setting the y-intercept to 0).
     - Display the equation for the fit line on your plot.
     - Determine the slope of your graph using the `LINEST` function:

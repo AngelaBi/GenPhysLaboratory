@@ -1,3 +1,4 @@
+(electrical-example-of-an-exponential-decay-process-overall)=
 # Electrical Example of an Exponential Decay Process
 
 
