@@ -30,12 +30,37 @@ Use a separate row for each trial and a separate column for each measured or cal
     - `$D$5` will always refer to the same cell.
 - Never enter a value calculated outside the spreadsheet, for example, on your calculator. Any value you can find on the calculator can be calculated and updated automatically on the spreadsheet.
 - Use the spreadsheet's "fill down" capability by selecting a set of cells in a row and fill down by dragging with the little square in the bottom-right of the selected cells. Formulas will copy and the row numbers of referenced cells that are not preceded by `$` will increment automatically.
+  - This approach makes it efficient to create a spreadsheet to analyze your data and to correct errors. If you make a mistake in a formula, you can correct the first trial and then correct the other trials by filling down.
 - Wherever appropriate, data analysis includes finding averages, standard deviations, or error esitmates.
-- Unless otherwise stated, use Excel for graphs and for fitting data. Display the trendline (the equation of the fit, usually slope and intecept) on the graph itself.
-- When application, conduct all error propagation analysis in your Excel spreadsheet.
-- Use `=LINEST(y_values, x_values, True/False for y-int calculated as normal/set to zero, True/False to show uncertainties and additional stats/just slope)` fuction to calculate a plotted data's slope and y-intercept as well as their uncertainties. This is to have a referenceable cell for calculations that require the use of a trendline's values without having to manually copy the trendline infor from the plot (which could introduce a chance of mistyping and messing up your calculations).
 
-This approach makes it efficient to create a spreadsheet to analyze your data and to correct errors. If you make a mistake in a formula, you can correct the first trial and then correct the other trials by filling down.
+
+### Plotting in Excel
+
+- Unless otherwise stated, use Excel for graphs and for fitting data. Display the trendline (the equation of the fit, usually slope and intecept) on the graph itself.
+- When applicable, conduct all error propagation analysis in your Excel spreadsheet.
+- Assuming a linear fit, $Y = mx +b$, use the `LINEST` function to calculate a plotted data's slope and y-intercept as well as their uncertainties. This allows us to have a referenceable cell for calculations that require the use of a trendline's values without having to manually copy the trendline infor from the plot (which could introduce a chance of mistyping and messing up your calculations).
+  - Determine the slope of your graph using the `LINEST` function:
+    - `=LINEST(y-values,x-values,TRUE/FALSE,TRUE/FALSE)`
+    - y-values are from your dependent variable
+    - x-values are from your independent variable
+    - Y-intecept
+      - True to calculate the y-intercept like normal, just from the data
+      - False to force the y-intercept to zero
+    - Statistics
+      - True to return statistics on the fit as shown in {ref}`tab-excel-linest-simplified-overview`
+      - False to return just the slope
+    ```{table} Simplified Excel LINEST Output (showing only slope and intercept)
+    :name: tab-excel-linest-simplified-overview
+    | Row | Column 1 (Slope)                         | Column 2 (Intercept)                         |
+    |:---:|-------------------------------------------|-----------------------------------------------|
+    |  1  | **Slope value $m$** – best-fit line slope     | **Intercept value** – y-intercept of the line |
+    |  2  | **Slope uncertainty $\delta m$** – std. error of m   | **Intercept uncertainty** – std. error of b   |
+    |  3  | *(Ignored for this course)* R² and related metrics        | *(Ignored for this course)*                                   |
+    |  4  | *(Ignored for this course)* Additional regression stats   | *(Ignored for this course)*                                   |
+    |  5  | *(Ignored for this course)* Residual statistics           | *(Ignored for this course)*                                   |
+    ```
+
+
 
 ## Capstone
 
