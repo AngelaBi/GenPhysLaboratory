@@ -1,5 +1,5 @@
 (light-diffraction-lasers-and-geometric-optics-imaging-overall)=
-# Light – Diffraction with Lasers & Geometric Optics and Imaging
+# 1146L-ONLY | Light – Diffraction with Lasers & Geometric Optics and Imaging
 
 ```{danger}
 **⚠️ LASERS IN USE TODAY ⚠️**

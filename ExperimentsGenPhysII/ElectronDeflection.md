@@ -1,5 +1,5 @@
 (acceleration-and-deflection-of-electrons-overall)=
-# Acceleration And Deflection Of Electrons
+# Acceleration & Deflection of Electrons
 
 ## Background
 

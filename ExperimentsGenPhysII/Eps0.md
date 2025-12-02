@@ -1,5 +1,5 @@
 (electric-force-and-epsilon-overall)=
-# Electric Force and the Determination of $\varepsilon_0$
+# Electric Force & the Determination of $\varepsilon_0$
 
 ```{danger}
 **⚠️⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️⚠️**

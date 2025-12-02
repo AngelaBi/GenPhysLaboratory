@@ -1,5 +1,5 @@
 (resistivity-resistors-dc-circuits-overall)=
-# Resistivity, Resistors, and DC Circuits
+# Resistivity with Resistors & DC Circuits
 
 
 

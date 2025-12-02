@@ -300,12 +300,19 @@ g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
     - Then multiplying your small-amplitude experimental value by the square of your **Taylor Series correction factor**. This is like solving {eq}`M03_pendulum_Eq09` for $g$, leading to {eq}`M03_pendulum_Eq03` becoming {eq}`M03_pendulum_Eq06`. 
     - ***Note:*** Today, we will just assume the uncertainty of the corrected value is the same as $\delta g_{\text{small-amp}}$.
 
-```{math}
-:label: M03_pendulum_Eq06
-g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
-  \frac{1}{ 4} \sin^2\left(\frac{\theta}{2}\right) +
-  \frac{9}{64} \sin^4\left(\frac{\theta}{2}\right) \right]^2
-```
+    ```{math}
+    :label: M03_pendulum_Eq06
+    g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
+    \frac{1}{ 4} \sin^2\left(\frac{\theta}{2}\right) +
+    \frac{9}{64} \sin^4\left(\frac{\theta}{2}\right) \right]^2
+    ```
+
+    ```{admonition} Excel Syntax
+    :class: tip
+    - While we normally write a trig function to some power like $\sin^2\left(\frac{\theta}{2}\right)$; Excel does not know how to interpret that.
+    - `SIN()`, `COS()`, etc. are Excel *functions* which take some `input` between the parentheses (e.g. `SIN(input)`) and then returns a value such that `output = SIN(input)`. Reminder, Excel likes radians; Excel's trig functions are expecting the input to be in units of radians.
+    - To square any function's output in Excel is like saying `output`$^2$. To do such a thing with a trig function (or any Excel function for that matter), we would instead type `SIN(input-in-radians)^2`.
+    ```
 
 14. Calculate the magnitude of the difference between your corrected value and the accepted value of $g$ (i.e. the difference $g_{\text{corrected}} - g$).
 
