@@ -15,13 +15,12 @@
 
 ## Background
 
-### Overall goals and overview
-
-- **OVERALL GOALS and Overview:**
-  - Experimentally determine the electric constant $\varepsilon_0$
-  - Understand the relationship between electric force $F_E$ and voltage $V$ (i.e. $F_E$ vs. $V$) using a uniform electric field, reasonably produced by a parallel-plate capacitor.
-  - Conduct three rounds of six trials each (total 18 trials) of applying less mass (less gravitational force) and more voltage to produce an electric field (and therefore more electric force). Do the rounds sequentially rather than all of a single applied mass in a row to ensure you catch and correct any significant errors early (e.g. if the apparatus is bumped out of alignment) rather than having to do all 18 trials again. The order of the trials for applied masses would be 50, 40, 30, 20, 10, 0, 50, 40, 30, 20, 10, 0, 50, 40, 30, 20, 10, 0 mg.
-  - In this experiment, first determine the separation distance, $d$. Then replace the equilibrium mass with a series of smaller masses and apply the necessary voltage $V$ applied across the plates so they return to parallel where the separation distance returns to $d$. Under this condition, the electric force required to maintain the separation $d$ will be the difference of the gravitational force on the 50 mg mass and on the smaller mass. Then determine $\varepsilon_0$ through both averaging of all your trials and plotting of all your data (i.e. electric force vs. voltage between the plates). Comparing then your results from both analysis methods to the accepted $\varepsilon_{0\text{-accepted}}$.
+```{admonition} OVERALL GOALS
+:class: note
+Use a parallel-plate capacitor to create a uniform electric field to:
+  - Investigate the relationship between electric force $F_E$ and voltage $V$ (i.e. $F_E$ vs. $V$).
+  - Experimentally determine the electric constant $\varepsilon_0$.
+```
 
 The electric constant (a.k.a. vacuum permittivity, permittivity of free space, or dielectric permittivity of the vacuum), $\varepsilon_0$, is a fundamental constant of nature. It is the proportionality constant that relates the electric force between two charges. The constant $\varepsilon_0$ is also related to the constant $k$ in Coulomb's Law
 
@@ -113,22 +112,44 @@ The apparatus has been carefully adjusted before your lab and should not require
 **⚠️⚠️⚠️⚠️ DO NOT TOUCH THE METAL PLATES ⚠️⚠️⚠️⚠️**
 ```
 
+
+### Overall goals and overview
+
+```{admonition} OVERVIEW
+:class: note
+   - Experimentally investigate the relationship between electric force and applied voltage to determine the electric constant $\varepsilon_0$. You will conduct  5 Cases of different-length pendulums:
+   - Each Case with have either **10** or **15 trials**:
+      - Each student will complete a total of 5 trials each, with:
+        - Groups of 2 --- 10 trials
+        - Groups of 3 --- 15 trials
+  - Visualize a
+  !!!!!!!!!!!!!!!!!!!!!!!! UPDATE !!!!!!!!!!!!!!!!!
+  - Conduct three rounds of six trials each (total 18 trials) of applying less mass (less gravitational force) and more voltage to produce an electric field (and therefore more electric force). Do the rounds sequentially rather than all of a single applied mass in a row to ensure you catch and correct any significant errors early (e.g. if the apparatus is bumped out of alignment) rather than having to do all 18 trials again. The order of the trials for applied masses would be 50, 40, 30, 20, 10, 0, 50, 40, 30, 20, 10, 0, 50, 40, 30, 20, 10, 0 mg.
+  - In this experiment, first determine the separation distance, $d$. Then replace the equilibrium mass with a series of smaller masses and apply the necessary voltage $V$ applied across the plates so they return to parallel where the separation distance returns to $d$. Under this condition, the electric force required to maintain the separation $d$ will be the difference of the gravitational force on the 50 mg mass and on the smaller mass. Then determine $\varepsilon_0$ through both averaging of all your trials and plotting of all your data (i.e. electric force vs. voltage between the plates). Comparing then your results from both analysis methods to the accepted $\varepsilon_{0\text{-accepted}}$.
+```
+
+```{admonition} Additional Tips
+:class: tip
+- 
+```
+ 
+
+
 1. Prepare a common data table including given values.
    Reminder -- keep variable names and units in the row and column titles, and numbers in their own Excel cells to be able to reference in your equations. **Run all your calculations in your Excel sheet so your instructor can see how you arrived at your final results**. Include:
-   - Accepted value of $g = 9.803 \,\text{m/s}^2$ for Fairfield University
-    \item Accepted value of $\varepsilon_0 = 8.8542\times 10^{-12}\,\coulomb\squared\per\newton\per\meter\squared$
-%    \item Length of the frame $a \pm \delta a=0.279\pm0.001\,\meter$ (see Fig.~\ref{E1Fig:01})
-    \item Length of the frame $a=0.279\,\meter$ (see Fig.~\ref{E1Fig:01})
-%    \item Mirror-to-scale distance $b \pm \delta b = b \pm 0.003\meter$, has already been measured and is posted on the top of the protective enclosure (ex. in Fig.~\ref{E1Fig:01} bottom)
-    \item Mirror-to-scale distance $b$ has already been measured and is posted on the top of the protective enclosure (ex. in Fig.~\ref{E1Fig:01} bottom)
-%    \item Plate area $A \pm \delta A =0.0161\pm0.0002\,\meter^2$ (see Fig.~\ref{E1Fig:01})
-    \item Plate area $A=0.0161\,\meter^2$ (see Fig.~\ref{E1Fig:01})
-   - Equilibrium mass $m_0 = 50$ mg (plates are parallel when this amount of mass applied).
-   - Equilibrium force $F_0 = m_0 g$
-   - Scale reading at equilibrium $S_{0}$
-   - Scale reading when plates are in contact $S_{1}$
-   - Separation distance $d$
-     between the plates when the top plate is parallel to the bottom plate when a 50 mg mass is placed on the top plate (see examples in {numref}`E1Fig_01` top-right and {numref}`E1Fig_02` middle)
+    - Accepted value of $g = 9.803 \,\text{m/s}^2$ for Fairfield University
+    - Accepted value of $\varepsilon_0 = 8.8542\times 10^{-12}\,\text{C}^2 \, \text{N}^{-1} \text{m}^{-2}$
+    - Length of the frame $a \pm \delta a=0.279\pm0.001\,\meter$ (see Fig.~\ref{E1Fig:01})
+    - Length of the frame $a=0.279\,\meter$ (see Fig.~\ref{E1Fig:01})
+    - Mirror-to-scale distance $b \pm \delta b = b \pm 0.003\meter$, has already been measured and is posted on the top of the protective enclosure (ex. in Fig.~\ref{E1Fig:01} bottom)
+    - Mirror-to-scale distance $b$ has already been measured and is posted on the top of the protective enclosure (ex. in Fig.~\ref{E1Fig:01} bottom)
+    - Plate area $A \pm \delta A =0.0161\pm0.0002\,\meter^2$ (see Fig.~\ref{E1Fig:01})
+    - Plate area $A=0.0161\,\meter^2$ (see Fig.~\ref{E1Fig:01})
+    - Equilibrium mass $m_0 = 50$ mg (plates are parallel when this amount of mass applied).
+    - Equilibrium force $F_0 = m_0 g$
+    - Scale reading at equilibrium $S_{0}$
+    - Scale reading when plates are in contact $S_{1}$
+    - Separation distance $d$ between the plates when the top plate is parallel to the bottom plate when a 50 mg mass is placed on the top plate (see examples in {numref}`E1Fig_01` top-right and {numref}`E1Fig_02` middle)
 
 2. **Do not turn on the power supply until told to do so in the steps below.**
 3. Note the center marking "+" on the top of the movable plate where masses must be placed using the tweezers (see {numref}`E1Fig_03`).
