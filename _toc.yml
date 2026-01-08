@@ -14,8 +14,8 @@ parts:
     chapters:
     - file: Intro/IntroLab
     - file: Intro/DataAcquisition
-    - file: Intro/VernierCaliper
     - file: Intro/CapstoneNotes
+    - file: Intro/VernierCaliper
   - caption: Experiments
     chapters:
     - file: GeneralPhysicsLabI

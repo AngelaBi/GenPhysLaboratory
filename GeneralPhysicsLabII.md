@@ -1,6 +1,8 @@
 # General Physics Lab II
 The experiments you will conduct this semester are:
 
+[Excel and Spreadsheets Review, Syllabus](data-acquisition-and-analysis-overall)
+
 [Electric Force & the Determination of $\varepsilon_0$](electric-force-and-epsilon-overall)
 
 [Equipotential & Electric Field Mapping](electirc-field-equipotential-mapping-overall)
@@ -19,4 +21,4 @@ The experiments you will conduct this semester are:
 
 [Wave Motion](wave-motion-overall)
 
-[1146L-ONLY | Light – Diffraction with Lasers & Geometric Optics and Imaging](light-diffraction-lasers-and-geometric-optics-imaging-overall)
+[1146L-ONLY | Light – Geometric Optics and Imaging](light-diffraction-lasers-and-geometric-optics-imaging-overall)

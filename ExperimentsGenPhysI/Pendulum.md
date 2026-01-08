@@ -382,7 +382,7 @@ g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
 
 ### Finalized Spreadsheets
 
-  - Make sure to submit your finalized data table (Excel sheet)
+  - Make sure to submit your finalized data table (Excel sheet).
     - Please include relevant plot(s) including:
       - $T^2$ vs. $L$ with all data points across the four small-angle cases (i.e. Cases 1 -- 4)
 
@@ -396,7 +396,7 @@ g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
   - How do your final results change based on your uncertainties (e.g. maximizing/minimizing values)?
     - Of your quantities' uncertainties, which quantity affects your final result for $g$ the most?
 <!--- ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! make g slope unceratinty from excel--->
-- In a **paragraph**, summarize the results you have determined in each case
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
   - Compare your averaged values to the accepted value of $g$ for Fairfield, CT, for each length case including:
     - $g_{\text{small-amp,avg}}\pm\delta g_{\text{small-amp,avg}}$
     - $g_{\text{corrected,avg}}\pm\delta g_{\text{small-amp,avg}}$ (reminder, reusing the uncertainty here)
