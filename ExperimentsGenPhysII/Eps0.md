@@ -39,16 +39,27 @@ k = \frac{1}{4 \pi \varepsilon_0}.
 The subscript zero refers to the baseline value of the permittivity of free space. 
 
 
-If we apply Coulomb's law to the special case of two *large*, *closely-spaced*, *parallel plates*, we can derive an expression for the electric force between the two plates. This configuration is known as the **parallel-plate capacitor** (example in {numref}`E1Fig_000`).
+If we apply Coulomb's law to the special case of two *large*, *closely-spaced*, *parallel plates*, we can derive an expression for the electric force between the two plates. This configuration is known as the **parallel-plate capacitor** (example in {numref}`E1Fig_0001`).
 
 
-```{figure} Eps0Figures/E1_Fig_000_parallelPlates.png
+```{figure} Eps0Figures/E1_Fig_0001_parallelPlates_v01.png
 ---
-width: 50%
-name: E1Fig_000
+width: 60%
+name: E1Fig_0001
+---
+Example of a uniform electric field due to charges spread out on the plates of a parallel-plate capacitor. The more charge, the stronger the $E$-field.
+```
+
+
+```{figure} Eps0Figures/E1_Fig_0002_parallelPlates_v01.png
+---
+width: 60%
+name: E1Fig_0002
 ---
 Example of a parallel-plate capacitor. Plates of area $A$ are seaparated $d$ apart with charge $Q$ built up on each plate based on the applied voltage which creates a uniform electric field.
 ```
+
+
 
 <!---
 When a voltage $V$ is applied between the plates of a parallel-plate capacitor, charge is distributed evenly, such that total the surface charge density is $\sigma = Q/A$; charge $Q$ is distributed across the area $A$ of each plate in equal, but opposite sign. If looking as just a single plate by themselves, it creates its own electric field on either side of the plate such that the electric field for one side of the plate is due to half of the charge, leading to a magnitude $E_\text{singlePlateSide} = \frac{\sigma}{2 \varepsilon_0} = \frac{Q}{2 \varepsilon_0 A}$. 
@@ -88,30 +99,15 @@ By measuring electric force, voltage, and geometry of the apparatus, $\varepsilo
 
 
 
-```{figure} Eps0Figures/fig_00_OverallApparatus_v02.png
----
-width: 100%
-name: E1Fig_00
----
-Top) Example of the entire setup. Bottom) Front view of capacitor apparatus; protective box.
-```
 
-```{figure} Eps0Figures/fig_01_Apparatus_v03.png
----
-width: 100%
-name: E1Fig_01
----
-Parallel Plate Capacitor Apparatus. Top-left) Schematic showing dimensions. Top-right) Plate separation when parallel. Middle) Example apparatus with dimensions. Bottom) Example of mirror-to-scale distance.
-```
+### Equipment List
 
-### Equipment
-
-Depicted in {numref}`E1Fig_00` -- {numref}`E1Fig_02`.
+Depicted across {numref}`E1Fig_00` -- {numref}`E1Fig_02`. All equipment as listed can be seen first in {numref}`E1Fig_00`.
 
 - Telescope with crosshair & centimeter-scale ruler (a.k.a. scale) on vertical pole
 - High voltage DC power supply, 0 -- 500 V
 - Fluke multimeter -- set to read DC voltage
-- Small masses of 1 -- 500 mg, plastic tweezers
+- Small masses of 10 -- 500 mg, plastic tweezers
 - Parallel-plate capacitor apparatus:
   - Bottom plate held in static position on lower plate adjustment towers
   - Balance beam balancing on thin, conductive, knife edges with:
@@ -124,7 +120,19 @@ Depicted in {numref}`E1Fig_00` -- {numref}`E1Fig_02`.
 - x4 Banana plug wires (12 AWG) connecting power supply to voltmeter & parallel-plate apparatus
 - Protective box with the mirror-to-scale distance $b$ written on it
 
-### Adjustment of apparatus
+
+```{figure} Eps0Figures/fig_00_OverallApparatus_v02.png
+---
+width: 100%
+name: E1Fig_00
+---
+Top) Example of the entire setup. Bottom) Front view of capacitor apparatus; protective box.
+```
+
+
+
+
+### Adjustment of apparatus (check with Instructor if needed)
 
 The apparatus has been carefully adjusted before your lab and should not require further significant adjustments. This section describes how the apparatus was prepared. If something seems to need adjusting, see the lab instructor.
 
@@ -171,12 +179,27 @@ You will experimentally determine $\varepsilon_0$ today; a few weeks from now in
 
 ### Preliminary Setup
 
+All measurements and given lengths you will use can be seen in {numref}`E1Fig_01`.
+
+```{figure} Eps0Figures/fig_01_Apparatus_v03.png
+---
+width: 100%
+name: E1Fig_01
+---
+Parallel Plate Capacitor Apparatus. 
+Top-left) Schematic showing given dimensions and determined plate separation $d$. 
+Top-right) Determined plate separation $d$ when parallel (i.e. at equilibrium with no applied voltage).
+Middle) Example apparatus with given dimensions. 
+Bottom) Example of mirror-to-scale distance.
+```
+
+
 1. Prepare a common data table including given values.
    Reminder -- keep variable names and units in the row and column titles, and numbers in their own Excel cells to be able to reference in your equations. **Run all your calculations in your Excel sheet so your instructor can see how you arrived at your final results**. Include:
-    - Accepted value of $g = 9.803 \,\text{m/s}^2$ for Fairfield University
-    - Accepted value of $\varepsilon_0 = 8.8542\times 10^{-12}\,\text{C}^2 \, \text{N}^{-1} \text{m}^{-2}$
-    - Length of the frame $a \pm \delta a=0.279\pm0.001\,\meter$ (see Fig.~\ref{E1Fig:01})
-    - Length of the frame $a=0.279\,\meter$ (see Fig.~\ref{E1Fig:01})
+    - $g = 9.803 \,\text{m/s}^2$: Accepted value of accel. due to garvity for Fairfield University
+    - $\varepsilon_{0\text{actual}} = 8.8542\times 10^{-12}\,\text{C}^2 \, \text{N}^{-1} \text{m}^{-2}$: Accepted value of electric constant
+    <!---   - $a \pm \delta a=0.279\pm0.001\,\meter$: Length of the frame (see Fig.~\ref{E1Fig:01}) --->
+    - Length of the frame $a=0.279\,\text{m}$ (see Fig.~\ref{E1Fig:01})
     - Mirror-to-scale distance $b \pm \delta b = b \pm 0.003\meter$, has already been measured and is posted on the top of the protective enclosure (ex. in Fig.~\ref{E1Fig:01} bottom)
     - Mirror-to-scale distance $b$ has already been measured and is posted on the top of the protective enclosure (ex. in Fig.~\ref{E1Fig:01} bottom)
     - Plate area $A \pm \delta A =0.0161\pm0.0002\,\meter^2$ (see Fig.~\ref{E1Fig:01})
@@ -337,6 +360,7 @@ somewhere in here maximize and minimize $\varepsilon_0$ due to the uncertainty $
   - Make sure to submit your finalized data table (Excel sheet).
   - Please include relevant plot(s) including:
     - $F_E$ vs. $V^2$ with all data points across all trials, including those at equilibrium ($m = 50\,\text{mg}$).
+    - $F_E$ vs. $V$ with all data points across all trials, including those at equilibrium ($m = 50\,\text{mg}$).
 
 
 ### Post-lab Writeup
