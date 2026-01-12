@@ -398,7 +398,7 @@ Defend why your data agrees with or disagrees with the measured values for your 
     - What are possible random errors for today's experiment?
 	- What are possible systematic errors for today’s experiments?
 	- Discuss your uncertainties (see {ref}`error-step-centripetal-force`) and their effects
-        - Sources of measured or esitmated uncertainties (values); how large are they?
+        - Sources of measured or estimated uncertainties (values); how large are they?
         - How do they affect your final mass values; what has the largest affect?
 - In a **paragraph**, summarize the results you have determined in each case. 
 	- From where did you determine your experimental mass? Do your experimentally determined masses with uncertainties ($\text{e.g.}\,\bar{M}_\text{object,exp} \pm \delta \bar{M}_\text{object,exp}$) agree with the actual mass of the applied masses plus mass holder (i.e. range overalapping with actual value)?

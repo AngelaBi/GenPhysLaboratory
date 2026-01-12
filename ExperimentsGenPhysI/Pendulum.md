@@ -28,7 +28,14 @@ Under the assumption of a simple pendulum, the analysis of the motion can be car
 Force Diagram and variables used in the pendulum experiment.
 ```
 
-$F_{1}$, the force along the direction of motion, is equal to $F \sin(\theta) = m g \sin(\theta)$.  We will now make a further simplifying assumption which is to assume that the maximum angular displacement, i.e. the maximum value of $x$, is small.  If the value of $x$, and therefore $\theta$, is small, then the magnitude of both the $\sin(\theta)$ and $\tan(\theta)$ are essentially equal to $\theta$, measured in radians.  For small angles then, the value of the $\sin(\theta) = x/L$.  The implication of this assumption is that the pendulum never swings very far from the vertical.  Therefore the restoring force, i.e. the force that is acting to return the pendulum to its equilibrium vertical position, is assumed to be acting *horizontally*.  This is clearly never true except at the equilibrium position where the restoring force is zero.  The implication of this assumption is that the actual restoring force is always *less* than the value we assume it to be.
+$F_{1}$, the force along the direction of motion, is equal to $F \sin(\theta) = m g \sin(\theta)$.  We will now make a further simplifying assumption which is to assume that the maximum angular displacement, i.e. the maximum value of $x$, is small.  If the value of $x$, and therefore $\theta$, is small, then the magnitude of both the $\sin(\theta)$ and $\tan(\theta)$ are essentially equal to $\theta$, measured in radians. 
+
+```{admonition} Small-Amplitude Approximation
+:class: note
+For small angles, the value of the $\sin(\theta) = x/L$.  
+```
+
+The implication of this small-angle assumption is that the pendulum never swings very far from the vertical. Therefore the restoring force, i.e. the force that is acting to return the pendulum to its equilibrium vertical position, is assumed to be acting *horizontally*.  This is clearly never true except at the equilibrium position where the restoring force is zero.  The implication of this assumption is that the actual restoring force is always *less* than the value we assume it to be.
 
 <!--- check on this ^^^ --->
 
@@ -47,12 +54,13 @@ To see what this motion looks like we will use Newton's Second Law,
 F = -m g \frac{x}{L} = m a
 ```
 
+where $a$ is the acceleration of the mass in the $x$-direction.
+
 ```{admonition} Deriving Period $T$
 :class: note
 The following steps reviews the derivation of the pendulum's period for small angles. This is good for review, however you can jump to {eq}`M03_pendulum_Eq02`.
 ```
 
-where $a$ is the acceleration of the mass in the $x$-direction.
 Substituting the definition of acceleration
 
 ```{math}
@@ -77,28 +85,28 @@ This second order, linear, differential equation has a solution
 x(t) = A \cos\left(2\pi \frac{t}{T} \right)
 ```
 
-where $A$, the amplitude, is the maximum value of $x$; $T$ is the period; and the motion is such that at $t = 0$, the pendulum is at its maximum displacement, i.e. $x = A$. Note that the motion is independent of the mass. Substitution of this solution into the differential equation yields an expression for the period as
+where the amplitude $A$ is the maximum value of $x$; $T$ is the period; and the motion is such that at $t = 0$, the pendulum is at its maximum displacement, i.e. $x = A$. Note that the motion is independent of the mass. Substitution of this solution into the differential equation yields an expression for the period of a small-amplitude pendulum as
 
 ```{math}
 :label: M03_pendulum_Eq02
 T = 2\pi \sqrt{\frac{L}{g}}.
 ```
 
-Rearranging this expression we can obtain
+Rearranging this expression we can similarly obtain a small-amplitude-approximated value
 
 ```{math}
 :label: M03_pendulum_Eq03
-g = 4\pi^2 \frac{L}{T^2}.
+g = 4\pi^2 \frac{L}{T^2}
 ```
 
-and
+and, for our uses of plotting our experimental data later on,
 
 ```{math}
 :label: M03_pendulum_Eq07
 T^2 = \frac{4\pi^2}{g} L
 ```
 
-Had we not constrained the motion of the pendulum to small amplitudes, the expression for the period would be given by
+Had we not constrained the motion of the pendulum to small amplitudes, the expression for the period would be given by the small-amplitude approximation multiplied by an infinite Taylor Series of additional, smaller correction terms
 
 ```{math}
 :label: M03_pendulum_Eq04
@@ -107,9 +115,25 @@ T = 2\pi \sqrt{\frac{L}{g}}  \left[ 1 +
   \frac{9}{64} \sin^4\left(\frac{\theta}{2}\right) + \ldots \right]
 ```
 
-Thus as the angle gets larger, the period increases. See an example of this in the latter half of {ref}`SimplePendulumDemoVideo-01`.
+Thus as the angle gets larger, the period increases as those additional terms become significant. You can see example of this by the slightly longer period of the large angle example in {ref}`SimplePendulumDemoVideo-01`. 
 
-When the pendulum swings with very small angles, the period is essentially independent of the amplitude.  However, from the more precise expression above for the period, this is not strictly true.  An amplitude decrease could result from the effects of friction in the pivot or air drag of the thread and mass.  Pendulum clock makers go to great pains to not only keep the length constant, but the amplitude of the swing as well.  Since we will average over many cycles, we must also assume that the amplitude does not change as we measure the period.  In our experiment, we might be tempted to average a very large number of cycles to reduce measurement errors.  However the necessarily larger initial amplitude together with the decreasing amplitude caused by friction effects would change the average period.  For the last case, we will do just that by deliberately start with a large amplitude and observe whether there is an increase in the measured period.
+For our uses today, we will only focus on the first three terms of the Taylor Series, and call everything in the brackets our ***Taylor Series correction factor***, denoted as $C_\text{Taylor}$, such that
+
+```{math}
+:label: M03_pendulum_Eq08
+C_\text{Taylor} = \left[ 1 +
+  \frac{1}{ 4} \sin^2\left(\frac{\theta}{2}\right) +
+  \frac{9}{64} \sin^4\left(\frac{\theta}{2}\right) \right]
+```
+
+simplifies our equation for the period to
+
+```{math}
+:label: M03_pendulum_Eq09
+T = 2\pi \sqrt{\frac{L}{g}} \times C_\text{Taylor}
+```
+
+When the pendulum swings with very small angles, the period is essentially independent of the amplitude.  However, from the more precise expression above for the period, this is not strictly true.  An amplitude decrease could result from the effects of friction in the pivot or air drag of the thread and mass.  Pendulum clock makers go to great pains to not only keep the length constant, but the amplitude of the swing as well.  Since we will average over many cycles, we must also assume that the amplitude does not change as we measure the period.  In our experiment, we might be tempted to average a very large number of cycles to reduce measurement errors.  However the necessarily larger initial amplitude together with the decreasing amplitude caused by friction effects would change the average period.  For the last case, we will do just that by deliberately starting with a large amplitude and observe whether there is an increase in the measured period.
 
 
 
@@ -178,26 +202,29 @@ When the pendulum swings with very small angles, the period is essentially indep
       - For each case, include **columns** for
         - Trial number
         - Lab member's initials
-        - $t_{10\text{cycles}}$: Measured **total time** of the 10 swings
+        - $t_{10\text{cycles}}$: Measured **total time** of the 10 cycles (swing out and back to initial position)
         - $\delta t_{10\text{cycles}}$: Estimated uncertainty in total time
         - $T$: Period of a single swing as determined from your measured time
         - $\delta T$: Uncertainty of the period similarly determined from $\delta t_{10\text{cycles}}$
-        - $g_\text{experimental}$: Experimental values for from small amplitude approximation {eq}`M03_pendulum_Eq03`
-        - $\delta g_\text{experimental}$: Uncertainty of experimental value from error propagation
-        - $Difference\,(g_{\text{experimental}} - g)$: Magntitude of difference between $g_{\text{experimental}}$ and the accepted $g$, i.e. how far away your small amplitude approximated value is from the accepted value of $g$.
-        - $g_\text{corrected}$: *Corrected* value of $g_\text{experimental}$ by incorporating the additional terms of the series in {eq}`M03_pendulum_Eq04` that increases the period.
-        - $Difference\,(g_{\text{corrected}} - g)$: Magntitude of difference between $g_{\text{corrected}}$ and the accepted $g$, i.e. how far away your corrected value is from the accepted value of $g$.
+        - $g_\text{small-amp}$: Experimental value of small-amplitude-approximated acceleration due to gravity
+        - $\delta g_\text{small-amp}$: Uncertainty of small-amplitude-approximated experimental value from error propagation
+        - $Difference\,(g_{\text{small-amp}} - g)$: Magntitude of difference between $g_{\text{small-amp}}$ and the accepted $g$, i.e. how far away your small-amplitude-approximated value is from the accepted value of $g$
+        - $C_\text{Taylor}$: **Taylor Series correction factor**
+        - $g_\text{corrected}$: *Corrected* value of $g_\text{small-amp}$ by incorporating the additional terms of the **Taylor Series correction factor** that increases the period
+        - $Difference\,(g_{\text{corrected}} - g)$: Magntitude of difference between $g_{\text{corrected}}$ and the accepted $g$, i.e. how far away your corrected value is from the accepted value of $g$
       - Include an additional row for summarizing your results including, but not limited to:
         - $T_\text{avg}$: Average $T$ from all trials of the current case
-        - $g_{\text{experimental,avg}}$: Average $g$ from all trials of the current case
-        - $\delta g_{\text{experimental,avg}}$: Average uncertainty of $g$ from all trials of the current cases
-        - $Average\,Difference\,(g_{\text{experimental,avg}} - g)$: Average magntitude of difference between $g_{\text{experimental}}$ and the accepted $g$
+        - $g_{\text{small-amp,avg}}$: Average small-amplitude-approximated $g$ from all trials of the current case
+        - $\delta g_{\text{small-amp,avg}}$: Average uncertainty of $g$ from all trials of the current cases
+        - $Average\,Difference\,(g_{\text{small-amp,avg}} - g)$: Average magntitude of difference between $g_{\text{small-amp}}$ and the accepted $g$
         - $g_\text{corrected,avg}$: Average corrected values of $g$
         - $Average\,Difference\,(g_{\text{corrected,avg}} - g)$: Average magntitude of difference between $g_{\text{corrected}}$ and the accepted $g$
-        - $g_\text{slope}$: Slope-derived value of $g$ from fitting a trend line to all small-angle data points
+        - $g_\text{slope}$: Slope-derived value of $g$ from fitting a trend line to all small-amplitude data points
         - $\delta g_\text{slope}$: Uncertainty of slope-derived value of $g$, found by propagating the uncertainty of the slope of the fit
         - $Difference\,(g_{\text{slope}} - g)$: Magntitude of difference between $g_{\text{slope}}$ and the accepted $g$
-      - Include an additional section (must be an empty 2 column $\times$ 5 row section in your spreadsheet as they will be autopopulated by the `LINEST` function later on) to determine the slope and the slope's uncertainty of all small-angle data points
+      - Include an additional section for plotting and analysis
+        - Columns for all $L$ and $T^2$ values from all small-amplitude trials across all relevant cases combined together for easy plotting
+        - Section for `LINEST` function. Must be an empty 2 column $\times$ 5 row section in your spreadsheet as those cells will be autopopulated by the `LINEST` function later on. Used for determining the slope and the slope's uncertainty
 
 
 
@@ -249,48 +276,61 @@ For each case, perform 5 trials per person (i.e. 10 or 15 total data points per 
 
 9. Similarly, determine the period uncertainty $\delta T$ for one cycle from each trial.
 
-10. Calculate the value of $g_\text{experimental}$ for each trial using the small amplitude approximation, {eq}`M03_pendulum_Eq03`.
+10. Calculate the value of $g_\text{small-amp}$ for each trial using the small-amplitude approximation, {eq}`M03_pendulum_Eq03`.
 
-11. Similarly, determine $\delta g_\text{experimental}$, the uncertainty of your value for $g$. Make $g$ as large as your uncertainties allow and subtract the original value; the difference is the uncertainty in $g$. In other words, maximize $g_{\text{maximize}}$ with a smaller period and larger pendulum length: using ($T - \delta T$) as the period and ($L + \delta L$) to make $g_{\text{maximize}}$ bigger by dividing by a smaller period and multiplying by a longer length. Then get the uncertainty by $\delta g_\text{experimental} = g_{\text{maximize}} - g_\text{experimental}$.
+11. Similarly, determine $\delta g_\text{small-amp}$, the uncertainty of your value for $g$. Make $g$ as large as your uncertainties allow and subtract the original value; the difference is the uncertainty in $g$. In other words, 
+    - Maximize $g_{\text{small-amp,max}}$ with a smaller period and larger pendulum length: using ($T - \delta T$) as the period and ($L + \delta L$) to make $g_{\text{small-amp,max}}$ bigger by dividing by a smaller period and multiplying by a longer length. 
+    - Then get the uncertainty by $\delta g_\text{small-amp} = g_{\text{small-amp,max}} - g_\text{small-amp}$.
 
 ```{math}
 :label: M03_pendulum_Eq05
-g_{\text{maximize}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
+g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
 ```
 
-12. Calculate the magnitude of the difference between your experimental value and the accepted value of $g$ (i.e. the difference $g_{\text{experimental}} - g$).
+12. Calculate the magnitude of the difference between your experimental value and the accepted value of $g$ (i.e. the difference $g_{\text{small-amp}} - g$).
 
     ```{admonition} Discussion Point: Accuracy
     :class: question
     Did your value agree with the accepted value of $g$? I.e. was your uncertainty larger than the magnitude of the difference between your value and the accepted? If not, what errors could cause worse accuracy or disagreement between them?
     ```
 
-13. Calculate the corrected value, $g_\text{corrected}$, by including the next two terms of the series according to {eq}`M03_pendulum_Eq04` obtained by multiplying by the square of the factor in square brackets. This is like {eq}`M03_pendulum_Eq03` becoming {eq}`M03_pendulum_Eq06`. ***Note:*** we will just assume the uncertainty of the corrected value is the same as $\delta g_{\text{experimental}}$.
+13. Calculate the corrected value, $g_\text{corrected}$ by:
 
-```{math}
-:label: M03_pendulum_Eq06
-g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
-  \frac{1}{ 4} \sin^2\left(\frac{\theta}{2}\right) +
-  \frac{9}{64} \sin^4\left(\frac{\theta}{2}\right) \right]^2
-```
+    - Calculating the **Taylor Series correction factor** $C_\text{Taylor}$ using {eq}`M03_pendulum_Eq08` (i.e. the first three terms of the brackets of {eq}`M03_pendulum_Eq04`).
+    - Then multiplying your small-amplitude experimental value by the square of your **Taylor Series correction factor**. This is like solving {eq}`M03_pendulum_Eq09` for $g$, leading to {eq}`M03_pendulum_Eq03` becoming {eq}`M03_pendulum_Eq06`. 
+    - ***Note:*** Today, we will just assume the uncertainty of the corrected value is the same as $\delta g_{\text{small-amp}}$.
+
+    ```{math}
+    :label: M03_pendulum_Eq06
+    g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
+    \frac{1}{ 4} \sin^2\left(\frac{\theta}{2}\right) +
+    \frac{9}{64} \sin^4\left(\frac{\theta}{2}\right) \right]^2
+    ```
+
+    ```{admonition} Excel Syntax
+    :class: tip
+    - While we normally write a trig function to some power like $\sin^2\left(\frac{\theta}{2}\right)$; Excel does not know how to interpret that.
+    - `SIN()`, `COS()`, etc. are Excel *functions* which take some `input` between the parentheses (e.g. `SIN(input)`) and then returns a value such that `output = SIN(input)`. Reminder, Excel likes radians; Excel's trig functions are expecting the input to be in units of radians.
+    - To square any function's output in Excel is like saying `output`$^2$. To do such a thing with a trig function (or any Excel function for that matter), we would instead type `SIN(input-in-radians)^2`.
+    ```
 
 14. Calculate the magnitude of the difference between your corrected value and the accepted value of $g$ (i.e. the difference $g_{\text{corrected}} - g$).
 
 
 15. Calculate your average values from everyone's trials for the current case:
     - $T_\text{avg}$, the average value of $T$
-    - $g_{\text{experimental,avg}}$, the average value of $g$
-    - $\delta g_{\text{experimental,avg}}$, the average uncertainty of $g$
-    - $Average\,Difference\,(g_{\text{experimental,avg}} - g)$, the average difference between experimental and accepted $g$
+    - $g_{\text{small-amp,avg}}$, the average value of small-amplitude experimental value of $g$
+    - $\delta g_{\text{small-amp,avg}}$, the average uncertainty of $g_{\text{small-amp,avg}}$
+    - $Average\,Difference\,(g_{\text{small-amp,avg}} - g)$, the average difference between small-amplitude experimental value and accepted $g$
     - $g_\text{corrected,avg}$, the average corrected value of $g$
     - $Average\,Difference\,(g_{\text{corrected,avg}} - g)$, the verage difference between corrected and accepted $g$
 
 
 16. **Graphical Analysis:**
 
-    - Using ***all data points*** (not just the averages) from the four small amplitude cases (Cases 1--4), plot the square of the average period, $T^2$, as a function of the length $L$. **Do not** use the large angle Case 5.
-    - Plot all data points from your lab group and draw the best fit straight line through your data points (force the fit to pass through the origin by setting the y-intercept to 0).
-    - Display the equation for the fit line on your plot.
+    - Using ***all data points*** (not just the averages) from the four small amplitude cases (Cases 1--4), plot the square of the period, $T^2$, as a function of the length $L$ (i.e. dependent variable $T^2$ on y-axis, independent variable $L$ on x-axis). **Do not** use the large angle Case 5.
+      - Draw the best fit line through your data points (force the fit to pass through the origin by setting the y-intercept to 0).
+      - Display the equation for the fit line on your plot.
     - Determine the slope of your graph using the `LINEST` function:
       - `=LINEST(y-values,x-values,FALSE,TRUE)`
       - where the y-values at your $T^2$ values
@@ -307,6 +347,7 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
       |  4  | *(Ignored)* Additional regression stats   | *(Ignored)*                                   |
       |  5  | *(Ignored)* Residual statistics           | *(Ignored)*                                   |
       ```
+    - Confirm your slope shown on your plot matches that calculated by the `LINEST` function
     - From the expression for the period, the measured slope, $m$, should give you your best estimate of the value of $g$. Since the expression for $T^2$ is given by {eq}`M03_pendulum_Eq07`, the slope of your graph, $m = 4\pi^2/g$. Thus your final value for $g_\text{slope}$ is $4\pi^2/m$.
     - Determine $\delta g_\text{slope}$, the uncertainty of your slope-derived value of $g$. Propagate the uncertainty of the fit's slope to maximize $g_\text{slope,maximized} = 4\pi^2/(m - \delta m)$, and take the difference (i.e. $\delta g_\text{slope} = g_\text{slope,maximized} - g_\text{slope}$).
     - Calculate the magnitude of the difference between your slope-derived value and the accepted value of $g$ (i.e. the difference $g_\text{slope} - g$).
@@ -314,9 +355,9 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
 
     ```{admonition} Discussion Point: Experimental Averages vs. Accepted
     :class: question
-    - Compare your experimental values's uncertainties $\delta g$ to the difference between the accepted value of $g$ and the average value for the case.
+    - Compare your experimental values' uncertainties $\delta g$ to the difference between the average value for the case and the accepted value of $g$.
     - Do your experimental values for $g$ agree with the accepted value of $g$. In other words, does $g \pm \delta g$ overlap with the accepted value by covering the difference between the experimental and actual values?
-    - Think about this for your $g_{\text{experimental,avg}}$, $g_{\text{corrected,avg}}$, $g_{\text{slope}}$.
+    - Think about this for your $g_{\text{small-amp,avg}}$, $g_{\text{corrected,avg}}$, $g_{\text{slope}}$.
     ```
 
 
@@ -341,7 +382,7 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
 
 ### Finalized Spreadsheets
 
-  - Make sure to submit your finalized data table (Excel sheet)
+  - Make sure to submit your finalized data table (Excel sheet).
     - Please include relevant plot(s) including:
       - $T^2$ vs. $L$ with all data points across the four small-angle cases (i.e. Cases 1 -- 4)
 
@@ -355,13 +396,13 @@ g = 4\pi^2 \frac{L}{T^2} \left[ 1 +
   - How do your final results change based on your uncertainties (e.g. maximizing/minimizing values)?
     - Of your quantities' uncertainties, which quantity affects your final result for $g$ the most?
 <!--- ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! make g slope unceratinty from excel--->
-- In a **paragraph**, summarize the results you have determined in each case
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
   - Compare your averaged values to the accepted value of $g$ for Fairfield, CT, for each length case including:
-    - $g_{\text{experimental,avg}}\pm\delta g_{\text{experimental,avg}}$
-    - $g_{\text{corrected,avg}}\pm\delta g_{\text{experimental,avg}}$
+    - $g_{\text{small-amp,avg}}\pm\delta g_{\text{small-amp,avg}}$
+    - $g_{\text{corrected,avg}}\pm\delta g_{\text{small-amp,avg}}$ (reminder, reusing the uncertainty here)
     - $g_{slope}\pm\delta g_{slope}$
   - Do each of the small-angle cases agree with each other (Cases 1 -- 4)? Why or why not using physical arguements?
-  - How do the **uncorrected** and **corrected** acceleration due to gravity values for the large angle case (Case 5) compare to the other cases?
+  - How do the **uncorrected** and **corrected** accelerations due to gravity values for the large angle case (Case 5) compare to the other cases, including Case 4 of the same pendulum length?
   - What is the relationship between period and length for a simple pendulum (i.e. longer/shorter)?
 
 ## The Whiteboard

@@ -1,4 +1,5 @@
-# Electrical Example of an Exponential Decay Process
+(electrical-example-of-an-exponential-decay-process-overall)=
+# Electrical Example of an Exponential Decay Process with Resistors & Capacitors (RC Circuits)
 
 
 ## Background

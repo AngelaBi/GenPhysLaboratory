@@ -417,7 +417,7 @@ Defend why your data agrees with or disagrees with the concept of energy conserv
   - For today’s lab, assume that your calculated kinetic energies are their average +/- standard deviation values where the uncertanty comes from only the spread of the data. However, regarding the quantities of potential energy (at both top and rebound positions), ***consider*** for just one case:
     - Our measurable quantities (reminder {eq}`eq:potential-energy`) and their estimated uncertainties (i.e. how confident you are in each of those values, rather than just your tools' precision). 
     - What are the effects of those measurement uncertainties on your determined potential energies? (e.g.  how does $m\pm\delta\,m$ affect $U$)?
-- In a **paragraph**, summarize the results you have determined in each case. Consider
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
 	- Arguing your responses with your average values $\pm$ standard deviations:
 	    - Is kinetic plus potential energy conserved going from the top to the bottom?
       - Is kinetic plus potential energy conserved between the top and the rebound position?

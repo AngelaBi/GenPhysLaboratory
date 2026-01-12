@@ -1,4 +1,5 @@
-# Electric Field and Equipotential Mapping
+(electirc-field-equipotential-mapping-overall)=
+# Equipotential & Electric Field Mapping
 
 ## Background
 

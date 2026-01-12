@@ -1,4 +1,5 @@
-# Acceleration And Deflection Of Electrons
+(acceleration-and-deflection-of-electrons-overall)=
+# Acceleration & Deflection of Electrons
 
 ## Background
 
@@ -173,7 +174,8 @@ where $D$ are your claimed 4 mm incremented deflection positions, $m$ is your ex
 
 - Make sure to submit your finalized data sheet with summarized data and cleaned-up plots (Excel sheet)
 - Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:
-  - Do your experimental results (slopes) agree with the expected slopes as predicted by {eq}`eq_slope_expected`? Physically, what do your experimental slopes represent?
+  - Do your experimental results (slopes) agree with the expected slopes as predicted by {eq}`eq_slope_expected`? 
+  - Physically, what do your experimental slopes represent?
   - If you were to increase the accelerating voltage $V_{k}$, how do you expect the beam to be deflected? I.e. what does the accelerating voltage physically do to the electrons, and how do changes in the $V_{k}$ affect the electrons' path? Discuss using physical concepts regarding the electron path.
   - Explain physically how the electron mass cancels and as a result does not appear in {eq}`eq_deflection_final`.
 - Paragraph of your errors and estimated measurement uncertainties. Be quantitative. Make sure to include discussion of the following:
