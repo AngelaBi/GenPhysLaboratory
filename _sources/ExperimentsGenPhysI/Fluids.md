@@ -120,8 +120,8 @@ P_2 = P_1 - \frac{1}{2}\rho (v_{2}^2 - v_{1}^2)
 ```{admonition} OVERVIEW
 :class: note
 - Understand the relationship between buoyancy force and the mass, volume, density of an object by doing:
-  - Part I: Determine mass, volume, density of different objects.
-  - Part II: Determine buoyant force using Archimedes' Principle.
+  - Part I: Determine density of different objects (mass and volume are given); organize objects by characteristics.
+  - Part II: Determine buoyant force using Archimedes' Principle of displaced fluid.
   - Part III: Determine buoyant force by measuring the upward force directly.
 ```
 
@@ -135,7 +135,7 @@ In this experiment, we will first determine the mass, volume, and density of 6 o
 :width: 290px
 :align: center
 
-3 cylinders, 2 blocks, 1 irregular.
+3 cylinders, 2 blocks, 1 irregular shape.
 ```
 
 As a reminder, the density $\rho$ of an object depends on its mass $m$ and volume $V$:
@@ -171,20 +171,21 @@ F_\text{B} = w_\text{obj in air} - w_\text{obj in water}
 
 1. Create a data table with:
    - Columns for the mass $m$, volume $V$, and density $\rho$
-   - Rows for each of the 6 objects (clearly label or describe the objects in the table).
+   - Rows for each of the objects (clearly label or describe the objects in the table).
 
-2. Normally, you would measure the volume and mass of each object ({numref}`M08_fluids_Fig02`) with Vernier calipers and a triple-beam balance, however, to save time during lab, the volume and mass of each object is presented here:
+2. Record the mass and volume of each object into your spreadsheet. Normally, you would measure the volume and mass of each object ({numref}`M08_fluids_Fig02`) with Vernier calipers and a triple-beam balance, however, to save time during lab, the volume and mass of each object is presented here:
 
     ```{table} Object Volume and Mass
     :name: tab-fluids-lab-object-volume-mass
     | Object | Volume (cm$^3$) ± 0.1 | Mass (g) ± 0.2 |
     |------------------------------|----------------|----------------|
-    | Plastic Cylinder             | 24.7           | 22.4           |
     | Aluminum Cylinder            | 24.7           | 66.7           |
     | Brass Cylinder               | 24.7           | 207.7          |
+    | 1/2 of Brass Cylinder        | 12.35          | 103.85         |
+    | Brass Block                  | 7.87           | 66.7           |
     | Aluminum Block               | 24.7           | 66.7           |
     | Aluminum Irregular (hole)    | 24.7           | 66.7           |
-    | Brass Block                  | 7.87           | 66.7           |
+    | Plastic Cylinder             | 24.7           | 22.4           |
     ```
 
 <!---
@@ -193,10 +194,10 @@ F_\text{B} = w_\text{obj in air} - w_\text{obj in water}
 3. Using the calipers, measure the dimensions of the 3 cylinders and the 2 blocks ({numref}`M08_fluids_Fig03`). Remember to divide the diameter by 2 to get the radius, $r$. Calculate the volume $V$ of these objects $V_\text{cylinder} = \pi r^2 h$ and $V_\text{block} = lwh$
 
 4. There is no simple formula for the volume of the irregularly shaped object, so it is necessary to find the volume by measuring the volume of water it displaces:
-   - Put the beaker under the overflow can spout as shown in {numref}`M08_fluids_Fig03`.
-   - Pour water into the overflow can until it overflows into the beaker. Allow the water to stop overflowing on its own and empty the beaker into your pitcher and return it to its position under the overflow can spout without jarring the overflow can.
+   - Put the beaker under the overflow container spout as shown in {numref}`M08_fluids_Fig03`.
+   - Pour water into the overflow container until it overflows into the beaker. Allow the water to stop overflowing on its own and empty the beaker into your pitcher and return it to its position under the overflow container spout without jarring the overflow container.
    - Tie a string on the irregular object.
-   - Gently lower the irregular object into the overflow can until it is completely submerged. Allow the water to stop overflowing and then pour the water from the beaker into the graduated cylinder. Measure the volume of water that was displaced by reading the water level in the graduated cylinder in milliliters (1 ml = 1 cm³)
+   - Gently lower the irregular object into the overflow container until it is completely submerged. Allow the water to stop overflowing and then pour the water from the beaker into the graduated cylinder. Measure the volume of water that was displaced by reading the water level in the graduated cylinder in milliliters (1 ml = 1 cm³)
 
 --->
 ```{figure} FluidsFigures/M08_fig03.jpg
@@ -204,33 +205,60 @@ F_\text{B} = w_\text{obj in air} - w_\text{obj in water}
 :width: 80%
 :align: center
 
-Left) Measuring with calipers (not done in this lab). Right) Lowering object into overflow can.
+Left) Measuring size with calipers (not done in this lab). Right) Lowering object into overflow container.
 ```
 
+<!--- !!!!!!!!!!!!! REPLACE FIG !!!!!!!!!!!! ^^^^ --->
 
+3. In a separate area in your spreadsheet (like off to the right of your data table), list the objects in order from least to greatest mass.
 
-3. List the 6 objects in order from least to greatest volume. *Consider: Is this the same order as the mass list? Are any of the volumes nearly the same?*
+    ```{admonition} Considering Mass
+    :class: question
+    Are any of the masses the same or nearly the same?
+    ```
 
-4. Calculate the density of each object. List the 6 objects in order from least to greatest density. *Consider: Is this list in the same order as either the mass list or the volume list? Do any of the objects have densities that are nearly the same?*
+4. In a separate area in your spreadsheet, list the objects in order from least to greatest volume.
 
-5. Group the objects according to the type of material of which they are made. *Consider: In which list (mass, volume, or density) are the objects grouped similarly?*
+    ```{admonition} Considering Volume
+    :class: question
+    Is this the same order as the mass list? Are any of the volumes nearly the same?
+    ```
+
+5. In your data table, calculate the density of each object. In a separate area in your spreadsheet, list the objects in order from least to greatest density.
+
+    ```{admonition} Considering Density
+    :class: question
+    Is this list in the same order as either the mass list or the volume list? Do any of the objects have densities that are nearly the same?
+    ```
+
+6. In a separate area in your spreadsheet, group the objects according to the type of material from which they are made. 
+
+    ```{admonition} Considering Material
+    :class: question
+    In which list (mass, volume, or density) are the objects grouped similarly to that of material?
+    ```
 
 #### Part II: Finding the Buoyant Force Using Archimedes' Principle
 
 For each of the objects, find the weight of the water displaced by each one:
 
-6. Create a common data section and data table with:
+7. Create a common data section and data table with:
     - Mass of beaker, $g = 9.803\,\text{m/s}^2$ for Fairfield, and other common data.
     - Columns including (but not limited to):
       - mass $m_\text{water} = m_\text{total} - m_\text{beaker}$
       - weight $w_\text{water} = m_\text{water} g = F_\text{B, Archimedes' method}$
-    - Rows for each of the 6 objects plus a half-submerged brass cylinder (so 7 rows). Clearly label or describe the objects in the table.
+    - Rows for each of the objects plus the half-submerged brass cylinder. Clearly label or describe the objects in the table.
 
-7. Find the mass of the beaker. Put the beaker under the overflow can spout as shown in {numref}`M08_fluids_Fig03`.
-8. Pour water into the overflow can until it overflows into the beaker. Allow the water to stop overflowing on its own and empty the beaker into the pitcher and return it to its position under the overflow can spout without jarring the overflow can.
+8. Find the mass of the beaker. After, place the beaker under the overflow container spout as shown in {numref}`M08_fluids_Fig03`.
+
+9. Pour water into the overflow container until it overflows into the beaker. Allow the water to stop overflowing on its own and empty the beaker into the pitcher and return it to its position under the overflow container spout without jarring the overflow container.
+
 9. If not already attached, tie a string onto each of the objects.
-10. Lower the first object into the overflow can until it is completely submerged. Allow the water to stop overflowing. Measure the mass of the water plus beaker. Subtract the mass of the beaker to determine the mass of the displaced water. Multiply the mass by the acceleration due to gravity (9.803 m/s²) to find the weight of the water.
+
+10. Lower the first object into the overflow container until it is completely submerged. Allow the water to stop overflowing. Measure the mass of the water plus beaker. Subtract the mass of the beaker to determine the mass of the displaced water. Multiply the mass by the acceleration due to gravity (9.803 m/s²) to find the weight of the water.
+
 11. Repeat this procedure for the other objects. Note that the plastic cylinder will float so don’t try to completely submerge it in the water. Also find the weight of the displaced water when only half the brass cylinder is submerged.
+
 12. List the objects in order from least buoyant force to greatest buoyant force.
 
     ```{admonition} Discussion Point: Bouyancy vs. Object
@@ -433,7 +461,7 @@ Does you experimental value for the pressure at the narrow constriction, $P_2$, 
     - Drain the top water pitcher into the non-attached pitcher (the one you used for filling).
     - Empty water back into the sinks.
     - Clean up any spills.
-    - Put back the different objects, the overflow can, and beaker.
+    - Put back the different objects, the overflow container, and beaker.
     - Close, **DO NOT SAVE**, the Capstone file you used today.
     - Don't leave a mess, leave it better than you found it, thank you.
     ```

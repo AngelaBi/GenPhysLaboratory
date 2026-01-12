@@ -1,4 +1,5 @@
-# Measurement of Electrons' e/m Ratio & Magnetic Field Measurement
+(measurement-of-helmholtz-magnetic-field-electrons-em-ratio-overall)=
+# Measurement of Helmholtz Magnetic Field & Electrons' e/m Ratio
 
 ## Background — Part I — e/m Ratio of the Electron
 

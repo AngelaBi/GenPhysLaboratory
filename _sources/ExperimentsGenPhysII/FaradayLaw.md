@@ -1,4 +1,5 @@
-# Faraday's Law of Induction
+(faradays-law-induction-overall)=
+# 1172L-ONLY | Faraday's Law of Induction
 
 ## Background
 

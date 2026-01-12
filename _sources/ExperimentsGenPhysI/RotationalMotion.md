@@ -1,5 +1,5 @@
 (rotational-dynamics-moi-angmom-lab-overall)=
-# Rotational Dynamics with Moment of Inertia & Angular Momentum
+# 1171L-ONLY | Rotational Dynamics with Moment of Inertia & Angular Momentum
 
 ## Background
 

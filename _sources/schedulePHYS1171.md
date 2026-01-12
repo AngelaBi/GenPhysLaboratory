@@ -1,12 +1,14 @@
-# Schedule for PHYS 1171
+
+<!---
+# Schedule for PHYS 1171L
 
 ## Printed Lab Schedule
 
 ```{figure} ScheduleFigures/2025_Fall_LabSchedulePrintout_1171L_simplified.jpg
-:name: schedulePHYS1171
+:name: schedulePHYS1171L
 :width: 100%
 :align: center
-Schedule for PHYS 1171
+Schedule for PHYS 1171L
 ```
 
 ## Schedule with links to relevant lab
@@ -55,3 +57,64 @@ Schedule for PHYS 1171
 [Determination of Acceleration due to Gravity, g, with Simple Pendulum](simple-pendulum-g-lab-overall)
 
 --->
+
+
+
+# Schedule for PHYS 1172L
+
+## Printed Lab Schedule
+
+```{figure} ScheduleFigures/2026_Spring_LabSchedulePrintout_1172L_ONLY_v1.jpg
+:name: schedulePHYS1172L
+:width: 100%
+:align: center
+Schedule for PHYS 1172L
+```
+
+## Schedule with links to relevant lab
+
+| Week Of | M | T | W | R | F |
+|--------|---|---|---|---|---|
+| 2026-01-19 | **Martin Luther King Jr. Day** | [First Day of Classes] |  |  |  |
+| 2026-01-26 |  | [Excel & Spreadsheets Review, Syllabus](data-acquisition-and-analysis-overall) | [Excel & Spreadsheets Review, Syllabus](data-acquisition-and-analysis-overall) | [Excel & Spreadsheets Review, Syllabus](data-acquisition-and-analysis-overall) |  |
+| 2026-02-02 |  | [Electric Force & the Determination of ε₀](electric-force-and-epsilon-overall) | [Electric Force & the Determination of ε₀](electric-force-and-epsilon-overall) | [Electric Force & the Determination of ε₀](electric-force-and-epsilon-overall) |  |
+| 2026-02-09 |  | [Equipotential & Electric Field Mapping](electirc-field-equipotential-mapping-overall) | [Equipotential & Electric Field Mapping](electirc-field-equipotential-mapping-overall) | [Equipotential & Electric Field Mapping](electirc-field-equipotential-mapping-overall) |  |
+| 2026-02-16 | **Presidents' Day** | ***[Monday Schedule]*** | [Acceleration & Deflection of Electrons](acceleration-and-deflection-of-electrons-overall) | [Acceleration & Deflection of Electrons](acceleration-and-deflection-of-electrons-overall) |  |
+| 2026-02-23 |  | [Acceleration & Deflection of Electrons](acceleration-and-deflection-of-electrons-overall) | [Resistivity with Resistors & DC Circuits](resistivity-resistors-dc-circuits-overall) | [Resistivity with Resistors & DC Circuits](resistivity-resistors-dc-circuits-overall) |  |
+| 2026-03-02 |  | [Resistivity with Resistors & DC Circuits](resistivity-resistors-dc-circuits-overall) | [Electrical Example of an Exponential Decay Process with Resistors & Capacitors (RC Circuits)](electrical-example-of-an-exponential-decay-process-overall) | [Electrical Example of an Exponential Decay Process with Resistors & Capacitors (RC Circuits)](electrical-example-of-an-exponential-decay-process-overall) |  |
+| 2026-03-09 | **Spring Break** | **Spring Break** | **Spring Break** | **Spring Break** | **Spring Break** |
+| 2026-03-16 |  | [Electrical Example of an Exponential Decay Process with Resistors & Capacitors (RC Circuits)](electrical-example-of-an-exponential-decay-process-overall) | [Magnetic Force & the Determination of μ₀](magnetic-force-mu0-overall) | [Magnetic Force & the Determination of μ₀](magnetic-force-mu0-overall) |  |
+| 2026-03-23 |  | [Magnetic Force & the Determination of μ₀](magnetic-force-mu0-overall) | [Measurement of Helmholtz Magnetic Field & Electrons' e/m Ratio](measurement-of-helmholtz-magnetic-field-electrons-em-ratio-overall) | [Measurement of Helmholtz Magnetic Field & Electrons' e/m Ratio](measurement-of-helmholtz-magnetic-field-electrons-em-ratio-overall) |  |
+| 2026-03-30 |  | [Measurement of Helmholtz Magnetic Field & Electrons' e/m Ratio](measurement-of-helmholtz-magnetic-field-electrons-em-ratio-overall) | [1172L-ONLY \| Faraday's Law of Induction](faradays-law-induction-overall) | **Easter** | **Easter** |
+| 2026-04-06 | **Easter** | [1172L-ONLY \| Faraday's Law of Induction](faradays-law-induction-overall) | ***[Monday Schedule]*** | [1172L-ONLY \| Faraday's Law of Induction](faradays-law-induction-overall) |  |
+| 2026-04-13 |  | [Wave Motion](wave-motion-overall) | [Wave Motion](wave-motion-overall) | [Wave Motion](wave-motion-overall) |  |
+| 2026-04-20 |  | [Makeup for snowdays] | [Makeup for snowdays] | [Makeup for snowdays] |  |
+| 2026-04-27 |  |  | [Last Day of Classes] | *Reading day* | *Reading day* |
+| 2026-05-04 | *Finals week* | *Finals week* | *Finals week* | *Finals week* | *Finals week* |
+
+
+
+<!---
+[Excel & Spreadsheets Review, Syllabus](data-acquisition-and-analysis-overall)
+
+[Electric Force & the Determination of ε₀](electric-force-and-epsilon-overall)
+
+[Equipotential & Electric Field Mapping](electirc-field-equipotential-mapping-overall)
+
+[Acceleration & Deflection of Electrons](acceleration-and-deflection-of-electrons-overall)
+
+[Resistivity with Resistors & DC Circuits](resistivity-resistors-dc-circuits-overall)
+
+[Electrical Example of an Exponential Decay Process with Resistors & Capacitors (RC Circuits)](electrical-example-of-an-exponential-decay-process-overall)
+
+[Magnetic Force & the Determination of μ₀](magnetic-force-mu0-overall)
+
+[Measurement of Helmholtz Magnetic Field & Electrons' e/m Ratio](measurement-of-helmholtz-magnetic-field-electrons-em-ratio-overall)
+
+[Wave Motion](wave-motion-overall)
+
+[1146L-ONLY | Light – Geometric Optics and Imaging](light-diffraction-lasers-and-geometric-optics-imaging-overall)
+
+[1172L-ONLY | Faraday's Law of Induction](faradays-law-induction-overall)
+--->
+

@@ -298,7 +298,7 @@ Reminder, run your first case completely **before** moving on to additional case
 	- Suppose there is a frictional force slowing the glider as it moves along the track. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of that there is significant friction along the track?
 	- Assume the track is not level at the beginning of the experiment. Further, assume that what you thought to be a level track was in fact slightly tipped in the same direction as your deliberate tipping via the spacers during the experiment. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of the track not being level?
 - In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
-	-  What are sources of uncertainty (initial v, friction, etc.)?
+	- What are sources of uncertainty (initial v, friction, etc.)?
 	- What was the precision of the instrumentation (e.g. caliper, time, distance, etc.)?
 	- Compare your results ($g$ from each of the four cases and one from all 24 trials) to the accepted value. How do the standard deviations compare to the difference between your values of $g$ and the accepted value of $g$? 
       - I.e. while treating the standard deviations of your measurements as your measurement uncertainties, do your values of $g$ for each case, as well as the overall average $g$, plus or minus the standard deviations overlap (and agree) with the accepted value of $g$? 

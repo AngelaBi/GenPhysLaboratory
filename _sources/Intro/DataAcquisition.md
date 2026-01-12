@@ -1,5 +1,5 @@
 (data-acquisition-and-analysis-overall)=
-# Data Acquisition and Analysis
+# Data Acquisition & Analysis in Excel and Capstone
 
 In this lab you will perform measurements and calculate results from the measurements. Each trial requires similar calculations. The best way to perform repetitive calculation tasks is to use a computer program such as a spreadsheet. The effort to set up the calculation is more than compensated by the reliability and ease of repeating calculations. Several experiments will make use of sensors to aid in measurements and data gathering. The data in these experiments is collected by an advanced computer program called **Capstone**, which is installed on all computers in the lab. The program is also able to organize, analyze, and display the data. This section will give an overview of the program, explain how to set up sensors, and how to display data. More detailed information will be given in the specific experiments, which will make use of the sensors and data acquisition.
 
@@ -30,12 +30,50 @@ Use a separate row for each trial and a separate column for each measured or cal
     - `$D$5` will always refer to the same cell.
 - Never enter a value calculated outside the spreadsheet, for example, on your calculator. Any value you can find on the calculator can be calculated and updated automatically on the spreadsheet.
 - Use the spreadsheet's "fill down" capability by selecting a set of cells in a row and fill down by dragging with the little square in the bottom-right of the selected cells. Formulas will copy and the row numbers of referenced cells that are not preceded by `$` will increment automatically.
+  - This approach makes it efficient to create a spreadsheet to analyze your data and to correct errors. If you make a mistake in a formula, you can correct the first trial and then correct the other trials by filling down.
 - Wherever appropriate, data analysis includes finding averages, standard deviations, or error esitmates.
-- Unless otherwise stated, use Excel for graphs and for fitting data. Display the trendline (the equation of the fit, usually slope and intecept) on the graph itself.
-- When application, conduct all error propagation analysis in your Excel spreadsheet.
-- Use `=LINEST(y_values, x_values, True/False for y-int calculated as normal/set to zero, True/False to show uncertainties and additional stats/just slope)` fuction to calculate a plotted data's slope and y-intercept as well as their uncertainties. This is to have a referenceable cell for calculations that require the use of a trendline's values without having to manually copy the trendline infor from the plot (which could introduce a chance of mistyping and messing up your calculations).
 
-This approach makes it efficient to create a spreadsheet to analyze your data and to correct errors. If you make a mistake in a formula, you can correct the first trial and then correct the other trials by filling down.
+### Excel Function Syntax
+
+#### Trigonometric Functions
+
+  - Excel *functions* like `SIN()`, `COS()`, etc. take some `input` between the parentheses (e.g. `SIN(input)`) and then return a value such that `output = SIN(input)`. 
+  - Reminder, Excel likes radians; Excel's trig functions are expecting the input to be in units of ***radians***
+    - *Convert to Radians:* Use `RADIANS()` function to take your angle in degrees and return it as radians for use in Excel's trig functions.
+    - *Convert to Degrees:* Use `DEGREES()` function to take your angle in radians (or Excel's output of radians) and return it/convert it back as degrees for your use.
+    - Example of deg. to rad. inside trig function: `=SIN(RADIANS(measured angle in degrees))` returns the sine of your angle in radians
+    - Example of converting overall value back to degrees after sine is found: `=DEGREES(SIN(RADIANS(measured angle in degrees)))`
+  - While we normally write a trig function to some power like $\sin^2\left(\frac{\theta}{2}\right)$; Excel does not know how to interpret that.
+    - To square any function's output in Excel is like saying `output`$^2$. To do such a thing with a trig function (or any Excel function for that matter), we would instead type `=SIN(input-in-radians)^2`.
+
+
+### Plotting in Excel
+
+- Unless otherwise stated, use Excel for graphs and for fitting data. Display the trendline (the equation of the fit, usually slope and intecept) on the graph itself.
+- When applicable, conduct all error propagation analysis in your Excel spreadsheet.
+- Assuming a linear fit, $Y = mx +b$, use the `LINEST` function to calculate a plotted data's slope and y-intercept as well as their uncertainties. This allows us to have a referenceable cell for calculations that require the use of a trendline's values without having to manually copy the trendline infor from the plot (which could introduce a chance of mistyping and messing up your calculations).
+  - Determine the slope of your graph using the `LINEST` function:
+    - `=LINEST(y-values,x-values,TRUE/FALSE,TRUE/FALSE)`
+    - y-values are from your dependent variable
+    - x-values are from your independent variable
+    - Y-intecept
+      - True to calculate the y-intercept like normal, just from the data
+      - False to force the y-intercept to zero
+    - Statistics
+      - True to return statistics on the fit as shown in {ref}`tab-excel-linest-simplified-overview`
+      - False to return just the slope
+    ```{table} Simplified Excel LINEST Output (showing only slope and intercept)
+    :name: tab-excel-linest-simplified-overview
+    | Row | Column 1 (Slope)                         | Column 2 (Intercept)                         |
+    |:---:|-------------------------------------------|-----------------------------------------------|
+    |  1  | **Slope value $m$** – best-fit line slope     | **Intercept value** – y-intercept of the line |
+    |  2  | **Slope uncertainty $\delta m$** – std. error of m   | **Intercept uncertainty** – std. error of b   |
+    |  3  | *(Ignored for this course)* R² and related metrics        | *(Ignored for this course)*                                   |
+    |  4  | *(Ignored for this course)* Additional regression stats   | *(Ignored for this course)*                                   |
+    |  5  | *(Ignored for this course)* Residual statistics           | *(Ignored for this course)*                                   |
+    ```
+
+
 
 ## Capstone
 
