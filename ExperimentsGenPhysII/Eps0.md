@@ -195,13 +195,13 @@ Bottom) Example of mirror-to-scale distance.
 
 
 1. Prepare a common data table including given values.
-   Reminder -- keep variable names and units in the row and column titles, and numbers in their own Excel cells to be able to reference in your equations. **Run all your calculations in your Excel sheet so your instructor can see how you arrived at your final results**. Include:
+   Reminder -- keep variable names and units in the row and column titles, and numbers in their own Excel cells to be able to reference in your equations. **Run all your calculations in your Excel sheet so your instructor can see how you arrived at your final results**. Include, but not limited to:
     - $g = 9.803 \,\text{m/s}^2$: Accepted value of accel. due to garvity for Fairfield University
-    - $\varepsilon_{0\text{actual}} = 8.8542\times 10^{-12}\,\text{C}^2 \, \text{N}^{-1} \text{m}^{-2}$: Accepted value of electric constant
+    - $\varepsilon_{0\text{,actual}} = 8.8542\times 10^{-12}\,\text{C}^2 \, \text{N}^{-1} \text{m}^{-2}$: Accepted value of electric constant
     <!---   - $a \pm \delta a=0.279\pm0.001\,\meter$: Length of the frame (see Fig.~\ref{E1Fig:01}) --->
-    - Length of the frame $a=0.279\,\text{m}$ (see Fig.~\ref{E1Fig:01})
+    - Length of the frame $a=0.279\,\text{m}$ (see {numref}`E1Fig_01`)
     - Mirror-to-scale distance $b \pm \delta b = b \pm 0.003\meter$, has already been measured and is posted on the top of the protective enclosure (ex. in Fig.~\ref{E1Fig:01} bottom)
-    - Mirror-to-scale distance $b$ has already been measured and is posted on the top of the protective enclosure (ex. in Fig.~\ref{E1Fig:01} bottom)
+    - $b$: Mirror-to-scale distance has already been measured and is posted on the top of the protective enclosure ({numref}`E1Fig_01`)
     - Plate area $A \pm \delta A =0.0161\pm0.0002\,\meter^2$ (see Fig.~\ref{E1Fig:01})
     - Plate area $A=0.0161\,\meter^2$ (see Fig.~\ref{E1Fig:01})
     - Equilibrium mass $m_0 = 50$ mg (plates are parallel when this amount of mass applied).
