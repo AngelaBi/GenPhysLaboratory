@@ -5,9 +5,12 @@
 
 ### Overall goals and overview
 
-- **OVERALL GOALS and Overview:**
+```{admonition} OVERALL GOALS
+:class: note
+Use a parallel-plate capacitor to create a uniform electric field to:
   - Qualitatively explore the relationship between equipotentials (surfaces lines of constant voltage) and electric field lines.
-  - Each person will complete at least one whole plot with: 1) dashed lines representing equipotential lines of 0 -- 24 V in 4 V increments covering the page edge-to-edge -- measured by testing voltage with the probe at 0.5 -- 2 cm increments depending on equipotential curviness and 2) solid lines representing the E-field. There are three configurations ({numref}`E2Fig03_plots`). Each plot should contain 7 measured equipotential lines/surfaces and at least 7 estimated E-field lines.
+```
+
 
 Electric fields are a convenient construct to analyze the electrical force between two charges. It is defined as the force per unit charge experienced by one charged body in the presence of one or more other charged bodies. The direction of the electric field $\vec{E}$ is in the direction of the net electric force experienced by a positive charge. It is illustrative to represent the electric field distribution by lines that continuously point in the direction of the electric field (see solid lines in {numref}`E2Fig00` right).
 
@@ -32,7 +35,7 @@ Since we know that electrical field lines must be perpendicular to the equipoten
 
 ```{figure} MappingPotentialFigures/E2_Setup_2025.png
 ---
-width: 650px
+width: 100%
 name: E2Fig01
 ---
 Experimental setup. Top) general setup with all parts included. Bottom left) Example of wiring the electrodes and conductive paper to 24 V. Bottom right) Schematic.
@@ -44,7 +47,7 @@ If we determine a number of equipotential lines for this electrode pattern we mi
 
 ```{figure} MappingPotentialFigures/Figure2_v02.png
 ---
-width: 600px
+width: 100%
 name: E2Fig02
 ---
 Electric Field and Equipotential patterns drawn from edge to edge of the paper.
@@ -65,11 +68,23 @@ Depicted in {numref}`E2Fig01` and {numref}`E2Fig03_plots`.
 - x5 Banana plug wires connecting power supply to voltmeters and electrodes (via alligator clips) on conductive paper
 - x1 Banana plug wire in the red holder as the *probe wire* to determine patterns of equipotential lines
 - French curve for drawing curved E-field lines perpendicular to the equipotential lines determined with the probe
+
+
+
 ## Experimental Procedure
+
+```{admonition} OVERVIEW
+:class: note
+  - For three different electrode configurations:
+    - Map onto paper equipotential lines:
+      - Measure and record voltage at many locations across the conductive paper
+      - Map 
+  - Each person will complete at least one whole plot with: 1) dashed lines representing equipotential lines of 0 -- 24 V in 4 V increments covering the page edge-to-edge -- measured by testing voltage with the probe at 0.5 -- 2 cm increments depending on equipotential curviness and 2) solid lines representing the E-field. There are three configurations ({numref}`E2Fig03_plots`). Each plot should contain 7 measured equipotential lines/surfaces and at least 7 estimated E-field lines.
+```
 
 ```{figure} MappingPotentialFigures/E2_AllElectrodes_stars_v03.jpg
 ---
-width: 435px
+width: 70%
 name: E2Fig03_plots
 ---
 Electrode configurations. The stars suggest starting positions for E-field lines.

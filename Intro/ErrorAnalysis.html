@@ -1,0 +1,803 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Error Analysis Review &#8212; General Physcis Laboratory</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Intro/ErrorAnalysis';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Capstone Tips &amp; Tools" href="CapstoneNotes.html" />
+    <link rel="prev" title="Data Acquisition &amp; Analysis in Excel &amp; Capstone" href="DataAcquisition.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="General Physcis Laboratory - Home"/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="General Physcis Laboratory - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to General Physics Lab
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Schedule for PHYS 1172L</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Schedule for PHYS 1146L</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scheduleByProfessor.html">Overview of the schedule for PHYS 1146L and PHYS 1172L</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="IntroLab.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DataAcquisition.html">Data Acquisition &amp; Analysis in Excel &amp; Capstone</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Error Analysis Review</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CapstoneNotes.html">Capstone Tips &amp; Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VernierCaliper.html">Vernier Calipers</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabI.html">General Physics Lab I</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/IntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/VectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/AccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/SimpleProjectile.html">Simple Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/CentripetalForce.html">Centripetal Force with Mass on Rotating Arm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/ConsEnTrack.html">Conservation of Energy with Glider on Tilted Air Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/BallisticPendulum.html">Conservation of Energy &amp; Linear Momentum with Ballistic Pendulum &amp; Projectile Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/RotationalMotion.html">1171L-ONLY | Rotational Dynamics with Moment of Inertia &amp; Angular Momentum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/IdealGas.html">1145L-ONLY | Ideal Gas Law with Isothermal &amp; Adiabatic Compression; Estimating Absolute Zero</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/Fluids.html">Fluid Physics with Archimedes’ &amp; Bernoulli’s Principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/Pendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabII.html">General Physics Lab II</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Eps0.html">Electric Force &amp; the Determination of <span class="math notranslate nohighlight">\(\varepsilon_0\)</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/MappingPotential.html">Equipotential &amp; Electric Field Mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/ElectronDeflection.html">Acceleration &amp; Deflection of Electrons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Resistance.html">Resistivity with Resistors &amp; DC Circuits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/RCCircuit.html">Electrical Example of an Exponential Decay Process with Resistors &amp; Capacitors (RC Circuits)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Mu0.html">Magnetic Force &amp; the Determination of <span class="math notranslate nohighlight">\(\mu_0\)</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/EoverM.html">Measurement of Helmholtz Magnetic Field &amp; Electrons’ e/m Ratio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/FaradayLaw.html">1172L-ONLY | Faraday’s Law of Induction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Waves.html">Wave Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Optics.html">1146L-ONLY | Light – Geometric Optics and Imaging</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FIntro/ErrorAnalysis.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Intro/ErrorAnalysis.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Error Analysis Review</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#significant-figures">Significant Figures</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rules-for-significant-figures">Rules for Significant Figures</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-analysis-procedure">Error Analysis Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-errors">Types of Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-density-of-a-block">Example: Density of a Block</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#random-errors">Random Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-and-standard-deviation">Mean and Standard Deviation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#systematic-errors">Systematic Errors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#difference-between-experimental-and-expected-values">Difference Between Experimental and Expected Values</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Example</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#propagation-of-errors">Propagation of Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#single-direct-measurement">Single Direct Measurement</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#two-or-more-direct-measurements">Two or More Direct Measurements</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="error-analysis-review">
+<h1>Error Analysis Review<a class="headerlink" href="#error-analysis-review" title="Permalink to this heading">#</a></h1>
+<p>In laboratory work, it is usually necessary to use experimental apparatus to measure physical quantities. The measurements are seldom, if ever, perfect. As a result, imperfections must be taken into account in any set of physical measurements. One of the most important things to be learned in the laboratory is how to make reliable estimates of the uncertainties involved in any physical measurements and how to handle the propagation of these errors, i.e., to know how the uncertainties affect calculated results of an experiment.</p>
+<hr class="docutils" />
+<section id="significant-figures">
+<span id="error-analysis-sigfig"></span><h2>Significant Figures<a class="headerlink" href="#significant-figures" title="Permalink to this heading">#</a></h2>
+<p>The number of digits required to express the result of an experimental measurement, so that it reflects the accuracy with which the measurement was made, are known as <strong>significant figures</strong>. Thus, the number of significant figures reflects the limitation of the measuring device and/or the experimenter. Whether the calculations are performed by hand or on a computer, the number of significant figures displayed in the final result must reflect the limitations of the experimental measurement. Often, a computer program will, by default, display either too many or too few digits. If too few digits are displayed, you need to adjust the program setting to show more digits.</p>
+<p>For example, if the length of a cylinder is measured as <span class="math notranslate nohighlight">\(20.64,\text{cm}\)</span>, this quantity is said to be measured to four significant figures. If written as <span class="math notranslate nohighlight">\(0.0002064,\text{km}\)</span>, we still have only four significant figures. The zeros preceding the “2” are used only to indicate the position of the decimal point. The zero between the “2” and the “6” is a significant figure, but the other zeros are not.</p>
+<p>If the above measurement is made with a meter stick, the last digit recorded is an estimated figure representing a fractional part of a millimeter division. All recorded data should include the last estimated figure in the result, even though it may be zero. If this measurement had appeared to be exactly <span class="math notranslate nohighlight">\(20\)</span>, it should have been recorded as <span class="math notranslate nohighlight">\(20.00,\text{cm}\)</span>, since lengths can be estimated by means of this instrument to about <span class="math notranslate nohighlight">\(0.01,\text{cm}\)</span>.</p>
+<p>When the measurement is written as <span class="math notranslate nohighlight">\(20,\text{cm}\)</span> it indicates that the value is known to be somewhere between <span class="math notranslate nohighlight">\(19.5,\text{cm}\)</span> and <span class="math notranslate nohighlight">\(20.5,\text{cm}\)</span>, whereas the value <span class="math notranslate nohighlight">\(20.00,\text{cm}\)</span> indicates a range between <span class="math notranslate nohighlight">\(19.995,\text{cm}\)</span> and <span class="math notranslate nohighlight">\(20.005,\text{cm}\)</span>. Conversely, retaining too many significant figures implies greater accuracy than the figures actually represent.</p>
+<section id="rules-for-significant-figures">
+<h3>Rules for Significant Figures<a class="headerlink" href="#rules-for-significant-figures" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>▶ When collecting data, only one estimated figure is retained as a significant figure.</p></li>
+<li><p>▶ In addition and subtraction, do not carry the result beyond the first column that contains an estimated figure.</p></li>
+<li><p>▶ In multiplication and division, the result should have as many significant figures as the factor with the least number of significant figures.</p></li>
+<li><p>▶ When dropping figures that are not significant, round to the nearest significant digit.</p></li>
+<li><p>▶ While performing intermediate calculations, it is safer to carry one more significant figure than is required in the final result.</p></li>
+</ul>
+</section>
+<section id="examples">
+<h3>Examples<a class="headerlink" href="#examples" title="Permalink to this heading">#</a></h3>
+<p><strong>Addition</strong></p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>  427.5
+   28.03
+    0.0654
+  396.0
+  ------
+  851.6
+</pre></div>
+</div>
+<p>The result is rounded to one decimal place because the first term is given only to one decimal place.</p>
+<p><strong>Multiplication</strong></p>
+<p>If the length of a rectangle is <span class="math notranslate nohighlight">\(1.94,\text{cm}\)</span> and the width is <span class="math notranslate nohighlight">\(1.84,\text{cm}\)</span>, the area is</p>
+<div class="math notranslate nohighlight">
+\[
+A = 1.94 \times 1.84 = 3.5696,\text{cm}^2.
+\]</div>
+<p>Since each factor has three significant figures, the result should be reported as</p>
+<div class="math notranslate nohighlight">
+\[
+A = 3.57,\text{cm}^2.
+\]</div>
+<p>In Excel, the number of significant figures can be controlled by formatting the cell to a <em>Number</em> type with the desired number of decimal places.</p>
+<hr class="docutils" />
+</section>
+</section>
+<section id="error-analysis-procedure">
+<span id="error-analysis-errorproc"></span><h2>Error Analysis Procedure<a class="headerlink" href="#error-analysis-procedure" title="Permalink to this heading">#</a></h2>
+<p>The steps for performing error analysis are:</p>
+<ul class="simple">
+<li><p>▶ Identify the likely sources of measurement error.</p>
+<ul>
+<li><p>Instrumentation</p></li>
+<li><p>Experimental setup and procedure</p></li>
+<li><p>Determine whether errors are systematic or random (see <code class="xref std std-numref docutils literal notranslate"><span class="pre">error-analysis-TypesErrors</span></code>).</p></li>
+</ul>
+</li>
+<li><p>▶ Estimate the magnitude of measurement errors using:</p>
+<ul>
+<li><p>Equipment specifications</p></li>
+<li><p>Significant digits displayed</p></li>
+<li><p>Your estimate of reading accuracy</p></li>
+<li><p>The range or standard deviation of repeated measurements</p></li>
+</ul>
+</li>
+<li><p>▶ Calculate the expected error in calculated quantities due to measurement errors (see <code class="xref std std-numref docutils literal notranslate"><span class="pre">error-analysis-ErrorPropagation</span></code>).</p></li>
+<li><p>▶ If the difference between experimental and expected results is much larger than the expected error, check for:</p>
+<ul>
+<li><p>Experimental mistakes</p></li>
+<li><p>Calculation or unit conversion errors</p></li>
+<li><p>Incorrect use of degrees vs. radians</p></li>
+<li><p>Underestimated measurement error</p></li>
+<li><p>Incorrect constants</p></li>
+</ul>
+</li>
+<li><p>▶ Report results with the correct number of significant figures and the calculated error.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="types-of-errors">
+<span id="error-analysis-typeserrors"></span><h2>Types of Errors<a class="headerlink" href="#types-of-errors" title="Permalink to this heading">#</a></h2>
+<p>Experimental measurements are characterized by <strong>accuracy</strong> and <strong>precision</strong>.</p>
+<ul class="simple">
+<li><p>A set of measurements is <em>accurate</em> if the average value is close to the expected value.</p></li>
+<li><p>A set of measurements is <em>precise</em> if the measurements are closely clustered.</p></li>
+</ul>
+<p>Random errors increase scatter and reduce precision. They arise from uncontrollable variations and can be reduced by repeated measurements. Systematic errors arise from calibration issues or faulty methods and cannot be reduced by averaging.</p>
+<hr class="docutils" />
+<figure class="align-center" id="erroranalysis-fig01">
+<a class="reference internal image-reference" href="../_images/ErrorType_v4.png"><img alt="../_images/ErrorType_v4.png" src="../_images/ErrorType_v4.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">The distinction between precision and accuracy.</span><a class="headerlink" href="#erroranalysis-fig01" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Each measurement contains both systematic and random errors. Estimate the error in each measured quantity, then recalculate results using maximum and minimum values to determine the expected range of outcomes.</p>
+<section id="example-density-of-a-block">
+<h3>Example: Density of a Block<a class="headerlink" href="#example-density-of-a-block" title="Permalink to this heading">#</a></h3>
+<p>Given</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(L = 2.00,\text{cm}\)</span>, <span class="math notranslate nohighlight">\(W = 3.00,\text{cm}\)</span>, <span class="math notranslate nohighlight">\(H = 5.00,\text{cm}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(M = 60.00,\text{g}\)</span></p></li>
+<li><p>Uncertainty in length: <span class="math notranslate nohighlight">\(\pm 0.01,\text{cm}\)</span></p></li>
+<li><p>Uncertainty in mass: <span class="math notranslate nohighlight">\(\pm 0.05,\text{g}\)</span></p></li>
+</ul>
+<p>The experimental density is</p>
+<div class="math notranslate nohighlight">
+\[
+\rho = \frac{60.00}{30.00} = 2.00,\text{g/cm}^3.
+\]</div>
+<p>Using maximum mass and minimum volume gives</p>
+<div class="math notranslate nohighlight">
+\[
+\rho_{\max} = 2.02,\text{g/cm}^3,
+\]</div>
+<p>and the minimum density is <span class="math notranslate nohighlight">\(1.98,\text{g/cm}^3\)</span>. If the expected value lies outside this range, further investigation is required.</p>
+<hr class="docutils" />
+</section>
+</section>
+<section id="random-errors">
+<span id="error-analysis-randomerrors"></span><h2>Random Errors<a class="headerlink" href="#random-errors" title="Permalink to this heading">#</a></h2>
+<p>Random errors are inherent in nearly all measurements. They are assumed to be equally likely positive or negative and are more likely to be small than large. Independent repeated measurements reduce their effect.</p>
+<section id="mean-and-standard-deviation">
+<h3>Mean and Standard Deviation<a class="headerlink" href="#mean-and-standard-deviation" title="Permalink to this heading">#</a></h3>
+<p>For <span class="math notranslate nohighlight">\(N\)</span> measurements <span class="math notranslate nohighlight">\(x_1, x_2, \ldots, x_N\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[
+\bar{x} = \frac{1}{N} \sum_{i=1}^{N} x_i,
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\sigma = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (x_i - \bar{x})^2}.
+\]</div>
+<p>The standard deviation of the mean is</p>
+<div class="math notranslate nohighlight">
+\[
+\sigma_{\text{mean}} = \frac{\sigma}{\sqrt{N-1}}.
+\]</div>
+<p>Your best estimate is <span class="math notranslate nohighlight">\(\bar{x} \pm \sigma_{\text{mean}}\)</span>.</p>
+</section>
+<section id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this heading">#</a></h3>
+<p>Measurements (cm): 7.65, 7.61, 7.66, 7.68</p>
+<ul class="simple">
+<li><p>Mean: <span class="math notranslate nohighlight">\(7.65,\text{cm}\)</span></p></li>
+<li><p>Standard deviation: <span class="math notranslate nohighlight">\(0.029,\text{cm}\)</span></p></li>
+<li><p>Standard deviation of the mean: <span class="math notranslate nohighlight">\(0.017,\text{cm}\)</span></p></li>
+</ul>
+<p>Result:</p>
+<div class="math notranslate nohighlight">
+\[
+7.65 \pm 0.017,\text{cm}.
+\]</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="systematic-errors">
+<h2>Systematic Errors<a class="headerlink" href="#systematic-errors" title="Permalink to this heading">#</a></h2>
+<p>Systematic errors arise from faulty equipment, methods, or assumptions. They have a definite sign and magnitude and cannot be reduced by averaging. Calibration, improved procedures, or corrected equations are required to reduce them.</p>
+<p>Examples include zero errors in calipers, incorrect stopwatch timing rates, and consistent reaction-time bias. Avoid vague descriptions such as “human error”; instead, specify the source clearly.</p>
+</section>
+<hr class="docutils" />
+<section id="difference-between-experimental-and-expected-values">
+<h2>Difference Between Experimental and Expected Values<a class="headerlink" href="#difference-between-experimental-and-expected-values" title="Permalink to this heading">#</a></h2>
+<p>If the true value is known, the systematic error may be estimated as the difference between the experimental and expected values. This difference is <strong>not</strong> an estimate of random error.</p>
+<p>The percent difference is</p>
+<div class="math notranslate nohighlight">
+\[
+\frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100%.
+\]</div>
+<section id="id1">
+<h3>Example<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p>Measured value of gravity: <span class="math notranslate nohighlight">\(9.41,\text{m/s}^2\)</span></p>
+<p>Standard value: <span class="math notranslate nohighlight">\(9.803,\text{m/s}^2\)</span></p>
+<div class="math notranslate nohighlight">
+\[
+\text{Percent difference} = \frac{-0.39}{9.803} \times 100% = -4.1%.
+\]</div>
+<p>A small percent difference does not imply small experimental error; it may result from cancellation of errors.</p>
+<hr class="docutils" />
+</section>
+</section>
+<section id="propagation-of-errors">
+<span id="error-analysis-errorpropagation"></span><h2>Propagation of Errors<a class="headerlink" href="#propagation-of-errors" title="Permalink to this heading">#</a></h2>
+<section id="single-direct-measurement">
+<h3>Single Direct Measurement<a class="headerlink" href="#single-direct-measurement" title="Permalink to this heading">#</a></h3>
+<p>For the volume of a sphere</p>
+<div class="math notranslate nohighlight">
+\[
+V = \frac{1}{6} \pi D^3,
+\]</div>
+<p>small errors obey</p>
+<div class="math notranslate nohighlight">
+\[
+\frac{\Delta V}{V} \approx 3 \frac{\Delta D}{D}.
+\]</div>
+<p>Thus, a 1% error in diameter produces a 3% error in volume.</p>
+</section>
+<hr class="docutils" />
+<section id="two-or-more-direct-measurements">
+<h3>Two or More Direct Measurements<a class="headerlink" href="#two-or-more-direct-measurements" title="Permalink to this heading">#</a></h3>
+<p>For a cylinder</p>
+<div class="math notranslate nohighlight">
+\[
+V = \frac{1}{4} \pi L D^2,
+\]</div>
+<p>small errors propagate as</p>
+<div class="math notranslate nohighlight">
+\[
+\frac{\Delta V}{V} \approx \frac{\Delta L}{L} + 2 \frac{\Delta D}{D}.
+\]</div>
+<p>This shows how fractional errors in each measured quantity contribute to the total error in the calculated result.</p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Intro"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="DataAcquisition.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Data Acquisition &amp; Analysis in Excel &amp; Capstone</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="CapstoneNotes.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Capstone Tips &amp; Tools</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#significant-figures">Significant Figures</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rules-for-significant-figures">Rules for Significant Figures</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-analysis-procedure">Error Analysis Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-errors">Types of Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-density-of-a-block">Example: Density of a Block</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#random-errors">Random Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-and-standard-deviation">Mean and Standard Deviation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#systematic-errors">Systematic Errors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#difference-between-experimental-and-expected-values">Difference Between Experimental and Expected Values</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Example</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#propagation-of-errors">Propagation of Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#single-direct-measurement">Single Direct Measurement</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#two-or-more-direct-measurements">Two or More Direct Measurements</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Angela Biselli
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
