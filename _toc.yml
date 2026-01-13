@@ -14,6 +14,7 @@ parts:
     chapters:
     - file: Intro/IntroLab
     - file: Intro/DataAcquisition
+    - file: Intro/ErrorAnalysis
     - file: Intro/CapstoneNotes
     - file: Intro/VernierCaliper
   - caption: Experiments

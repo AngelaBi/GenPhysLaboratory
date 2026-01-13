@@ -137,10 +137,11 @@ Please email and include (note, all the emails below end with ***@fairfield.edu*
     - Dr. Sharp --- **lsharp**
     - Dr. Slattery --- **nslattery**
     - Dr. Track --- **etrack**
-    - Prof. Scrofani – **dscrofani**
+    - Prof. Scott – **kscott**
     - Dr. McCabe --- **rmccabe**
     - Dr. Robert Cordery --- **rcordery**
-    - Prof. Scott – **kscott**
+    - Prof. Scrofani – **dscrofani**
+
 
 ```
 
@@ -212,14 +213,14 @@ Please email and include (note, all the emails below end with ***@fairfield.edu*
       <td style="padding:8px; border:3px solid #d4ac0d; background-color:#f7e065; vertical-align:top;">
         <b>Physics 1172L-04</b><br>
         <i>General Physics II Lab</i><br>
-        Prof. Scrofani<br><b>dscrofani</b><br><br>
+        Prof. Scott<br><b>kscott</b><br><br>
         6:00–8:30 PM<br>BNW 162
       </td>
       <td style="border:1px solid #999;"></td>
       <td style="padding:8px; border:3px solid #d4ac0d; background-color:#f7e065; vertical-align:top;">
         <b>Physics 1172L-03</b><br>
         <i>General Physics II Lab</i><br>
-        Prof. Scott<br><b>kscott</b><br><br>
+        Prof. Scrofani<br><b>dscrofani</b><br><br>
         6:00–8:30 PM<br>BNW 162
       </td>
       <td style="border:1px solid #999;"></td>
@@ -228,11 +229,9 @@ Please email and include (note, all the emails below end with ***@fairfield.edu*
 </table>
 
 
-
-
 ## Printed Weekly Lab Schedule
 
-```{figure} ScheduleFigures/2026_Spring_LabSchedulePrintoutTimes_1146L_1172L_v1.jpg
+```{figure} ScheduleFigures/2026_Spring_LabSchedulePrintoutTimes_1146L_1172L_v2.jpg
 :name: schedule
 :width: 100%
 :align: center
