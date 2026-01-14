@@ -47,6 +47,7 @@ Use a separate row for each trial and a separate column for each measured or cal
     - To square any function's output in Excel is like saying `output`$^2$. To do such a thing with a trig function (or any Excel function for that matter), we would instead type `=SIN(input-in-radians)^2`.
 
 
+(data-acquisition-plotting-in-excel)=
 ### Plotting in Excel
 
 - Unless otherwise stated, use Excel for graphs and for fitting data. Display the trendline (the equation of the fit, usually slope and intecept) on the graph itself.
@@ -93,17 +94,17 @@ To start collecting data you need to press the red **Record** button on the bott
 
 Data can be analyzed by exporting the collected data into a data file, that can be read by Excel (or other mathematical program). An easier way to analyze the data is often to interpret the graph that has been produced by the **Capstone** program. Tools to analyze the graph are very readily available in the menubar above the graph window. The most important tools are discussed in more detail below:
 
-- ▷ **Highlight range of points in active data**.  
+- **Highlight range of points in active data**.  
   This option allows you to consider only the highlighted region of the data set to be analyzed. Once selected the program will display a rectangular area that can be resized and dragged over the collected data points. Only the points inside the rectangle will be considered in the selected analysis tool. The selected points will also be displayed in the data table with the same highlighting.
 
-- ▷ **Display selected statistics for active data**.  
+- **Display selected statistics for active data**.  
   Selecting this option will display several useful mathematical quantities for the selected data set, e.g. average of all values, mean of all values, maximum value, minimum value, etc.
 
-- ▷ **Display area under active data**.  
+- **Display area under active data**.  
   This option will allow you to calculate the area under the curve for the selected data points (the integral).
 
-- ▷ **Apply selected curve fits to active data**.  
+- **Apply selected curve fits to active data**.  
   With this option the user can fit a line of best fit to the elected data range. The drop down menu will give several options for graphs to fit (e.g. straight line, parabola, etc.)
 
-- ▷ **Show coordinates and access delta tool**.  
+- **Show coordinates and access delta tool**.  
   Once selected this tool will display a cross-hair onto the coordinate frame and allow to determine the values of specific points by placing the cursor onto a data point of the graph. Right-clicking on the cursor will allow to select a delta tool to determine a range in the data set (both $x$- and $y$-range).

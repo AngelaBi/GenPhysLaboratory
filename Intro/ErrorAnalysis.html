@@ -64,7 +64,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'Intro/ErrorAnalysis';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Capstone Tips &amp; Tools" href="CapstoneNotes.html" />
+    <link rel="next" title="Graphical Representation of Experimental Data" href="GraphicalRepresentation.html" />
     <link rel="prev" title="Data Acquisition &amp; Analysis in Excel &amp; Capstone" href="DataAcquisition.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -180,6 +180,7 @@
 <li class="toctree-l1"><a class="reference internal" href="IntroLab.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DataAcquisition.html">Data Acquisition &amp; Analysis in Excel &amp; Capstone</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Error Analysis Review</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GraphicalRepresentation.html">Graphical Representation of Experimental Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="CapstoneNotes.html">Capstone Tips &amp; Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="VernierCaliper.html">Vernier Calipers</a></li>
 </ul>
@@ -406,27 +407,44 @@
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#significant-figures">Significant Figures</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rules-for-significant-figures">Rules for Significant Figures</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-addition-multiplication">Examples — Addition &amp; Multiplication</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#addition">Addition</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#multiplication">Multiplication</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-analysis-procedure">Error Analysis Procedure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-errors">Types of Errors</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-density-of-a-block">Example: Density of a Block</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-errors">Types of Errors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-propagation-of-measurement-uncertainties">Error Propagation of Measurement Uncertainties</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-error-propagation-density-of-a-block">Example: Error Propagation — Density of a Block</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#random-errors">Random Errors</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-and-standard-deviation">Mean and Standard Deviation</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-standard-deviation-standard">Mean, Standard Deviation, Standard</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-average-pm-standard-error">Example of Average <span class="math notranslate nohighlight">\(\pm\)</span> Standard Error</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#estimation-through-variation-or-instrumentation">Estimation through Variation or Instrumentation</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#systematic-errors">Systematic Errors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#systematic-errors">Systematic Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-systematic-errors">Examples of Systematic Errors</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#difference-between-experimental-and-expected-values">Difference Between Experimental and Expected Values</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Example</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-difference">Example of % Difference</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#propagation-of-errors">Propagation of Errors</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#single-direct-measurement">Single Direct Measurement</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#two-or-more-direct-measurements">Two or More Direct Measurements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#propagation-of-systematic-errors-through-1-brute-force-2-calculus">Propagation of Systematic Errors through 1. Brute Force &amp; 2. Calculus</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-a-single-direct-measurement-sphere">Calculation from a Single, Direct Measurement (Sphere)</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-brute-force-method">1. Direct, brute-force method</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#method-based-on-calculus">2. Method based on calculus</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-two-or-more-direct-measurements-cylinder">Calculation from Two or More Direct Measurements (Cylinder)</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">1. Direct, brute-force method</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">2. Method based on calculus</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -441,28 +459,30 @@
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="error-analysis-review">
-<h1>Error Analysis Review<a class="headerlink" href="#error-analysis-review" title="Permalink to this heading">#</a></h1>
+<span id="error-analysis-overall-section"></span><h1>Error Analysis Review<a class="headerlink" href="#error-analysis-review" title="Permalink to this heading">#</a></h1>
 <p>In laboratory work, it is usually necessary to use experimental apparatus to measure physical quantities. The measurements are seldom, if ever, perfect. As a result, imperfections must be taken into account in any set of physical measurements. One of the most important things to be learned in the laboratory is how to make reliable estimates of the uncertainties involved in any physical measurements and how to handle the propagation of these errors, i.e., to know how the uncertainties affect calculated results of an experiment.</p>
 <hr class="docutils" />
 <section id="significant-figures">
 <span id="error-analysis-sigfig"></span><h2>Significant Figures<a class="headerlink" href="#significant-figures" title="Permalink to this heading">#</a></h2>
 <p>The number of digits required to express the result of an experimental measurement, so that it reflects the accuracy with which the measurement was made, are known as <strong>significant figures</strong>. Thus, the number of significant figures reflects the limitation of the measuring device and/or the experimenter. Whether the calculations are performed by hand or on a computer, the number of significant figures displayed in the final result must reflect the limitations of the experimental measurement. Often, a computer program will, by default, display either too many or too few digits. If too few digits are displayed, you need to adjust the program setting to show more digits.</p>
-<p>For example, if the length of a cylinder is measured as <span class="math notranslate nohighlight">\(20.64,\text{cm}\)</span>, this quantity is said to be measured to four significant figures. If written as <span class="math notranslate nohighlight">\(0.0002064,\text{km}\)</span>, we still have only four significant figures. The zeros preceding the “2” are used only to indicate the position of the decimal point. The zero between the “2” and the “6” is a significant figure, but the other zeros are not.</p>
-<p>If the above measurement is made with a meter stick, the last digit recorded is an estimated figure representing a fractional part of a millimeter division. All recorded data should include the last estimated figure in the result, even though it may be zero. If this measurement had appeared to be exactly <span class="math notranslate nohighlight">\(20\)</span>, it should have been recorded as <span class="math notranslate nohighlight">\(20.00,\text{cm}\)</span>, since lengths can be estimated by means of this instrument to about <span class="math notranslate nohighlight">\(0.01,\text{cm}\)</span>.</p>
-<p>When the measurement is written as <span class="math notranslate nohighlight">\(20,\text{cm}\)</span> it indicates that the value is known to be somewhere between <span class="math notranslate nohighlight">\(19.5,\text{cm}\)</span> and <span class="math notranslate nohighlight">\(20.5,\text{cm}\)</span>, whereas the value <span class="math notranslate nohighlight">\(20.00,\text{cm}\)</span> indicates a range between <span class="math notranslate nohighlight">\(19.995,\text{cm}\)</span> and <span class="math notranslate nohighlight">\(20.005,\text{cm}\)</span>. Conversely, retaining too many significant figures implies greater accuracy than the figures actually represent.</p>
+<p>For example, if the length of a cylinder is measured as <span class="math notranslate nohighlight">\(20.64\,\text{cm}\)</span>, this quantity is said to be measured to four significant figures. If written as <span class="math notranslate nohighlight">\(0.0002064\,\text{km}\)</span>, we still have only four significant figures. The zeros preceding the “2” are used only to indicate the position of the decimal point. The zero between the “2” and the “6” is a significant figure, but the other zeros are not. If the above measurement is made with a meter stick, the last digit recorded is an estimated figure representing a fractional part of a millimeter division. All recorded data should include the last estimated figure in the result, even though it may be zero. If this measurement had appeared to be exactly <span class="math notranslate nohighlight">\(20\)</span>, it should have been recorded as <span class="math notranslate nohighlight">\(20.00\,\text{cm}\)</span>, since lengths can be estimated by means of this instrument to about <span class="math notranslate nohighlight">\(0.01\,\text{cm}\)</span>. When the measurement is written as <span class="math notranslate nohighlight">\(20\,\text{cm}\)</span> it indicates that the value is known to be somewhere between <span class="math notranslate nohighlight">\(19.5\,\text{cm}\)</span> and <span class="math notranslate nohighlight">\(20.5\,\text{cm}\)</span>, whereas the value <span class="math notranslate nohighlight">\(20.00\,\text{cm}\)</span> indicates a range between <span class="math notranslate nohighlight">\(19.995\,\text{cm}\)</span> and <span class="math notranslate nohighlight">\(20.005\,\text{cm}\)</span>. Conversely, retaining too many significant figures implies greater accuracy than the figures actually represent.</p>
 <section id="rules-for-significant-figures">
 <h3>Rules for Significant Figures<a class="headerlink" href="#rules-for-significant-figures" title="Permalink to this heading">#</a></h3>
+<p>When deciding the number of significant figures to retain, the following rules apply:</p>
 <ul class="simple">
-<li><p>▶ When collecting data, only one estimated figure is retained as a significant figure.</p></li>
-<li><p>▶ In addition and subtraction, do not carry the result beyond the first column that contains an estimated figure.</p></li>
-<li><p>▶ In multiplication and division, the result should have as many significant figures as the factor with the least number of significant figures.</p></li>
-<li><p>▶ When dropping figures that are not significant, round to the nearest significant digit.</p></li>
-<li><p>▶ While performing intermediate calculations, it is safer to carry one more significant figure than is required in the final result.</p></li>
+<li><p>When collecting data, only one estimated figure is retained as a significant figure.</p></li>
+<li><p>In addition and subtraction, do not carry the result beyond the first column that contains an estimated figure. All figures lying to the right of the last column in which all figures are significant should be dropped.</p></li>
+<li><p>In multiplication and division, the result should have as many significant figures as the factor with the least number of significant figures.</p></li>
+<li><p>When dropping figures that are not significant, round to the nearest significant digit. That is to say, the last figure should be unchanged if the first figure dropped is less than 5.  The last figure retained should be increased by one if the first figure dropped is 5 or greater.</p></li>
+<li><p>While performing intermediate calculations, it is safer to carry more significant figures than is required in the final result. You can always fix it when you’re done.</p></li>
 </ul>
 </section>
-<section id="examples">
-<h3>Examples<a class="headerlink" href="#examples" title="Permalink to this heading">#</a></h3>
-<p><strong>Addition</strong></p>
+<section id="examples-addition-multiplication">
+<h3>Examples — Addition &amp; Multiplication<a class="headerlink" href="#examples-addition-multiplication" title="Permalink to this heading">#</a></h3>
+<p>The following examples help illustrate these rules.</p>
+<section id="addition">
+<h4>Addition<a class="headerlink" href="#addition" title="Permalink to this heading">#</a></h4>
+<p>When adding these four numbers:</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>  427.5
    28.03
     0.0654
@@ -471,63 +491,69 @@
   851.6
 </pre></div>
 </div>
-<p>The result is rounded to one decimal place because the first term is given only to one decimal place.</p>
-<p><strong>Multiplication</strong></p>
-<p>If the length of a rectangle is <span class="math notranslate nohighlight">\(1.94,\text{cm}\)</span> and the width is <span class="math notranslate nohighlight">\(1.84,\text{cm}\)</span>, the area is</p>
+<p>the result is rounded to the first decimal digit (851.6) because the first term (427.5) in the sum is only given to one decimal digit. The sum is expressed to the proper number of significant figures.</p>
+</section>
+<section id="multiplication">
+<h4>Multiplication<a class="headerlink" href="#multiplication" title="Permalink to this heading">#</a></h4>
+<p>In our next example, we will calculate the area of a rectangle. If its length is measured as <span class="math notranslate nohighlight">\(1.94\,\text{cm}\)</span> and width as <span class="math notranslate nohighlight">\(1.84\,\text{cm}\)</span>, the area as provided by a calculator is</p>
 <div class="math notranslate nohighlight">
 \[
-A = 1.94 \times 1.84 = 3.5696,\text{cm}^2.
+A = 1.94 \times 1.84 = 3.5696\,\text{cm}^2.
 \]</div>
-<p>Since each factor has three significant figures, the result should be reported as</p>
+<p>Since each factor has three significant figures (as opposed to the five from the calculator), the result should instead be reported as</p>
 <div class="math notranslate nohighlight">
 \[
-A = 3.57,\text{cm}^2.
+A = 3.57\,\text{cm}^2.
 \]</div>
-<p>In Excel, the number of significant figures can be controlled by formatting the cell to a <em>Number</em> type with the desired number of decimal places.</p>
+<div class="tip admonition">
+<p class="admonition-title">Number format in Excel</p>
+<p>In Excel, the number of significant figures can be controlled by formatting the cell to a <em>Number</em> type with the desired number of decimal places. In addition to being more meaningful, formatting the cells makes the spreadsheet more readable.</p>
+</div>
 <hr class="docutils" />
+</section>
 </section>
 </section>
 <section id="error-analysis-procedure">
 <span id="error-analysis-errorproc"></span><h2>Error Analysis Procedure<a class="headerlink" href="#error-analysis-procedure" title="Permalink to this heading">#</a></h2>
-<p>The steps for performing error analysis are:</p>
+<p>This section is a guid to performing error analysis for an experiment. Steps for performing error analysis are:</p>
 <ul class="simple">
-<li><p>▶ Identify the likely sources of measurement error.</p>
+<li><p>Identify the likely sources of measurement error.</p>
 <ul>
-<li><p>Instrumentation</p></li>
-<li><p>Experimental setup and procedure</p></li>
-<li><p>Determine whether errors are systematic or random (see <code class="xref std std-numref docutils literal notranslate"><span class="pre">error-analysis-TypesErrors</span></code>).</p></li>
+<li><p>Possible sources — Instrumentation, experimental setup, procedure</p></li>
+<li><p>Determine/explain whether errors are systematic or random (see <a class="reference internal" href="#error-analysis-typeserrors"><span class="std std-ref">Types of Errors</span></a>).</p></li>
 </ul>
 </li>
-<li><p>▶ Estimate the magnitude of measurement errors using:</p>
+<li><p>Estimate the magnitude of measurement errors using:</p>
 <ul>
 <li><p>Equipment specifications</p></li>
 <li><p>Significant digits displayed</p></li>
-<li><p>Your estimate of reading accuracy</p></li>
-<li><p>The range or standard deviation of repeated measurements</p></li>
+<li><p>Your estimate of how accurately you can read the instrument</p></li>
+<li><p>The range or standard deviation of repeated measurements (see <a class="reference internal" href="#error-analysis-typeserrors"><span class="std std-ref">Types of Errors</span></a>).</p></li>
 </ul>
 </li>
-<li><p>▶ Calculate the expected error in calculated quantities due to measurement errors (see <code class="xref std std-numref docutils literal notranslate"><span class="pre">error-analysis-ErrorPropagation</span></code>).</p></li>
-<li><p>▶ If the difference between experimental and expected results is much larger than the expected error, check for:</p>
+<li><p>Calculate the magnitude of the expected error in calculated quantities due to measurement errors (see <span class="xref std std-ref">error-analysis-ErrorPropagation</span>).</p></li>
+<li><p>If the <em>difference</em> between <strong>your experimental results</strong> and the <strong>expected results/accepted values</strong> is much <em>larger</em> than the expected error, check for:</p>
 <ul>
-<li><p>Experimental mistakes</p></li>
+<li><p>Experimental procedure mistakes</p></li>
 <li><p>Calculation or unit conversion errors</p></li>
 <li><p>Incorrect use of degrees vs. radians</p></li>
 <li><p>Underestimated measurement error</p></li>
-<li><p>Incorrect constants</p></li>
+<li><p>Incorrect constants or other common values</p></li>
 </ul>
 </li>
-<li><p>▶ Report results with the correct number of significant figures and the calculated error.</p></li>
+<li><p>Report results with the correct number of significant figures (<a class="reference internal" href="#error-analysis-sigfig"><span class="std std-ref">Significant Figures</span></a>) and the calculated error, otherwise noted as the range or experimental value <span class="math notranslate nohighlight">\(\pm\)</span> uncertainty.</p></li>
 </ul>
 <hr class="docutils" />
 </section>
 <section id="types-of-errors">
 <span id="error-analysis-typeserrors"></span><h2>Types of Errors<a class="headerlink" href="#types-of-errors" title="Permalink to this heading">#</a></h2>
-<p>Experimental measurements are characterized by <strong>accuracy</strong> and <strong>precision</strong>.</p>
+<p>Experimental measurements are characterized by <strong>precision</strong> and <strong>accuracy</strong>.</p>
 <ul class="simple">
-<li><p>A set of measurements is <em>accurate</em> if the average value is close to the expected value.</p></li>
-<li><p>A set of measurements is <em>precise</em> if the measurements are closely clustered.</p></li>
+<li><p>A set of measurements is <em>precise</em> if the measurements are closely clustered. (e.g. <a class="reference internal" href="#erroranalysis-fig01"><span class="std std-numref">Fig. 4</span></a>-left)</p></li>
+<li><p>A set of measurements is <em>accurate</em> if the average value is close to the expected value. (e.g. <a class="reference internal" href="#erroranalysis-fig01"><span class="std std-numref">Fig. 4</span></a>-center)</p></li>
+<li><p>A set of measurements is both <em>accurate</em> and <em>precise</em> if the measurements are closely clustered close to the expected value. (e.g. <a class="reference internal" href="#erroranalysis-fig01"><span class="std std-numref">Fig. 4</span></a>-right)</p></li>
 </ul>
-<p>Random errors increase scatter and reduce precision. They arise from uncontrollable variations and can be reduced by repeated measurements. Systematic errors arise from calibration issues or faulty methods and cannot be reduced by averaging.</p>
+<p><strong>Random errors</strong> increase scatter and reduce precision. They arise from uncontrollable variations and inherent limitations of the equipment; they can be estimated and reduced by repeated measurements. <strong>Systematic errors</strong> arise from calibration issues or faulty methods; they can reduce precision and cannot themselves be reduced by repeated measurements. Often you can estimate precision errors by considering the equipment and its specifications.</p>
 <hr class="docutils" />
 <figure class="align-center" id="erroranalysis-fig01">
 <a class="reference internal image-reference" href="../_images/ErrorType_v4.png"><img alt="../_images/ErrorType_v4.png" src="../_images/ErrorType_v4.png" style="width: 100%;" /></a>
@@ -535,123 +561,229 @@ A = 3.57,\text{cm}^2.
 <p><span class="caption-number">Fig. 4 </span><span class="caption-text">The distinction between precision and accuracy.</span><a class="headerlink" href="#erroranalysis-fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Each measurement contains both systematic and random errors. Estimate the error in each measured quantity, then recalculate results using maximum and minimum values to determine the expected range of outcomes.</p>
-<section id="example-density-of-a-block">
-<h3>Example: Density of a Block<a class="headerlink" href="#example-density-of-a-block" title="Permalink to this heading">#</a></h3>
+</section>
+<section id="error-propagation-of-measurement-uncertainties">
+<span id="error-analysis-errorpropagation"></span><h2>Error Propagation of Measurement Uncertainties<a class="headerlink" href="#error-propagation-of-measurement-uncertainties" title="Permalink to this heading">#</a></h2>
+<p>Error analysis can help you recognize if your results are consistent with a <em>known</em> or <em>expected</em> value. Each measurement has some combination of systematic and random errors.</p>
+<ul class="simple">
+<li><p>Make your best estimate of the measurement uncertainty for <em>each measured value</em></p>
+<ul>
+<li><p>For direct measurements, think about how confident you are in your measured value. How much could you increase or decrease the measurement tool while still being confident this uncertainty range is still representative of your measurement.</p>
+<ul>
+<li><p>E.g. using a triple-beam balance, you measure <span class="math notranslate nohighlight">\(432.2\,\text{grams}\)</span>, but the level line still appears level when you push the slider to <span class="math notranslate nohighlight">\(432.5\,\text{grams}\)</span>, your value <span class="math notranslate nohighlight">\(\pm\)</span> measurement uncertainty range could be <span class="math notranslate nohighlight">\(432.2\,\pm\,0.3\,\text{grams}\)</span>.</p></li>
+</ul>
+</li>
+<li><p>Your estimate may include instrument limitations and variation of measurements over multiple trials. Calculate the differences between your experimental results and any known values.</p></li>
+</ul>
+</li>
+<li><p>Recalculate experimental results using maximum and minimum values to determine the expected range of outcomes. Complete this in your spreadsheet by changing your measurements by adding or subtracting the estimated errors. Observe the range of experimental values (maximum and minimum) that you find in these recalculations. If the expected values fall too far outside this range, there is some problem which you need to address.</p></li>
+</ul>
+<section id="example-error-propagation-density-of-a-block">
+<h3>Example: Error Propagation — Density of a Block<a class="headerlink" href="#example-error-propagation-density-of-a-block" title="Permalink to this heading">#</a></h3>
+<p>Suppose you are measuring the density of a rectangular block. The block has dimensions length <span class="math notranslate nohighlight">\(L\)</span>, width <span class="math notranslate nohighlight">\(W\)</span>, height <span class="math notranslate nohighlight">\(H\)</span>, mass <span class="math notranslate nohighlight">\(M\)</span> each with their respective measurement uncertainty. The calculated density is mass divided by volume.</p>
 <p>Given</p>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(L = 2.00,\text{cm}\)</span>, <span class="math notranslate nohighlight">\(W = 3.00,\text{cm}\)</span>, <span class="math notranslate nohighlight">\(H = 5.00,\text{cm}\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(M = 60.00,\text{g}\)</span></p></li>
-<li><p>Uncertainty in length: <span class="math notranslate nohighlight">\(\pm 0.01,\text{cm}\)</span></p></li>
-<li><p>Uncertainty in mass: <span class="math notranslate nohighlight">\(\pm 0.05,\text{g}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(L = 2.00\,\text{cm}\)</span>, <span class="math notranslate nohighlight">\(W = 3.00\,\text{cm}\)</span>, <span class="math notranslate nohighlight">\(H = 5.00\,\text{cm}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(M = 60.00\,\text{g}\)</span></p></li>
+<li><p>Uncertainty in length: <span class="math notranslate nohighlight">\(\delta L = \delta W = \delta H = \pm 0.01\,\text{cm}\)</span></p></li>
+<li><p>Uncertainty in mass: <span class="math notranslate nohighlight">\(\delta M = \pm 0.05\,\text{g}\)</span></p></li>
 </ul>
 <p>The experimental density is</p>
 <div class="math notranslate nohighlight">
 \[
-\rho = \frac{60.00}{30.00} = 2.00,\text{g/cm}^3.
+\rho_\text{experimental} = \frac{M}{V} = \frac{M}{LWH} = \frac{60.00}{30.00} = 2.00\,\text{g/cm}^3.
 \]</div>
-<p>Using maximum mass and minimum volume gives</p>
+<p>To find the max/min range, the maximum density consistent with your measurements is the ratio of the maximum mass and the minimum volume:</p>
 <div class="math notranslate nohighlight">
 \[
-\rho_{\max} = 2.02,\text{g/cm}^3,
+\rho_{\max} = \frac{M+\delta m}{V-\delta V} = \frac{M+\delta m}{(L-\delta L)(W-\delta L)(H-\delta L)} = \frac{60.05}{1.99\times0.99\times4.99} = \frac{60.05}{29.69} = 2.02\,\text{g/cm}^3,
 \]</div>
-<p>and the minimum density is <span class="math notranslate nohighlight">\(1.98,\text{g/cm}^3\)</span>. If the expected value lies outside this range, further investigation is required.</p>
+<p>and similarly, the minimum density is <span class="math notranslate nohighlight">\(1.98\,\text{g/cm}^3\)</span>. If the expected value lies outside this range, further investigation is required. If the expected density is not in this range, you need to consider possible explanations:</p>
+<ul class="simple">
+<li><p>Errors in the measurements could be larger than you estimated</p></li>
+<li><p>Actual density could be different from the expected value</p></li>
+<li><p>Your calculation may be wrong</p></li>
+<li><p>Perhaps the shape is not exactly rectangular</p></li>
+</ul>
+<p>The two types of errors illustrated in <a class="reference internal" href="#erroranalysis-fig01"><span class="std std-numref">Fig. 4</span></a> require different treatment. The systematic errors illustrated on the target labelled <strong>Precise</strong> cannot be reduced by taking more measurements, while the average value obtained with the random errors on the target labelled <strong>Accurate</strong> <em>improves</em> with more measurements. The following sections provide guidance on analyzing systematic and random errors.</p>
 <hr class="docutils" />
 </section>
 </section>
 <section id="random-errors">
 <span id="error-analysis-randomerrors"></span><h2>Random Errors<a class="headerlink" href="#random-errors" title="Permalink to this heading">#</a></h2>
-<p>Random errors are inherent in nearly all measurements. They are assumed to be equally likely positive or negative and are more likely to be small than large. Independent repeated measurements reduce their effect.</p>
-<section id="mean-and-standard-deviation">
-<h3>Mean and Standard Deviation<a class="headerlink" href="#mean-and-standard-deviation" title="Permalink to this heading">#</a></h3>
-<p>For <span class="math notranslate nohighlight">\(N\)</span> measurements <span class="math notranslate nohighlight">\(x_1, x_2, \ldots, x_N\)</span>:</p>
-<div class="math notranslate nohighlight">
-\[
-\bar{x} = \frac{1}{N} \sum_{i=1}^{N} x_i,
-\]</div>
-<div class="math notranslate nohighlight">
-\[
-\sigma = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (x_i - \bar{x})^2}.
-\]</div>
-<p>The standard deviation of the mean is</p>
-<div class="math notranslate nohighlight">
-\[
-\sigma_{\text{mean}} = \frac{\sigma}{\sqrt{N-1}}.
-\]</div>
-<p>Your best estimate is <span class="math notranslate nohighlight">\(\bar{x} \pm \sigma_{\text{mean}}\)</span>.</p>
+<p>Random errors are inherent in nearly all measurements. They arise because of uncontrollable conditions affecting the observer, the measuring device, and the quantity to be measured. On the basis of probability, these errors are as likely to be positive as negative, and more likely to be small than large.</p>
+<p>Independent repeated measurements and use of their average in any calculation reduce their effect. This minimization is only achieved if the measurements are independent. A common mistake is biasing a new measurement to agree with the previous measurements. This mistake makes the measurements more precise, but less accurate as shown in <a class="reference internal" href="#erroranalysis-fig01"><span class="std std-numref">Fig. 4</span></a>. <strong>Taking truly independent measurements</strong> is the best way to reduce random error.</p>
+<section id="mean-standard-deviation-standard">
+<h3>Mean, Standard Deviation, Standard<a class="headerlink" href="#mean-standard-deviation-standard" title="Permalink to this heading">#</a></h3>
+<p>The most well established method to quantify the spread of random errors in a measurement is to compute the <strong>standard deviation</strong>. Suppose you make <span class="math notranslate nohighlight">\(N\)</span> measurements <span class="math notranslate nohighlight">\(x_1, x_2, \ldots, x_N\)</span> of a certain quantity <span class="math notranslate nohighlight">\(x\)</span>. The average value is:</p>
+<div class="math notranslate nohighlight" id="equation-eq-errormeanx">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eq-errormeanx" title="Permalink to this equation">#</a></span>\[\bar{x}=\frac{x_1 + x_2 + \ldots + x_N}{N}=\frac{1}{N}\sum_{i=1}^N x_{i},\]</div>
+<p>and the standard deviation of the individual measurements is</p>
+<div class="math notranslate nohighlight" id="equation-eq-errorsigmax">
+<span class="eqno">(2)<a class="headerlink" href="#equation-eq-errorsigmax" title="Permalink to this equation">#</a></span>\[\sigma = \sqrt{\frac{(x_1-\bar{x})^2 + (x_2-\bar{x})^2 + \ldots + (x_N-\bar{x})^2}{N-1}} = \sqrt{\frac{1}{N-1} \sum_{i=1}^{n}\left(x_i-\bar{x}\right)^2}.\]</div>
+<p>In Excel, these operations can be carried out using the functions <code class="docutils literal notranslate"><span class="pre">AVERAGE()</span></code> and <code class="docutils literal notranslate"><span class="pre">STDEV()</span></code> or <code class="docutils literal notranslate"><span class="pre">STDEV.S()</span></code>.</p>
+<p>If you perform many measurements, then your estimate of the average value improves. The <strong>standard deviation of the mean</strong> (a.k.a. <strong>standard error</strong>) for <span class="math notranslate nohighlight">\(N\)</span> measurements is</p>
+<div class="math notranslate nohighlight" id="equation-eq-errorsigmameanx">
+<span class="eqno">(3)<a class="headerlink" href="#equation-eq-errorsigmameanx" title="Permalink to this equation">#</a></span>\[\sigma_{\mbox{mean}} = \frac{\sigma}{\sqrt{N-1}}.\]</div>
+<p>Your <strong>best estimate of a measurement</strong> <span class="math notranslate nohighlight">\(x\)</span> is then <span class="math notranslate nohighlight">\(\bar{x} \pm \sigma_{\text{mean}}\)</span>.</p>
 </section>
-<section id="example">
-<h3>Example<a class="headerlink" href="#example" title="Permalink to this heading">#</a></h3>
-<p>Measurements (cm): 7.65, 7.61, 7.66, 7.68</p>
-<ul class="simple">
-<li><p>Mean: <span class="math notranslate nohighlight">\(7.65,\text{cm}\)</span></p></li>
-<li><p>Standard deviation: <span class="math notranslate nohighlight">\(0.029,\text{cm}\)</span></p></li>
-<li><p>Standard deviation of the mean: <span class="math notranslate nohighlight">\(0.017,\text{cm}\)</span></p></li>
-</ul>
-<p>Result:</p>
+<section id="example-of-average-pm-standard-error">
+<h3>Example of Average <span class="math notranslate nohighlight">\(\pm\)</span> Standard Error<a class="headerlink" href="#example-of-average-pm-standard-error" title="Permalink to this heading">#</a></h3>
+<p>Suppose you take four length measurements (cm): 7.65, 7.61, 7.66, 7.68</p>
+<p>The mean value is</p>
 <div class="math notranslate nohighlight">
-\[
-7.65 \pm 0.017,\text{cm}.
-\]</div>
+\[\bar{x} = \left(7.65 + 7.61 + 7.66 + 7.68\right)/4\,\text{cm}
+= 7.65\,\text{cm},\]</div>
+<p>and the standard deviation is</p>
+<div class="math notranslate nohighlight">
+\[\sigma = \sqrt{\frac{(7.65-7.65)^2 + (7.61-7.65)^2 +
+(7.66-7.65)^2 + (7.68-7.65)^2}{4-1}\,\text{cm}^2}
+= 0.029\,\text{cm}.\]</div>
+<p>The standard error (i.e. standard deviation of the mean) of the average value is thus reduced to <span class="math notranslate nohighlight">\( 0.029\,\text{cm} / \sqrt{3} = 0.017\,\text{cm}\)</span> and therefore the best estimate of the length is <span class="math notranslate nohighlight">\(\bar{x} = 7.65\,\text{cm} \pm 0.017\,\text{cm}\)</span>.</p>
+</section>
+<section id="estimation-through-variation-or-instrumentation">
+<h3>Estimation through Variation or Instrumentation<a class="headerlink" href="#estimation-through-variation-or-instrumentation" title="Permalink to this heading">#</a></h3>
+<p>Frequently, a set of measurements has to be taken in an experiment under a prescribed condition. It may be difficult to judge exactly when this condition is satisfied. In this case, it may be necessary to vary the physical quantities that produce this condition and to note how much each may be varied without appreciably altering the prescribed condition. This variation may be used to determine the error.</p>
+<p>Finally, the measuring devices (meter stick, voltmeter, and so on) are not perfectly accurate even if one could make a precise reading with them. The manufacturer specifies the accuracy in the measuring device; for example, a particular type of voltmeter may be guaranteed to give readings accurate to <span class="math notranslate nohighlight">\(\pm 1\%\)</span> of full scale reading. Part of this tolerance is random error that can average out by taking multiple readings. As discussed in the next section, another part of the instrument error is systematic. An ammeter may always read <span class="math notranslate nohighlight">\(0.5\%\)</span> high because of the value of a resistor internal to the device.</p>
 </section>
 </section>
 <hr class="docutils" />
 <section id="systematic-errors">
 <h2>Systematic Errors<a class="headerlink" href="#systematic-errors" title="Permalink to this heading">#</a></h2>
-<p>Systematic errors arise from faulty equipment, methods, or assumptions. They have a definite sign and magnitude and cannot be reduced by averaging. Calibration, improved procedures, or corrected equations are required to reduce them.</p>
-<p>Examples include zero errors in calipers, incorrect stopwatch timing rates, and consistent reaction-time bias. Avoid vague descriptions such as “human error”; instead, specify the source clearly.</p>
+<p>Systematic errors occur in an experiment because of a defective measuring apparatus, faulty methods, or incomplete working equations or assumptions. They are definite in sign and magnitude and cannot be reduced by averaging because the same error is included in each measurement.</p>
+<p>These errors are often <em>more important</em> than the random errors. Calibrating the measuring apparatus, modifying the method, or correcting the equations may reduce them. These are generally described as corrections that are made in the performing of the experiment.</p>
+<section id="examples-of-systematic-errors">
+<h3>Examples of Systematic Errors<a class="headerlink" href="#examples-of-systematic-errors" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>The reading of a Vernier caliper may not be zero when the jaws are in contact. This so-called zero error must be corrected for in using the instrument, i.e., the instrument must be calibrated. Otherwise, all measurements made with the caliper will be in error by a determinate amount, the zero error.</p></li>
+<li><p>In many experiments time is measured with a stopwatch. Using a stopwatch that does not run at the proper rate would introduce an instrumental systematic error. A watch that ran too fast would cause all times recorded to be too high.</p></li>
+<li><p>A more significant systematic error encountered with a stopwatch is reaction time error. In measuring the time for an air track glider to travel down an incline, the observer may introduce a systematic error due to the reaction time required to stop the watch and a random error due to variation in reaction time.</p></li>
+</ul>
+<p>Report these sources of error as <strong>Vernier caliper error</strong> or <strong>reaction time error.</strong> The expression <strong>human error</strong> is too ambiguous to be useful in describing measurement errors.</p>
+<div class="caution admonition">
+<p class="admonition-title">Error Description</p>
+<p><strong>NEVER</strong> state the source of an error as <em><strong>human error</strong></em> due to ambiguity. Be clear and descriptive.</p>
+</div>
+</section>
 </section>
 <hr class="docutils" />
 <section id="difference-between-experimental-and-expected-values">
 <h2>Difference Between Experimental and Expected Values<a class="headerlink" href="#difference-between-experimental-and-expected-values" title="Permalink to this heading">#</a></h2>
-<p>If the true value is known, the systematic error may be estimated as the difference between the experimental and expected values. This difference is <strong>not</strong> an estimate of random error.</p>
-<p>The percent difference is</p>
+<p>If the true value of a quantity is known, then the systematic error can be estimated as difference between the experimental and expected values. It is important to remember that this is an <em>estimate of the <em><strong>systematic error</strong></em></em>. The difference between your experimental value and the expected value is <strong>not</strong> <em>an estimate of the random experimental error</em>.</p>
+<p>To report this difference as a percentage (<strong>percent difference</strong>), divide the difference by the true, expected, or actual value and multiply by <span class="math notranslate nohighlight">\(100\%\)</span>. In Excel, you can use percent format instead of multiplying by <span class="math notranslate nohighlight">\(100\%\)</span>.</p>
+<p>The percent difference between experimental and actual values is</p>
+<div class="math notranslate nohighlight" id="equation-eq-percentdifferenceinerroranalysis">
+<span class="eqno">(4)<a class="headerlink" href="#equation-eq-percentdifferenceinerroranalysis" title="Permalink to this equation">#</a></span>\[\frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100%.\]</div>
+<p>Sometimes, rather than a difference to actual values, you will be looking at how some quantity changes from an initial to final state. Similar to percent difference, you can report a <strong>percent change</strong> (when applicable) to help contexualize the process with</p>
+<div class="math notranslate nohighlight" id="equation-eq-percentchangeinerroranalysis">
+<span class="eqno">(5)<a class="headerlink" href="#equation-eq-percentchangeinerroranalysis" title="Permalink to this equation">#</a></span>\[\frac{\text{Final Experimental Value} - \text{Initial Experimental Value}}{\text{Initial Experimental Value}} \times 100%.\]</div>
+<section id="example-of-difference">
+<h3>Example of % Difference<a class="headerlink" href="#example-of-difference" title="Permalink to this heading">#</a></h3>
+<p>Suppose a student measures the value of gravity and will compare to the standard accepted value.</p>
+<ul class="simple">
+<li><p>Measured value of gravity: <span class="math notranslate nohighlight">\(9.40\,\text{m/s}^2\)</span></p></li>
+<li><p>Standard value: <span class="math notranslate nohighlight">\(9.803\,\text{m/s}^2\)</span></p></li>
+</ul>
+<p>The systematic relative difference, expressed as a percentage, is</p>
 <div class="math notranslate nohighlight">
 \[
-\frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100%.
+\frac{9.40 - 9.803}{9.803} \times 100\% = \frac{-0.403}{9.803} \times 100\% = -4.11\%
 \]</div>
-<section id="id1">
-<h3>Example<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
-<p>Measured value of gravity: <span class="math notranslate nohighlight">\(9.41,\text{m/s}^2\)</span></p>
-<p>Standard value: <span class="math notranslate nohighlight">\(9.803,\text{m/s}^2\)</span></p>
-<div class="math notranslate nohighlight">
-\[
-\text{Percent difference} = \frac{-0.39}{9.803} \times 100% = -4.1%.
-\]</div>
-<p>A small percent difference does not imply small experimental error; it may result from cancellation of errors.</p>
+<p>It is important to maintain the proper sign of the error as it indicates whether your experimental value was larger or smaller than the actual value (or increased/decreased in the context of % change). <strong>There is no definite allowable difference</strong> between the experimental and expected values in this course’s experiments. However, all measurements should be made with the greatest care, so as to reduce the error as much as possible.</p>
+<p>It should be noted that the percent difference is not an estimate of experimental error. Any measurement has random and systematic errors even if the percent difference happens to be small.</p>
+<div class="tip admonition">
+<p class="admonition-title">Small % Difference <span class="math notranslate nohighlight">\(\ne\)</span> Small Experimental Error</p>
+<p>A small percent difference does not imply small experimental error; it result from cancellation of errors.</p>
+</div>
+<p>Often, scientists do not know the actual value of the quantity they are measuring and they give their best estimate with error. Comparing the <strong>difference</strong> between the experimental and actual values with your best estimate of the experimental error (e.g. using standard deviation <span class="math notranslate nohighlight">\(\sigma\)</span>, standard error <span class="math notranslate nohighlight">\(\sigma_\text{mean}\)</span>, or direct measurement uncertainties <span class="math notranslate nohighlight">\(\delta\)</span>) will help determine if there is a systematic error in your results.</p>
+<ul class="simple">
+<li><p>If the difference is less than your estimated random error, then the results are consistent with the expected value.</p></li>
+<li><p>Having a zero percent difference could be the result of a lucky cancellation of errors and still just means the results are consistent.</p></li>
+<li><p>If the difference is significantly more than the estimated error, then you can begin to ask why your result is not consistent with the expected value.</p></li>
+</ul>
 <hr class="docutils" />
 </section>
 </section>
-<section id="propagation-of-errors">
-<span id="error-analysis-errorpropagation"></span><h2>Propagation of Errors<a class="headerlink" href="#propagation-of-errors" title="Permalink to this heading">#</a></h2>
-<section id="single-direct-measurement">
-<h3>Single Direct Measurement<a class="headerlink" href="#single-direct-measurement" title="Permalink to this heading">#</a></h3>
-<p>For the volume of a sphere</p>
+<section id="propagation-of-systematic-errors-through-1-brute-force-2-calculus">
+<span id="id1"></span><h2>Propagation of Systematic Errors through 1. Brute Force &amp; 2. Calculus<a class="headerlink" href="#propagation-of-systematic-errors-through-1-brute-force-2-calculus" title="Permalink to this heading">#</a></h2>
+<p>Through indirect measurement, the effect of systematic errors can be followed through the equations used. Two simple examples will be discussed.</p>
+<section id="calculation-from-a-single-direct-measurement-sphere">
+<h3>Calculation from a Single, Direct Measurement (Sphere)<a class="headerlink" href="#calculation-from-a-single-direct-measurement-sphere" title="Permalink to this heading">#</a></h3>
+<p>Consider the volume of a sphere <span class="math notranslate nohighlight">\(V\)</span> as calculated from a direct measurement of its diameter, <span class="math notranslate nohighlight">\(D\)</span>. We would use</p>
 <div class="math notranslate nohighlight">
 \[
-V = \frac{1}{6} \pi D^3,
+V = \frac{1}{6} \pi D^3
 \]</div>
-<p>small errors obey</p>
-<div class="math notranslate nohighlight">
-\[
-\frac{\Delta V}{V} \approx 3 \frac{\Delta D}{D}.
-\]</div>
-<p>Thus, a 1% error in diameter produces a 3% error in volume.</p>
+<p>where <span class="math notranslate nohighlight">\(\pi = 3.1415926\ldots\)</span>. Suppose the value of <span class="math notranslate nohighlight">\(D\)</span> is measured as <span class="math notranslate nohighlight">\(3.04\,\text{cm}\)</span> and <span class="math notranslate nohighlight">\(V\)</span> computed to be <span class="math notranslate nohighlight">\(14.71\,\text{cm}^3\)</span>. It is later discovered that the value of <span class="math notranslate nohighlight">\(D\)</span> has a systematic error <span class="math notranslate nohighlight">\(\Delta D = +0.01\,\text{cm}\)</span>, (unnecessarily large, in all probability). What is the error <span class="math notranslate nohighlight">\(\Delta V\)</span> in <span class="math notranslate nohighlight">\(V\)</span> and the corrected value of <span class="math notranslate nohighlight">\(V\)</span>?</p>
+<section id="direct-brute-force-method">
+<h4>1. Direct, brute-force method<a class="headerlink" href="#direct-brute-force-method" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Correct <span class="math notranslate nohighlight">\(D\)</span> to <span class="math notranslate nohighlight">\(3.03\,\text{cm}\)</span></p></li>
+<li><p>Re-compute <span class="math notranslate nohighlight">\(V_{\text{corrected}}\)</span> as <span class="math notranslate nohighlight">\(14.56\,\text{cm}^3\)</span></p></li>
+<li><p>The systematic error <span class="math notranslate nohighlight">\(\Delta V\)</span> in <span class="math notranslate nohighlight">\(V\)</span> is then <span class="math notranslate nohighlight">\(V - V_{\text{corrected}} = +0.15\,\text{cm}^3\)</span> or <span class="math notranslate nohighlight">\(+1\%\)</span></p></li>
+</ul>
 </section>
-<hr class="docutils" />
-<section id="two-or-more-direct-measurements">
-<h3>Two or More Direct Measurements<a class="headerlink" href="#two-or-more-direct-measurements" title="Permalink to this heading">#</a></h3>
-<p>For a cylinder</p>
+<section id="method-based-on-calculus">
+<h4>2. Method based on calculus<a class="headerlink" href="#method-based-on-calculus" title="Permalink to this heading">#</a></h4>
+<p>Find the derivative of <span class="math notranslate nohighlight">\(V\)</span> with respect to <span class="math notranslate nohighlight">\(D\)</span>,</p>
+<div class="math notranslate nohighlight" id="equation-eq-errorcalcmethod">
+<span class="eqno">(6)<a class="headerlink" href="#equation-eq-errorcalcmethod" title="Permalink to this equation">#</a></span>\[ \begin{align}\begin{aligned}\frac{{\rm d}V}{{\rm d}D} = \frac{3}{6} \pi D^2\\{\rm d}V = \frac{3}{6} \pi D^2 {\rm d}D\end{aligned}\end{align} \]</div>
+<p>Note that this shows a direct dependence of a change in <span class="math notranslate nohighlight">\(V\)</span> on an infinitesimal change in <span class="math notranslate nohighlight">\(D\)</span>. Now divide through by <span class="math notranslate nohighlight">\(V = \frac{1}{6} \pi D^3\)</span></p>
 <div class="math notranslate nohighlight">
-\[
-V = \frac{1}{4} \pi L D^2,
-\]</div>
-<p>small errors propagate as</p>
+\[\frac{{\rm d}V}{V} = 3 \frac{{\rm d}D}{D}.\]</div>
+<p>If a finite change in <span class="math notranslate nohighlight">\(D\)</span>, such as the systematic error <span class="math notranslate nohighlight">\(\Delta D\)</span>, is small compared to <span class="math notranslate nohighlight">\(D\)</span>, then <span class="math notranslate nohighlight">\({\rm d}V\)</span> and <span class="math notranslate nohighlight">\({\rm d}D\)</span> can be approximated by <span class="math notranslate nohighlight">\(\Delta V\)</span> and <span class="math notranslate nohighlight">\(\Delta D\)</span>, respectively, and so the following can be written:</p>
 <div class="math notranslate nohighlight">
-\[
-\frac{\Delta V}{V} \approx \frac{\Delta L}{L} + 2 \frac{\Delta D}{D}.
-\]</div>
-<p>This shows how fractional errors in each measured quantity contribute to the total error in the calculated result.</p>
+\[\frac{\Delta V}{V} \approx 3 \frac{\Delta D}{D}.\]</div>
+<p>This means that the fractional or percent error in <span class="math notranslate nohighlight">\(V\)</span> is very nearly 3 times as large as that in <span class="math notranslate nohighlight">\(D\)</span>. Another way to say, a 1% error in diameter produces a 3% error in volume. Therefore,</p>
+<div class="math notranslate nohighlight">
+\[\frac{\Delta V}{V} \approx + 3 \frac{0.01}{3.04} \approx 1 \%.\]</div>
+<p>Hence,</p>
+<div class="math notranslate nohighlight">
+\[\Delta V \approx 0.15\,\text{cm}^3\]</div>
+<p>and</p>
+<div class="math notranslate nohighlight">
+\[V_{\text{corrected}} = V - \Delta V = 14.56\,\text{cm}^3.\]</div>
+</section>
+</section>
+<section id="calculation-from-two-or-more-direct-measurements-cylinder">
+<h3>Calculation from Two or More Direct Measurements (Cylinder)<a class="headerlink" href="#calculation-from-two-or-more-direct-measurements-cylinder" title="Permalink to this heading">#</a></h3>
+<p>Consider the volume <span class="math notranslate nohighlight">\(V\)</span> of a right, circular cylinder as calculated from its diameter <span class="math notranslate nohighlight">\(D\)</span> and length <span class="math notranslate nohighlight">\(L\)</span>. For convenience, let <span class="math notranslate nohighlight">\(D\)</span> be measured as <span class="math notranslate nohighlight">\(2.00\,\text{cm}\)</span> and <span class="math notranslate nohighlight">\(L\)</span> as <span class="math notranslate nohighlight">\(5.00\,\text{cm}\)</span>. Then,</p>
+<div class="math notranslate nohighlight">
+\[V = \frac{1}{4} \pi L D^2 = 15.71\,\text{cm}^3.\]</div>
+<p>If <span class="math notranslate nohighlight">\(D\)</span> has an error of <span class="math notranslate nohighlight">\(+0.01\,\text{cm}\)</span> and <span class="math notranslate nohighlight">\(L\)</span> an error of <span class="math notranslate nohighlight">\(-0.02\,\text{cm}\)</span>, what is the error <span class="math notranslate nohighlight">\(\Delta V\)</span> in <span class="math notranslate nohighlight">\(V\)</span> and what is the corrected value of <span class="math notranslate nohighlight">\(V\)</span>?</p>
+<section id="id2">
+<h4>1. Direct, brute-force method<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h4>
+<p>To obtain <span class="math notranslate nohighlight">\(V_{\text{corrected}}\)</span></p>
+<ul class="simple">
+<li><p>Subtract <span class="math notranslate nohighlight">\(0.01\,\text{cm}\)</span> from <span class="math notranslate nohighlight">\(D = 2.00\,\text{cm}\)</span></p></li>
+<li><p>Add <span class="math notranslate nohighlight">\(0.02\,\text{cm}\)</span> to <span class="math notranslate nohighlight">\(L = 5.00\,\text{cm}\)</span></p></li>
+<li><p>Recompute <span class="math notranslate nohighlight">\(V_{\mbox{corrected}}\)</span> as <span class="math notranslate nohighlight">\(15.61\,\text{cm}^3\)</span>, whereby <span class="math notranslate nohighlight">\(\Delta V\)</span> must be <span class="math notranslate nohighlight">\(+0.01\,\text{cm}^3\)</span>.</p></li>
+</ul>
+</section>
+<section id="id3">
+<h4>2. Method based on calculus<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h4>
+<p>Find the partial derivatives of <span class="math notranslate nohighlight">\(V\)</span></p>
+<div class="math notranslate nohighlight">
+\[\frac{\partial V}{\partial L} =\frac{1}{4} \pi D^2 \hspace{2 cm} \frac{\partial V}{\partial d} =\frac{1}{2} \pi D L\]</div>
+<div class="math notranslate nohighlight">
+\[{\rm d} V = \frac{\partial V}{\partial L} {\rm d} L + \frac{\partial V}{\partial D} {\rm d} D\]</div>
+<p>so that</p>
+<div class="math notranslate nohighlight">
+\[\Delta V \approx \frac{\partial V}{\partial L} \Delta L + \frac{\partial V}{\partial D} \Delta D = \frac{\pi}{4} D^2 \Delta L + \frac{\pi}{2} D L \Delta D.\]</div>
+<p>Now dividing through by <span class="math notranslate nohighlight">\(V = \frac{1}{4}\pi , D^2 , L\)</span></p>
+<div class="math notranslate nohighlight">
+\[\frac{\Delta V}{V} \approx \frac{\Delta L}{L} + \frac{2 \Delta D}{D}.\]</div>
+<p>This shows how fractional errors in each measured quantity contribute to the total error in the calculated result; i.e. the fractional (or percent) systematic error in <span class="math notranslate nohighlight">\(V\)</span> is very nearly equal to the fractional systematic error in <span class="math notranslate nohighlight">\(L\)</span> plus twice the fractional error in <span class="math notranslate nohighlight">\(D\)</span>. In our case,</p>
+<div class="math notranslate nohighlight">
+\[\frac{\Delta L}{L} = \frac{-0.02}{5.00} = -0.4 \%\]</div>
+<p>and</p>
+<div class="math notranslate nohighlight">
+\[\frac{2\Delta D}{D} = \frac{+0.02}{2.00} = +1.0 \%\]</div>
+<p>so that</p>
+<div class="math notranslate nohighlight">
+\[\frac{\Delta V}{V} \approx +0.6 \%.\]</div>
+<p>Thus <span class="math notranslate nohighlight">\(\Delta V = +0.09\,\text{cm}^3\)</span>, i.e. the systematic error, is <span class="math notranslate nohighlight">\(+0.09\,\text{cm}^3\)</span>; the correction is <span class="math notranslate nohighlight">\(-0.09\,\text{cm}^3\)</span> and <span class="math notranslate nohighlight">\(V_{\text{corrected}} = +15.62\,\text{cm}^3\)</span>.</p>
+</section>
 </section>
 </section>
 </section>
@@ -696,11 +828,11 @@ V = \frac{1}{4} \pi L D^2,
       </div>
     </a>
     <a class="right-next"
-       href="CapstoneNotes.html"
+       href="GraphicalRepresentation.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Capstone Tips &amp; Tools</p>
+        <p class="prev-next-title">Graphical Representation of Experimental Data</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -723,27 +855,44 @@ V = \frac{1}{4} \pi L D^2,
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#significant-figures">Significant Figures</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rules-for-significant-figures">Rules for Significant Figures</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-addition-multiplication">Examples — Addition &amp; Multiplication</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#addition">Addition</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#multiplication">Multiplication</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-analysis-procedure">Error Analysis Procedure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-errors">Types of Errors</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-density-of-a-block">Example: Density of a Block</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-errors">Types of Errors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-propagation-of-measurement-uncertainties">Error Propagation of Measurement Uncertainties</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-error-propagation-density-of-a-block">Example: Error Propagation — Density of a Block</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#random-errors">Random Errors</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-and-standard-deviation">Mean and Standard Deviation</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-standard-deviation-standard">Mean, Standard Deviation, Standard</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-average-pm-standard-error">Example of Average <span class="math notranslate nohighlight">\(\pm\)</span> Standard Error</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#estimation-through-variation-or-instrumentation">Estimation through Variation or Instrumentation</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#systematic-errors">Systematic Errors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#systematic-errors">Systematic Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-systematic-errors">Examples of Systematic Errors</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#difference-between-experimental-and-expected-values">Difference Between Experimental and Expected Values</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Example</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-difference">Example of % Difference</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#propagation-of-errors">Propagation of Errors</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#single-direct-measurement">Single Direct Measurement</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#two-or-more-direct-measurements">Two or More Direct Measurements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#propagation-of-systematic-errors-through-1-brute-force-2-calculus">Propagation of Systematic Errors through 1. Brute Force &amp; 2. Calculus</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-a-single-direct-measurement-sphere">Calculation from a Single, Direct Measurement (Sphere)</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-brute-force-method">1. Direct, brute-force method</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#method-based-on-calculus">2. Method based on calculus</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-two-or-more-direct-measurements-cylinder">Calculation from Two or More Direct Measurements (Cylinder)</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">1. Direct, brute-force method</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">2. Method based on calculus</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

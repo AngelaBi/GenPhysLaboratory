@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Capstone Tips &amp; Tools &#8212; General Physcis Laboratory</title>
+    <title>Graphical Representation of Experimental Data &#8212; General Physcis Laboratory</title>
   
   
   
@@ -59,11 +59,13 @@
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'Intro/CapstoneNotes';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Intro/GraphicalRepresentation';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Vernier Calipers" href="VernierCaliper.html" />
-    <link rel="prev" title="Graphical Representation of Experimental Data" href="GraphicalRepresentation.html" />
+    <link rel="next" title="Capstone Tips &amp; Tools" href="CapstoneNotes.html" />
+    <link rel="prev" title="Error Analysis Review" href="ErrorAnalysis.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -178,8 +180,8 @@
 <li class="toctree-l1"><a class="reference internal" href="IntroLab.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DataAcquisition.html">Data Acquisition &amp; Analysis in Excel &amp; Capstone</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ErrorAnalysis.html">Error Analysis Review</a></li>
-<li class="toctree-l1"><a class="reference internal" href="GraphicalRepresentation.html">Graphical Representation of Experimental Data</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Capstone Tips &amp; Tools</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Graphical Representation of Experimental Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CapstoneNotes.html">Capstone Tips &amp; Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="VernierCaliper.html">Vernier Calipers</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
@@ -287,7 +289,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FIntro/CapstoneNotes.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FIntro/GraphicalRepresentation.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -317,7 +319,7 @@
       
       
       
-      <li><a href="../_sources/Intro/CapstoneNotes.md" target="_blank"
+      <li><a href="../_sources/Intro/GraphicalRepresentation.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -393,7 +395,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Capstone Tips & Tools</h1>
+    <h1>Graphical Representation of Experimental Data</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -403,11 +405,8 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sensor-precision-notes">Sensor Precision &amp; Notes</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#recording-data-no-need-to-delete">Recording Data (No need to delete)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-toolbar-tools">Plot Toolbar Tools</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#curve-fitting-procedure">Curve Fitting Procedure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#replay-display-previous-data-run">Replay/display Previous Data Run</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#independent-and-dependent-variables">Independent and Dependent Variables</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-produce-graphs">How to Produce Graphs</a></li>
 </ul>
             </nav>
         </div>
@@ -419,46 +418,57 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="capstone-tips-tools">
-<h1>Capstone Tips &amp; Tools<a class="headerlink" href="#capstone-tips-tools" title="Permalink to this heading">#</a></h1>
-<section id="sensor-precision-notes">
-<h2>Sensor Precision &amp; Notes<a class="headerlink" href="#sensor-precision-notes" title="Permalink to this heading">#</a></h2>
+  <section class="tex2jax_ignore mathjax_ignore" id="graphical-representation-of-experimental-data">
+<span id="graphical-representation-overallsection"></span><h1>Graphical Representation of Experimental Data<a class="headerlink" href="#graphical-representation-of-experimental-data" title="Permalink to this heading">#</a></h1>
+<p>From an examination of the tabulated values of a number of measurements of related quantities, it is often difficult to grasp the relationships existing between the numbers. A method widely used to discover such relationships is the graphical method, which gives a pictorial view of the results and makes it possible to interpret the data by a quick glance.</p>
+<hr class="docutils" />
+<section id="independent-and-dependent-variables">
+<h2>Independent and Dependent Variables<a class="headerlink" href="#independent-and-dependent-variables" title="Permalink to this heading">#</a></h2>
+<p>In any experimental study of cause and effect the aim is to vary just one condition at a time (the cause) and to observe the corresponding values of another quantity (the effect), which is suspected of being related to the first. The existing relationship is most easily interpreted from the graph if the first of these quantities, the independent variable, is plotted on the abscissa scale (<span class="math notranslate nohighlight">\(x\)</span>-axis), and the dependent variable is plotted on the ordinate scale (<span class="math notranslate nohighlight">\(y\)</span>-axis). For example,</p>
+<div class="math notranslate nohighlight">
+\[y = f(x)\]</div>
+<p>means that for each value <span class="math notranslate nohighlight">\(x\)</span>, the independent variable, there is a corresponding value of <span class="math notranslate nohighlight">\(y\)</span>, or, <span class="math notranslate nohighlight">\(y\)</span> is a function of <span class="math notranslate nohighlight">\(x\)</span>.</p>
+<p>Graphs should have the following features:</p>
 <ul class="simple">
-<li><p>Time measured by PASCO photogate — stated precision of 0.0001 seconds.</p></li>
-<li><p>Force measured by PASCO High-Resolution Force Sensor — stated precision of 0.002 N.</p></li>
+<li><p>Axes tick marks and axis labels indicating the numerical scale of the quantity,</p></li>
+<li><p>Axes titles with the name of the quantity and the units,</p></li>
+<li><p>A descriptive graph title,</p></li>
+<li><p>Points should not be joined by lines and there is no need to label them with the actual values, and</p></li>
+<li><p>If possible, the full scale should be visible and axes should intersect at <span class="math notranslate nohighlight">\((0,0)\)</span>.</p></li>
 </ul>
-</section>
-<section id="recording-data-no-need-to-delete">
-<h2>Recording Data (No need to delete)<a class="headerlink" href="#recording-data-no-need-to-delete" title="Permalink to this heading">#</a></h2>
-<div class="tip admonition">
-<p class="admonition-title">Recording/Deleting Data in Capstone</p>
-<p><em>NEVER</em> need to click the Delete Last Run button in <strong>Capstone</strong>. <img alt="dontDeleteCapstone" src="../_images/Figure10_v2025-01.png" /> <strong>Capstone</strong> will just hold on to that data as a past trial that you could go back and look at as needed. When you press Record, <strong>Capstone</strong> will just create a new <em>Run</em> of data to keep track of.</p>
-</div>
-</section>
-<section id="plot-toolbar-tools">
-<h2>Plot Toolbar Tools<a class="headerlink" href="#plot-toolbar-tools" title="Permalink to this heading">#</a></h2>
-<figure class="align-center" id="capstoneexamplefig01">
-<a class="reference internal image-reference" href="../_images/Figure06_v2025-01.png"><img alt="../_images/Figure06_v2025-01.png" src="../_images/Figure06_v2025-01.png" style="width: 100%;" /></a>
+<p>An example of how a graph should look is shown in <a class="reference internal" href="#graphrep-fig01"><span class="std std-numref">Fig. 5</span></a>.</p>
+<figure class="align-center" id="graphrep-fig01">
+<a class="reference internal image-reference" href="../_images/graph.png"><img alt="../_images/graph.png" src="../_images/graph.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Autoscale axes tool.</span><a class="headerlink" href="#capstoneexamplefig01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Example of a graph for the pendulum experiment showing the length as a function of the period squared.</span><a class="headerlink" href="#graphrep-fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
-<section id="curve-fitting-procedure">
-<h2>Curve Fitting Procedure<a class="headerlink" href="#curve-fitting-procedure" title="Permalink to this heading">#</a></h2>
-<figure class="align-center" id="capstoneexamplefig02">
-<a class="reference internal image-reference" href="../_images/Figure05_v2025-01.png"><img alt="../_images/Figure05_v2025-01.png" src="../_images/Figure05_v2025-01.png" style="width: 100%;" /></a>
+<section id="how-to-produce-graphs">
+<h2>How to Produce Graphs<a class="headerlink" href="#how-to-produce-graphs" title="Permalink to this heading">#</a></h2>
+<p>There are many ways to produce graphs and just as many computer programs that will aid in the representation of data. This section will give simple instructions on how to make data graphs, using Excel.</p>
+<ul class="simple">
+<li><p>Using a spreadsheet, it’s easiest if you create a separate data table for each graph you want to make. By default Excel expects the first column of the table to be the values for the <span class="math notranslate nohighlight">\(x\)</span>-axis and the second column the values for the <span class="math notranslate nohighlight">\(y\)</span>-axis.</p></li>
+<li><p>Highlight <em>both</em> columns and select <strong>Charts</strong> from the toolbar menu. Select the <strong>Scatter</strong> type and Excel will automatically produce the graph in your spreadsheet.</p></li>
+<li><p>You need to add labels and units to both axes by selecting the option <strong>Axis Titles</strong> in Excel and then edit the title by clicking on it.</p></li>
+<li><p>Very often you want to add a line-of-best-fit to your Excel graph. To do so follow the steps below:</p>
+<ol class="arabic simple">
+<li><p>In your graph, right-click (in Windows) or CTRL-click (on Mac) on one of the data points. This will open a pop-up menu. In this menu select <strong>Add Trendline</strong>. This will open a window with several items related to best-fit-lines and curves.</p></li>
+<li><p>Select the type of line you would like to add from the <strong>Type</strong> menu. If you want a straight line select <strong>Linear</strong>, for a polynomial (e.g. a parabola) select <strong>Polynomial</strong> and then the order will give the highest exponent (for a parabola the order would need to be a <strong>2</strong>).</p></li>
+<li><p>In the <strong>Options</strong> menu you can select two important options for the trend line:</p>
+<ul>
+<li><p>The <strong>Set Intercept = <em>value</em></strong> option will force the trendline to go through the point <span class="math notranslate nohighlight">\((0,value)\)</span>. This is useful if you know that your curve is supposed to go through the origin. In this case set <span class="math notranslate nohighlight">\(value = 0\)</span> (the default value in Excel) and this forces the best-of-fit-line to go through the origin.</p></li>
+<li><p>The option <strong>Display Equation on Chart</strong> will print the equation of the trendline onto the chart. This is useful if you want to determine a value from your line-of-best-fit (e.g. the slope). You will have to select the equation and set the format to display the correct number of significant digits. Alternatively, you can use the Excel functions <code class="docutils literal notranslate"><span class="pre">SLOPE()</span></code> and <code class="docutils literal notranslate"><span class="pre">INTERCEPT()</span></code>. For more sophisticated fitting, the <code class="docutils literal notranslate"><span class="pre">LINEST()</span></code> function may be of use as well (see <a class="reference internal" href="DataAcquisition.html#data-acquisition-plotting-in-excel"><span class="std std-ref">Plotting in Excel</span></a> to review this function).</p></li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<p><a class="reference internal" href="#graphrep-fig02"><span class="std std-numref">Fig. 6</span></a> shows again the length as a function of the period squared for a pendulum with a linear trendline. The line is the best fit to the points and the equation shows the resulting slope and intercept. Theoretically the intercept is expected to be zero, and the slope is excepted to be <span class="math notranslate nohighlight">\({4\pi^2}/{g}=0.248\,\text{s}^2/\text{m}\)</span>. In Excel you can set the equation properties to force the intercept to zero. Often you need to reformat the displayed equation to show enough significant figures.</p>
+<figure class="align-center" id="graphrep-fig02">
+<a class="reference internal image-reference" href="../_images/graph2.png"><img alt="../_images/graph2.png" src="../_images/graph2.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Process for applying fits to plotted data, updating the y-intercept and other curve-fit terms, and updating sig. figs.</span><a class="headerlink" href="#capstoneexamplefig02" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-</section>
-<section id="replay-display-previous-data-run">
-<h2>Replay/display Previous Data Run<a class="headerlink" href="#replay-display-previous-data-run" title="Permalink to this heading">#</a></h2>
-<figure class="align-center" id="capstoneexamplefig03">
-<a class="reference internal image-reference" href="../_images/Figure09_v2025-01.png"><img alt="../_images/Figure09_v2025-01.png" src="../_images/Figure09_v2025-01.png" style="width: 100%;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Process for returning to previous run in <strong>Capstone.</strong></span><a class="headerlink" href="#capstoneexamplefig03" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Example of a graph with the trendline and the corresponding equation.</span><a class="headerlink" href="#graphrep-fig02" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -495,20 +505,20 @@
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="GraphicalRepresentation.html"
+       href="ErrorAnalysis.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Graphical Representation of Experimental Data</p>
+        <p class="prev-next-title">Error Analysis Review</p>
       </div>
     </a>
     <a class="right-next"
-       href="VernierCaliper.html"
+       href="CapstoneNotes.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Vernier Calipers</p>
+        <p class="prev-next-title">Capstone Tips &amp; Tools</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -529,11 +539,8 @@
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sensor-precision-notes">Sensor Precision &amp; Notes</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#recording-data-no-need-to-delete">Recording Data (No need to delete)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-toolbar-tools">Plot Toolbar Tools</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#curve-fitting-procedure">Curve Fitting Procedure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#replay-display-previous-data-run">Replay/display Previous Data Run</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#independent-and-dependent-variables">Independent and Dependent Variables</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-produce-graphs">How to Produce Graphs</a></li>
 </ul>
   </nav></div>
 
