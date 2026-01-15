@@ -107,14 +107,14 @@ Depicted across {numref}`E1Fig_00` -- {numref}`E1Fig_02`. All equipment as liste
 - Telescope with crosshair & centimeter-scale ruler (a.k.a. scale) on vertical pole
 - High voltage DC power supply, 0 -- 500 V
 - Fluke multimeter -- set to read DC voltage
-- Small masses of 10 -- 500 mg, plastic tweezers
+- Small masses of 10, 20, 20, 100, 500 mg with plastic tweezers
 - Parallel-plate capacitor apparatus:
   - Bottom plate held in static position on lower plate adjustment towers
   - Balance beam balancing on thin, conductive, knife edges with:
       - Top plate with a ``$+$" for where to place applied masses. Can swing up or down when changing amount of applied mass or voltage. Set up to be parallel (at equilibrium) to bottom plate when holding 50~\milli\gram
       - Mirror to view the scale (ruler) via telescope to determine angle and distance $d$ between plates
       - Beam lift knobs to reset top plate position
-      - High impedance $1\,\text{M}\Omega$ resistor to limit current (contained in long gray box under base, shouldn't need to touch)
+      - High impedance $1\,\text{M}\Omega$ resistor to limit current (contained in long gray box, shouldn't need to touch)
   - Leveling screws to level whole apparatus to the table
   - Metal connections to the power supply
 - x5 Banana plug wires (12 AWG: x2 3', x1 1'; 18 AWG: x2 2'), connecting power supply to voltmeter & parallel-plate apparatus
@@ -143,13 +143,15 @@ The apparatus has been carefully adjusted before your lab and should not require
 
 ## Experimental Procedure
 
+
+
+### Procedure Preview
+
 ```{danger}
 **⚠️⚠️⚠️⚠️ DO NOT TOUCH THE METAL PLATES ⚠️⚠️⚠️⚠️**
+
+**⚠️⚠️⚠️⚠️ TURN OFF POWER WHEN CHANGING APPLIED MASSES ⚠️⚠️⚠️⚠️**
 ```
-
-
-### Overall goals and overview
-
  <!--- You will conduct :
    - Each Case with have either **10** or **15 trials**:
       - Each student will complete a total of 5 trials each, with:
@@ -162,24 +164,32 @@ The apparatus has been carefully adjusted before your lab and should not require
 ```{admonition} OVERVIEW
 :class: note
    - Experimentally investigate the relationship between electric force and applied voltage to determine the electric constant $\varepsilon_0$.
-  - Conduct three rounds of six trials each (total 18 trials) of applying less mass (less gravitational force) and more voltage to produce an electric field (and therefore more electric force). Do the rounds sequentially rather than all of a single applied mass in a row to ensure you catch and correct any significant errors early (e.g. if the apparatus is bumped out of alignment) rather than having to do all 18 trials again. The order of the trials for applied masses would be 50, 40, 30, 20, 10, 0, 50, 40, 30, 20, 10, 0, 50, 40, 30, 20, 10, 0 mg.
-  - In this experiment, first determine the separation distance, $d$. Then replace the equilibrium mass with a series of smaller masses and apply the necessary voltage $V$ applied across the plates so they return to parallel where the separation distance returns to $d$. Under this condition, the electric force required to maintain the separation $d$ will be the difference of the gravitational force on the 50 mg mass and on the smaller mass. Then determine $\varepsilon_0$ through both averaging of all your trials and plotting of all your data (i.e. electric force vs. voltage between the plates). Comparing then your results from both analysis methods to the accepted $\varepsilon_{0\text{-accepted}}$.
+  - Conduct three rounds of six trials each (total 18 trials) of applying less mass (less gravitational force) and more voltage to produce an electric field (and therefore more electric force) to account for the loss of gravitational force. 
+  - In this experiment, you will:
+    - Determine the separation distance between the parallel plates, $d$
+    - Replace equilibrium mass with a series of smaller masses
+    - Apply the necessary voltage $V$ to the plates such that they return to parallel and $d$
+      - Under this condition, the electric force required to maintain the separation $d$ will be the difference of the gravitational force of the equilibrium and smaller applied mass.
+    - Determine $\varepsilon_0$ for each trial (ignroing equilibrium mass)
+    - Determine average $\varepsilon_0$ of all your trials (ignroing equilibrium mass)
+    - Determine $\varepsilon_0$ from plotting of all your data (including equilibrium mass) as $F_E\,\text{vs.}\,V^2$
+    - Comparing then your results from both analysis methods to the accepted $\varepsilon_{0\text{-accepted}}$.
 ```
 
-<!--- ```{admonition} Additional Tips
+```{admonition} Additional Tips
 :class: tip
-- 
+- Do the rounds sequentially rather than all of a single applied mass in a row to ensure you catch and correct any significant errors early (e.g. if the apparatus is bumped out of alignment) rather than having to do all 18 trials again. 
+- The order of the trials for applied masses wwill be 50, 40, 30, 20, 10, 0, 50, 40, 30, 20, 10, 0, 50, 40, 30, 20, 10, 0 mg. Reminder, 50 mg is equilibrium mass when the power supply if off (i.e. applied voltage is zero).
 ```
---->
 
-```{admonition} Combining results from today's lab with future lab for **speed of light** $c$
+```{admonition} Combining results from today's lab with future $\mu_0$ lab for **speed of light** $c$
 :class: note
 You will experimentally determine $\varepsilon_0$ today; a few weeks from now in Lab: {ref}`Magnetic Force & the Determination of μ₀ <magnetic-force-mu0-overall>`, you will determine its magnetic equivalent, $\mu_0$. Using both in that later lab, we will be able to determine the speed of light (i.e. magnitude of the velocity of propagation of an electromagnetic wave). You will want to make sure to take note of your value $\varepsilon_0$ for future use.
 ``` 
 
 ### Preliminary Setup
 
-All measurements and given lengths you will use can be seen in {numref}`E1Fig_01`.
+All measurements and given lengths you will use are represented in {numref}`E1Fig_01`.
 
 ```{figure} Eps0Figures/fig_01_Apparatus_v03.png
 ---
@@ -199,16 +209,16 @@ Bottom) Example of mirror-to-scale distance.
     - $g = 9.803 \,\text{m/s}^2$: Accepted value of accel. due to garvity for Fairfield University
     - $\varepsilon_{0\text{,actual}} = 8.8542\times 10^{-12}\,\text{C}^2 \, \text{N}^{-1} \text{m}^{-2}$: Accepted value of electric constant
     <!---   - $a \pm \delta a=0.279\pm0.001\,\meter$: Length of the frame (see Fig.~\ref{E1Fig:01}) --->
-    - Length of the frame $a=0.279\,\text{m}$ (see {numref}`E1Fig_01`)
-    - Mirror-to-scale distance $b \pm \delta b = b \pm 0.003\meter$, has already been measured and is posted on the top of the protective enclosure (ex. in Fig.~\ref{E1Fig:01} bottom)
-    - $b$: Mirror-to-scale distance has already been measured and is posted on the top of the protective enclosure ({numref}`E1Fig_01`)
-    - Plate area $A \pm \delta A =0.0161\pm0.0002\,\meter^2$ (see Fig.~\ref{E1Fig:01})
-    - Plate area $A=0.0161\,\meter^2$ (see Fig.~\ref{E1Fig:01})
-    - Equilibrium mass $m_0 = 50$ mg (plates are parallel when this amount of mass applied).
-    - Equilibrium force $F_0 = m_0 g$
-    - Scale reading at equilibrium $S_{0}$
-    - Scale reading when plates are in contact $S_{1}$
-    - Separation distance $d$ between the plates when the top plate is parallel to the bottom plate when a 50 mg mass is placed on the top plate (see examples in {numref}`E1Fig_01` top-right and {numref}`E1Fig_02` middle)
+    - $a=0.279\,\text{m}$: Length of the frame from pivot to end of plate (see {numref}`E1Fig_01`)
+    <!---   - $b \pm \delta b = b \pm 0.003\meter$: Mirror-to-scale distance, has already been measured and is posted on the top of the protective enclosure ({numref}`E1Fig_01` bottom) --->
+    - $b$: Mirror-to-scale distance, has already been measured and is posted on the top of the protective enclosure ({numref}`E1Fig_01` bottom)
+    - $A \pm \delta A =0.0161\pm0.0002\,\meter^2$: Plate area ({numref}`E1Fig_01`)
+    - $A=0.0161\,\meter^2$: Plate area ({numref}`E1Fig_01`)
+    - $m_0 = 50\,\text{mg}$: Equilibrium mass (plates are parallel when this amount of mass applied).
+    - $F_0 = m_0 g$: Equilibrium force
+    - $S_{0}$: Scale reading at equilibrium (m)
+    - $S_{1}$: Scale reading when plates are in contact (m)
+    - $d$: Separation distance between the plates when the top plate is **parallel** to the bottom plate when equilibrium mass ($50\,\text{mg}$) is placed on the top plate (see examples in {numref}`E1Fig_01` top-right and {numref}`E1Fig_02` middle)
 
 2. **Do not turn on the power supply until told to do so in the steps below.**
 3. Note the center marking "+" on the top of the movable plate where masses must be placed using the tweezers (see {numref}`E1Fig_03`).
@@ -376,3 +386,16 @@ somewhere in here maximize and minimize $\varepsilon_0$ due to the uncertainty $
   <!---- Does your linear (Y-int calculated normally) or linear-through-origin (Y-int = 0) plot more accurately represent the physical relationship between electric force and potential difference? --->
   - What is the physical relationship between $F_E$ and $V$?
   - Explain physically why you would expect the linear fit to go through the **origin** of the $F_E$ vs. $V^2$ plot? 
+
+
+
+
+  ## The Whiteboard
+<!---
+```{figure} Eps0Figures/SimplePendulum_2024_Fall_01.jpg
+:name: pen1
+:width: 80%
+:align: center
+
+```
+--->

@@ -115,7 +115,7 @@ Experimental measurements are characterized by **precision** and **accuracy**.
 The distinction between precision and accuracy.
 ```
 
-(error-analysis-ErrorPropagation)=
+(error-analysis-ErrorPropMeasUncert)=
 ## Error Propagation of Measurement Uncertainties
 
 Error analysis can help you recognize if your results are consistent with a *known* or *expected* value. Each measurement has some combination of systematic and random errors. 
