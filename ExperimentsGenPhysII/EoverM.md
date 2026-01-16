@@ -193,3 +193,22 @@ and $B$ has units of Tesla.
   - Were your systematic errors significant; how could this be improved if you were to re-run this experiment?
 - Reflect on this week's lab; what did you learn?
 
+
+
+## The Whiteboard
+
+```{figure} EoverMFigures/EoverM_HHCoils_2025_Summer_01_v02.jpg
+:name: EoverM_whiteboard_01
+:width: 100%
+:align: center
+
+Overview.
+```
+
+```{figure} EoverMFigures/EoverM_HHCoils_2025_Summer_02_v01.jpg
+:name: EoverM_whiteboard_02
+:width: 40%
+:align: center
+
+Multimeter settings.
+```

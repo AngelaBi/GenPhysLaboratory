@@ -126,3 +126,15 @@ Electrode configurations. The stars suggest starting positions for E-field lines
   - If your equipotentials were inaccurate, what would happen to the E-field lines?
   - How could you improve your random errors?
 - Reflect on this week's lab; what did you learn?
+
+
+
+## The Whiteboard
+
+```{figure} MappingPotentialFigures/map_2025_Summer_01_v02.jpg
+:name: mapping_whiteboard_01
+:width: 100%
+:align: center
+
+Overview.
+```

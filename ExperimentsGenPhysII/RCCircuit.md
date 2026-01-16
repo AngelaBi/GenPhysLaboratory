@@ -196,7 +196,12 @@ The general setup can be seen in {numref}`fig-rc-setup`, with the voltmeter atta
 
 1. You have two resistors and two capacitors. Create a common data table and measure the value of resistors $R_1$ and $R_2$ with the Fluke multimeter set to measure ohms (Ω, note the units on the multimeter). [It doesn't matter which resistor is which number, just be consistent] Also in the common data table, record the actual capacitance of $C_1$, $C_2$, and the parallel combination of $(C_1+C_2)$ with the Fluke 175 multimeter when set to measure farads (the yellow alternate function of the ohmmeter, looks like two letter T's that are rotated toward each other).
 
-2. Use the capacitors $C_1$, $C_2$, and $(C_1+C_2)$ with each individual resistor. Perform the following steps for all six pairs of resistor and capacitor. [Paired like: $R_1+C_1$, $R_2+C_1$, $R_1+C_2$, $R_2+C_2$, $R_1+(C_1+C_2)$, $R_2+(C_1+C_2)$]
+2. Use the capacitors with individual resistors. Perform the following steps for the following pairs of resistor and capacitor cases:
+    - $R_1+C_1$
+    - $R_2+C_1$
+    - $R_1+C_2$
+    - $R_1+(C_1+C_2)$ in parallel
+    - $R_1+(C_1+C_2)$ in series
 
 3. **Zero the voltage sensor** (this is before any resistors or capacitors are in the circuit). Connect the voltmeter to the Capstone program via the PASCO 850 Universal Interface. Set the sample rate to 2500 samples per second (should be set by default, double check though). Zero the voltage sensor in Capstone by first opening the single-pole-double-throw (SPDT) switch to ensure no current is flowing; then in the bottom recording bar, with the voltage sensor selected, click the zero button (zero with two yellow arrows pointing towards each other).
 
@@ -345,3 +350,31 @@ Modular electronic circuit with two capacitors.
 %\item The capacitor used in this experiment has a relatively high value of capacitance. What would happen if you replaced it with a $1000\,\pico\farad$ capacitor?
 %\end{enumerate}
 % end file E4Decay.tex
+
+
+
+## The Whiteboard
+
+```{figure} RCCircuitFigures/RCCircuits_2025_Summer_01_v02.jpg
+:name: RCCircuits_whiteboard_01
+:width: 100%
+:align: center
+
+Overview 1st part.
+```
+
+```{figure} RCCircuitFigures/RCCircuits_2025_Summer_02_v02.jpg
+:name: RCCircuits_whiteboard_02
+:width: 80%
+:align: center
+
+Overview 2nd part.
+```
+
+```{figure} RCCircuitFigures/RCCircuits_2025_Summer_03_v02.jpg
+:name: RCCircuits_whiteboard_03
+:width: 80%
+:align: center
+
+Multimeter settings; Capstone significant figures notes.
+```

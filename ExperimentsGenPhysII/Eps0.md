@@ -390,12 +390,20 @@ somewhere in here maximize and minimize $\varepsilon_0$ due to the uncertainty $
 
 
 
-  ## The Whiteboard
-<!---
-```{figure} Eps0Figures/SimplePendulum_2024_Fall_01.jpg
-:name: pen1
-:width: 80%
+## The Whiteboard
+
+```{figure} Eps0Figures/eps0_2025_Spring_01_v01.jpg
+:name: eps0_whiteboard_01
+:width: 100%
 :align: center
 
+Overview. `LINEST()` function.
 ```
---->
+
+```{figure} Eps0Figures/eps0_2025_Spring_02.jpg
+:name: eps0_whiteboard_02
+:width: 100%
+:align: center
+
+Examples of balancing the plates --- 1) equilibrium (50 mg); 2) less applied mass, not parallel; 3) voltage applied, electric field generated,  pulls plates back together to parallel.
+```

@@ -175,3 +175,32 @@ and compare it with the expected value using {eq}`eq-equivalent-resistance` and 
 %\item Why are you connecting a voltmeter in parallel and the ammeter in series? How can they affect your measurement?
 %\item Why does a voltmeter have high resistance and an ammeter have low resistance?
 %\end{enumerate}
+
+
+
+
+## The Whiteboard
+
+```{figure} ResistanceFigures/DCResistors_2025_Summer_01_v01.jpg
+:name: DCResistors_whiteboard_01
+:width: 100%
+:align: center
+
+Overview. `LINEST()` function.
+```
+
+```{figure} ResistanceFigures/DCResistors_2025_Spring_02_v02.jpg
+:name: DCResistors_whiteboard_02
+:width: 100%
+:align: center
+
+Sensor setup notes.
+```
+
+```{figure} ResistanceFigures/DCResistors_2025_Spring_03_v01.jpg
+:name: DCResistors_whiteboard_03
+:width: 100%
+:align: center
+
+WARNING --- MUST HAVE RESISTOR IN SERIES WITH AMMETER TO AVOID DAMAGE. Data taking notes; multimeter settings.
+```
