@@ -130,6 +130,8 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 
 ## Experimental Procedure
 
+### Procedure Preview
+
 ```{admonition} OVERVIEW
 :class: note
 - Experimentally determine initial exit velocity of the metal ball (i.e. projectile) with two different experiments.

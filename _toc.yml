@@ -45,5 +45,3 @@ parts:
         - file: ExperimentsGenPhysII/FaradayLaw
         - file: ExperimentsGenPhysII/Waves
         - file: ExperimentsGenPhysII/Optics
-
-  

@@ -186,3 +186,15 @@ where $D$ are your claimed 4 mm incremented deflection positions, $m$ is your ex
   - How could you improve your random errors?
   - Were your systematic errors significant; how could this be improved if you were to re-run this experiment?
 - Reflect on this week's lab; what did you learn?
+
+
+
+## The Whiteboard
+
+```{figure} ElectronDeflectionFigures/ElecAccel_2025_Spring_01_v02.jpg
+:name: ElectronDeflection_whiteboard_01
+:width: 100%
+:align: center
+
+Overview.
+```

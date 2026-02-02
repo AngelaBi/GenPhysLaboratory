@@ -117,3 +117,23 @@ In this experiment, one end of a horizontal cord is attached to the string vibra
   - Were your systematic errors significant; how could this be improved if you were to re-run this experiment?
 - Reflect on this week's lab; what did you learn?
 
+
+
+
+## The Whiteboard
+
+```{figure} WavesFigures/waves_2025_Spring_01_v02.jpg
+:name: waves_whiteboard_01
+:width: 100%
+:align: center
+
+Overview.
+```
+
+```{figure} WavesFigures/waves_2025_Spring_02_v01.jpg
+:name: waves_whiteboard_02
+:width: 100%
+:align: center
+
+`LINEST()` function.
+```

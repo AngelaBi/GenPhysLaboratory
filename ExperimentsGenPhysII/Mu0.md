@@ -225,3 +225,28 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
 
 
 
+## The Whiteboard
+
+```{figure} Mu0Figures/mu0_2025_Summer_01_v01.jpg
+:name: mu0_whiteboard_01
+:width: 100%
+:align: center
+
+Overview. `LINEST()` function.
+```
+
+```{figure} Mu0Figures/mu0_2025_Spring_02_v02.jpg
+:name: mu0_whiteboard_02
+:width: 80%
+:align: center
+
+Separation distance equation; multimeter settings.
+```
+
+```{figure} Mu0Figures/mu0_2025_Summer_03_v02.jpg
+:name: mu0_whiteboard_03
+:width: 100%
+:align: center
+
+Plot notes; Speed of Light calculations.
+```

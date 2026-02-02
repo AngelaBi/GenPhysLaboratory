@@ -31,6 +31,7 @@ Experimental Setup showing the rotating arm and the attached masses. The photoga
 
 ## Experimental Procedure
 
+### Procedure Preview
 
 ```{admonition} OVERVIEW
 :class: note
