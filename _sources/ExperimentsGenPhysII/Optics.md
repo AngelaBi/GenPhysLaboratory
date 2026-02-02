@@ -360,5 +360,13 @@ Magnification for all parts without any color stuff
 
 
 
+## The Whiteboard
 
+```{figure} OpticsFigures/optics_2025_Spring_01_v03.jpg
+:name: optics_whiteboard_01
+:width: 100%
+:align: center
+
+Overview.
+```
 

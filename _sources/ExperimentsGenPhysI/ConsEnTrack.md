@@ -115,6 +115,8 @@ U_s = mg \, \Delta s \frac{H}{D}
 
 ## Experimental Procedure
 
+### Procedure Preview
+
 ```{admonition} OVERVIEW
 :class: note
 - Experimentally determine potential and kinetic energies of a glider on a slightly tilted airtrack.

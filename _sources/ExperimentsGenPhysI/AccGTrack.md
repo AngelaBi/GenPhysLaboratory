@@ -87,6 +87,8 @@ Example of small and large spacers used to incline the air track. Remember to pu
 
 ## Experimental Procedure
 
+### Procedure Preview
+
 ```{admonition} OVERVIEW
 :class: note
 - Experimentally determine the acceleration due to gravity $g$ by using a slightly tilted airtrack.

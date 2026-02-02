@@ -115,7 +115,7 @@ Experimental measurements are characterized by **precision** and **accuracy**.
 The distinction between precision and accuracy.
 ```
 
-(error-analysis-ErrorPropagation)=
+(error-analysis-ErrorPropMeasUncert)=
 ## Error Propagation of Measurement Uncertainties
 
 Error analysis can help you recognize if your results are consistent with a *known* or *expected* value. Each measurement has some combination of systematic and random errors. 
@@ -175,7 +175,7 @@ Independent repeated measurements and use of their average in any calculation re
 
 
 
-### Mean, Standard Deviation, Standard
+### Mean, Standard Deviation, Standard Error
 
 The most well established method to quantify the spread of random errors in a measurement is to compute the **standard deviation**. Suppose you make $N$ measurements $x_1, x_2, \ldots, x_N$ of a certain quantity $x$. The average value is:
 

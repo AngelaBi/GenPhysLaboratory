@@ -239,3 +239,30 @@ This picture shows the resistive load attached to the coil wand. The cables lead
   - How could you improve your random errors?
   - Were your systematic errors significant; how could this be improved if you were to re-run this experiment?
 - Reflect on this week's lab; what did you learn?
+
+
+## The Whiteboard
+
+```{figure} FaradayLawFigures/Faraday_Summer_2025_01_v01.jpg
+:name: faraday_whiteboard_01
+:width: 100%
+:align: center
+
+Overview.
+```
+
+```{figure} FaradayLawFigures/Faraday_Spring_2025_02_v01.jpg
+:name: faraday_whiteboard_02
+:width: 40%
+:align: center
+
+Multimeter settings, changing significant figures in Capstone (must be done every new data run).
+```
+
+```{figure} FaradayLawFigures/Faraday_Spring_2025_03_v01.jpg
+:name: faraday_whiteboard_03
+:width: 100%
+:align: center
+
+Short notes on the three parts of the lab.
+```

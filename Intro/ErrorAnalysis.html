@@ -186,7 +186,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabI.html">General Physics Lab I</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabI.html">General Physics Lab I (Fall)</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/IntroLab.html">Introductory Lab: Domino Size &amp; Density</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/VectorTable.html">Force Table with 3 Vectors at Equilibrium</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/AccGTrack.html">Acceleration due to Gravity, <em>g</em>, with Glider on Tilted Air Track</a></li>
@@ -200,7 +200,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysI/Pendulum.html">Determination of Acceleration due to Gravity, <em>g</em>, with Simple Pendulum</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabII.html">General Physics Lab II</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../GeneralPhysicsLabII.html">General Physics Lab II (Spring)</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/Eps0.html">Electric Force &amp; the Determination of <span class="math notranslate nohighlight">\(\varepsilon_0\)</span></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/MappingPotential.html">Equipotential &amp; Electric Field Mapping</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../ExperimentsGenPhysII/ElectronDeflection.html">Acceleration &amp; Deflection of Electrons</a></li>
@@ -421,7 +421,7 @@
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#random-errors">Random Errors</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-standard-deviation-standard">Mean, Standard Deviation, Standard</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-standard-deviation-standard-error">Mean, Standard Deviation, Standard Error</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-average-pm-standard-error">Example of Average <span class="math notranslate nohighlight">\(\pm\)</span> Standard Error</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#estimation-through-variation-or-instrumentation">Estimation through Variation or Instrumentation</a></li>
 </ul>
@@ -441,8 +441,8 @@
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-two-or-more-direct-measurements-cylinder">Calculation from Two or More Direct Measurements (Cylinder)</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">1. Direct, brute-force method</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">2. Method based on calculus</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">1. Direct, brute-force method</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">2. Method based on calculus</a></li>
 </ul>
 </li>
 </ul>
@@ -531,7 +531,7 @@ A = 3.57\,\text{cm}^2.
 <li><p>The range or standard deviation of repeated measurements (see <a class="reference internal" href="#error-analysis-typeserrors"><span class="std std-ref">Types of Errors</span></a>).</p></li>
 </ul>
 </li>
-<li><p>Calculate the magnitude of the expected error in calculated quantities due to measurement errors (see <span class="xref std std-ref">error-analysis-ErrorPropagation</span>).</p></li>
+<li><p>Calculate the magnitude of the expected error in calculated quantities due to measurement errors (see <a class="reference internal" href="#error-analysis-errorpropagation"><span class="std std-ref">Propagation of Systematic Errors through 1. Brute Force &amp; 2. Calculus</span></a>).</p></li>
 <li><p>If the <em>difference</em> between <strong>your experimental results</strong> and the <strong>expected results/accepted values</strong> is much <em>larger</em> than the expected error, check for:</p>
 <ul>
 <li><p>Experimental procedure mistakes</p></li>
@@ -563,7 +563,7 @@ A = 3.57\,\text{cm}^2.
 </figure>
 </section>
 <section id="error-propagation-of-measurement-uncertainties">
-<span id="error-analysis-errorpropagation"></span><h2>Error Propagation of Measurement Uncertainties<a class="headerlink" href="#error-propagation-of-measurement-uncertainties" title="Permalink to this heading">#</a></h2>
+<span id="error-analysis-errorpropmeasuncert"></span><h2>Error Propagation of Measurement Uncertainties<a class="headerlink" href="#error-propagation-of-measurement-uncertainties" title="Permalink to this heading">#</a></h2>
 <p>Error analysis can help you recognize if your results are consistent with a <em>known</em> or <em>expected</em> value. Each measurement has some combination of systematic and random errors.</p>
 <ul class="simple">
 <li><p>Make your best estimate of the measurement uncertainty for <em>each measured value</em></p>
@@ -613,8 +613,8 @@ A = 3.57\,\text{cm}^2.
 <span id="error-analysis-randomerrors"></span><h2>Random Errors<a class="headerlink" href="#random-errors" title="Permalink to this heading">#</a></h2>
 <p>Random errors are inherent in nearly all measurements. They arise because of uncontrollable conditions affecting the observer, the measuring device, and the quantity to be measured. On the basis of probability, these errors are as likely to be positive as negative, and more likely to be small than large.</p>
 <p>Independent repeated measurements and use of their average in any calculation reduce their effect. This minimization is only achieved if the measurements are independent. A common mistake is biasing a new measurement to agree with the previous measurements. This mistake makes the measurements more precise, but less accurate as shown in <a class="reference internal" href="#erroranalysis-fig01"><span class="std std-numref">Fig. 4</span></a>. <strong>Taking truly independent measurements</strong> is the best way to reduce random error.</p>
-<section id="mean-standard-deviation-standard">
-<h3>Mean, Standard Deviation, Standard<a class="headerlink" href="#mean-standard-deviation-standard" title="Permalink to this heading">#</a></h3>
+<section id="mean-standard-deviation-standard-error">
+<h3>Mean, Standard Deviation, Standard Error<a class="headerlink" href="#mean-standard-deviation-standard-error" title="Permalink to this heading">#</a></h3>
 <p>The most well established method to quantify the spread of random errors in a measurement is to compute the <strong>standard deviation</strong>. Suppose you make <span class="math notranslate nohighlight">\(N\)</span> measurements <span class="math notranslate nohighlight">\(x_1, x_2, \ldots, x_N\)</span> of a certain quantity <span class="math notranslate nohighlight">\(x\)</span>. The average value is:</p>
 <div class="math notranslate nohighlight" id="equation-eq-errormeanx">
 <span class="eqno">(1)<a class="headerlink" href="#equation-eq-errormeanx" title="Permalink to this equation">#</a></span>\[\bar{x}=\frac{x_1 + x_2 + \ldots + x_N}{N}=\frac{1}{N}\sum_{i=1}^N x_{i},\]</div>
@@ -705,7 +705,7 @@ A = 3.57\,\text{cm}^2.
 </section>
 </section>
 <section id="propagation-of-systematic-errors-through-1-brute-force-2-calculus">
-<span id="id1"></span><h2>Propagation of Systematic Errors through 1. Brute Force &amp; 2. Calculus<a class="headerlink" href="#propagation-of-systematic-errors-through-1-brute-force-2-calculus" title="Permalink to this heading">#</a></h2>
+<span id="error-analysis-errorpropagation"></span><h2>Propagation of Systematic Errors through 1. Brute Force &amp; 2. Calculus<a class="headerlink" href="#propagation-of-systematic-errors-through-1-brute-force-2-calculus" title="Permalink to this heading">#</a></h2>
 <p>Through indirect measurement, the effect of systematic errors can be followed through the equations used. Two simple examples will be discussed.</p>
 <section id="calculation-from-a-single-direct-measurement-sphere">
 <h3>Calculation from a Single, Direct Measurement (Sphere)<a class="headerlink" href="#calculation-from-a-single-direct-measurement-sphere" title="Permalink to this heading">#</a></h3>
@@ -751,8 +751,8 @@ V = \frac{1}{6} \pi D^3
 <div class="math notranslate nohighlight">
 \[V = \frac{1}{4} \pi L D^2 = 15.71\,\text{cm}^3.\]</div>
 <p>If <span class="math notranslate nohighlight">\(D\)</span> has an error of <span class="math notranslate nohighlight">\(+0.01\,\text{cm}\)</span> and <span class="math notranslate nohighlight">\(L\)</span> an error of <span class="math notranslate nohighlight">\(-0.02\,\text{cm}\)</span>, what is the error <span class="math notranslate nohighlight">\(\Delta V\)</span> in <span class="math notranslate nohighlight">\(V\)</span> and what is the corrected value of <span class="math notranslate nohighlight">\(V\)</span>?</p>
-<section id="id2">
-<h4>1. Direct, brute-force method<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h4>
+<section id="id1">
+<h4>1. Direct, brute-force method<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h4>
 <p>To obtain <span class="math notranslate nohighlight">\(V_{\text{corrected}}\)</span></p>
 <ul class="simple">
 <li><p>Subtract <span class="math notranslate nohighlight">\(0.01\,\text{cm}\)</span> from <span class="math notranslate nohighlight">\(D = 2.00\,\text{cm}\)</span></p></li>
@@ -760,8 +760,8 @@ V = \frac{1}{6} \pi D^3
 <li><p>Recompute <span class="math notranslate nohighlight">\(V_{\mbox{corrected}}\)</span> as <span class="math notranslate nohighlight">\(15.61\,\text{cm}^3\)</span>, whereby <span class="math notranslate nohighlight">\(\Delta V\)</span> must be <span class="math notranslate nohighlight">\(+0.01\,\text{cm}^3\)</span>.</p></li>
 </ul>
 </section>
-<section id="id3">
-<h4>2. Method based on calculus<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h4>
+<section id="id2">
+<h4>2. Method based on calculus<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h4>
 <p>Find the partial derivatives of <span class="math notranslate nohighlight">\(V\)</span></p>
 <div class="math notranslate nohighlight">
 \[\frac{\partial V}{\partial L} =\frac{1}{4} \pi D^2 \hspace{2 cm} \frac{\partial V}{\partial d} =\frac{1}{2} \pi D L\]</div>
@@ -869,7 +869,7 @@ V = \frac{1}{6} \pi D^3
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#random-errors">Random Errors</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-standard-deviation-standard">Mean, Standard Deviation, Standard</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-standard-deviation-standard-error">Mean, Standard Deviation, Standard Error</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-average-pm-standard-error">Example of Average <span class="math notranslate nohighlight">\(\pm\)</span> Standard Error</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#estimation-through-variation-or-instrumentation">Estimation through Variation or Instrumentation</a></li>
 </ul>
@@ -889,8 +889,8 @@ V = \frac{1}{6} \pi D^3
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-two-or-more-direct-measurements-cylinder">Calculation from Two or More Direct Measurements (Cylinder)</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">1. Direct, brute-force method</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">2. Method based on calculus</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">1. Direct, brute-force method</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">2. Method based on calculus</a></li>
 </ul>
 </li>
 </ul>

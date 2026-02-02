@@ -1,4 +1,4 @@
-# General Physics Lab I
+# General Physics Lab I (Fall)
 The experiments you will conduct this semester are:
 
 [Excel and Spreadsheets, Syllabus](data-acquisition-and-analysis-overall)
