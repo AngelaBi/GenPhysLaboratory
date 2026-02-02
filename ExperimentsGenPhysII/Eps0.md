@@ -308,7 +308,9 @@ You will experimentally determine $\varepsilon_0$ today; a few weeks from now in
   <figcaption>Demonstration video. Reviews overall setup and procedure. *No audio*</figcaption>
 </div>
 
-If embedding is broken, follow: https://www.youtube.com/watch?v=2GMHmCrCKLQ
+If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=2GMHmCrCKLQ" target="_blank" rel="noopener noreferrer">
+https://www.youtube.com/watch?v=2GMHmCrCKLQ
+</a>
 
 
 ### Preliminary Setup
