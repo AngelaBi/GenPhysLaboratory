@@ -113,19 +113,34 @@ Electrode configurations. The stars suggest starting positions for E-field lines
 
 12. Repeat from step 1 for each selected electrode configuration.
 
+
+
+
+
 ## Post-Lab Submission --- Interpretation of Results
 
-- Make sure to submit your finalized field mappings. INCLUDE THE PLOT-DRAWER'S NAME AND GROUPMATES' NAMES ON EACH PLOT.
-- Paragraph of your results from your data. Make sure to include discussion of the following:
-  - How do the equipotential lines that you drew relate to the electrode spacing and shapes?
-  - How do the E-field lines that you drew relate to both the electrode and the equipotential patterns? -- What happens to your E-field lines when equipotentials were curved, or closer together/further apart?
-  - If you placed an electron on an equipotential, say the 16 V equipotential, what direction would the electron move?
-  - What do the electric field and electric potential patterns in electrode configuration 1 ({numref}`E2Fig03_plots` 1) suggest about the fields between the two plates in lab E-1?
-- Paragraph of your errors and estimated measurement uncertainties. Make sure to include discussion of the following:
-  - Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?
-  - If your equipotentials were inaccurate, what would happen to the E-field lines?
-  - How could you improve your random errors?
-- Reflect on this week's lab; what did you learn?
+Note: For this lab, your results will be very qualitative.
+
+### Finalized Spreadsheets
+  - Make sure to submit **all three** of your finalized field mappings.
+    - INCLUDE THE PLOT-DRAWER'S NAME AND GROUPMATES' NAMES ON EACH PLOT.
+    - Include all labels and markings as described throughout the procedure.
+
+
+### Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
+  - How could you increase your confidence (i.e. decrease you uncertainty) in your electric field lines (i.e. final results) considering your methodology from today's lab? *Consider electrode configuration 3 ({numref}`E2Fig03_plots` 3).*
+
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+  - What was the point of today's lab; what did we aim to discover?
+  - How do the equipotential lines that you drew physically relate to the electrode spacing and shapes?
+  - How do the E-field lines that you drew physically relate to both the electrode and the equipotential patterns? -- What happens to your E-field lines when equipotentials were curved, or closer together/further apart?
+  - If you placed an *electron* on an equipotential, say the 16 V equipotential, what direction would the *electron* move?
+  - What do the electric field and electric potential patterns in electrode configuration 1 ({numref}`E2Fig03_plots` 1) suggest about the electric field between the two plates in lab E-1?
+
+
 
 
 
