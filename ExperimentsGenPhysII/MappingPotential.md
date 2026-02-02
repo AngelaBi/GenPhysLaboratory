@@ -7,7 +7,7 @@
 
 ```{admonition} OVERALL GOALS
 :class: note
-Use a parallel-plate capacitor to create a uniform electric field to:
+Use different electrode configurations:
   - Qualitatively explore the relationship between equipotentials (surfaces lines of constant voltage) and electric field lines.
 ```
 
@@ -77,8 +77,10 @@ Depicted in {numref}`E2Fig01` and {numref}`E2Fig03_plots`.
 :class: note
   - For three different electrode configurations:
     - Map onto paper equipotential lines:
-      - Measure and record voltage at many locations across the conductive paper
-      - Map 
+      - Measure and record voltage at many locations from edge-to-edge across the conductive paper
+    - Map electric field lines:
+      - Use a french curve for orthogonal interpolation
+      - Map at least 7 E-field lines, starting from the ⭐ starred ⭐ starting positions in {numref}`E2Fig03_plots`.
   - Each person will complete at least one whole plot with: 1) dashed lines representing equipotential lines of 0 -- 24 V in 4 V increments covering the page edge-to-edge -- measured by testing voltage with the probe at 0.5 -- 2 cm increments depending on equipotential curviness and 2) solid lines representing the E-field. There are three configurations ({numref}`E2Fig03_plots`). Each plot should contain 7 measured equipotential lines/surfaces and at least 7 estimated E-field lines.
 ```
 
@@ -90,6 +92,7 @@ name: E2Fig03_plots
 Electrode configurations. The stars suggest starting positions for E-field lines.
 ```
 
+(procedure-mapping-potential-step-1)=
 1. Each group will plot all three electrode configurations (see {numref}`E2Fig03_plots`); each person will draw at least one configuration. Place one of these conducting electrode sheets on the cork mounting board and fasten down with a metal push pin at the end of the silver electrodes. Make sure the pins are pushed all the way down to make electrical contact with the electrode.
 
 2. Refer to {numref}`E2Fig01`; connect both the positive terminal of the first voltmeter and one of the electrodes to the positive terminal of the power supply. Connect the other electrode similarly to the positive terminal of the power supply and first voltmeter. The probe will be connected to the positive terminal of the second voltmeter, while the negative terminal of the second voltmeter is connected to the negative electrode.
@@ -111,7 +114,7 @@ Electrode configurations. The stars suggest starting positions for E-field lines
 
 11. These field patterns should be carefully and neatly reproduced, on each graph paper with the corresponding electrode pattern. As with any graph or illustration, they must be clearly annotated with **appropriate labels, potentials, polarities, and field directions**. **ALSO, INCLUDE THE PLOT-DRAWER'S NAME AND GROUPMATES' NAMES ON EACH PLOT.**
 
-12. Repeat from step 1 for each selected electrode configuration.
+12. Repeat from {ref}`Step 1 <procedure-mapping-potential-step-1>` for each selected electrode configuration.
 
 
 
