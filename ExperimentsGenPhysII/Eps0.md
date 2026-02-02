@@ -298,16 +298,17 @@ You will experimentally determine $\varepsilon_0$ today; a few weeks from now in
   <iframe
     width="80%"
     height="315"
-    src="https://www.youtube.com/embed/EUD3PAHBEfI"
+    src="https://www.youtube.com/embed/2GMHmCrCKLQ"
     title="YouTube video"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen>
   </iframe>
-  <figcaption>Demonstration video.</figcaption>
+  <figcaption>Demonstration video. Reviews overall setup and procedure. *No audio*</figcaption>
 </div>
 
+If embedding is broken, follow: https://www.youtube.com/watch?v=2GMHmCrCKLQ
 
 
 ### Preliminary Setup
