@@ -188,7 +188,7 @@ F_E = \frac{\varepsilon_0 A V^{2}}{2 d^{2}}
 
 --->
 
-where $A$ is the area of the plates, $d$ the separation distance, and $V$ the potential difference in volts across the plates.
+where $A$ is the area of the plates, $d$ the separation distance, and $V$ the potential difference in volts between the plates of the capacitor.
 
 *{eq}`eq_electric_force` is valid only under the conditions stated of large, closely spaced plates to provide a uniform electric field and charge density so we can effectively ignore fringe fields*. The physical implications of these geometric assumptions is that the electric field is totally confined to the space between the plates and is constant in value throughout the space. You will see in Lab E-2 that the electric field always 'bulges' or fringes out at the edge. For {eq}`eq_electric_force`, the fringe field is ignored. Rewriting the expression for $\varepsilon_0$, we obtain
 
@@ -209,7 +209,7 @@ Depicted across {numref}`E1Fig_00` -- {numref}`E1Fig_02`. All equipment as liste
 - Telescope with crosshair & centimeter-scale ruler (a.k.a. scale) on vertical pole
 - High voltage DC power supply, 0 -- 500 V
 - Fluke multimeter -- set to read DC voltage (in parallel with parallel-plate capacitor)
-- Small masses of 10, 20, 20, 100, 500 mg with plastic tweezers
+- Small masses of 10, 20, 20, 50, 500 mg with plastic tweezers
 - Parallel-plate capacitor apparatus:
   - Bottom plate held in static position on lower plate adjustment towers
   - Balanced plate/beam on thin, conductive, knife edges with:
@@ -270,9 +270,9 @@ The apparatus has been carefully adjusted before your lab and should not require
    - Experimentally investigate the relationship between electric force and applied voltage to determine the electric constant $\varepsilon_0$.
   - In this experiment, you will:
     - Use telescope and scale to determine equilibrium position and separation distance between the parallel plates, $d$
-    - Conduct **3 rounds** of replacing equilibrium mass with a series of smaller masses (less gravitational force)
+    - Conduct **3 rounds** of replacing equilibrium mass $m_0$ with a series of smaller masses (less gravitational force)
       - Increase electric force by applying the necessary voltage $V$ to the plates such that they return to equilibrium separation distance $d$ (i.e. parallel)
-      - Note: under these conditions, the electric force required to maintain the separation $d$ will be equivalent to the difference of the gravitational force of the equilibrium and smaller applied mass.
+      - Note: under these conditions, the electric force $F_E$ required to maintain the separation $d$ will be equivalent to the difference of the equilibrium and smaller applied mass's gravitational force (i.e. $F_0 - F_{\text{G,applied}}$).
     - Determine $\varepsilon_0$ for each trial (ignroing equilibrium mass) and its uncertainty
     - Determine average $\varepsilon_0$ of all your trials (ignroing equilibrium mass) and its uncertainty
     - Determine $\varepsilon_0$ from plotting of all your data (including equilibrium mass) as $F_E\,\text{vs.}\,V^2$
@@ -403,8 +403,8 @@ d = \frac{D a}{2 b}
       - Lab member's initials (person looking through telescope)
       - $m_{\text{applied}}$: Applied mass
       <!---  - Applied mass uncertainty $\delta m_{\text{applied}} = 0.01 \times m_{\text{applied}}$ (i.e. 1\%) --->
-      - $F_{\text{applied}}=m_{\text{applied}} g$: Applied force
-      <!---   - Uncertainty in the applied force $\delta F_{\text{applied}} = (m_{\text{applied}} + \delta m_{\text{applied}})g - F_{\text{applied}}$. This comes from the difference in a maximized value for the applied force and your value for the applied force. --->
+      - $F_{\text{G,applied}}=m_{\text{applied}} g$: Applied gravitational force
+      <!---   - Uncertainty in the applied force $\delta F_{\text{G,applied}} = (m_{\text{applied}} + \delta m_{\text{applied}})g - F_{\text{G,applied}}$. This comes from the difference in a maximized value for the applied force and your value for the applied force. --->
       - $F_E$: Applied electric force
       - $V_\text{min}$: Minimum voltage $V$ required to return to the equilibrium position
       - $V_\text{max}$: Maximum voltage $V$ required to return to the equilibrium position
@@ -423,27 +423,27 @@ d = \frac{D a}{2 b}
 (procedure-epsilon0-trial-list)=
 6. Repeat the following steps for each trial with applied masses in order (to catch any procedural issues early):
     - The order of the trials for applied masses will be
-      - 50 mg, ensure $S_0$ has not changed
-      - 40, 30, 20, 10, 0 mg
-      - pause, change group member on telescope
-      - 50 mg, check $S_0$ and $S_1$ ***with power off***, re-running {ref}`Step 4 <procedure-epsilon0-step-s0-s1>` if needed
-      - 40, 30, 20, 10, 0 mg
-      - pause, change group member on telescope
-      - 50 mg, check $S_0$ and $S_1$ ***with power off***, re-running {ref}`Step 4 <procedure-epsilon0-step-s0-s1>` if needed
-      - 40, 30, 20, 10, 0 mg
-    - Replace the equilibrium mass in the center of the top plate with the mass required for each trial. The top plate will swing upwards.
+      - Round 1:
+        - ***WITH POWER OFF*** 🟥 --- 50 mg, ensure $S_0$ has not changed 
+        - ***WITH POWER ON*** 🟢 --- 40, 30, 20, 10, 0 mg
+      - Round 2:
+        - pause, change group member on telescope
+        - ***WITH POWER OFF*** 🟥 --- 50 mg, ensure $S_0$ has not changed, re-run {ref}`Step 4 <procedure-epsilon0-step-s0-s1>` if needed
+        - ***WITH POWER ON*** 🟢 --- 40, 30, 20, 10, 0 mg
+      - Round 3:
+        - pause, change group member on telescope
+        - ***WITH POWER OFF*** 🟥 --- 50 mg, ensure $S_0$ has not changed, re-run {ref}`Step 4 <procedure-epsilon0-step-s0-s1>` if needed
+        - ***WITH POWER ON*** 🟢 --- 40, 30, 20, 10, 0 mg
 
-```{figure} Eps0Figures/fig_04_spark.png
----
-width: 75%
-name: E1Fig_04
----
-Safety: regarding electricity and the plates touching. 
-```
+    ```{admonition} Consider: 50 mg Trials
+    :class: question
+    Why do we have the power off for the 50 mg trials, but not the other smaller masses?
+    ```
 
-7. Apply current trial's mass to top plate and record that value (reminder, use SI units; these masses are in units of milligrams).
 
-8. Determine applied voltage required to return to equilibrium by finding a voltage range. Turn on the power supply and slowly increase the voltage until the plates return to parallel (i.e. crosshair in telescope back to $S_0$, as it was with 50 mg on the top plate). Determine this by having an observer watching the scale reading with the telescope during this process. The telescope observer should be calling out instructions to the power supply operator to slowly approach the $S_0$ value.
+7. Replace the equilibrium mass $m_0$ in the center of the top plate with the current trial's mass $m_\text{applied}$. The top plate will swing upwards. In following steps, you will apply an electric force to make up for the removed gravitational force. Record the current mass value and calculate $F_\text{G,applied}$ (reminder, use SI units; these masses are in units of milligrams).
+
+8. Determine applied voltage required to return to equilibrium by finding a voltage range. Turn on 🟢 the power supply and slowly increase the voltage until the plates return to parallel (i.e. crosshair in telescope back to $S_0$, as it was with 50 mg on the top plate). Determine this by having an observer watching the scale reading with the telescope during this process. The telescope observer should be calling out instructions to the power supply operator to slowly approach the $S_0$ value.
     - When the $S_0$ value is approximately reached, call out to the power supply operator.
     - Power supply operator shall decrease the voltage *until the telescope observer is no longer confident* the crosshair is at the $S_0$ position, at which point the telescope observer shall call for a minimum voltage reading from the multimeter (not the power supply) and record the voltage $V_\text{min}$.
     - Power supply operator shall then increase the voltage *until the telescope observer is no longer confident* the crosshair is at the $S_0$ position, at which point the telescope observer shall call for a maximum voltage reading from the multimeter and record the voltage $V_\text{max}$.
@@ -458,19 +458,32 @@ Safety: regarding electricity and the plates touching.
     - If the voltmeter display times out and goes blank, turn it off and on and reset the voltmeter to DC volts (sleep function).
     ```
 
-9. Reduce the voltage to zero and turn off the power supply. 
+```{figure} Eps0Figures/fig_04_spark.png
+---
+width: 75%
+name: E1Fig_04
+---
+Safety: regarding electricity and the plates touching. 
+```
+
+9. Reduce the voltage to zero and turn off 🟥 the power supply. 
 
 10. For current trial, calculate:
-    - the applied electric force --- the difference between the equilibrium force and the applied gravitational force, $F_E=F_0 - F_{\text{applied}}$ 
-    - experimental electric constant $\varepsilon_{0_\text{experimental}}$ using {eq}`eq_epsilon_0`. For $50\,\text{mg}$ trials, this can be ignored as there should be no electric force used.
+    - the applied electric force $F_E$ --- the difference between the equilibrium force and the applied gravitational force (see {eq}`eq_epsilon_0_electricForce`).
+    - experimental electric constant $\varepsilon_{0\text{,experimental}}$ using {eq}`eq_epsilon_0`. For $50\,\text{mg}$ trials, this can be ignored as there should be no electric force used.
     - maximized electric constant $\varepsilon_{0\text{,experimental,maximized}}$ assuming uncertainty in voltage is majority source of uncertainty using the form of {eq}`eq_epsilon_0_max`.
     - Uncertainty in experimental value of the electric constant as $\delta\,\varepsilon_{0\text{,experimental}}=\varepsilon_{0\text{,experimental,maximized}} - \varepsilon_{0\text{,experimental}}$ 
     - $\Delta\,\varepsilon_{0\text{,experimental}} - \varepsilon_{0\text{,accepted}}$: Magntitude of difference between experimental and accepted values of $\varepsilon_0$
 
 
     ```{math}
+    :label: eq_epsilon_0_electricForce
+    F_E=F_0 - F_{\text{G,applied}}
+    ```
+
+    ```{math}
     :label: eq_epsilon_0_max
-    \varepsilon_{0\text{,experimental,maximized}} = \frac{2 F_E d^{2}}{A (V - \delta V)^{2}}.
+    \varepsilon_{0\text{,experimental,maximized}} = \frac{2 F_E d^{2}}{A (V - \delta V)^{2}}
     ```
 
     ```{admonition} Consider: Experimental vs. Accepted
@@ -507,8 +520,8 @@ Safety: regarding electricity and the plates touching.
 <!---
 
 12. Add a row to your data table for calculating:
-    - Average $\varepsilon_{0_\text{experimental-average}}$
-    - Average $\delta\varepsilon_{0_\text{experimental-average}}$
+    - Average $\varepsilon_{0\text{,experimental-average}}$
+    - Average $\delta\varepsilon_{0\text{,experimental-average}}$
     <!---   - Standard deviation $\sigma_{\varepsilon_{\text{0-experimental-average}}}$ (treating this as your overall uncertainty of your average value, e.g. avg ± σ. *Consider: does your experimental value ± range overlap with the accepted value of $\varepsilon_{0}$?*
 
 --->
