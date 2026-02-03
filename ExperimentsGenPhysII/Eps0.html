@@ -560,7 +560,7 @@ F_E = \frac{\varepsilon_0 A V^{2}}{2 d^{2}}
 
 
 --->
-<p>where <span class="math notranslate nohighlight">\(A\)</span> is the area of the plates, <span class="math notranslate nohighlight">\(d\)</span> the separation distance, and <span class="math notranslate nohighlight">\(V\)</span> the potential difference in volts across the plates.</p>
+<p>where <span class="math notranslate nohighlight">\(A\)</span> is the area of the plates, <span class="math notranslate nohighlight">\(d\)</span> the separation distance, and <span class="math notranslate nohighlight">\(V\)</span> the potential difference in volts between the plates of the capacitor.</p>
 <p><em><a class="reference internal" href="#equation-eq-electric-force">(104)</a> is valid only under the conditions stated of large, closely spaced plates to provide a uniform electric field and charge density so we can effectively ignore fringe fields</em>. The physical implications of these geometric assumptions is that the electric field is totally confined to the space between the plates and is constant in value throughout the space. You will see in Lab E-2 that the electric field always ‘bulges’ or fringes out at the edge. For <a class="reference internal" href="#equation-eq-electric-force">(104)</a>, the fringe field is ignored. Rewriting the expression for <span class="math notranslate nohighlight">\(\varepsilon_0\)</span>, we obtain</p>
 <div class="math notranslate nohighlight" id="equation-eq-epsilon-0">
 <span class="eqno">(105)<a class="headerlink" href="#equation-eq-epsilon-0" title="Permalink to this equation">#</a></span>\[\varepsilon_0 = \frac{2 F_E d^{2}}{A V^{2}}.\]</div>
@@ -574,7 +574,7 @@ F_E = \frac{\varepsilon_0 A V^{2}}{2 d^{2}}
 <li><p>Telescope with crosshair &amp; centimeter-scale ruler (a.k.a. scale) on vertical pole</p></li>
 <li><p>High voltage DC power supply, 0 – 500 V</p></li>
 <li><p>Fluke multimeter – set to read DC voltage (in parallel with parallel-plate capacitor)</p></li>
-<li><p>Small masses of 10, 20, 20, 100, 500 mg with plastic tweezers</p></li>
+<li><p>Small masses of 10, 20, 20, 50, 500 mg with plastic tweezers</p></li>
 <li><p>Parallel-plate capacitor apparatus:</p>
 <ul>
 <li><p>Bottom plate held in static position on lower plate adjustment towers</p></li>
@@ -640,10 +640,10 @@ F_E = \frac{\varepsilon_0 A V^{2}}{2 d^{2}}
 <li><p>In this experiment, you will:</p>
 <ul>
 <li><p>Use telescope and scale to determine equilibrium position and separation distance between the parallel plates, <span class="math notranslate nohighlight">\(d\)</span></p></li>
-<li><p>Conduct <strong>3 rounds</strong> of replacing equilibrium mass with a series of smaller masses (less gravitational force)</p>
+<li><p>Conduct <strong>3 rounds</strong> of replacing equilibrium mass <span class="math notranslate nohighlight">\(m_0\)</span> with a series of smaller masses (less gravitational force)</p>
 <ul>
 <li><p>Increase electric force by applying the necessary voltage <span class="math notranslate nohighlight">\(V\)</span> to the plates such that they return to equilibrium separation distance <span class="math notranslate nohighlight">\(d\)</span> (i.e. parallel)</p></li>
-<li><p>Note: under these conditions, the electric force required to maintain the separation <span class="math notranslate nohighlight">\(d\)</span> will be equivalent to the difference of the gravitational force of the equilibrium and smaller applied mass.</p></li>
+<li><p>Note: under these conditions, the electric force <span class="math notranslate nohighlight">\(F_E\)</span> required to maintain the separation <span class="math notranslate nohighlight">\(d\)</span> will be equivalent to the difference of the equilibrium and smaller applied mass’s gravitational force (i.e. <span class="math notranslate nohighlight">\(F_0 - F_{\text{G,applied}}\)</span>).</p></li>
 </ul>
 </li>
 <li><p>Determine <span class="math notranslate nohighlight">\(\varepsilon_0\)</span> for each trial (ignroing equilibrium mass) and its uncertainty</p></li>
@@ -774,9 +774,9 @@ Reminder – keep variable names and units in the row and column titles, and num
 </ul>
    <!---  - Applied mass uncertainty $\delta m_{\text{applied}} = 0.01 \times m_{\text{applied}}$ (i.e. 1\%) --->
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(F_{\text{applied}}=m_{\text{applied}} g\)</span>: Applied force</p></li>
+<li><p><span class="math notranslate nohighlight">\(F_{\text{G,applied}}=m_{\text{applied}} g\)</span>: Applied gravitational force</p></li>
 </ul>
-   <!---   - Uncertainty in the applied force $\delta F_{\text{applied}} = (m_{\text{applied}} + \delta m_{\text{applied}})g - F_{\text{applied}}$. This comes from the difference in a maximized value for the applied force and your value for the applied force. --->
+   <!---   - Uncertainty in the applied force $\delta F_{\text{G,applied}} = (m_{\text{applied}} + \delta m_{\text{applied}})g - F_{\text{G,applied}}$. This comes from the difference in a maximized value for the applied force and your value for the applied force. --->
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(F_E\)</span>: Applied electric force</p></li>
 <li><p><span class="math notranslate nohighlight">\(V_\text{min}\)</span>: Minimum voltage <span class="math notranslate nohighlight">\(V\)</span> required to return to the equilibrium position</p></li>
@@ -793,34 +793,41 @@ Reminder – keep variable names and units in the row and column titles, and num
 </section>
 <section id="experimental-data-collection">
 <span id="detailsteps-epsilon0data"></span><h3>Experimental Data Collection<a class="headerlink" href="#experimental-data-collection" title="Permalink to this heading">#</a></h3>
-<ol class="arabic simple" id="procedure-epsilon0-trial-list" start="6">
+<ol class="arabic" id="procedure-epsilon0-trial-list" start="6">
 <li><p>Repeat the following steps for each trial with applied masses in order (to catch any procedural issues early):</p>
 <ul class="simple">
 <li><p>The order of the trials for applied masses will be</p>
 <ul>
-<li><p>50 mg, ensure <span class="math notranslate nohighlight">\(S_0\)</span> has not changed</p></li>
-<li><p>40, 30, 20, 10, 0 mg</p></li>
-<li><p>pause, change group member on telescope</p></li>
-<li><p>50 mg, check <span class="math notranslate nohighlight">\(S_0\)</span> and <span class="math notranslate nohighlight">\(S_1\)</span> <em><strong>with power off</strong></em>, re-running <a class="reference internal" href="#procedure-epsilon0-step-s0-s1"><span class="std std-ref">Step 4</span></a> if needed</p></li>
-<li><p>40, 30, 20, 10, 0 mg</p></li>
-<li><p>pause, change group member on telescope</p></li>
-<li><p>50 mg, check <span class="math notranslate nohighlight">\(S_0\)</span> and <span class="math notranslate nohighlight">\(S_1\)</span> <em><strong>with power off</strong></em>, re-running <a class="reference internal" href="#procedure-epsilon0-step-s0-s1"><span class="std std-ref">Step 4</span></a> if needed</p></li>
-<li><p>40, 30, 20, 10, 0 mg</p></li>
+<li><p>Round 1:</p>
+<ul>
+<li><p><em><strong>WITH POWER OFF</strong></em> 🟥 — 50 mg, ensure <span class="math notranslate nohighlight">\(S_0\)</span> has not changed</p></li>
+<li><p><em><strong>WITH POWER ON</strong></em> 🟢 — 40, 30, 20, 10, 0 mg</p></li>
 </ul>
 </li>
-<li><p>Replace the equilibrium mass in the center of the top plate with the mass required for each trial. The top plate will swing upwards.</p></li>
+<li><p>Round 2:</p>
+<ul>
+<li><p>pause, change group member on telescope</p></li>
+<li><p><em><strong>WITH POWER OFF</strong></em> 🟥 — 50 mg, ensure <span class="math notranslate nohighlight">\(S_0\)</span> has not changed, re-run <a class="reference internal" href="#procedure-epsilon0-step-s0-s1"><span class="std std-ref">Step 4</span></a> if needed</p></li>
+<li><p><em><strong>WITH POWER ON</strong></em> 🟢 — 40, 30, 20, 10, 0 mg</p></li>
 </ul>
 </li>
-</ol>
-<figure class="align-default" id="e1fig-04">
-<a class="reference internal image-reference" href="../_images/fig_04_spark.png"><img alt="../_images/fig_04_spark.png" src="../_images/fig_04_spark.png" style="width: 75%;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 75 </span><span class="caption-text">Safety: regarding electricity and the plates touching.</span><a class="headerlink" href="#e1fig-04" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<ol class="arabic" start="7">
-<li><p>Apply current trial’s mass to top plate and record that value (reminder, use SI units; these masses are in units of milligrams).</p></li>
-<li><p>Determine applied voltage required to return to equilibrium by finding a voltage range. Turn on the power supply and slowly increase the voltage until the plates return to parallel (i.e. crosshair in telescope back to <span class="math notranslate nohighlight">\(S_0\)</span>, as it was with 50 mg on the top plate). Determine this by having an observer watching the scale reading with the telescope during this process. The telescope observer should be calling out instructions to the power supply operator to slowly approach the <span class="math notranslate nohighlight">\(S_0\)</span> value.</p>
+<li><p>Round 3:</p>
+<ul>
+<li><p>pause, change group member on telescope</p></li>
+<li><p><em><strong>WITH POWER OFF</strong></em> 🟥 — 50 mg, ensure <span class="math notranslate nohighlight">\(S_0\)</span> has not changed, re-run <a class="reference internal" href="#procedure-epsilon0-step-s0-s1"><span class="std std-ref">Step 4</span></a> if needed</p></li>
+<li><p><em><strong>WITH POWER ON</strong></em> 🟢 — 40, 30, 20, 10, 0 mg</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="question admonition">
+<p class="admonition-title">Consider: 50 mg Trials</p>
+<p>Why do we have the power off for the 50 mg trials, but not the other smaller masses?</p>
+</div>
+</li>
+<li><p>Replace the equilibrium mass <span class="math notranslate nohighlight">\(m_0\)</span> in the center of the top plate with the current trial’s mass <span class="math notranslate nohighlight">\(m_\text{applied}\)</span>. The top plate will swing upwards. In following steps, you will apply an electric force to make up for the removed gravitational force. Record the current mass value and calculate <span class="math notranslate nohighlight">\(F_\text{G,applied}\)</span> (reminder, use SI units; these masses are in units of milligrams).</p></li>
+<li><p>Determine applied voltage required to return to equilibrium by finding a voltage range. Turn on 🟢 the power supply and slowly increase the voltage until the plates return to parallel (i.e. crosshair in telescope back to <span class="math notranslate nohighlight">\(S_0\)</span>, as it was with 50 mg on the top plate). Determine this by having an observer watching the scale reading with the telescope during this process. The telescope observer should be calling out instructions to the power supply operator to slowly approach the <span class="math notranslate nohighlight">\(S_0\)</span> value.</p>
 <ul class="simple">
 <li><p>When the <span class="math notranslate nohighlight">\(S_0\)</span> value is approximately reached, call out to the power supply operator.</p></li>
 <li><p>Power supply operator shall decrease the voltage <em>until the telescope observer is no longer confident</em> the crosshair is at the <span class="math notranslate nohighlight">\(S_0\)</span> position, at which point the telescope observer shall call for a minimum voltage reading from the multimeter (not the power supply) and record the voltage <span class="math notranslate nohighlight">\(V_\text{min}\)</span>.</p></li>
@@ -837,17 +844,27 @@ Reminder – keep variable names and units in the row and column titles, and num
 </ul>
 </div>
 </li>
-<li><p>Reduce the voltage to zero and turn off the power supply.</p></li>
+</ol>
+<figure class="align-default" id="e1fig-04">
+<a class="reference internal image-reference" href="../_images/fig_04_spark.png"><img alt="../_images/fig_04_spark.png" src="../_images/fig_04_spark.png" style="width: 75%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 75 </span><span class="caption-text">Safety: regarding electricity and the plates touching.</span><a class="headerlink" href="#e1fig-04" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ol class="arabic" start="9">
+<li><p>Reduce the voltage to zero and turn off 🟥 the power supply.</p></li>
 <li><p>For current trial, calculate:</p>
 <ul class="simple">
-<li><p>the applied electric force — the difference between the equilibrium force and the applied gravitational force, <span class="math notranslate nohighlight">\(F_E=F_0 - F_{\text{applied}}\)</span></p></li>
-<li><p>experimental electric constant <span class="math notranslate nohighlight">\(\varepsilon_{0_\text{experimental}}\)</span> using <a class="reference internal" href="#equation-eq-epsilon-0">(105)</a>. For <span class="math notranslate nohighlight">\(50\,\text{mg}\)</span> trials, this can be ignored as there should be no electric force used.</p></li>
-<li><p>maximized electric constant <span class="math notranslate nohighlight">\(\varepsilon_{0\text{,experimental,maximized}}\)</span> assuming uncertainty in voltage is majority source of uncertainty using the form of <a class="reference internal" href="#equation-eq-epsilon-0-max">(107)</a>.</p></li>
+<li><p>the applied electric force <span class="math notranslate nohighlight">\(F_E\)</span> — the difference between the equilibrium force and the applied gravitational force (see <a class="reference internal" href="#equation-eq-epsilon-0-electricforce">(107)</a>).</p></li>
+<li><p>experimental electric constant <span class="math notranslate nohighlight">\(\varepsilon_{0\text{,experimental}}\)</span> using <a class="reference internal" href="#equation-eq-epsilon-0">(105)</a>. For <span class="math notranslate nohighlight">\(50\,\text{mg}\)</span> trials, this can be ignored as there should be no electric force used.</p></li>
+<li><p>maximized electric constant <span class="math notranslate nohighlight">\(\varepsilon_{0\text{,experimental,maximized}}\)</span> assuming uncertainty in voltage is majority source of uncertainty using the form of <a class="reference internal" href="#equation-eq-epsilon-0-max">(108)</a>.</p></li>
 <li><p>Uncertainty in experimental value of the electric constant as <span class="math notranslate nohighlight">\(\delta\,\varepsilon_{0\text{,experimental}}=\varepsilon_{0\text{,experimental,maximized}} - \varepsilon_{0\text{,experimental}}\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(\Delta\,\varepsilon_{0\text{,experimental}} - \varepsilon_{0\text{,accepted}}\)</span>: Magntitude of difference between experimental and accepted values of <span class="math notranslate nohighlight">\(\varepsilon_0\)</span></p></li>
 </ul>
+<div class="math notranslate nohighlight" id="equation-eq-epsilon-0-electricforce">
+<span class="eqno">(107)<a class="headerlink" href="#equation-eq-epsilon-0-electricforce" title="Permalink to this equation">#</a></span>\[F_E=F_0 - F_{\text{G,applied}}\]</div>
 <div class="math notranslate nohighlight" id="equation-eq-epsilon-0-max">
-<span class="eqno">(107)<a class="headerlink" href="#equation-eq-epsilon-0-max" title="Permalink to this equation">#</a></span>\[\varepsilon_{0\text{,experimental,maximized}} = \frac{2 F_E d^{2}}{A (V - \delta V)^{2}}.\]</div>
+<span class="eqno">(108)<a class="headerlink" href="#equation-eq-epsilon-0-max" title="Permalink to this equation">#</a></span>\[\varepsilon_{0\text{,experimental,maximized}} = \frac{2 F_E d^{2}}{A (V - \delta V)^{2}}\]</div>
 <div class="question admonition">
 <p class="admonition-title">Consider: Experimental vs. Accepted</p>
 <p>How do the experimental values compare to the accepted value? Reasonable or an outlier due to possible random or systematic errors?</p>
@@ -882,24 +899,24 @@ Reminder – keep variable names and units in the row and column titles, and num
 <!---
 
 12. Add a row to your data table for calculating:
-    - Average $\varepsilon_{0_\text{experimental-average}}$
-    - Average $\delta\varepsilon_{0_\text{experimental-average}}$
+    - Average $\varepsilon_{0\text{,experimental-average}}$
+    - Average $\delta\varepsilon_{0\text{,experimental-average}}$
     <!---   - Standard deviation $\sigma_{\varepsilon_{\text{0-experimental-average}}}$ (treating this as your overall uncertainty of your average value, e.g. avg ± σ. *Consider: does your experimental value ± range overlap with the accepted value of $\varepsilon_{0}$?*
 
 --->
 <ol class="arabic" start="14">
 <li><p><strong>Graphical Analysis:</strong> The graphical display of data permits the comparison of all the values and associated errors at once. Points that depart markedly from the general trend of the data are quickly detected. We expect from theory <a class="reference internal" href="#equation-eq-electric-force">(104)</a> that electric force and voltage are related like:</p>
 <div class="math notranslate nohighlight" id="equation-eq-force-voltage">
-<span class="eqno">(108)<a class="headerlink" href="#equation-eq-force-voltage" title="Permalink to this equation">#</a></span>\[F_E = \alpha V^{2}.\]</div>
+<span class="eqno">(109)<a class="headerlink" href="#equation-eq-force-voltage" title="Permalink to this equation">#</a></span>\[F_E = \alpha V^{2}.\]</div>
 <p>Using <strong>all</strong> of your data points from <strong>all rounds and trials</strong>, including those at equilibrium (<span class="math notranslate nohighlight">\(50\,\text{mg}\)</span>) that you should have ignored earlier when you calculated <span class="math notranslate nohighlight">\(\varepsilon_0\)</span> for each individual trial and the overall average:</p>
 <ol class="arabic simple">
 <li><p><em><strong>SCATTER PLOT</strong></em> <span class="math notranslate nohighlight">\(F_E\)</span> vs. <span class="math notranslate nohighlight">\(V^{2}\)</span> (i.e. <span class="math notranslate nohighlight">\(F_E\)</span> as ordinate (<span class="math notranslate nohighlight">\(y\)</span>) and <span class="math notranslate nohighlight">\(V^{2}\)</span> as abscissa (<span class="math notranslate nohighlight">\(x\)</span>)). Fit a trend line through the all these points, display the trendline equation on the chart, and confirm the slope of the line <span class="math notranslate nohighlight">\(\alpha\)</span> matches what you found with the <code class="docutils literal notranslate"><span class="pre">LINEST()</span></code> function (for review, see <a class="reference internal" href="../Intro/DataAcquisition.html#data-acquisition-plotting-in-excel"><span class="std std-ref">Plotting in Excel</span></a>). From <a class="reference internal" href="#equation-eq-electric-force">(104)</a>, the value of <span class="math notranslate nohighlight">\(\alpha\)</span> is given by</p></li>
 </ol>
 <div class="math notranslate nohighlight" id="equation-eq-alpha">
-<span class="eqno">(109)<a class="headerlink" href="#equation-eq-alpha" title="Permalink to this equation">#</a></span>\[\alpha = \varepsilon_0\frac{A}{2 d^2}.\]</div>
-<p>A slope-derived <span class="math notranslate nohighlight">\(\varepsilon_0\)</span> can now be determined by rearranging <a class="reference internal" href="#equation-eq-alpha">(109)</a> and using this experimentally determined value <span class="math notranslate nohighlight">\(\alpha\)</span>. Thus</p>
+<span class="eqno">(110)<a class="headerlink" href="#equation-eq-alpha" title="Permalink to this equation">#</a></span>\[\alpha = \varepsilon_0\frac{A}{2 d^2}.\]</div>
+<p>A slope-derived <span class="math notranslate nohighlight">\(\varepsilon_0\)</span> can now be determined by rearranging <a class="reference internal" href="#equation-eq-alpha">(110)</a> and using this experimentally determined value <span class="math notranslate nohighlight">\(\alpha\)</span>. Thus</p>
 <div class="math notranslate nohighlight" id="equation-eq-epsilon-from-alpha">
-<span class="eqno">(110)<a class="headerlink" href="#equation-eq-epsilon-from-alpha" title="Permalink to this equation">#</a></span>\[\varepsilon_{0\text{,slope-derived}} = \frac{2 \alpha d^2}{A}.\]</div>
+<span class="eqno">(111)<a class="headerlink" href="#equation-eq-epsilon-from-alpha" title="Permalink to this equation">#</a></span>\[\varepsilon_{0\text{,slope-derived}} = \frac{2 \alpha d^2}{A}.\]</div>
 <ul class="simple">
 <li><p>Calculate <span class="math notranslate nohighlight">\(\varepsilon_{0\text{,slope-derived}}\)</span></p></li>
 <li><p>Similar to earlier, calculate <span class="math notranslate nohighlight">\(\delta\,\varepsilon_{0\text{,slope-derived}}\)</span> by maximizing the slope by the slope uncertainty (output from the <code class="docutils literal notranslate"><span class="pre">LINEST()</span></code> function), and subsequently taking the difference: <span class="math notranslate nohighlight">\(\delta\,\varepsilon_{0\text{,slope-derived}} = \varepsilon_{0\text{,slope-derived,max}} - \varepsilon_{0\text{,slope-derived}}\)</span></p></li>

@@ -34,7 +34,7 @@ where $e$ is the charge of the electron and *accelerating voltage* $V_{k}$ (ofte
 v_x=\sqrt{\frac{2 e \cdot V_k}{m}}
 ```
 
-Then, the accelerated electron beam passes between two parallel plates. If a potential $V_{d}$ is applied between the plates, the electron beam will be deflected toward the positive plate by a force $F_E = eE$ where $E$ is the electric field between the plates and $e$ is the electronic charge. Thus the acceleration in the transverse or $y$-direction due to the deflection voltage $V_{d}$ is given by
+Then, the accelerated electron beam passes between two parallel plates. If a potential $V_{d}$ is applied between the plates, the electron beam will be deflected toward the positive plate by a force $F_E = eE$ where $E$ is the electric field between the plates and $e$ is the electric charge. Thus the acceleration in the $y$-direction (a.k.a. transverse direction, see {numref}`E3Fig01`) due to the deflection voltage $V_{d}$ is given by
 
 ```{math}
 :label: eq_acceleration_y
@@ -42,7 +42,7 @@ a_y = \frac{F_E}{m} = \frac{e E}{m} = \frac{e\cdot V_d}{m d}
 ```
 where $d$ is the plate separation and $m$ is the electron mass. Since the electric field between the plates is approximately uniform, the path of the beam will be parabolic in the region between the plates. (Illustrated in {numref}`E3Fig01`, this is a case of an object undergoing uniform acceleration just like an object in projectile motion.) After the beam leaves this space, it will continue in a straight line with a horizontal velocity $v_{x}$ and a vertical velocity $v_{y}$ until it strikes the screen at point 'p.'
 
-The transverse velocity, i.e. in the $y$ or 'deflection' direction, is given by
+The transverse velocity, i.e. in the $y$ or 'deflection' direction we are using today, is given by
 
 ```{math}
 :label: eq_velocity_y
@@ -155,17 +155,18 @@ D=m V_{d} \rightarrow m_\text{expected}=\frac{D}{V_{d}}=\left(\frac{l L}{2 d V_k
 ```
 
 where $m$ is the slope of the line.
+
 16. For each case individually
     a. Use all 13 of your experimental deflection positions $D$ and their deflection voltages $V_d$ as well as the slope $m$ of your best-fit line found in Step 14 to calculate the square root of the mean of the square difference between your data and the best fit line (i.e. you're calculating the root mean square or RMS of the difference between what you claim the deflection position $D$ is and what the best fit line of your data says the deflection position should be). For each of your 13 data points, you will have a squared difference of $(D - m V_d)^2$.
     
     b. From those 13 values, you can take the mean, then the square root of that mean value for a resulting single value:
 
-```{math}
-:label: eq_rms
-\sqrt{\text{mean}(\text{all 13 squared differences})} = \sqrt{\text{mean}((D - m V_d)^2)}
-```
+    ```{math}
+    :label: eq_rms
+    \sqrt{\text{mean}(\text{all 13 squared differences})} = \sqrt{\text{mean}((D - m V_d)^2)}
+    ```
 
-where $D$ are your claimed 4 mm incremented deflection positions, $m$ is your experimental slope, and $V_d$ are your experimentally determined deflection voltages.
+    where $D$ are your claimed 4 mm incremented deflection positions, $m$ is your experimental slope, and $V_d$ are your experimentally determined deflection voltages.
 
     c. Compare this RMS value to your estimate of how well you can read displacements on the screen (i.e. comparing to position uncertainties $\delta D$).
 
