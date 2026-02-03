@@ -7,7 +7,7 @@
 
 ### Overall goals and overview
 
-- Investigate Ohm's Law and understand the relationship between resistance, voltage, and current within a circuit
+- Investigate the relationship between resistance, voltage, and current within a circuit as well as Ohm's Law.
 - Conduct three experiments covering circuits with resistors and light bulbs, resistors in series, and resistors in parallel. You will apply a range of voltages through the circuits and measure both current and voltage across the resistors and light bulbs individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter. You will then apply just 4.00 V to the circuit with all three resistors in either series or parallel configurations and again measure both current and voltage across each resistor and compare to the expected values
 
 
@@ -158,13 +158,15 @@ and compare it with the expected value using {eq}`eq-equivalent-resistance` and 
   - Do your experimental results for the individual resistors and the light bulb agree with your expected values (as measured with the ohmmeter)? Why or why not?
   - What do the shapes of the plots mean (linear or non-linear relationship?); why, from a physical standpoint, does the light bulb plot look the way it does as compared to the resistors?
   - Do your experimental results for the equivalent resistances $R_{\text{eq}}$ ({eq}`eq-equivalent-resistance`) of both series and parallel circuits agree with their respective expected values based on the resistors' actual values (from Ohmmeter)?
+    - Physically, why should we expect the resistance of a series circuit to be greater than that of a parallel circuit made of the same resistors?
 - Paragraph of your errors and estimated measurement uncertainties. Be quantitative. Make sure to include discussion of the following:
   - Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?
   - What are your measured uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?
   - If larger or small, are they more or less accurate to expected values?
   - How could you improve your random errors?
   - Were your systematic errors significant; how could this be improved if you were to re-run this experiment?
-- Reflect on this week's lab; what did you learn?
+
+
 
 
 
