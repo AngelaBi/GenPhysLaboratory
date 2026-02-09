@@ -374,7 +374,7 @@ Example of masses to use (milligrams). Placement location marked by the +.
 
 ```{figure} Eps0Figures/fig_02_MeasuringApparatus_v02.png
 ---
-width: 80%
+width: 100%
 name: E1Fig_02
 ---
 Top-left) Schematic of the Measuring Apparatus. Top-right) Example of $S_{0}$ and $S_{1}$ on the scale. Bottom) Example of the plates and cross-hairs through the telescope for finding $S_{0}$, $S_{1}$, and scale difference $D$. Note for the $S_{0}$ and $S_{1}$ readings, the scale numbers are black and red, respectively; this indicating we crossed the zero line and changed signs.
@@ -405,7 +405,7 @@ d = \frac{D a}{2 b}
       <!---  - Applied mass uncertainty $\delta m_{\text{applied}} = 0.01 \times m_{\text{applied}}$ (i.e. 1\%) --->
       - $F_{\text{G,applied}}=m_{\text{applied}} g$: Applied gravitational force
       <!---   - Uncertainty in the applied force $\delta F_{\text{G,applied}} = (m_{\text{applied}} + \delta m_{\text{applied}})g - F_{\text{G,applied}}$. This comes from the difference in a maximized value for the applied force and your value for the applied force. --->
-      - $F_E$: Applied electric force
+      - $F_E$: Applied electric force (to be calculated later)
       - $V_\text{min}$: Minimum voltage $V$ required to return to the equilibrium position
       - $V_\text{max}$: Maximum voltage $V$ required to return to the equilibrium position
       - $V$: Voltage $V$ required to return to the equilibrium position
@@ -443,7 +443,7 @@ d = \frac{D a}{2 b}
 
 7. Replace the equilibrium mass $m_0$ in the center of the top plate with the current trial's mass $m_\text{applied}$. The top plate will swing upwards. In following steps, you will apply an electric force to make up for the removed gravitational force. Record the current mass value and calculate $F_\text{G,applied}$ (reminder, use SI units; these masses are in units of milligrams).
 
-8. Determine applied voltage required to return to equilibrium by finding a voltage range. Turn on 🟢 the power supply and slowly increase the voltage until the plates return to parallel (i.e. crosshair in telescope back to $S_0$, as it was with 50 mg on the top plate). Determine this by having an observer watching the scale reading with the telescope during this process. The telescope observer should be calling out instructions to the power supply operator to slowly approach the $S_0$ value.
+8. Determine applied voltage $V$ (read from multimeter) required to return to equilibrium by finding a voltage range. Turn on 🟢 the power supply and slowly increase the voltage until the plates return to parallel (i.e. crosshair in telescope back to $S_0$, as it was with 50 mg on the top plate). Determine this by having an observer watching the scale reading with the telescope during this process. The telescope observer should be calling out instructions to the power supply operator to slowly approach the $S_0$ value.
     - When the $S_0$ value is approximately reached, call out to the power supply operator.
     - Power supply operator shall decrease the voltage *until the telescope observer is no longer confident* the crosshair is at the $S_0$ position, at which point the telescope observer shall call for a minimum voltage reading from the multimeter (not the power supply) and record the voltage $V_\text{min}$.
     - Power supply operator shall then increase the voltage *until the telescope observer is no longer confident* the crosshair is at the $S_0$ position, at which point the telescope observer shall call for a maximum voltage reading from the multimeter and record the voltage $V_\text{max}$.
@@ -572,6 +572,18 @@ Safety: regarding electricity and the plates touching.
 --->
 
 15. Create a summary table of your data (e.g. average and slope-derived values with their uncertainties, difference between experimental and accepted value)
+
+16. When you are finished, reset your experimental setup before leaving.
+
+    ```{admonition} CLEAN UP
+    :class: important
+    Please return your experimental station back to the way you found it or better:
+     - Return all masses (10, 20, 20, 50, 100 mg) and tweezers to black mass case, ensuring the clear plastic cover holds the masses down inside the case. Place black case near or on top of power supply.
+        - Please inform instructor of any lost masses
+     - Power supply is off, voltage knobs turned down to zero
+     - Multimeter off
+     - Ensure telescope is in focus and pointed at the mirror/scale
+    ```
 
 
 ## Post-Lab Submission --- Interpretation of Results
