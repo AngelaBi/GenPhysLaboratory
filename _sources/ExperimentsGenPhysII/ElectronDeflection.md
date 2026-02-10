@@ -3,12 +3,23 @@
 
 ## Background
 
-### Overall goals and overview:
+### Background Overview
 
+```{admonition} OVERALL GOALS
+:class: note
+Use a cathode ray tube (CRT) to investigate:
+ - How charged particles behave when they move through an electric field including:
+   - Acceleration and deflection of electrons as they pass through uniform electric fields produced by "parallel-plate capacitors" within a CRT
+   - Relationship of "electron-deflection distance" vs. "deflection voltage" (i.e. analog for deflection vs. E-field strength)
+```
+
+<!---
 - **OVERALL GOALS and Overview:**
   - Investigate both the acceleration and deflection of electrons as they pass through uniform electric fields produced by "parallel-plate capacitors" within a CRT.
   - Analyze the relationship of "electron-deflection distance" vs. "deflection voltage" of a uniform electric field by plotting and comparing to the expected slope based on the internals of your CRT.
   - In this experiment, you will first set up the grid/focus/acceleration voltages to those listed for each case on the paper inside the apparatus. The X/Y-deflection voltages will be set to zero. The electron beam on the screen can then be moved to the origin with the zeroing knobs. Then the electron deflection in the Y-direction can be measured with the on-screen grid when applying differing amounts of deflection voltage. Then plot $D$ vs. $V_d$ and compare to expected values.
+
+--->
 
 The instrument used in this experiment is a cathode ray tube [CRT]. When the filament of this device (also called an electron gun) is heated, electrons (mass = $9.109 \times 10^{-31}$ kg) are freed and given an acceleration. The acceleration is received when the beam of electrons passes through a region of positive potential with respect to the cathode. Consider the schematic of the tube in {numref}`E3Fig01`.
 
@@ -100,9 +111,21 @@ Summing up, the assumptions made in this derivation include:
 
 ## Experimental Procedure
 
+
+### Procedure Preview \& Preliminary Setup
+
+
+```{admonition} OVERVIEW
+:class: note
+  - Analyze the relationship of "electron-deflection distance" vs. "deflection voltage" of a uniform electric field by plotting and comparing to the expected slope based on the internals of your CRT.
+  - In this experiment, you will first set up the grid/focus/acceleration voltages to those listed for each case on the paper inside the apparatus. The X/Y-deflection voltages will be set to zero. The electron beam on the screen can then be moved to the origin with the zeroing knobs. Then the electron deflection in the Y-direction can be measured with the on-screen grid when applying differing amounts of deflection voltage. Then plot $D$ vs. $V_d$ and compare to expected values.
+```
+
+
+
 ```{figure} ElectronDeflectionFigures/E3_CRTControls_2024_v02.png
 ---
-width: 600px
+width: 100%
 name: E3Fig02
 ---
 Controls and parameters for the CRT.
@@ -111,6 +134,9 @@ Controls and parameters for the CRT.
 1. All knobs, switched, displays are numbered and will appear as (#) in the following steps which correspond to those shown in {numref}`E3Fig02`.
 
 2. Turn on the main power switch (10), and wait until the cathode warms up and a bright spot appears on the screen. If it doesn't appear after ~30 s, an instructor can be of assistance; it's likely a deflection or zeroing knob pushed the beam off-screen.
+
+(detailsteps-accel-of-electrons)=
+### Experimental Data Collection
 
 3. **FOR CASE 1** as listed on apparatus. Set the CRT voltage selector switch (3) to read the grid voltage $V_{G}$. Adjust the grid voltage to the given value using the grid potentiometer (17) whose voltage appears on the top voltmeter display (24).
 
@@ -145,7 +171,11 @@ Example of CRT grid and 4 mm spacings.
 
 13. **FOR CASE 2**, repeat steps 3 to 12 above using Case 2 data listed on the apparatus including an acceleration voltage of 1100 V.
 
-14. For each case, plot your values of deflection distance $D$ vs. deflection voltage $V_{d}$. Reminder, $D$ is not calculated, but rather just your 4 mm increments. Draw a best fit line through the data points and determine the slope, $m_\text{experimental}$ of the line and the slope's uncertainty $\delta m_\text{experimental}$ (available either on the trend line equation or with the LINEST() function).
+
+### Experimental Data Analysis
+
+
+14. **Graphical Analysis:** For each case, plot your values of deflection distance $D$ vs. deflection voltage $V_{d}$. Reminder, $D$ is not calculated, but rather just your 4 mm increments. Draw a best fit line through the data points and determine the slope, $m_\text{experimental}$ of the line and the slope's uncertainty $\delta m_\text{experimental}$ (available either on the trend line equation or with the LINEST() function).
 
 15. Compare your data fit (slope) with the expected slope as predicted by the equation for $D$ vs. $V_{d}$, namely
 

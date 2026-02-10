@@ -171,9 +171,10 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Schedule for PHYS 1172L</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Schedule for PHYS 1146L</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../scheduleByProfessor.html">Overview of the schedule for PHYS 1146L and PHYS 1172L</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scheduleByMeetingTimesAll.html">Full Lab Schedule with Meeting Times</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Lab Days for PHYS 1172L (with links)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Lab Days for PHYS 1146L (with links)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scheduleByProfessor.html">Weekly Meeting Times by Instructor &amp; Lab Makeup Procedure</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
 <ul class="nav bd-sidenav">
@@ -406,13 +407,20 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-overview">Background Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-overview">Experimental Overview</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-video-setup-procedure-french-curves">Demo Video: Setup, Procedure, &amp; French Curves</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure-preview">Procedure Preview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preliminary-setup">Preliminary Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-collection">Experimental Data Collection</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized Spreadsheets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized “Spreadsheets”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-writeup">Post-lab Writeup</a></li>
 </ul>
 </li>
@@ -432,61 +440,116 @@
 <span id="electirc-field-equipotential-mapping-overall"></span><h1>Equipotential &amp; Electric Field Mapping<a class="headerlink" href="#equipotential-electric-field-mapping" title="Permalink to this heading">#</a></h1>
 <section id="background">
 <h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
-<section id="overall-goals-and-overview">
-<h3>Overall goals and overview<a class="headerlink" href="#overall-goals-and-overview" title="Permalink to this heading">#</a></h3>
+<section id="background-overview">
+<h3>Background Overview<a class="headerlink" href="#background-overview" title="Permalink to this heading">#</a></h3>
 <div class="note admonition">
 <p class="admonition-title">OVERALL GOALS</p>
 <p>Use different electrode configurations:</p>
 <ul class="simple">
-<li><p>Qualitatively explore the relationship between equipotentials (surfaces lines of constant voltage) and electric field lines.</p></li>
+<li><p>Qualitatively explore electric fields via the relationship between equipotentials (surfaces or lines of constant voltage) and electric field lines.</p></li>
 </ul>
 </div>
-<p>Electric fields are a convenient construct to analyze the electrical force between two charges. It is defined as the force per unit charge experienced by one charged body in the presence of one or more other charged bodies. The direction of the electric field <span class="math notranslate nohighlight">\(\vec{E}\)</span> is in the direction of the net electric force experienced by a positive charge. It is illustrative to represent the electric field distribution by lines that continuously point in the direction of the electric field (see solid lines in <a class="reference internal" href="#e2fig00"><span class="std std-numref">Fig. 78</span></a> right).</p>
+<p>Electric fields are a convenient construct to analyze the electrical force between two charges. It is defined as the force per unit charge experienced by one charged body in the presence of one or more other charged bodies. The direction of the electric field <span class="math notranslate nohighlight">\(\vec{E}\)</span> is in the direction of the net electric force experienced by a positive charge (e.g. positive to negative). It is illustrative to represent the electric field distribution by lines that continuously point in the direction of the electric field (see solid lines in <a class="reference internal" href="#e2fig00"><span class="std std-numref">Fig. 79</span></a>).</p>
 <figure class="align-default" id="e2fig00">
-<a class="reference internal image-reference" href="../_images/E2_EFieldOverview_2024_v03.png"><img alt="../_images/E2_EFieldOverview_2024_v03.png" src="../_images/E2_EFieldOverview_2024_v03.png" style="width: 600px;" /></a>
+<a class="reference internal image-reference" href="../_images/E2_Fig_000_EFieldOverview_2026_v02.png"><img alt="../_images/E2_Fig_000_EFieldOverview_2026_v02.png" src="../_images/E2_Fig_000_EFieldOverview_2026_v02.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 78 </span><span class="caption-text">Right) Equipotential (dashed) and E-field lines (solid) between two equal but opposite charges. Top-left) No work, no forces, along equipotential lines. Bottom-left) Electrical forces in direction of E-field lines.</span><a class="headerlink" href="#e2fig00" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 79 </span><span class="caption-text">Right) Equipotential (dashed) and E-field lines (solid) between two equal but opposite charges.</span><a class="headerlink" href="#e2fig00" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>The amount of work required to move a unit charge between two points in an electric field is equal to the electrical potential energy difference between the points. The potential difference (voltage), <span class="math notranslate nohighlight">\(V\)</span>, is defined as the electrical potential energy difference per unit charge between the two points (see <a class="reference internal" href="#e2fig00"><span class="std std-numref">Fig. 78</span></a> bottom-left). By convention, electric field lines begin on positive charge and terminate on negative charge (point from positive to negative).</p>
-<p>If the potential difference between two points is zero, the two points are said to lie on an equipotential line or surface. Thus no energy is required to move along an equipotential surface. Since no work is required, there cannot be any electrical force tangential to the surface (see <a class="reference internal" href="#e2fig00"><span class="std std-numref">Fig. 78</span></a> top-left). In other words, there cannot be any electric field tangent to the equipotential surface, and so the direction of the electric field must be normal (perpendicular) to the equipotential surface at that point.</p>
-<p>Finally, as there is always a unique net electrical force acting on a charge, there must be a unique direction to the electric field at that point. Thus, two electric field lines can never cross since the intersection would have two different, simultaneous field directions. Similarly, equipotential surfaces, which must be perpendicular to the electric field directions, cannot cross. <em>Electrodes are conductors and therefore are themselves equipotential surfaces.</em> Thus, the electric field lines at their surface must be perpendicular to the electrodes.</p>
-<p>If equipotential lines are parallel to each other, so too must the electric field lines be parallel to each other. Similarly, if equipotential lines are curved, then the electric field lines will converge or diverge as they pass through the equipotential lines. It can be shown that the magnitude of the electric field increases as the electric field lines converge and decreases as the lines diverge. As equipotential surfaces get closer together, they must necessarily become more parallel to each other. Thus, the shape of the electrodes and the spacing between them dictate the pattern of the equipotential lines and electric field lines.</p>
-<p>In this experiment, we will qualitatively establish electric field distribution between various pairs of electrodes on a sheet of conducting paper (shown wired up to power supply in <a class="reference internal" href="#e2fig01"><span class="std std-numref">Fig. 79</span></a> bottom left). With a voltmeter (setup shown in <a class="reference internal" href="#e2fig01"><span class="std std-numref">Fig. 79</span></a> top), we will measure the potential difference between points on the paper. By plotting lines whose points are at the same potential (i.e. zero potential difference between any two points, or points at the same voltage), we can map out a number of equipotential lines. Note that <em>in three dimensional space</em>, equipotentials are <strong>surfaces</strong> perpendicular to the electric field. On the <em>two dimensional conducting sheets</em>, equipotentials form <strong>lines</strong> perpendicular to the electric field.
+<p>The amount of work required to move a unit charge between two points in an electric field is equal to the electrical potential energy difference between the points. The potential difference (voltage), <span class="math notranslate nohighlight">\(V\)</span> (see dashed lines in <a class="reference internal" href="#e2fig00"><span class="std std-numref">Fig. 79</span></a> relative to <span class="math notranslate nohighlight">\(0\,V\)</span>), is defined as the electrical potential energy difference per unit charge between the two points (see charges A and B in <a class="reference internal" href="#e2fig001"><span class="std std-numref">Fig. 80</span></a>).</p>
+<figure class="align-default" id="e2fig001">
+<a class="reference internal image-reference" href="../_images/E2_Fig_001_PotentialDifference_v2.png"><img alt="../_images/E2_Fig_001_PotentialDifference_v2.png" src="../_images/E2_Fig_001_PotentialDifference_v2.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 80 </span><span class="caption-text">Top-Left) Charges on same equipotential line, no voltage difference. Bottom-left) No work, no forces, along equipotential lines. Top-Right) Charges on different equipotential lines, some voltage difference. Bottom-right) Work can be done, electrical forces in direction of E-field lines.</span><a class="headerlink" href="#e2fig001" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<!---
+By convention, electric field lines begin on positive charge and terminate on negative charge (point from positive to negative).
+--->
+<p>If the potential difference between two points is zero, the two points are said to lie on the same equipotential line or surface (see <a class="reference internal" href="#e2fig001"><span class="std std-numref">Fig. 80</span></a> left). No work is required to move a charge along an equipotential surface. Since no work is done, there cannot be any electric force acting tangentially to the surface. Therefore, the electric field cannot have a component parallel (or tangential) to the equipotential surface and must instead be perpendicular to it at every point.</p>
+<p>Since the electric field is always perpendicular to equipotentials, moving in the direction of the electric field will end up taking you from one equipotential to another. When the potential difference between two points is non-zero, they lie on different equipotentials (see <a class="reference internal" href="#e2fig001"><span class="std std-numref">Fig. 80</span></a> right), and work is required to move a charge between them.</p>
+<p>Because a charge at any point experiences a single, well-defined net electric force, the electric field at that point has a unique direction. Therefore, two electric field lines can never cross. If they did, the field would have two different directions at the same location (<a class="reference internal" href="#e2fig003"><span class="std std-numref">Fig. 81</span></a> left). Equipotential lines also cannot intersect, since they must always be perpendicular to the electric field (<a class="reference internal" href="#e2fig002"><span class="std std-numref">Fig. 82</span></a> top).</p>
+<figure class="align-default" id="e2fig003">
+<a class="reference internal image-reference" href="../_images/E2_Fig_003_EfieldDispersion_v2.png"><img alt="../_images/E2_Fig_003_EfieldDispersion_v2.png" src="../_images/E2_Fig_003_EfieldDispersion_v2.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 81 </span><span class="caption-text">Left) Equipotentials parallel, then E-field lines are parallel. Right) Equipotentials are curve, then E-field lines must curve as well.</span><a class="headerlink" href="#e2fig003" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="e2fig002">
+<a class="reference internal image-reference" href="../_images/E2_Fig_002_EfieldEquipotentialRelationship_v2.png"><img alt="../_images/E2_Fig_002_EfieldEquipotentialRelationship_v2.png" src="../_images/E2_Fig_002_EfieldEquipotentialRelationship_v2.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 82 </span><span class="caption-text">Top) Equipotential and E-field lines always cross perpendicularly. Bottom) E-field lines must leave an equipotential surface perpendicularly as well.</span><a class="headerlink" href="#e2fig002" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Conductors, like our electrode patterns today, are themselves equipotential surfaces. Therefore, the electric field at the surface of an electrode must be perpendicular to the electrode’s surface (<a class="reference internal" href="#e2fig002"><span class="std std-numref">Fig. 82</span></a> bottom).</p>
+<p>If equipotential lines are parallel, the electric field lines must also be parallel. If the equipotentials are curved, the electric field lines will converge or diverge as they pass through them (<a class="reference internal" href="#e2fig003"><span class="std std-numref">Fig. 81</span></a> right). Where field lines converge, the magnitude of the electric field increases; where they diverge, the field strength decreases. As neighboring equipotential surfaces get closer together, they necessarily become more nearly parallel. Consequently, the shapes of electrodes and the spacing between them determine the patterns of both the equipotential surfaces and the electric field lines.</p>
+</section>
+<section id="experimental-overview">
+<h3>Experimental Overview<a class="headerlink" href="#experimental-overview" title="Permalink to this heading">#</a></h3>
+<p>In this experiment, we will qualitatively establish electric field distribution between various pairs of electrodes on a sheet of conducting paper (see <a class="reference internal" href="#e2fig01"><span class="std std-numref">Fig. 83</span></a>). With a voltmeter (wiring shown in <a class="reference internal" href="#e2fig01"><span class="std std-numref">Fig. 83</span></a> top), we will measure the potential difference between points on the paper. By plotting lines whose points are at the same potential (i.e. zero potential difference between any two points, or points at the same voltage), we can map out a number of equipotential lines. Note that <em>in three dimensional space</em>, equipotentials are <strong>surfaces</strong> perpendicular to the electric field. On the <em>two dimensional conducting sheets</em>, equipotentials form <strong>lines</strong> perpendicular to the electric field.
 Since we know that electrical field lines must be perpendicular to the equipotential lines, we can sketch a representative family of electrical field lines using the conventions discussed above.</p>
 <figure class="align-default" id="e2fig01">
-<a class="reference internal image-reference" href="../_images/E2_Setup_2025.png"><img alt="../_images/E2_Setup_2025.png" src="../_images/E2_Setup_2025.png" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="../_images/E2_Fig_004_setupOverall_v2.png"><img alt="../_images/E2_Fig_004_setupOverall_v2.png" src="../_images/E2_Fig_004_setupOverall_v2.png" style="width: 90%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 79 </span><span class="caption-text">Experimental setup. Top) general setup with all parts included. Bottom left) Example of wiring the electrodes and conductive paper to 24 V. Bottom right) Schematic.</span><a class="headerlink" href="#e2fig01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 83 </span><span class="caption-text">Experimental setup. Top) Schematic example. Bottom) general setup with all parts included, currently set to <span class="math notranslate nohighlight">\(24V\)</span> (white paper for drawing on not shown).</span><a class="headerlink" href="#e2fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>An example of an electrode configuration is illustrated in <a class="reference internal" href="#e2fig01"><span class="std std-numref">Fig. 79</span></a> bottom right. The dashed line indicates a possible equipotential line. In this example, it is specified by the positions on the paper whose potential with respect to the negative terminal of the power supply is 12 V. Moving the probe on the paper to other points where the voltage is 12 V generates the equipotential line. Since each point on the line is at the same potential, this is one of an infinite number of equipotential lines generated by this electrode configuration. The actual plotting (recording) of the equipotential lines and the sketching of the electric field lines is done on a separate graph paper whose coordinates match the conducting paper with its electrodes.</p>
-<p>If we determine a number of equipotential lines for this electrode pattern we might get the pattern of ‘dashed’ equipotential lines shown in <a class="reference internal" href="#e2fig02"><span class="std std-numref">Fig. 80</span></a>. <em>Recall that the electrodes are also equipotential lines.</em> Now we can sketch in a representative pattern of electric field lines; like the equipotential lines there are an infinite number of possible field lines. We know that the electric field lines begin on the positive electrode and end on the negative electrode, and they are normal (perpendicular) to <em>all</em> equipotential lines they cross without crossing other E-field lines. A few small arrowheads along the field line indicate the direction of the field. The field lines will be shown as solid lines to clearly distinguish them from the equipotential lines.</p>
+<p>An example of an electrode configuration is illustrated in <a class="reference internal" href="#e2fig01"><span class="std std-numref">Fig. 83</span></a> top. The dashed line indicates a possible equipotential line. In this example, it is specified by the positions on the paper whose potential with respect to the negative terminal of the power supply is 12 V. Moving the probe on the paper to other points where the voltage is 12 V informs us of the equipotential line location. Since each point on the line is at the same potential, this is one of an infinite number of equipotential lines generated by this electrode configuration. The actual plotting (recording) of the equipotential lines and the sketching of the electric field lines is done on a separate graph paper whose coordinates match the conducting paper with its electrodes.</p>
+<p>If we determine a number of equipotential lines for this electrode pattern, we might get the pattern of ‘dashed’ equipotential lines shown in <a class="reference internal" href="#e2fig02"><span class="std std-numref">Fig. 84</span></a>. <em>Recall that the electrodes are also equipotential lines/surfaces.</em> Now we can sketch in a representative pattern of electric field lines. Like the equipotential lines, there are an infinite number of possible field lines. We know that the electric field lines begin on the positive electrode and end on the negative electrode; also, they are normal (perpendicular) to <em>all</em> equipotential lines they cross without crossing other E-field lines. A few small arrowheads along the field line indicate the direction of the field. The field lines will be shown as solid lines to clearly distinguish them from the equipotential lines.</p>
 <figure class="align-default" id="e2fig02">
-<a class="reference internal image-reference" href="../_images/Figure2_v02.png"><img alt="../_images/Figure2_v02.png" src="../_images/Figure2_v02.png" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="../_images/Figure2_v02.png"><img alt="../_images/Figure2_v02.png" src="../_images/Figure2_v02.png" style="width: 90%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 80 </span><span class="caption-text">Electric Field and Equipotential patterns drawn from edge to edge of the paper.</span><a class="headerlink" href="#e2fig02" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 84 </span><span class="caption-text">Electric Field and Equipotential patterns drawn from edge to edge of the paper.</span><a class="headerlink" href="#e2fig02" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Since the direction of the electric force on a test charge is always <strong>positive-to-negative</strong> by convention, the <strong>arrowhead direction</strong> of the field lines must be the same. For this example, we start with more or less evenly spaced starting points at the positive electrode. Consider a single field line leaving one of these points. It leaves normal (perpendicular) to the surface. As it approaches the first equipotential surface, the direction of the field line needs to be smoothly adjusted so it crosses it perpendicularly. Continuing to the next equipotential line, the direction of the electric field line is continually and smoothly adjusted to cross this equipotential perpendicularly. Continuing in this manner, the field line is sketched all the way to the negative electrode where it must end on the electrode perpendicular to the local surface. This drawing can be assisted by the use of a “French curve” whose use will be discussed later in the procedures.</p>
-<p>The electric field lines can be sketched most easily when there are a sufficient number of more or less equally spaced equipotential lines to guide the direction of the field lines. The number of electric field lines that are drawn should be sufficient to clearly show the characteristics of the pattern. The electric field lines should be evenly spaced along the surface of the positive electrode so the density of the field lines in the pattern will show the relative intensity of the electric field. In this pattern you can see the higher concentration of field lines as they approach the smaller radius surface of the right electrode. The same thing would occur at the sharp corners of the left electrode if we happened to start our sketching from a uniform spacing of field lines on the right electrode. The configurations you will characterize are in <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 81</span></a> which also show seven suggested positions on the left electrodes to initiate E-field lines (roughly equally spaced).</p>
+<p>Since the direction of the electric force on a test charge is always <strong>positive-to-negative</strong> by convention, the <strong>arrowhead direction</strong> of the field lines must be the same. For this example, we start with more or less evenly spaced starting points at the positive electrode. Consider a single field line leaving one of these points. It leaves normal (perpendicular) to the surface. As it approaches the first equipotential surface, the direction of the field line needs to be smoothly adjusted so it crosses it perpendicularly. Continuing to the next equipotential line, the direction of the electric field line is continually and smoothly adjusted to cross this equipotential perpendicularly. Continuing in this manner, the field line is sketched all the way to the negative electrode where it must end on the electrode perpendicular to the local surface.</p>
+<p>The electric field lines can be sketched most easily when there are a sufficient number of more or less equally spaced equipotential lines to guide the direction of the field lines. The number of electric field lines that are drawn should be sufficient to clearly show the characteristics of the pattern. The electric field lines should be evenly spaced along the surface of the positive electrode so the density of the field lines in the pattern will show the relative intensity of the electric field. In this pattern you can see the higher concentration of field lines as they approach the smaller radius surface of the right electrode. The same thing would occur at the sharp corners of the left electrode if we happened to start our sketching from a uniform spacing of field lines on the right electrode.</p>
+<p>The drawing of both dashed equipotentials and solid E-field lines will be assisted by the use of a “French curve” as seen in <a class="reference internal" href="#e2fig005-frenchcurves"><span class="std std-numref">Fig. 85</span></a> and whose use is described in <a class="reference internal" href="#demo-video-equipotential-mapping"><span class="std std-ref">Demo Video: Setup, Procedure, &amp; French Curves</span></a>. The configurations you will characterize today are shown later in <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 86</span></a> which also includes seven starting positions on the left electrodes to initiate E-field lines (roughly equally spaced).</p>
+<figure class="align-default" id="e2fig005-frenchcurves">
+<a class="reference internal image-reference" href="../_images/E2_Fig_005_frenchCurves_v4.png"><img alt="../_images/E2_Fig_005_frenchCurves_v4.png" src="../_images/E2_Fig_005_frenchCurves_v4.png" style="width: 70%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 85 </span><span class="caption-text">French curves that will be available for interpolating equipotential and E-field lines.</span><a class="headerlink" href="#e2fig005-frenchcurves" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 <section id="equipment">
 <h3>Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">#</a></h3>
-<p>Depicted in <a class="reference internal" href="#e2fig01"><span class="std std-numref">Fig. 79</span></a> and <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 81</span></a>.</p>
+<p>Depicted in <a class="reference internal" href="#e2fig01"><span class="std std-numref">Fig. 83</span></a> and <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 86</span></a>.</p>
 <ul class="simple">
 <li><p>Low voltage DC power supply, 0 – 24 V</p></li>
 <li><p>Two Fluke multimeters – set to read DC voltage (one for power supply, one for probe)</p></li>
-<li><p>Folder with three sheets of black conductive paper with different electrode configurations (see <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 81</span></a>) and white photocopy of the same for plotting</p></li>
-<li><p>Cork board with 2 metal push pins (for electrical connection to conductive paper)</p></li>
-<li><p>x5 Banana plug wires connecting power supply to voltmeters and electrodes (via alligator clips) on conductive paper</p></li>
-<li><p>x1 Banana plug wire in the red holder as the <em>probe wire</em> to determine patterns of equipotential lines</p></li>
-<li><p>French curve for drawing curved E-field lines perpendicular to the equipotential lines determined with the probe</p></li>
+<li><p>Folder with three sheets of black conductive paper with different electrode configurations (see <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 86</span></a>)</p></li>
+<li><p>White photocopy of the same configurations for drawing/plotting will be at front table</p></li>
+<li><p>Cork board with 2 metal push pins (for electrical connection to conductive ink and paper)</p></li>
+<li><p>x5 Banana plug wires (18 AWG: x3 1’, x1 2’, x1 3’), connecting power supply to voltmeters and electrodes (via alligator clips) on conductive paper</p></li>
+<li><p>x1 Banana plug wire (18 AWG: x1 3’), in the red holder as the <em>probe wire</em> to determine patterns of equipotential lines</p></li>
+<li><p>French curves for interpolating equipotential lines and drawing curved E-field lines perpendicular to the equipotential lines determined with the probe</p></li>
 </ul>
 </section>
 </section>
+<section id="demo-video-setup-procedure-french-curves">
+<span id="demo-video-equipotential-mapping"></span><h2>Demo Video: Setup, Procedure, &amp; French Curves<a class="headerlink" href="#demo-video-setup-procedure-french-curves" title="Permalink to this heading">#</a></h2>
+<div style="text-align: center;">
+  <iframe
+    width="80%"
+    height="315"
+    src="https://www.youtube.com/embed/JYqLqs7038Q"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Demonstration video. Reviews overall setup and procedure. *No audio*</figcaption>
+</div>
+<p>If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=JYqLqs7038Q" target="_blank" rel="noopener noreferrer">
+https://www.youtube.com/watch?v=JYqLqs7038Q
+</a></p>
+</section>
 <section id="experimental-procedure">
 <h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<section id="procedure-preview">
+<h3>Procedure Preview<a class="headerlink" href="#procedure-preview" title="Permalink to this heading">#</a></h3>
 <div class="note admonition">
 <p class="admonition-title">OVERVIEW</p>
 <ul class="simple">
@@ -499,46 +562,66 @@ Since we know that electrical field lines must be perpendicular to the equipoten
 </li>
 <li><p>Map electric field lines:</p>
 <ul>
-<li><p>Use a french curve for orthogonal interpolation</p></li>
-<li><p>Map at least 7 E-field lines, starting from the ⭐ starred ⭐ starting positions in <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 81</span></a>.</p></li>
+<li><p>Use a French curve for orthogonal interpolation</p></li>
+<li><p>Map at least 7 E-field lines, starting from the ⭐ starred ⭐ starting positions in <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 86</span></a>.</p></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p>Each person will complete at least one whole plot with: 1) dashed lines representing equipotential lines of 0 – 24 V in 4 V increments covering the page edge-to-edge – measured by testing voltage with the probe at 0.5 – 2 cm increments depending on equipotential curviness and 2) solid lines representing the E-field. There are three configurations (<a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 81</span></a>). Each plot should contain 7 measured equipotential lines/surfaces and at least 7 estimated E-field lines.</p></li>
+<li><p>Each person will complete at least one whole plot with: 1) dashed lines representing equipotential lines of 0 – 24 V in 4 V increments covering the page edge-to-edge – measured by testing voltage with the probe at 0.5 – 2 cm increments depending on equipotential curviness and 2) solid lines representing the E-field. There are three configurations (<a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 86</span></a>). Each plot should contain 7 measured equipotential lines/surfaces and at least 7 estimated E-field lines.</p></li>
 </ul>
 </div>
 <figure class="align-default" id="e2fig03-plots">
 <a class="reference internal image-reference" href="../_images/E2_AllElectrodes_stars_v03.jpg"><img alt="../_images/E2_AllElectrodes_stars_v03.jpg" src="../_images/E2_AllElectrodes_stars_v03.jpg" style="width: 70%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 81 </span><span class="caption-text">Electrode configurations. The stars suggest starting positions for E-field lines.</span><a class="headerlink" href="#e2fig03-plots" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 86 </span><span class="caption-text">Electrode configurations. The stars show minimum required starting positions for E-field lines.</span><a class="headerlink" href="#e2fig03-plots" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
+</section>
+<section id="preliminary-setup">
+<h3>Preliminary Setup<a class="headerlink" href="#preliminary-setup" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple" id="procedure-mapping-potential-step-1">
-<li><p>Each group will plot all three electrode configurations (see <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 81</span></a>); each person will draw at least one configuration. Place one of these conducting electrode sheets on the cork mounting board and fasten down with a metal push pin at the end of the silver electrodes. Make sure the pins are pushed all the way down to make electrical contact with the electrode.</p></li>
-<li><p>Refer to <a class="reference internal" href="#e2fig01"><span class="std std-numref">Fig. 79</span></a>; connect both the positive terminal of the first voltmeter and one of the electrodes to the positive terminal of the power supply. Connect the other electrode similarly to the positive terminal of the power supply and first voltmeter. The probe will be connected to the positive terminal of the second voltmeter, while the negative terminal of the second voltmeter is connected to the negative electrode.</p></li>
+<li><p>Each group will plot all three electrode configurations (see <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 86</span></a>); each person will draw at least one configuration. Place one of these conducting electrode sheets on the cork mounting board and fasten down with a metal push pin at the end of the silver electrodes. Make sure the pins are pushed all the way down to make electrical contact with the electrode.</p></li>
+<li><p>Refer to <a class="reference internal" href="#e2fig01"><span class="std std-numref">Fig. 83</span></a>; connect both the positive terminal of the first voltmeter and one of the electrodes to the positive terminal of the power supply. Connect the other electrode similarly to the positive terminal of the power supply and first voltmeter. The probe will be connected to the positive terminal of the second voltmeter, while the negative terminal of the second voltmeter is connected to the negative electrode.</p></li>
 <li><p>A photocopy of the electrodes on a sheet of graph paper will be provided for each of the electrode configurations. They will be used to record the points of the equipotential lines determined in the following steps.</p></li>
 <li><p>Gently place the probe on the positive electrode and adjust the power supply so the voltmeter reads 24 V. Check that the probe is making electrical contact by moving it, with a very light downward pressure, from the positive electrode to the negative electrode. Verify that the voltage decreases smoothly from 24 V to 0 V. The whole sheet will be at 24 V or 0 V if a pin does not make contact; if so, reset the pins and check again.</p></li>
-<li><p>With a very light downward pressure move the probe along one of the long sides of the conducting paper until the voltage on the first voltmeter is 20.0 V. Mark the point on the graph paper.</p></li>
-<li><p>Now move the probe about a centimeter away to find the next nearest point as close to 20 V as possible and mark it on the graph paper. After having two positions marked, you can start to indicate the direction of the equipotential. The tangent to the equipotential will help you search for the next point. Move again and mark the next point and direction on the corresponding point on the graph paper copy. Continue in this manner until you reach the opposite side of the conductive paper. <em>If it appears that the equipotential line is curving rapidly, as it might near a small radius edge of an electrode, it will be helpful to take more closely spaced points. These points must be connected by a carefully drawn, smooth curve, making sure they do not cross other equipotential lines, including the surface of the electrodes.</em></p></li>
-<li><p>With the aide of a ‘French’ curve available in the laboratory, draw a <strong>DASHED CURVE</strong> through these points and tangent to the equipotential which can be defined as the 20 V equipotential line.</p></li>
-<li><p>Now, move the probe along the edge and find a 16 V point and proceed to find and plot the series of points of the 16 V equipotential line from one side to the other of the conductive paper.</p></li>
-<li><p>Proceed in this fashion in 4.0 V steps and plot the rest of the five equipotential lines between the electrodes and label all 7 equipotentials (24, 20, 16, 12, 8, 4, 0 V. Note: The electrode surfaces represent the zero and 24 V equipotential lines.</p></li>
-<li><p>After the equipotential lines have been determined, draw in the corresponding electric field lines starting at one electrode and running to the other electrode. Use a ‘French’ curve and the technique described in the background section above. Sketch in at least seven <strong>SOLID</strong> lines to give a representative picture of what the electric field looks like (suggested, equally spaced starting positions are indicated in <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 81</span></a>); add additional E-field lines as needed to ensure full characterization of the electric field including lines that may go off the page. Sketch lines including the areas at the edges. Recall that the electric field lines are perpendicular to the equipotential lines, including the electrode surface edges (<a class="reference internal" href="#e2fig02"><span class="std std-numref">Fig. 80</span></a>). <strong>THESE SKETCHES MUST BE MADE BEFORE LEAVING THE LABORATORY</strong>. Compare them with similar figures in your text and if they are not satisfactory, then take additional data as necessary.</p></li>
-<li><p>These field patterns should be carefully and neatly reproduced, on each graph paper with the corresponding electrode pattern. As with any graph or illustration, they must be clearly annotated with <strong>appropriate labels, potentials, polarities, and field directions</strong>. <strong>ALSO, INCLUDE THE PLOT-DRAWER’S NAME AND GROUPMATES’ NAMES ON EACH PLOT.</strong></p></li>
-<li><p>Repeat from <a class="reference internal" href="#procedure-mapping-potential-step-1"><span class="std std-ref">Step 1</span></a> for each selected electrode configuration.</p></li>
 </ol>
+</section>
+<section id="experimental-data-collection">
+<span id="detailsteps-equipotentialmapping"></span><h3>Experimental Data Collection<a class="headerlink" href="#experimental-data-collection" title="Permalink to this heading">#</a></h3>
+<ol class="arabic" start="5">
+<li><p>With a very light downward pressure move the probe along one of the long sides of the conducting paper until the voltage on the first voltmeter is 20.0 V. Mark the point on the graph paper.</p>
+<div class="tip admonition">
+<p class="admonition-title">Conductive &amp; Printed Pages</p>
+<ul class="simple">
+<li><p>Draw in PENCIL so you can erase as needed</p></li>
+<li><p>DO NOT DRAW ON THE BLACK CONDUCTIVE PAPER</p></li>
+<li><p>Draw on the white printed copies of the electrode configurations — THIS is what you will turn in as “spreadsheets”</p></li>
+<li><p>Each + marking on the graph papers have a spacing of <span class="math notranslate nohighlight">\(1\,\text{cm}\)</span></p></li>
+</ul>
+</div>
+</li>
+<li><p>Now move the probe about a centimeter away to find the next nearest point as close to 20 V as possible and mark it on the graph paper. After having two positions marked, you can start to indicate the direction of the equipotential. The tangent to the equipotential will help you search for the next point. Move again and mark the next point and direction on the corresponding point on the graph paper copy. Continue in this manner until you reach the opposite side of the conductive paper. <em>If it appears that the equipotential line is curving rapidly, as it might near a small radius edge of an electrode, it will be helpful to take more closely spaced points. These points must be connected by a carefully drawn, smooth curve, making sure they do not cross other equipotential lines, including the surface of the electrodes.</em></p></li>
+<li><p>With the aide of a French curve (reviewed in <a class="reference internal" href="#demo-video-equipotential-mapping"><span class="std std-ref">Demo Video: Setup, Procedure, &amp; French Curves</span></a>), draw a <strong>DASHED CURVE</strong> through these points and tangent to the equipotential which can be defined as the 20 V equipotential line.</p></li>
+<li><p>Now, move the probe along the edge and find a 16 V point and proceed to find and plot the series of points of the 16 V equipotential line from one side to the other of the conductive paper.</p></li>
+<li><p>Proceed in this fashion in 4.0 V steps and plot the rest of the five equipotential lines between the electrodes and label all 7 equipotentials (24, 20, 16, 12, 8, 4, 0 V). Note: The electrode surfaces represent the zero and 24 V equipotential lines.</p></li>
+<li><p>After the equipotential lines have been determined, draw in the corresponding electric field lines starting at one electrode and running to the other electrode. Use a French curve and the technique described in the demo video, <a class="reference internal" href="#demo-video-equipotential-mapping"><span class="std std-ref">Demo Video: Setup, Procedure, &amp; French Curves</span></a>. Sketch in at least seven <strong>SOLID</strong> lines to give a representative picture of what the electric field looks like (minimum 7, equally spaced starting positions are indicated by ★ in <a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 86</span></a>); add additional E-field lines as needed to ensure full characterization of the electric field including lines that may go off the page. Sketch lines including the areas at the edges. Recall that the electric field lines do not cross and are perpendicular to the equipotential lines, including the electrode surface edges (<a class="reference internal" href="#e2fig002"><span class="std std-numref">Fig. 82</span></a>, <a class="reference internal" href="#e2fig003"><span class="std std-numref">Fig. 81</span></a>, <a class="reference internal" href="#e2fig02"><span class="std std-numref">Fig. 84</span></a>). <strong>THESE SKETCHES MUST BE MADE BEFORE LEAVING THE LABORATORY</strong>. Compare them with similar figures in your text and if they are not satisfactory, then take additional data as necessary.</p></li>
+<li><p>These field patterns should be carefully and neatly reproduced, on each graph paper with the corresponding electrode pattern. As with any graph or illustration, they must be clearly annotated with <strong>appropriate labels, potentials, polarities, and field directions</strong>. <strong>ALSO, INCLUDE THE PLOT-DRAWER’S NAME AND GROUPMATES’ NAMES ON EACH PLOT.</strong></p></li>
+<li><p>Repeat from <a class="reference internal" href="#procedure-mapping-potential-step-1"><span class="std std-ref">Step 1</span></a> for each electrode configuration.</p></li>
+</ol>
+</section>
 </section>
 <section id="post-lab-submission-interpretation-of-results">
 <h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
 <p>Note: For this lab, your results will be very qualitative.</p>
 <section id="finalized-spreadsheets">
-<h3>Finalized Spreadsheets<a class="headerlink" href="#finalized-spreadsheets" title="Permalink to this heading">#</a></h3>
+<h3>Finalized “Spreadsheets”<a class="headerlink" href="#finalized-spreadsheets" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Make sure to submit <strong>all three</strong> of your finalized field mappings.</p>
 <ul>
 <li><p>INCLUDE THE PLOT-DRAWER’S NAME AND GROUPMATES’ NAMES ON EACH PLOT.</p></li>
 <li><p>Include all labels and markings as described throughout the procedure.</p></li>
+<li><p>Submit to the “spreadsheets” assignment in Blackboard.</p></li>
 </ul>
 </li>
 </ul>
@@ -549,7 +632,7 @@ Since we know that electrical field lines must be perpendicular to the equipoten
 <li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative, not only quantitative.</p>
 <ul>
 <li><p>What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?</p></li>
-<li><p>How could you increase your confidence (i.e. decrease you uncertainty) in your electric field lines (i.e. final results) considering your methodology from today’s lab? <em>Consider electrode configuration 3 (<a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 81</span></a> 3).</em></p></li>
+<li><p>How could you increase your confidence (i.e. decrease you uncertainty) in your electric field lines (i.e. final results) considering your methodology from today’s lab? <em>Consider electrode configuration 3 (<a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 86</span></a> 3).</em></p></li>
 </ul>
 </li>
 <li><p>In a <strong>paragraph</strong>, summarize the results you have determined in each case. Consider:</p>
@@ -558,7 +641,7 @@ Since we know that electrical field lines must be perpendicular to the equipoten
 <li><p>How do the equipotential lines that you drew physically relate to the electrode spacing and shapes?</p></li>
 <li><p>How do the E-field lines that you drew physically relate to both the electrode and the equipotential patterns? – What happens to your E-field lines when equipotentials were curved, or closer together/further apart?</p></li>
 <li><p>If you placed an <em>electron</em> on an equipotential, say the 16 V equipotential, what direction would the <em>electron</em> move?</p></li>
-<li><p>What do the electric field and electric potential patterns in electrode configuration 1 (<a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 81</span></a> 1) suggest about the electric field between the two plates in lab E-1?</p></li>
+<li><p>What do the electric field and electric potential patterns in electrode configuration 1 (<a class="reference internal" href="#e2fig03-plots"><span class="std std-numref">Fig. 86</span></a> 1) suggest about the electric field between the two plates in lab E-1?</p></li>
 </ul>
 </li>
 </ul>
@@ -569,7 +652,7 @@ Since we know that electrical field lines must be perpendicular to the equipoten
 <figure class="align-center" id="mapping-whiteboard-01">
 <a class="reference internal image-reference" href="../_images/map_2025_Summer_01_v02.jpg"><img alt="../_images/map_2025_Summer_01_v02.jpg" src="../_images/map_2025_Summer_01_v02.jpg" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 82 </span><span class="caption-text">Overview.</span><a class="headerlink" href="#mapping-whiteboard-01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 87 </span><span class="caption-text">Overview.</span><a class="headerlink" href="#mapping-whiteboard-01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -641,13 +724,20 @@ Since we know that electrical field lines must be perpendicular to the equipoten
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-overview">Background Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-overview">Experimental Overview</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-video-setup-procedure-french-curves">Demo Video: Setup, Procedure, &amp; French Curves</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure-preview">Procedure Preview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preliminary-setup">Preliminary Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-collection">Experimental Data Collection</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized Spreadsheets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized “Spreadsheets”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-writeup">Post-lab Writeup</a></li>
 </ul>
 </li>

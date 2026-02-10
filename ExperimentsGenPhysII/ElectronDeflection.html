@@ -171,9 +171,10 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Schedule for PHYS 1172L</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Schedule for PHYS 1146L</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../scheduleByProfessor.html">Overview of the schedule for PHYS 1146L and PHYS 1172L</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scheduleByMeetingTimesAll.html">Full Lab Schedule with Meeting Times</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1171.html">Lab Days for PHYS 1172L (with links)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../schedulePHYS1145.html">Lab Days for PHYS 1146L (with links)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scheduleByProfessor.html">Weekly Meeting Times by Instructor &amp; Lab Makeup Procedure</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">General information</span></p>
 <ul class="nav bd-sidenav">
@@ -406,11 +407,16 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-overview">Background Overview</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure-preview-preliminary-setup">Procedure Preview &amp; Preliminary Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-collection">Experimental Data Collection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-analysis">Experimental Data Analysis</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
@@ -428,22 +434,32 @@
 <span id="acceleration-and-deflection-of-electrons-overall"></span><h1>Acceleration &amp; Deflection of Electrons<a class="headerlink" href="#acceleration-deflection-of-electrons" title="Permalink to this heading">#</a></h1>
 <section id="background">
 <h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
-<section id="overall-goals-and-overview">
-<h3>Overall goals and overview:<a class="headerlink" href="#overall-goals-and-overview" title="Permalink to this heading">#</a></h3>
+<section id="background-overview">
+<h3>Background Overview<a class="headerlink" href="#background-overview" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERALL GOALS</p>
+<p>Use a cathode ray tube (CRT) to investigate:</p>
 <ul class="simple">
-<li><p><strong>OVERALL GOALS and Overview:</strong></p>
+<li><p>How charged particles behave when they move through an electric field including:</p>
 <ul>
-<li><p>Investigate both the acceleration and deflection of electrons as they pass through uniform electric fields produced by “parallel-plate capacitors” within a CRT.</p></li>
-<li><p>Analyze the relationship of “electron-deflection distance” vs. “deflection voltage” of a uniform electric field by plotting and comparing to the expected slope based on the internals of your CRT.</p></li>
-<li><p>In this experiment, you will first set up the grid/focus/acceleration voltages to those listed for each case on the paper inside the apparatus. The X/Y-deflection voltages will be set to zero. The electron beam on the screen can then be moved to the origin with the zeroing knobs. Then the electron deflection in the Y-direction can be measured with the on-screen grid when applying differing amounts of deflection voltage. Then plot <span class="math notranslate nohighlight">\(D\)</span> vs. <span class="math notranslate nohighlight">\(V_d\)</span> and compare to expected values.</p></li>
+<li><p>Acceleration and deflection of electrons as they pass through uniform electric fields produced by “parallel-plate capacitors” within a CRT</p></li>
+<li><p>Relationship of “electron-deflection distance” vs. “deflection voltage” (i.e. analog for deflection vs. E-field strength)</p></li>
 </ul>
 </li>
 </ul>
-<p>The instrument used in this experiment is a cathode ray tube [CRT]. When the filament of this device (also called an electron gun) is heated, electrons (mass = <span class="math notranslate nohighlight">\(9.109 \times 10^{-31}\)</span> kg) are freed and given an acceleration. The acceleration is received when the beam of electrons passes through a region of positive potential with respect to the cathode. Consider the schematic of the tube in <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 83</span></a>.</p>
+</div>
+<!---
+- **OVERALL GOALS and Overview:**
+  - Investigate both the acceleration and deflection of electrons as they pass through uniform electric fields produced by "parallel-plate capacitors" within a CRT.
+  - Analyze the relationship of "electron-deflection distance" vs. "deflection voltage" of a uniform electric field by plotting and comparing to the expected slope based on the internals of your CRT.
+  - In this experiment, you will first set up the grid/focus/acceleration voltages to those listed for each case on the paper inside the apparatus. The X/Y-deflection voltages will be set to zero. The electron beam on the screen can then be moved to the origin with the zeroing knobs. Then the electron deflection in the Y-direction can be measured with the on-screen grid when applying differing amounts of deflection voltage. Then plot $D$ vs. $V_d$ and compare to expected values.
+
+--->
+<p>The instrument used in this experiment is a cathode ray tube [CRT]. When the filament of this device (also called an electron gun) is heated, electrons (mass = <span class="math notranslate nohighlight">\(9.109 \times 10^{-31}\)</span> kg) are freed and given an acceleration. The acceleration is received when the beam of electrons passes through a region of positive potential with respect to the cathode. Consider the schematic of the tube in <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 88</span></a>.</p>
 <figure class="align-default" id="e3fig01">
 <a class="reference internal image-reference" href="../_images/E3_schematic_and_CRT_sideview_2024_v03.png"><img alt="../_images/E3_schematic_and_CRT_sideview_2024_v03.png" src="../_images/E3_schematic_and_CRT_sideview_2024_v03.png" style="width: 600px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 83 </span><span class="caption-text">Top) Schematic of the Electron Path in the CRT. Bottom) Electron beam path through the CRT.</span><a class="headerlink" href="#e3fig01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 88 </span><span class="caption-text">Top) Schematic of the Electron Path in the CRT. Bottom) Electron beam path through the CRT.</span><a class="headerlink" href="#e3fig01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>The electrons receive an amount of kinetic energy given by</p>
@@ -452,10 +468,10 @@
 <p>where <span class="math notranslate nohighlight">\(e\)</span> is the charge of the electron and <em>accelerating voltage</em> <span class="math notranslate nohighlight">\(V_{k}\)</span> (often just <span class="math notranslate nohighlight">\(V\)</span>, but changed here to <span class="math notranslate nohighlight">\(V_{k}\)</span> for the sake of consistency with the apparatus used today) is the potential difference between the cathode and plate #1 (anode). Thus the velocity in the <span class="math notranslate nohighlight">\(x\)</span>-direction towards the phosphor-coated screen of the CRT, <span class="math notranslate nohighlight">\(v_{x}\)</span> is given by</p>
 <div class="math notranslate nohighlight" id="equation-eq-velocity-x">
 <span class="eqno">(113)<a class="headerlink" href="#equation-eq-velocity-x" title="Permalink to this equation">#</a></span>\[v_x=\sqrt{\frac{2 e \cdot V_k}{m}}\]</div>
-<p>Then, the accelerated electron beam passes between two parallel plates. If a potential <span class="math notranslate nohighlight">\(V_{d}\)</span> is applied between the plates, the electron beam will be deflected toward the positive plate by a force <span class="math notranslate nohighlight">\(F_E = eE\)</span> where <span class="math notranslate nohighlight">\(E\)</span> is the electric field between the plates and <span class="math notranslate nohighlight">\(e\)</span> is the electric charge. Thus the acceleration in the <span class="math notranslate nohighlight">\(y\)</span>-direction (a.k.a. transverse direction, see <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 83</span></a>) due to the deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span> is given by</p>
+<p>Then, the accelerated electron beam passes between two parallel plates. If a potential <span class="math notranslate nohighlight">\(V_{d}\)</span> is applied between the plates, the electron beam will be deflected toward the positive plate by a force <span class="math notranslate nohighlight">\(F_E = eE\)</span> where <span class="math notranslate nohighlight">\(E\)</span> is the electric field between the plates and <span class="math notranslate nohighlight">\(e\)</span> is the electric charge. Thus the acceleration in the <span class="math notranslate nohighlight">\(y\)</span>-direction (a.k.a. transverse direction, see <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 88</span></a>) due to the deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span> is given by</p>
 <div class="math notranslate nohighlight" id="equation-eq-acceleration-y">
 <span class="eqno">(114)<a class="headerlink" href="#equation-eq-acceleration-y" title="Permalink to this equation">#</a></span>\[a_y = \frac{F_E}{m} = \frac{e E}{m} = \frac{e\cdot V_d}{m d}\]</div>
-<p>where <span class="math notranslate nohighlight">\(d\)</span> is the plate separation and <span class="math notranslate nohighlight">\(m\)</span> is the electron mass. Since the electric field between the plates is approximately uniform, the path of the beam will be parabolic in the region between the plates. (Illustrated in <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 83</span></a>, this is a case of an object undergoing uniform acceleration just like an object in projectile motion.) After the beam leaves this space, it will continue in a straight line with a horizontal velocity <span class="math notranslate nohighlight">\(v_{x}\)</span> and a vertical velocity <span class="math notranslate nohighlight">\(v_{y}\)</span> until it strikes the screen at point ‘p.’</p>
+<p>where <span class="math notranslate nohighlight">\(d\)</span> is the plate separation and <span class="math notranslate nohighlight">\(m\)</span> is the electron mass. Since the electric field between the plates is approximately uniform, the path of the beam will be parabolic in the region between the plates. (Illustrated in <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 88</span></a>, this is a case of an object undergoing uniform acceleration just like an object in projectile motion.) After the beam leaves this space, it will continue in a straight line with a horizontal velocity <span class="math notranslate nohighlight">\(v_{x}\)</span> and a vertical velocity <span class="math notranslate nohighlight">\(v_{y}\)</span> until it strikes the screen at point ‘p.’</p>
 <p>The transverse velocity, i.e. in the <span class="math notranslate nohighlight">\(y\)</span> or ‘deflection’ direction we are using today, is given by</p>
 <div class="math notranslate nohighlight" id="equation-eq-velocity-y">
 <span class="eqno">(115)<a class="headerlink" href="#equation-eq-velocity-y" title="Permalink to this equation">#</a></span>\[v_y=a_y t\]</div>
@@ -465,7 +481,7 @@
 <p>By combining the above <a class="reference internal" href="#equation-eq-acceleration-y">(114)</a>, <a class="reference internal" href="#equation-eq-velocity-y">(115)</a>, and <a class="reference internal" href="#equation-eq-time-t">(116)</a>, we obtain the transverse velocity <span class="math notranslate nohighlight">\(v_y\)</span> in terms of measurable quantities, namely</p>
 <div class="math notranslate nohighlight" id="equation-eq-transverse-velocity">
 <span class="eqno">(117)<a class="headerlink" href="#equation-eq-transverse-velocity" title="Permalink to this equation">#</a></span>\[v_{y}=\frac{e V_{d}}{m d}\left(\frac{l}{v_{x}}\right)\]</div>
-<p>Referring to <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 83</span></a>, the actual on-screen deflection <span class="math notranslate nohighlight">\(D\)</span> from the axis is <span class="math notranslate nohighlight">\(v_{y}\)</span> times the time of flight, <span class="math notranslate nohighlight">\(t^\prime\)</span>, over the distance <span class="math notranslate nohighlight">\(L\)</span> from the end of the deflection plates to the screen. Assuming that <span class="math notranslate nohighlight">\(L\gg l\)</span>, then the time of flight <span class="math notranslate nohighlight">\(t^\prime = L/v_{x}\)</span>. Since distance equals velocity × time, we get</p>
+<p>Referring to <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 88</span></a>, the actual on-screen deflection <span class="math notranslate nohighlight">\(D\)</span> from the axis is <span class="math notranslate nohighlight">\(v_{y}\)</span> times the time of flight, <span class="math notranslate nohighlight">\(t^\prime\)</span>, over the distance <span class="math notranslate nohighlight">\(L\)</span> from the end of the deflection plates to the screen. Assuming that <span class="math notranslate nohighlight">\(L\gg l\)</span>, then the time of flight <span class="math notranslate nohighlight">\(t^\prime = L/v_{x}\)</span>. Since distance equals velocity × time, we get</p>
 <div class="math notranslate nohighlight" id="equation-eq-deflection-basic">
 <span class="eqno">(118)<a class="headerlink" href="#equation-eq-deflection-basic" title="Permalink to this equation">#</a></span>\[D = v_y t^\prime \rightarrow D = v_y\left(\frac{L}{v_x}\right)\]</div>
 <p>As a result of combining everything we’ve seen so far:</p>
@@ -477,7 +493,7 @@
 <p>Summing up, the assumptions made in this derivation include:</p>
 <ol class="arabic simple">
 <li><p>The geometry of the deflection plates can be considered a ‘parallel-plate’ capacitor configuration. That is, the plates are relatively large and closely spaced. This implies that the electric field is uniform, vertical, and completely contained between the deflection plates.</p></li>
-<li><p>The distance to the screen is large compared to the horizontal size of the deflection plates (<span class="math notranslate nohighlight">\(L\gg l\)</span> in <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 83</span></a>), so the electron path may be considered to be a straight line from the center of the deflection plate configuration to screen.</p></li>
+<li><p>The distance to the screen is large compared to the horizontal size of the deflection plates (<span class="math notranslate nohighlight">\(L\gg l\)</span> in <a class="reference internal" href="#e3fig01"><span class="std std-numref">Fig. 88</span></a>), so the electron path may be considered to be a straight line from the center of the deflection plate configuration to screen.</p></li>
 <li><p>The electron beam’s enters with an initial direction that is parallel to the deflection plates.</p></li>
 </ol>
 </section>
@@ -498,26 +514,40 @@
 </section>
 <section id="experimental-procedure">
 <h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<section id="procedure-preview-preliminary-setup">
+<h3>Procedure Preview &amp; Preliminary Setup<a class="headerlink" href="#procedure-preview-preliminary-setup" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW</p>
+<ul class="simple">
+<li><p>Analyze the relationship of “electron-deflection distance” vs. “deflection voltage” of a uniform electric field by plotting and comparing to the expected slope based on the internals of your CRT.</p></li>
+<li><p>In this experiment, you will first set up the grid/focus/acceleration voltages to those listed for each case on the paper inside the apparatus. The X/Y-deflection voltages will be set to zero. The electron beam on the screen can then be moved to the origin with the zeroing knobs. Then the electron deflection in the Y-direction can be measured with the on-screen grid when applying differing amounts of deflection voltage. Then plot <span class="math notranslate nohighlight">\(D\)</span> vs. <span class="math notranslate nohighlight">\(V_d\)</span> and compare to expected values.</p></li>
+</ul>
+</div>
 <figure class="align-default" id="e3fig02">
-<a class="reference internal image-reference" href="../_images/E3_CRTControls_2024_v02.png"><img alt="../_images/E3_CRTControls_2024_v02.png" src="../_images/E3_CRTControls_2024_v02.png" style="width: 600px;" /></a>
+<a class="reference internal image-reference" href="../_images/E3_CRTControls_2024_v02.png"><img alt="../_images/E3_CRTControls_2024_v02.png" src="../_images/E3_CRTControls_2024_v02.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 84 </span><span class="caption-text">Controls and parameters for the CRT.</span><a class="headerlink" href="#e3fig02" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 89 </span><span class="caption-text">Controls and parameters for the CRT.</span><a class="headerlink" href="#e3fig02" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ol class="arabic simple">
-<li><p>All knobs, switched, displays are numbered and will appear as (#) in the following steps which correspond to those shown in <a class="reference internal" href="#e3fig02"><span class="std std-numref">Fig. 84</span></a>.</p></li>
+<li><p>All knobs, switched, displays are numbered and will appear as (#) in the following steps which correspond to those shown in <a class="reference internal" href="#e3fig02"><span class="std std-numref">Fig. 89</span></a>.</p></li>
 <li><p>Turn on the main power switch (10), and wait until the cathode warms up and a bright spot appears on the screen. If it doesn’t appear after ~30 s, an instructor can be of assistance; it’s likely a deflection or zeroing knob pushed the beam off-screen.</p></li>
+</ol>
+</section>
+<section id="experimental-data-collection">
+<span id="detailsteps-accel-of-electrons"></span><h3>Experimental Data Collection<a class="headerlink" href="#experimental-data-collection" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple" start="3">
 <li><p><strong>FOR CASE 1</strong> as listed on apparatus. Set the CRT voltage selector switch (3) to read the grid voltage <span class="math notranslate nohighlight">\(V_{G}\)</span>. Adjust the grid voltage to the given value using the grid potentiometer (17) whose voltage appears on the top voltmeter display (24).</p></li>
 <li><p>Now set the CRT voltage selector (3) to read the focus voltage <span class="math notranslate nohighlight">\(V_{I}\)</span>. Adjust the focus voltage to the given value using the focus potentiometer (20) whose voltage also appears on the top voltmeter display (24).</p></li>
 <li><p>Next, set the CRT voltage selector (3) to read the acceleration or cathode voltage <span class="math notranslate nohighlight">\(V_{K}\)</span>. Set the accel. voltage to the given values using the accel. potentiometer (21) whose voltage also appears on the top voltmeter display (24). (<span class="math notranslate nohighlight">\(V_{K, case 1} = 950\)</span> V, <span class="math notranslate nohighlight">\(V_{K, case 2} = 1100\)</span> V)</p></li>
 <li><p>Set electrostatic deflection selector switch (8) to X-deflection <span class="math notranslate nohighlight">\(V_{x}\)</span>, and set the X-deflection voltage potentiometers (13) to zero (0.0 V) which appears on the middle voltmeter display (23).</p></li>
 <li><p>Set electrostatic deflection selector switch (8) to Y-deflection <span class="math notranslate nohighlight">\(V_{y}\)</span>, and set the Y-deflection voltage potentiometers (12) to zero (0.0 V), again appearing on the middle voltmeter display (23).</p></li>
-<li><p>Then, use the <em><strong>ZERO</strong></em> X and Y potentiometers (1) to move the bright electron-beam spot to the bottom center of the screen grid (see <a class="reference internal" href="#e3fig03"><span class="std std-numref">Fig. 85</span></a>). These knobs do not change the Electrostatic Voltages in (23); if the voltages do change, check you are in fact using the <strong>ZERO</strong> knobs (1), <strong>not</strong> (12) or (13). Make sure to view the CRT head-on so as to account for possible misalignment from the effects of parallax (since the grid is horizontally displaced from the glass of the CRT).</p></li>
+<li><p>Then, use the <em><strong>ZERO</strong></em> X and Y potentiometers (1) to move the bright electron-beam spot to the bottom center of the screen grid (see <a class="reference internal" href="#e3fig03"><span class="std std-numref">Fig. 90</span></a>). These knobs do not change the Electrostatic Voltages in (23); if the voltages do change, check you are in fact using the <strong>ZERO</strong> knobs (1), <strong>not</strong> (12) or (13). Make sure to view the CRT head-on so as to account for possible misalignment from the effects of parallax (since the grid is horizontally displaced from the glass of the CRT).</p></li>
 </ol>
 <figure class="align-default" id="e3fig03">
 <a class="reference internal image-reference" href="../_images/E3_CRT_Grid_2024.png"><img alt="../_images/E3_CRT_Grid_2024.png" src="../_images/E3_CRT_Grid_2024.png" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 85 </span><span class="caption-text">Example of CRT grid and 4 mm spacings.</span><a class="headerlink" href="#e3fig03" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 90 </span><span class="caption-text">Example of CRT grid and 4 mm spacings.</span><a class="headerlink" href="#e3fig03" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ol class="arabic simple" start="9">
@@ -533,7 +563,12 @@
 <li><p>Note the initial deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span> at <span class="math notranslate nohighlight">\(D=0\)</span> mm, then slowly increase the y-deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span> using the <span class="math notranslate nohighlight">\(y\)</span>-deflection potentiometer (12). Move the bright spot 4 mm and record the deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span>. Continue this process every 4 mm up to 48 mm for a total of 13 data points.
 <strong>Double check:</strong> The acceleration voltage <span class="math notranslate nohighlight">\(V_{k}\)</span> and the horizontal deflection voltage <span class="math notranslate nohighlight">\(V_{x}\)</span> must be constant during this procedure.</p></li>
 <li><p><strong>FOR CASE 2</strong>, repeat steps 3 to 12 above using Case 2 data listed on the apparatus including an acceleration voltage of 1100 V.</p></li>
-<li><p>For each case, plot your values of deflection distance <span class="math notranslate nohighlight">\(D\)</span> vs. deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span>. Reminder, <span class="math notranslate nohighlight">\(D\)</span> is not calculated, but rather just your 4 mm increments. Draw a best fit line through the data points and determine the slope, <span class="math notranslate nohighlight">\(m_\text{experimental}\)</span> of the line and the slope’s uncertainty <span class="math notranslate nohighlight">\(\delta m_\text{experimental}\)</span> (available either on the trend line equation or with the LINEST() function).</p></li>
+</ol>
+</section>
+<section id="experimental-data-analysis">
+<h3>Experimental Data Analysis<a class="headerlink" href="#experimental-data-analysis" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple" start="14">
+<li><p><strong>Graphical Analysis:</strong> For each case, plot your values of deflection distance <span class="math notranslate nohighlight">\(D\)</span> vs. deflection voltage <span class="math notranslate nohighlight">\(V_{d}\)</span>. Reminder, <span class="math notranslate nohighlight">\(D\)</span> is not calculated, but rather just your 4 mm increments. Draw a best fit line through the data points and determine the slope, <span class="math notranslate nohighlight">\(m_\text{experimental}\)</span> of the line and the slope’s uncertainty <span class="math notranslate nohighlight">\(\delta m_\text{experimental}\)</span> (available either on the trend line equation or with the LINEST() function).</p></li>
 <li><p>Compare your data fit (slope) with the expected slope as predicted by the equation for <span class="math notranslate nohighlight">\(D\)</span> vs. <span class="math notranslate nohighlight">\(V_{d}\)</span>, namely</p></li>
 </ol>
 <div class="math notranslate nohighlight" id="equation-eq-slope-expected">
@@ -549,6 +584,7 @@ a. Use all 13 of your experimental deflection positions <span class="math notran
 <p>c. Compare this RMS value to your estimate of how well you can read displacements on the screen (i.e. comparing to position uncertainties <span class="math notranslate nohighlight">\(\delta D\)</span>).</p>
 </li>
 </ol>
+</section>
 </section>
 <section id="post-lab-submission-interpretation-of-results">
 <h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
@@ -580,7 +616,7 @@ a. Use all 13 of your experimental deflection positions <span class="math notran
 <figure class="align-center" id="electrondeflection-whiteboard-01">
 <a class="reference internal image-reference" href="../_images/ElecAccel_2025_Spring_01_v02.jpg"><img alt="../_images/ElecAccel_2025_Spring_01_v02.jpg" src="../_images/ElecAccel_2025_Spring_01_v02.jpg" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 86 </span><span class="caption-text">Overview.</span><a class="headerlink" href="#electrondeflection-whiteboard-01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 91 </span><span class="caption-text">Overview.</span><a class="headerlink" href="#electrondeflection-whiteboard-01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -652,11 +688,16 @@ a. Use all 13 of your experimental deflection positions <span class="math notran
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-overview">Background Overview</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure-preview-preliminary-setup">Procedure Preview &amp; Preliminary Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-collection">Experimental Data Collection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-data-analysis">Experimental Data Analysis</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
