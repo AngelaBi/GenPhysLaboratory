@@ -61,16 +61,7 @@ Schedule for PHYS 1145L
 
 
 
-# Schedule for PHYS 1146L
-
-## Printed Lab Schedule
-
-```{figure} ScheduleFigures/2026_Spring_LabSchedulePrintout_1146L_ONLY_v1.jpg
-:name: schedulePHYS1146L
-:width: 100%
-:align: center
-Schedule for PHYS 1146L
-```
+# Lab Days for PHYS 1146L (with links)
 
 ## Schedule with links to relevant lab
 
@@ -93,6 +84,16 @@ Schedule for PHYS 1146L
 | 2026-04-27 |  |  | [Last Day of Classes] | *Reading day* | *Reading day* |
 | 2026-05-04 | *Finals week* | *Finals week* | *Finals week* | *Finals week* | *Finals week* |
 
+
+
+## Printed Lab Schedule
+
+```{figure} ScheduleFigures/2026_Spring_LabSchedulePrintout_1146L_ONLY_v1.jpg
+:name: schedulePHYS1146L
+:width: 100%
+:align: center
+Schedule for PHYS 1146L
+```
 
 
 <!---

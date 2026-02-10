@@ -1,7 +1,7 @@
 
 
 <!---
-# Overview of the schedule for PHYS 1145 and PHYS 1171
+# Weekly Meeting Times by Instructor & Lab Makeup Procedure
 
 ## Lab Makeup Procedure
 
@@ -120,7 +120,7 @@ Printed lab schedule by section for PHYS 1145L & 1171L. Included are the instruc
 
 
 
-# Overview of the schedule for PHYS 1146L and PHYS 1172L
+# Weekly Meeting Times by Instructor & Lab Makeup Procedure
 
 ## Lab Makeup Procedure
 
@@ -134,13 +134,13 @@ Please email and include (note, all the emails below end with ***@fairfield.edu*
 - Dr. McCabe (Lab Coordinator) --- **rmccabe**  
 - Instructor of the other lab section you are requesting to attend (emails below)
 
-    - Dr. Sharp --- **lsharp**
-    - Dr. Slattery --- **nslattery**
-    - Dr. Track --- **etrack**
-    - Prof. Scott – **kscott**
-    - Dr. McCabe --- **rmccabe**
-    - Dr. Robert Cordery --- **rcordery**
-    - Prof. Scrofani – **dscrofani**
+    - 1146L-01 --- Dr. Sharp --- **lsharp**
+    - 1146L-02 --- Dr. Slattery --- **nslattery**
+    - 1146L-03 --- Dr. Track --- **etrack**
+    - 1172L-04 --- Prof. Scott – **kscott**
+    - 1172L-01 --- Dr. McCabe --- **rmccabe** --- ***UNABLE TO TAKE MAKEUPS, LAB SPACE IS FULL***
+    - 1172L-02 --- Dr. Cordery --- **rcordery**
+    - 1172L-03 --- Prof. Scrofani – **dscrofani**
 
 
 ```
@@ -196,7 +196,7 @@ Please email and include (note, all the emails below end with ***@fairfield.edu*
         <b>Physics 1172L-01</b><br>
         <i>General Physics II Lab</i><br>
         Dr. McCabe<br><b>rmccabe</b><br><br>
-        5:00–7:30 PM<br>BNW 162
+        5:00–7:30 PM<br>BNW 162<br><b>***UNABLE TO TAKE MAKEUPS, LAB SPACE IS FULL***</b>
       </td>
       <td style="border:1px solid #999;"></td>
       <td style="border:1px solid #999;"></td>

@@ -60,16 +60,7 @@ Schedule for PHYS 1171L
 
 
 
-# Schedule for PHYS 1172L
-
-## Printed Lab Schedule
-
-```{figure} ScheduleFigures/2026_Spring_LabSchedulePrintout_1172L_ONLY_v1.jpg
-:name: schedulePHYS1172L
-:width: 100%
-:align: center
-Schedule for PHYS 1172L
-```
+# Lab Days for PHYS 1172L (with links)
 
 ## Schedule with links to relevant lab
 
@@ -93,6 +84,14 @@ Schedule for PHYS 1172L
 | 2026-05-04 | *Finals week* | *Finals week* | *Finals week* | *Finals week* | *Finals week* |
 
 
+## Printed Lab Schedule
+
+```{figure} ScheduleFigures/2026_Spring_LabSchedulePrintout_1172L_ONLY_v1.jpg
+:name: schedulePHYS1172L
+:width: 100%
+:align: center
+Schedule for PHYS 1172L
+```
 
 <!---
 [Excel & Spreadsheets Review, Syllabus](data-acquisition-and-analysis-overall)
