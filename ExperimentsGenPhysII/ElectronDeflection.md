@@ -100,7 +100,7 @@ Summing up, the assumptions made in this derivation include:
 2. The distance to the screen is large compared to the horizontal size of the deflection plates ($L\gg l$ in {numref}`E3Fig01`), so the electron path may be considered to be a straight line from the center of the deflection plate configuration to screen.
 3. The electron beam's enters with an initial direction that is parallel to the deflection plates.
 
-
+<!---
 ### Test back
 
 The instrument used in this experiment is a cathode ray tube (CRT). When the filament (electron gun) is heated, electrons (mass = 
@@ -304,6 +304,8 @@ The electron beam enters the deflection region parallel to the plates (no initia
 𝑦
 y-velocity).
 
+
+--->
 
 ### Equipment
 
