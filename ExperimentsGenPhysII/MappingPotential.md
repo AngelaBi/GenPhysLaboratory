@@ -124,6 +124,29 @@ Depicted in {numref}`E2Fig01` and {numref}`E2Fig03_plots`.
 
 
 
+
+(demo-video-equipotential-mapping)=
+## Demo Video: Setup, Procedure, & French Curves
+
+<div style="text-align: center;">
+  <iframe
+    width="80%"
+    height="315"
+    src="https://www.youtube.com/embed/JYqLqs7038Q"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Demonstration video. Reviews overall setup and procedure. *No audio*</figcaption>
+</div>
+
+If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=JYqLqs7038Q" target="_blank" rel="noopener noreferrer">
+https://www.youtube.com/watch?v=JYqLqs7038Q
+</a>
+
+
 ## Experimental Procedure
 
 ### Procedure Preview
@@ -146,31 +169,6 @@ name: E2Fig03_plots
 ---
 Electrode configurations. The stars show minimum required starting positions for E-field lines.
 ```
-
-
-
-
-(demo-video-equipotential-mapping)=
-### Demo Video for Mapping Equipotentials/E-fields & French Curves
-
-<div style="text-align: center;">
-  <iframe
-    width="80%"
-    height="315"
-    src="https://www.youtube.com/embed/JYqLqs7038Q"
-    title="YouTube video"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
-  <figcaption>Demonstration video. Reviews overall setup and procedure. *No audio*</figcaption>
-</div>
-
-If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=JYqLqs7038Q" target="_blank" rel="noopener noreferrer">
-https://www.youtube.com/watch?v=JYqLqs7038Q
-</a>
-
 
 
 ### Preliminary Setup

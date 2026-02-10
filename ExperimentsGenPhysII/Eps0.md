@@ -245,8 +245,32 @@ The apparatus has been carefully adjusted before your lab and should not require
 3. The apparatus can be leveled with the leveling screws so that it sits flat on the table.
 4. Mirror-to-scale distance was measured from rear of mirror (reflective surface) to ~center of $S_0$ and $S_1$ on the scale (ruler).
 
-## Experimental Procedure
 
+
+
+(demo-video-electric-constant)=
+## Demo Video: Setup & Procedure
+
+<div style="text-align: center;">
+  <iframe
+    width="80%"
+    height="315"
+    src="https://www.youtube.com/embed/2GMHmCrCKLQ"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Demonstration video. Reviews overall setup and procedure. *No audio*</figcaption>
+</div>
+
+If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=2GMHmCrCKLQ" target="_blank" rel="noopener noreferrer">
+https://www.youtube.com/watch?v=2GMHmCrCKLQ
+</a>
+
+
+## Experimental Procedure
 
 
 ### Procedure Preview
@@ -291,26 +315,6 @@ You will experimentally determine $\varepsilon_0$ today; a few weeks from now in
 ``` 
 
 
-(demo-video-electric-constant)=
-### Demo Video
-
-<div style="text-align: center;">
-  <iframe
-    width="80%"
-    height="315"
-    src="https://www.youtube.com/embed/2GMHmCrCKLQ"
-    title="YouTube video"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
-  <figcaption>Demonstration video. Reviews overall setup and procedure. *No audio*</figcaption>
-</div>
-
-If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=2GMHmCrCKLQ" target="_blank" rel="noopener noreferrer">
-https://www.youtube.com/watch?v=2GMHmCrCKLQ
-</a>
 
 
 ### Preliminary Setup
