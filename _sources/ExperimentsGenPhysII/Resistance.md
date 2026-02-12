@@ -5,10 +5,15 @@
 
 ## Background
 
-### Overall goals and overview
 
-- Investigate the relationship between resistance, voltage, and current within a circuit as well as Ohm's Law.
-- Conduct three experiments covering circuits with resistors and light bulbs, resistors in series, and resistors in parallel. You will apply a range of voltages through the circuits and measure both current and voltage across the resistors and light bulbs individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter. You will then apply just 4.00 V to the circuit with all three resistors in either series or parallel configurations and again measure both current and voltage across each resistor and compare to the expected values
+### Background Overview
+
+```{admonition} OVERALL GOALS
+:class: note
+Use resistors and a light bulb to investigate:
+  - The relationship between resistance, voltage, and current within a circuit.
+  - Ohm's Law.
+```
 
 
 If a potential difference $V$ is applied across some element in an electrical circuit, the current $I$ in the element is determined by a quantity known as the resistance $R$. The relationship between these three quantities serves as a definition of the quantity resistance $R$:
@@ -94,6 +99,27 @@ Overall setup shown in {numref}`fig-ohms-law-setup` right.
 
 
 ## Experimental Procedure
+### Procedure Preview
+
+```{admonition} OVERVIEW
+:class: note
+Conduct three experiments involving:
+ - circuits with resistors and light bulbs
+ - resistors in series
+ - resistors in parallel
+You will apply a range of voltages through the circuits and measure both current and voltage across the resistors and light bulbs individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter. You will then apply just 4.00 V to the circuit with all three resistors in either series or parallel configurations and again measure both current and voltage across each resistor and compare to the expected values
+```
+
+```{admonition} Additional Tips
+:class: tip
+
+```
+
+
+
+
+
+
 
 ### Experiment 1 -- Individual Resistors:
 
