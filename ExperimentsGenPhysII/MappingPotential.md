@@ -38,7 +38,7 @@ Top-Left) Charges on same equipotential line, no voltage difference. Bottom-left
 By convention, electric field lines begin on positive charge and terminate on negative charge (point from positive to negative).
 --->
 
-If the potential difference between two points is zero, the two points are said to lie on the same equipotential line or surface (see {numref}`E2Fig001` left). No work is required to move a charge along an equipotential surface. Since no work is done, there cannot be any electric force acting tangentially to the surface. Therefore, the electric field cannot have a component parallel (or tangential) to the equipotential surface and must instead be perpendicular to it at every point.
+If the potential difference between two points is zero, the two points are said to lie on the same equipotential line or surface (see {numref}`E2Fig001` left). No work is required to move a charge along an equipotential line or surface. Since no work is done, there cannot be any electric force acting tangentially to the line or surface. Therefore, the electric field cannot have a component parallel (or tangential) to the equipotential line or surface and must instead be perpendicular to it at every point.
 
 Since the electric field is always perpendicular to equipotentials, moving in the direction of the electric field will end up taking you from one equipotential to another. When the potential difference between two points is non-zero, they lie on different equipotentials (see {numref}`E2Fig001` right), and work is required to move a charge between them.
 
@@ -46,9 +46,9 @@ Since the electric field is always perpendicular to equipotentials, moving in th
 
 Because a charge at any point experiences a single, well-defined net electric force, the electric field at that point has a unique direction. Therefore, two electric field lines can never cross. If they did, the field would have two different directions at the same location ({numref}`E2Fig003` left). Equipotential lines also cannot intersect, since they must always be perpendicular to the electric field ({numref}`E2Fig002` top).
 
-```{figure} MappingPotentialFigures/E2_Fig_003_EfieldDispersion_v2.png
+```{figure} MappingPotentialFigures/E2_Fig_003_EfieldDispersion_v3.png
 ---
-width: 90% 
+width: 100% 
 name: E2Fig003
 ---
 Left) Equipotentials parallel, then E-field lines are parallel. Must not cross. Right) Equipotentials curve away, then E-field lines must curve away (diverge) as well. Must not cross and converge/diverge oppositely.
@@ -84,7 +84,7 @@ An example of an electrode configuration is illustrated in {numref}`E2Fig01` top
 
 If we determine a number of equipotential lines for this electrode pattern, we might get the pattern of 'dashed' equipotential lines shown in {numref}`E2Fig02`. *Recall that the electrodes are also equipotential lines/surfaces.* Now we can sketch in a representative pattern of electric field lines. Like the equipotential lines, there are an infinite number of possible field lines. We know that the electric field lines begin on the positive electrode and end on the negative electrode; also, they are normal (perpendicular) to *all* equipotential lines they cross without crossing other E-field lines. A few small arrowheads along the field line indicate the direction of the field. The field lines will be shown as solid lines to clearly distinguish them from the equipotential lines.
 
-```{figure} MappingPotentialFigures/Figure2_v02.png
+```{figure} MappingPotentialFigures/Figure2_v06.png
 ---
 width: 90%
 name: E2Fig02
