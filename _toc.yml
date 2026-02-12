@@ -19,6 +19,7 @@ parts:
     - file: Intro/GraphicalRepresentation
     - file: Intro/CapstoneNotes
     - file: Intro/VernierCaliper
+    - file: Intro/GeneralEquipment
   - caption: Experiments
     chapters:
     - file: GeneralPhysicsLabI

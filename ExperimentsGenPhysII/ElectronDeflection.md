@@ -100,14 +100,239 @@ Summing up, the assumptions made in this derivation include:
 2. The distance to the screen is large compared to the horizontal size of the deflection plates ($L\gg l$ in {numref}`E3Fig01`), so the electron path may be considered to be a straight line from the center of the deflection plate configuration to screen.
 3. The electron beam's enters with an initial direction that is parallel to the deflection plates.
 
+<!---
+### Test back
+
+The instrument used in this experiment is a cathode ray tube (CRT). When the filament (electron gun) is heated, electrons (mass = 
+9.10910−31 kg) are emitted and accelerated. This acceleration occurs as the electrons pass through a region at positive potential relative to the cathode (see {numref}E3Fig01).
+
+The kinetic energy gained by an electron is
+
+:label: eq_kinetic_energy
+K=\tfrac{1}{2}mv^2 = eV_k ,
+
+
+where 
+𝑒
+e is the magnitude of the electron charge and 
+𝑉
+𝑘
+V
+k
+	​
+
+ is the accelerating voltage between the cathode and plate #1 (anode). The resulting horizontal velocity toward the screen is therefore
+
+:label: eq_velocity_x
+v_x = \sqrt{\frac{2eV_k}{m}} .
+
+
+The accelerated beam then passes between two parallel deflection plates. When a deflection voltage 
+𝑉
+𝑑
+V
+d
+	​
+
+ is applied between them, the electrons experience a vertical electric field 
+𝐸
+≈
+𝑉
+𝑑
+/
+𝑑
+E≈V
+d
+	​
+
+/d (where 
+𝑑
+d is the plate separation) and are deflected toward the positive plate by a force 
+𝐹
+𝐸
+=
+𝑒
+𝐸
+F
+E
+	​
+
+=eE. The resulting transverse acceleration is
+
+:label: eq_acceleration_y
+a_y = \frac{F_E}{m} = \frac{eE}{m} = \frac{eV_d}{md} .
+
+
+Because the field between the plates is approximately uniform, the electron follows a parabolic trajectory while between the plates (analogous to projectile motion with constant acceleration). After leaving the plates, the electron travels in a straight line to the screen with constant horizontal velocity 
+𝑣
+𝑥
+v
+x
+	​
+
+ and acquired vertical velocity 
+𝑣
+𝑦
+v
+y
+	​
+
+.
+
+The transverse velocity gained while inside the plates is
+
+:label: eq_velocity_y
+v_y = a_y t ,
+
+
+where 
+𝑡
+t is the time spent in the region of length 
+𝑙
+l:
+
+:label: eq_time_t
+t = \frac{l}{v_x} .
+
+
+Combining these gives
+
+:label: eq_transverse_velocity
+v_y = \frac{eV_d}{md}\left(\frac{l}{v_x}\right) .
+
+
+Let 
+𝐿
+L be the distance from the end of the plates to the screen. If 
+𝐿
+≫
+𝑙
+L≫l, the additional time of flight is 
+𝑡
+′
+=
+𝐿
+/
+𝑣
+𝑥
+t
+′
+=L/v
+x
+	​
+
+, so the on-screen deflection is
+
+:label: eq_deflection_basic
+D = v_y t' = v_y\left(\frac{L}{v_x}\right) .
+
+
+Substituting for 
+𝑣
+𝑦
+v
+y
+	​
+
+ and 
+𝑣
+𝑥
+v
+x
+	​
+
+ yields
+
+:label: eq_deflection_final
+D = \left(\frac{lL}{2dV_k}\right)V_d ,
+
+
+showing that the deflection is directly proportional to 
+𝑉
+𝑑
+V
+d
+	​
+
+.
+
+For fixed voltages, the geometry also matters:
+
+Longer plates (
+𝑙
+l) allow the field to act for a longer time, increasing deflection.
+
+Smaller plate spacing (
+𝑑
+d) produces a stronger field for the same 
+𝑉
+𝑑
+V
+d
+	​
+
+.
+
+Smaller accelerating voltage (
+𝑉
+𝑘
+V
+k
+	​
+
+) reduces 
+𝑣
+𝑥
+v
+x
+	​
+
+, giving electrons more time in the field and increasing deflection.
+
+The visible spot on the screen results from electrons transferring their kinetic energy to phosphor atoms; a small fraction is emitted as visible light, while most becomes heat.
+
+Assumptions in this derivation:
+
+The deflection plates behave as an ideal parallel-plate capacitor (large area, small spacing), so the electric field is uniform, vertical, and confined between the plates.
+
+𝐿
+≫
+𝑙
+L≫l, so the post-plate trajectory can be treated as a straight line to the screen.
+
+The electron beam enters the deflection region parallel to the plates (no initial 
+𝑦
+y-velocity).
+
+
+--->
+
 ### Equipment
 
-- *Complete Properties of Electrons Apparatus*
-  - List of experimental cases with their voltages
-  - Cathode Ray Tube (CRT)
-  - 5 mm grid pattern on end of CRT
-  - Knobs for controlling X & Y zeroing, X & Y deflection voltages, and accelerating, focus, grid voltages
-  - Voltmeters for the different sections on the apparatus (See the black-outlined sections on the apparatus for which voltmeters go for which knobs)
+- *Complete Properties of Electrons Apparatus* (see {numref}`E3Fig02`)
+  - List of experimental cases with their voltages on paper
+  - Cathode Ray Tube (CRT), `19` in figure
+    - 5 mm (major lines) grid pattern on end of CRT (1 mm minor tick marks) (shown later in {numref}`E3Fig03`)
+  - Knobs for various electrical control. Note: Voltmeters are for the different sections on the apparatus (See the black-outlined sections on the apparatus for which voltmeters go for which knobs)
+    - `1` Knobs for controlling X & Y position without changing voltmeter (for calibrating where you place the origin after zeroing the voltmeters with `12` & `13`)
+    - `3` Grid, Focus, Accelerating voltage selector (swap between which of `17`, `20`, `21` appears on top voltmeter `24`)
+    - `8` X & Y-direction deflection voltage selector (swap between which of `12`, `13` appears on middle voltmeter `23`)
+    - `12` X-direction deflection voltage $V_x$ adjustment knob
+    - `13` Y-direction deflection voltage $V_y$ adjustment knob
+    - `17` Grid voltage $V_G$ adjustment knob
+    - `20` Focus voltage $V_I$ adjustment knob
+    - `21` Accleration voltage $V_K$ adjustment knob
+    - `23` Voltmeter display for `12` or `13` (depending on selection with `8`)
+    - `24` Voltmeter display for `17`, `20`, or `21` (depending on selection with `3`)
+
+
+```{figure} ElectronDeflectionFigures/E3_CRTControls_2026_v02.png
+---
+width: 100%
+name: E3Fig02
+---
+Controls and parameters for the CRT.
+```
 
 ## Experimental Procedure
 
@@ -123,13 +348,6 @@ Summing up, the assumptions made in this derivation include:
 
 
 
-```{figure} ElectronDeflectionFigures/E3_CRTControls_2024_v02.png
----
-width: 100%
-name: E3Fig02
----
-Controls and parameters for the CRT.
-```
 
 1. All knobs, switched, displays are numbered and will appear as (#) in the following steps which correspond to those shown in {numref}`E3Fig02`.
 
@@ -149,6 +367,7 @@ Controls and parameters for the CRT.
 7. Set electrostatic deflection selector switch (8) to Y-deflection $V_{y}$, and set the Y-deflection voltage potentiometers (12) to zero (0.0 V), again appearing on the middle voltmeter display (23).
 
 8. Then, use the ***ZERO*** X and Y potentiometers (1) to move the bright electron-beam spot to the bottom center of the screen grid (see {numref}`E3Fig03`). These knobs do not change the Electrostatic Voltages in (23); if the voltages do change, check you are in fact using the **ZERO** knobs (1), **not** (12) or (13). Make sure to view the CRT head-on so as to account for possible misalignment from the effects of parallax (since the grid is horizontally displaced from the glass of the CRT).
+
 ```{figure} ElectronDeflectionFigures/E3_CRT_Grid_2024.png
 ---
 width: 500px
@@ -201,14 +420,22 @@ where $m$ is the slope of the line.
     c. Compare this RMS value to your estimate of how well you can read displacements on the screen (i.e. comparing to position uncertainties $\delta D$).
 
 
+17. When you are finished with all cases, reset your experimental setup before leaving.
+
+    ```{admonition} CLEAN UP
+    :class: important
+    Please return your experimental station back to the way you found it or better:
+     - Electron beam visible near center of screen
+     - Power off
+    ```
+
+
+
 ## Post-Lab Submission --- Interpretation of Results
 
 - Make sure to submit your finalized data sheet with summarized data and cleaned-up plots (Excel sheet)
-- Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:
-  - Do your experimental results (slopes) agree with the expected slopes as predicted by {eq}`eq_slope_expected`? 
-  - Physically, what do your experimental slopes represent?
-  - If you were to increase the accelerating voltage $V_{k}$, how do you expect the beam to be deflected? I.e. what does the accelerating voltage physically do to the electrons, and how do changes in the $V_{k}$ affect the electrons' path? Discuss using physical concepts regarding the electron path.
-  - Explain physically how the electron mass cancels and as a result does not appear in {eq}`eq_deflection_final`.
+
+
 - Paragraph of your errors and estimated measurement uncertainties. Be quantitative. Make sure to include discussion of the following:
   - How does the uncertainty (RMS) of your plotted data compare to your estimated position uncertainty on the screen? Does the full data better represent the physical relationship we're studying in this lab than your estimation of individual positions (be quantitative)? This is based on your values from Step 16.
   - Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?
@@ -216,13 +443,49 @@ where $m$ is the slope of the line.
   - If larger or small, are they more or less accurate to expected values?
   - How could you improve your random errors?
   - Were your systematic errors significant; how could this be improved if you were to re-run this experiment?
-- Reflect on this week's lab; what did you learn?
+
+
+
+- Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:
+
+
+
+
+## Post-Lab Submission --- Interpretation of Results
+
+### Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+  - Please include relevant plot(s) including:
+    - $D$ vs. $V_d$ with both cases plotted on the same graph.
+
+### Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - What is the precision of your equipment?
+  - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
+  - How does the uncertainty (RMS) of your plotted data compare to your estimated position uncertainty on the screen? (i.e. are you over or underestimating single trial uncertainties?)
+  - What are your measured uncertainties, and, based on these uncertainties, how do your final results change? (i.e. do your different measurement and slope uncertainties make your final results larger or smaller?)
+    - If larger or small, are they more or less accurate to expected values?
+
+
+- In a **paragraph**, summarize the results you have determined, including both analysis methods. Consider:
+  - What was the point of today's lab; what did we aim to discover?
+  - Do your experimental results (slopes) agree with the expected slopes as predicted by {eq}`eq_slope_expected`?
+  - Physically, what do your experimental slopes represent?
+  - Does the full data set better represent the physical relationship we're studying in this lab than your estimation of individual positions (be quantitative)? This is based on your values from Step 16.
+  - Physically, how is the electron beam deflected in the CRT?
+  - If the accelerating voltage $V_{k}$ is increased (e.g. Case 1 vs. Case 2), how do you expect the electrons' beam deflection to change?
+    - I.e. what does the accelerating voltage physically do to the electrons, and how does that effect affect the electrons' path? Discuss using physical concepts.
+  - Explain physically how the electron mass cancels and as a result does not appear in {eq}`eq_deflection_final`.
+
+
 
 
 
 ## The Whiteboard
 
-```{figure} ElectronDeflectionFigures/ElecAccel_2025_Spring_01_v02.jpg
+```{figure} ElectronDeflectionFigures/ElecAccel_2025_Spring_01_v03.jpg
 :name: ElectronDeflection_whiteboard_01
 :width: 100%
 :align: center
