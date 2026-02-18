@@ -194,7 +194,9 @@ where $A$ is the area of the plates, $d$ the separation distance, and $V$ the po
 
 ```{math}
 :label: eq_epsilon_0
+\boxed{
 \varepsilon_0 = \frac{2 F_E d^{2}}{A V^{2}}.
+}
 ```
 
 By measuring electric force, voltage, and geometry of the apparatus, $\varepsilon_0$ can be determined.
