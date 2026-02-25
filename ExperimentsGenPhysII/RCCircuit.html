@@ -408,7 +408,7 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#backgroun-overview">Backgroun Overview</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dividing-charge-across-capacitors">Dividing charge across capacitors</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
 </ul>
@@ -431,36 +431,29 @@
 <span id="electrical-example-of-an-exponential-decay-process-overall"></span><h1>Electrical Example of an Exponential Decay Process with Resistors &amp; Capacitors (RC Circuits)<a class="headerlink" href="#electrical-example-of-an-exponential-decay-process-with-resistors-capacitors-rc-circuits" title="Permalink to this heading">#</a></h1>
 <section id="background">
 <h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
-<section id="overall-goals-and-overview">
-<h3>Overall goals and overview<a class="headerlink" href="#overall-goals-and-overview" title="Permalink to this heading">#</a></h3>
+<section id="backgroun-overview">
+<h3>Backgroun Overview<a class="headerlink" href="#backgroun-overview" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERALL GOALS</p>
+<p>Use resistors and capacitors to investigate:</p>
 <ul class="simple">
-<li><p>Understand what a capacitor is, the relationship between capacitance and resistance, the discharging nature of capacitors</p></li>
-<li><p>Assume <strong>we know the resistance</strong> of your resistors, but <strong>we don’t know the capacitance</strong> of the capacitors, and we need to determine those C values</p></li>
-<li><p><em>DISCUSSION POINT</em>: How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time?</p></li>
-<li><p>Conduct two experiments:</p>
-<ul>
-<li><p>Measure the capacitance of your capacitors, <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, and <span class="math notranslate nohighlight">\((C_1+C_2)\)</span></p>
-<ul>
-<li><p><strong>GRAPHICALLY</strong> with LN(V) vs. Time plot (a linearized version of exponential decay plot)</p></li>
-<li><p>Via the <strong>HALF-LIFE, <span class="math notranslate nohighlight">\(t_{1/2}\)</span></strong> (where half-life, the time for exponential decay to reach half its original value, is related to the natural log of 2 [LN(2)])</p></li>
+<li><p>what a capacitor is</p></li>
+<li><p>the relationship between capacitance and resistance</p></li>
+<li><p>the discharging nature of capacitors</p></li>
 </ul>
-</li>
-<li><p>Divide charge between two capacitors</p></li>
-</ul>
-</li>
-</ul>
-<p>There are many processes in which the rate of change of a quantity is proportional to the magnitude of the quantity itself. The result is a quantity that is an exponential function of time. In this experiment the characteristic exponential relaxation (decay) of the voltage or charge on a capacitor will be investigated. The electrical analogy of this general process can be represented by a simple circuit in which a capacitor is allowed to discharge through a resistor connected across its terminals. Consider the schematic circuit of <a class="reference internal" href="#fig-rc-charging-circuit"><span class="std std-numref">Fig. 98</span></a>.</p>
+</div>
+<p>There are many processes in which the rate of change of a quantity is proportional to the magnitude of the quantity itself. The result is a quantity that is an exponential function of time. In this experiment the characteristic exponential relaxation (decay) of the voltage or charge on a capacitor will be investigated. The electrical analogy of this general process can be represented by a simple circuit in which a capacitor is allowed to discharge through a resistor connected across its terminals. Consider the schematic circuit of <a class="reference internal" href="#fig-rc-charging-circuit"><span class="std std-numref">Fig. 100</span></a>.</p>
 <figure class="align-center" id="fig-rc-charging-circuit">
 <a class="reference internal image-reference" href="../_images/E5_Figure1_v02.png"><img alt="../_images/E5_Figure1_v02.png" src="../_images/E5_Figure1_v02.png" style="width: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 98 </span><span class="caption-text">Schematic of RC circuit charging the capacitor.</span><a class="headerlink" href="#fig-rc-charging-circuit" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 100 </span><span class="caption-text">Schematic of RC circuit charging the capacitor.</span><a class="headerlink" href="#fig-rc-charging-circuit" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>With the switch connecting the capacitor to the batteries, the capacitor rapidly charges up to the potential of the batteries. Since a capacitor will not pass a DC current, a positive charge builds up on one of the plates while a negative charge forms on the other. When the switch is flipped to connect the capacitor to the resistor, we have the circuit (shown below) containing a charged capacitor with a resistance across its terminals. We will now investigate how the voltage across the capacitor changes with time, starting at <span class="math notranslate nohighlight">\(t = 0\)</span> when the capacitor is fully charged. The voltage will be measured by the voltmeter <span class="math notranslate nohighlight">\(V\)</span> connected as shown. As time progresses, current will flow from the positively charged plate of the capacitor through the resistance <span class="math notranslate nohighlight">\(R\)</span> to the negatively charged plate.</p>
 <figure class="align-center" id="fig-rc-discharge-circuit">
 <a class="reference internal image-reference" href="../_images/Figure021.jpg"><img alt="../_images/Figure021.jpg" src="../_images/Figure021.jpg" style="width: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 99 </span><span class="caption-text">Schematic of RC circuit disconnected from the battery.</span><a class="headerlink" href="#fig-rc-discharge-circuit" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 101 </span><span class="caption-text">Schematic of RC circuit disconnected from the battery.</span><a class="headerlink" href="#fig-rc-discharge-circuit" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Since a voltage exists across the capacitor, there must also be a voltage across <span class="math notranslate nohighlight">\(R\)</span>. This implies an electric current, and from Ohm’s Law:</p>
@@ -516,7 +509,7 @@
 </section>
 <section id="dividing-charge-across-capacitors">
 <h3>Dividing charge across capacitors<a class="headerlink" href="#dividing-charge-across-capacitors" title="Permalink to this heading">#</a></h3>
-<p>A capacitor <span class="math notranslate nohighlight">\(C\)</span> at voltage <span class="math notranslate nohighlight">\(V\)</span> holds a charge <span class="math notranslate nohighlight">\(Q = CV\)</span>. In the circuit shown in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 103</span></a> when the single-pole-double-throw switch connects the first capacitor to the voltage source, it holds a charge <span class="math notranslate nohighlight">\(Q_1 = C_1 V\)</span>. The switch is then flipped to disconnect the capacitor from the battery and connect it to the second capacitor. Charge moves from the first capacitor to the second, lowering the voltage. Assuming the second capacitor is initially uncharged, the total charge is unchanged. The total charge must be divided between the two capacitors so that they come to the same lower final voltage:</p>
+<p>A capacitor <span class="math notranslate nohighlight">\(C\)</span> at voltage <span class="math notranslate nohighlight">\(V\)</span> holds a charge <span class="math notranslate nohighlight">\(Q = CV\)</span>. In the circuit shown in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 105</span></a> when the single-pole-double-throw switch connects the first capacitor to the voltage source, it holds a charge <span class="math notranslate nohighlight">\(Q_1 = C_1 V\)</span>. The switch is then flipped to disconnect the capacitor from the battery and connect it to the second capacitor. Charge moves from the first capacitor to the second, lowering the voltage. Assuming the second capacitor is initially uncharged, the total charge is unchanged. The total charge must be divided between the two capacitors so that they come to the same lower final voltage:</p>
 <div class="math notranslate nohighlight" id="equation-eq-charge-division">
 <span class="eqno">(132)<a class="headerlink" href="#equation-eq-charge-division" title="Permalink to this equation">#</a></span>\[\begin{split}V_f C_1 &amp;= Q_1 \\
 V_f C_2 &amp;= Q_2 \\
@@ -526,13 +519,13 @@ V_f &amp;= \frac{C_1}{C_1+C_2} V\end{split}\]</div>
 <figure class="align-center" id="fig-rc-setup">
 <a class="reference internal image-reference" href="../_images/E5_050_Setup.png"><img alt="../_images/E5_050_Setup.png" src="../_images/E5_050_Setup.png" style="width: 700px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 100 </span><span class="caption-text">Left) Modular electronic RC circuit. Right) Wire, 2 capacitors, 2 resistors.</span><a class="headerlink" href="#fig-rc-setup" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 102 </span><span class="caption-text">Left) Modular electronic RC circuit. Right) Wire, 2 capacitors, 2 resistors.</span><a class="headerlink" href="#fig-rc-setup" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="equipment">
 <h3>Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">#</a></h3>
-<p>The general setup can be seen in <a class="reference internal" href="#fig-rc-setup"><span class="std std-numref">Fig. 100</span></a>, with the voltmeter attached on either side of the capacitor section of the circuit.</p>
+<p>The general setup can be seen in <a class="reference internal" href="#fig-rc-setup"><span class="std std-numref">Fig. 102</span></a>, with the voltmeter attached on either side of the capacitor section of the circuit.</p>
 <ul class="simple">
 <li><p>Two known (with ohmmeter) ceramic resistors</p></li>
 <li><p>Pasco modular circuit kit</p>
@@ -558,6 +551,21 @@ V_f &amp;= \frac{C_1}{C_1+C_2} V\end{split}\]</div>
 </section>
 <section id="experimental-procedure">
 <h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Assume <strong>we know the resistance</strong> of your resistors, but <strong>we don’t know the capacitance</strong> of the capacitors, and we need to determine those C values</p></li>
+<li><p><em>DISCUSSION POINT</em>: How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time?</p></li>
+<li><p>Conduct two experiments:</p>
+<ul>
+<li><p>Measure the capacitance of your capacitors, <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, and <span class="math notranslate nohighlight">\((C_1+C_2)\)</span></p>
+<ul>
+<li><p><strong>GRAPHICALLY</strong> with LN(V) vs. Time plot (a linearized version of exponential decay plot)</p></li>
+<li><p>Via the <strong>HALF-LIFE, <span class="math notranslate nohighlight">\(t_{1/2}\)</span></strong> (where half-life, the time for exponential decay to reach half its original value, is related to the natural log of 2 [LN(2)])</p></li>
+</ul>
+</li>
+<li><p>Divide charge between two capacitors</p></li>
+</ul>
+</li>
+</ul>
 <p><strong>FIRST EXPERIMENT</strong> We study resistor-capacitor circuits and how capacitors discharge.</p>
 <ol class="arabic simple">
 <li><p>You have two resistors and two capacitors. Create a common data table and measure the value of resistors <span class="math notranslate nohighlight">\(R_1\)</span> and <span class="math notranslate nohighlight">\(R_2\)</span> with the Fluke multimeter set to measure ohms (Ω, note the units on the multimeter). [It doesn’t matter which resistor is which number, just be consistent] Also in the common data table, record the actual capacitance of <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, and the parallel combination of <span class="math notranslate nohighlight">\((C_1+C_2)\)</span> with the Fluke 175 multimeter when set to measure farads (the yellow alternate function of the ohmmeter, looks like two letter T’s that are rotated toward each other).</p></li>
@@ -576,11 +584,11 @@ V_f &amp;= \frac{C_1}{C_1+C_2} V\end{split}\]</div>
 <figure class="align-center" id="fig-rc-decay-circuit">
 <a class="reference internal image-reference" href="../_images/RCDecay_v02.png"><img alt="../_images/RCDecay_v02.png" src="../_images/RCDecay_v02.png" style="width: 700px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 101 </span><span class="caption-text">Modular electronic RC circuit. The resistors and capacitors will just be placed in the spring modules to become part of the circuits. Left) Example with one resistor and one capacitor. Right) Example with one resistor and two capacitors.</span><a class="headerlink" href="#fig-rc-decay-circuit" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 103 </span><span class="caption-text">Modular electronic RC circuit. The resistors and capacitors will just be placed in the spring modules to become part of the circuits. Left) Example with one resistor and one capacitor. Right) Example with one resistor and two capacitors.</span><a class="headerlink" href="#fig-rc-decay-circuit" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ol class="arabic simple" start="5">
-<li><p>Connect the resistor, capacitor(s), switch, batteries, voltmeter as shown in <a class="reference internal" href="#fig-rc-decay-circuit"><span class="std std-numref">Fig. 101</span></a>.</p></li>
+<li><p>Connect the resistor, capacitor(s), switch, batteries, voltmeter as shown in <a class="reference internal" href="#fig-rc-decay-circuit"><span class="std std-numref">Fig. 103</span></a>.</p></li>
 <li><p>Create a data table for the first resistor and capacitor case (once you have this all set up, you’ll then be able to just copy and paste this data table for the five other RC combinations):</p>
 <ul class="simple">
 <li><p>With <strong>five columns</strong> (1 for each of the 5 decay trials, the act of discharging each capacitor). Also include a <strong>column</strong> for the average values, a <strong>column</strong> for the standard deviation (σ), and a <strong>column</strong> for the standard error of the mean (<span class="math notranslate nohighlight">\(\frac{\sigma}{\sqrt{n-1}}\)</span> where <span class="math notranslate nohighlight">\(n=\)</span> number of trials. Reminder, this is effectively your +/- uncertainty of the average. <em>DISCUSSION POINT for later</em>: How well does your average value of capacitance +/- standard error agree with your expected values?).</p></li>
@@ -607,7 +615,7 @@ V_f &amp;= \frac{C_1}{C_1+C_2} V\end{split}\]</div>
 <figure class="align-center" id="fig-spdt-switch-positions">
 <a class="reference internal image-reference" href="../_images/E5_051_Setup.png"><img alt="../_images/E5_051_Setup.png" src="../_images/E5_051_Setup.png" style="width: 700px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 102 </span><span class="caption-text">Top) SPDT switch in different positions. Bottom) Whole circuit with the SPDT switch in the respective positions. Left) Open circuit. Center) Charging central capacitor; current flows in lower portion of the modular circuit. Right) Discharging either through resistor (or for Experiment 2, charging the other capacitor); current flows in upper portion of the modular circuit.</span><a class="headerlink" href="#fig-spdt-switch-positions" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 104 </span><span class="caption-text">Top) SPDT switch in different positions. Bottom) Whole circuit with the SPDT switch in the respective positions. Left) Open circuit. Center) Charging central capacitor; current flows in lower portion of the modular circuit. Right) Discharging either through resistor (or for Experiment 2, charging the other capacitor); current flows in upper portion of the modular circuit.</span><a class="headerlink" href="#fig-spdt-switch-positions" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ol class="arabic simple" start="7">
@@ -647,16 +655,16 @@ V_f &amp;= \frac{C_1}{C_1+C_2} V\end{split}\]</div>
 <p><strong>DISCUSSION POINT</strong>: How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time (i.e. decay)?</p>
 <p><strong>DISCUSSION POINT</strong>: How well does your average value of capacitance +/- standard error agree with your expected values? Why or why not? What are possible sources of uncertainty or systematic bias that could cause your values to agree/not agree with your expected values that you had found with the multimeter?</p>
 <hr class="docutils" />
-<p><strong>SECOND EXPERIMENT</strong> We study dividing charge across two capacitors, as in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 103</span></a>.</p>
+<p><strong>SECOND EXPERIMENT</strong> We study dividing charge across two capacitors, as in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 105</span></a>.</p>
 <p>\vspace{-3mm}</p>
 <figure class="align-center" id="fig-capacitor-charge-division">
 <a class="reference internal image-reference" href="../_images/RCDecay_v02_Fig5_4.png"><img alt="../_images/RCDecay_v02_Fig5_4.png" src="../_images/RCDecay_v02_Fig5_4.png" style="width: 350px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 103 </span><span class="caption-text">Modular electronic circuit with two capacitors.</span><a class="headerlink" href="#fig-capacitor-charge-division" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 105 </span><span class="caption-text">Modular electronic circuit with two capacitors.</span><a class="headerlink" href="#fig-capacitor-charge-division" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ol class="arabic simple">
-<li><p>Ignore what you’ve called the capacitors from the first experiment, now just consider them as either low- or high-capacitance capacitors in either the <span class="math notranslate nohighlight">\(C_1\)</span> or <span class="math notranslate nohighlight">\(C_2\)</span> positions. Construct the circuit shown in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 103</span></a> by replacing the resistor with the high-capacitance capacitor (in the top springs block, e.g. <span class="math notranslate nohighlight">\(C_2\)</span> position in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 103</span></a>). Put the low-capacitance capacitor in the bottom springs block (<span class="math notranslate nohighlight">\(C_1\)</span> position in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 103</span></a>). Ensure the voltmeter is connected as in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 103</span></a> and continue using the same Voltage vs. time plot in Capstone.</p></li>
+<li><p>Ignore what you’ve called the capacitors from the first experiment, now just consider them as either low- or high-capacitance capacitors in either the <span class="math notranslate nohighlight">\(C_1\)</span> or <span class="math notranslate nohighlight">\(C_2\)</span> positions. Construct the circuit shown in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 105</span></a> by replacing the resistor with the high-capacitance capacitor (in the top springs block, e.g. <span class="math notranslate nohighlight">\(C_2\)</span> position in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 105</span></a>). Put the low-capacitance capacitor in the bottom springs block (<span class="math notranslate nohighlight">\(C_1\)</span> position in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 105</span></a>). Ensure the voltmeter is connected as in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 105</span></a> and continue using the same Voltage vs. time plot in Capstone.</p></li>
 <li><p>Create a data table including your previous, experimentally-determined values of capacitance of <span class="math notranslate nohighlight">\(C_1\)</span> and <span class="math notranslate nohighlight">\(C_2\)</span> and <strong>three columns</strong> for initial and final voltages as well as the difference between the two. Create <strong>five rows</strong> for five trials. Note: Initial voltage is V when the battery is connected to <span class="math notranslate nohighlight">\(C_1\)</span> <em>before</em> you throw the switch to connect the capacitors together in Step 5. Final voltage is V <em>after</em> you throw the switch to allow the charge in the first capacitors to be distributed between the two capacitors.</p></li>
 <li><p>Temporarily connect a wire across each capacitor to discharge them before flipping the switch (i.e. no charge is stored and both circuits are open).</p></li>
 <li><p>Connect <span class="math notranslate nohighlight">\(C_1\)</span> to the battery using the single-pole-double-throw (SPDT) switch. Record the initial voltage.</p></li>
@@ -695,19 +703,19 @@ V_f &amp;= \frac{C_1}{C_1+C_2} V\end{split}\]</div>
 <figure class="align-center" id="rccircuits-whiteboard-01">
 <a class="reference internal image-reference" href="../_images/RCCircuits_2025_Summer_01_v02.jpg"><img alt="../_images/RCCircuits_2025_Summer_01_v02.jpg" src="../_images/RCCircuits_2025_Summer_01_v02.jpg" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 104 </span><span class="caption-text">Overview 1st part.</span><a class="headerlink" href="#rccircuits-whiteboard-01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 106 </span><span class="caption-text">Overview 1st part.</span><a class="headerlink" href="#rccircuits-whiteboard-01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="rccircuits-whiteboard-02">
 <a class="reference internal image-reference" href="../_images/RCCircuits_2025_Summer_02_v02.jpg"><img alt="../_images/RCCircuits_2025_Summer_02_v02.jpg" src="../_images/RCCircuits_2025_Summer_02_v02.jpg" style="width: 80%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 105 </span><span class="caption-text">Overview 2nd part.</span><a class="headerlink" href="#rccircuits-whiteboard-02" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 107 </span><span class="caption-text">Overview 2nd part.</span><a class="headerlink" href="#rccircuits-whiteboard-02" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="rccircuits-whiteboard-03">
 <a class="reference internal image-reference" href="../_images/RCCircuits_2025_Summer_03_v02.jpg"><img alt="../_images/RCCircuits_2025_Summer_03_v02.jpg" src="../_images/RCCircuits_2025_Summer_03_v02.jpg" style="width: 80%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 106 </span><span class="caption-text">Multimeter settings; Capstone significant figures notes.</span><a class="headerlink" href="#rccircuits-whiteboard-03" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 108 </span><span class="caption-text">Multimeter settings; Capstone significant figures notes.</span><a class="headerlink" href="#rccircuits-whiteboard-03" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -779,7 +787,7 @@ V_f &amp;= \frac{C_1}{C_1+C_2} V\end{split}\]</div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-goals-and-overview">Overall goals and overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#backgroun-overview">Backgroun Overview</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dividing-charge-across-capacitors">Dividing charge across capacitors</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
 </ul>

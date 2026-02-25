@@ -408,18 +408,28 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-overview">Background Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-overview-resistance">Background Overview — Resistance</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#series-parallel-circuits">Series &amp; Parallel Circuits</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#series-circuits-kirchhoffs-voltage-rule">Series Circuits — Kirchhoff’s Voltage Rule</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parallel-circuits-kirchhoffs-current-rule">Parallel Circuits — Kirchhoff’s Current Rule</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure-preview">Procedure Preview</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-1-individual-resistors">Experiment 1 – Individual Resistors:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-2-resistors-in-series">Experiment 2 – Resistors in Series</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-3-resistors-in-parallel">Experiment 3 – Resistors in Parallel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preliminary-setup">Preliminary Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-individual-resistors-across-voltage-range">Part I – Individual Resistors across Voltage Range</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-resistors-in-series-at-constant-voltage">Part II – Resistors in Series at Constant Voltage</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iii-resistors-in-parallel-at-constant-voltage">Part III – Resistors in Parallel at Constant Voltage</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized Spreadsheets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-writeup">Post-lab Writeup</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
             </nav>
@@ -436,8 +446,8 @@
 <span id="resistivity-resistors-dc-circuits-overall"></span><h1>Resistivity with Resistors &amp; DC Circuits<a class="headerlink" href="#resistivity-with-resistors-dc-circuits" title="Permalink to this heading">#</a></h1>
 <section id="background">
 <h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
-<section id="background-overview">
-<h3>Background Overview<a class="headerlink" href="#background-overview" title="Permalink to this heading">#</a></h3>
+<section id="background-overview-resistance">
+<h3>Background Overview — Resistance<a class="headerlink" href="#background-overview-resistance" title="Permalink to this heading">#</a></h3>
 <div class="note admonition">
 <p class="admonition-title">OVERALL GOALS</p>
 <p>Use resistors and a light bulb to investigate:</p>
@@ -450,17 +460,18 @@
 <div class="math notranslate nohighlight" id="equation-eq-ohms-law">
 <span class="eqno">(124)<a class="headerlink" href="#equation-eq-ohms-law" title="Permalink to this equation">#</a></span>\[R=\frac{V}{I}\]</div>
 <p>An object that is a pure resistor has its total electrical characteristics determined by <a class="reference internal" href="#equation-eq-ohms-law">(124)</a>. Other circuit elements may have other important electrical characteristics in addition to resistance, such as capacitance or inductance. The resistance of any circuit element, whether it has other significant electrical properties or not, is given by the ratio of voltage to current as described in <a class="reference internal" href="#equation-eq-ohms-law">(124)</a>. For any given circuit element, the value of this ratio may change as the voltage and current changes. Nevertheless, the ratio of <span class="math notranslate nohighlight">\(V\)</span> to <span class="math notranslate nohighlight">\(I\)</span> defines the resistance of the circuit element at that particular voltage and current. The unit of resistance is the volt/ampere defined as the ohm, denoted by the symbol “<span class="math notranslate nohighlight">\(\Omega\)</span>.”</p>
-<p>Certain circuit elements obey a relation that is known as \textbf{Ohm’s Law}.  For these elements, the ratio of <span class="math notranslate nohighlight">\(V\)</span> to <span class="math notranslate nohighlight">\(I\)</span> (i.e.\ <span class="math notranslate nohighlight">\(R\)</span>) is a \textit{\textbf{constant}} for different values of <span class="math notranslate nohighlight">\(V\)</span>.  Therefore, in order to show that a circuit element obeys Ohm’s Law, it is necessary to vary the voltage (the current will then also vary) and observe that the ratio <span class="math notranslate nohighlight">\(V/I\)</span> is in fact \textit{constant}.  In this experiment, such measurements will be performed on two different elements to determine their resistance (ceramic resistors and an incandescent light bulb).</p>
-<p>The resistance of any object to electrical current is a function of the material from which it is constructed, as well as the length, cross-sectional area, and temperature of the object.  At constant temperature, the resistance <span class="math notranslate nohighlight">\(R\)</span> of a sample with a constant cross-section <span class="math notranslate nohighlight">\(A\)</span>, and length <span class="math notranslate nohighlight">\(L\)</span> is given by
-\begin{equation}
-R=\rho  \frac{L}{A},
-\end{equation}
-where <span class="math notranslate nohighlight">\(\rho\)</span> is a material constant called the resistivity.  Normally <span class="math notranslate nohighlight">\(\rho\)</span> is dependent upon the temperature of the sample and depending upon the material, <span class="math notranslate nohighlight">\(\rho\)</span> may either increase or decrease with increasing temperature.  Thus if the current is sufficient, the heating of the material by the current passing through it can change the resistance.</p>
+<p>Certain circuit elements obey a relation that is known as <em><strong>Ohm’s Law</strong></em>. For these elements, the ratio of <span class="math notranslate nohighlight">\(V\)</span> to <span class="math notranslate nohighlight">\(I\)</span> (i.e. <span class="math notranslate nohighlight">\(R\)</span>) is a <em><strong>constant</strong></em> for different values of <span class="math notranslate nohighlight">\(V\)</span>. Therefore, in order to show that a circuit element obeys Ohm’s Law, it is necessary to vary the voltage (the current will then also vary) and observe that the ratio <span class="math notranslate nohighlight">\(V/I\)</span> is in fact <em>constant</em>. In today’s experiment, such measurements will be performed on two different types of elements to determine their resistance response to voltage (ceramic/metal-film resistors and an incandescent light bulb).</p>
+<p>The resistance of any object to electrical current is a function of the material from which it is constructed, as well as the length, cross-sectional area, and temperature of the object. At constant temperature, the resistance <span class="math notranslate nohighlight">\(R\)</span> of a sample with a constant cross-section <span class="math notranslate nohighlight">\(A\)</span>, and length <span class="math notranslate nohighlight">\(L\)</span> is given by</p>
+<div class="math notranslate nohighlight">
+\[  R=\rho  \frac{L}{A},\]</div>
+<p>where <span class="math notranslate nohighlight">\(\rho\)</span> is a material constant called the resistivity. Normally <span class="math notranslate nohighlight">\(\rho\)</span> is dependent upon the temperature of the sample; depending upon the material, <span class="math notranslate nohighlight">\(\rho\)</span> may either increase or decrease with increasing temperature. Thus, if the current is sufficient, the <em>heating of the material by the current passing through it can change the resistance.</em></p>
 <p>Consider a “black box” with some unknown circuit inside connected to two terminals on the box. If we apply a voltage <span class="math notranslate nohighlight">\(V\)</span> to the terminals and observe a current <span class="math notranslate nohighlight">\(I\)</span> flowing through the “black box,” we define the resistance of the “black box” to be <span class="math notranslate nohighlight">\(R = V/I\)</span>. If the resistance of the circuit element is a constant independent of both the current and the voltage, then we say that the circuit element is ohmic and that it follows Ohm’s law. Georg Simon Ohm found that most pure metals at room temperature have this property. However, a light bulb has a tungsten filament that heats up as you increase the current through it. Since the resistance of tungsten increases with temperature, the resistance of the tungsten filament increases as the voltage increases. Therefore a light bulb does not follow Ohm’s law.</p>
 <p>For an ohmic resistor, when a voltage <span class="math notranslate nohighlight">\(V\)</span> is applied, then the current is <span class="math notranslate nohighlight">\(I = V/R\)</span>, so the current is proportional to the voltage. If you plot voltage vs. current, the result is a straight line whose slope is the resistance. For a non-ohmic element like a light bulb, a plot of voltage vs. current is curved.</p>
-<p><strong>Series and parallel circuits:</strong></p>
+</section>
+<section id="series-parallel-circuits">
+<h3>Series &amp; Parallel Circuits<a class="headerlink" href="#series-parallel-circuits" title="Permalink to this heading">#</a></h3>
 <figure class="align-center" id="fig-series-parallel-resistors">
-<a class="reference internal image-reference" href="../_images/Figure014.jpg"><img alt="../_images/Figure014.jpg" src="../_images/Figure014.jpg" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/Figure01_v02.jpg"><img alt="../_images/Figure01_v02.jpg" src="../_images/Figure01_v02.jpg" style="width: 80%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 93 </span><span class="caption-text">Resistors connected in Series (top) and Parallel (bottom).</span><a class="headerlink" href="#fig-series-parallel-resistors" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -470,42 +481,164 @@ where <span class="math notranslate nohighlight">\(\rho\)</span> is a material c
 <div class="math notranslate nohighlight" id="equation-eq-equivalent-resistance">
 <span class="eqno">(125)<a class="headerlink" href="#equation-eq-equivalent-resistance" title="Permalink to this equation">#</a></span>\[\begin{split}\text{Series} \rightarrow R_{\text{eq}} &amp;= R_1 + R_2 + R_3 + \ldots + R_n \\
 \text{Parallel} \rightarrow \frac{1}{R_{\text{eq}}} &amp;= \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots + \frac{1}{R_n}\end{split}\]</div>
-<p>Notice that if a voltage is applied across the terminals of a <strong>series circuit</strong>, the current that flows is the same in all elements and the sum of the voltage across each element is equal to the total applied voltage. The relationship of the voltages is a statement of conservation of energy and is known as <strong>Kirchhoff’s Voltage Rule</strong> (a.k.a. <strong>Loop Rule</strong>). It is more commonly stated as “The algebraic sum of the voltage changes around any closed loop is zero.”</p>
-<p>If a voltage is applied across the terminals of a <strong>parallel circuit</strong>, the voltage is the same across all the elements and the total current flowing into or out of the circuit is the sum of the currents through each of the elements. The relationship of the currents is a statement of conservation of charge and is known as <strong>Kirchhoff’s Current Rule</strong> (a.k.a. <strong>Junction Rule</strong>). It is more commonly stated as “The sum of currents into a junction = the sum of currents out of the junction.”</p>
-<p>Kirchhoff’s Rules can be used to completely analyze a complex network of circuit elements. Their application will provide the necessary equations to calculate the current through and the voltage across all the elements of a circuit.</p>
-<figure class="align-center" id="fig-ohms-law-setup">
-<a class="reference internal image-reference" href="../_images/2025_E4_SetupOhmsLaw_v02.png"><img alt="../_images/2025_E4_SetupOhmsLaw_v02.png" src="../_images/2025_E4_SetupOhmsLaw_v02.png" style="width: 700px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 94 </span><span class="caption-text">Schematic and example of setup for testing Ohm’s law.</span><a class="headerlink" href="#fig-ohms-law-setup" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
+<!---
+Notice that if a voltage is applied across the terminals of a **series circuit**, the current that flows is the same in all elements and the sum of the voltage across each element is equal to the total applied voltage. The relationship of the voltages is a statement of conservation of energy and is known as **Kirchhoff's Voltage Rule** (a.k.a. **Loop Rule**). It is more commonly stated as "The algebraic sum of the voltage changes around any closed loop is zero."
+
+If a voltage is applied across the terminals of a **parallel circuit**, the voltage is the same across all the elements and the total current flowing into or out of the circuit is the sum of the currents through each of the elements. The relationship of the currents is a statement of conservation of charge and is known as **Kirchhoff's Current Rule** (a.k.a. **Junction Rule**). It is more commonly stated as "The sum of currents into a junction = the sum of currents out of the junction."
+
+Kirchhoff's Rules can be used to completely analyze a complex network of circuit elements. Their application will provide the necessary equations to calculate the current through and the voltage across all the elements of a circuit.
+--->
+<section id="series-circuits-kirchhoffs-voltage-rule">
+<h4>Series Circuits — Kirchhoff’s Voltage Rule<a class="headerlink" href="#series-circuits-kirchhoffs-voltage-rule" title="Permalink to this heading">#</a></h4>
+<p>Notice, in a <em>series circuit</em>, if voltage is applied, the <strong>current</strong> flows the same through every element. The sum of the voltage drops across the elements equals the applied voltage. This follows from conservation of energy and is expressed by <strong>Kirchhoff’s Voltage Rule (a.k.a. Loop Rule)</strong>:</p>
+<blockquote>
+<div><p>The algebraic sum of the voltage changes around any closed loop is zero.</p>
+</div></blockquote>
+<p>In this experiment, you will primarily verify that the measured voltage drops across series elements add up to the total applied voltage, and secondarily confirm current is consistent through each element.</p>
+</section>
+<section id="parallel-circuits-kirchhoffs-current-rule">
+<h4>Parallel Circuits — Kirchhoff’s Current Rule<a class="headerlink" href="#parallel-circuits-kirchhoffs-current-rule" title="Permalink to this heading">#</a></h4>
+<p>In a <em>parallel circuit</em>, if a voltage is applied, the <strong>voltage</strong> across each branch of the circuit is the same. The total current flowing into or out of a junction equals the sum of the currents through each branch. This follows from conservation of charge and is expressed by <strong>Kirchhoff’s Current Rule (a.k.a. Junction Rule)</strong>:</p>
+<blockquote>
+<div><p>The sum of currents into a junction equals the sum of currents out of the junction.</p>
+</div></blockquote>
+<p>In this experiment, you will primarily verify that the measured branch currents add to the total circuit current, and secondarily confirm voltage drops across each element is consistent.</p>
+<p>Kirchhoff’s Rules above provide the equations needed to determine unknown currents and voltages in complex circuits. In this lab, you will apply these rules to analyze series and parallel resistor networks.</p>
+<!---
+```{figure} ResistanceFigures/2025_E4_SetupOhmsLaw_v02.png
+---
+name: fig-ohms-law-setup
+align: center
+width: 700px
+---
+Schematic and example of setup for testing Ohm's law.
+```
+--->
+</section>
 </section>
 <section id="equipment">
 <h3>Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">#</a></h3>
-<p>Overall setup shown in <a class="reference internal" href="#fig-ohms-law-setup"><span class="std std-numref">Fig. 94</span></a> right.</p>
-<ul class="simple">
-<li><p>Low-voltage DC Power supply (using just ~0 – 6 V)</p></li>
-<li><p>Three unlabeled ceramic resistors (each &lt; 1 MΩ)</p></li>
-<li><p>Pasco modular circuit kit</p>
-<ul>
-<li><p>1× Light bulb <strong>(DO NOT EXCEED 6 V)</strong></p></li>
-<li><p>4× Circuit corners</p></li>
-<li><p>1× Spring clips (to attach individual resistors or series and parallel circuits with alligator clips)</p></li>
-<li><p>1× Single-pole single-throw (SPST) switch to open and close circuit during reconfiguration and calibration</p></li>
-<li><p>1× Wireless Current Sensor (Ammeter) – connected to Capstone software</p></li>
-<li><p>1× Red/black terminals (for connection to DC power supply)</p></li>
-<li><p>8× U-shaped jumper clips to connect the different modules</p></li>
-<li><p>1× Voltmeter via Capstone – connected to the jumper clips the on either side of the resistors with alligator clips</p></li>
-</ul>
-</li>
-<li><p>Seven wires with alligator clips (multi-colored)</p></li>
-<li><p>Fluke multimeter with alligator clips</p>
-<ul>
-<li><p>Use as Ohmmeter (Ω) to measure resistors’ and light bulb resistances</p></li>
-<li><p>Use as DC voltmeter and DC ammeter in series and parallel circuits</p></li>
-</ul>
-</li>
-</ul>
+<p>Overall setup shown in <a class="reference internal" href="#fig-ohms-law-setup"><span class="std std-numref">Fig. 94</span></a>, with a full equipment list in the following table <a class="reference internal" href="#resistance-equipment-table-3"><span class="std std-numref">Table 12</span></a>.</p>
+<!---
+- Low-voltage DC Power supplied by PASCO 850 Univeral Interface (using just ~0 -- 6 V) (Capstone example {numref}`E4Fig_05`)
+- Resistors (see {numref}`E4Fig_01`):
+  - 3x - unlabeled ceramic/metal-film resistors (each < 1 MΩ, colored blue, gray, brown)
+  - 1x - Light bulb **(DO NOT EXCEED 6 V)**
+- 9x jumper bars used to connect different sections of circuit modules (see {numref}`E4Fig_01`)
+- Pasco modular circuit kit:
+  - 1x Light bulb module
+  - 12x Spring clips modules (to attach individual resistors, voltmeter, ammeter and to create series and parallel circuits)
+  - 1x Single-pole single-throw (SPST) switch module to open and close circuit during reconfiguration and calibration
+  - 1x Red/black terminal module (for connection to DC power supply)
+  - 11x T-junction modules
+  - 5x straight line modules
+  - 4x blank modules
+  - 34x U-shaped jumper clips to connect the different modules
+- Fluke multimeter with alligator clips (example connections in {numref}`E4Fig_04`)
+  - First:
+      - Used as Ohmmeter (Ω) to measure resistors' and light bulb resistances ({numref}`E4Fig_03` left)
+      - Also used as DC Voltmeter (V) to measure voltage drop across different circuit elements ({numref}`E4Fig_03` right)
+  - Second:
+      - Used as DC ammeter to measure current through resitors, light bulb, and resistors in series and parallel circuits ({numref}`E4Fig_03` center)
+
+--->
+<!---
+```{table} Equipment
+:name: resistance-equipment-table
+
+| Category                      | Item                                                 | Notes / Reference                                                    |
+| ----------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------- |
+| **Power Supply**              | Low-voltage DC power (PASCO 850 Universal Interface) | ~0–6 V output (Capstone example {numref}`E4Fig_05`)                |
+| **Resistors**                 | 3× unlabeled ceramic/metal-film resistors            | Each < 1 MΩ; colors: blue, gray, brown ({numref}`E4Fig_01`)          |
+|                               | 1× light bulb                                        | **DO NOT EXCEED 6 V**  ({numref}`E4Fig_01`)                          |
+| **Connections**               | 9× jumper bars                                       | Connect sections of circuit modules ({numref}`E4Fig_01`)             |
+| **PASCO Modular Circuit Kit** | 1× light bulb module                                 |                                                                      |
+|                               | 12× spring clip modules                              | For attaching resistors, voltmeter, ammeter, and creating series & parallel circuits        |
+|                               | 1× SPST switch module                                | Open/close overall circuit during reconfiguration                    |
+|                               | 1× red/black terminal module                         | Connect to DC power supply                                           |
+|                               | 11× T-junction modules                               |                                                                      |
+|                               | 5× straight-line modules                             |                                                                      |
+|                               | 4× blank modules                                     |                                                                      |
+|                               | 34× U-shaped jumper clips                            | Electrically connect different modules                               |
+| **Measurement Device**        | Fluke multimeter with alligator clips                | Example connections to circuit in {numref}`E4Fig_04`                 |
+|                               | Used as Ohmmeter (Ω)                                 | Measure resistors' & bulb resistances ({numref}`E4Fig_03` left)      |
+|                               | Used as Voltmeter (V)                                | Measure voltage drop across circuit elements ({numref}`E4Fig_03` right)     |
+|                               | Used as DC Ammeter                                   | Measure current through resistors & bulb and series & parallel circuits ({numref}`E4Fig_03` center) |
+```
+
+```{table} Equipment
+:name: resistance-equipment-table_2
+
+| Category | Items | Notes / Reference |
+|----------|-------|------------------|
+| **Power Supply** | PASCO 850 Universal Interface (0–6 V DC) | Capstone example {numref}`E4Fig_05` |
+| **Resistors** | 3× ceramic/metal-film resistors (<1 MΩ; blue, gray, brown); 1× light bulb | **Do not exceed 6 V** ({numref}`E4Fig_01`) |
+| **Connections** | 9× jumper bars | Used to connect circuit sections ({numref}`E4Fig_01`) |
+| **PASCO Modular Kit** | 1× bulb module; 12× spring clip modules; 1× SPST switch (open/close); 1× red/black terminal module (to DC power); 11× T-junctions; 5× straight modules; 4× blank modules; 34× U-shaped jumper clips | Build single resistor circuits & series/parallel circuits; connect components |
+| **Measurement Device** | Fluke multimeter (with alligator clips): Ω (resistance), DC V (voltage), DC A (current) | Example connections {numref}`E4Fig_04`; meter use shown in {numref}`E4Fig_03` |
+```
+--->
+<div class="pst-scrollable-table-container"><table class="table" id="resistance-equipment-table-3">
+<caption><span class="caption-number">Table 12 </span><span class="caption-text">Equipment</span><a class="headerlink" href="#resistance-equipment-table-3" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Category</p></th>
+<th class="head"><p>Items</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Power Supply</strong></p></td>
+<td><p>• PASCO 850 Universal Interface (~0–6 V DC)  <br> • Capstone example <a class="reference internal" href="#e4fig-05"><span class="std std-numref">Fig. 98</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Resistors</strong></p></td>
+<td><p>• 3× ceramic/metal-film resistors (&lt; 1 MΩ; blue, gray, brown) (<a class="reference internal" href="#e4fig-01"><span class="std std-numref">Fig. 95</span></a>) <br> • 1× light bulb — <strong>DO NOT EXCEED 6 V</strong> (<a class="reference internal" href="#e4fig-01"><span class="std std-numref">Fig. 95</span></a>)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Connections</strong></p></td>
+<td><p>• 9× jumper bars (<a class="reference internal" href="#e4fig-01"><span class="std std-numref">Fig. 95</span></a>)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>PASCO Modular Circuit Kit</strong></p></td>
+<td><p>• 1× light bulb module <br> • 12× spring clip modules (attach resistors, voltmeter, ammeter; build series/parallel circuits) <br> • 1× SPST switch module (open/close circuit) <br> • 1× red/black terminal module (connect to DC supply) <br> • 11× T-junction modules <br> • 5× straight-line modules <br> • 4× blank modules <br> • 34× U-shaped jumper clips</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Measurement Device</strong></p></td>
+<td><p>• Fluke multimeter with alligator clips (<a class="reference internal" href="#e4fig-04"><span class="std std-numref">Fig. 97</span></a>) <br> • Ω: measure resistor &amp; bulb resistance (<a class="reference internal" href="#e4fig-03"><span class="std std-numref">Fig. 96</span></a> left) <br> • DC V: measure voltage drop across circuit elements (<a class="reference internal" href="#e4fig-03"><span class="std std-numref">Fig. 96</span></a> right) <br> • DC A: measure current through resistors &amp; bulb and series &amp; parallel circuits (<a class="reference internal" href="#e4fig-03"><span class="std std-numref">Fig. 96</span></a> center)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!---
+  - 1× Wireless Current Sensor (Ammeter) -- connected to Capstone software
+  - 1× Voltmeter via Capstone -- connected to the jumper clips the on either side of the resistors with alligator clips
+  - Seven wires with alligator clips (multi-colored)
+--->
+<figure class="align-default" id="fig-ohms-law-setup">
+<a class="reference internal image-reference" href="../_images/E-4_Fig_02_OverallSchematic_01.png"><img alt="../_images/E-4_Fig_02_OverallSchematic_01.png" src="../_images/E-4_Fig_02_OverallSchematic_01.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 94 </span><span class="caption-text">Left) Schematic, with example circuit for <span class="math notranslate nohighlight">\(R_1\)</span> and ammeter in series and voltmeter in parallel connections with <span class="math notranslate nohighlight">\(R_1\)</span>. Right) Example of actual setup. Red jumper bars show all locations that can be changed to create different circuit configurations. Light bulb and resistor locations are shown for easy testing. Power is supplied by the black and red banana plug output from the Pasco 850 (controlled in Capstone). SPST switch can be used to open/close entire system.</span><a class="headerlink" href="#fig-ohms-law-setup" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="e4fig-01">
+<a class="reference internal image-reference" href="../_images/E-4_Fig_01_resistors_v03.png"><img alt="../_images/E-4_Fig_01_resistors_v03.png" src="../_images/E-4_Fig_01_resistors_v03.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 95 </span><span class="caption-text">Examples of the resistors, light bulb, and jumper bar you will use today.</span><a class="headerlink" href="#e4fig-01" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="e4fig-03">
+<a class="reference internal image-reference" href="../_images/E-4_Fig_03_voltmeters.png"><img alt="../_images/E-4_Fig_03_voltmeters.png" src="../_images/E-4_Fig_03_voltmeters.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 96 </span><span class="caption-text">Examples of the measurement type, connections used, and multimeter overall configurations in use today. Left) configuration for measuring resistance in ohms (Ω) — note, this auto-ranges, double check the magnitude of your units (e.g. Ω, kΩ, MΩ). Center) configuration for measuring DC current in milliamps (mA) through the 300 mA fused circuit. Right) configuration for measuring DC voltage in volts (V).</span><a class="headerlink" href="#e4fig-03" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="e4fig-04">
+<a class="reference internal image-reference" href="../_images/E-4_Fig_04_voltAmpConnection.png"><img alt="../_images/E-4_Fig_04_voltAmpConnection.png" src="../_images/E-4_Fig_04_voltAmpConnection.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 97 </span><span class="caption-text">Examples how to connect ammeter (in line or in series with resistor) and voltmeter (across or in parallel with resistor) alligator clips to the spring modules. For the light bulb, connect voltmeter to the U-shaped module clips.</span><a class="headerlink" href="#e4fig-04" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="e4fig-05">
+<a class="reference internal image-reference" href="../_images/E-4_Fig_05_PascoUse.png"><img alt="../_images/E-4_Fig_05_PascoUse.png" src="../_images/E-4_Fig_05_PascoUse.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 98 </span><span class="caption-text">Example of Hardware Setup, selecting Output Voltage-Current Sensor, and Signal Generator tabs in Capstone set to DC waveform, control output voltage with “DC Voltage”, Voltage limit of <span class="math notranslate nohighlight">\(6\,\text{V}\)</span>, Current limit of <span class="math notranslate nohighlight">\(1.50\,\text{A}\)</span>, use On/Off buttons to supply power.</span><a class="headerlink" href="#e4fig-05" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 </section>
 <section id="experimental-procedure">
@@ -516,103 +649,325 @@ where <span class="math notranslate nohighlight">\(\rho\)</span> is a material c
 <p class="admonition-title">OVERVIEW</p>
 <p>Conduct three experiments involving:</p>
 <ul class="simple">
-<li><p>circuits with resistors and light bulbs</p></li>
-<li><p>resistors in series</p></li>
-<li><p>resistors in parallel
-You will apply a range of voltages through the circuits and measure both current and voltage across the resistors and light bulbs individually and compare your experimental resistances to the “actual” resistance as measured with the ohmmeter. You will then apply just 4.00 V to the circuit with all three resistors in either series or parallel configurations and again measure both current and voltage across each resistor and compare to the expected values</p></li>
+<li><p>4 cases: circuits with individual resistors and light bulb</p></li>
+<li><p>1 case: three resistors in series</p></li>
+<li><p>1 case: three resistors in parallel</p></li>
 </ul>
+<p>You will apply a range of voltages through the circuits and measure both current and voltage across the resistors (ceramic/metal-film) and light bulb individually and compare your experimental resistances to the “actual” resistance as measured with the ohmmeter. You will then apply a constant <span class="math notranslate nohighlight">\(4.00\,\text{V}\)</span> to the circuit with all three resistors in either series or parallel configurations and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.</p>
+</div>
+<!---
+```{admonition} Additional Tips
+:class: tip
+sdfasdf
+```
+--->
+</section>
+<section id="preliminary-setup">
+<h3>Preliminary Setup<a class="headerlink" href="#preliminary-setup" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Create a common data table of your resistors’ resistances in Ohms (<span class="math notranslate nohighlight">\(\Omega\)</span>) where <span class="math notranslate nohighlight">\(R_1=\text{blue}\)</span>, <span class="math notranslate nohighlight">\(R_2=\text{gray}\)</span>, <span class="math notranslate nohighlight">\(R_3=\text{brown}\)</span>, and <span class="math notranslate nohighlight">\(R_\text{bulb}=\text{light bulb}\)</span>.</p></li>
+<li><p>Measure and record to the common data table the actual resistances of each ceramic/metal-film resistor and light bulb as <span class="math notranslate nohighlight">\(R_{1\text{-actual}}\)</span>, <span class="math notranslate nohighlight">\(R_{2\text{-actual}}\)</span>, <span class="math notranslate nohighlight">\(R_{3\text{-actual}}\)</span>, <span class="math notranslate nohighlight">\(R_{\text{bulb-actual}}\)</span>.</p>
+<ul class="simple">
+<li><p>Take such measurements with the Fluke ohmmeter (setting as shown in <a class="reference internal" href="#e4fig-03"><span class="std std-numref">Fig. 96</span></a> left). You will compare your experimentally determined values to these later on.</p></li>
+<li><p>To measure their resistance, you can either attach the alligator clips directly to the ends of the resistors and light bulb, <em><strong>OR</strong></em> more preferrably to decrease wear and tear, place the resistors in the spring modules as you will in the next step (example shown in <a class="reference internal" href="#e4fig-01"><span class="std std-numref">Fig. 95</span></a>), and connect the alligator clips to the springs or U-shaped clips as shown for the voltmeter connections in <a class="reference internal" href="#e4fig-04"><span class="std std-numref">Fig. 97</span></a>. This second method is preferred as it is generally easier to deal with, especially for the light bulb. <em>NOTE: ensure no jumper bars are installed if measuring the resistances when resistors are installed in the modular circuit springs as it may include other elements of the circuitry than just the resistor in question.</em></p></li>
+</ul>
+</li>
+<li><p>Also record an uncertainty in your actual values <span class="math notranslate nohighlight">\(\delta R_\text{-actual}\)</span> for each resistor and light bulb in the common data table. (hint: how are you measuring, where would the uncertainty come from for this measurement?)</p></li>
+<li><p>Prepare your experimental set up to match the example <a class="reference internal" href="#fig-ohms-law-setup"><span class="std std-numref">Fig. 94</span></a>, with light bulb, <span class="math notranslate nohighlight">\(R_1=\text{blue}\)</span>, <span class="math notranslate nohighlight">\(R_2=\text{gray}\)</span>, and <span class="math notranslate nohighlight">\(R_3=\text{brown}\)</span> in their respective positions. Attach the resistors by gently sliding the wire leads into the springs of the spring modules as shown in <a class="reference internal" href="#e4fig-01"><span class="std std-numref">Fig. 95</span></a>. Connect the banana-plug wires if not already connected from the DC power output as supplied by the Pasco 850 interface to the red/black terminal module. Install jumper bars into the spring modules as needed to create a closed circuit. For <span class="math notranslate nohighlight">\(R_1\)</span>, it will be the same as what is shown in the schematic of <a class="reference internal" href="#fig-ohms-law-setup"><span class="std std-numref">Fig. 94</span></a>.</p></li>
+</ol>
+<div class="tip admonition">
+<p class="admonition-title">Consistent Descriptions</p>
+<p>Throughout the following experiments, ensure you are descriptive and consistent in your spreadsheet for each resistor to help keep track of everything.</p>
 </div>
 </section>
-<section id="experiment-1-individual-resistors">
-<h3>Experiment 1 – Individual Resistors:<a class="headerlink" href="#experiment-1-individual-resistors" title="Permalink to this heading">#</a></h3>
-<ol class="arabic simple">
-<li><p>Set up the circuit using the power supply and the resistor <span class="math notranslate nohighlight">\(R_1\)</span> as shown in <a class="reference internal" href="#fig-ohms-law-setup"><span class="std std-numref">Fig. 94</span></a>. It doesn’t matter which resistor you call 1, 2, or 3, just be descriptive and stay consistent. Note: Turn off the power supply and open the SPST switch whenever reconfiguring the circuits or calibrating in Capstone.</p></li>
-<li><p>With the Fluke ohmmeter, determine actual resistances. You will compare your experimentally determined values to these later on. Attach alligator clips to the ends of the resistors; measure and record the actual resistance of the three resistors, <span class="math notranslate nohighlight">\(R_{1\text{-actual}}\)</span>, <span class="math notranslate nohighlight">\(R_{2\text{-actual}}\)</span>, <span class="math notranslate nohighlight">\(R_{3\text{-actual}}\)</span> as well as the small light bulb <span class="math notranslate nohighlight">\(R_{\text{bulb-actual}}\)</span>.</p></li>
-<li><p>Create a data table with columns for the measured current, the measured voltage, and the calculated resistance. Include rows for each target voltage for all the <span class="math notranslate nohighlight">\(R_{n=1,2,3}\)</span> and light bulb cases (voltages listed in following steps).</p></li>
-<li><p>For each voltage setting of the power supply, using the ammeter and voltmeter, measure the current <span class="math notranslate nohighlight">\(I_{n=1}\)</span> through the resistor <span class="math notranslate nohighlight">\(R_{n=1}\)</span> and the voltage <span class="math notranslate nohighlight">\(V_{n=1}\)</span> across <span class="math notranslate nohighlight">\(R_n=1\)</span> where <span class="math notranslate nohighlight">\(n\)</span> is representing each trial (voltage value). The resistance is determined by:</p></li>
-</ol>
-<div class="math notranslate nohighlight">
-\[R_1 = \frac{V_n}{I_n}\]</div>
+<section id="part-i-individual-resistors-across-voltage-range">
+<h3>Part I – Individual Resistors across Voltage Range<a class="headerlink" href="#part-i-individual-resistors-across-voltage-range" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">Part I Overview</p>
+<p>4 cases: circuits with individual resistors and light bulb. You will apply a range of voltages through the circuits and measure both current and voltage across the resistors (ceramic/metal-film) and light bulb individually and compare your experimental resistances to the “actual” resistance as measured with the ohmmeter.</p>
+</div>
 <ol class="arabic simple" start="5">
-<li><p>Turn on the power supply and increase the voltage so the voltage <span class="math notranslate nohighlight">\(V_{n=1}\)</span> is about 0.10 V. Measure and record the current <span class="math notranslate nohighlight">\(I_{n=1}\)</span>. Then set the voltage <span class="math notranslate nohighlight">\(V_{n=2}\)</span> to about 0.50 V. Measure and record the current <span class="math notranslate nohighlight">\(I_{n=2}\)</span>. Proceed in approximately 0.50 V steps for <span class="math notranslate nohighlight">\(V_n\)</span> up to the maximum value for <span class="math notranslate nohighlight">\(V_n\)</span> of 6.00 V. <em>Do not frustrate yourself</em> by trying to set the voltage to exactly 0.50 V steps — just set the voltage to a value near the step and record whatever the voltage and current are! The point here is to have a good sampling across a wide range of voltages.</p></li>
-<li><p>Repeat the preceding steps for resistors <span class="math notranslate nohighlight">\(R_2\)</span> and <span class="math notranslate nohighlight">\(R_3\)</span>.</p></li>
-<li><p><strong>LIGHT BULB</strong>: Replace resistor <span class="math notranslate nohighlight">\(R_1\)</span> with the small light bulb. Repeat the procedure in step 4 increasing the power supply voltage while recording the current. The bulb should be lit at the maximum value of <span class="math notranslate nohighlight">\(V_1 = 6.00\)</span> V. Please don’t over-volt the bulbs, otherwise they’ll burn out sooner.</p></li>
-<li><p>Plot the voltage (<span class="math notranslate nohighlight">\(y\)</span>) vs. current (<span class="math notranslate nohighlight">\(x\)</span>) for <span class="math notranslate nohighlight">\(R_1\)</span>, <span class="math notranslate nohighlight">\(R_2\)</span>, <span class="math notranslate nohighlight">\(R_3\)</span>, and the light bulb. In your lab submission, consider the four plots including the significance of the shape and the slopes.</p></li>
-</ol>
-</section>
-<section id="experiment-2-resistors-in-series">
-<h3>Experiment 2 – Resistors in Series<a class="headerlink" href="#experiment-2-resistors-in-series" title="Permalink to this heading">#</a></h3>
-<ol class="arabic simple">
-<li><p>Replace <span class="math notranslate nohighlight">\(R_1\)</span> with the series connection of <span class="math notranslate nohighlight">\(R_1\)</span>, <span class="math notranslate nohighlight">\(R_2\)</span>, and <span class="math notranslate nohighlight">\(R_3\)</span> in place of the single resistors (see <a class="reference internal" href="#fig-series-parallel-resistors"><span class="std std-numref">Fig. 93</span></a> top and <a class="reference internal" href="#fig-ohms-law-setup"><span class="std std-numref">Fig. 94</span></a>).</p></li>
-<li><p>Set the power supply to 4 V (confirm this with the Capstone voltmeter).</p></li>
-<li><p>Record the current (in series with the circuit) and the voltage (parallel to each resistor) for each of the three resistors with the Fluke multimeter (set to DC amperage and DC voltage, respectively).</p></li>
-<li><p>Determine the total experimental equivalent resistance:</p></li>
+<li><p>Trace the circuit from start to finish to ensure the circuit is completed for <span class="math notranslate nohighlight">\(R_1\)</span>. Start from the red (positive) terminal to of the red/black terminal module through to the ammeter, the resistor, ensuring SPST switch is closed, and end back at the black (negative) terminal. Add jumper bars as needed. Ensure ammeter and voltmeter are connected to measure current through and voltage drop across the resistor (<a class="reference internal" href="#e4fig-04"><span class="std std-numref">Fig. 97</span></a>). (small note: no jumper bar needed for ammeter connections as we want the current to flow through the ammeter, not bypass it)</p></li>
+<li><p>For the first resistor case, create a data table with columns for the following list (but not limited to; add columns as needed for unit conversion to SI units) and include enough rows for each trial/target voltage:</p>
+<ul class="simple">
+<li><p>Trial number</p></li>
+<li><p>Target voltage: increments you set in the Capstone power supply</p></li>
+<li><p>Measured voltage: voltage drop across circuit element in question</p></li>
+<li><p>Measured voltage uncertainty</p></li>
+<li><p>Measured current: current flowing through circuit element in question</p></li>
+<li><p>Measured current uncertainty</p></li>
+<li><p>Resistance: resistance as calculated with Ohm’s law</p></li>
+<li><p>Additional areas for <code class="docutils literal notranslate"><span class="pre">LINEST()</span></code> calculations later on.</p></li>
+</ul>
+</li>
+<li><p>Target voltages will be <span class="math notranslate nohighlight">\(0.10, 0.50, 1.00, ...0.50\,\text{V increments}... 6.00\text{V}\)</span>. The first trial is the odd one out since we want a near-zero value, but cannot actually be at zero volts.</p></li>
+<li><p>In Capstone, go to Signal Generator (<a class="reference internal" href="#e4fig-05"><span class="std std-numref">Fig. 98</span></a> right) and ensure it is set to DC waveform. Control the <em>target</em> output voltage with “DC Voltage”, ensure voltage is limited to a max of <span class="math notranslate nohighlight">\(6\,\text{V}\)</span>, ensure current is limited to <span class="math notranslate nohighlight">\(1.50\,\text{A}\)</span>, and use On/Off buttons to supply power.</p></li>
+<li><p>Set the target voltage to the first target voltage <span class="math notranslate nohighlight">\(0.10\,\text{V}\)</span> as listed earlier. Turn <em><strong>ON</strong></em> the power supply. In Capstone, in place of the normal <code class="docutils literal notranslate"><span class="pre">Record</span></code> button is the <code class="docutils literal notranslate"><span class="pre">Monitor</span></code> button at the bottom of the screen. Press <code class="docutils literal notranslate"><span class="pre">Monitor</span></code> and you should see the output voltage and output current constantly updating. These will purely be used for monitoring output of the power supply, but not for any explicit measurements. Notes: If they are not updating, check that the Hardware Setup (see <a class="reference internal" href="#e4fig-05"><span class="std std-numref">Fig. 98</span></a> left) is set for the Output Voltage-Current Sensor. If the monitored output voltage in Capstone does not agree with what you set in the signal generator, the Output Voltage-Current Sensor may just need to be zeroed out — turn off power supply, ensure sensor is selected in bottom of screen, press the button to the right that has a 0 with two yellow arrows pointing to the zero line, then check by turning on the power supply, and check calibration is now accurate.</p></li>
+<li><p>Measure and record the DC current <span class="math notranslate nohighlight">\(I\)</span> through and the DC voltage <span class="math notranslate nohighlight">\(V\)</span> across the resistor (multimeters connected as in <a class="reference internal" href="#e4fig-04"><span class="std std-numref">Fig. 97</span></a>).</p></li>
+<li><p>Increase the power supply output to the next target voltage of <span class="math notranslate nohighlight">\(0.50\,\text{V}\)</span>. Measure and record current and voltage again with the multimeters, and continue increasing target voltages in <span class="math notranslate nohighlight">\(0.50\,\text{V}\)</span> increments until <span class="math notranslate nohighlight">\(6.00\,\text{V}\)</span>. <em>Do not frustrate yourself</em> by trying to get the multimeter-measured voltages to exactly 0.50 V steps — just set the target voltage record whatever the voltage and current are. The point here is to have a good sampling across a wide range of voltages.</p></li>
+<li><p>For each trial, calculate the resistance by:</p></li>
 </ol>
 <div class="math notranslate nohighlight">
-\[R_{\text{eq-series-experiment}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_3}{I_3}\]</div>
-<p>and compare it with the expected value using <a class="reference internal" href="#equation-eq-equivalent-resistance">(125)</a> and your “actual” resistance values from the Ohmmeter.</p>
+\[R_\text{trial#} = \frac{V_\text{trial#}}{I_\text{trial#}}\]</div>
+<!---
+13. After running all target voltage trials, add a row below to calculate the average and standard deviation of your resistance values.
+--->
+<ol class="arabic" start="13">
+<li><p>After running all target voltage trials for the current case, determine your overall <span class="math notranslate nohighlight">\(R_{1\,\text{experimental}}\pm \delta R_{1\,\text{experimental}}\)</span> by using the <code class="docutils literal notranslate"><span class="pre">LINEST</span></code>(<span class="math notranslate nohighlight">\(\hat{Y}\)</span>,<span class="math notranslate nohighlight">\(\hat{X}\)</span>,TRUE,TRUE) function to determine the linear relationship between Voltage (as Y-values) and Current (as X-values).</p>
+<div class="question admonition">
+<p class="admonition-title">Slope Is …?</p>
+<p>If you were to rearrange <a class="reference internal" href="#equation-eq-ohms-law">(124)</a> to be in the linear form of <span class="math notranslate nohighlight">\(y=mx+b\)</span>, what does the slope <span class="math notranslate nohighlight">\(m\)</span> end up representing? When creating your summary table later, ensure you reference the <code class="docutils literal notranslate"><span class="pre">LINEST</span></code> slope’s cell and it’s uncertainty (remember not to just copy/paste) and accurately describe what it represents, not just described as slope.</p>
+</div>
+</li>
+<li><p>Calculate the <strong>difference</strong> between your experimental resistance value (as determined in previous step) and actual values (i.e. <span class="math notranslate nohighlight">\(R_\text{experimental} - R_\text{actual}\)</span>). Also calculate the <strong>percent difference</strong> between your experimental and actual values (reminder of this in <a class="reference internal" href="../Intro/ErrorAnalysis.html#equation-eq-percentchangeinerroranalysis">(5)</a>). (Generally should be <span class="math notranslate nohighlight">\(&lt;10\%\)</span>)</p></li>
+<li><p><em><strong>PLOT</strong></em> the voltage (<span class="math notranslate nohighlight">\(y\)</span>) vs. current (<span class="math notranslate nohighlight">\(x\)</span>) for all cases all on the same plot, starting with this first one (<span class="math notranslate nohighlight">\(R_1\)</span>). Add the other cases (<span class="math notranslate nohighlight">\(R_2\)</span>, <span class="math notranslate nohighlight">\(R_3\)</span>, and light bulb) as you return to this step later. This will be similar to how you plotted both cases on the same plot in last week’s lab. For each case, add a linear trendline. For the light bulb case, also add a quadratic or polynomial-to-the-order-of-2 trendline for direct comparison to linear (i.e. light bulb case will have two trendlines on the same data set). In your lab submission, consider the four datasets including the significance of the shape and the slopes.</p></li>
+<li><p>Repeat the preceding steps for resistors <span class="math notranslate nohighlight">\(R_2\)</span>, <span class="math notranslate nohighlight">\(R_3\)</span>, and the light bulb. Add/remove jumper bars to create the new circuits. <strong>LIGHT BULB</strong>: Please don’t over-volt the bulbs, otherwise they’ll burn out sooner, maximum value of <span class="math notranslate nohighlight">\(V = 6.00\,\text{V}\)</span>.</p></li>
+</ol>
 </section>
-<section id="experiment-3-resistors-in-parallel">
-<h3>Experiment 3 – Resistors in Parallel<a class="headerlink" href="#experiment-3-resistors-in-parallel" title="Permalink to this heading">#</a></h3>
-<ol class="arabic simple">
-<li><p>Reconnect the three resistors in a parallel connection (see <a class="reference internal" href="#fig-series-parallel-resistors"><span class="std std-numref">Fig. 93</span></a> bottom).</p></li>
-<li><p>Set the power supply to 4 V (confirm this with the Capstone voltmeter).</p></li>
-<li><p>Record the current (in series with the circuit) and the voltage (parallel to each resistor) for each of the three resistors with the Fluke voltmeter (set to DC amperage and DC voltage, respectively).</p></li>
-<li><p>Determine the total experimental equivalent resistance:</p></li>
+<section id="part-ii-resistors-in-series-at-constant-voltage">
+<h3>Part II – Resistors in Series at Constant Voltage<a class="headerlink" href="#part-ii-resistors-in-series-at-constant-voltage" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">Part II Overview</p>
+<p>1 case: three resistors in series. You will apply a constant <span class="math notranslate nohighlight">\(4.00\,\text{V}\)</span> to the circuit with all three resistors in series configuration and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.</p>
+</div>
+<ol class="arabic simple" start="17">
+<li><p>Create a new data table including rows for each resistor, columns for:</p>
+<ul class="simple">
+<li><p>measured voltage</p></li>
+<li><p>uncertainty in measured voltage</p></li>
+<li><p>measured current</p></li>
+<li><p>uncertainty in measured current</p></li>
+<li><p>resistance from <a class="reference internal" href="#equation-eq-ohms-law">(124)</a></p></li>
+</ul>
+</li>
+<li><p>Include additional areas for:</p>
+<ul class="simple">
+<li><p>calculated experimental equivalent resistance, <span class="math notranslate nohighlight">\(R_\text{eq-series-experimental}\)</span></p></li>
+<li><p>maximized experimental equivalent resistance</p></li>
+<li><p>uncertainty in experimental equivalent resistance (<span class="math notranslate nohighlight">\(\delta\,\text{value}=\)</span> difference between maximized and calculated <span class="math notranslate nohighlight">\(R_\text{eq-series-experimental}\)</span>)</p></li>
+<li><p>expected equivalent resistance from “actual” resistance values, <span class="math notranslate nohighlight">\(R_\text{eq-series-actual}\)</span></p></li>
+<li><p>maximized expected equivalent resistance from “actual” resistance values</p></li>
+<li><p>uncertainty in expected equivalent resistance from “actual” resistance values (<span class="math notranslate nohighlight">\(\delta\,\text{value}=\)</span> difference between maximized and calculated <span class="math notranslate nohighlight">\(R_\text{eq-series-actual}\)</span>)</p></li>
+</ul>
+</li>
+<li><p>Reconfigure the jumper bars to create a series connection of <span class="math notranslate nohighlight">\(R_1\)</span>, <span class="math notranslate nohighlight">\(R_2\)</span>, and <span class="math notranslate nohighlight">\(R_3\)</span> (see <a class="reference internal" href="#fig-series-parallel-resistors"><span class="std std-numref">Fig. 93</span></a> top).</p></li>
+<li><p>Set the power supply target voltage to <span class="math notranslate nohighlight">\(4.00\,\text{V}\)</span>.</p></li>
+<li><p>Record the current (in series with the circuit) and the voltage (parallel to each resistor) for each of the three resistors with the Fluke multimeter (set to DC amperage and DC voltage, respectively). Note uncertainties. Check that your individual resistances make sense when calculated from <a class="reference internal" href="#equation-eq-ohms-law">(124)</a>.</p></li>
+<li><p>Determine the total series experimental equivalent resistance:</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_3}{I_3}\]</div>
+<ol class="arabic" start="23">
+<li><p>Calculate the expected equivalent resistance from “actual” resistance values from the Ohmmeter and <a class="reference internal" href="#equation-eq-equivalent-resistance">(125)</a>.</p></li>
+<li><p>Maximize both your experimental and expected equivalent resistances. Reminder: both your experimental and expected values should have an uncertainty range since they are both based on measured values (be it voltage, current, or resistance with the multimeters).</p>
+<div class="question admonition">
+<p class="admonition-title">Maximizing?</p>
+<p>To maximize <span class="math notranslate nohighlight">\(R_\text{eq-series}\)</span>:</p>
+<ul class="simple">
+<li><p>should you increase or decrease voltage;</p></li>
+<li><p>should you increase or decrease current;</p></li>
+<li><p>should you increase or decrease resistance?
+Working this out on paper can be a useful exercise (calculations still need to be done in Excel)</p></li>
+</ul>
+</div>
+</li>
+<li><p>For equivalent resistance, determine both experimental and expected uncertainty (<span class="math notranslate nohighlight">\(\delta\)</span>) ranges by using the difference between maximized and normally calculated equivalent resistances.</p></li>
+<li><p>Compare your experimental <span class="math notranslate nohighlight">\(R_\text{eq-series-experimental} \pm \delta R_\text{eq-series-experimental}\)</span> with your expected <span class="math notranslate nohighlight">\(R_\text{eq-series-actual} \pm \delta R_\text{eq-series-actual}\)</span>. Agree/disagree; why/why not? If due to something fixable, re-take necessary measurements.</p></li>
+</ol>
+</section>
+<section id="part-iii-resistors-in-parallel-at-constant-voltage">
+<h3>Part III – Resistors in Parallel at Constant Voltage<a class="headerlink" href="#part-iii-resistors-in-parallel-at-constant-voltage" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">Part III Overview</p>
+<p>1 case: three resistors in parallel. You will apply a constant <span class="math notranslate nohighlight">\(4.00\,\text{V}\)</span> to the circuit with all three resistors in parallel configuration and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.</p>
+</div>
+<ol class="arabic simple" start="27">
+<li><p>Create a new data table including rows for each resistor, columns for:</p>
+<ul class="simple">
+<li><p>measured voltage</p></li>
+<li><p>uncertainty in measured voltage</p></li>
+<li><p>measured current</p></li>
+<li><p>uncertainty in measured current</p></li>
+<li><p>resistance from <a class="reference internal" href="#equation-eq-ohms-law">(124)</a></p></li>
+</ul>
+</li>
+<li><p>Include additional areas for:</p>
+<ul class="simple">
+<li><p>calculated experimental equivalent resistance, <span class="math notranslate nohighlight">\(R_\text{eq-parallel-experimental}\)</span></p></li>
+<li><p>maximized experimental equivalent resistance</p></li>
+<li><p>uncertainty in experimental equivalent resistance (<span class="math notranslate nohighlight">\(\delta\,\text{value}=\)</span> difference between maximized and calculated <span class="math notranslate nohighlight">\(R_\text{eq-parallel-experimental}\)</span>)</p></li>
+<li><p>expected equivalent resistance from “actual” resistance values, <span class="math notranslate nohighlight">\(R_\text{eq-parallel-actual}\)</span></p></li>
+<li><p>maximized expected equivalent resistance from “actual” resistance values</p></li>
+<li><p>uncertainty in expected equivalent resistance from “actual” resistance values (<span class="math notranslate nohighlight">\(\delta\,\text{value}=\)</span> difference between maximized and calculated <span class="math notranslate nohighlight">\(R_\text{eq-parallel-actual}\)</span>)</p></li>
+</ul>
+</li>
+<li><p>Reconfigure the jumper bars to create a parallel connection of <span class="math notranslate nohighlight">\(R_1\)</span>, <span class="math notranslate nohighlight">\(R_2\)</span>, and <span class="math notranslate nohighlight">\(R_3\)</span> (see <a class="reference internal" href="#fig-series-parallel-resistors"><span class="std std-numref">Fig. 93</span></a> bottom).</p></li>
+<li><p>Set the power supply target voltage to <span class="math notranslate nohighlight">\(4.00\,\text{V}\)</span>.</p></li>
+<li><p>Record the current (in series with the circuit) and the voltage (parallel to each resistor) for each of the three resistors with the Fluke multimeter (set to DC amperage and DC voltage, respectively). Note uncertainties. Check that your individual resistances make sense when calculated from <a class="reference internal" href="#equation-eq-ohms-law">(124)</a>.</p></li>
+<li><p>Determine the total parallel experimental equivalent resistance:</p></li>
 </ol>
 <div class="math notranslate nohighlight">
 \[\frac{1}{R_{\text{eq-parallel-experiment}}} = \frac{I_1}{V_1} + \frac{I_2}{V_2} + \frac{I_3}{V_3}\]</div>
-<p>and compare it with the expected value using <a class="reference internal" href="#equation-eq-equivalent-resistance">(125)</a> and your “actual” resistance values from the Ohmmeter.</p>
+<ol class="arabic" start="33">
+<li><p>Calculate the expected equivalent resistance from “actual” resistance values from the Ohmmeter and <a class="reference internal" href="#equation-eq-equivalent-resistance">(125)</a>.</p></li>
+<li><p>Maximize both your experimental and expected equivalent resistances. Reminder: both your experimental and expected values should have an uncertainty range since they are both based on measured values (be it voltage, current, or resistance with the multimeters).</p>
+<div class="question admonition">
+<p class="admonition-title">Maximizing?</p>
+<p>To maximize <span class="math notranslate nohighlight">\(R_\text{eq-parallel}\)</span>:</p>
+<ul class="simple">
+<li><p>should you increase or decrease voltage;</p></li>
+<li><p>should you increase or decrease current;</p></li>
+<li><p>should you increase or decrease resistance?
+Working this out on paper can be a useful exercise (calculations still need to be done in Excel)</p></li>
+</ul>
+</div>
+</li>
+<li><p>For equivalent resistance, determine both experimental and expected uncertainty (<span class="math notranslate nohighlight">\(\delta\)</span>) ranges by using the difference between maximized and normally calculated equivalent resistances.</p></li>
+<li><p>Compare your experimental <span class="math notranslate nohighlight">\(R_\text{eq-parallel-experimental} \pm \delta R_\text{eq-parallel-experimental}\)</span> with your expected <span class="math notranslate nohighlight">\(R_\text{eq-parallel-actual} \pm \delta R_\text{eq-parallel-actual}\)</span>. Agree/disagree; why/why not? If due to something fixable, re-take necessary measurements.</p></li>
+<li><p>Create a concise summary table summarizing all three parts of today’s lab.</p>
+<ul class="simple">
+<li><p>Part I including for each resistor/light bulb:</p>
+<ul>
+<li><p>Experimentally slope-derived resistance</p></li>
+<li><p>Experimentally slope-derived resistance uncertainty</p></li>
+<li><p>Difference between experimental and actual values</p></li>
+<li><p>Percent difference between experimental and actual values</p></li>
+</ul>
+</li>
+<li><p>Part II including:</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(R_\text{eq-series-experimental} \pm \delta R_\text{eq-series-experimental}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(R_\text{eq-series-actual} \pm \delta R_\text{eq-series-actual}\)</span></p></li>
+</ul>
+</li>
+<li><p>Part III including:</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(R_\text{eq-parallel-experimental} \pm \delta R_\text{eq-parallel-experimental}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(R_\text{eq-parallel-actual} \pm \delta R_\text{eq-parallel-actual}\)</span></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>When you are finished with all experiments, reset your experimental setup before leaving.</p>
+<div class="important admonition">
+<p class="admonition-title">CLEAN UP</p>
+<p>Please return your experimental station back to the way you found it or better:</p>
+<ul class="simple">
+<li><p>Return resistors and jumper bars back to containers</p></li>
+<li><p>Power supply is off/Capstone closed</p></li>
+<li><p>Multimeters off</p></li>
+</ul>
+</div>
+</li>
+</ol>
 </section>
 </section>
 <section id="post-lab-submission-interpretation-of-results">
 <h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
-<p><strong>Paragraph of results:</strong> Calculate the expected effective resistance using <a class="reference internal" href="#equation-eq-equivalent-resistance">(125)</a> for your series and parallel circuits. Do your measured values agree?</p>
+<section id="finalized-spreadsheets">
+<h3>Finalized Spreadsheets<a class="headerlink" href="#finalized-spreadsheets" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Make sure to submit your finalized data sheet with summarized data and cleaned-up plots (Excel sheet)</p></li>
-<li><p>Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:</p>
+<li><p>Make sure to submit your finalized data table (Excel sheet).</p></li>
+<li><p>Please include concise summary table.</p></li>
+<li><p>Please include the relevant plot(s) including (just one for this lab):</p>
 <ul>
-<li><p>Do your experimental results for the individual resistors and the light bulb agree with your expected values (as measured with the ohmmeter)? Why or why not?</p></li>
-<li><p>What do the shapes of the plots mean (linear or non-linear relationship?); why, from a physical standpoint, does the light bulb plot look the way it does as compared to the resistors?</p></li>
-<li><p>Do your experimental results for the equivalent resistances <span class="math notranslate nohighlight">\(R_{\text{eq}}\)</span> (<a class="reference internal" href="#equation-eq-equivalent-resistance">(125)</a>) of both series and parallel circuits agree with their respective expected values based on the resistors’ actual values (from Ohmmeter)?</p>
+<li><p><span class="math notranslate nohighlight">\(V\)</span> vs. <span class="math notranslate nohighlight">\(I\)</span>, with all three resistors and the light bulb all plotted on the same graph. Linear trendlines for all cases, plus additional quadratic trendline for the light bulb.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="post-lab-writeup">
+<h3>Post-lab Writeup<a class="headerlink" href="#post-lab-writeup" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative, not only quantitative.</p>
 <ul>
-<li><p>Physically, why should we expect the resistance of a series circuit to be greater than that of a parallel circuit made of the same resistors?</p></li>
+<li><p>What is the precision of your equipment?</p></li>
+<li><p>What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors? How would they change your final results (larger, smaller, more varied)?</p></li>
+<li><p>What are your measured uncertainties for Voltage and Current; how did you estimate these? Based on these uncertainties, how do your final results change — test it — go back and <em><strong>make a copy of your spreadsheet to test</strong></em>:</p>
+<ul>
+<li><p>For just the largest-resistance resistor (likely blue):</p>
+<ul>
+<li><p>How does your final resistance value change due to increasing/decreasing just voltage by your voltage uncertainty?</p></li>
+<li><p>How does your final resistance value change due to increasing/decreasing just current by your current uncertainty?</p></li>
+<li><p>Which has a bigger overall impact and why?</p></li>
+</ul>
+</li>
+<li><p>For each of the Series and Parallel circuits:</p>
+<ul>
+<li><p>How did your final equivalent resistance results change (larger/smaller?) based on increasing/decreasing your voltage and current uncertainties?</p></li>
+<li><p>Which has a bigger overall impact and why?</p></li>
+<li><p>What was the overall uncertainty range of your equivalent resistances due to error propagation of both voltage and current at the same time?</p></li>
+</ul>
+</li>
+<li><p>For the resistor, series, and parallel, if your final results became larger or smaller, were they more or less accurate to expected values?</p></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p>Paragraph of your errors and estimated measurement uncertainties. Be quantitative. Make sure to include discussion of the following:</p>
+</ul>
+<!---    - How does this inform whether systematic or random errors. Did anything stand out as a causing less accuracy or less precision?
+--->
+<!---
+  - How could you improve your random errors?
+  - Were your systematic errors significant; how could this be improved if you were to re-run this experiment?
+--->
+<ul class="simple">
+<li><p>In a <strong>paragraph</strong>, summarize the results you have determined for all cases. Consider:</p>
 <ul>
-<li><p>Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?</p></li>
-<li><p>What are your measured uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?</p></li>
-<li><p>If larger or small, are they more or less accurate to expected values?</p></li>
-<li><p>How could you improve your random errors?</p></li>
-<li><p>Were your systematic errors significant; how could this be improved if you were to re-run this experiment?</p></li>
+<li><p>What was the point of today’s lab; what did we aim to discover?</p></li>
+<li><p>Do your experimental results for the individual resistors and the light bulb agree with your expected values (as measured with the ohmmeter)? Why or why not? (reminder, since both the actual and experimental values were measured or derived from measured values, you should have both an actual and experimental uncertainty range for comparisons)</p>
+<ul>
+<li><p>Do your percent differences make sense? What do they represent?</p></li>
+</ul>
+</li>
+<li><p>What do the shapes of the resistors and light bulb plotted data mean (linear or non-linear relationship?); why, from a physical standpoint, does the light bulb plot look the way it does as compared to the resistors?</p></li>
+<li><p>Do your experimental results for the equivalent resistances <span class="math notranslate nohighlight">\(R_{\text{eq}}\)</span> <a class="reference internal" href="#equation-eq-equivalent-resistance">(125)</a> of both series and parallel circuits agree with their respective expected values based on the expected equivalent resistance from the resistors’ actual values (from Ohmmeter)?</p>
+<ul>
+<li><p>Physically, why should we expect the resistance of a series circuit to be greater than that of a parallel circuit made of the same resistors? (It can sometimes be useful to incorporate analogies to help explain this).</p></li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+<!---
+
+
+%OLD Version !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! before 11/6/2024
+%\begin{enumerate}
+%\item How are the $V$ vs $I$ graphs different for the light bulb and the ohmic resistance?
+%\item Does the series connection increase or decrease the resistance? What about the parallel connection?
+%\item Why are you connecting a voltmeter in parallel and the ammeter in series? How can they affect your measurement?
+%\item Why does a voltmeter have high resistance and an ammeter have low resistance?
+%\end{enumerate}
+
+--->
+</section>
 </section>
 <section id="the-whiteboard">
 <h2>The Whiteboard<a class="headerlink" href="#the-whiteboard" title="Permalink to this heading">#</a></h2>
 <figure class="align-center" id="dcresistors-whiteboard-01">
-<a class="reference internal image-reference" href="../_images/DCResistors_2025_Summer_01_v01.jpg"><img alt="../_images/DCResistors_2025_Summer_01_v01.jpg" src="../_images/DCResistors_2025_Summer_01_v01.jpg" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="../_images/DCResistors_2025_Summer_01_v02.jpg"><img alt="../_images/DCResistors_2025_Summer_01_v02.jpg" src="../_images/DCResistors_2025_Summer_01_v02.jpg" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 95 </span><span class="caption-text">Overview. <code class="docutils literal notranslate"><span class="pre">LINEST()</span></code> function.</span><a class="headerlink" href="#dcresistors-whiteboard-01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 99 </span><span class="caption-text">Overview for both main parts of the lab. <code class="docutils literal notranslate"><span class="pre">LINEST()</span></code> function (use <code class="docutils literal notranslate"><span class="pre">Y,X,True,True</span></code>).</span><a class="headerlink" href="#dcresistors-whiteboard-01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<figure class="align-center" id="dcresistors-whiteboard-02">
-<a class="reference internal image-reference" href="../_images/DCResistors_2025_Spring_02_v02.jpg"><img alt="../_images/DCResistors_2025_Spring_02_v02.jpg" src="../_images/DCResistors_2025_Spring_02_v02.jpg" style="width: 100%;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 96 </span><span class="caption-text">Sensor setup notes.</span><a class="headerlink" href="#dcresistors-whiteboard-02" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<figure class="align-center" id="dcresistors-whiteboard-03">
-<a class="reference internal image-reference" href="../_images/DCResistors_2025_Spring_03_v01.jpg"><img alt="../_images/DCResistors_2025_Spring_03_v01.jpg" src="../_images/DCResistors_2025_Spring_03_v01.jpg" style="width: 100%;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 97 </span><span class="caption-text">WARNING — MUST HAVE RESISTOR IN SERIES WITH AMMETER TO AVOID DAMAGE. Data taking notes; multimeter settings.</span><a class="headerlink" href="#dcresistors-whiteboard-03" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-</section>
+<!---
+```{figure} ResistanceFigures/DCResistors_2025_Spring_02_v02.jpg
+:name: DCResistors_whiteboard_02
+:width: 100%
+:align: center
+
+Sensor setup notes.
+```
+
+```{figure} ResistanceFigures/DCResistors_2025_Spring_03_v01.jpg
+:name: DCResistors_whiteboard_03
+:width: 100%
+:align: center
+
+WARNING --- MUST HAVE RESISTOR IN SERIES WITH AMMETER TO AVOID DAMAGE. Data taking notes; multimeter settings.
+```
+---></section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -681,18 +1036,28 @@ You will apply a range of voltages through the circuits and measure both current
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-overview">Background Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-overview-resistance">Background Overview — Resistance</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#series-parallel-circuits">Series &amp; Parallel Circuits</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#series-circuits-kirchhoffs-voltage-rule">Series Circuits — Kirchhoff’s Voltage Rule</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parallel-circuits-kirchhoffs-current-rule">Parallel Circuits — Kirchhoff’s Current Rule</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure-preview">Procedure Preview</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-1-individual-resistors">Experiment 1 – Individual Resistors:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-2-resistors-in-series">Experiment 2 – Resistors in Series</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-3-resistors-in-parallel">Experiment 3 – Resistors in Parallel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preliminary-setup">Preliminary Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-individual-resistors-across-voltage-range">Part I – Individual Resistors across Voltage Range</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-resistors-in-series-at-constant-voltage">Part II – Resistors in Series at Constant Voltage</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iii-resistors-in-parallel-at-constant-voltage">Part III – Resistors in Parallel at Constant Voltage</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized Spreadsheets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-writeup">Post-lab Writeup</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
   </nav></div>
