@@ -281,7 +281,7 @@ sdfasdf
 Throughout the following experiments, ensure you are descriptive and consistent in your spreadsheet for each resistor to help keep track of everything.
 ```
 
-### Experiment 1 -- Individual Resistors
+### Part 1 -- Individual Resistors across Voltage Range
 
 5. Trace the circuit from start to finish to ensure the circuit is completed for $R_1$. Start from the red (positive) terminal to of the red/black terminal module through to the ammeter, the resistor, ensuring SPST switch is closed, and end back at the black (negative) terminal. Add jumper bars as needed. Ensure ammeter and voltmeter are connected to measure current through and voltage drop across the resistor ({numref}`E4Fig_04`). (small note: no jumper bar needed for ammeter connections as we want the current to flow through the ammeter, not bypass it)
 
@@ -289,7 +289,9 @@ Throughout the following experiments, ensure you are descriptive and consistent 
     - Trial number
     - Target voltage: increments you set in the Capstone power supply
     - Measured voltage: voltage drop across circuit element in question
+    - Measured voltage uncertainty
     - Measured current: current flowing through circuit element in question
+    - Measured current uncertainty
     - Resistance: resistance as calculated with Ohm's law
     - Additional areas for `LINEST()` calculations later on.
 
@@ -320,48 +322,122 @@ R_\text{trial#} = \frac{V_\text{trial#}}{I_\text{trial#}}
     If you were to rearrange {eq}`eq-ohms-law` to be in the linear form of $y=mx+b$, what does the slope $m$ end up representing? When creating your summary table later, ensure you reference the `LINEST` slope's cell and it's uncertainty (remember not to just copy/paste) and accurately describe what it represents, not just described as slope.
     ```
 
-14. ***PLOT*** the voltage ($y$) vs. current ($x$) for all cases all on the same plot, starting with this first one  ($R_1$). Add the other cases ($R_2$, $R_3$, and light bulb) as you return to this step later. This will be similar to how you plotted both cases on the same plot in last week's lab. For each case, add a linear trendline. For the light bulb case, also add a quadratic or polynomial-to-the-order-of-2 trendline for direct comparison to linear (i.e. light bulb case will have two trendlines on the same data set). In your lab submission, consider the four datasets including the significance of the shape and the slopes.
+14. Calculate the **difference** between your experimental resistance value (as determined in previous step) and actual values (i.e. $R_\text{experimental} - R_\text{actual}$). Also calculate the **percent difference** between your experimental and actual values (reminder of this in {eq}`eq-percentChangeinErrorAnalysis`). (Generally should be $<10\%$)
 
-15. Repeat the preceding steps for resistors $R_2$, $R_3$, and the light bulb. Add/remove jumper bars to create the new circuits. **LIGHT BULB**: Please don't over-volt the bulbs, otherwise they'll burn out sooner, maximum value of $V = 6.00\,\text{V}$. 
+15. ***PLOT*** the voltage ($y$) vs. current ($x$) for all cases all on the same plot, starting with this first one ($R_1$). Add the other cases ($R_2$, $R_3$, and light bulb) as you return to this step later. This will be similar to how you plotted both cases on the same plot in last week's lab. For each case, add a linear trendline. For the light bulb case, also add a quadratic or polynomial-to-the-order-of-2 trendline for direct comparison to linear (i.e. light bulb case will have two trendlines on the same data set). In your lab submission, consider the four datasets including the significance of the shape and the slopes.
+
+16. Repeat the preceding steps for resistors $R_2$, $R_3$, and the light bulb. Add/remove jumper bars to create the new circuits. **LIGHT BULB**: Please don't over-volt the bulbs, otherwise they'll burn out sooner, maximum value of $V = 6.00\,\text{V}$.
 
 
-### Experiment 2 -- Resistors in Series
+### Part 2 -- Resistors in Series at Constant Voltage
 
-16. Create a new data table including rows for each resistor, columns for measured voltage, uncertainty in measured voltage, measured current, calculated resistance, and then also a section for the expected and experimental equivalent resistances. (this experiment and the parallel experiment will not have)
+17. Create a new data table including rows for each resistor, columns for:
+    - measured voltage
+    - uncertainty in measured voltage
+    - measured current
+    - uncertainty in measured current
+    - resistance from {eq}`eq-ohms-law`
 
-1. Reconfigure the jumper bars to create a series connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` top).
+18. Include additional areas for:
+    - calculated experimental equivalent resistance, $R_\text{eq-series-experimental}$
+    - maximized experimental equivalent resistance
+    - uncertainty in experimental equivalent resistance ($\delta\,\text{value}=$ difference between maximized and calculated $R_\text{eq-series-experimental}$)
+    - expected equivalent resistance from "actual" resistance values, $R_\text{eq-series-actual}$
+    - maximized expected equivalent resistance from "actual" resistance values
+    - uncertainty in expected equivalent resistance from "actual" resistance values ($\delta\,\text{value}=$ difference between maximized and calculated $R_\text{eq-series-actual}$)
 
-2. Set the power supply target voltage to $4.00\,\text{V}$.
+19. Reconfigure the jumper bars to create a series connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` top).
 
-3. Record the current (in series with the circuit) and the voltage (parallel to each resistor) for each of the three resistors with the Fluke multimeter (set to DC amperage and DC voltage, respectively).
+20. Set the power supply target voltage to $4.00\,\text{V}$.
 
-4. Determine the total experimental equivalent resistance:
+21. Record the current (in series with the circuit) and the voltage (parallel to each resistor) for each of the three resistors with the Fluke multimeter (set to DC amperage and DC voltage, respectively). Note uncertainties. Check that your individual resistances make sense when calculated from {eq}`eq-ohms-law`.
+
+22. Determine the total series experimental equivalent resistance:
 
 ```{math}
 R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_3}{I_3}
 ```
 
-and compare it with the expected value using {eq}`eq-equivalent-resistance` and your "actual" resistance values from the Ohmmeter.
+23. Calculate the expected equivalent resistance from "actual" resistance values from the Ohmmeter and {eq}`eq-equivalent-resistance`.
 
-### Experiment 3 -- Resistors in Parallel
+24. Maximize both your experimental and expected equivalent resistances. Reminder: both your experimental and expected values should have an uncertainty range since they are both based on measured values (be it voltage, current, or resistance with the multimeters).
 
-1. Reconnect the three resistors in a parallel connection (see {numref}`fig-series-parallel-resistors` bottom).
+    ```{admonition} Maximizing?
+    :class: question
+    To maximize $R_\text{eq-series}$:
+      - should you increase or decrease voltage;
+      - should you increase or decrease current;
+      - should you increase or decrease resistance?
+    Working this out on paper can be a useful exercise (calculations still need to be done in Excel)
+    ```
 
-2. Set the power supply to 4 V (confirm this with the Capstone voltmeter).
+25. For equivalent resistance, determine both experimental and expected uncertainty ($\delta$) ranges by using the difference between maximized and normally calculated equivalent resistances.
 
-3. Record the current (in series with the circuit) and the voltage (parallel to each resistor) for each of the three resistors with the Fluke voltmeter (set to DC amperage and DC voltage, respectively).
+26. Compare your experimental $R_\text{eq-series-experimental} \pm \delta R_\text{eq-series-experimental}$ with your expected $R_\text{eq-series-actual} \pm \delta R_\text{eq-series-actual}$. Agree/disagree; why/why not? If due to something fixable, re-take necessary measurements.
 
-4. Determine the total experimental equivalent resistance:
+### Part 3 -- Resistors in Parallel at Constant Voltage
+
+27. Create a new data table including rows for each resistor, columns for:
+    - measured voltage
+    - uncertainty in measured voltage
+    - measured current
+    - uncertainty in measured current
+    - resistance from {eq}`eq-ohms-law`
+
+28. Include additional areas for:
+    - calculated experimental equivalent resistance, $R_\text{eq-parallel-experimental}$
+    - maximized experimental equivalent resistance
+    - uncertainty in experimental equivalent resistance ($\delta\,\text{value}=$ difference between maximized and calculated $R_\text{eq-parallel-experimental}$)
+    - expected equivalent resistance from "actual" resistance values, $R_\text{eq-parallel-actual}$
+    - maximized expected equivalent resistance from "actual" resistance values
+    - uncertainty in expected equivalent resistance from "actual" resistance values ($\delta\,\text{value}=$ difference between maximized and calculated $R_\text{eq-parallel-actual}$)
+
+29. Reconfigure the jumper bars to create a parallel connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` bottom).
+
+30. Set the power supply target voltage to $4.00\,\text{V}$.
+
+31. Record the current (in series with the circuit) and the voltage (parallel to each resistor) for each of the three resistors with the Fluke multimeter (set to DC amperage and DC voltage, respectively). Note uncertainties. Check that your individual resistances make sense when calculated from {eq}`eq-ohms-law`.
+
+32. Determine the total parallel experimental equivalent resistance:
 
 ```{math}
 \frac{1}{R_{\text{eq-parallel-experiment}}} = \frac{I_1}{V_1} + \frac{I_2}{V_2} + \frac{I_3}{V_3}
 ```
 
-and compare it with the expected value using {eq}`eq-equivalent-resistance` and your "actual" resistance values from the Ohmmeter.
+33. Calculate the expected equivalent resistance from "actual" resistance values from the Ohmmeter and {eq}`eq-equivalent-resistance`.
+
+34. Maximize both your experimental and expected equivalent resistances. Reminder: both your experimental and expected values should have an uncertainty range since they are both based on measured values (be it voltage, current, or resistance with the multimeters).
+
+    ```{admonition} Maximizing?
+    :class: question
+    To maximize $R_\text{eq-parallel}$:
+      - should you increase or decrease voltage;
+      - should you increase or decrease current;
+      - should you increase or decrease resistance?
+    Working this out on paper can be a useful exercise (calculations still need to be done in Excel)
+    ```
+
+35. For equivalent resistance, determine both experimental and expected uncertainty ($\delta$) ranges by using the difference between maximized and normally calculated equivalent resistances.
+
+36. Compare your experimental $R_\text{eq-parallel-experimental} \pm \delta R_\text{eq-parallel-experimental}$ with your expected $R_\text{eq-parallel-actual} \pm \delta R_\text{eq-parallel-actual}$. Agree/disagree; why/why not? If due to something fixable, re-take necessary measurements.
 
 
 
-13. When you are finished with all experiments, reset your experimental setup before leaving.
+37. Create a concise summary table summarizing all three parts of today's lab.
+    - Part 1 including for each resistor/light bulb:
+      - Experimentally slope-derived resistance
+      - Experimentally slope-derived resistance uncertainty
+      - Difference between experimental and actual values
+      - Percent difference between experimental and actual values
+    - Part 2 including:
+      - $R_\text{eq-series-experimental} \pm \delta R_\text{eq-series-experimental}$
+      - $R_\text{eq-series-actual} \pm \delta R_\text{eq-series-actual}$
+    - Part 3 including:
+      - $R_\text{eq-parallel-experimental} \pm \delta R_\text{eq-parallel-experimental}$
+      - $R_\text{eq-parallel-actual} \pm \delta R_\text{eq-parallel-actual}$
+
+
+38. When you are finished with all experiments, reset your experimental setup before leaving.
 
     ```{admonition} CLEAN UP
     :class: important
@@ -373,25 +449,55 @@ and compare it with the expected value using {eq}`eq-equivalent-resistance` and 
 
 
 
+
 ## Post-Lab Submission --- Interpretation of Results
 
-**Paragraph of results:** Calculate the expected effective resistance using {eq}`eq-equivalent-resistance` for your series and parallel circuits. Do your measured values agree?
+### Finalized Spreadsheets
 
-- Make sure to submit your finalized data sheet with summarized data and cleaned-up plots (Excel sheet)
+  - Make sure to submit your finalized data table (Excel sheet).
+  - Please include concise summary table.
+  - Please include the relevant plot(s) including (just one for this lab):
+    - $V$ vs. $I$, with all three resistors and the light bulb all plotted on the same graph. Linear trendlines for all cases, plus additional quadratic trendline for the light bulb.
 
-- Paragraph of your errors and estimated measurement uncertainties. Be quantitative. Make sure to include discussion of the following:
-  - Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?
-  - What are your measured uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?
-  - If larger or small, are they more or less accurate to expected values?
+
+### Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - What is the precision of your equipment?
+  - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors? How would they change your final results (larger, smaller, more varied)?
+  - What are your measured uncertainties for Voltage and Current; how did you estimate these? Based on these uncertainties, how do your final results change --- test it --- go back and ***make a copy of your spreadsheet to test***:
+    - For just the largest-resistance resistor (likely blue):
+      - How does your final resistance value change due to increasing/decreasing just voltage by your voltage uncertainty?
+      - How does your final resistance value change due to increasing/decreasing just current by your current uncertainty?
+      - Which has a bigger overall impact and why?
+    - For each of the Series and Parallel circuits:
+      - How did your final equivalent resistance results change (larger/smaller?) based on increasing/decreasing your voltage and current uncertainties?
+      - Which has a bigger overall impact and why?
+      - What was the overall uncertainty range of your equivalent resistances due to error propagation of both voltage and current at the same time?
+    - For the resistor, series, and parallel, if your final results became larger or smaller, were they more or less accurate to expected values? 
+
+<!---    - How does this inform whether systematic or random errors. Did anything stand out as a causing less accuracy or less precision?
+--->
+
+<!---
   - How could you improve your random errors?
   - Were your systematic errors significant; how could this be improved if you were to re-run this experiment?
+--->
 
-- Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:
-  - Do your experimental results for the individual resistors and the light bulb agree with your expected values (as measured with the ohmmeter)? Why or why not?
-  - What do the shapes of the plots mean (linear or non-linear relationship?); why, from a physical standpoint, does the light bulb plot look the way it does as compared to the resistors?
-  - Do your experimental results for the equivalent resistances $R_{\text{eq}}$ {eq}`eq-equivalent-resistance` of both series and parallel circuits agree with their respective expected values based on the resistors' actual values (from Ohmmeter)?
-    - Physically, why should we expect the resistance of a series circuit to be greater than that of a parallel circuit made of the same resistors?
 
+
+- In a **paragraph**, summarize the results you have determined for all cases. Consider:
+  - What was the point of today's lab; what did we aim to discover?
+  - Do your experimental results for the individual resistors and the light bulb agree with your expected values (as measured with the ohmmeter)? Why or why not? (reminder, since both the actual and experimental values were measured or derived from measured values, you should have both an actual and experimental uncertainty range for comparisons)
+    - Do your percent differences make sense? What do they represent?
+  - What do the shapes of the resistors and light bulb plotted data mean (linear or non-linear relationship?); why, from a physical standpoint, does the light bulb plot look the way it does as compared to the resistors?
+  - Do your experimental results for the equivalent resistances $R_{\text{eq}}$ {eq}`eq-equivalent-resistance` of both series and parallel circuits agree with their respective expected values based on the expected equivalent resistance from the resistors' actual values (from Ohmmeter)?
+    - Physically, why should we expect the resistance of a series circuit to be greater than that of a parallel circuit made of the same resistors? (It can sometimes be useful to incorporate analogies to help explain this).
+
+
+
+
+<!---
 
 
 %OLD Version !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! before 11/6/2024
@@ -402,7 +508,7 @@ and compare it with the expected value using {eq}`eq-equivalent-resistance` and 
 %\item Why does a voltmeter have high resistance and an ammeter have low resistance?
 %\end{enumerate}
 
-
+--->
 
 
 ## The Whiteboard
