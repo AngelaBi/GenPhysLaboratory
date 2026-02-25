@@ -4,16 +4,17 @@
 
 ## Background
 
-### Overall goals and overview
+### Backgroun Overview
 
-- Understand what a capacitor is, the relationship between capacitance and resistance, the discharging nature of capacitors
-- Assume **we know the resistance** of your resistors, but **we don't know the capacitance** of the capacitors, and we need to determine those C values
-- *DISCUSSION POINT*: How do different RC (resistor-capacitor) combinations affect the change of their circuits' voltages over time?
-- Conduct two experiments:
-  - Measure the capacitance of your capacitors, $C_1$, $C_2$, and $(C_1+C_2)$
-    - **GRAPHICALLY** with LN(V) vs. Time plot (a linearized version of exponential decay plot)
-    - Via the **HALF-LIFE, $t_{1/2}$** (where half-life, the time for exponential decay to reach half its original value, is related to the natural log of 2 [LN(2)])
-  - Divide charge between two capacitors
+```{admonition} OVERALL GOALS
+:class: note
+Use resistors and capacitors to investigate:
+- what a capacitor is
+- the relationship between capacitance and resistance
+- the discharging nature of capacitors
+```
+
+
 
 There are many processes in which the rate of change of a quantity is proportional to the magnitude of the quantity itself. The result is a quantity that is an exponential function of time. In this experiment the characteristic exponential relaxation (decay) of the voltage or charge on a capacitor will be investigated. The electrical analogy of this general process can be represented by a simple circuit in which a capacitor is allowed to discharge through a resistor connected across its terminals. Consider the schematic circuit of {numref}`fig-rc-charging-circuit`.
 
@@ -191,6 +192,15 @@ The general setup can be seen in {numref}`fig-rc-setup`, with the voltmeter atta
 
 
 ## Experimental Procedure
+
+- Assume **we know the resistance** of your resistors, but **we don't know the capacitance** of the capacitors, and we need to determine those C values
+- *DISCUSSION POINT*: How do different RC (resistor-capacitor) combinations affect the change of their circuits' voltages over time?
+- Conduct two experiments:
+  - Measure the capacitance of your capacitors, $C_1$, $C_2$, and $(C_1+C_2)$
+    - **GRAPHICALLY** with LN(V) vs. Time plot (a linearized version of exponential decay plot)
+    - Via the **HALF-LIFE, $t_{1/2}$** (where half-life, the time for exponential decay to reach half its original value, is related to the natural log of 2 [LN(2)])
+  - Divide charge between two capacitors
+
 
 **FIRST EXPERIMENT** We study resistor-capacitor circuits and how capacitors discharge.
 
