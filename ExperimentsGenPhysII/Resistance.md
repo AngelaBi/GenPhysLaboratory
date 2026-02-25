@@ -6,7 +6,7 @@
 ## Background
 
 
-### Background Overview
+### Background Overview --- Resistance
 
 ```{admonition} OVERALL GOALS
 :class: note
@@ -249,7 +249,7 @@ Conduct three experiments involving:
  - 1 case: three resistors in series
  - 1 case: three resistors in parallel
 
-You will apply a range of voltages through the circuits and measure both current and voltage across the resistors (ceramic/metal-film) and light bulb individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter. You will then apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in either series or parallel configurations and again measure both current and voltage across each resistor and compare to the expected values.
+You will apply a range of voltages through the circuits and measure both current and voltage across the resistors (ceramic/metal-film) and light bulb individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter. You will then apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in either series or parallel configurations and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
 ```
 
 <!---
@@ -283,7 +283,13 @@ sdfasdf
 Throughout the following experiments, ensure you are descriptive and consistent in your spreadsheet for each resistor to help keep track of everything.
 ```
 
-### Part 1 -- Individual Resistors across Voltage Range
+### Part I -- Individual Resistors across Voltage Range
+
+
+```{admonition} Part I Overview
+:class: note
+4 cases: circuits with individual resistors and light bulb. You will apply a range of voltages through the circuits and measure both current and voltage across the resistors (ceramic/metal-film) and light bulb individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter.
+```
 
 5. Trace the circuit from start to finish to ensure the circuit is completed for $R_1$. Start from the red (positive) terminal to of the red/black terminal module through to the ammeter, the resistor, ensuring SPST switch is closed, and end back at the black (negative) terminal. Add jumper bars as needed. Ensure ammeter and voltmeter are connected to measure current through and voltage drop across the resistor ({numref}`E4Fig_04`). (small note: no jumper bar needed for ammeter connections as we want the current to flow through the ammeter, not bypass it)
 
@@ -331,7 +337,12 @@ R_\text{trial#} = \frac{V_\text{trial#}}{I_\text{trial#}}
 16. Repeat the preceding steps for resistors $R_2$, $R_3$, and the light bulb. Add/remove jumper bars to create the new circuits. **LIGHT BULB**: Please don't over-volt the bulbs, otherwise they'll burn out sooner, maximum value of $V = 6.00\,\text{V}$.
 
 
-### Part 2 -- Resistors in Series at Constant Voltage
+### Part II -- Resistors in Series at Constant Voltage
+
+```{admonition} Part II Overview
+:class: note
+1 case: three resistors in series. You will apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in series configuration and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
+```
 
 17. Create a new data table including rows for each resistor, columns for:
     - measured voltage
@@ -377,7 +388,12 @@ R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_
 
 26. Compare your experimental $R_\text{eq-series-experimental} \pm \delta R_\text{eq-series-experimental}$ with your expected $R_\text{eq-series-actual} \pm \delta R_\text{eq-series-actual}$. Agree/disagree; why/why not? If due to something fixable, re-take necessary measurements.
 
-### Part 3 -- Resistors in Parallel at Constant Voltage
+### Part III -- Resistors in Parallel at Constant Voltage
+
+```{admonition} Part III Overview
+:class: note
+1 case: three resistors in parallel. You will apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in parallel configuration and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
+```
 
 27. Create a new data table including rows for each resistor, columns for:
     - measured voltage
@@ -426,15 +442,15 @@ R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_
 
 
 37. Create a concise summary table summarizing all three parts of today's lab.
-    - Part 1 including for each resistor/light bulb:
+    - Part I including for each resistor/light bulb:
       - Experimentally slope-derived resistance
       - Experimentally slope-derived resistance uncertainty
       - Difference between experimental and actual values
       - Percent difference between experimental and actual values
-    - Part 2 including:
+    - Part II including:
       - $R_\text{eq-series-experimental} \pm \delta R_\text{eq-series-experimental}$
       - $R_\text{eq-series-actual} \pm \delta R_\text{eq-series-actual}$
-    - Part 3 including:
+    - Part III including:
       - $R_\text{eq-parallel-experimental} \pm \delta R_\text{eq-parallel-experimental}$
       - $R_\text{eq-parallel-actual} \pm \delta R_\text{eq-parallel-actual}$
 
