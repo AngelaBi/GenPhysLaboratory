@@ -47,7 +47,7 @@ name: fig-series-parallel-resistors
 align: center
 width: 80%
 ---
-Resistors connected in Series (top) and Parallel (bottom).
+Resistors connected in Top) Series, one after the other/end to end, making a LOOP, Bottom) Parallel, all connected to the same starting and ending JUNCTIONS.
 ```
 
 
@@ -129,9 +129,9 @@ Overall setup shown in {numref}`fig-ohms-law-setup`, with a full equipment list 
 - Fluke multimeter with alligator clips (example connections in {numref}`E4Fig_04`)
   - First:
       - Used as Ohmmeter (Ω) to measure resistors' and light bulb resistances ({numref}`E4Fig_03` left)
-      - Also used as DC Voltmeter (V) to measure voltage drop across different circuit elements ({numref}`E4Fig_03` right)
+      - Also used as DC Voltmeter (V) to measure voltage drop across different circuit elements ({numref}`E4Fig_03` center)
   - Second:
-      - Used as DC ammeter to measure current through resitors, light bulb, and resistors in series and parallel circuits ({numref}`E4Fig_03` center)
+      - Used as DC ammeter to measure current through resitors, light bulb, and resistors in series and parallel circuits ({numref}`E4Fig_03` right)
 
 --->
 
@@ -155,8 +155,8 @@ Overall setup shown in {numref}`fig-ohms-law-setup`, with a full equipment list 
 |                               | 34× U-shaped jumper clips                            | Electrically connect different modules                               |
 | **Measurement Device**        | Fluke multimeter with alligator clips                | Example connections to circuit in {numref}`E4Fig_04`                 |
 |                               | Used as Ohmmeter (Ω)                                 | Measure resistors' & bulb resistances ({numref}`E4Fig_03` left)      |
-|                               | Used as Voltmeter (V)                                | Measure voltage drop across circuit elements ({numref}`E4Fig_03` right)     |
-|                               | Used as DC Ammeter                                   | Measure current through resistors & bulb and series & parallel circuits ({numref}`E4Fig_03` center) |
+|                               | Used as Voltmeter (V)                                | Measure voltage drop across circuit elements ({numref}`E4Fig_03` center)     |
+|                               | Used as DC Ammeter                                   | Measure current through resistors & bulb and series & parallel circuits ({numref}`E4Fig_03` right) |
 ```
 
 ```{table} Equipment
@@ -182,7 +182,7 @@ Overall setup shown in {numref}`fig-ohms-law-setup`, with a full equipment list 
 | **Resistors** | • 3× ceramic/metal-film resistors (< 1 MΩ; blue, gray, brown) ({numref}`E4Fig_01`) <br> • 1× light bulb — **DO NOT EXCEED 6 V** ({numref}`E4Fig_01`) |
 | **Connections** | • 9× jumper bars ({numref}`E4Fig_01`) |
 | **PASCO Modular Circuit Kit** | • 1× light bulb module <br> • 12× spring clip modules (attach resistors, voltmeter, ammeter; build series/parallel circuits) <br> • 1× SPST switch module (open/close circuit) <br> • 1× red/black terminal module (connect to DC supply) <br> • 11× T-junction modules <br> • 5× straight-line modules <br> • 4× blank modules <br> • 34× U-shaped jumper clips |
-| **Measurement Device** | • Fluke multimeter with alligator clips ({numref}`E4Fig_04`) <br> • Ω: measure resistor & bulb resistance ({numref}`E4Fig_03` left) <br> • DC V: measure voltage drop across circuit elements ({numref}`E4Fig_03` right) <br> • DC A: measure current through resistors & bulb and series & parallel circuits ({numref}`E4Fig_03` center) |
+| **Measurement Device** | • Fluke multimeter with alligator clips ({numref}`E4Fig_04`) <br> • Ω: measure resistor & bulb resistance ({numref}`E4Fig_03` left) <br> • DC V: measure voltage drop across circuit elements ({numref}`E4Fig_03` center) <br> • DC A: measure current through resistors & bulb and series & parallel circuits ({numref}`E4Fig_03` right) |
 ```
 
 
@@ -194,14 +194,16 @@ Overall setup shown in {numref}`fig-ohms-law-setup`, with a full equipment list 
 
 
 
-```{figure} ResistanceFigures/E-4_Fig_02_OverallSchematic_01.png
+```{figure} ResistanceFigures/E-4_Fig_02_OverallSchematic_02.png
 ---
 width: 100%
 name: fig-ohms-law-setup
 ---
-Left) Schematic, with example circuit for $R_1$ and ammeter in series and voltmeter in parallel connections with $R_1$. Right) Example of actual setup. Red jumper bars show all locations that can be changed to create different circuit configurations. Light bulb and resistor locations are shown for easy testing. Power is supplied by the black and red banana plug output from the Pasco 850 (controlled in Capstone). SPST switch can be used to open/close entire system.
+Left) Schematic, with circuit modules with light bulb and the three resistor locations noted. Right) Example of actual setup with resistors installed (they can stay in these positions for the whole lab and do not need to be moved around). Red jumper bars can be added or removed to create different circuit configurations. Light bulb and resistor locations are shown for easy testing. Power is supplied by the black and red banana plug output from the Pasco 850 (controlled in Capstone). SPST switch can be used to open/close entire system.
 ```
-
+<!---
+Left) Schematic, with circuit modules with light bum, $R_1$ and ammeter in series and voltmeter in parallel connections with $R_1$. Right) Example of actual setup. Red jumper bars show all locations that can be changed to create different circuit configurations. Light bulb and resistor locations are shown for easy testing. Power is supplied by the black and red banana plug output from the Pasco 850 (controlled in Capstone). SPST switch can be used to open/close entire system.
+--->
 
 
 ```{figure} ResistanceFigures/E-4_Fig_01_resistors_v03.png
@@ -209,16 +211,16 @@ Left) Schematic, with example circuit for $R_1$ and ammeter in series and voltme
 width: 100%
 name: E4Fig_01
 ---
-Examples of the resistors, light bulb, and jumper bar you will use today.
+Examples of the resistors, light bulb, and jumper bar you will use today. They can stay in their same spring modules for all parts of the lab today.
 ```
 
 
-```{figure} ResistanceFigures/E-4_Fig_03_voltmeters.png
+```{figure} ResistanceFigures/E-4_Fig_03_voltmeters_v02.png
 ---
 width: 100%
 name: E4Fig_03
 ---
-Examples of the measurement type, connections used, and multimeter overall configurations in use today. Left) configuration for measuring resistance in ohms (Ω) --- note, this auto-ranges, double check the magnitude of your units (e.g. Ω, kΩ, MΩ). Center) configuration for measuring DC current in milliamps (mA) through the 300 mA fused circuit. Right) configuration for measuring DC voltage in volts (V).
+Examples of the measurement type, connections used, and multimeter overall configurations in use today. There are 2 Multimeters in use, one for BOTH Resistance and Voltage, one for JUST Current. Left) configuration for measuring resistance in ohms (Ω) --- note, this auto-ranges, double check the magnitude of your units (e.g. Ω, kΩ, MΩ). Center) configuration for measuring DC voltage in volts (V). Right) configuration for measuring DC current in milliamps (mA) through the 300 mA fused circuit.
 ```
 
 ```{figure} ResistanceFigures/E-4_Fig_04_voltAmpConnection.png
@@ -226,7 +228,7 @@ Examples of the measurement type, connections used, and multimeter overall confi
 width: 100%
 name: E4Fig_04
 ---
-Examples how to connect ammeter (in line or in series with resistor) and voltmeter (across or in parallel with resistor) alligator clips to the spring modules. For the light bulb, connect voltmeter to the U-shaped module clips.
+Examples how to connect ammeter (in line or in series with resistor) and voltmeter/ohmmeter (across or in parallel with resistor) alligator clips to the spring modules. For the light bulb, connect voltmeter to the U-shaped module clips.
 ```
 
 ```{figure} ResistanceFigures/E-4_Fig_05_PascoUse.png
@@ -234,7 +236,7 @@ Examples how to connect ammeter (in line or in series with resistor) and voltmet
 width: 100%
 name: E4Fig_05
 ---
-Example of Hardware Setup, selecting Output Voltage-Current Sensor, and Signal Generator tabs in Capstone set to DC waveform, control output voltage with "DC Voltage", Voltage limit of $6\,\text{V}$, Current limit of $1.50\,\text{A}$, use On/Off buttons to supply power.
+Example of Hardware Setup, selecting Output Voltage-Current Sensor, and Signal Generator tabs in Capstone set to DC waveform, control output voltage with "DC Voltage", Voltage limit of $6\,\text{V}$, Current limit of $1.50\,\text{A}$, use On/Off buttons to supply power. Not Shown) Voltage and Current Monitored output --- purely just for making sure Capstone is providing power and working, not for any measurements (those will be made with the yellow multimeters).
 ```
 
 
@@ -265,16 +267,26 @@ sdfasdf
 
 ### Preliminary Setup
 
+```{admonition} Open or Closed Circuits
+:class: important
+Circuits are described as either open or closed. OPEN --- circuit has some gap in it that is preventing current from flowing (gap between the springs, switch is open, circuit element like a resistor is missing, etc.). CLOSED --- circuit has electrical continuity from start to finish with no air gaps (all necessary springs have jumper bars completing their connections, you can trace from red power terminal all the way to the black power terminal while always being a closed loop).
+```
 
 1. Create a common data table of your resistors' resistances in Ohms ($\Omega$) where $R_1=\text{blue}$, $R_2=\text{gray}$, $R_3=\text{brown}$, and $R_\text{bulb}=\text{light bulb}$.
 
 2. Measure and record to the common data table the actual resistances of each ceramic/metal-film resistor and light bulb as $R_{1\text{-actual}}$, $R_{2\text{-actual}}$, $R_{3\text{-actual}}$, $R_{\text{bulb-actual}}$. 
-    - Take such measurements with the Fluke ohmmeter (setting as shown in {numref}`E4Fig_03` left). You will compare your experimentally determined values to these later on.
-    - To measure their resistance, you can either attach the alligator clips directly to the ends of the resistors and light bulb, ***OR*** more preferrably to decrease wear and tear, place the resistors in the spring modules as you will in the next step (example shown in {numref}`E4Fig_01`), and connect the alligator clips to the springs or U-shaped clips as shown for the voltmeter connections in {numref}`E4Fig_04`. This second method is preferred as it is generally easier to deal with, especially for the light bulb. *NOTE: ensure no jumper bars are installed if measuring the resistances when resistors are installed in the modular circuit springs as it may include other elements of the circuitry than just the resistor in question.*
+    - Take such measurements with the Fluke ohmmeter (setting as shown in {numref}`E4Fig_03` left, will be the same multimeter you use later for just voltage). You will compare your experimentally determined values to these later on.
+    - To measure their resistance, you can either attach the alligator clips directly to the ends of the resistors and light bulb, ***OR*** more preferrably to decrease wear and tear, place the resistors in the spring modules as you will in the next step, and connect the alligator clips to the springs or U-shaped clips as shown for the voltmeter connections in {numref}`E4Fig_04`. This second method is preferred as it is generally easier to deal with, especially for the light bulb.
 
-3. Also record an uncertainty in your actual values $\delta R_\text{-actual}$ for each resistor and light bulb in the common data table. (hint: how are you measuring, where would the uncertainty come from for this measurement?)
+    ```{admonition} "Actual" Resistance Measurements
+    :class: tip
+    - Isolate the resistor: Ensure no jumper bars are installed if measuring the resistances when resistors are installed in the modular circuit springs as the ohmmeter may measure other elements of the circuitry instead of the resistor in question.
+    - After taking "actual" measurements, you can switch this multimeter back to DC Voltage for pretty much the rest of lab.
+    ```
 
-4. Prepare your experimental set up to match the example {numref}`fig-ohms-law-setup`, with light bulb, $R_1=\text{blue}$, $R_2=\text{gray}$, and $R_3=\text{brown}$ in their respective positions. Attach the resistors by gently sliding the wire leads into the springs of the spring modules as shown in {numref}`E4Fig_01`. Connect the banana-plug wires if not already connected from the DC power output as supplied by the Pasco 850 interface to the red/black terminal module. Install jumper bars into the spring modules as needed to create a closed circuit. For $R_1$, it will be the same as what is shown in the schematic of {numref}`fig-ohms-law-setup`.
+3. Also record an uncertainty in your actual values $\delta R_\text{#-actual}$ for each resistor and light bulb in the common data table. (hint: how are you measuring, where would the uncertainty come from for this measurement?)
+
+4. Prepare your experimental set up to match the example {numref}`fig-ohms-law-setup`, with light bulb, $R_1=\text{blue}$, $R_2=\text{gray}$, and $R_3=\text{brown}$ in their respective positions. Attach the resistors by gently sliding the wire leads into the springs of the spring modules as shown in {numref}`E4Fig_01`. Connect the banana-plug wires if not already connected from the DC power output as supplied by the Pasco 850 interface to the red/black terminal module. Red-handled jumper bars are to be treated like wires that bridge the air gap of the springs and continue the electrical connections.
 
 
 
@@ -288,10 +300,24 @@ Throughout the following experiments, ensure you are descriptive and consistent 
 
 ```{admonition} Part I Overview
 :class: note
-4 cases: circuits with individual resistors and light bulb. You will apply a range of voltages through the circuits and measure both current and voltage across the resistors (ceramic/metal-film) and light bulb individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter.
+- 4 cases: circuits with individual resistors and light bulb. You will apply a range of voltages through the circuits and measure both current and voltage across the resistors (ceramic/metal-film) and light bulb individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter.
+- Resistance uncertainty from `LINEST`
 ```
 
-5. Trace the circuit from start to finish to ensure the circuit is completed for $R_1$. Start from the red (positive) terminal to of the red/black terminal module through to the ammeter, the resistor, ensuring SPST switch is closed, and end back at the black (negative) terminal. Add jumper bars as needed. Ensure ammeter and voltmeter are connected to measure current through and voltage drop across the resistor ({numref}`E4Fig_04`). (small note: no jumper bar needed for ammeter connections as we want the current to flow through the ammeter, not bypass it)
+
+
+
+5. For the first resistor, $R_1$, build your closed-loop ciruit with just $R_1$ plus jumper bars and ammeter (*WHICH ELECTRICALLY ACTS LIKE A JUMPER BAR BY ALLOWING CURRENT TO FLOW THROUGH IT TO MEASURE CURRENT FLOW*). Add/remoce jumper bars as needed to bridge the air-gapped spring modules (if a jumper bar is installed, current will take the jumper bar path). It will be the same as what is shown in the schematic of {numref}`E4Fig_06`. **TRACE WITH YOUR FINGER** the circuit from start (red terminal) to finish (black termial) to ensure the circuit is closed for $R_1$. Starting from the red (positive) terminal to of the red/black terminal module, make sure your circuit goes through to the ammeter, across the resistor, across any needed jumper bars, ensure SPST switch is closed, and end back at the black (negative) terminal. If you find a gap that you need to cross, add jumper bars as needed. Ensure ammeter and voltmeter are connected to measure current ***through*** and voltage drop ***across*** the resistor ( see{numref}`E4Fig_04`). (Note: no jumper bar needed for ammeter connections as we want the current to flow through the ammeter, not bypass it on the jumper bar)
+
+
+
+```{figure} ResistanceFigures/E-4_Fig_02_OverallSchematic_03_exampleR1.png
+---
+width: 60%
+name: E4Fig_06
+---
+Schematic example of a circuit for $R_1$ with jumper bars in place to make the necessary electrical connections across the spring modules to make a closed loop from power terminal (red) to power terminal (black). See how the ammeter acts like a jumper bar connecting springs and allowing current to flow through it. See how the voltmeter connects to either side of the resistor and measures how much the resistor causes voltage to drop.
+```
 
 6. For the first resistor case, create a data table with columns for the following list (but not limited to; add columns as needed for unit conversion to SI units) and include enough rows for each trial/target voltage:
     - Trial number
@@ -337,11 +363,18 @@ R_\text{trial#} = \frac{V_\text{trial#}}{I_\text{trial#}}
 16. Repeat the preceding steps for resistors $R_2$, $R_3$, and the light bulb. Add/remove jumper bars to create the new circuits. **LIGHT BULB**: Please don't over-volt the bulbs, otherwise they'll burn out sooner, maximum value of $V = 6.00\,\text{V}$.
 
 
+```{admonition} Resistor Postions Can Stay Same
+:class: tip
+For both Part I individual resistors/light bulb part, and the following Part II Series & Part III Parallel, all the resistors can stay in their initial positions as shown in {numref}`fig-ohms-law-setup`, with just moving the jumper bars and ammeter around to create the different circuits.
+```
+
+
 ### Part II -- Resistors in Series at Constant Voltage
 
 ```{admonition} Part II Overview
 :class: note
-1 case: three resistors in series. You will apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in series configuration and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
+- 1 case: three resistors in series. You will apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in series configuration and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
+- Resistance uncertainty from ERROR PROPAGATION (Maximizing, etc.)
 ```
 
 17. Create a new data table including rows for each resistor, columns for:
@@ -359,7 +392,7 @@ R_\text{trial#} = \frac{V_\text{trial#}}{I_\text{trial#}}
     - maximized expected equivalent resistance from "actual" resistance values
     - uncertainty in expected equivalent resistance from "actual" resistance values ($\delta\,\text{value}=$ difference between maximized and calculated $R_\text{eq-series-actual}$)
 
-19. Reconfigure the jumper bars to create a series connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` top).
+19. Reconfigure the jumper bars and ammeter to create a series connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` top). The ammeter and voltmeters will be in the same positions you used in the individual resistors experiment ({numref}`E4Fig_04`).
 
 20. Set the power supply target voltage to $4.00\,\text{V}$.
 
@@ -392,7 +425,8 @@ R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_
 
 ```{admonition} Part III Overview
 :class: note
-1 case: three resistors in parallel. You will apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in parallel configuration and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
+- 1 case: three resistors in parallel. You will apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in parallel configuration and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
+- Resistance uncertainty from ERROR PROPAGATION (Maximizing, etc.)
 ```
 
 27. Create a new data table including rows for each resistor, columns for:
@@ -410,7 +444,7 @@ R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_
     - maximized expected equivalent resistance from "actual" resistance values
     - uncertainty in expected equivalent resistance from "actual" resistance values ($\delta\,\text{value}=$ difference between maximized and calculated $R_\text{eq-parallel-actual}$)
 
-29. Reconfigure the jumper bars to create a parallel connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` bottom).
+29. Reconfigure the jumper bars and ammeter to create a parallel connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` bottom). The ammeter and voltmeters will be in the same positions you used in the individual resistors experiment ({numref}`E4Fig_04`).
 
 30. Set the power supply target voltage to $4.00\,\text{V}$.
 
