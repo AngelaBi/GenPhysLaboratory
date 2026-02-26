@@ -548,7 +548,7 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
     :class: important
     Please return your experimental station back to the way you found it or better:
      - Return resistors and jumper bars back to containers
-     - Power supply is off/Capstone closed
+     - Power supply is off/Capstone closed (DO NOT SAVE, thanks)
      - Multimeters off
     ```
 
