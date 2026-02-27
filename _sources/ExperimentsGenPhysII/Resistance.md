@@ -25,7 +25,13 @@ R=\frac{V}{I}
 
 An object that is a pure resistor has its total electrical characteristics determined by {eq}`eq-ohms-law`. Other circuit elements may have other important electrical characteristics in addition to resistance, such as capacitance or inductance. The resistance of any circuit element, whether it has other significant electrical properties or not, is given by the ratio of voltage to current as described in {eq}`eq-ohms-law`. For any given circuit element, the value of this ratio may change as the voltage and current changes. Nevertheless, the ratio of $V$ to $I$ defines the resistance of the circuit element at that particular voltage and current. The unit of resistance is the volt/ampere defined as the ohm, denoted by the symbol "$\Omega$."
 
+
+### Ohm's Law
+
+
 Certain circuit elements obey a relation that is known as ***Ohm's Law***. For these elements, the ratio of $V$ to $I$ (i.e. $R$) is a ***constant*** for different values of $V$. Therefore, in order to show that a circuit element obeys Ohm's Law, it is necessary to vary the voltage (the current will then also vary) and observe that the ratio $V/I$ is in fact *constant*. In today's experiment, such measurements will be performed on two different types of elements to determine their resistance response to voltage (ceramic/metal-film resistors and an incandescent light bulb).
+
+### Resistivity & Temperature Dependence
 
 The resistance of any object to electrical current is a function of the material from which it is constructed, as well as the length, cross-sectional area, and temperature of the object. At constant temperature, the resistance $R$ of a sample with a constant cross-section $A$, and length $L$ is given by
 
@@ -245,14 +251,31 @@ Example of Hardware Setup, selecting Output Voltage-Current Sensor, and Signal G
 
 ```{admonition} OVERVIEW
 :class: note
-Conduct three experiments involving:
+Conduct three experiments measuring ***current*** through and ***voltage*** across resistors & light bulb to determine individual or equivalent resistances involving:
 
- - 4 cases: circuits with individual resistors and light bulb
- - 1 case: three resistors in series
- - 1 case: three resistors in parallel
+ - Part I --- 4 cases: circuits with individual resistors and light bulb
+    - 13 trials (1 for each target voltage: $0.10, 0.50, 1.00, 1.50\,... 6.00\text{V}$) for:
+      - Resistor 1 (blue)
+      - Resistor 2 (gray)
+      - Resistor 3 (brown)
+      - Light Bulb
+    - Plot all four datasets above, add linear trendline to each, add additional quadratic line to light bulb (five total trendlines)
+    - Resistance uncertainty from `LINEST()`
+ - Part II --- 1 case: three resistors in series
+    - 1 trial per resistor at target voltage of $4.0\text{V}$
+    - error propagation for resistance uncertainty from measured current and voltages
+ - Part III --- 1 case: three resistors in parallel
+    - 1 trial per resistor at target voltage of $4.0\text{V}$
+    - error propagation for resistance uncertainty from measured current and voltages
 
 You will apply a range of voltages through the circuits and measure both current and voltage across the resistors (ceramic/metal-film) and light bulb individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter. You will then apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in either series or parallel configurations and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
 ```
+
+```{admonition} Possible Capstone Issues
+:class: important
+Sometimes Capstone will freeze up and stop outputing power. This becomes evident when you no longer get readings from your ammeter or voltmeter. You can double check this against the monitored output on Capstone itself when the `Monitor` mode is active. If it appears to not be supplying power, check that the Pasco 850 Interface is on. If it is, just restart the Capstone file (don't save).
+```
+
 
 <!---
 ```{admonition} Additional Tips
@@ -268,9 +291,10 @@ sdfasdf
 ### Preliminary Setup
 
 ```{admonition} Open or Closed Circuits
-:class: important
+:class: tip
 Circuits are described as either open or closed. OPEN --- circuit has some gap in it that is preventing current from flowing (gap between the springs, switch is open, circuit element like a resistor is missing, etc.). CLOSED --- circuit has electrical continuity from start to finish with no air gaps (all necessary springs have jumper bars completing their connections, you can trace from red power terminal all the way to the black power terminal while always being a closed loop).
 ```
+
 
 1. Create a common data table of your resistors' resistances in Ohms ($\Omega$) where $R_1=\text{blue}$, $R_2=\text{gray}$, $R_3=\text{brown}$, and $R_\text{bulb}=\text{light bulb}$.
 
@@ -278,11 +302,11 @@ Circuits are described as either open or closed. OPEN --- circuit has some gap i
     - Take such measurements with the Fluke ohmmeter (setting as shown in {numref}`E4Fig_03` left, will be the same multimeter you use later for just voltage). You will compare your experimentally determined values to these later on.
     - To measure their resistance, you can either attach the alligator clips directly to the ends of the resistors and light bulb, ***OR*** more preferrably to decrease wear and tear, place the resistors in the spring modules as you will in the next step, and connect the alligator clips to the springs or U-shaped clips as shown for the voltmeter connections in {numref}`E4Fig_04`. This second method is preferred as it is generally easier to deal with, especially for the light bulb.
 
-    ```{admonition} "Actual" Resistance Measurements
-    :class: tip
-    - Isolate the resistor: Ensure no jumper bars are installed if measuring the resistances when resistors are installed in the modular circuit springs as the ohmmeter may measure other elements of the circuitry instead of the resistor in question.
-    - After taking "actual" measurements, you can switch this multimeter back to DC Voltage for pretty much the rest of lab.
-    ```
+      ```{admonition} "Actual" Resistance Measurements
+      :class: tip
+      - Isolate the resistor: Ensure no jumper bars are installed if measuring the resistances when resistors are installed in the modular circuit springs as the ohmmeter may measure other elements of the circuitry instead of the resistor in question.
+      - After taking "actual" measurements, you can switch this multimeter back to DC Voltage for pretty much the rest of lab.
+      ```
 
 3. Also record an uncertainty in your actual values $\delta R_\text{#-actual}$ for each resistor and light bulb in the common data table. (hint: how are you measuring, where would the uncertainty come from for this measurement?)
 
@@ -290,24 +314,32 @@ Circuits are described as either open or closed. OPEN --- circuit has some gap i
 
 
 
-```{admonition} Consistent Descriptions
-:class: tip
-Throughout the following experiments, ensure you are descriptive and consistent in your spreadsheet for each resistor to help keep track of everything.
-```
+    ```{admonition} Consistent Descriptions
+    :class: tip
+    Throughout the following experiments, ensure you are descriptive and consistent in your spreadsheet for each resistor to help keep track of everything.
+    ```
 
 ### Part I -- Individual Resistors across Voltage Range
 
 
 ```{admonition} Part I Overview
 :class: note
-- 4 cases: circuits with individual resistors and light bulb. You will apply a range of voltages through the circuits and measure both current and voltage across the resistors (ceramic/metal-film) and light bulb individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter.
-- Resistance uncertainty from `LINEST`
+You will apply a range of voltages through the circuits and measure both ***current*** through and ***voltage*** across the resistors (ceramic/metal-film) and light bulb individually and compare your experimental resistances to the "actual" resistance as measured with the ohmmeter.
+
+ - Part I --- 4 cases: circuits with individual resistors and light bulb
+    - 13 trials (1 for each target voltage: $0.10, 0.50, 1.00, 1.50\,... 6.00\text{V}$) for:
+      - Resistor 1 (blue)
+      - Resistor 2 (gray)
+      - Resistor 3 (brown)
+      - Light Bulb
+    - Plot all four datasets above, add linear trendline to each, add additional quadratic line to light bulb (five total trendlines)
+    - Resistance uncertainty from `LINEST()`
 ```
 
 
 
 
-5. For the first resistor, $R_1$, build your closed-loop ciruit with just $R_1$ plus jumper bars and ammeter (*WHICH ELECTRICALLY ACTS LIKE A JUMPER BAR BY ALLOWING CURRENT TO FLOW THROUGH IT TO MEASURE CURRENT FLOW*). Add/remoce jumper bars as needed to bridge the air-gapped spring modules (if a jumper bar is installed, current will take the jumper bar path). It will be the same as what is shown in the schematic of {numref}`E4Fig_06`. **TRACE WITH YOUR FINGER** the circuit from start (red terminal) to finish (black termial) to ensure the circuit is closed for $R_1$. Starting from the red (positive) terminal to of the red/black terminal module, make sure your circuit goes through to the ammeter, across the resistor, across any needed jumper bars, ensure SPST switch is closed, and end back at the black (negative) terminal. If you find a gap that you need to cross, add jumper bars as needed. Ensure ammeter and voltmeter are connected to measure current ***through*** and voltage drop ***across*** the resistor ( see{numref}`E4Fig_04`). (Note: no jumper bar needed for ammeter connections as we want the current to flow through the ammeter, not bypass it on the jumper bar)
+5. For the first resistor, $R_1$, build your closed-loop ciruit with just $R_1$ plus jumper bars and ammeter (*WHICH ELECTRICALLY ACTS LIKE A JUMPER BAR BY ALLOWING CURRENT TO FLOW THROUGH IT TO MEASURE CURRENT FLOW*). Add/remoce jumper bars as needed to bridge the air-gapped spring modules (if a jumper bar is installed, current will take the jumper bar path). It will be the same as what is shown in the schematic of {numref}`E4Fig_06`. **TRACE WITH YOUR FINGER** the circuit from start (red terminal) to finish (black termial) to ensure the circuit is closed for $R_1$. Starting from the red (positive) terminal to of the red/black terminal module, make sure your circuit goes through to the ammeter, across the resistor, across any needed jumper bars, ensure SPST switch is closed, and end back at the black (negative) terminal. If you find a gap that you need to cross, add jumper bars as needed. Ensure ammeter and voltmeter are connected to measure current ***through*** and voltage drop ***across*** the resistor (see {numref}`E4Fig_04`). (Note: no jumper bar needed for ammeter connections as we want the current to flow through the ammeter, not bypass it on the jumper bar)
 
 
 
@@ -331,10 +363,11 @@ Schematic example of a circuit for $R_1$ with jumper bars in place to make the n
 
 7. Target voltages will be $0.10, 0.50, 1.00, ...0.50\,\text{V increments}... 6.00\text{V}$. The first trial is the odd one out since we want a near-zero value, but cannot actually be at zero volts.
 
-8. In Capstone, go to Signal Generator ({numref}`E4Fig_05` right) and ensure it is set to DC waveform. Control the *target* output voltage with "DC Voltage", ensure voltage is limited to a max of $6\,\text{V}$, ensure current is limited to $1.50\,\text{A}$, and use On/Off buttons to supply power. 
+8. On the lab computers, **open the Capstone file on the desktop**, go to Signal Generator ({numref}`E4Fig_05` right) and ensure it is set to DC waveform. Control the *target* output voltage with "DC Voltage", ensure voltage is limited to a max of $6\,\text{V}$, ensure current is limited to $1.50\,\text{A}$, and use On/Off buttons to supply power. 
+
 
 9. Set the target voltage to the first target voltage $0.10\,\text{V}$ as listed earlier. Turn ***ON*** the power supply. In Capstone, in place of the normal `Record` button is the `Monitor` button at the bottom of the screen. Press `Monitor` and you should see the output voltage and output current constantly updating. These will purely be used for monitoring output of the power supply, but not for any explicit measurements. Notes: If they are not updating, check that the Hardware Setup (see {numref}`E4Fig_05` left) is set for the Output Voltage-Current Sensor. If the monitored output voltage in Capstone does not agree with what you set in the signal generator, the Output Voltage-Current Sensor may just need to be zeroed out --- turn off power supply, ensure sensor is selected in bottom of screen, press the button to the right that has a 0 with two yellow arrows pointing to the zero line, then check by turning on the power supply, and check calibration is now accurate.
-
+    
 10. Measure and record the DC current $I$ through and the DC voltage $V$ across the resistor (multimeters connected as in {numref}`E4Fig_04`).
 
 11. Increase the power supply output to the next target voltage of $0.50\,\text{V}$. Measure and record current and voltage again with the multimeters, and continue increasing target voltages in $0.50\,\text{V}$ increments until $6.00\,\text{V}$. *Do not frustrate yourself* by trying to get the multimeter-measured voltages to exactly 0.50 V steps --- just set the target voltage record whatever the voltage and current are. The point here is to have a good sampling across a wide range of voltages.
@@ -358,13 +391,15 @@ R_\text{trial#} = \frac{V_\text{trial#}}{I_\text{trial#}}
 
 14. Calculate the **difference** between your experimental resistance value (as determined in previous step) and actual values (i.e. $R_\text{experimental} - R_\text{actual}$). Also calculate the **percent difference** between your experimental and actual values (reminder of this in {eq}`eq-percentChangeinErrorAnalysis`). (Generally should be $<10\%$)
 
-15. ***PLOT*** the voltage ($y$) vs. current ($x$) for all cases all on the same plot, starting with this first one ($R_1$). Add the other cases ($R_2$, $R_3$, and light bulb) as you return to this step later. This will be similar to how you plotted both cases on the same plot in last week's lab. For each case, add a linear trendline. For the light bulb case, also add a quadratic or polynomial-to-the-order-of-2 trendline for direct comparison to linear (i.e. light bulb case will have two trendlines on the same data set). In your lab submission, consider the four datasets including the significance of the shape and the slopes.
+15. ***PLOT*** the voltage ($y$) vs. current ($x$) for all cases all on the same plot, starting with this first one ($R_1$). Add the other cases ($R_2$, $R_3$, and light bulb) as you return to this step later. This will be similar to how you plotted both cases on the same plot in last week's lab. 
+    - For each case, add a **linear** trendline. 
+    - For the light bulb case, also add a **quadratic** (a.k.a. polynomial-to-the-order-of-2) trendline for direct comparison to linear (i.e. light bulb case will have two trendlines on the same data set). *In your lab submission, consider the four datasets including the significance of the shape and the slopes.*
 
 16. Repeat the preceding steps for resistors $R_2$, $R_3$, and the light bulb. Add/remove jumper bars to create the new circuits. **LIGHT BULB**: Please don't over-volt the bulbs, otherwise they'll burn out sooner, maximum value of $V = 6.00\,\text{V}$.
 
 
 ```{admonition} Resistor Postions Can Stay Same
-:class: tip
+:class: important
 For both Part I individual resistors/light bulb part, and the following Part II Series & Part III Parallel, all the resistors can stay in their initial positions as shown in {numref}`fig-ohms-law-setup`, with just moving the jumper bars and ammeter around to create the different circuits.
 ```
 
@@ -373,9 +408,12 @@ For both Part I individual resistors/light bulb part, and the following Part II 
 
 ```{admonition} Part II Overview
 :class: note
-- 1 case: three resistors in series. You will apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in series configuration and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
-- Resistance uncertainty from ERROR PROPAGATION (Maximizing, etc.)
+You will apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in series configuration and again measure both ***current*** through and ***voltage*** across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
+ - Part II --- 1 case: three resistors in series
+    - 1 trial per resistor at target voltage of $4.0\text{V}$
+    - Equivalent resistance uncertainty from ERROR PROPAGATION (Maximizing, etc.)
 ```
+
 
 17. Create a new data table including rows for each resistor, columns for:
     - measured voltage
@@ -392,7 +430,13 @@ For both Part I individual resistors/light bulb part, and the following Part II 
     - maximized expected equivalent resistance from "actual" resistance values
     - uncertainty in expected equivalent resistance from "actual" resistance values ($\delta\,\text{value}=$ difference between maximized and calculated $R_\text{eq-series-actual}$)
 
-19. Reconfigure the jumper bars and ammeter to create a series connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` top). The ammeter and voltmeters will be in the same positions you used in the individual resistors experiment ({numref}`E4Fig_04`).
+19. Reconfigure the jumper bars and ammeter to create a series connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` top).
+
+    ```{admonition} Resistor, Ammeter, Voltmeter Positioning
+    :class: tip
+    - Resistors can stay in their original positions like in {numref}`fig-ohms-law-setup`
+    - The ammeter and voltmeters can be used in the same positions you used in the individual resistors experiment ({numref}`E4Fig_04`)
+    ```
 
 20. Set the power supply target voltage to $4.00\,\text{V}$.
 
@@ -425,9 +469,12 @@ R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_
 
 ```{admonition} Part III Overview
 :class: note
-- 1 case: three resistors in parallel. You will apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in parallel configuration and again measure both current and voltage across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
-- Resistance uncertainty from ERROR PROPAGATION (Maximizing, etc.)
+You will apply a constant $4.00\,\text{V}$ to the circuit with all three resistors in parallel configuration and again measure both ***current*** through and ***voltage*** across each resistor, calculate equivalent resistances, conduct error propagation, and compare to the expected values.
+ - Part II --- 1 case: three resistors in parallel
+    - 1 trial per resistor at target voltage of $4.0\text{V}$
+    - Equivalent resistance uncertainty from ERROR PROPAGATION (Maximizing, etc.)
 ```
+
 
 27. Create a new data table including rows for each resistor, columns for:
     - measured voltage
@@ -444,7 +491,13 @@ R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_
     - maximized expected equivalent resistance from "actual" resistance values
     - uncertainty in expected equivalent resistance from "actual" resistance values ($\delta\,\text{value}=$ difference between maximized and calculated $R_\text{eq-parallel-actual}$)
 
-29. Reconfigure the jumper bars and ammeter to create a parallel connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` bottom). The ammeter and voltmeters will be in the same positions you used in the individual resistors experiment ({numref}`E4Fig_04`).
+29. Reconfigure the jumper bars and ammeter to create a parallel connection of $R_1$, $R_2$, and $R_3$ (see {numref}`fig-series-parallel-resistors` bottom).
+
+    ```{admonition} Resistor, Ammeter, Voltmeter Positioning
+    :class: tip
+    - Resistors can stay in their original positions like in {numref}`fig-ohms-law-setup`
+    - The ammeter and voltmeters can be used in the same positions you used in the individual resistors experiment ({numref}`E4Fig_04`)
+    ```
 
 30. Set the power supply target voltage to $4.00\,\text{V}$.
 
@@ -495,7 +548,7 @@ R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_
     :class: important
     Please return your experimental station back to the way you found it or better:
      - Return resistors and jumper bars back to containers
-     - Power supply is off/Capstone closed
+     - Power supply is off/Capstone closed (DO NOT SAVE, thanks)
      - Multimeters off
     ```
 
@@ -565,7 +618,7 @@ R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_
 
 ## The Whiteboard
 
-```{figure} ResistanceFigures/DCResistors_2025_Summer_01_v02.jpg
+```{figure} ResistanceFigures/DCResistors_2025_Summer_01_v03.jpg
 :name: DCResistors_whiteboard_01
 :width: 100%
 :align: center
