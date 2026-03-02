@@ -570,6 +570,22 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
 - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors? How would they change your final results (larger, smaller, more varied)?
+  - What are your measured uncertainties for Voltage and Current; how did you estimate these? Based on these uncertainties, how do your final results change --- test it --- go back and ***make a copy of your spreadsheet to test***:
+    - For just the largest-resistance resistor (likely blue):
+      - How does your final resistance value change due to increasing/decreasing just voltage by your voltage uncertainty?
+      - How does your final resistance value change due to increasing/decreasing just current by your current uncertainty?
+      - Which has a bigger overall impact and why?
+    - For each of the Series and Parallel circuits:
+      - How did your final equivalent resistance results change (larger/smaller?) based on increasing/decreasing your voltage and current uncertainties?
+      - Which has a bigger overall impact and why?
+      - What was the overall uncertainty range of your equivalent resistances due to error propagation of both voltage and current at the same time?
+    - For the resistor, series, and parallel, if your final results became larger or smaller, were they more or less accurate to expected values? 
+
+
+<!--- FOR SUMMER 2026!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - What is the precision of your equipment?
+  - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors? How would they change your final results (larger, smaller, more varied)?
   - What are your measured uncertainties for Voltage and Current; how did you estimate these? 
     - Based on these uncertainties, how do your final results change --- test it --- go back and ***make a copy of your spreadsheet to test***:
       - For just the largest-resistance resistor (likely blue), focusing on an individual trial and calculated $R$ from {eq}`eq-ohms-law` (not the slope-derived value):
@@ -582,6 +598,7 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
         - What was the overall uncertainty range of your equivalent resistances due to error propagation of both voltage and current at the same time?
       - For the resistor, series, and parallel, if your final results became larger or smaller, were they more or less accurate to expected values? 
 
+--->
 <!---    - How does this inform whether systematic or random errors. Did anything stand out as a causing less accuracy or less precision?
 --->
 
