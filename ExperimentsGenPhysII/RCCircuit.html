@@ -408,13 +408,32 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#backgroun-overview">Backgroun Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-overview">Background Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-dependence-of-voltage-in-a-capacitor">Time Dependence of Voltage in a Capacitor</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dividing-charge-across-capacitors">Dividing charge across capacitors</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure-preview">Procedure Preview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-determine-capacitances">PART I — Determine Capacitances</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-preliminary-setup">Part I — Preliminary Setup</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-data-acquisition">Part I — Data Acquisition</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-data-analysis">Part I — Data Analysis</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-dividing-charge-across-two-capacitors">PART II — Dividing Charge across Two Capacitors</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-preliminary-setup">Part II — Preliminary Setup</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-data-acquisition-analysis">Part II — Data Acquisition &amp; Analysis</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized Spreadsheets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-writeup">Post-lab Writeup</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
             </nav>
@@ -431,8 +450,8 @@
 <span id="electrical-example-of-an-exponential-decay-process-overall"></span><h1>Electrical Example of an Exponential Decay Process with Resistors &amp; Capacitors (RC Circuits)<a class="headerlink" href="#electrical-example-of-an-exponential-decay-process-with-resistors-capacitors-rc-circuits" title="Permalink to this heading">#</a></h1>
 <section id="background">
 <h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
-<section id="backgroun-overview">
-<h3>Backgroun Overview<a class="headerlink" href="#backgroun-overview" title="Permalink to this heading">#</a></h3>
+<section id="background-overview">
+<h3>Background Overview<a class="headerlink" href="#background-overview" title="Permalink to this heading">#</a></h3>
 <div class="note admonition">
 <p class="admonition-title">OVERALL GOALS</p>
 <p>Use resistors and capacitors to investigate:</p>
@@ -442,20 +461,19 @@
 <li><p>the discharging nature of capacitors</p></li>
 </ul>
 </div>
-<p>There are many processes in which the rate of change of a quantity is proportional to the magnitude of the quantity itself. The result is a quantity that is an exponential function of time. In this experiment the characteristic exponential relaxation (decay) of the voltage or charge on a capacitor will be investigated. The electrical analogy of this general process can be represented by a simple circuit in which a capacitor is allowed to discharge through a resistor connected across its terminals. Consider the schematic circuit of <a class="reference internal" href="#fig-rc-charging-circuit"><span class="std std-numref">Fig. 101</span></a>.</p>
+<p>Many physical processes involve a rate of change that is proportional to the magnitude of the quantity itself; the result is an in exponential behavior over time. In this experiment, you will investigate the exponential relaxation (decay) of the voltage or charge on a capacitor.</p>
+<p>An electrical analogy of this process is a simple circuit where a capacitor discharges through a resistor connected across its terminals. The schematic for this RC circuit is shown in <a class="reference internal" href="#fig-rc-charging-circuit"><span class="std std-numref">Fig. 101</span></a>-right.</p>
 <figure class="align-center" id="fig-rc-charging-circuit">
-<a class="reference internal image-reference" href="../_images/E5_Figure1_v02.png"><img alt="../_images/E5_Figure1_v02.png" src="../_images/E5_Figure1_v02.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/E5_Fig_001_v02.png"><img alt="../_images/E5_Fig_001_v02.png" src="../_images/E5_Fig_001_v02.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 101 </span><span class="caption-text">Schematic of RC circuit charging the capacitor.</span><a class="headerlink" href="#fig-rc-charging-circuit" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 101 </span><span class="caption-text">Left) Schematic of circuit charging the capacitor. Right) Schematic of RC circuit disconnected from the battery and discharging through the resistor.</span><a class="headerlink" href="#fig-rc-charging-circuit" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>With the switch connecting the capacitor to the batteries, the capacitor rapidly charges up to the potential of the batteries. Since a capacitor will not pass a DC current, a positive charge builds up on one of the plates while a negative charge forms on the other. When the switch is flipped to connect the capacitor to the resistor, we have the circuit (shown below) containing a charged capacitor with a resistance across its terminals. We will now investigate how the voltage across the capacitor changes with time, starting at <span class="math notranslate nohighlight">\(t = 0\)</span> when the capacitor is fully charged. The voltage will be measured by the voltmeter <span class="math notranslate nohighlight">\(V\)</span> connected as shown. As time progresses, current will flow from the positively charged plate of the capacitor through the resistance <span class="math notranslate nohighlight">\(R\)</span> to the negatively charged plate.</p>
-<figure class="align-center" id="fig-rc-discharge-circuit">
-<a class="reference internal image-reference" href="../_images/Figure021.jpg"><img alt="../_images/Figure021.jpg" src="../_images/Figure021.jpg" style="width: 400px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 102 </span><span class="caption-text">Schematic of RC circuit disconnected from the battery.</span><a class="headerlink" href="#fig-rc-discharge-circuit" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
+<p>With the switch connecting the capacitor to the batteries (see <a class="reference internal" href="#fig-rc-charging-circuit"><span class="std std-numref">Fig. 101</span></a>-left), the capacitor rapidly charges up to the potential of the batteries. Since a capacitor will not pass a DC current, a positive charge builds up on one of the plates while a negative charge forms on the other. When the switch is flipped to connect the capacitor to the resistor, we have the circuit (shown in <a class="reference internal" href="#fig-rc-charging-circuit"><span class="std std-numref">Fig. 101</span></a>-right) containing a charged capacitor with a resistance across its terminals.</p>
+</section>
+<section id="time-dependence-of-voltage-in-a-capacitor">
+<h3>Time Dependence of Voltage in a Capacitor<a class="headerlink" href="#time-dependence-of-voltage-in-a-capacitor" title="Permalink to this heading">#</a></h3>
+<p>We will now investigate how the voltage across the capacitor changes with time, starting at <span class="math notranslate nohighlight">\(t = 0\)</span> when the capacitor is fully charged. The voltage will be measured by the voltmeter <span class="math notranslate nohighlight">\(V\)</span> connected as shown in <a class="reference internal" href="#fig-rc-charging-circuit"><span class="std std-numref">Fig. 101</span></a>. As time progresses, current will flow from the positively charged plate of the capacitor through the resistance <span class="math notranslate nohighlight">\(R\)</span> to the negatively charged plate.</p>
 <p>Since a voltage exists across the capacitor, there must also be a voltage across <span class="math notranslate nohighlight">\(R\)</span>. This implies an electric current, and from Ohm’s Law:</p>
 <div class="math notranslate nohighlight">
 \[I=\frac{V}{R}\]</div>
@@ -490,10 +508,10 @@
 \[RC\rightarrow \frac{V}{I}\times \frac{Q}{V}\rightarrow \frac{Q}{I}\rightarrow Q\times \frac{t}{Q}\rightarrow t\]</div>
 <div class="math notranslate nohighlight">
 \[[RC]=\Omega \times F\rightarrow \frac{V}{C/s}\times \frac{C}{V}\rightarrow C\times \frac{s}{C}\rightarrow s\]</div>
-<p>This product is called the time constant of the circuit. In a time equal to <span class="math notranslate nohighlight">\(RC\)</span>, the voltage, <span class="math notranslate nohighlight">\(V\)</span>, drops to a fraction:</p>
+<p>This product is called the <em><strong>time constant</strong></em> of the circuit. In a time equal to <span class="math notranslate nohighlight">\(RC\)</span>, the voltage, <span class="math notranslate nohighlight">\(V\)</span>, drops to a fraction:</p>
 <div class="math notranslate nohighlight" id="equation-eq-time-constant-fraction">
 <span class="eqno">(128)<a class="headerlink" href="#equation-eq-time-constant-fraction" title="Permalink to this equation">#</a></span>\[\frac{V}{V_{0}}=\frac{1}{e} \approx 0.368\]</div>
-<p>This means that in any interval of time equal to <span class="math notranslate nohighlight">\(RC\)</span>, the voltage has decreased to 36.8% of the initial value. In determining <span class="math notranslate nohighlight">\(RC\)</span>, it is often more convenient to measure the time for the voltage to drop to <span class="math notranslate nohighlight">\(\frac{1}{2}\)</span> of its initial value and from this to compute <span class="math notranslate nohighlight">\(RC\)</span>. The “half-life,” <span class="math notranslate nohighlight">\(t_{1/2}\)</span>, is given by:</p>
+<p>This means that in any interval of time equal to <span class="math notranslate nohighlight">\(RC\)</span>, the voltage has decreased to 36.8% of the initial value. In determining <span class="math notranslate nohighlight">\(RC\)</span>, it is often more convenient to measure the time for the voltage to drop to <span class="math notranslate nohighlight">\(\frac{1}{2}\)</span> of its initial value and from this to compute <span class="math notranslate nohighlight">\(RC\)</span>. The <em><strong>“half-life”</strong></em> <span class="math notranslate nohighlight">\(t_{1/2}\)</span> is given by:</p>
 <div class="math notranslate nohighlight">
 \[\frac{V_{1/2}}{V_{0}}=\frac{1}{2}=e^{-\frac{t_{1/2}}{RC}}\]</div>
 <p>Taking the natural logarithm of both sides and simplifying we obtain:</p>
@@ -501,221 +519,497 @@
 <span class="eqno">(129)<a class="headerlink" href="#equation-eq-half-life" title="Permalink to this equation">#</a></span>\[t_{1/2}=RC \ln 2 \simeq 0.693 RC\]</div>
 <p>or</p>
 <div class="math notranslate nohighlight" id="equation-eq-rc-from-half-life">
-<span class="eqno">(130)<a class="headerlink" href="#equation-eq-rc-from-half-life" title="Permalink to this equation">#</a></span>\[RC=1.443 t_{1/2}\]</div>
+<span class="eqno">(130)<a class="headerlink" href="#equation-eq-rc-from-half-life" title="Permalink to this equation">#</a></span>\[\boxed{
+RC=1.443 t_{1/2}
+}\]</div>
 <p>Note that by taking the natural log of the expression for the voltage, <a class="reference internal" href="#equation-eq-voltage-decay">(127)</a>, we obtain:</p>
+<div class="math notranslate nohighlight">
+\[\ln V=\ln V_{0}-\frac{t}{RC}\]</div>
+<p>in the form of <span class="math notranslate nohighlight">\(y=mx+b\)</span>,</p>
 <div class="math notranslate nohighlight" id="equation-eq-linear-voltage-decay">
-<span class="eqno">(131)<a class="headerlink" href="#equation-eq-linear-voltage-decay" title="Permalink to this equation">#</a></span>\[\ln V=\ln V_{0}-\frac{t}{RC}=-(\frac{1}{RC})t+\ln V_{0}\]</div>
-<p>If we plot the value of the natural log of <span class="math notranslate nohighlight">\(V\)</span> as a function of time, <span class="math notranslate nohighlight">\(t\)</span>, we obtain a straight line whose slope is <span class="math notranslate nohighlight">\(-1/RC\)</span> with an intercept of <span class="math notranslate nohighlight">\(\ln V_{0}\)</span>. From this slope, we can obtain a measured value for the product <span class="math notranslate nohighlight">\(RC\)</span> which is the time constant, i.e. the time it takes the voltage (or charge) to decay to <span class="math notranslate nohighlight">\(1/e\)</span> of its original value (see <a class="reference internal" href="#equation-eq-time-constant-fraction">(128)</a>).</p>
+<span class="eqno">(131)<a class="headerlink" href="#equation-eq-linear-voltage-decay" title="Permalink to this equation">#</a></span>\[\boxed{
+\ln V=-(\frac{1}{RC})t+\ln V_{0}
+}\]</div>
+<p>If we <strong>plot</strong> the value of the natural log of <span class="math notranslate nohighlight">\(V\)</span> as a function of time, <span class="math notranslate nohighlight">\(t\)</span>, we obtain a straight line whose slope is <span class="math notranslate nohighlight">\(-1/RC\)</span> with an intercept of <span class="math notranslate nohighlight">\(\ln V_{0}\)</span>. From this slope, we can obtain a measured value for the product <span class="math notranslate nohighlight">\(RC\)</span> which is the time constant, i.e. the time it takes the voltage (or charge) to decay to <span class="math notranslate nohighlight">\(1/e\)</span> of its original value (see <a class="reference internal" href="#equation-eq-time-constant-fraction">(128)</a>).</p>
 </section>
 <section id="dividing-charge-across-capacitors">
 <h3>Dividing charge across capacitors<a class="headerlink" href="#dividing-charge-across-capacitors" title="Permalink to this heading">#</a></h3>
-<p>A capacitor <span class="math notranslate nohighlight">\(C\)</span> at voltage <span class="math notranslate nohighlight">\(V\)</span> holds a charge <span class="math notranslate nohighlight">\(Q = CV\)</span>. In the circuit shown in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 106</span></a> when the single-pole-double-throw switch connects the first capacitor to the voltage source, it holds a charge <span class="math notranslate nohighlight">\(Q_1 = C_1 V\)</span>. The switch is then flipped to disconnect the capacitor from the battery and connect it to the second capacitor. Charge moves from the first capacitor to the second, lowering the voltage. Assuming the second capacitor is initially uncharged, the total charge is unchanged. The total charge must be divided between the two capacitors so that they come to the same lower final voltage:</p>
+<p>A capacitor <span class="math notranslate nohighlight">\(C\)</span> at voltage <span class="math notranslate nohighlight">\(V\)</span> holds a charge <span class="math notranslate nohighlight">\(Q = CV\)</span>. In the circuit shown in <a class="reference internal" href="#fig-cc-charging-circuit"><span class="std std-numref">Fig. 102</span></a> when the single-pole-double-throw (SPDT) switch connects the first capacitor (<span class="math notranslate nohighlight">\(C_\text{first}\)</span>) to the voltage source, it holds a charge <span class="math notranslate nohighlight">\(Q_\text{first} = C_\text{first} V\)</span>. The switch is then flipped to disconnect the first capacitor from the battery and connect it to the second capacitor (<span class="math notranslate nohighlight">\(C_\text{second}\)</span>). Charge moves from the lower capacitor to the upper capacitor, lowering the voltage and sharing the charge. Assuming the upper (<span class="math notranslate nohighlight">\(C_\text{second}\)</span>) capacitor is initially uncharged, the total charge is unchanged. The <strong>total charge <span class="math notranslate nohighlight">\(Q\)</span> must then be divided between the two capacitors so that they come to the same lower final voltage</strong>:</p>
 <div class="math notranslate nohighlight" id="equation-eq-charge-division">
-<span class="eqno">(132)<a class="headerlink" href="#equation-eq-charge-division" title="Permalink to this equation">#</a></span>\[\begin{split}V_f C_1 &amp;= Q_1 \\
-V_f C_2 &amp;= Q_2 \\
-Q_1+Q_2 &amp;= Q = C_1 V \\
-V_f &amp;= \frac{C_1}{C_1+C_2} V\end{split}\]</div>
+<span class="eqno">(132)<a class="headerlink" href="#equation-eq-charge-division" title="Permalink to this equation">#</a></span>\[\begin{split}V_f C_\text{first} &amp;= Q_\text{first} \\
+V_f C_\text{second} &amp;= Q_\text{second} \\
+Q_\text{first}+Q_\text{second} &amp;= Q = C_\text{first} V_i \\
+V_f &amp;= \frac{C_\text{first}}{C_\text{first}+C_\text{second}} V_i\end{split}\]</div>
 <p>Because the two capacitors are at the same voltage, the total charge is divided between them in proportion to their capacitance.</p>
-<figure class="align-center" id="fig-rc-setup">
-<a class="reference internal image-reference" href="../_images/E5_050_Setup.png"><img alt="../_images/E5_050_Setup.png" src="../_images/E5_050_Setup.png" style="width: 700px;" /></a>
+<figure class="align-center" id="fig-cc-charging-circuit">
+<a class="reference internal image-reference" href="../_images/E5_Fig_001-5_v02.png"><img alt="../_images/E5_Fig_001-5_v02.png" src="../_images/E5_Fig_001-5_v02.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 103 </span><span class="caption-text">Left) Modular electronic RC circuit. Right) Wire, 2 capacitors, 2 resistors.</span><a class="headerlink" href="#fig-rc-setup" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 102 </span><span class="caption-text">Left) Schematic of circuit charging the capacitor. Right) Schematic of CC circuit disconnected from the battery and discharging to a separate capacitor.</span><a class="headerlink" href="#fig-cc-charging-circuit" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="equipment">
 <h3>Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">#</a></h3>
-<p>The general setup can be seen in <a class="reference internal" href="#fig-rc-setup"><span class="std std-numref">Fig. 103</span></a>, with the voltmeter attached on either side of the capacitor section of the circuit.</p>
-<ul class="simple">
-<li><p>Two known (with ohmmeter) ceramic resistors</p></li>
-<li><p>Pasco modular circuit kit</p>
-<ul>
-<li><p>4× Circuit corners</p></li>
-<li><p>1× Circuit T-conjunction</p></li>
-<li><p>4× Circuit straights</p></li>
-<li><p>2× AA battery module</p></li>
-<li><p>2× Spring clips (to attach individual resistors or capacitors)</p></li>
-<li><p>1× Single-pole double-throw (SPDT) switch to open and close circuit during reconfiguration, charging of capacitors, and discharging of capacitors through resistors</p></li>
-<li><p>15× U-shaped jumper clips to connect the different modules</p></li>
-<li><p>1× Voltmeter via Capstone – connected to the jumper clips the on either side of the capacitors with alligator clips</p></li>
-</ul>
-</li>
-<li><p>Fluke multimeter with alligator clips</p>
-<ul>
-<li><p>Use as Ohmmeter (Ω) to measure resistors’ resistance to be treated as known values</p></li>
-<li><p>Use as capacitance meter (F) to measure capacitors’ actual capacitance to compare experimental values to later on</p></li>
-</ul>
-</li>
-</ul>
+<p>The general setup with electrical schematic can be seen in <a class="reference internal" href="#fig-rc-setup"><span class="std std-numref">Fig. 103</span></a>, with the voltmeter attached on either side of the capacitor section of the circuit. Capacitors to be determine, resistors to be treated as known, and wire and jumper bars are shown in <a class="reference internal" href="#fig-rc-setup-capacitors-resistors"><span class="std std-numref">Fig. 104</span></a>.</p>
+<!---
+- Two *known* (with ohmmeter) ceramic/metal-film resistors ($R_{1\text{,brown}}$, $R_{2\text{,blue}}$)
+- Two to-be-determined capacitors ($C_{1\text{,big}}$, $C_{2\text{,small}}$)
+- Pasco modular circuit kit
+  - 4× Corner module
+  - 1× T-junction module
+  - 1× Straight-line module
+  - 2× AA battery module
+  - 3× Spring clip modules (to attach individual resistors, capacitors, jumper bar)
+  - 1× Single-pole double-throw (SPDT) switch module to open and close circuit during charging of capacitors, and discharging of capacitors through resistors
+  - 13× U-shaped jumper clips to connect the different modules
+- Voltmeter via Capstone -- connected to the jumper clips the on either side of the capacitors with alligator clips
+- Fluke multimeter with alligator clips
+  - Use as Ohmmeter (Ω) to measure resistors' resistance to be treated as known values
+  - Use as capacitance meter (F) to measure capacitors' actual capacitance to compare experimental values to later on
+--->
+<div class="pst-scrollable-table-container"><table class="table" id="rc-equipment-table">
+<caption><span class="caption-number">Table 13 </span><span class="caption-text">Equipment</span><a class="headerlink" href="#rc-equipment-table" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Category</p></th>
+<th class="head"><p>Items</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Resistors</strong></p></td>
+<td><p>• 2× <em>known</em> ceramic/metal-film resistors: <span class="math notranslate nohighlight">\(R_{1\text{,brown}}\)</span>, <span class="math notranslate nohighlight">\(R_{2\text{,blue}}\)</span> (measured with ohmmeter)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Capacitors</strong></p></td>
+<td><p>• 2× unknown capacitors: <span class="math notranslate nohighlight">\(C_{1\text{,big}}\)</span>, <span class="math notranslate nohighlight">\(C_{2\text{,small}}\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>PASCO Modular Circuit Kit</strong></p></td>
+<td><p>• 4× corner modules <br> • 1× T-junction module <br> • 1× straight-line module <br> • 2× AA battery modules <br> • 3× spring clip modules (attach resistors, capacitors, jumper bar) <br> • 1× SPDT switch module (change circuits to charge / discharge capacitors <br> • 13× U-shaped jumper clips</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Measurement Device (“actual”)</strong></p></td>
+<td><p>• Fluke multimeter with alligator clips (for “actual” values) <br> • Ω: measure resistor values (treated as known) <br> • F: measure “actual” capacitor values for later experimental comparison</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Experimental Voltage Measurement</strong></p></td>
+<td><p>• Capstone voltmeter (Connected across capacitors using alligator clips on jumper bars)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<figure class="align-center" id="fig-rc-setup">
+<a class="reference internal image-reference" href="../_images/E5_Fig_002_setup_v02.png"><img alt="../_images/E5_Fig_002_setup_v02.png" src="../_images/E5_Fig_002_setup_v02.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 103 </span><span class="caption-text">Left) Schematic, with circuit modules with spring modules for connecting capacitors, resistors, jumper bars. Right) Example of actual setup with voltmeter (used in Capstone) is connected across the eventual locations of the capacitor(s).</span><a class="headerlink" href="#fig-rc-setup" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="fig-rc-setup-capacitors-resistors">
+<a class="reference internal image-reference" href="../_images/E5_Fig_003_RCWires_v01.png"><img alt="../_images/E5_Fig_003_RCWires_v01.png" src="../_images/E5_Fig_003_RCWires_v01.png" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 104 </span><span class="caption-text">Example of capacitors, resistors, and wire and jumper bar to be used.</span><a class="headerlink" href="#fig-rc-setup-capacitors-resistors" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 </section>
 <section id="experimental-procedure">
 <h2>Experimental Procedure<a class="headerlink" href="#experimental-procedure" title="Permalink to this heading">#</a></h2>
+<section id="procedure-preview">
+<h3>Procedure Preview<a class="headerlink" href="#procedure-preview" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">OVERVIEW</p>
+<p>Conduct two experiments:</p>
 <ul class="simple">
-<li><p>Assume <strong>we know the resistance</strong> of your resistors, but <strong>we don’t know the capacitance</strong> of the capacitors, and we need to determine those C values</p></li>
-<li><p><em>DISCUSSION POINT</em>: How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time?</p></li>
-<li><p>Conduct two experiments:</p>
+<li><p>PART I — Experimentally determine the capacitance of your capacitors, <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, <span class="math notranslate nohighlight">\((C_1+C_2)_{\text{parallel}}\)</span>, and <span class="math notranslate nohighlight">\((C_1+C_2)_{\text{series}}\)</span> by discharing across different resistance resistors. Assume <strong>we know the resistance</strong> of your resistors, but <strong>we don’t know the capacitance</strong> of the capacitors, and we need to determine those <span class="math notranslate nohighlight">\(C\)</span> values, and how capacitor decay relates to the circuit resistance. We will use two experimental methods:</p>
 <ul>
-<li><p>Measure the capacitance of your capacitors, <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, and <span class="math notranslate nohighlight">\((C_1+C_2)\)</span></p>
+<li><p><em><strong>HALF-LIFE <span class="math notranslate nohighlight">\(t_{1/2}\)</span>,</strong></em> where half-life is the time for exponential decay to reach half its original value and is related to the natural log of 2 (a.k.a. LN(2))</p></li>
+<li><p><em><strong>GRAPHICALLY</strong></em> with LN(V) vs. Time plot (a linearized version of exponential decay plot)</p></li>
+</ul>
+</li>
+<li><p>PART II — Divide charge between two capacitors</p>
 <ul>
-<li><p><strong>GRAPHICALLY</strong> with LN(V) vs. Time plot (a linearized version of exponential decay plot)</p></li>
-<li><p>Via the <strong>HALF-LIFE, <span class="math notranslate nohighlight">\(t_{1/2}\)</span></strong> (where half-life, the time for exponential decay to reach half its original value, is related to the natural log of 2 [LN(2)])</p></li>
-</ul>
-</li>
-<li><p>Divide charge between two capacitors</p></li>
+<li><p>Use small capacitor to share charge with a larger capacitor</p></li>
+<li><p>Compare how initial and final voltages change when not using and when using a wire to discharge the second capacitor bewteen switch flips</p></li>
 </ul>
 </li>
 </ul>
-<p><strong>FIRST EXPERIMENT</strong> We study resistor-capacitor circuits and how capacitors discharge.</p>
-<ol class="arabic simple">
-<li><p>You have two resistors and two capacitors. Create a common data table and measure the value of resistors <span class="math notranslate nohighlight">\(R_1\)</span> and <span class="math notranslate nohighlight">\(R_2\)</span> with the Fluke multimeter set to measure ohms (Ω, note the units on the multimeter). [It doesn’t matter which resistor is which number, just be consistent] Also in the common data table, record the actual capacitance of <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, and the parallel combination of <span class="math notranslate nohighlight">\((C_1+C_2)\)</span> with the Fluke 175 multimeter when set to measure farads (the yellow alternate function of the ohmmeter, looks like two letter T’s that are rotated toward each other).</p></li>
-<li><p>Use the capacitors with individual resistors. Perform the following steps for the following pairs of resistor and capacitor cases:</p>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(R_1+C_1\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(R_2+C_1\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(R_1+C_2\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(R_1+(C_1+C_2)\)</span> in parallel</p></li>
-<li><p><span class="math notranslate nohighlight">\(R_1+(C_1+C_2)\)</span> in series</p></li>
-</ul>
-</li>
-<li><p><strong>Zero the voltage sensor</strong> (this is before any resistors or capacitors are in the circuit). Connect the voltmeter to the Capstone program via the PASCO 850 Universal Interface. Set the sample rate to 2500 samples per second (should be set by default, double check though). Zero the voltage sensor in Capstone by first opening the single-pole-double-throw (SPDT) switch to ensure no current is flowing; then in the bottom recording bar, with the voltage sensor selected, click the zero button (zero with two yellow arrows pointing towards each other).</p></li>
-<li><p>In Capstone (should be already set up), you should have graphs of the voltage versus time, the Natural Log(V) vs. time, and a running table of voltages and times (this table is connected to the V vs. T plot, so if you highlight data points on the plot, they’ll be highlighted in the table).</p></li>
-</ol>
-<figure class="align-center" id="fig-rc-decay-circuit">
-<a class="reference internal image-reference" href="../_images/RCDecay_v02.png"><img alt="../_images/RCDecay_v02.png" src="../_images/RCDecay_v02.png" style="width: 700px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 104 </span><span class="caption-text">Modular electronic RC circuit. The resistors and capacitors will just be placed in the spring modules to become part of the circuits. Left) Example with one resistor and one capacitor. Right) Example with one resistor and two capacitors.</span><a class="headerlink" href="#fig-rc-decay-circuit" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<ol class="arabic simple" start="5">
-<li><p>Connect the resistor, capacitor(s), switch, batteries, voltmeter as shown in <a class="reference internal" href="#fig-rc-decay-circuit"><span class="std std-numref">Fig. 104</span></a>.</p></li>
-<li><p>Create a data table for the first resistor and capacitor case (once you have this all set up, you’ll then be able to just copy and paste this data table for the five other RC combinations):</p>
-<ul class="simple">
-<li><p>With <strong>five columns</strong> (1 for each of the 5 decay trials, the act of discharging each capacitor). Also include a <strong>column</strong> for the average values, a <strong>column</strong> for the standard deviation (σ), and a <strong>column</strong> for the standard error of the mean (<span class="math notranslate nohighlight">\(\frac{\sigma}{\sqrt{n-1}}\)</span> where <span class="math notranslate nohighlight">\(n=\)</span> number of trials. Reminder, this is effectively your +/- uncertainty of the average. <em>DISCUSSION POINT for later</em>: How well does your average value of capacitance +/- standard error agree with your expected values?).</p></li>
-<li><p>Include <strong>three rows</strong> for:</p>
-<ul>
-<li><p>Slope. You will get this from the linear fit of the natural log(V) vs. time plot (linearizing the exponential decay) in Capstone where the fit will be in the form <span class="math notranslate nohighlight">\(Y=mt + b\)</span>, and slope <span class="math notranslate nohighlight">\(m=\frac{-1}{RC}\)</span>)</p></li>
-<li><p>Time constant <span class="math notranslate nohighlight">\((RC)\)</span> of the exponential decay as determined from the slope</p></li>
-<li><p>Capacitance (<span class="math notranslate nohighlight">\(C_{\text{graphically from decay}}\)</span>) as determined from the decay time constant</p></li>
-</ul>
-</li>
-<li><p>Include an additional <strong>six rows</strong> for:</p>
-<ul>
-<li><p>Initial voltage (<span class="math notranslate nohighlight">\(V_{\text{init}}\)</span>, right <em><strong>after</strong></em> decay starts)</p></li>
-<li><p>Final voltage (<span class="math notranslate nohighlight">\(V_{\text{final}} = V_{\text{init}}/2\)</span>, i.e. voltage that is half the value of the initial voltage)</p></li>
-<li><p>Initial time (<span class="math notranslate nohighlight">\(t_{\text{init}}\)</span>, when <span class="math notranslate nohighlight">\(V=V_{\text{init}}\)</span>). Found either with the Capstone table or the individual data point selection tools</p></li>
-<li><p>Final time (<span class="math notranslate nohighlight">\(t_{\text{final}}\)</span>, when <span class="math notranslate nohighlight">\(V=V_{\text{final}}\)</span>). Found in a similar way in Capstone, just at half the voltage</p></li>
-<li><p>Half-life (<span class="math notranslate nohighlight">\(t_{1/2}= t_{\text{final}}-t_{\text{init}}\)</span>)</p></li>
-<li><p>Capacitance (<span class="math notranslate nohighlight">\(C_{\text{by half-life}}\)</span>) as determined by the rearrangement of <a class="reference internal" href="#equation-eq-rc-from-half-life">(130)</a> (the characteristic of the half-life of an exponential decay)</p></li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-<figure class="align-center" id="fig-spdt-switch-positions">
-<a class="reference internal image-reference" href="../_images/E5_051_Setup.png"><img alt="../_images/E5_051_Setup.png" src="../_images/E5_051_Setup.png" style="width: 700px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 105 </span><span class="caption-text">Top) SPDT switch in different positions. Bottom) Whole circuit with the SPDT switch in the respective positions. Left) Open circuit. Center) Charging central capacitor; current flows in lower portion of the modular circuit. Right) Discharging either through resistor (or for Experiment 2, charging the other capacitor); current flows in upper portion of the modular circuit.</span><a class="headerlink" href="#fig-spdt-switch-positions" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<ol class="arabic simple" start="7">
-<li><p><strong>DATA TAKING:</strong></p>
-<ul class="simple">
-<li><p>Start recording; flip the SPDT switch to connect the batteries to the capacitor and observe the voltmeter as the capacitor rapidly charges to <span class="math notranslate nohighlight">\(V_{	ext{init}}\)</span>. Once the capacitor is fully charged (voltmeter shows constant voltage at <span class="math notranslate nohighlight">\(V_{	ext{init}}\)</span>), flip the switch to connect the capacitor to the resistor; observe the decay of the voltage across the capacitor. <strong>Wait until the voltage drops to less than</strong> 10% of <span class="math notranslate nohighlight">\(V_{	ext{init}}\)</span>. (e.g. if <span class="math notranslate nohighlight">\(V_{	ext{init}}=3.0\)</span> V, then <span class="math notranslate nohighlight">\(V_{	ext{minimum}}= 0.3\)</span> V) In essence, the battery has been eliminated from the circuit and the capacitor is now acting as the voltage source.</p></li>
-<li><p>WHILE STILL RECORDING: (so everything is just in the same plot, save some time) Repeat this switch flipping <strong>four more times</strong> for a total of <strong>5 decays</strong>.</p></li>
-<li><p>GRAPHICAL: In the Capstone plot of LN(Voltage) vs. Time, highlight the data of the linear portion of the decay curve with the highlighter tool and record the slope. The linear section covers the time it took voltage to decay from 100% to 10% of <span class="math notranslate nohighlight">\(V_{	ext{init}}\)</span>. The linear fit, as described in <a class="reference internal" href="#equation-eq-linear-voltage-decay">(131)</a>, in Capstone should be in the form <span class="math notranslate nohighlight">\(Y=mt + b\)</span>, where <span class="math notranslate nohighlight">\(m=\frac{-1}{RC}\)</span>. Calculate the time constant <span class="math notranslate nohighlight">\(RC\)</span>, and the capacitance <span class="math notranslate nohighlight">\(C_{	ext{graphically from decay}}\)</span> as determined from that time constant.</p></li>
-<li><p>HALF-LIFE: Find the voltage and time of when your capacitor was at its initial voltage right before decay. Divide the <span class="math notranslate nohighlight">\(V_{	ext{init}}\)</span> by 2 to find the final voltage; then find the time for that final voltage. Determine half-life from the time difference (<span class="math notranslate nohighlight">\(t_{1/2}= t_{	ext{final}}-t_{	ext{init}}\)</span>). <em>Suggestions on finding those values</em>: Examine the exponential decay plot (V vs. T) with the crosshair tool by zooming in to find the data points right before the voltage decay, clicking the data point and selecting the crosshair, then note the time and voltage. Alternatively, in the exponential decay plot (V vs. T), zoom in to the area right before decay and use the data highlight tool to make a small selection box which will then also highlight those same data points in the Capstone table of voltages and times.</p></li>
-</ul>
-</li>
-<li><p>For your capacitance that you determined <em><strong>graphically</strong></em> from the LN(V) vs. time slope, calculate the average, standard deviation, and standard error of the mean. For your capacitance that you determined with the <em><strong>half-life</strong></em> <span class="math notranslate nohighlight">\(t_{1/2}\)</span> (time span for initial voltage to halve), determine the standard deviation (σ) and standard error of the mean (<span class="math notranslate nohighlight">\(\frac{\sigma}{\sqrt{n-1}}\)</span>).</p></li>
-</ol>
-<p>\pagebreak
-\item DATA TAKING:
-\vspace{-2mm}
-\begin{itemize}
-\label{E4_procedure_6}
-\item Start recording; flip the SPDT switch to connect the batteries to the capacitor and observe the voltmeter as the capacitor rapidly charges to <span class="math notranslate nohighlight">\(V_{\mbox{init}}\)</span>. Once the capacitor is fully charged (voltmeter shows constant voltage at <span class="math notranslate nohighlight">\(V_{\mbox{init}}\)</span>), flip the switch to connect the capacitor to the resistor; observe the decay of the voltage across the capacitor. \textbf{Wait until the voltage drops to less than} <span class="math notranslate nohighlight">\(10\%~\text{of}~  V_{\mbox{init}}\)</span>. (e.g. if <span class="math notranslate nohighlight">\(V_{\mbox{init}}=3.0~V\)</span>, then <span class="math notranslate nohighlight">\(V_{\mbox{minimum}}= 0.3~V\)</span>) In essence, the battery has been eliminated from the circuit and the capacitor is now acting as the voltage source.
-\item WHILE STILL RECORDING: (so everything is just in the same plot, save some time) Repeat this switch flipping \textbf{four more times} for a total of \textbf{5 decays}.
-\item GRAPHICAL: In the Capstone plot of LN(Voltage) vs. Time, highlight the data of the linear portion of the decay curve with the highlighter tool and record the slope. The linear section covers the time it took voltage to decay from 100% to 10% of <span class="math notranslate nohighlight">\(V_{\mbox{init}}\)</span>. The linear fit, as described in Eqn.~\ref{E4Eq:16}, in Capstone should be in the form <span class="math notranslate nohighlight">\(Y=mt + b\)</span>,~where~<span class="math notranslate nohighlight">\(m=\frac{-1}{RC}\)</span>. Calculate the time constant <span class="math notranslate nohighlight">\(RC\)</span>, and the capacitance <span class="math notranslate nohighlight">\(C_{\mbox{graphically from decay}}\)</span> as determined from that time constant.
-\item HALF-LIFE: Find the voltage and time of when your capacitor was at its initial voltage right before decay. Divide the <span class="math notranslate nohighlight">\(V_{\mbox{init}}\)</span> by 2 to find the final voltage; then find the time for that final voltage. Determine half-life from the time difference (<span class="math notranslate nohighlight">\(t_{1/2}= t_{\mbox{final}}-t_{\mbox{init}}\)</span>). \textit{Suggestions on finding those values}: Examine the exponential decay plot (V vs. T) with the crosshair tool by zooming in to find the data points right before the voltage decay, clicking the data point and selecting the crosshair, then note the time and voltage. Alternatively, in the exponential decay plot (V vs. T), zoom in to the area right before decay and use the data highlight tool to make a small selection box which will then also highlight those same data points in the Capstone table of voltages and times.
-%\item Then repeat this step \textbf{four more times} for a total of \textbf{five time trials}.
-\end{itemize}</p>
-<p>\vspace{-2mm}</p>
-<p>\item
-\begin{itemize}</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>  \item For your capacitance that you determined \textit{\textbf{graphically}} from the LN(V) vs. time slope, calculate the average, standard deviation, and standard error of the mean.
-\item For your capacitance that you determined with the \textbf{\textit{half-life}} $t_{1/2}$ (time span for initial voltage to halve), determine the standard deviation ($\sigma$) and standard error of the mean ($\frac{\sigma}{\sqrt{n-1}}$).
-</pre></div>
 </div>
-<p>\end{itemize}</p>
-<ol class="arabic simple" start="9">
-<li><p>Compare this value for capacitance to the actual capacitance values of the capacitors, <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, and <span class="math notranslate nohighlight">\((C_1+C_2)\)</span> you measured with the multimeter in Step 2.</p></li>
-<li><p>Replace the resistor and/or capacitor for the next combination and repeat the procedure (from Step 7) above for each of the six combinations listed in Step 2.</p></li>
+</section>
+<section id="part-i-determine-capacitances">
+<h3>PART I — Determine Capacitances<a class="headerlink" href="#part-i-determine-capacitances" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">Part I Preview</p>
+<p>We study resistor-capacitor circuits and how capacitors discharge. Somethings to think about as you go about this experiment is: <em>How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time?</em> <em>How do the two methods (half-life and graphical) compare?</em> <em>How well does your average value of capacitance <span class="math notranslate nohighlight">\(\pm\sigma\)</span> agree with your “actual” (a.k.a. expected) values?</em></p>
+</div>
+<section id="part-i-preliminary-setup">
+<span id="rc-circuits-determine-capacitance-prelimsetup"></span><h4>Part I — Preliminary Setup<a class="headerlink" href="#part-i-preliminary-setup" title="Permalink to this heading">#</a></h4>
+<ol class="arabic">
+<li><p>Create a common data table, and measure and record the “known/actual” value of your resistors with the Fluke multimeter set to measure resistance (Ω or <img alt="alt text" src="../_images/E5_Fig_007_Capacitance_v01.png" />, note the units and range on the multimeter). You will have two resistors. To help be consistent, as shown in <a class="reference internal" href="#fig-rc-setup-capacitors-resistors"><span class="std std-numref">Fig. 104</span></a>, treat as:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(R_1\)</span>: Resistor 1 (brown)</p></li>
+<li><p><span class="math notranslate nohighlight">\(R_2\)</span>: Resistor 2 (blue)</p></li>
+</ul>
+</li>
+<li><p>Also in the common data table, measure and record the “actual” value of your capacitors for comparisons to experimental data later.  Measure with the Fluke 175 multimeter when set to measure farads (use the yellow alternate function of the ohmmeter, looks like two letter T’s that are rotated toward each other <img alt="alt text" src="../_images/E5_Fig_007_Capacitance_v01.png" />). You will have two capacitors in the following four configurations. To help be consistent, as shown in <a class="reference internal" href="#fig-rc-setup-capacitors-resistors"><span class="std std-numref">Fig. 104</span></a>, treat as:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(C_1\)</span>: Capacitor 1 (BIGGER)</p></li>
+<li><p><span class="math notranslate nohighlight">\(C_2\)</span>: Capacitor 2 (smaller)</p></li>
+<li><p><span class="math notranslate nohighlight">\((C_1+C_2)_{\text{parallel}}\)</span>: Capacitors in parallel (reminder of parallel vs. series in <a class="reference internal" href="#fig-rc-decay-circuit-parallel-series"><span class="std std-numref">Fig. 106</span></a>)</p></li>
+<li><p><span class="math notranslate nohighlight">\((C_1+C_2)_{\text{series}}\)</span>: Capacitors in series</p></li>
+</ul>
+</li>
+<li><p>You can set aside the Fluke multimeter, as the rest of your data will come from Capstone.</p></li>
+<li><p>Prepare Capstone:</p>
+<ul>
+<li><p>If not already connected, connect the voltmeter wires to the PASCO 850 Universal Interface via the Analog Input (Channel A) and on either side of where the capacitors will be inserted into the circuit’s spring modules (see <a class="reference internal" href="#fig-rc-setup"><span class="std std-numref">Fig. 103</span></a>-right). <strong>Red/positive lead must be on the left, black/negative lead must be on the right</strong> due to polarity.</p></li>
+<li><p>Open the Capstone file on the desktop for today. After it loads, and you confirm in the Hardware Setup side panel that the voltage sensor is configured/active (no warning triangles, otherwise double check the 850 interface is powered on).</p></li>
+<li><p><em><strong>Zero the voltage sensor</strong></em> and check sampling rate:</p>
+<ul>
+<li><p>This is <strong>before</strong> any resistors or capacitors are in the circuit</p></li>
+<li><p>Open the circuit be opening the single-pole-double-throw (SPDT) switch to ensure no current is allowed to flow</p></li>
+<li><p>In the bottom recording bar, with the voltage sensor selected, see <img alt="alt text" src="../_images/E5_Fig_010_ZeroButton.png" />,</p>
+<ul class="simple">
+<li><p>Set the sample rate to 2500 samples per second (should be set by default, but again, double check)</p></li>
+<li><p>Press record and watch V vs. T (top) graph; click the zero button (zero with two yellow arrows pointing towards each other). Ensure voltage on V vs. T plot continues to show <span class="math notranslate nohighlight">\(0\text{V}\)</span>.</p></li>
+</ul>
+<div class="tip admonition">
+<p class="admonition-title">On Voltage Calibration</p>
+<p>It is possible the voltage sensor loses calibration later in the lab. If it appears to be happening, return here zero the voltage sensor again. Common signs are when there is a non-zero voltage being plotted when the circuit is open (SPDT switch not connected to either branch of the circuit), or if the LN(V) vs. Time plot (linearized of exponential) is clearly not linear (breaks down when you take the LN(<span class="math notranslate nohighlight">\(&lt;0\)</span>).)</p>
+</div>
+</li>
+</ul>
+</li>
+<li><p>Graphs — They should be already set up. Ensure you see graphs of the Voltage versus Time on the top and the Natural Log(V) vs. Time. Also available on the right is data table of voltages and times (this table is connected to the V vs. T plot, so if you highlight data points on the plot, they’ll be highlighted in the table).</p></li>
+</ul>
+</li>
 </ol>
-<p><strong>DISCUSSION POINT</strong>: How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time (i.e. decay)?</p>
-<p><strong>DISCUSSION POINT</strong>: How well does your average value of capacitance +/- standard error agree with your expected values? Why or why not? What are possible sources of uncertainty or systematic bias that could cause your values to agree/not agree with your expected values that you had found with the multimeter?</p>
-<hr class="docutils" />
-<p><strong>SECOND EXPERIMENT</strong> We study dividing charge across two capacitors, as in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 106</span></a>.</p>
-<p>\vspace{-3mm}</p>
-<figure class="align-center" id="fig-capacitor-charge-division">
-<a class="reference internal image-reference" href="../_images/RCDecay_v02_Fig5_4.png"><img alt="../_images/RCDecay_v02_Fig5_4.png" src="../_images/RCDecay_v02_Fig5_4.png" style="width: 350px;" /></a>
+</section>
+<section id="part-i-data-acquisition">
+<span id="rc-circuits-determine-capacitance-dataacquisition"></span><h4>Part I — Data Acquisition<a class="headerlink" href="#part-i-data-acquisition" title="Permalink to this heading">#</a></h4>
+<ol class="arabic" start="5">
+<li><p>Five RC configuration cases are shown in <a class="reference internal" href="#rc-combinations-table"><span class="std std-numref">Table 14</span></a>. Starting with the first RC case, perform the following steps:</p>
+<div class="pst-scrollable-table-container"><table class="table" id="rc-combinations-table">
+<caption><span class="caption-number">Table 14 </span><span class="caption-text">Resistor–Capacitor Combinations</span><a class="headerlink" href="#rc-combinations-table" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Case</p></th>
+<th class="head"><p>Resistor</p></th>
+<th class="head"><p>Capacitor Configuration</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p><span class="math notranslate nohighlight">\(R_1\)</span> (brown)</p></td>
+<td><p><span class="math notranslate nohighlight">\(C_1\)</span> (BIG)</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p><span class="math notranslate nohighlight">\(R_2\)</span> (blue)</p></td>
+<td><p><span class="math notranslate nohighlight">\(C_1\)</span> (BIG)</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p><span class="math notranslate nohighlight">\(R_1\)</span> (brown)</p></td>
+<td><p><span class="math notranslate nohighlight">\(C_2\)</span> (small)</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p><span class="math notranslate nohighlight">\(R_1\)</span> (brown)</p></td>
+<td><p><span class="math notranslate nohighlight">\((C_1+C_2)_{\text{parallel}}\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p><span class="math notranslate nohighlight">\(R_1\)</span> (brown)</p></td>
+<td><p><span class="math notranslate nohighlight">\((C_1+C_2)_{\text{series}}\)</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li><p>For the current case, connect the resistor, capacitor(s), switch, batteries, voltmeter as shown in <a class="reference internal" href="#fig-rc-decay-circuit"><span class="std std-numref">Fig. 105</span></a>. Also see <a class="reference internal" href="#fig-rc-decay-circuit-parallel-series"><span class="std std-numref">Fig. 106</span></a> for the cases involving capacitors in parallel and series.</p>
+<figure class="align-center" id="fig-rc-decay-circuit">
+<a class="reference internal image-reference" href="../_images/E5_Fig_004_Example_v03.png"><img alt="../_images/E5_Fig_004_Example_v03.png" src="../_images/E5_Fig_004_Example_v03.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 106 </span><span class="caption-text">Modular electronic circuit with two capacitors.</span><a class="headerlink" href="#fig-capacitor-charge-division" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 105 </span><span class="caption-text">Modular electronic RC circuit. The resistors and capacitors will just be placed in the spring modules to become part of the circuits. Left) Example with capacitor being charged. Right) Example with capacitor discharging through resistor.</span><a class="headerlink" href="#fig-rc-decay-circuit" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<ol class="arabic simple">
-<li><p>Ignore what you’ve called the capacitors from the first experiment, now just consider them as either low- or high-capacitance capacitors in either the <span class="math notranslate nohighlight">\(C_1\)</span> or <span class="math notranslate nohighlight">\(C_2\)</span> positions. Construct the circuit shown in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 106</span></a> by replacing the resistor with the high-capacitance capacitor (in the top springs block, e.g. <span class="math notranslate nohighlight">\(C_2\)</span> position in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 106</span></a>). Put the low-capacitance capacitor in the bottom springs block (<span class="math notranslate nohighlight">\(C_1\)</span> position in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 106</span></a>). Ensure the voltmeter is connected as in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 106</span></a> and continue using the same Voltage vs. time plot in Capstone.</p></li>
-<li><p>Create a data table including your previous, experimentally-determined values of capacitance of <span class="math notranslate nohighlight">\(C_1\)</span> and <span class="math notranslate nohighlight">\(C_2\)</span> and <strong>three columns</strong> for initial and final voltages as well as the difference between the two. Create <strong>five rows</strong> for five trials. Note: Initial voltage is V when the battery is connected to <span class="math notranslate nohighlight">\(C_1\)</span> <em>before</em> you throw the switch to connect the capacitors together in Step 5. Final voltage is V <em>after</em> you throw the switch to allow the charge in the first capacitors to be distributed between the two capacitors.</p></li>
-<li><p>Temporarily connect a wire across each capacitor to discharge them before flipping the switch (i.e. no charge is stored and both circuits are open).</p></li>
-<li><p>Connect <span class="math notranslate nohighlight">\(C_1\)</span> to the battery using the single-pole-double-throw (SPDT) switch. Record the initial voltage.</p></li>
-<li><p>Flip the SPDT switch to disconnect <span class="math notranslate nohighlight">\(C_1\)</span> from the battery and connect it to <span class="math notranslate nohighlight">\(C_2\)</span>. Flip the switch back and forth quickly <strong>for a total of five trials</strong>. Record the final voltage after the charge is distributed between the capacitors (near immediate change).</p></li>
-<li><p>Notice how the final voltage is drifting up towards the initial voltage and the difference between the two is changing. Something is wrong with the assumptions built into <a class="reference internal" href="#equation-eq-charge-division">(132)</a> (which should be true). The problem is that after the first time throwing the switch, <span class="math notranslate nohighlight">\(C_2\)</span> is not at zero charge. So the total charge is higher than <span class="math notranslate nohighlight">\(C_1 V\)</span>. <em>Challenge: Can you figure out what the voltage will be after the second, third, or <span class="math notranslate nohighlight">\(n\)</span>th time you flip the switch?</em></p></li>
-<li><p>Try temporarily connecting a wire across <span class="math notranslate nohighlight">\(C_2\)</span> to discharge it before flipping the switch. Now you should consistently get the final voltage predicted by <a class="reference internal" href="#equation-eq-charge-division">(132)</a>. Record the initial and final voltages after doing this <strong>five more times</strong>. Does this voltage difference agree with <a class="reference internal" href="#equation-eq-charge-division">(132)</a>?</p></li>
-<li><p>Repeat from step 4 with the low- and high-capacitance capacitors in swapped positions in the circuit.</p></li>
+<figure class="align-center" id="fig-rc-decay-circuit-parallel-series">
+<a class="reference internal image-reference" href="../_images/E5_Fig_005_parallel_series_v03.png"><img alt="../_images/E5_Fig_005_parallel_series_v03.png" src="../_images/E5_Fig_005_parallel_series_v03.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 106 </span><span class="caption-text">Left) Parallel capacitors and Right) Series capacitors in spring modules.</span><a class="headerlink" href="#fig-rc-decay-circuit-parallel-series" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</li>
+<li><p>Create a data table for the first resistor and capacitor case (once you have this all set up, you’ll then be able to just copy and paste this data table for the other RC combinations):</p>
+<ul class="simple">
+<li><p>With <strong>five columns</strong> (one for each of the 5 decay trials, the act of discharging a capacitor) — trials are suggested to go horizontal on the spreadsheet today due to the many variables we will use within each case. Also include <strong>columns</strong> for the average values and for the standard deviation (<span class="math notranslate nohighlight">\(\sigma\)</span>) as needed. <em>NOTE: For today, this <span class="math notranslate nohighlight">\(\sigma\)</span> is effectively an overestimation of your <span class="math notranslate nohighlight">\(\pm\)</span> uncertainty range around the average.</em></p></li>
+<li><p>Include an additional <strong>six rows</strong> for the Half-Life, <span class="math notranslate nohighlight">\(t_{1/2}\)</span>, method:</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(V_{\text{init}}\)</span>: Initial voltage, right <em><strong>after</strong></em> decay starts</p></li>
+<li><p><span class="math notranslate nohighlight">\(V_{\text{final}}\)</span>: Final voltage, voltage that is half the value of the initial voltage, <span class="math notranslate nohighlight">\(V_{\text{init}}/2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(t_{\text{init}}\)</span>: Initial time, when <span class="math notranslate nohighlight">\(V=V_{\text{init}}\)</span>. Found either with the multi-coordinates tool in the Capstone graphs, or in the Capstone data table.</p></li>
+<li><p><span class="math notranslate nohighlight">\(t_{\text{final}}\)</span>: Final time, when <span class="math notranslate nohighlight">\(V=V_{\text{final}}\)</span>. Found in a similar way in Capstone, just when voltage reaches half of its initial voltage.</p></li>
+<li><p><span class="math notranslate nohighlight">\(t_{1/2}\)</span>: Half-life, the duration it takes for voltage to fall to the final voltage <span class="math notranslate nohighlight">\(t_{\text{final}}-t_{\text{init}}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(C_{\text{half-life}}\)</span>: Capacitance as determined by the rearrangement of <a class="reference internal" href="#equation-eq-rc-from-half-life">(130)</a> (characteristic of the half-life of an exponential decay)</p></li>
+</ul>
+</li>
+<li><p>Include <strong>three rows</strong> for the Graphical, LN(V) vs. Time, method:</p>
+<ul>
+<li><p>Slope. You will get this from the linear fit of the natural log(V) vs. time plot (linearizing the exponential decay) in Capstone where the fit will be in the form <span class="math notranslate nohighlight">\(y=mt + b\)</span>, and slope <span class="math notranslate nohighlight">\(m=\frac{-1}{RC}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(RC\)</span>: Time constant of the exponential decay as determined from the slope</p></li>
+<li><p><span class="math notranslate nohighlight">\(C_{\text{graphical-fit}}\)</span>: Capacitance as determined from the decay time constant found with the LN(V) vs. T plot</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>DATA TAKING:</strong></p>
+<ul>
+<li><p>Start recording in Capstone, confirm, with the SPDT switch not connected to anything and the capacitor discharged (can use the red wire to connect either end of the capacitor to rapidly discharge), that the voltage sensor is reading zero volts — if not, double check the zeroeing procedure earlier.</p></li>
+<li><p>Flip the SPDT switch to connect the batteries to the capacitor (<a class="reference internal" href="#fig-rc-decay-circuit"><span class="std std-numref">Fig. 105</span></a>-left) and observe the voltage plot as the capacitor rapidly charges to <span class="math notranslate nohighlight">\(V_\text{init}\)</span> (should be near <span class="math notranslate nohighlight">\(3\,\text{V}\)</span> as can be seen in the top plots of <a class="reference internal" href="#fige5-014-halflife"><span class="std std-numref">Fig. 107</span></a>).</p></li>
+<li><p>Once the capacitor is fully charged (voltmeter shows constant voltage at <span class="math notranslate nohighlight">\(V_\text{init}\)</span>), flip the switch to connect the capacitor to the resistor (<a class="reference internal" href="#fig-rc-decay-circuit"><span class="std std-numref">Fig. 105</span></a>-right); observe the decay of the voltage across the capacitor. <strong>Wait until the voltage drops to less than</strong> <span class="math notranslate nohighlight">\(10\%~\text{of}\,V_\text{init}\)</span> (e.g. if <span class="math notranslate nohighlight">\(V_\text{init}=3.0\,\text{V}\)</span>, then <span class="math notranslate nohighlight">\(V_\text{10-percent}= 0.3\,\text{V}\)</span> as can be seen in the top plots of <a class="reference internal" href="#fige5-014-halflife"><span class="std std-numref">Fig. 107</span></a>). In essence, the battery has been eliminated from the circuit and the capacitor is now acting as the voltage source.</p></li>
+<li><p>WHILE STILL RECORDING (so everything is just in the same plot, save some time): Repeat this switch flipping <strong>four more times</strong> for a total of <strong>5 decays</strong> within this single Capstone recording. You will analyze this whole data set in the following methods.</p>
+<figure class="align-center" id="fige5-014-halflife">
+<a class="reference internal image-reference" href="../_images/E5_Fig_014_HalfLifeExample_v02.png"><img alt="../_images/E5_Fig_014_HalfLifeExample_v02.png" src="../_images/E5_Fig_014_HalfLifeExample_v02.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 107 </span><span class="caption-text">Example Voltage vs. Time plot (top) and LN(V) vs. Time plot (bottom). Left) Time of start of a decay trial. Center) Time when half of the initial voltage is reached (i.e. after a half-life or <span class="math notranslate nohighlight">\(t_1/2\)</span>). Right) Time of the effective end of a decay trial when voltage drops to 10% of initial voltage (i.e. when <span class="math notranslate nohighlight">\(V = V_\text{10-percent}\)</span>.)</span><a class="headerlink" href="#fige5-014-halflife" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</li>
+</ul>
+</li>
 </ol>
+</section>
+<section id="part-i-data-analysis">
+<h4>Part I — Data Analysis<a class="headerlink" href="#part-i-data-analysis" title="Permalink to this heading">#</a></h4>
+<ol class="arabic" start="9">
+<li><p><strong>HALF-LIFE Analysis:</strong></p>
+<ul>
+<li><p>Determine the half-life, and from that determine the capacitance for each decay trial of the current case. Example of relevant locations are shown in <a class="reference internal" href="#fige5-014-halflife"><span class="std std-numref">Fig. 107</span></a>.</p></li>
+<li><p>Find the voltage and time of when your capacitor was at its initial voltage at the start of the decay (<span class="math notranslate nohighlight">\(V_\text{init} &#64; t_\text{init}\)</span>).</p></li>
+<li><p>Divide the <span class="math notranslate nohighlight">\(V_\text{init}\)</span> by 2 to find the final voltage (i.e. when your quanity has decayed to half of its initial value); then find the time for that final voltage.</p></li>
+<li><p>Determine half-life from the time difference <span class="math notranslate nohighlight">\(t_{1/2}= t_\text{final}-t_\text{init}\)</span>.</p></li>
+<li><p>From this and <a class="reference internal" href="#equation-eq-rc-from-half-life">(130)</a>, determine your experimental capacitance, calculate the average capacitance and standard deviation of capacitance from the five trials.</p>
+<div class="tip admonition">
+<p class="admonition-title">Multi-coordinates Tool and Plot Viewing Tips</p>
+<ul class="simple">
+<li><p>Examine the exponential decay plot (V vs. T) with the multi-coordinates tool <img alt="RCCircuit_multicoordinateTool" src="../_images/FigCapstone_001_MultiCoordinateTool_v02.png" /> by zooming in/out on the X and Y axes to view the relevant decay trial and find the data points right as the voltage begins to decay. Use the multi-coordinates tool to find the time on the X-axis and Voltage on the Y-axis.</p></li>
+<li><p>If needed, use <img alt="RCCircuit_multicoordinateTool" src="../_images/FigCapstone_020_AutoScaleAxes.png" /> to rescale the axes to show all (or the highlighted) data.</p></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<!--- Alternatively, you could clicking the data point and selecting the crosshair, then note the time and voltage. Alternatively, in the exponential decay plot (V vs. T), zoom in to the area right before decay and use the data highlight tool to make a small selection box which will then also highlight those same data points in the Capstone table of voltages and times.
+--->
+<ol class="arabic" start="10">
+<li><p><strong>GRAPHICAL Analysis:</strong></p>
+<ul>
+<li><p>In the Capstone plot of LN(Voltage) vs. Time, we have effectively linearized the exponential function. Highlight the data of the linear portion of the decay curve with the highlighter tool <img alt="alt text" src="../_images/FigCapstone_013_DataHighlightTool.png" />. The linear section covers the time it took voltage to decay from 100% to 10% of the initial voltage (i.e. go from <span class="math notranslate nohighlight">\(V_\text{init}\)</span> to <span class="math notranslate nohighlight">\(V_\text{10-percent}\)</span>). You can use the multi-coordinates tool you used in the previous method to help you determine the temporal range (see example in <a class="reference internal" href="#fige5-015-graphical"><span class="std std-numref">Fig. 108</span></a>). If the fit does not display for the selected data, check the Curve Fit tool <img alt="alt text" src="../_images/FigCapstone_002_CurveFitTool.png" /> is enabled.</p></li>
+<li><p>Increase the fit’s coefficient sig. figs. to 4. See procedure for this in <a class="reference internal" href="../Intro/CapstoneNotes.html#capstone-curve-fitting-procedures-01"><span class="std std-ref">Curve Fitting Procedure</span></a>.</p></li>
+<li><p>Record the slope — <em>What does the slope represent; where did it come from?</em> The natural log of the exponential function gives us a linear relationship between LN(Voltage) and Time, as described in <a class="reference internal" href="#equation-eq-linear-voltage-decay">(131)</a>. When plotted in Capstone, it should be in the form <span class="math notranslate nohighlight">\(y=mt + b\)</span>.</p></li>
+<li><p>Determine the time constant <span class="math notranslate nohighlight">\(RC\)</span>, the capacitance <span class="math notranslate nohighlight">\(C_\text{graphical-fit}\)</span> from that time constant, and calculate the average capacitance and standard deviation of capacitance from the five trials.</p>
+<figure class="align-center" id="fige5-015-graphical">
+<a class="reference internal image-reference" href="../_images/E5_Fig_015_GraphicalExample_v03.png"><img alt="../_images/E5_Fig_015_GraphicalExample_v03.png" src="../_images/E5_Fig_015_GraphicalExample_v03.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 108 </span><span class="caption-text">Example Voltage vs. Time plot (top) and LN(V) vs. Time plot (bottom). Left) Time of start of a decay trial. Lower bound of data-highlight box for fitting data in LN(V) vs. Time plot. Right) Time of the effective end of a decay trial when voltage drops to 10% of initial voltage (i.e. when <span class="math notranslate nohighlight">\(V = V_\text{10-percent}\)</span> and upper bound of data-highlight box.)</span><a class="headerlink" href="#fige5-015-graphical" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</li>
+</ul>
+</li>
+<li><p><em><strong>PLOTS</strong></em> — Take a screenshot or photo of one trial for each of your five cases of your <span class="math notranslate nohighlight">\(V\)</span> vs. <span class="math notranslate nohighlight">\(T\)</span> and LN(V) vs. T plots in Capstone. <em><strong>You should have 5 total sets of plots from the 5 cases.</strong></em> See example in <a class="reference internal" href="#fige5-015-graphical"><span class="std std-numref">Fig. 108</span></a>-right.</p>
+<div class="important admonition">
+<p class="admonition-title">Capstone Plots for Spreadsheet</p>
+<ul class="simple">
+<li><p>You should include a representative plot from each case in your finalized spreadsheet submission.</p></li>
+<li><p>Ensure the important information of the plots are visible. Consider the axes are visible and zoomed in to just one trial for the current case. <em>Remember: when making a plot in Excel, what should you normally include?</em></p></li>
+</ul>
+</div>
+</li>
+</ol>
+<!--- , where $m=\frac{-1}{RC}$. --->
+<!--- 
+
+8. For your capacitance that you determined ***graphically*** from the LN(V) vs. time slope, calculate the average, standard deviation, and standard error of the mean. For your capacitance that you determined with the ***half-life*** $t_{1/2}$ (time span for initial voltage to halve), determine the standard deviation (σ) and standard error of the mean ($\frac{\sigma}{\sqrt{n-1}}$).
+
+   %\item Then repeat this step **four more times** for a total of **five time trials**.
+
+  %  \item Using those time values, calculate $\Delta t$ for each trial's voltages. For your $\Delta t$ values at each target voltage, calculate their average (mean) values.
+--->
+<!---
+8. For your capacitance that you determined with the ***half-life*** $t_{1/2}$ (time span for initial voltage to halve), calculate the average and standard deviation $\sigma$ of your capacitance
+
+9. For your capacitance that you determined ***graphically*** from the LN(V) vs. time slope, calculate the average and standard deviation $\sigma$ of your capacitance.
+
+%\item  In a separate location on your data sheet, calculate the average capacitance from your half-life and resistor values with Eqn.~\ref{E4Eq:HalfLife} and determine its standard deviation and standard error of the mean.
+
+--->
+<ol class="arabic" start="12">
+<li><p>For each case, compare your values for capacitance to the “actual” capacitance values of the capacitors, <span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>, <span class="math notranslate nohighlight">\((C_1+C_2)_\text{parallel}\)</span>, and <span class="math notranslate nohighlight">\((C_1+C_2)_\text{series}\)</span> you measured with the multimeter in <a class="reference internal" href="#rc-circuits-determine-capacitance-prelimsetup"><span class="std std-ref">Part I — Preliminary Setup</span></a>.</p>
+<div class="question admonition">
+<p class="admonition-title">Comparisons</p>
+<ul class="simple">
+<li><p>How well does your average value of capacitance +/- standard deviation agree with your expected values? Why or why not? What are possible sources of uncertainty or systematic bias that could cause your values to agree/not agree with your expected values that you had found with the multimeter? If there’s time, retake any necessary data and update your recorded values.</p></li>
+</ul>
+</div>
+</li>
+<li><p>Replace the resistor and/or capacitor for the next combination case and repeat the procedure (from <a class="reference internal" href="#rc-circuits-determine-capacitance-dataacquisition"><span class="std std-ref">Part I — Data Acquisition</span></a>) above for each of the other cases listed in <a class="reference internal" href="#rc-combinations-table"><span class="std std-numref">Table 14</span></a>. Think about: <em>How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time (i.e. decay)?</em></p></li>
+</ol>
+</section>
+</section>
+<section id="part-ii-dividing-charge-across-two-capacitors">
+<h3>PART II — Dividing Charge across Two Capacitors<a class="headerlink" href="#part-ii-dividing-charge-across-two-capacitors" title="Permalink to this heading">#</a></h3>
+<div class="note admonition">
+<p class="admonition-title">Part II Preview</p>
+<p>We study dividing charge across two capacitors, as in circuit diagram <a class="reference internal" href="#fig-cc-charging-circuit"><span class="std std-numref">Fig. 102</span></a> and schematic <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 109</span></a>.</p>
+</div>
+<figure class="align-center" id="fig-capacitor-charge-division">
+<a class="reference internal image-reference" href="../_images/E5_Fig_006_CC_Example_v07.png"><img alt="../_images/E5_Fig_006_CC_Example_v07.png" src="../_images/E5_Fig_006_CC_Example_v07.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 109 </span><span class="caption-text">Modular electronic circuit with two capacitors. Left) Example with lower capacitor being charged by batteries. Right) Example with lower capacitor discharging to the upper capacitor.</span><a class="headerlink" href="#fig-capacitor-charge-division" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="part-ii-preliminary-setup">
+<h4>Part II — Preliminary Setup<a class="headerlink" href="#part-ii-preliminary-setup" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>Consider <span class="math notranslate nohighlight">\(C_{1}\)</span> as high-capacitance and <span class="math notranslate nohighlight">\(C_{2}\)</span> as low-capacitance capacitors as you likely had done in the first experiment.</p></li>
+<li><p>Construct the circuit shown in <a class="reference internal" href="#fig-capacitor-charge-division"><span class="std std-numref">Fig. 109</span></a> by putting the lower-capacitance <span class="math notranslate nohighlight">\(C_2\)</span> in the <code class="docutils literal notranslate"><span class="pre">first</span></code> position (bottom circuit when charged-by-batteries) and then replacing the resistor with the higher-capacitance <span class="math notranslate nohighlight">\(C_1\)</span> in the <code class="docutils literal notranslate"><span class="pre">second</span></code> position (top circuit when charged by the first capactior). Ensure the voltmeter is still connected as before (either side of the <code class="docutils literal notranslate"><span class="pre">first</span></code> position) and continue using the same Voltage vs. Time plot in Capstone.</p></li>
+<li><p>Create a data table including:</p></li>
+</ol>
+<ul class="simple">
+<li><p>Your experimentally-determined average capacitance values for <span class="math notranslate nohighlight">\(C_1\)</span> and <span class="math notranslate nohighlight">\(C_2\)</span> (remember to use Excel referencing)</p></li>
+<li><p>Also include an area for the expected final voltage</p></li>
+<li><p>Include <strong>three columns</strong> for initial and final voltages as well as the difference between the two. Create <strong>five rows</strong> for five trials.</p></li>
+<li><p>Note: Initial voltage is <span class="math notranslate nohighlight">\(V\)</span> when the battery is connected to <span class="math notranslate nohighlight">\(C_\text{first}\)</span> <em>before</em> you throw the switch to connect the capacitors together. Final voltage is <span class="math notranslate nohighlight">\(V\)</span> <em>after</em> you throw the switch to connect <span class="math notranslate nohighlight">\(C_\text{first}\)</span> with <span class="math notranslate nohighlight">\(C_\text{second}\)</span> and allow the charge in the <code class="docutils literal notranslate"><span class="pre">first</span></code> capacitor to be distributed between the two capacitors.</p></li>
+</ul>
+<ol class="arabic simple" start="4">
+<li><p>Temporarily connect a wire across each capacitor to discharge them before flipping the switch (i.e. ensure the capacitors start with no charge stored and both circuits are open).</p></li>
+</ol>
+</section>
+<section id="part-ii-data-acquisition-analysis">
+<h4>Part II — Data Acquisition &amp; Analysis<a class="headerlink" href="#part-ii-data-acquisition-analysis" title="Permalink to this heading">#</a></h4>
+<ol class="arabic" start="5">
+<li><p>Connect <span class="math notranslate nohighlight">\(C_\text{first}\)</span> to the battery using the single-pole-double-throw (SPDT) switch.</p></li>
+<li><p>Flip the SPDT switch to disconnect <span class="math notranslate nohighlight">\(C_\text{first}\)</span> from the battery and connect it to <span class="math notranslate nohighlight">\(C_\text{second}\)</span>. Flip the switch back and forth quickly <strong>for a total of five trials</strong>.</p></li>
+<li><p>From the <span class="math notranslate nohighlight">\(V\)</span> vs. <span class="math notranslate nohighlight">\(T\)</span> plot, record for each of the trials the initial voltage before charge is distributed and final voltage after the charge is distributed between the capacitors (notice the near immediate change). Examples are shown in <a class="reference internal" href="#fig-capacitor-charge-division-voltage-plot"><span class="std std-numref">Fig. 110</span></a>.</p>
+<figure class="align-center" id="fig-capacitor-charge-division-voltage-plot">
+<a class="reference internal image-reference" href="../_images/E5_Fig_016_CtoCExample_v01.png"><img alt="../_images/E5_Fig_016_CtoCExample_v01.png" src="../_images/E5_Fig_016_CtoCExample_v01.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 110 </span><span class="caption-text">Example Voltage vs. Time plot for experiment two.</span><a class="headerlink" href="#fig-capacitor-charge-division-voltage-plot" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</li>
+<li><p><em><strong>PLOTS: Part II - Plot 1</strong></em> — Take a screenshot or photo that includes all five trais in one image of your <span class="math notranslate nohighlight">\(V\)</span> vs. <span class="math notranslate nohighlight">\(T\)</span> plot in Capstone.</p></li>
+<li><p>Calculate your expected final voltage using your initial voltage and the experimental <span class="math notranslate nohighlight">\(C_1\)</span> and <span class="math notranslate nohighlight">\(C_2\)</span> values with <a class="reference internal" href="#equation-eq-charge-division">(132)</a>.</p></li>
+<li><p>Calculate the difference in voltage for each trial. Notice how the final voltage is drifting up towards the initial voltage and the difference between the two is changing. Something is wrong with the assumptions built into <a class="reference internal" href="#equation-eq-charge-division">(132)</a> (which should be true) which we used to. The problem is that after the first time throwing the switch, <span class="math notranslate nohighlight">\(C_\text{second}\)</span> is not at zero charge. So the total charge is higher than <span class="math notranslate nohighlight">\(Q_\text{first}=C_\text{first}V\)</span>. <em>Challenge: Can you figure out what the voltage will be after the second, third, or <span class="math notranslate nohighlight">\(n\)</span>th time you flip the switch?</em></p></li>
+<li><p>Repeat the five trials in a new section of your spreadsheet, capacitors still in their current positions. But now, try temporarily connecting a wire across <span class="math notranslate nohighlight">\(C_\text{second}\)</span> to discharge it before flipping the switch for each trial. Record the initial and final voltages after doing this. Now you should consistently get the final voltage predicted by <a class="reference internal" href="#equation-eq-charge-division">(132)</a>. Does this voltage difference agree with <a class="reference internal" href="#equation-eq-charge-division">(132)</a>?</p></li>
+<li><p><em><strong>PLOTS: Part II - Plot 2</strong></em> — Take a similar screenshot or photo that includes all five trais in one image of your <span class="math notranslate nohighlight">\(V\)</span> vs. <span class="math notranslate nohighlight">\(T\)</span> plot in Capstone after using the wire to discharge the second capacitor between each flip.</p></li>
+<li><p>Instead of repeating this for the capacitors in swapped positions due to lab time constraints, discuss in the post lab what you would expect when the capacitors are swapped. &lt;!— from step 4 with the low- and high-capacitance capacitors in swapped positions in the circuit. —&gt;</p></li>
+</ol>
+</section>
+</section>
 </section>
 <section id="post-lab-submission-interpretation-of-results">
 <h2>Post-Lab Submission — Interpretation of Results<a class="headerlink" href="#post-lab-submission-interpretation-of-results" title="Permalink to this heading">#</a></h2>
+<section id="finalized-spreadsheets">
+<h3>Finalized Spreadsheets<a class="headerlink" href="#finalized-spreadsheets" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Make sure to submit your finalized data sheet with summarized data and cleaned-up plots (Excel sheet)</p></li>
-<li><p>Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:</p>
+<li><p>Make sure to submit your finalized data table (Excel sheet).</p></li>
+<li><p>Please include concise summary table.</p></li>
+<li><p>Please include examples of the relevant plot(s) (seven total) in your spreadsheet for</p>
 <ul>
-<li><p>Do your experimental results for average capacitance agree with your expected values (as measured with the multimeter)?</p></li>
-<li><p>Is the graphical or half-life method more accurate to the expected values; why?</p></li>
-<li><p>How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time (i.e. decay)?</p></li>
-<li><p>Explain why, in step 3 of the second experiment you connect a wire across each capacitor. Why is a brief connection sufficient? Hint: What is the time constant for the wire and capacitor; how is it different to the resistor and capacitor setup?</p></li>
+<li><p>First Experiment (5 plots)</p>
+<ul>
+<li><p>5 cases</p>
+<ul>
+<li><p>1 trial example for V vs. T and LN(V) vs. T in one image</p></li>
 </ul>
 </li>
-<li><p>Paragraph of your errors and estimated measurement uncertainties. Be quantitative. Make sure to include discussion of the following:</p>
-<ul>
-<li><p>Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?</p></li>
-<li><p>What are your measured uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?</p></li>
-<li><p>If larger or small, are they more or less accurate to expected values?</p></li>
-<li><p>How could you improve your random errors?</p></li>
-<li><p>Were your systematic errors significant; how could this be improved if you were to re-run this experiment?</p></li>
 </ul>
 </li>
-<li><p>Reflect on this week’s lab; what did you learn?</p></li>
+<li><p>Second Experiment (2 plots)</p>
+<ul>
+<li><p>1 case</p>
+<ul>
+<li><p>2 methods (without and with wire for discharging between switch flips)</p>
+<ul>
+<li><p>each plot should show the 5 full trials to see how the voltage difference changes</p></li>
 </ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="post-lab-writeup">
+<h3>Post-lab Writeup<a class="headerlink" href="#post-lab-writeup" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative, not only quantitative.</p>
+<ul>
+<li><p>What is the precision of your equipment?</p></li>
+<li><p>What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting variance) errors? How would they change your final results (larger, smaller, more varied)?</p></li>
+<li><p>For this exercise, assume voltage uncertainty of <span class="math notranslate nohighlight">\(0.01\text{V}\)</span> and time uncertainty of <span class="math notranslate nohighlight">\(0.01\,\text{sec}\)</span>. Based on these uncertainties, how do your final results (for just the first case) change? (I.e. larger or smaller?)</p>
+<ul>
+<li><p>If larger or smaller, are they more or less accurate to expected values?</p></li>
+<li><p>Which, voltage or time in this case, presents a larger effect on final results?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>In a <strong>paragraph</strong>, summarize the results you have determined for all cases. Consider:</p>
+<ul>
+<li><p>What was the point of today’s lab; what did we aim to discover?</p></li>
+<li><p>First Experiment:</p>
+<ul>
+<li><p>For each case, using standard deviation as our uncertainty for this lab, do your experimental results for average capacitance agree with your expected values (as measured with the multimeter)?</p></li>
+<li><p>Of the two (graphical and half-life), which method’s results could we be more confident in and why?</p></li>
+<li><p>How do different RC (resistor-capacitor) combinations affect the change of their circuits’ voltages over time (i.e. decay)? Remember, you had five cases of various combinations:</p>
+<ul>
+<li><p>How did an increase of resistance affect the decay (shorter/longer)? Physically why?</p></li>
+<li><p>How did an increase of capacitance affect the decay (shorter/longer)? Physically why?</p></li>
+<li><p>How did capacitors in parallel and series each affect the decay (shorter/longer)? Physically why?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Second Experiment</p>
+<ul>
+<li><p>How does the difference in voltage (final - initial) change after each switch back and forth when using <span class="math notranslate nohighlight">\(C_{2\text{,small}}\)</span> to charge up <span class="math notranslate nohighlight">\(C_{1\text{,big}}\)</span>?</p>
+<ul>
+<li><p>Do the experimental final voltages agree or disagree with the expected final voltage from <a class="reference internal" href="#equation-eq-charge-division">(132)</a>? Why or why not; what assumptions must be true?</p></li>
+</ul>
+</li>
+<li><p>How does the difference in voltage (final - initial) change when the second capacitor is discharged with a wire between switch flips?</p>
+<ul>
+<li><p>Do the experimental final voltages agree or disagree with the expected final voltage from <a class="reference internal" href="#equation-eq-charge-division">(132)</a>? Why or why not?</p></li>
+</ul>
+</li>
+<li><p>Explain why, in step 4 of the second experiment you connect a wire across each capacitor for initial setup. Why is a brief connection sufficient? <em>Hint: What is the time constant for the wire and capacitor; how is it different to the resistor and capacitor setup?</em></p></li>
+<li><p>If you repeated the second experiment with the capacitors swapped (now with <span class="math notranslate nohighlight">\(C_{1\text{,big}}\)</span> charging up <span class="math notranslate nohighlight">\(C_{2\text{,small}}\)</span>), what do you expect would be the same or different and why?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--- replace results question with something more meaningful?
+
+  - Is the graphical or half-life method more accurate to the expected values; why?
+
+--->
+</section>
 </section>
 <section id="the-whiteboard">
 <h2>The Whiteboard<a class="headerlink" href="#the-whiteboard" title="Permalink to this heading">#</a></h2>
 <figure class="align-center" id="rccircuits-whiteboard-01">
 <a class="reference internal image-reference" href="../_images/RCCircuits_2025_Summer_01_v02.jpg"><img alt="../_images/RCCircuits_2025_Summer_01_v02.jpg" src="../_images/RCCircuits_2025_Summer_01_v02.jpg" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 107 </span><span class="caption-text">Overview 1st part.</span><a class="headerlink" href="#rccircuits-whiteboard-01" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 111 </span><span class="caption-text">Overview 1st part.</span><a class="headerlink" href="#rccircuits-whiteboard-01" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="rccircuits-whiteboard-02">
 <a class="reference internal image-reference" href="../_images/RCCircuits_2025_Summer_02_v02.jpg"><img alt="../_images/RCCircuits_2025_Summer_02_v02.jpg" src="../_images/RCCircuits_2025_Summer_02_v02.jpg" style="width: 80%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 108 </span><span class="caption-text">Overview 2nd part.</span><a class="headerlink" href="#rccircuits-whiteboard-02" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 112 </span><span class="caption-text">Overview 2nd part.</span><a class="headerlink" href="#rccircuits-whiteboard-02" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="rccircuits-whiteboard-03">
 <a class="reference internal image-reference" href="../_images/RCCircuits_2025_Summer_03_v02.jpg"><img alt="../_images/RCCircuits_2025_Summer_03_v02.jpg" src="../_images/RCCircuits_2025_Summer_03_v02.jpg" style="width: 80%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 109 </span><span class="caption-text">Multimeter settings; Capstone significant figures notes.</span><a class="headerlink" href="#rccircuits-whiteboard-03" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 113 </span><span class="caption-text">Multimeter settings; Capstone significant figures notes.</span><a class="headerlink" href="#rccircuits-whiteboard-03" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -787,13 +1081,32 @@ V_f &amp;= \frac{C_1}{C_1+C_2} V\end{split}\]</div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#backgroun-overview">Backgroun Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-overview">Background Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-dependence-of-voltage-in-a-capacitor">Time Dependence of Voltage in a Capacitor</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dividing-charge-across-capacitors">Dividing charge across capacitors</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#equipment">Equipment</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-procedure">Experimental Procedure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure-preview">Procedure Preview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-determine-capacitances">PART I — Determine Capacitances</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-preliminary-setup">Part I — Preliminary Setup</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-data-acquisition">Part I — Data Acquisition</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-data-analysis">Part I — Data Analysis</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-dividing-charge-across-two-capacitors">PART II — Dividing Charge across Two Capacitors</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-preliminary-setup">Part II — Preliminary Setup</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-data-acquisition-analysis">Part II — Data Acquisition &amp; Analysis</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-submission-interpretation-of-results">Post-Lab Submission — Interpretation of Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#finalized-spreadsheets">Finalized Spreadsheets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#post-lab-writeup">Post-lab Writeup</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-whiteboard">The Whiteboard</a></li>
 </ul>
   </nav></div>

@@ -24,7 +24,7 @@
 Autoscale axes tool.
 ```
 
-
+(capstone-curve-fitting-procedures-01)=
 ## Curve Fitting Procedure
 
 ```{figure} ../ExperimentsGenPhysI/CentripetalForceFigures/Figure05_v2025-01.png
