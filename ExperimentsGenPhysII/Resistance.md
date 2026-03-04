@@ -200,7 +200,7 @@ Overall setup shown in {numref}`fig-ohms-law-setup`, with a full equipment list 
 
 
 
-```{figure} ResistanceFigures/E-4_Fig_02_OverallSchematic_02.png
+```{figure} ResistanceFigures/E-4_Fig_02_OverallSchematic_v03.png
 ---
 width: 100%
 name: fig-ohms-law-setup
@@ -343,7 +343,7 @@ You will apply a range of voltages through the circuits and measure both ***curr
 
 
 
-```{figure} ResistanceFigures/E-4_Fig_02_OverallSchematic_03_exampleR1.png
+```{figure} ResistanceFigures/E-4_Fig_02_OverallSchematic_exampleR1_v03.png
 ---
 width: 60%
 name: E4Fig_06
