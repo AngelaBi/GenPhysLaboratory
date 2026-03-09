@@ -1,7 +1,7 @@
 
 
 .sidebar-toggle.primary-toggle::after {
-    content: "Overall Table of Contents";
+    content: "Overall Table of Contents (click to collapse/expand)";
     font-weight: 500;
 }
 

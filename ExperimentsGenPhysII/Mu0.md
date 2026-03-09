@@ -16,13 +16,18 @@
 
 ## Background
 
-### Overall goals and overview
+### ○ Background Overview
 
+```{admonition} OVERALL GOALS
+:class: note
+Use a set of parallel bars to generate magnetic fields to:
+- Investigate the relationship between magnetic force $F_B$ and current $I$ (i.e. $F_B$ vs. $I$).
 - Experimentally determine the permeability of free space $\mu_0$
 - Along with your previous measurement of $\varepsilon_0$, determine the speed of light $c$
-- Understand the relationship between magnetic force and current using a consistent induced magnetic field, reasonably produced by high current through parallel, cylindrical conductors
-- Conduct three rounds of nine trials each (total 27 trials) of applying more mass (more gravitational force) and more current to produce a magnetic field (and therefore more magnetic force). Do the rounds sequentially rather than all of a single applied mass in a row to ensure you catch and correct any significant errors early (e.g. if the apparatus is bumped out of alignment) rather than having to do all 27 trials again. The order of the trials for applied masses would be 0, 25, 50, 75, 100, 125, 150, 175, 200, 0, 25, 50, 75, 100, 125, 150, 175, 200, 0, 25, 50, 75, 100, 125, 150, 175, 200 mg
-- In this experiment, first determine the separation distance, $d$. Then add mass with a series of increasing masses and apply the necessary current $I$ applied along the conductors so they return to parallel where the separation distance returns to $d$. Under this condition, the magnetic force required to maintain the separation $d$ will be the difference of the gravitational force on the applied mass. Then determine $\mu_0$ for each trial, and an overall value through both averaging of all your trials and plotting of all your data (i.e. magnetic force vs. current² between the conductors). Comparing then your results from both analysis methods to the accepted $\mu_{0\text{-accepted}}$. Ultimately determine the speed of light $c$.
+```
+
+
+
 
 
 By measuring the magnetic force between two parallel current-carrying conductors, the permeability of free space, $\mu_0$, will be experimentally determined. $\mu_0$ is a fundamental constant of nature, and, with its electric equivalent $\varepsilon_0$ that we determined in an earlier experiment, we will now be able to determine the magnitude of the velocity of propagation of an electromagnetic wave --- the speed of light. These constants are related to the speed of light, c, by the following relation, derived from Maxwell's equations which describe the behavior of electric and magnetic fields:
@@ -79,7 +84,7 @@ As before, similar to the setup and measurement methods from E-1, an optical lev
 With the required balancing current determined along with the other dimensions of the apparatus, we can now determine the value of $\mu_0$.
 
 
-## Equipment
+### ○ Equipment
 
 - Telescope with crosshair & centimeter-scale ruler on vertical pole
 - AC power from wall outlet, controlled with large, cylindrical potentiometer. Controls range from 0 -- 100% of wall power (~0 -- 15 A). Ignore the scale on the dial since the knob is not actually lined up to them.
@@ -95,7 +100,7 @@ With the required balancing current determined along with the other dimensions o
 - x4 Banana plug wires (12 AWG, x2 1', x2 3') connecting wall power from transformer to ammeter & parallel-conductor apparatus
 - Protective box with the mirror-to-scale distance written on it
 
-## Adjustment of apparatus
+### ○ Adjustment of apparatus
 
 The apparatus has been carefully adjusted before your lab and should not require further significant adjustments. This section describes how the apparatus was prepared. If something seems to need adjusting, see the lab instructor. The apparatus is very similar to the apparatus setup from E-1.
 
@@ -115,14 +120,23 @@ The apparatus has been carefully adjusted before your lab and should not require
 **DO NOT TOUCH THE METAL CONDUCTORS (BARS)**
 ```
 
-## PRECAUTIONS
+### ○ PRECAUTIONS
 
 1. The wire frame that supports the current carrying conductor and counterweight is supported on knife edges. The frame is easily bent, and the knife edges can be easily damaged. Treat the system with the same care as a precise analytical balance. Handle the weights with tweezers and store them in the case.
 2. The current must pass through the knife edges and intense local heating is produced. Reduce the current to zero as soon as possible after making the observations.
 3. **Do not be the ground of the circuit.**
 4. **The current should not exceed 15 A!**
 
-## Data Acquisition
+
+### ○ Preview
+
+- Understand the relationship between magnetic force and current using a consistent induced magnetic field, reasonably produced by high current through parallel, cylindrical conductors
+- Conduct three rounds of nine trials each (total 27 trials) of applying more mass (more gravitational force) and more current to produce a magnetic field (and therefore more magnetic force). Do the rounds sequentially rather than all of a single applied mass in a row to ensure you catch and correct any significant errors early (e.g. if the apparatus is bumped out of alignment) rather than having to do all 27 trials again. The order of the trials for applied masses would be 0, 25, 50, 75, 100, 125, 150, 175, 200, 0, 25, 50, 75, 100, 125, 150, 175, 200, 0, 25, 50, 75, 100, 125, 150, 175, 200 mg
+- In this experiment, first determine the separation distance, $d$. Then add mass with a series of increasing masses and apply the necessary current $I$ applied along the conductors so they return to parallel where the separation distance returns to $d$. Under this condition, the magnetic force required to maintain the separation $d$ will be the difference of the gravitational force on the applied mass. Then determine $\mu_0$ for each trial, and an overall value through both averaging of all your trials and plotting of all your data (i.e. magnetic force vs. current² between the conductors). Comparing then your results from both analysis methods to the accepted $\mu_{0\text{-accepted}}$. Ultimately determine the speed of light $c$.
+
+
+
+### ○ Data Acquisition
 
 If $b$ is the mirror-to-scale distance and $a$ is the length of the frame (see {numref}`Figure {number} <fig-apparatus-diagram>`), then a straightforward geometrical analysis (like in Lab E-1) will show that the vertical displacement of the conductor, $y$, is given by:
 
@@ -181,7 +195,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
 
 15. If, after performing the graphical data analysis below, you find some or all of the data unacceptable, repeat from step 3, checking that the telescope and scale were not disturbed during your measurements.
 
-## Analysis of data
+### ○ Analysis of data
 
 1. The graphical display of data permits the comparison of all the values and associated errors at once. Points that depart markedly from the general trend of the data are quickly detected. We expect from theory (from {eq}`eq-parallel-conductor-force`) that:
 
