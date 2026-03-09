@@ -32,3 +32,25 @@ html:
   use_repository_button: true
 exclude_patterns:
   - 'README.md'
+
+
+html:
+  extra_css:
+    - _static/custom.css
+
+html:
+  theme: sphinx_book_theme
+
+sphinx:
+  config:
+    html_static_path: ["_static"]
+    html_css_files:
+      - custom.css
+    html_theme_options:
+      collapse_navigation: false
+      navigation_depth: 4
+      show_toc_level: 3
+
+# testing...
+#    myst_enable_extensions:
+      #- html_image

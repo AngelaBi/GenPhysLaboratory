@@ -1,0 +1,41 @@
+
+
+.sidebar-toggle.primary-toggle::after {
+    content: "Overall Table of Contents";
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+/* Limit image height, keep aspect ratio */
+.bd-article-container img {
+    max-height: 400px;   /* set your desired max height */
+    width: auto !important;         /* scale width automatically */
+    height: auto;        /* scale height proportionally */
+    display: inline-block; /* good for inline images */
+}
+
+
+
+/*
+.inline-img-sm {
+    height: 60px !important;
+    width: auto !important;
+    vertical-align: middle !important;
+}
+.inline-img-md {
+    height: 80px !important;
+    width: auto !important;
+    vertical-align: middle !important;
+}
+.inline-img-lg {
+    height: 120px !important;
+    width: auto !important;
+    vertical-align: middle !important;
+}
+*/
