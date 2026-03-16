@@ -247,6 +247,38 @@ Example of capacitors, resistors, and wire and jumper bar to be used.
 
 
 
+(demo-video-RC-circuits)=
+## Demo Video: Setup & Procedure
+
+Some clarifications, additions, or corrections since this video is slightly outdated:
+
+- For Experiment 1 (RC Circuit)
+  - $V_\text{final}$ used to be called $V_\text{half-time}$, but was changed to $V_\text{final}$ for clarity
+  - Just using standard deviation for our uncertainty range today.
+- For Experiment 2 (CC Circuit)
+  - Just run 1st and 2nd parts as written in the procedure:
+    - $C_\text{small}$ in battery circuit (bottom position) to discharge to $C_\text{big}$ in top position
+  - Old 3rd and 4th parts with the capacitors swapped are left for Post-Lab questions
+- Ignore callouts to whiteboard or specific figure or equation numbers as they have changed.
+
+<div style="text-align: center;">
+  <iframe
+    width="80%"
+    height="315"
+    src="https://www.youtube.com/embed/qIOAo6_dHeY"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Demonstration video. Reviews overall setup and procedure. *Yes audio*</figcaption>
+</div>
+
+
+If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=qIOAo6_dHeY" target="_blank" rel="noopener noreferrer">
+https://www.youtube.com/watch?v=qIOAo6_dHeY
+</a>
 
 
 ## Experimental Procedure

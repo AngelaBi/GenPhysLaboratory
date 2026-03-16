@@ -132,6 +132,31 @@ The apparatus has been carefully adjusted before your lab and should not require
 
 
 
+(demo-video-mu0-constant)=
+## Demo Video: Setup & Procedure
+
+Some clarifications, additions, or corrections since this video is slightly outdated:
+
+- Ignore white board as there have been slight changes
+
+<div style="text-align: center;">
+  <iframe
+    width="80%"
+    height="315"
+    src="https://www.youtube.com/embed/EpYTWOcaFSU"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Demonstration video. Reviews overall setup and procedure. *Yes audio*</figcaption>
+</div>
+
+
+If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=EpYTWOcaFSU" target="_blank" rel="noopener noreferrer">
+https://www.youtube.com/watch?v=EpYTWOcaFSU
+</a>
 
 
 ## Experimental Procedure
