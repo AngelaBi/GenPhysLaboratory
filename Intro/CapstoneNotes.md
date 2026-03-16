@@ -27,13 +27,42 @@ Autoscale axes tool.
 (capstone-curve-fitting-procedures-01)=
 ## Curve Fitting Procedure
 
+```{figure} ../Intro/CapstoneFigures/FigCapstone_050_ApplyFit_v01.png
+:name: CapstoneExampleFig02
+:width: 100%
+:align: center
+
+Capstone process for applying fits to plotted data.
+```
+
+```{figure} ../Intro/CapstoneFigures/FigCapstone_051_YIntToZero_v01.png
+:name: CapstoneExampleFig02_YIntZero
+:width: 100%
+:align: center
+
+Capstone process for updating the y-intercept of a linear fit.
+```
+
+```{figure} ../Intro/CapstoneFigures/FigCapstone_052_IncreaseSigFigs_v01.png
+:name: CapstoneExampleFig02_SigFigs
+:width: 100%
+:align: center
+
+Capstone process for updating the significant figures (sig. figs.) of a linear fit.
+```
+
+
+<!---
 ```{figure} ../ExperimentsGenPhysI/CentripetalForceFigures/Figure05_v2025-01.png
 :name: CapstoneExampleFig02
 :width: 100%
 :align: center
 
-Process for applying fits to plotted data, updating the y-intercept and other curve-fit terms, and updating sig. figs.
+Process for applying fits to plotted data, updating the y-intercept and other curve-fit terms as needed, and updating sig. figs.
 ```
+--->
+
+
 
 ## Replay/display Previous Data Run
 

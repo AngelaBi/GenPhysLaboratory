@@ -3,7 +3,7 @@
 
 ## Background
 
-### Background Overview
+### ● Background Overview
 
 ```{danger}
 **⚠️⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️⚠️**
@@ -40,7 +40,7 @@ k = \frac{1}{4 \pi \varepsilon_0}.
 
 The subscript zero refers to the baseline value of the permittivity of free space. 
 
-### Electric Force Between the Plates of a Parallel-Plate Capacitor
+### ● Electric Force Between the Plates of a Parallel-Plate Capacitor
 
 
 If we apply Coulomb's law to the special case of two *large*, *closely-spaced*, *parallel plates*, we can derive an expression for the electric force between the two plates. This electric force is due to the uniform electric field generated between this configuration known as the **parallel-plate capacitor** as seen in {numref}`E1Fig_0002`.
@@ -64,7 +64,7 @@ Consider such a parallel-plate capacitor with plate area $A$, separation $d$, an
 
 
 
-#### Electric Field of the Plates
+#### ○ Electric Field of the Plates
 
 A single (ideally) infinite sheet of charge with surface charge density $\sigma$ produces a uniform electric field one either side of that sheet with a magnitude
 
@@ -87,7 +87,7 @@ V = Ed \quad \Rightarrow \quad E = \frac{V}{d}
 where to increase the electric field strength, you can either increase the voltage or decrease the separation distance between the plates.
 
 
-#### Force on a Plate
+#### ○ Force on a Plate
 
 A key point is that a charged plate does **not** exert a force on itself. The force on one plate arises solely from the electric field produced by the *other* plate.
 
@@ -111,7 +111,7 @@ F_E = \frac{Q^2}{2\varepsilon_0 A}.
 
 
 
-#### Force in Terms of Voltage
+#### ○ Force in Terms of Voltage
 
 Using the relation between surface charge density and electric field,
 
@@ -136,7 +136,7 @@ F_E = \frac{(\varepsilon_0 A V / d)^2}{2\varepsilon_0 A}
 
 
 
-#### Final Result
+#### ○ Final Result
 
 
 The following expression gives the magnitude of the attractive electric force between the oppositely-charge plates of an ideal parallel-plate capacitor.
@@ -204,7 +204,7 @@ By measuring electric force, voltage, and geometry of the apparatus, $\varepsilo
 
 
 
-### Equipment List
+### ● Equipment List
 
 Depicted across {numref}`E1Fig_00` -- {numref}`E1Fig_02`. All equipment as listed can be seen first in {numref}`E1Fig_00`.
 
@@ -238,7 +238,7 @@ Top) Example of the entire setup (note: actual setups will have telescope/scale 
 
 
 
-### Adjustment of apparatus (check with Instructor if needed)
+### ● Adjustment of apparatus (check with Instructor if needed)
 
 The apparatus has been carefully adjusted before your lab and should not require further significant adjustments. This section describes how the apparatus was prepared. If something seems to need adjusting, see the lab instructor.
 
@@ -275,7 +275,7 @@ https://www.youtube.com/watch?v=2GMHmCrCKLQ
 ## Experimental Procedure
 
 
-### Procedure Preview
+### ● Procedure Preview
 
 ```{danger}
 **⚠️⚠️⚠️⚠️ DO NOT TOUCH THE METAL PLATES ⚠️⚠️⚠️⚠️**
@@ -319,7 +319,7 @@ You will experimentally determine $\varepsilon_0$ today; a few weeks from now in
 
 
 
-### Preliminary Setup
+### ● Preliminary Setup
 
 **All given lengths you will use are represented in {numref}`E1Fig_01`.**
 
@@ -424,7 +424,7 @@ d = \frac{D a}{2 b}
 
 
 (detailsteps-Epsilon0Data)=
-### Experimental Data Collection
+### ● Experimental Data Collection
 
 (procedure-epsilon0-trial-list)=
 6. Repeat the following steps for each trial with applied masses in order (to catch any procedural issues early):
@@ -504,7 +504,7 @@ Safety: regarding electricity and the plates touching.
 12. Check if all the values are reasonably consistent. Retake any data that are clearly erroneous and recalculate.
 
 
-### Experimental Data Analysis
+### ● Experimental Data Analysis
 
 13. Calculate your average values from everyone's trials (ignoring the $50\,\text{mg}$ trials):
     - Average experimental value $\varepsilon_{0\text{,experimental-average}}$
@@ -594,7 +594,7 @@ Safety: regarding electricity and the plates touching.
 
 ## Post-Lab Submission --- Interpretation of Results
 
-### Finalized Spreadsheets
+### ● Finalized Spreadsheets
 
   - Make sure to submit your finalized data table (Excel sheet).
   - Please include relevant plot(s) including:
@@ -602,7 +602,7 @@ Safety: regarding electricity and the plates touching.
     - $F_E$ vs. $V$ with all data points across all trials, including those at equilibrium ($m = 50\,\text{mg}$).
 
 
-### Post-lab Writeup
+### ● Post-lab Writeup
 
 - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
   - What is the precision of your equipment?
