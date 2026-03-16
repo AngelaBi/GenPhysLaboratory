@@ -3,7 +3,7 @@
 
 ## Background
 
-### ○ Background Overview
+### ● Background Overview
 
 ```{admonition} OVERALL GOALS
 :class: note
@@ -67,7 +67,7 @@ Conductors, like our electrode patterns today, are themselves equipotential surf
 If equipotential lines are parallel, the electric field lines must also be parallel. If the equipotentials are curved, the electric field lines will converge or diverge as they pass through them ({numref}`E2Fig003` right). Where field lines converge, the magnitude of the electric field increases; where they diverge, the field strength decreases. As neighboring equipotential surfaces get closer together, they necessarily become more nearly parallel. Consequently, the shapes of electrodes and the spacing between them determine the patterns of both the equipotential surfaces and the electric field lines.
 
 
-### ○ Experimental Overview
+### ● Experimental Overview
 
 In this experiment, we will qualitatively establish electric field distribution between various pairs of electrodes on a sheet of conducting paper (see {numref}`E2Fig01`). With a voltmeter (wiring shown in {numref}`E2Fig01` top), we will measure the potential difference between points on the paper. By plotting lines whose points are at the same potential (i.e. zero potential difference between any two points, or points at the same voltage), we can map out a number of equipotential lines. Note that *in three dimensional space*, equipotentials are **surfaces** perpendicular to the electric field. On the *two dimensional conducting sheets*, equipotentials form **lines** perpendicular to the electric field.
 Since we know that electrical field lines must be perpendicular to the equipotential lines, we can sketch a representative family of electrical field lines using the conventions discussed above.
@@ -108,7 +108,7 @@ French curves that will be available for interpolating equipotential and E-field
 ```
 
 
-### ○ Equipment
+### ● Equipment
 
 Depicted in {numref}`E2Fig01` and {numref}`E2Fig03_plots`.
 
@@ -148,7 +148,7 @@ https://www.youtube.com/watch?v=JYqLqs7038Q
 
 ## Experimental Procedure
 
-### ○ Procedure Preview
+### ● Procedure Preview
 
 ```{admonition} OVERVIEW
 :class: note
@@ -173,7 +173,7 @@ Electrode configurations. The stars show minimum required starting positions for
 ```
 
 
-### ○ Preliminary Setup
+### ● Preliminary Setup
 
 (procedure-mapping-potential-step-1)=
 1. Each group will characterize all three electrode configurations (see {numref}`E2Fig03_plots`); each person will draw and finalize at least one configuration. Begin with electrode configuration #1. Place a conducting electrode sheet on the cork mounting board and fasten down with a metal push pin at the end of the silver electrodes. Make sure the pins are pushed all the way down to make electrical contact with the electrode.
@@ -193,7 +193,7 @@ Electrode configurations. The stars show minimum required starting positions for
     ```
 
 (detailsteps-equipotentialMapping)=
-### ○ Equipotential Mapping
+### ● Equipotential Mapping
 
 
 5. With a very light downward pressure, move the probe along one of the long sides of the conducting paper until the voltage on the *probe* voltmeter is $20.0\,V$. Mark the point on the graph paper.
@@ -219,7 +219,7 @@ Electrode configurations. The stars show minimum required starting positions for
 9. Proceed in this fashion in $4.0\,V$ steps and plot the rest of the five equipotential lines between the electrodes, and label all 7 equipotentials ($24,\,20,\,16,\,12,\,8,\,4,\,0\,V$). Note: The electrode surfaces represent the zero and $24\,V$ equipotential lines. Add additional equipotential lines as needed to ensure full characterization of the equipotential space across the page.
 
 
-### ○ Electric Field Lines
+### ● Electric Field Lines
 
 10. After the equipotential lines have been determined, draw in the corresponding electric field lines starting at one electrode and running to the other electrode. 
     - Use a French curve and the technique described in the demo video, {ref}`demo-video-equipotential-mapping`. 
@@ -260,14 +260,14 @@ Electrode configurations. The stars show minimum required starting positions for
 
 Note: For this lab, your results will be very qualitative.
 
-### ○ Finalized "Spreadsheets"
+### ● Finalized "Spreadsheets"
   - Make sure to submit **all three** of your finalized field mappings.
     - INCLUDE THE PLOT-DRAWER'S NAME AND GROUPMATES' NAMES ON EACH PLOT.
     - Include all labels and markings as described throughout the procedure.
     - Submit to the "spreadsheets" assignment in Blackboard.
 
 
-### ○ Post-lab Writeup
+### ● Post-lab Writeup
 
 - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?

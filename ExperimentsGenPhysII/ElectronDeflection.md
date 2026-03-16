@@ -3,7 +3,7 @@
 
 ## Background
 
-### ○ Background Overview
+### ● Background Overview
 
 ```{admonition} NOTE REGARDING THE HOMEWORK Spring 2026
 :class: important
@@ -103,7 +103,7 @@ Summing up, the assumptions made in this derivation include:
 2. The distance to the screen is large compared to the horizontal size of the deflection plates ($L\gg l$ in {numref}`E3Fig01`), so the electron path may be considered to be a straight line from the center of the deflection plate configuration to screen.
 3. The electron beam enters with an initial direction that is parallel to the deflection plates.
 
-### ○ Equipment
+### ● Equipment
 
 - *Complete Properties of Electrons Apparatus* (see {numref}`E3Fig02`)
   - List of experimental cases with their voltages on paper
@@ -133,7 +133,7 @@ Controls and parameters for the CRT of the *Complete Properties of Electrons App
 ## Experimental Procedure
 
 
-### ○ Procedure Preview \& Preliminary Setup
+### ● Procedure Preview \& Preliminary Setup
 
 
 ```{admonition} OVERVIEW
@@ -159,7 +159,7 @@ Controls and parameters for the CRT of the *Complete Properties of Electrons App
 2. Turn on the main power switch `10`, and wait until the cathode warms up and a bright spot appears on the screen. If it doesn't appear after ~30 s, an instructor can be of assistance; it's likely a deflection or zeroing knob pushing the beam off-screen.
 
 (detailsteps-accel-of-electrons)=
-### ○ Experimental Data Collection
+### ● Experimental Data Collection
 
 3. **FOR CASE 1** as listed on apparatus. Set the CRT voltage selector switch `3` to read the grid voltage $V_\text{G}$. Adjust the grid voltage to the given value using the grid potentiometer `17` whose voltage appears on the top voltmeter display `24`.
 
@@ -197,9 +197,9 @@ Example of CRT grid and 4 mm spacings.
 13. **FOR CASE 2**, repeat steps 3 to 12 above using Case 2 data listed on the apparatus including an acceleration voltage of 1100 V.
 
 
-### ○ Experimental Data Analysis
+### ● Experimental Data Analysis
 
-#### ● Graphical Analysis --- Deflection Voltage (Plot 1)
+#### ○ Graphical Analysis --- Deflection Voltage (Plot 1)
 14. Plot both cases on the **same graph** (we want to see direct comparison):
     - Your values of deflection distance vs. deflection voltage (i.e. $D_\text{experimental}$ vs. $V_\text{Y}$).
     - Reminder, $D_\text{experimental}$ is not calculated, but rather just your stated 4 mm increments.
@@ -247,7 +247,7 @@ Example of CRT grid and 4 mm spacings.
     ***Compare*** this RMS value to your estimate of how well you can read displacements on the screen (i.e. comparing RMS as a theoretical position uncertainty to your experimental position uncertainties $\delta D$)
     ```
 
-#### ● Acceleration Voltage Analysis
+#### ○ Acceleration Voltage Analysis
 
 ```{admonition} Discussion Point: Deflection Position vs. Acceleration Variations
 :class: question
@@ -260,7 +260,7 @@ The previous steps have focused on how the deflection of the electron beam depen
 19. Using `3`, select $V_\text{K}$, and decrease the acceleration voltage with `21` as low as it will go. Now, watch the position on the screen as you increase the accelerating voltage to the maximum value. ***Did the beam go up or down, why?***
 
 
-#### ● Graphical Analysis --- $V_\text{Y}/V_\text{K}$ (Plot 2)
+#### ○ Graphical Analysis --- $V_\text{Y}/V_\text{K}$ (Plot 2)
 
 20. **Graphical Analysis, Plot 2:** Plot both cases on the **same graph** (we want to see direct comparison):
     - Your values of deflection distance vs. deflection voltage to acceleration voltage ratio (i.e. $D_\text{experimental}$ vs. $V_\text{Y}/V_\text{K}$).
@@ -293,7 +293,7 @@ The previous steps have focused on how the deflection of the electron beam depen
 
 ## Post-Lab Submission --- Interpretation of Results
 
-### ○ Finalized Spreadsheets
+### ● Finalized Spreadsheets
 
   - Make sure to submit your finalized data table (Excel sheet).
   - Please include the relevant plot(s) including (just two for this lab):
@@ -301,7 +301,7 @@ The previous steps have focused on how the deflection of the electron beam depen
     - $D$ vs. $V_\text{Y}/V_\text{K}$ with both cases plotted on the same graph.
 
 
-### ○ Post-lab Writeup
+### ● Post-lab Writeup
 
 - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
   - What is the precision of your equipment?

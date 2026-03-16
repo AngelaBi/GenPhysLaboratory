@@ -4,7 +4,7 @@
 
 ## Background
 
-### ○ Background Overview
+### ● Background Overview
 
 
 ```{admonition} NOTE REGARDING THE HOMEWORK Spring 2026
@@ -38,7 +38,7 @@ Left) Schematic of circuit charging the capacitor. Right) Schematic of RC circui
 With the switch connecting the capacitor to the batteries (see {numref}`fig-rc-charging-circuit`-left), the capacitor rapidly charges up to the potential of the batteries. Since a capacitor will not pass a DC current, a positive charge builds up on one of the plates while a negative charge forms on the other. When the switch is flipped to connect the capacitor to the resistor, we have the circuit (shown in {numref}`fig-rc-charging-circuit`-right) containing a charged capacitor with a resistance across its terminals. 
 
 
-### ○ Time Dependence of Voltage in a Resistor-Capacitor (RC) Circuit
+### ● Time Dependence of Voltage in a Resistor-Capacitor (RC) Circuit
 
 
 We will now investigate how the voltage across the capacitor changes with time, starting at $t = 0$ when the capacitor is fully charged. The voltage will be measured by the voltmeter $V$ connected as shown in {numref}`fig-rc-charging-circuit`. As time progresses, current will flow from the positively charged plate of the capacitor through the resistance $R$ to the negatively charged plate.
@@ -161,7 +161,7 @@ If we **plot** the value of the natural log of $V$ as a function of time, $t$, w
 
 
 
-### ○ Dividing Charge across Capacitors in a Capacitor-Capacitor (CC) Circuit
+### ● Dividing Charge across Capacitors in a Capacitor-Capacitor (CC) Circuit
 
 A capacitor $C$ at voltage $V$ holds a charge $Q = CV$. In the circuit shown in {numref}`fig-cc-charging-circuit` when the single-pole-double-throw (SPDT) switch connects the first capacitor ($C_\text{first-position}$) to the voltage source, it holds a charge $Q_\text{first-position} = C_\text{first-position} V_\text{source}$. The switch is then flipped to disconnect the first capacitor from the battery and connect it to the second capacitor ($C_\text{second-position}$). Charge moves from the first-position capacitor to the second-position capacitor, lowering the voltage and sharing the charge. Assuming the second capacitor is initially uncharged, the total charge is unchanged. The **total charge $Q$ must then be divided between the two capacitors so that they come to the same lower final voltage**:
 
@@ -187,11 +187,10 @@ Left) Schematic of circuit charging the capacitor. Right) Schematic of CC circui
 ```
 
 
- (RC) Circuit
 
 
 
-### ○ Equipment
+### ● Equipment
 
 The general setup with electrical schematic can be seen in {numref}`fig-rc-setup`, with the voltmeter attached on either side of the capacitor section of the circuit. Capacitors to be experimentally determined, resistors to be treated as known constants, and wire and jumper bars are shown in {numref}`fig-rc-setup_capacitors_resistors`.
 
@@ -222,9 +221,10 @@ The general setup with electrical schematic can be seen in {numref}`fig-rc-setup
 | **Resistors** | • 2× ceramic/metal-film resistors: $R_{1\text{,brown}}$, $R_{2\text{,blue}}$ |
 | **Capacitors** | • 2× capacitors: $C_{1\text{,big}}$, $C_{2\text{,small}}$ |
 | **PASCO Modular Circuit Kit** | • 4× corner modules <br> • 1× T-junction module <br> • 1× straight-line module <br> • 2× AA battery modules <br> • 3× spring clip modules (attach resistors, capacitors, jumper bar) <br> • 1× SPDT switch module (change circuits to charge / discharge capacitors <br> • 13× U-shaped jumper clips |
-| **Measurement Device ("actual")** | • Fluke multimeter with alligator clips (for "actual" values) <br> • Ω: measure "actual" resistor values <br> • F: measure "actual" capacitor values for later experimental comparison |
+| **Measurement Device ("actual")** | • Fluke multimeter with alligator clips (for "actual" values) <br> • ![alt text](../Intro/IntroductionFigures/FigExtra_038_Resistance_v01.png): measure "actual" resistor values <br> • ![alt text](../Intro/IntroductionFigures/FigExtra_039_Capacitance_v01.png): measure "actual" capacitor values for later experimental comparison |
 | **Experimental Voltage Measurement** | • Capstone voltmeter (Connected across capacitors using alligator clips on jumper bars) |
 ```
+
 
 
 ```{figure} RCCircuitFigures/E5_Fig_002_setup_v02.png
@@ -250,7 +250,7 @@ Example of capacitors, resistors, and wire and jumper bar to be used.
 
 
 ## Experimental Procedure
-### ○ Procedure Preview
+### ● Procedure Preview
 
 ```{admonition} OVERVIEW
 :class: note
@@ -273,7 +273,7 @@ Conduct two experiments:
 <!--- ### Demo Video
 --->
 
-### ○ EXPERIMENT I --- Discharging Capacitor through Reistor (RC Circuit)
+### ● EXPERIMENT I --- Discharging Capacitor through Reistor (RC Circuit)
 
 We study resistor-capacitor circuits and how capacitors discharge. Some ideas to think about as you go about this experiment is: *How do different RC (resistor-capacitor) combinations affect the change of their circuits' voltages over time?* *How do the two analysis methods (half-life and linear-fit) compare?* *How well does your average value of capacitance $\pm\sigma$ agree with your "actual" (a.k.a. expected) values?*
 
@@ -294,7 +294,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
 
 
 (rc-circuits-determine-capacitance-prelimsetup)=
-#### ● Exp. I --- Preliminary Setup
+#### ○ Exp. I --- Preliminary Setup
 1. Create a common data table for:
     - $R_1$: Resistor 1 (brown)
     - $R_2$: Resistor 2 (blue)
@@ -337,17 +337,17 @@ You will have two resistors (treated as constants) and two capacitors (all shown
 
 
 (rc-circuits-determine-capacitance-dataacquisition)=
-#### ● Exp. I --- Data Acquisition
+#### ○ Exp. I --- Data Acquisition
 
 6. Starting with the first case, connect the resistor, capacitor(s), switch, batteries, voltmeter as shown in {numref}`fig-rc-decay-circuit`. Also see {numref}`fig-rc-decay-circuit_parallel_series` for the cases involving capacitors in parallel and series.
 
-    ```{figure} RCCircuitFigures/E5_Fig_004_Example_v03.png
+    ```{figure} RCCircuitFigures/E5_Fig_004_Example_v04.png
     ---
     name: fig-rc-decay-circuit
     align: center
     width: 100%
     ---
-    Modular electronic RC circuit. The resistors and capacitors will just be placed in the spring modules to become part of the circuits. Left) Example with capacitor being charged. Right) Example with capacitor discharging through resistor.
+    Modular electronic RC circuit. The resistors and capacitors will just be placed in the spring modules to become part of the circuits. Left) Example with lower capacitor being charged by batteries in the bottom circuit. ***STAR*** Denotes switch position down. Right) Example with lower capacitor discharging through the resistor in the top circuit. ***STAR*** Denotes switch position up.
     ```
 
     ```{figure} RCCircuitFigures/E5_Fig_005_parallel_series_v04.png
@@ -398,7 +398,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
       Example Voltage vs. Time plot (top) and LN(V) vs. Time plot (bottom). Left) Time of start of a decay trial. Center) Time when half of the initial voltage is reached (i.e. after a half-life or $t_1/2$). Right) Time of the effective end of a decay trial when voltage drops to 10% of initial voltage (i.e. when $V = V_\text{10-percent}$.)
       ```
 
-#### ● Exp. I --- Data Analysis
+#### ○ Exp. I --- Data Analysis
 
 9.  **HALF-LIFE Analysis:**
       - Determine the half-life, and from that determine the capacitance for each decay trial of the current case. Example of relevant locations are shown in {numref}`FigE5_014_halflife`.
@@ -494,23 +494,23 @@ You will have two resistors (treated as constants) and two capacitors (all shown
 13. Replace the resistor and/or capacitor for the next combination case and repeat the procedure (from {ref}`rc-circuits-determine-capacitance-dataacquisition`) above for each of the other cases listed in {numref}`rc-combinations-table`. Think about: *How do different RC (resistor-capacitor) combinations affect the change of their circuits' voltages over time (i.e. decay)?*
 
 
-### ○ EXPERIMENT II --- Dividing Charge across Two Capacitors (CC Circuit)
+### ● EXPERIMENT II --- Dividing Charge across Two Capacitors (CC Circuit)
 
 ```{admonition} Experiment II Preview
 :class: note
 We study dividing charge across two capacitors, as in circuit diagram {numref}`fig-cc-charging-circuit` and schematic {numref}`fig-capacitor-charge-division`.
 ```
 
-```{figure} RCCircuitFigures/E5_Fig_006_CC_Example_v07.png
+```{figure} RCCircuitFigures/E5_Fig_006_CC_Example_v08.png
 ---
 name: fig-capacitor-charge-division
 align: center
 width: 100%
 ---
-Modular electronic circuit with two capacitors. Left) Example with lower capacitor being charged by batteries. Right) Example with lower capacitor discharging to the upper capacitor.
+Modular electronic circuit with two capacitors. Left) Example with lower capacitor being charged by batteries in the bottom circuit. ***STAR*** Denotes switch position down. Right) Example with lower capacitor discharging to the upper capacitor in the top circuit. ***STAR*** Denotes switch position up.
 ```
 
-#### ● Exp. II --- Preliminary Setup
+#### ○ Exp. II --- Preliminary Setup
 
 1. Consider $C_{1}$ as high-capacitance and $C_{2}$ as low-capacitance capacitors as you likely had done in the first experiment.
 
@@ -518,14 +518,14 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
 
 
 3. Create a data table including:
-  - Your experimentally-determined average capacitance values for $C_1$ and $C_2$ (remember to use Excel referencing)
-  - Also include an area for the expected final voltage
-  - Include **three columns** for initial and final voltages as well as the difference between the two. Create **five rows** for five trials. 
-  - Note: Initial voltage is $V$ when the battery is connected to $C_\text{first}$ *before* you throw the switch to connect the capacitors together. Final voltage is $V$ *after* you throw the switch to connect $C_\text{first}$ with $C_\text{second}$ and allow the charge in the `first` capacitor to be distributed between the two capacitors.
+    - Your experimentally-determined average capacitance values for $C_1$ and $C_2$ (remember to use Excel referencing)
+    - Also include an area for the expected final voltage
+    - Include **three columns** for initial and final voltages as well as the difference between the two. Create **five rows** for five trials. 
+    - Note: Initial voltage is $V$ when the battery is connected to $C_\text{first}$ *before* you throw the switch to connect the capacitors together. Final voltage is $V$ *after* you throw the switch to connect $C_\text{first}$ with $C_\text{second}$ and allow the charge in the `first` capacitor to be distributed between the two capacitors.
 
-4. Temporarily connect a wire across each capacitor to discharge them before flipping the switch (i.e. ensure the capacitors start with no charge stored and both circuits are open).
+4. **Temporarily connect the red wire across each capacitor to discharge them before flipping the switch (i.e. ensure the capacitors start with no charge stored and both circuits are open).**
 
-#### ● Exp. II --- Data Acquisition & Analysis
+#### ○ Exp. II --- Data Acquisition & Analysis
 
 5. Connect $C_\text{first}$ to the battery using the single-pole-double-throw (SPDT) switch.
 
@@ -561,7 +561,7 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
 
 ## Post-Lab Submission --- Interpretation of Results
 
-### ○ Finalized Spreadsheets
+### ● Finalized Spreadsheets
 
   - Make sure to submit your finalized data table (Excel sheet).
   - Please include concise summary table.
@@ -579,7 +579,7 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
         - each plot should show the 5 full trials to see how the voltage difference changes
 
 
-### ○ Post-lab Writeup
+### ● Post-lab Writeup
 
 - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
   - What is the precision of your equipment?

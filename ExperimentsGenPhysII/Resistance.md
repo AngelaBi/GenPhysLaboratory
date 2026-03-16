@@ -6,7 +6,7 @@
 ## Background
 
 
-### ○ Background Overview --- Resistance
+### ● Background Overview & Resistance
 
 ```{admonition} OVERALL GOALS
 :class: note
@@ -26,12 +26,12 @@ R=\frac{V}{I}
 An object that is a pure resistor has its total electrical characteristics determined by {eq}`eq-ohms-law`. Other circuit elements may have other important electrical characteristics in addition to resistance, such as capacitance or inductance. The resistance of any circuit element, whether it has other significant electrical properties or not, is given by the ratio of voltage to current as described in {eq}`eq-ohms-law`. For any given circuit element, the value of this ratio may change as the voltage and current changes. Nevertheless, the ratio of $V$ to $I$ defines the resistance of the circuit element at that particular voltage and current. The unit of resistance is the volt/ampere defined as the ohm, denoted by the symbol "$\Omega$."
 
 
-### ○ Ohm's Law
+### ● Ohm's Law
 
 
 Certain circuit elements obey a relation that is known as ***Ohm's Law***. For these elements, the ratio of $V$ to $I$ (i.e. $R$) is a ***constant*** for different values of $V$. Therefore, in order to show that a circuit element obeys Ohm's Law, it is necessary to vary the voltage (the current will then also vary) and observe that the ratio $V/I$ is in fact *constant*. In today's experiment, such measurements will be performed on two different types of elements to determine their resistance response to voltage (ceramic/metal-film resistors and an incandescent light bulb).
 
-### ○ Resistivity & Temperature Dependence
+### ● Resistivity & Temperature Dependence
 
 The resistance of any object to electrical current is a function of the material from which it is constructed, as well as the length, cross-sectional area, and temperature of the object. At constant temperature, the resistance $R$ of a sample with a constant cross-section $A$, and length $L$ is given by
 
@@ -45,7 +45,7 @@ Consider a "black box" with some unknown circuit inside connected to two termina
 
 For an ohmic resistor, when a voltage $V$ is applied, then the current is $I = V/R$, so the current is proportional to the voltage. If you plot voltage vs. current, the result is a straight line whose slope is the resistance. For a non-ohmic element like a light bulb, a plot of voltage vs. current is curved.
 
-### ○ Series & Parallel Circuits
+### ● Series & Parallel Circuits
 
 ```{figure} ResistanceFigures/Figure01_v02.jpg
 ---
@@ -78,7 +78,7 @@ Kirchhoff's Rules can be used to completely analyze a complex network of circuit
 
 
 
-#### ● Series Circuits --- Kirchhoff’s Voltage Rule
+#### ○ Series Circuits --- Kirchhoff’s Voltage Rule
 
 Notice, in a *series circuit*, if voltage is applied, the **current** flows the same through every element. The sum of the voltage drops across the elements equals the applied voltage. This follows from conservation of energy and is expressed by **Kirchhoff’s Voltage Rule (a.k.a. Loop Rule)**:
 
@@ -87,7 +87,7 @@ Notice, in a *series circuit*, if voltage is applied, the **current** flows the 
 In this experiment, you will primarily verify that the measured voltage drops across series elements add up to the total applied voltage, and secondarily confirm current is consistent through each element.
 
 
-#### ● Parallel Circuits --- Kirchhoff’s Current Rule
+#### ○ Parallel Circuits --- Kirchhoff’s Current Rule
 
 In a *parallel circuit*, if a voltage is applied, the **voltage** across each branch of the circuit is the same. The total current flowing into or out of a junction equals the sum of the currents through each branch. This follows from conservation of charge and is expressed by **Kirchhoff’s Current Rule (a.k.a. Junction Rule)**:
 
@@ -113,7 +113,7 @@ Schematic and example of setup for testing Ohm's law.
 
 
 
-### ○ Equipment
+### ● Equipment
 
 Overall setup shown in {numref}`fig-ohms-law-setup`, with a full equipment list in the following table {numref}`resistance-equipment-table_3`.
 
@@ -247,7 +247,7 @@ Example of Hardware Setup, selecting Output Voltage-Current Sensor, and Signal G
 
 
 ## Experimental Procedure
-### ○ Procedure Preview
+### ● Procedure Preview
 
 ```{admonition} OVERVIEW
 :class: note
@@ -288,7 +288,7 @@ sdfasdf
 
 
 
-### ○ Preliminary Setup
+### ● Preliminary Setup
 
 ```{admonition} Open or Closed Circuits
 :class: tip
@@ -319,7 +319,7 @@ Circuits are described as either open or closed. OPEN --- circuit has some gap i
     Throughout the following experiments, ensure you are descriptive and consistent in your spreadsheet for each resistor to help keep track of everything.
     ```
 
-### ○ Part I -- Individual Resistors across Voltage Range
+### ● Part I -- Individual Resistors across Voltage Range
 
 
 ```{admonition} Part I Overview
@@ -404,7 +404,7 @@ For both Part I individual resistors/light bulb part, and the following Part II 
 ```
 
 
-### ○ Part II -- Resistors in Series at Constant Voltage
+### ● Part II -- Resistors in Series at Constant Voltage
 
 ```{admonition} Part II Overview
 :class: note
@@ -465,7 +465,7 @@ R_{\text{eq-series-experimental}} = \frac{V_1}{I_1} + \frac{V_2}{I_2} + \frac{V_
 
 26. Compare your experimental $R_\text{eq-series-experimental} \pm \delta R_\text{eq-series-experimental}$ with your expected $R_\text{eq-series-actual} \pm \delta R_\text{eq-series-actual}$. Agree/disagree; why/why not? If due to something fixable, re-take necessary measurements.
 
-### ○ Part III -- Resistors in Parallel at Constant Voltage
+### ● Part III -- Resistors in Parallel at Constant Voltage
 
 ```{admonition} Part III Overview
 :class: note
@@ -557,7 +557,7 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
 
 ## Post-Lab Submission --- Interpretation of Results
 
-### ○ Finalized Spreadsheets
+### ● Finalized Spreadsheets
 
   - Make sure to submit your finalized data table (Excel sheet).
   - Please include concise summary table.
@@ -565,7 +565,7 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
     - $V$ vs. $I$, with all three resistors and the light bulb all plotted on the same graph. Linear trendlines for all cases, plus additional quadratic trendline for the light bulb.
 
 
-### ○ Post-lab Writeup
+### ● Post-lab Writeup
 
 - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
   - What is the precision of your equipment?
