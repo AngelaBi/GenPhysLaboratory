@@ -38,6 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
   
   <!-- So that users can add custom icons -->
   <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
@@ -93,8 +96,8 @@
   <input type="search"
          class="form-control"
          name="q"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
+         placeholder="Search..."
+         aria-label="Search..."
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -161,14 +164,6 @@
 </button></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="../intro.html">
-                    Welcome to General Physics Lab
-                </a>
-            </li>
-        </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Schedule</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../scheduleByMeetingTimesAll.html">Full Lab Schedule with Meeting Times</a></li>
@@ -261,53 +256,6 @@
         <div class="header-article-item">
 
 <div class="article-header-buttons">
-
-
-
-
-
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="btn__text-container">Repository</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FIntro/ErrorAnalysis.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="btn__text-container">Open issue</span>
-</a>
-</li>
-      
-  </ul>
-</div>
-
 
 
 
@@ -407,9 +355,9 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#significant-figures">Significant Figures</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#significant-figures">Significant Figures</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rules-for-significant-figures">Rules for Significant Figures</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-addition-multiplication">Examples — Addition &amp; Multiplication</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-addition-multiplication">Examples — Addition &amp; Multiplication</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#addition">Addition</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#multiplication">Multiplication</a></li>
 </ul>
@@ -418,31 +366,31 @@
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-analysis-procedure">Error Analysis Procedure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-errors">Types of Errors</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-propagation-of-measurement-uncertainties">Error Propagation of Measurement Uncertainties</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-propagation-of-measurement-uncertainties">Error Propagation of Measurement Uncertainties</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-error-propagation-density-of-a-block">Example: Error Propagation — Density of a Block</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#random-errors">Random Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#random-errors">Random Errors</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-standard-deviation-standard-error">Mean, Standard Deviation, Standard Error</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-average-pm-standard-error">Example of Average <span class="math notranslate nohighlight">\(\pm\)</span> Standard Error</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#estimation-through-variation-or-instrumentation">Estimation through Variation or Instrumentation</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#systematic-errors">Systematic Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#systematic-errors">Systematic Errors</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-systematic-errors">Examples of Systematic Errors</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#difference-between-experimental-and-expected-values">Difference Between Experimental and Expected Values</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#difference-between-experimental-and-expected-values">Difference Between Experimental and Expected Values</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-difference">Example of % Difference</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#propagation-of-systematic-errors-through-1-brute-force-2-calculus">Propagation of Systematic Errors through 1. Brute Force &amp; 2. Calculus</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-a-single-direct-measurement-sphere">Calculation from a Single, Direct Measurement (Sphere)</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#propagation-of-systematic-errors-through-1-brute-force-2-calculus">Propagation of Systematic Errors through 1. Brute Force &amp; 2. Calculus</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-a-single-direct-measurement-sphere">Calculation from a Single, Direct Measurement (Sphere)</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-brute-force-method">1. Direct, brute-force method</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#method-based-on-calculus">2. Method based on calculus</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-two-or-more-direct-measurements-cylinder">Calculation from Two or More Direct Measurements (Cylinder)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-two-or-more-direct-measurements-cylinder">Calculation from Two or More Direct Measurements (Cylinder)</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">1. Direct, brute-force method</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">2. Method based on calculus</a></li>
 </ul>
@@ -855,9 +803,9 @@ V = \frac{1}{6} \pi D^3
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#significant-figures">Significant Figures</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#significant-figures">Significant Figures</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rules-for-significant-figures">Rules for Significant Figures</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-addition-multiplication">Examples — Addition &amp; Multiplication</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-addition-multiplication">Examples — Addition &amp; Multiplication</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#addition">Addition</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#multiplication">Multiplication</a></li>
 </ul>
@@ -866,31 +814,31 @@ V = \frac{1}{6} \pi D^3
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-analysis-procedure">Error Analysis Procedure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-errors">Types of Errors</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-propagation-of-measurement-uncertainties">Error Propagation of Measurement Uncertainties</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#error-propagation-of-measurement-uncertainties">Error Propagation of Measurement Uncertainties</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-error-propagation-density-of-a-block">Example: Error Propagation — Density of a Block</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#random-errors">Random Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#random-errors">Random Errors</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mean-standard-deviation-standard-error">Mean, Standard Deviation, Standard Error</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-average-pm-standard-error">Example of Average <span class="math notranslate nohighlight">\(\pm\)</span> Standard Error</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#estimation-through-variation-or-instrumentation">Estimation through Variation or Instrumentation</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#systematic-errors">Systematic Errors</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#systematic-errors">Systematic Errors</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-systematic-errors">Examples of Systematic Errors</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#difference-between-experimental-and-expected-values">Difference Between Experimental and Expected Values</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#difference-between-experimental-and-expected-values">Difference Between Experimental and Expected Values</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-difference">Example of % Difference</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#propagation-of-systematic-errors-through-1-brute-force-2-calculus">Propagation of Systematic Errors through 1. Brute Force &amp; 2. Calculus</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-a-single-direct-measurement-sphere">Calculation from a Single, Direct Measurement (Sphere)</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#propagation-of-systematic-errors-through-1-brute-force-2-calculus">Propagation of Systematic Errors through 1. Brute Force &amp; 2. Calculus</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-a-single-direct-measurement-sphere">Calculation from a Single, Direct Measurement (Sphere)</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-brute-force-method">1. Direct, brute-force method</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#method-based-on-calculus">2. Method based on calculus</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-two-or-more-direct-measurements-cylinder">Calculation from Two or More Direct Measurements (Cylinder)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#calculation-from-two-or-more-direct-measurements-cylinder">Calculation from Two or More Direct Measurements (Cylinder)</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">1. Direct, brute-force method</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">2. Method based on calculus</a></li>
 </ul>
