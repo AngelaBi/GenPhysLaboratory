@@ -267,15 +267,17 @@ The apparatus has been carefully adjusted before your lab and should not require
   <figcaption>Demonstration video. Reviews overall setup and procedure. *No audio*</figcaption>
 </div>
 
+
 If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=2GMHmCrCKLQ" target="_blank" rel="noopener noreferrer">
 https://www.youtube.com/watch?v=2GMHmCrCKLQ
 </a>
 
 
+
 ## Experimental Procedure
 
 
-### ● Procedure Preview
+### ● Preview
 
 ```{danger}
 **⚠️⚠️⚠️⚠️ DO NOT TOUCH THE METAL PLATES ⚠️⚠️⚠️⚠️**
@@ -504,7 +506,7 @@ Safety: regarding electricity and the plates touching.
 12. Check if all the values are reasonably consistent. Retake any data that are clearly erroneous and recalculate.
 
 
-### ● Experimental Data Analysis
+### ● Data Analysis
 
 13. Calculate your average values from everyone's trials (ignoring the $50\,\text{mg}$ trials):
     - Average experimental value $\varepsilon_{0\text{,experimental-average}}$
@@ -577,7 +579,7 @@ Safety: regarding electricity and the plates touching.
     !!!!! CUT OUT DOING THE Y-INTERCEPT ~~~~~!!!!!!!!!!
 --->
 
-15. Create a summary table of your data (e.g. average and slope-derived values with their uncertainties, difference between experimental and accepted value)
+15. Create a summary table of your data (e.g. average and slope-derived values with their uncertainties, difference between experimental and accepted value).
 
 16. When you are finished, reset your experimental setup before leaving.
 

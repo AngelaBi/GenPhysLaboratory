@@ -91,6 +91,7 @@ Schedule for PHYS 1145L
 ```{figure} ScheduleFigures/2026_Spring_LabSchedulePrintout_1146L_ONLY_v1.jpg
 :name: schedulePHYS1146L
 :width: 100%
+:class: full-height
 :align: center
 Schedule for PHYS 1146L
 ```
