@@ -89,6 +89,7 @@ Schedule for PHYS 1171L
 ```{figure} ScheduleFigures/2026_Spring_LabSchedulePrintout_1172L_ONLY_v1.jpg
 :name: schedulePHYS1172L
 :width: 100%
+:class: full-height
 :align: center
 Schedule for PHYS 1172L
 ```
