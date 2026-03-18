@@ -234,6 +234,7 @@ Please email and include (note, all the emails below end with ***@fairfield.edu*
 ```{figure} ScheduleFigures/2026_Spring_LabSchedulePrintoutTimes_1146L_1172L_v2.jpg
 :name: schedule
 :width: 100%
+:class: full-height
 :align: center
 Printed lab schedule by section for PHYS 1146L & 1172L. Included are the instructors' email addresses.
 ```

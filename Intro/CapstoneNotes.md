@@ -27,6 +27,8 @@ Autoscale axes tool.
 (capstone-curve-fitting-procedures-01)=
 ## Curve Fitting Procedure
 
+### ● Apply the Fit
+
 ```{figure} ../Intro/CapstoneFigures/FigCapstone_050_ApplyFit_v01.png
 :name: CapstoneExampleFig02
 :width: 100%
@@ -35,13 +37,18 @@ Autoscale axes tool.
 Capstone process for applying fits to plotted data.
 ```
 
+### ● Set Y-intercept to Zero if Needed
+
+
 ```{figure} ../Intro/CapstoneFigures/FigCapstone_051_YIntToZero_v01.png
 :name: CapstoneExampleFig02_YIntZero
 :width: 100%
 :align: center
 
-Capstone process for updating the y-intercept of a linear fit.
+Capstone process for updating the y-intercept of a linear fit. Bottom) The fit tool can be both enabled/disabled by clicking the main area of the button. Then, the little black arrow provides a dropdown menu with many fit options you from which you can choose.
 ```
+
+### ● Change Sig. Figs. if Needed
 
 ```{figure} ../Intro/CapstoneFigures/FigCapstone_052_IncreaseSigFigs_v01.png
 :name: CapstoneExampleFig02_SigFigs
