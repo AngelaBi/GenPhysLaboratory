@@ -80,7 +80,7 @@ By measuring the force between two such conductors, the value of $\mu_0$ can be 
 Apparatus dimensions from a top-down perspective, similar to the apparatus setup from {ref}`Electric Force & the Determination of ε₀ <electric-force-and-epsilon-overall>`.
 ```
 
-As before, similar to the setup and measurement methods from the {ref}`Electric Force & ε₀ Lab <electric-force-and-epsilon-overall>`, an optical lever, telescope and scale are used to observe the deflection of the balance, which carries the movable, upper conductor. The magnitude of the magnetic force can be measured when the magnetic force has restored the loaded system to its original position. In this case we make the same magnitude current flow in opposite directions in the two conductors so the force between the two conductors is repulsive. Thus on the upper conductor, there is a gravitational force down (the weight of the added mass) and a magnetic force upward which we will adjust by controlling the current equal to the gravitational force. More conveniently than the electric force version of the balance beam, this equilibrium is stable!
+As before, similar to the setup and measurement methods from the {ref}`Electric Force & ε₀ Lab <electric-force-and-epsilon-overall>`, an optical lever, telescope and scale are used to observe the deflection of the balance, which carries the movable, upper conductor. The magnitude of the magnetic force can be measured when the magnetic force has restored the loaded system to its original position. In this case we make the same magnitude current flow in opposite directions in the two conductors so the force between the two conductors is repulsive. Thus on the upper conductor, there is a gravitational force down (the weight of the applied mass) and a magnetic force upward which we will adjust by controlling the current equal to the gravitational force. More conveniently than the electric force version of the balance beam, this equilibrium is stable!
 
 With the required balancing current determined along with the other dimensions of the apparatus, we can now determine the value of $\mu_0$.
 
@@ -261,7 +261,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
 (restart_step_for_mu0)=
 4. In order to measure the equilibrium separation distance, $d_\text{center-to-center}$, of the conductors, two readings are made.
 
-    - The first is the scale reading, $S_0$, at the equilibrium position, i.e. when no mass has been added to the pan on the movable conductor.
+    - The first is the scale reading, $S_0$, at the equilibrium position, i.e. when no mass has been applied to the pan on the movable conductor.
     - The second scale reading, $S_1$, is made when the top conductor contacts the lower conductor ({numref}`fig-measurement-apparatus`). Place a sufficient mass in the pan on the top conductor to make it contact the lower, stationary conductor. Record $S_1$.
       - ⚠️ ***POWER MUST BE OFF FOR THIS STEP*** ⚠️
       - You will periodically verify that $S_0$ and $S_1$ are not changed throughout the experiment.
@@ -272,7 +272,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
       - Trial number
       - Lab member's initials (person looking through telescope)
       - $m_{\text{applied}}$: Applied mass
-      - $F_B$: Applied magnetic force
+      - $F_B$: Applied magnetic force **What does this** ***equal?***
       - $I_\text{min}$: Minimum current $I$ required to return to the equilibrium position
       - $I_\text{max}$: Maximum current $I$ required to return to the equilibrium position
       - $I$: Current $I$ required to return to the equilibrium position
@@ -307,7 +307,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
     Why do we have the power off for the 0 mg trials, but not the other masses?
     ```
 
-7. Determine current $I$ required to balance the weight of the added mass and return to equilibrium by finding a current range. **Make sure the transformer setting is zero before turning on the power.** Turn on 🟢 the power supply and slowly increase the current until the bars return to parallel (i.e. crosshair in telescope back to $S_0$, as it was with no applied mass on the top). Determine this by having an observer watching the scale reading with the telescope during this process. The telescope observer should be calling out instructions to the power supply operator to slowly approach the $S_0$ value.
+7. Calculate $F_B$ (*hint: what does this equal?*) and determine current $I$ required to balance the weight of the applied mass and return to equilibrium by finding a current range. **Make sure the transformer setting is zero before turning on the power.** Turn on 🟢 the power supply and slowly increase the current until the bars return to parallel (i.e. crosshair in telescope back to $S_0$, as it was with no applied mass on the top). Determine this by having an observer watching the scale reading with the telescope during this process. The telescope observer should be calling out instructions to the power supply operator to slowly approach the $S_0$ value.
     - When the $S_0$ value is approximately reached, call out to the power supply operator.
     - Power supply operator shall decrease the current *until the telescope observer is no longer confident* the crosshair is at the $S_0$ position, at which point the telescope observer shall call for a minimum current reading from the multimeter and record the lower end of the range of current $I_\text{min}$.
     - Power supply operator shall then increase the current *until the telescope observer is no longer confident* the crosshair is at the $S_0$ position, at which point the telescope observer shall call for a maximum current reading from the multimeter and record the upper end of the range of current $I_\text{max}$.
@@ -342,7 +342,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
 
 11. Calculate your average values from everyone's trials (ignoring those that give a divide-by-zero error):
     - Average experimental value $\mu_{0\text{,experimental,avg}}$
-    - Average experimental uncertainty $\delta\mu_{0\text{,experimental,avg}}$
+    - Average experimental uncertainty $\delta \mu_{0\text{,experimental,avg}}$
     - $\overline{\Delta \mu_{0\text{,experimental vs. accepted}}}$, the average difference between experimental and accepted $\mu_0$
 
 
@@ -366,15 +366,15 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
 
     Using **all** of your data points from **all rounds and trials**, including those at equilibrium ($0\,\text{mg}$) that you should have ignored earlier when you calculated $\mu_0$ for each individual trial and the overall average:
 
-    A) ***SCATTER PLOT 1*** --- $F_B$ vs. $I^{2}$ (i.e. $F_B$ as ordinate ($y$) and $I^{2}$ as abscissa ($x$)). Fit a trend line through the all these points, display the trendline equation on the chart, and confirm the slope of the line $k$ matches what you found with the `LINEST()` function (for review, see {ref}`data-acquisition-plotting-in-excel`). From {eq}`eq-parallel-conductor-force` and {eq}`eq-force-current-squared`, the value of $k$ is given by {eq}`eq-slope-constant`.
+    A) ***SCATTER PLOT 1*** --- $F_B$ vs. $I^{2}$ (i.e. $F_B$ as ordinate ($y$) and $I^{2}$ as abscissa ($x$)). Fit a trend line through the all these points, display the trendline equation on the chart, and confirm the slope of the line $k$ matches what you found with the `LINEST()` function (for review, see {ref}`data-acquisition-plotting-in-excel`). From {eq}`eq-parallel-conductor-force` and {eq}`eq-force-current-squared`, the slope value of $k$ is given by {eq}`eq-slope-constant`.
 
       ```{math}
       :label: eq-slope-constant
-      k=\frac{\mu_0}{2\pi}\frac{L}{d_\text{center-to-center}}
+      k=\frac{\mu_{0\text{,slope-derived}}}{2\pi}\frac{L}{d_\text{center-to-center}}
       ```
 
       - Calculate the plotting or slope-derived $\mu_{0\text{,slope-derived}}$ by rearranging {eq}`eq-slope-constant` and using this experimentally determined value $k$.
-      - Similar to earlier, calculate $\delta\,\mu_{0\text{,slope-derived}}$ by maximizing by the slope uncertainty (output from the `LINEST()` function), and subsequently taking the difference: $\delta\,\mu_{0\text{,slope-derived}} = \mu_{0\text{,slope-derived,max}} - \mu_{0\text{,slope-derived}}$
+      - Similar to earlier, calculate $\delta \mu_{0\text{,slope-derived}}$ by maximizing by the slope uncertainty (output from the `LINEST()` function), and subsequently taking the difference: $\delta \mu_{0\text{,slope-derived}} = \mu_{0\text{,slope-derived,max}} - \mu_{0\text{,slope-derived}}$
       - Also calculate the difference between the slope-derived and accepted permeability of free space values to quickly compare whether your results agree with the accepted value.
 
     B) ***SCATTER PLOT 2*** --- $F_B$ vs. $I$. Fit a quadratic (a.k.a. polynomial order of 2) trend line, and display the equation.
@@ -396,7 +396,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
 
     ```{math}
     :label: eq-speed-of-light_uncertainty
-    \delta c = \sqrt{\frac{1}{(\overline{\varepsilon_0}-\delta\varepsilon_0) \times (\delta\,\mu_{0\text{,slope-derived}} - \delta\,\mu_{0\text{,slope-derived}})}} - c
+    \delta c = \sqrt{\frac{1}{(\overline{\varepsilon_0}-\delta \varepsilon_0) \times (\mu_{0\text{,slope-derived}} - \delta \mu_{0\text{,slope-derived}})}} - c
     ```
 
 ### ● Summary and Cleanup
