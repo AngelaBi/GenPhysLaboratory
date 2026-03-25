@@ -775,7 +775,7 @@ d_\text{center-to-center}=\frac{D a}{2 b}+2r_\text{conductor}
 <span class="eqno">(140)<a class="headerlink" href="#equation-eq-slope-constant" title="Permalink to this equation">#</a></span>\[k=\frac{\mu_{0\text{,slope-derived}}}{2\pi}\frac{L}{d_\text{center-to-center}}\]</div>
 <ul class="simple">
 <li><p>Calculate the plotting or slope-derived <span class="math notranslate nohighlight">\(\mu_{0\text{,slope-derived}}\)</span> by rearranging <a class="reference internal" href="#equation-eq-slope-constant">(140)</a> and using this experimentally determined value <span class="math notranslate nohighlight">\(k\)</span>.</p></li>
-<li><p>Similar to earlier, calculate <span class="math notranslate nohighlight">\(\delta \mu_{0\text{,slope-derived}}\)</span> by maximizing by the slope uncertainty (output from the <code class="docutils literal notranslate"><span class="pre">LINEST()</span></code> function), and subsequently taking the difference: <span class="math notranslate nohighlight">\(\delta \mu_{0\text{,slope-derived}} = \mu_{0\text{,slope-derived,max}} - \mu_{0\text{,slope-derived}}\)</span></p></li>
+<li><p>Similar to earlier, calculate <span class="math notranslate nohighlight">\(\delta \mu_{0\text{,slope-derived}}\)</span> by maximizing by the slope uncertainty (output from the <code class="docutils literal notranslate"><span class="pre">LINEST()</span></code> function, <a class="reference internal" href="../Intro/DataAcquisition.html#data-acquisition-plotting-in-excel"><span class="std std-ref">Plotting in Excel</span></a>), and subsequently taking the difference: <span class="math notranslate nohighlight">\(\delta \mu_{0\text{,slope-derived}} = \mu_{0\text{,slope-derived,max}} - \mu_{0\text{,slope-derived}}\)</span></p></li>
 <li><p>Also calculate the difference between the slope-derived and accepted permeability of free space values to quickly compare whether your results agree with the accepted value.</p></li>
 </ul>
 <p>B) <em><strong>SCATTER PLOT 2</strong></em> — <span class="math notranslate nohighlight">\(F_B\)</span> vs. <span class="math notranslate nohighlight">\(I\)</span>. Fit a quadratic (a.k.a. polynomial order of 2) trend line, and display the equation.</p>
@@ -794,17 +794,32 @@ d_\text{center-to-center}=\frac{D a}{2 b}+2r_\text{conductor}
 <h4>○ Speed of Light<a class="headerlink" href="#speed-of-light" title="Permalink to this heading">#</a></h4>
 <ol class="arabic" start="14">
 <li><p>Using the average of your group’s experimentally-determined <strong>plotting-derived</strong> values of the electric constant (<span class="math notranslate nohighlight">\(\overline \varepsilon_0\)</span>) from the <a class="reference internal" href="Eps0.html#electric-force-and-epsilon-overall"><span class="std std-ref">Electric Force &amp; ε₀ Lab</span></a>, and the <strong>plotting-derived</strong> value of <span class="math notranslate nohighlight">\(\mu_{0\text{,slope-derived}}\)</span> determined above, calculate your estimate for the speed of light <span class="math notranslate nohighlight">\(c\)</span> with <a class="reference internal" href="#equation-eq-speed-of-light">(133)</a>.</p>
-<ul class="simple">
-<li><p>As should be in your common data table, and if not yet completed, average the group members’ plotting-derived values of the electric constant (<span class="math notranslate nohighlight">\(\overline \varepsilon_0\)</span>), and use the standard deviation <span class="math notranslate nohighlight">\(\sigma \varepsilon_0\)</span> of your groups’ values as its uncertainty.</p>
 <ul>
+<li><p>As should be in your common data table, and if not yet completed, average the group members’ plotting-derived values of the electric constant (<span class="math notranslate nohighlight">\(\overline \varepsilon_0\)</span>), and use the standard deviation <span class="math notranslate nohighlight">\(\sigma \varepsilon_0\)</span> of your groups’ values as its uncertainty.</p>
+<ul class="simple">
 <li><p><em>If you are completing the lab individually</em>, use your single plotting-derived <span class="math notranslate nohighlight">\(\varepsilon_0\)</span> and its associated uncertainty <span class="math notranslate nohighlight">\(\delta \varepsilon_0\)</span></p></li>
 </ul>
+<div class="note admonition">
+<p class="admonition-title">Discussion Point: Reasonable <span class="math notranslate nohighlight">\(\varepsilon_0\)</span>?</p>
+<ul class="simple">
+<li><p>If facing the following situation: One or some of your lab member’s <span class="math notranslate nohighlight">\(\varepsilon_0\)</span> values are 2 or more orders of magnitude away from <span class="math notranslate nohighlight">\(\varepsilon_{0\,\text{,accepted}} \sim 10^{-12}\)</span></p>
+<ul>
+<li><p>i.e. <span class="math notranslate nohighlight">\(\ge 10^{-10}\,\text{or} \le 10^{-14}\)</span></p></li>
+</ul>
+</li>
+<li><p>You may consider: Omitting those less reasonable <span class="math notranslate nohighlight">\(\varepsilon_0\)</span> values from the average <span class="math notranslate nohighlight">\(\overline\varepsilon_0\)</span> value.</p>
+<ul>
+<li><p>HOWEVER, still include the omitted values in your common data table, and discuss why you may not have used them.</p></li>
+</ul>
+</li>
+</ul>
+</div>
 </li>
 </ul>
 </li>
-<li><p>Estimate your uncertainty in <span class="math notranslate nohighlight">\(c\)</span> by maximizing and taking the difference. Reminder, for <span class="math notranslate nohighlight">\(\delta \mu_0\)</span> from today’s error propagation, and <span class="math notranslate nohighlight">\(\delta \varepsilon_0 = \sigma \varepsilon_0\)</span>:</p>
+<li><p>Estimate your uncertainty in <span class="math notranslate nohighlight">\(c\)</span> by <em>MINIMIZING</em> and taking the difference. Reminder, for <span class="math notranslate nohighlight">\(\delta \mu_0\)</span> from today’s error propagation, and <span class="math notranslate nohighlight">\(\delta \varepsilon_0 = \sigma \varepsilon_0\)</span>. (Note: we’re minimizing instead of maximizing since there would be a chance of taking the square root of a negative number):</p>
 <div class="math notranslate nohighlight" id="equation-eq-speed-of-light-uncertainty">
-<span class="eqno">(141)<a class="headerlink" href="#equation-eq-speed-of-light-uncertainty" title="Permalink to this equation">#</a></span>\[\delta c = \sqrt{\frac{1}{(\overline{\varepsilon_0}-\delta \varepsilon_0) \times (\mu_{0\text{,slope-derived}} - \delta \mu_{0\text{,slope-derived}})}} - c\]</div>
+<span class="eqno">(141)<a class="headerlink" href="#equation-eq-speed-of-light-uncertainty" title="Permalink to this equation">#</a></span>\[\delta c = c - \sqrt{\frac{1}{(\overline{\varepsilon_0}+\delta \varepsilon_0) \times (\mu_{0\text{,slope-derived}} + \delta \mu_{0\text{,slope-derived}})}}\]</div>
 </li>
 </ol>
 </section>

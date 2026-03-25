@@ -374,7 +374,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
       ```
 
       - Calculate the plotting or slope-derived $\mu_{0\text{,slope-derived}}$ by rearranging {eq}`eq-slope-constant` and using this experimentally determined value $k$.
-      - Similar to earlier, calculate $\delta \mu_{0\text{,slope-derived}}$ by maximizing by the slope uncertainty (output from the `LINEST()` function), and subsequently taking the difference: $\delta \mu_{0\text{,slope-derived}} = \mu_{0\text{,slope-derived,max}} - \mu_{0\text{,slope-derived}}$
+      - Similar to earlier, calculate $\delta \mu_{0\text{,slope-derived}}$ by maximizing by the slope uncertainty (output from the `LINEST()` function, {ref}`data-acquisition-plotting-in-excel`), and subsequently taking the difference: $\delta \mu_{0\text{,slope-derived}} = \mu_{0\text{,slope-derived,max}} - \mu_{0\text{,slope-derived}}$
       - Also calculate the difference between the slope-derived and accepted permeability of free space values to quickly compare whether your results agree with the accepted value.
 
     B) ***SCATTER PLOT 2*** --- $F_B$ vs. $I$. Fit a quadratic (a.k.a. polynomial order of 2) trend line, and display the equation.
@@ -392,11 +392,19 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
     - As should be in your common data table, and if not yet completed, average the group members' plotting-derived values of the electric constant ($\overline \varepsilon_0$), and use the standard deviation $\sigma \varepsilon_0$ of your groups' values as its uncertainty.
       - *If you are completing the lab individually*, use your single plotting-derived $\varepsilon_0$ and its associated uncertainty $\delta \varepsilon_0$
 
-15. Estimate your uncertainty in $c$ by maximizing and taking the difference. Reminder, for $\delta \mu_0$ from today's error propagation, and $\delta \varepsilon_0 = \sigma \varepsilon_0$:
+      ```{admonition} Discussion Point: Reasonable $\varepsilon_0$?
+      :class: note
+      - If facing the following situation: One or some of your lab member's $\varepsilon_0$ values are 2 or more orders of magnitude away from $\varepsilon_{0\,\text{,accepted}} \sim 10^{-12}$
+        - i.e. $\ge 10^{-10}\,\text{or} \le 10^{-14}$
+      - You may consider: Omitting those less reasonable $\varepsilon_0$ values from the average $\overline\varepsilon_0$ value.
+        - HOWEVER, still include the omitted values in your common data table, and discuss why you may not have used them.
+      ```
+
+15. Estimate your uncertainty in $c$ by *MINIMIZING* and taking the difference. Reminder, for $\delta \mu_0$ from today's error propagation, and $\delta \varepsilon_0 = \sigma \varepsilon_0$. (Note: we're minimizing instead of maximizing since there would be a chance of taking the square root of a negative number):
 
     ```{math}
     :label: eq-speed-of-light_uncertainty
-    \delta c = \sqrt{\frac{1}{(\overline{\varepsilon_0}-\delta \varepsilon_0) \times (\mu_{0\text{,slope-derived}} - \delta \mu_{0\text{,slope-derived}})}} - c
+    \delta c = c - \sqrt{\frac{1}{(\overline{\varepsilon_0}+\delta \varepsilon_0) \times (\mu_{0\text{,slope-derived}} + \delta \mu_{0\text{,slope-derived}})}}
     ```
 
 ### ● Summary and Cleanup
