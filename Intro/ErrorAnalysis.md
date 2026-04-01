@@ -264,6 +264,7 @@ Report these sources of error as **Vernier caliper error** or **reaction time er
 
 ---
 
+(errorAnalysis-percentDiff-experimentalExpected)=
 ## Difference Between Experimental and Expected Values
 
 If the true value of a quantity is known, then the systematic error can be estimated as difference between the experimental and expected values. It is important to remember that this is an *estimate of the ***systematic error****. The difference between your experimental value and the expected value is **not** *an estimate of the random experimental error*. 
