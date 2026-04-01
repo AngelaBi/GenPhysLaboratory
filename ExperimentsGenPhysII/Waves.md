@@ -74,7 +74,7 @@ In this experiment, one end of a horizontal cord is attached to the string vibra
 
 4. Tie one end of the cord to the vibrating blade, run it over the pulley, and hang a total of 250 g from it using a mass hanger and the appropriate masses. Turn on the Sine Wave Generator and set the Amplitude knob about midway. Use the Coarse (1.0 Hz increments) and Fine (0.1 Hz increments) Frequency knobs of the Sine Wave Generator to adjust the vibrations so that the the cord vibrates in one segment. This first harmonic is achieved when the cord is vibrating at what is known as the fundamental frequency. Adjust the driving amplitude and frequency to obtain a large-amplitude wave that vibrates smoothly. Check vibration near the vibrating blade. Ideally, the point where the cord attaches should be a node, but you will find that the apparent position of the node is somewhere past where the cord attaches. Measure the distance between nodes and calculate the wavelength. For the first harmonic you need to estimate the position of the node near the blade. For higher harmonics, you can avoid the node near the blade and only use nodes at the pulley and along the string. What's your estimated uncertainty in the length measurement; more or less accurate when measuring across single or multiple nodes?
 
-5. Record the frequency. How much uncertainty is there in this value? Slightly vary the frequency and note how much you can increase or decrease the frequency before you see an effect.
+5. Record the frequency. (MIN AND MAX TO FIND RANGE AND USE AVERAGE OF THE TWO FREQUENCIES). How much uncertainty is there in this value? Slightly vary the frequency and note how much you can increase or decrease the frequency before you see an effect.
 
 6. Raise the frequency to resonate at the second harmonic. The cord should vibrate with a node at each end and one node in the center. Again measure the frequency and the distance between nodes.
 
@@ -84,7 +84,7 @@ In this experiment, one end of a horizontal cord is attached to the string vibra
 
 9. Compute the velocity $v=f \lambda$ for each resonant frequency (trial); how do they compare to each other?
 
-10. Calculate the average and standard deviation of the propagation velocity $v$ and compare your avg. ± std. dev. with the theoretical velocity calculated from the tension and the linear density in {eq}`eq-wave-velocity`.
+10. USE UNCERTAINTY PROPAGATION Calculate the average and standard deviation of the propagation velocity $v$ and compare your avg. ± std. dev. with the theoretical velocity calculated from the tension and the linear density in {eq}`eq-wave-velocity`.
 
 11. Plot wavelength $\lambda$ vs. the inverse of the frequency $1/f$ and use the slope to determine the propagation velocity. Also consider the uncertainty in the slope. Does your plot-derived propagation velocity agree with the theoretical velocity as calculated in the previous step? Your plot will be represented by the reorganization of {eq}`eq-wave-frequency`:
 
@@ -101,22 +101,33 @@ In this experiment, one end of a horizontal cord is attached to the string vibra
 
 
 
+
+
+
 ## Post-Lab Submission --- Interpretation of Results
 
-- Make sure to submit your finalized data sheet with summarized data and cleaned-up plots (Excel sheet)
-- Paragraph of your results +/- uncertainties from your data. Make sure to include discussion of the following:
+### ● Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+  - Please include concise summary table.
+  - Please include plot:
+    - One plot with all four cases on it with their own trendlines: $\lamda$ vs $1/f$
+
+
+
+### ● Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - What is the precision of your equipment?
+  - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
+  - What are your measurement uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?
+
+
+- In a **paragraph**, summarize the results you have determined for all cases. Consider:
+  - What was the point of today's lab; what did we aim to discover?
   - For each of the four cases, give the theoretical velocity from {eq}`eq-wave-velocity`, the average and standard deviation of your results using {eq}`eq-wave-frequency`, and your value from the slope in Step 11.
   - Do the velocities of propagation found by two methods (average values from each case, plot fitting) agree with the expected values? Of the two methods, which would you trust more and why; was there a physical or statistical reason?
   - How is the velocity of propagation dependent on the tension in the string and density of the cord; when the experiment was done with a lighter weight cord, why would the string vibrator have to be run faster for each measurement condition?
-- Paragraph of your errors and estimated measurement uncertainties. Be quantitative. Make sure to include discussion of the following:
-  - Where might systematic (affecting accuracy) and/or random (affecting precision) errors be coming from?
-  - What are your measured uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?
-  - Change different variables by your best estimation of measurement uncertainties in your Excel sheet; what variables affect the accuracy of your final results the most?
-  - If larger or small, are they more or less accurate to expected values?
-  - How could you improve your random errors or make your measurements more accurate?
-  - Were your systematic errors significant; how could this be improved if you were to re-run this experiment?
-- Reflect on this week's lab; what did you learn?
-
 
 
 
