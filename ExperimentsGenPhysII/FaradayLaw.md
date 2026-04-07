@@ -195,24 +195,24 @@ Left) Coil wand with resistor and an example of the center of mass line and mass
 :class: note
 Run Part I for ***both 1.5 cm*** and ***3.0 cm*** magnetic plate spacing.
 - Part I.1: Magnetic Field
-  - Experimentally determine the maximum magnetic field strength of the horseshoe magnet through where the induction wand's coil passes when swung.
+  - Experimentally determine the **maximum magnetic field strength** of the horseshoe magnet through where the induction wand's coil passes when swung.
 - Part I.2: EMF (Induced Voltage)
-  - Experimentally determine average EMF and magnetic flux of a single coil for when the wand swings through the magnetic field; use first peak; compare to expected value.
-  - ● PLOT 1 of 2 ●: photo/screenshot of Capstone's Voltage vs. Time and related Angle vs. Time for one full swing (out and back) for just one of the 1.5 cm or 3.0 cm cases.
+  - Experimentally determine **average EMF** and **magnetic flux of a single coil** for when the wand swings through the magnetic field; use first peak; compare to expected value.
+  - ● **PLOT** 1 of 2 ●: **photo/screenshot of Capstone's Voltage vs. Time and related Angle vs. Time for one full swing** (out and back) for just one of the 1.5 cm or 3.0 cm cases.
 - Part I.3: Lenz's Law
-  - Discuss & consider Lenz's Law: Conceptual analysis for discussion in post-labs based on the existing plots
+  - **Discuss & consider Lenz's Law**: Conceptual analysis for discussion in post-labs based on the existing plots
 
 Run Part II for narrow magnet spacing with magnetic plates **removed**.
   - Part II.1: Energy Conservation by parts
-    - Determine total energy loss by measuring change in energy of each individual part of the system
-      - Part II.1.A.: Energy lost to just friction using change in gravitational potential energy
+    - Determine total energy loss by measuring **change in energy of each individual part** of the system
+      - Part II.1.A.: Energy lost to just **friction** using change in *gravitational potential energy (angles)*
         - Use Angle vs. Time plot and swing **without** resistor
-      - Part II.1.B.: Energy lost to just circuitry (resistor dissipation)
+      - Part II.1.B.: Energy lost to just **resistor dissipation** using *power vs. time (power)*
         - Use area under curve of Power vs. Time and swing **with resistor plugged in** to see amount of energy dissipated as heat by the resistor
         - ● PLOT 2 of 2 ●: photo/screenshot of Capstone's Power vs. Time and related Angle vs. Time for one full swing (out and back).
   - Part II.2 Energy Conservation on the whole
-    - Determine total energy loss by measuring change in energy of the whole system
-      - Total energy lost (combination of friction and circuitry) using change in gravitational potential energy
+    - Determine total energy loss by measuring **change in energy of the whole system**
+      - Total energy lost (combination of friction and circuitry) using change in *gravitational potential energy (angles)*
         - Use same Angle vs. Time plot from Part II.1.B (**with resistor plugged in**)
   - Compare Part II.1 sum of parts to Part II.2 total energy lost to friction and circuitry (resistor dissipation)
 ```
