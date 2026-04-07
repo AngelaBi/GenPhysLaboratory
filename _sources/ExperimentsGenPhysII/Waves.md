@@ -3,10 +3,15 @@
 
 ## Background
 
-### Overall goals and overview
+### ● Overall goals and overview
 
-- Understand wave propagation through a medium by investigating the relationship between wave frequency and wavelength using strings.
-- In this experiment, you will vary the frequency of the sine wave generator until you achieve standing waves. You will then measure wavelengths of vibrations at those frequencies for four cases of string/tension combinations: two different density strings at two different tensions. You will then determine the propagation velocity of the waves through the different mediums.
+```{admonition} OVERALL GOALS
+:class: note
+Use a vibrating string to:
+- Investigate wave propagation through a medium
+- Understand the relationship between wave frequency and wavelength
+```
+
 
 The general equation for the velocity of propagation of waves in a medium of continuously distributed stiffness and inertia is given by a formula of the form
 
@@ -30,9 +35,48 @@ v=\lambda f
 ```
 A standing wave is produced when two identical waves travel in opposite directions in the same medium. The two waves interfere with each other forming a pattern of vibration that is stationary along the direction of propagation.
 
-For our case, a wave is generated at one end of a cord by a string vibrator that moves the cord up and down at a measurable frequency. This wave travels down the cord to the other end and reflects back towards the source. As the wave reflects back and forth, augmented by the string vibrator at one end, the oppositely traveling waves interfere to produce a 'standing-wave' pattern of vibration. It can be shown that certain points of this pattern never move. They are called nodes. Thus in order for a standing wave pattern to be produced on a cord that is effectively tied at both ends and cannot move, the pattern that is established must, at the very least, have nodes at each end.
 
-It can also be shown that the spacing of nodes is $\lambda$/2. Since the propagation velocity is only a function of the physical properties of the cord, the wavelength can be adjusted by selecting the appropriate frequencies of vibration that satisfy the condition of 'nodes at least at the ends'. Since the length of the cord must be such that nodes exist at each end, the length of the cord, tied at each end, must be an integral number of $\lambda$/2 and the allowable frequencies of vibration of the cord are integral multiples of each other. They are said to be harmonically related.
+```{figure} WavesFigures/waves_2025_Spring_01_v03.jpg
+:name: waves_harmonics_illustration
+:width: 100%
+:align: center
+
+Illustration of 1st through 6th harmonics with their nodes/antinodes.
+```
+
+
+For our case, a wave is generated at one end of a cord by a string vibrator that moves the cord up and down at a measurable frequency. This wave travels down the cord to the other end and reflects back towards the source. As the wave reflects back and forth, augmented by the string vibrator at one end, the oppositely traveling waves interfere to produce a 'standing-wave' pattern of vibration. It can be shown that certain points of this pattern never move. They are called nodes (see {numref}`waves_harmonics_illustration`). Thus in order for a standing wave pattern to be produced on a cord that is effectively tied at both ends and cannot move, the pattern that is established must, at the very least, have nodes at each end (see fundamental in {ref}`demo-video-1-wavemotion-highspeed`).
+
+
+(demo-video-1-wavemotion-highspeed)=
+#### ○ Example Video: Waves on a String
+
+<div style="text-align: center;">
+  <iframe
+    width="80%"
+    height="315"
+    src="https://www.youtube.com/embed/fQfNq8tJp3s"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Demonstration video, examples of 1st, 2nd, 3rd harmonics. *No audio*</figcaption>
+</div>
+
+If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=fQfNq8tJp3s" target="_blank" rel="noopener noreferrer">
+https://www.youtube.com/watch?v=fQfNq8tJp3s
+</a>
+
+
+
+
+It can also be shown that the spacing of nodes is $\lambda$/2. Since the propagation velocity is only a function of the physical properties of the cord, the wavelength can be adjusted by selecting the appropriate frequencies of vibration that satisfy the condition of 'nodes at least at the ends'. Since the length of the cord must be such that nodes exist at each end, the length of the cord, tied at each end, must be an integral number of $\lambda$/2 and the allowable frequencies of vibration of the cord are integral multiples of each other. They are said to be harmonically related (see {numref}`waves_harmonics_illustration`).
+
+
+
+In this experiment, similar to that seen in {ref}`demo-video-1-wavemotion-highspeed`, one end of a horizontal cord is attached to the string vibrator (see {numref}`fig-string-vibrator`) and the other end, after passing over a pulley, is attached to a hanging mass. We can adjust the amplitude and the frequency of the wave by adjusting the output of the sine wave generator, which powers the string vibrator. The tension is determined by the weight of the hanging mass. Therefore for a given tension and linear density, the frequency can be adjusted and measured for a standing wave condition. A measurement of node spacing establishes the wavelength. With the frequency and wavelength measured, the velocity can be determined from {eq}`eq-wave-frequency`. From a measurement of the linear density of the cord and the tension in the cord, we can independently determine the velocity from {eq}`eq-wave-velocity`. The two independently determined values of velocity of propagation can be compared.
 
 ```{figure} WavesFigures/DSC_6675.jpg
 :name: fig-string-vibrator
@@ -43,10 +87,10 @@ It can also be shown that the spacing of nodes is $\lambda$/2. Since the propaga
 Setup with sine wave generator and string vibrator.
 ```
 
-In this experiment, one end of a horizontal cord is attached to the string vibrator (see {numref}`Figure {number} <fig-string-vibrator>`) and the other end, after passing over a pulley, is attached to a hanging mass. We can adjust the amplitude and the frequency of the wave by adjusting the output of the sine wave generator, which powers the string vibrator. The tension is determined by the weight of the hanging mass. Therefore for a given tension and linear density, the frequency can be adjusted and measured for a standing wave condition. A measurement of node spacing establishes the wavelength. With the frequency and wavelength measured, the velocity can be determined from {eq}`eq-wave-frequency`. From a measurement of the linear density of the cord and the tension in the cord, we can independently determine the velocity from {eq}`eq-wave-velocity`. The two independently determined values of velocity of propagation can be compared.
 
 
-### Equipment
+
+### ● Equipment
 
 - Sine wave generator. 1 -- 800 Hz with 0.1 Hz resolution. Coarse and fine adjustment knobs for 1 and 0.1 Hz increments. Amplitude knob to change how large the waves are (useful for keeping the string from hitting the table)
 - String vibrator
@@ -56,48 +100,138 @@ In this experiment, one end of a horizontal cord is attached to the string vibra
 - 2 strings of different linear densities (yellow and white, $\sim 1 - 1.5\,\text{m}$ long)
 - Mass hanger with 200 g and 300 g disk masses
 - Low friction pulley to translate the weight of hanging mass to tension in the string
+- PASCO High-Resolution Force Sensor with a resoltuion of 0.002 N or 0.0002 kg.
 
 
 
 
 ## Experimental Procedure
 
-1. Measure the exact length of the cord by untying it completely and gently stretching it along a meter stick. Weigh it on a digital balance to the nearest thousandth of a gram and calculate its linear density (mass per unit length). Create a common data table with values for each cord including cord mass, cord length, and calculated cord linear density, $\mu=m/L$. Include the accepted value of $g$.
+### ● Preview
 
-2. The four cases are the light cord and the heavy cord, each with 250 g and 350 g total mass using the mass hanger (remember to include the mass of the hanger):
-   - Case I -- white cord, 250 g
-   - Case II -- white cord, 350 g
-   - Case III -- yellow cord, 250 g
-   - Case IV -- yellow cord, 350 g
 
-3. Create a common data table for each case with the hanging mass, the tension, the string linear density, and the calculated propagation velocity. Create a data table for the current case with columns for harmonic number ($n = 1, 2, 3, 4, 5,$ and $6$) the measured wavelength $\lambda_n$, the measured frequency $f_n$, the ratio $f_n/f_1$ of the frequency to the fundamental and the velocity $v_n=\lambda_n f_n$.
+   ```{admonition} PROCEDURE OVERVIEW
+   :class: note
+   Investigate wave propagation through a medium for three cases (two different density strings at two different tensions)
+    - Determine expected propagation velocity from linear density and tension measurements
+    - Determine experimental propagation velocity by:
+      - Vary and determine the frequency range of the sine wave generator where you achieve standing waves
+      - Measure wavelength(s) from node to furthest acceptable node
+   ```
 
-4. Tie one end of the cord to the vibrating blade, run it over the pulley, and hang a total of 250 g from it using a mass hanger and the appropriate masses. Turn on the Sine Wave Generator and set the Amplitude knob about midway. Use the Coarse (1.0 Hz increments) and Fine (0.1 Hz increments) Frequency knobs of the Sine Wave Generator to adjust the vibrations so that the the cord vibrates in one segment. This first harmonic is achieved when the cord is vibrating at what is known as the fundamental frequency. Adjust the driving amplitude and frequency to obtain a large-amplitude wave that vibrates smoothly. Check vibration near the vibrating blade. Ideally, the point where the cord attaches should be a node, but you will find that the apparent position of the node is somewhere past where the cord attaches. Measure the distance between nodes and calculate the wavelength. For the first harmonic you need to estimate the position of the node near the blade. For higher harmonics, you can avoid the node near the blade and only use nodes at the pulley and along the string. What's your estimated uncertainty in the length measurement; more or less accurate when measuring across single or multiple nodes?
 
-5. Record the frequency. (MIN AND MAX TO FIND RANGE AND USE AVERAGE OF THE TWO FREQUENCIES). How much uncertainty is there in this value? Slightly vary the frequency and note how much you can increase or decrease the frequency before you see an effect.
 
-6. Raise the frequency to resonate at the second harmonic. The cord should vibrate with a node at each end and one node in the center. Again measure the frequency and the distance between nodes.
+### ● Preliminary Setup & Expected Velocity
 
-7. Repeat the same measurements for the higher harmonics.
+The cases today are as shown in {numref}`waves-cases-table`.
 
-8. Determine the ratio of each frequency to the fundamental frequency, $f_n/f_1$.
+```{table} Experimental Cases
+:name: waves-cases-table
 
-9. Compute the velocity $v=f \lambda$ for each resonant frequency (trial); how do they compare to each other?
+| Case | Cord Type | Total Mass (g) | Harmonics |
+|------|----------|----------------|-----------|
+| I    | White    | 250 | 1 - 6 |
+| II   | White    | 350 | 1 - 6 |
+| III  | Yellow   | 350 | 1 - 6 |
+*Note: Total mass includes<br>the mass hanger (50 g).*
+```
 
-10. USE UNCERTAINTY PROPAGATION Calculate the average and standard deviation of the propagation velocity $v$ and compare your avg. ± std. dev. with the theoretical velocity calculated from the tension and the linear density in {eq}`eq-wave-velocity`.
+1. Create a common data table including necessary info for each case (but not limited to):
+    - Accepted value of $g=9.803\,\text{m/s}$ for Fairfield, CT
+    - cord masses
+    - cord mass uncertainties
+    - cord lengths
+    - cord length uncertainties
+    - calculated cord linear densities
+    - linear density uncertainties
+    - hanging masses
+    - hanging mass uncertainties
+    - tensions
+    - tension uncertainties
+    - expected propagation velocities
+    - expected propagation velocity uncertainties
 
-11. Plot wavelength $\lambda$ vs. the inverse of the frequency $1/f$ and use the slope to determine the propagation velocity. Also consider the uncertainty in the slope. Does your plot-derived propagation velocity agree with the theoretical velocity as calculated in the previous step? Your plot will be represented by the reorganization of {eq}`eq-wave-frequency`:
+2. Measure the length and your estimated uncertainty of each cord by untying them completely and gently stretching them along a meter stick.
+
+3. Weigh each cord using the force sensor as a digital scale with the provided Capstone file (see desktop). Zero sensor, hang string on hook; after values have settled (~5 - 10 seconds), highlight settled region of mass vs. time plot, see data table with associated data points highlighted, record mean and standard deviation (as mass uncertainty) to the nearest thousandth of a gram.
+
+4. Calculate each cord's linear density (mass per unit length, $\mu=m/L$) and uncertainty by maximizing and taking the difference ($\delta\mu= (m+\delta m)/(L - \delta L) - \mu$).
+
+5. Weigh each hanging mass (mass on hanger) and determine its uncertainty similar to how you found cords' masses earlier.
+
+6. Calculate each hanging mass's related tension ($F_T = mg$) and uncertainty by maximizing and taking the difference ($\delta F_T = (m + \delta m) g - F_T$).
+
+7. Calculate each case's expected propagation velocities using {eq}`eq-wave-velocity`, and similarly maximize and take the difference $\delta v=\sqrt{(F_T + \delta F_T) / (\mu - \delta \mu)} - v$
+
+
+(section-waves-experimental-velocity)=
+### ● Experimental Velocity
+
+<!--- 
+5. Create a common data table for each case including (but not limited to):
+    - hanging mass
+    - hanging mass uncertainty
+    - tension
+    - tension uncertainty
+    - string linear density
+    - string linear density uncertainty 
+ 
+--->
+
+8. Create a data table for the current case with rows for each trial (harmonic number $n = 1, 2, 3, 4, 5,$ and $6$) and average propagation velocity and uncertainty; columns for (but not limited to):
+    - measured node-to-furthest-best-node distance
+    - estimated node-to-furthest-best-node distance uncertainty
+    - measured/determined wavelength $\lambda_n$
+    - wavelength uncertainty $\delta \lambda_n$
+    - minimum measured frequency $f_{n\text{,min}}$
+    - maximum measured frequency $f_{n\text{,max}}$
+    - the measured frequency $f_n$
+    - the measured frequency uncertainty $\delta f_n$
+    - the ratio $f_n/f_1$ of the $n$-harmonic's frequency to the fundamental
+    - calculated propagation velocity $v_n=\lambda_n f_n$
+    - calculated propagation velocity uncertainty
+
+9. Tie one end of the cord to the vibrating blade, run it over the pulley, and hang the current case's total mass (slotted mass and hanger). 
+
+10. Create the first-harmonic standing wave: Turn on the Sine Wave Generator and set the Amplitude knob about midway. Use the Coarse (1.0 Hz increments) and Fine (0.1 Hz increments) Frequency knobs of the Sine Wave Generator to adjust the vibrations so that the the cord vibrates in one segment. This first harmonic is achieved when the cord is vibrating at what is known as the fundamental frequency (see fundamental in {numref}`waves_harmonics_illustration`). Adjust the driving amplitude and frequency to obtain a large-amplitude wave that vibrates smoothly. Ensure the cord does not hit the table (***why?***). Check vibration near the vibrating blade. Ideally, the point where the cord attaches should be a node, but you will find that the apparent position of the node is somewhere past where the cord attaches.
+
+11. Determine frequency $f_n \pm \delta f_n$. Slowly lower the frequency. Record $f_{n\text{,min}}$ as the lowest frequency you find while still having a standing wave. Slowly increase the frequency. Record $f_{n\text{,max}}$ as the highest frequency you find while still having a standing wave. Determine the measured frequency as the average of the min and max values $(f_n = (f_{n\text{,max}} + f_{n\text{,min}})/2)$. Determine the frequency's uncertainty as half the range you just found $(\delta f_n = (f_{n\text{,max}} - f_{n\text{,min}})/2)$.
+
+12. Determine the ratio of each frequency to the fundamental frequency, $f_n/f_1$. Does this make sense? What is the expected ratio?
+
+13. While at your determined frequency, measure the distance between nodes (i.e. node-to-furthest-best-node distance) and estimate its uncertainty. Calculate the wavelength $\lambda_n \pm \delta \lambda_n$.
+    - For the first harmonic, you need to estimate the position of the node near the vibrating blade.
+    - For higher harmonics, you can avoid the node near the blade and focus on the node at the pulley and the node furthest away along the string. *What's your estimated uncertainty in the length measurement; more or less accurate when measuring across single or multiple antinodes?*
+
+14. Calculate the propagation velocity with {eq}`eq-wave-frequency`. Similarly calculate the velocity uncertainty by maximizing and taking the difference $(\delta v_n= (\lambda_n + \delta\lambda_n) (f_n + \delta f_n) - v_n)$. *As you reach higher harmonics for the current case, how do they compare to each other? Do you expect them to be the same or different, why?*
+
+15. Raise the frequency to resonate at the second harmonic. The cord should vibrate with a node at each end and one node in the center (see higher harmonics in {numref}`waves_harmonics_illustration`). Again measure the frequency and the distance between pulley node and furthest-best-node along the string to determine wavelength.
+
+16. Continue repeating the previous measurements for the higher harmonics (list in {numref}`waves-cases-table`).
+
+17. Calculate the average $v$ and average $\delta v$ for the current case. Does it agree with your expected velocity (as calculated from the tension and the linear density in {eq}`eq-wave-velocity`)? If not, what may be contributing to the lack of accuracy?
+
+
+### ● Graphical Analysis Velocity
+
+18. Plot wavelength $\lambda$ vs. the inverse of the frequency $1/f$ for the current case. As you complete additional cases, add each case to the same single plot (include trendlines like normal) as you go.
+
+19. Use `LINEST(y-values,x-values,TRUE,TRUE)` to calculate the slope and use {eq}`eq-wavelength-inverse-frequency` to determine the slope-derived propagation velocity ($v_\text{slope-derived} \pm \delta v_\text{slope-derived}$). Consider the uncertainty in the slope. Do your plot-derived propagation velocities agree with the expected velocities? Your plot will be represented by the reorganization of {eq}`eq-wave-frequency`:
 
 ```{math}
 :label: eq-wavelength-inverse-frequency
 \lambda = v \frac{1}{f}
 ```
 
-12. CONSIDER: How do you expect tensions and linear densities to affect the wave propagation?
 
-13. Increase the hanging mass to 350 grams and repeat the above procedure for Case II.
 
-14. Using a cord with a different density repeat steps 4 to 13 for Case III and IV.
+### ● Continue to Additional Cases
+
+20. CONSIDER: How do you expect tensions and linear densities to affect the wave propagation?
+
+21. Once you are satisfied with your first case, increase the hanging mass to 350 grams and repeat the above procedure for Case II (at {ref}`section-waves-experimental-velocity`).
+
+22. Using a cord with a different linear density, repeat for Case III (at {ref}`section-waves-experimental-velocity`).
 
 
 
@@ -111,24 +245,25 @@ In this experiment, one end of a horizontal cord is attached to the string vibra
   - Make sure to submit your finalized data table (Excel sheet).
   - Please include concise summary table.
   - Please include plot:
-    - One plot with all four cases on it with their own trendlines: $\lamda$ vs $1/f$
+    - One plot with all three cases on it with their own trendlines: $\lambda$ vs $1/f$
 
 
 
 ### ● Post-lab Writeup
 
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be quantitative, not only qualitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
-  - What are your measurement uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?
+  - What are your measurement uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller, by how much?
 
 
 - In a **paragraph**, summarize the results you have determined for all cases. Consider:
   - What was the point of today's lab; what did we aim to discover?
-  - For each of the four cases, give the theoretical velocity from {eq}`eq-wave-velocity`, the average and standard deviation of your results using {eq}`eq-wave-frequency`, and your value from the slope in Step 11.
-  - Do the velocities of propagation found by two methods (average values from each case, plot fitting) agree with the expected values? Of the two methods, which would you trust more and why; was there a physical or statistical reason?
-  - How is the velocity of propagation dependent on the tension in the string and density of the cord; when the experiment was done with a lighter weight cord, why would the string vibrator have to be run faster for each measurement condition?
-
+  - For each case, do your experimental velocities of propagation (average and slope-derived) agree with your expected velocity from {eq}`eq-wave-velocity`? (be quantitative)
+  - How is the velocity of propagation dependent on the tension in the string and density of the cord?
+    - When the experiment was done with a lighter weight cord, why would the string vibrator have to be run faster for each measurement condition?
+    - Looking at you plot containing all three cases, how are the cases organized? What do you notice about the slopes as you change cases?
+  - Do you experimental ratios of $n$-harmonic's frequency to fundamental frequency agree with the expected relationship? Why, physically, do we expect this $f_n/f_1$ relationship?
 
 
 ## The Whiteboard
@@ -138,7 +273,7 @@ In this experiment, one end of a horizontal cord is attached to the string vibra
 :width: 100%
 :align: center
 
-Overview.
+Overview. Notes. Equation numbers have changed. Using error propagation instead of standard deviation. 3 Cases instead of 4, old case three is dropped.
 ```
 
 ```{figure} WavesFigures/waves_2025_Spring_02_v01.jpg
