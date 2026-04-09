@@ -3,7 +3,7 @@
 
 ## Background
 
-### ● Overall goals and overview
+### ● Background Overview
 
 ```{admonition} OVERALL GOALS
 :class: note
@@ -137,7 +137,7 @@ The cases today are as shown in {numref}`waves-cases-table`.
 ```
 
 1. Create a common data table including necessary info for each case (but not limited to):
-    - Accepted value of $g=9.803\,\text{m/s}$ for Fairfield, CT
+    - Accepted value of $g=9.803\,\text{m/}\text{s}^2$ for Fairfield, CT
     - cord masses
     - cord mass uncertainties
     - cord lengths
