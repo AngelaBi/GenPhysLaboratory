@@ -58,11 +58,17 @@ If a loop of wire (for example a coil) is moving into or out of a magnetic field
 
 Here $N$ is the number of windings in the coil and the negative sign in front of the expression indicates that the EMF is induced in such a way that it opposes the change in flux through the loop (this direction indication is commonly known as Lenz's Law).
 
-If we were to then integrate {eq}`eq-faraday`, and know for in this lab the area of the coil is constant, but the B-field through the area defined by the coil will change, we would find:
+If we were to then integrate {eq}`eq-faraday`, knowing for this lab that the area A of the coil is constant, but the B-field through the area defined by the coil will change, we would find {eq}`eq-faraday-integrated`.
 
 ```{math}
 :label: eq-faraday-integrated
 -\int_{\textrm{peak}}\Delta V dt= -N A \Delta B
+```
+
+
+```{admonition} Integral = Area Under The Curve
+:class: tip
+If you were to plot voltage vs. time, then integrate over some time range, we can say we were looking for the **area under the $V\,\text{vs.}\,t$ curve**; this terminology of area under curve is used later throughout the procedure for integrated values. For {eq}`eq-faraday-integrated`, we can say "area under the $V\,\text{vs.}\,t$ curve" equals the left-hand side integral: $\int_{\textrm{peak}}\Delta V dt$.
 ```
 
 If we were to average over time, we would find the average EMF (again, with unchanging area for today) is:
