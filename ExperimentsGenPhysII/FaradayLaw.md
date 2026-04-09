@@ -53,7 +53,7 @@ If a loop of wire (for example a coil) is moving into or out of a magnetic field
 
 ```{math}
 :label: eq-faraday
-\mathcal{E} = \Delta V= -N \frac{d\Phi}{dt}
+\mathcal{E} = -\Delta V= -N \frac{d\Phi}{dt}
 ```
 
 Here $N$ is the number of windings in the coil and the negative sign in front of the expression indicates that the EMF is induced in such a way that it opposes the change in flux through the loop (this direction indication is commonly known as Lenz's Law).
@@ -62,7 +62,7 @@ If we were to then integrate {eq}`eq-faraday`, and know for in this lab the area
 
 ```{math}
 :label: eq-faraday-integrated
-\int_{\textrm{peak}}\Delta V dt= -N A \Delta B
+-\int_{\textrm{peak}}\Delta V dt= -N A \Delta B
 ```
 
 If we were to average over time, we would find the average EMF (again, with unchanging area for today) is:
@@ -70,7 +70,7 @@ If we were to average over time, we would find the average EMF (again, with unch
 
 ```{math}
 :label: eq-faraday-average
-\mathcal{E}_\text{avg} = \frac{1}{\Delta t} \int_{\textrm{peak}}\Delta V dt= -N A \frac{\Delta B}{\Delta t}
+\mathcal{E}_\text{avg} = -\frac{1}{\Delta t} \int_{\textrm{peak}}\Delta V dt= -N A \frac{\Delta B}{\Delta t}
 ```
 
 
@@ -273,7 +273,7 @@ How to measure positive magnetic field strength of horseshoe magnet. Use the per
 Example of releasing the wand and example of just half a cycle the start/stop times and area under the curve for just the first peak.
 ```
 
-```{figure} FaradayLawFigures/Figure_10_exampleEMF_v02.png
+```{figure} FaradayLawFigures/Figure_10_exampleEMF_v04.png
 :name: fig-faraday-EMFExample
 :width: 100%
 :align: center
@@ -375,7 +375,7 @@ This picture shows the resistor half plugged-in.
 9. Zoom in to the portion of the angle vs. time graph where the coil passed through the magnet. Select the peak and get the maximum (initial) and then the minimum (final) angle of the motion to find the initial angle ($\theta_{i}$) and the angle to which the pendulum rises after it has passed once through the magnet ($\theta_{f}$). (see {numref}`fig-faraday-POWERExample`-bottom)
 
 
-```{figure} FaradayLawFigures/Figure_11_examplePower_v02.png
+```{figure} FaradayLawFigures/Figure_11_examplePower_v04.png
 :name: fig-faraday-POWERExample
 :width: 100%
 :align: center
@@ -471,6 +471,7 @@ The resistor fully plugged-in.
     - Do your values for total energy loss (with resistor) agree with the sum of the energy dissipated by the closed circuit (with resistor) plus friction of the rotary sensor (without resistor)?
       - Why would you expect them to agree? Why physically was energy lost?
     - Why, for the Power dissipated vs. Time plot were there two peaks, but now of the same sign (i.e. both positive)?
+    <!---  - Are they, and why are they, the same or different peak height? --->
     - Why, if you used a larger resistor, for example a $10\,\Omega$ resistor in place of the $4.7\,\Omega$ resistor, should the damping of the pendulum would be reduced?
 
 
