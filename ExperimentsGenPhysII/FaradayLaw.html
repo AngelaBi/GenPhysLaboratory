@@ -439,14 +439,18 @@
 <h3>● Faraday’s Law<a class="headerlink" href="#faraday-s-law" title="Permalink to this heading">#</a></h3>
 <p>If a loop of wire (for example a coil) is moving into or out of a magnetic field or if the magnetic field over the area of the loop itself changes (either direction or magnitude), then an electro-magnetic force (EMF, essentially induced voltage) might be induced in the loop due to the fact that the magnetic flux through the loop changes. Faraday’s Law states that the induced electro-motive force [EMF] or voltage in the loop is directly proportional to the rate of change of the flux through the loop. In this experiment, the magnet and coil are arranged so that the magnetic field is perpendicular to the coil loops and:</p>
 <div class="math notranslate nohighlight" id="equation-eq-faraday">
-<span class="eqno">(149)<a class="headerlink" href="#equation-eq-faraday" title="Permalink to this equation">#</a></span>\[\mathcal{E} = \Delta V= -N \frac{d\Phi}{dt}\]</div>
+<span class="eqno">(149)<a class="headerlink" href="#equation-eq-faraday" title="Permalink to this equation">#</a></span>\[\mathcal{E} = -\Delta V= -N \frac{d\Phi}{dt}\]</div>
 <p>Here <span class="math notranslate nohighlight">\(N\)</span> is the number of windings in the coil and the negative sign in front of the expression indicates that the EMF is induced in such a way that it opposes the change in flux through the loop (this direction indication is commonly known as Lenz’s Law).</p>
-<p>If we were to then integrate <a class="reference internal" href="#equation-eq-faraday">(149)</a>, and know for in this lab the area of the coil is constant, but the B-field through the area defined by the coil will change, we would find:</p>
+<p>If we were to then integrate <a class="reference internal" href="#equation-eq-faraday">(149)</a>, knowing for this lab that the area A of the coil is constant, but the B-field through the area defined by the coil will change, we would find <a class="reference internal" href="#equation-eq-faraday-integrated">(150)</a>.</p>
 <div class="math notranslate nohighlight" id="equation-eq-faraday-integrated">
-<span class="eqno">(150)<a class="headerlink" href="#equation-eq-faraday-integrated" title="Permalink to this equation">#</a></span>\[\int_{\textrm{peak}}\Delta V dt= -N A \Delta B\]</div>
+<span class="eqno">(150)<a class="headerlink" href="#equation-eq-faraday-integrated" title="Permalink to this equation">#</a></span>\[-\int_{\textrm{peak}}\Delta V dt= -N A \Delta B\]</div>
+<div class="tip admonition">
+<p class="admonition-title">Integral = Area Under The Curve</p>
+<p>If you were to plot voltage vs. time, then integrate over some time range, we can say we were looking for the <strong>area under the <span class="math notranslate nohighlight">\(V\,\text{vs.}\,t\)</span> curve</strong>; this terminology of area under curve is used later throughout the procedure for integrated values. For <a class="reference internal" href="#equation-eq-faraday-integrated">(150)</a>, we can say “area under the <span class="math notranslate nohighlight">\(V\,\text{vs.}\,t\)</span> curve” equals the left-hand side integral: <span class="math notranslate nohighlight">\(\int_{\textrm{peak}}\Delta V dt\)</span>.</p>
+</div>
 <p>If we were to average over time, we would find the average EMF (again, with unchanging area for today) is:</p>
 <div class="math notranslate nohighlight" id="equation-eq-faraday-average">
-<span class="eqno">(151)<a class="headerlink" href="#equation-eq-faraday-average" title="Permalink to this equation">#</a></span>\[\mathcal{E}_\text{avg} = \frac{1}{\Delta t} \int_{\textrm{peak}}\Delta V dt= -N A \frac{\Delta B}{\Delta t}\]</div>
+<span class="eqno">(151)<a class="headerlink" href="#equation-eq-faraday-average" title="Permalink to this equation">#</a></span>\[\mathcal{E}_\text{avg} = -\frac{1}{\Delta t} \int_{\textrm{peak}}\Delta V dt= -N A \frac{\Delta B}{\Delta t}\]</div>
 <!---
 ```{math}
 :label: eq-faraday-dB-dt
@@ -636,7 +640,7 @@ Integrating {eq}`eq-faraday` gives:
 </figcaption>
 </figure>
 <figure class="align-center" id="fig-faraday-emfexample">
-<a class="reference internal image-reference" href="../_images/Figure_10_exampleEMF_v02.png"><img alt="../_images/Figure_10_exampleEMF_v02.png" src="../_images/Figure_10_exampleEMF_v02.png" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="../_images/Figure_10_exampleEMF_v04.png"><img alt="../_images/Figure_10_exampleEMF_v04.png" src="../_images/Figure_10_exampleEMF_v04.png" style="width: 100%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 135 </span><span class="caption-text">Example of plots for this part.</span><a class="headerlink" href="#fig-faraday-emfexample" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -755,7 +759,7 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 <li><p>Zoom in to the portion of the angle vs. time graph where the coil passed through the magnet. Select the peak and get the maximum (initial) and then the minimum (final) angle of the motion to find the initial angle (<span class="math notranslate nohighlight">\(\theta_{i}\)</span>) and the angle to which the pendulum rises after it has passed once through the magnet (<span class="math notranslate nohighlight">\(\theta_{f}\)</span>). (see <a class="reference internal" href="#fig-faraday-powerexample"><span class="std std-numref">Fig. 138</span></a>-bottom)</p></li>
 </ol>
 <figure class="align-center" id="fig-faraday-powerexample">
-<a class="reference internal image-reference" href="../_images/Figure_11_examplePower_v02.png"><img alt="../_images/Figure_11_examplePower_v02.png" src="../_images/Figure_11_examplePower_v02.png" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="../_images/Figure_11_examplePower_v04.png"><img alt="../_images/Figure_11_examplePower_v04.png" src="../_images/Figure_11_examplePower_v04.png" style="width: 100%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 138 </span><span class="caption-text">Example of plots for this part.</span><a class="headerlink" href="#fig-faraday-powerexample" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -836,9 +840,9 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 </section>
 <section id="post-lab-writeup">
 <h3>● Post-lab Writeup<a class="headerlink" href="#post-lab-writeup" title="Permalink to this heading">#</a></h3>
-<ul class="simple">
-<li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative, not only quantitative.</p>
 <ul>
+<li><p>In a <strong>paragraph</strong>, summarize your error analysis. Be qualitative, not only quantitative.</p>
+<ul class="simple">
 <li><p>What is the precision of your equipment?</p></li>
 <li><p>What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?</p></li>
 <li><p>What are your measurement uncertainties, and, based on these uncertainties, which impact your final results the most?</p></li>
@@ -848,7 +852,7 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 <ul>
 <li><p>What was the point of today’s lab; what did we aim to discover?</p></li>
 <li><p>PART I</p>
-<ul>
+<ul class="simple">
 <li><p>Do your experimental results for average EMF and change in flux from part 1 agree with the expected values? By how much?</p></li>
 <li><p>What was the induced voltage of the coil of wire swinging into the magnetic field dependent on?</p></li>
 <li><p>Looking at your plot from Capstone of Voltage vs. Time, there should be four spikes in voltage during one whole cycle forward and back.</p>
@@ -861,13 +865,16 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 </ul>
 </li>
 <li><p>PART II</p>
-<ul>
+<ul class="simple">
 <li><p>Do your values for total energy loss (with resistor) agree with the sum of the energy dissipated by the closed circuit (with resistor) plus friction of the rotary sensor (without resistor)?</p>
 <ul>
 <li><p>Why would you expect them to agree? Why physically was energy lost?</p></li>
 </ul>
 </li>
 <li><p>Why, for the Power dissipated vs. Time plot were there two peaks, but now of the same sign (i.e. both positive)?</p></li>
+</ul>
+<!---  - Are they, and why are they, the same or different peak height? --->
+<ul class="simple">
 <li><p>Why, if you used a larger resistor, for example a <span class="math notranslate nohighlight">\(10\,\Omega\)</span> resistor in place of the <span class="math notranslate nohighlight">\(4.7\,\Omega\)</span> resistor, should the damping of the pendulum would be reduced?</p></li>
 </ul>
 </li>
