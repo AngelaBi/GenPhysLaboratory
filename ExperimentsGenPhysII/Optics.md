@@ -284,18 +284,37 @@ Use an object, thin lens, image screen on an optics track to:
 
 Under many circumstances, the behavior of light can be analyzed by assuming that light travels in straight-line paths called light rays. Light rays are a representation of what is actually a very narrow beam of light. Using this representation of light, the behavior of many optical elements such as lenses and mirrors, and optical instruments such as telescopes, microscopes, and projectors can be analyzed. The use of the ray model draws heavily on geometry, and is called geometric optics.
 
-In addition to using the ray model of light, the lens that will be used will be analyzed under the thin lens approximation. This approximation will assume that the thickness of the lens is very small compared with the focal length. The result of this assumption is that the bending of the rays as they pass through the lens is considered to have occurred at a plane surface through the mid-line of the lens, perpendicular to the principal axis. Actually, the bending (the refraction) occurs at both the entrance and exit surfaces separated by a finite distance.
+In addition to using the ray model of light, the lens that will be used will be analyzed under the thin lens approximation. This approximation will assume that the thickness of the lens is very small compared with the focal length. The result of this assumption is that the bending of the rays as they pass through the lens is considered to have occurred at a plane surface through the mid-line of the lens, perpendicular to the principal axis (see example approximation illustrated in {numref}`fig_optics_01_objectImagePlane`). In actuality, the bending (the refraction) occurs at both the entrance and exit surfaces separated by a finite distance (illustrated later in {numref}`fig_optics_04_magnification`).
 
-In this experiment, the behavior of a simple lens will be investigated with the setup (example in {numref}`W2aFig022_setup`).
 
-```{figure} OpticsFigures/Figure_22_experimentalSetup.png
-:width: 5.5in
-:name: W2aFig022_setup
+```{figure} OpticsFigures/Figure_01_ObjectImageOverview_v01.png
+:width: 100%
+:name: fig_optics_01_objectImagePlane
 
-A) Light box and lens mounted on optics track. B) Lightpath through lens onto the white screen. C) Image on the light box. D) Refracted image through the lens on the white screen. E) Annulus filter to allow light through center of lens. F) Disk filter to allow light through edges of lens.
+Ray tracing light from object to inverted image. Red dots represent focal length from center of lens. Top ray from object parallel to axis will pass through focal length on image side towards image. Middle ray from object passing through center of lens takes a straight path towards image. Bottom ray passing through focal length on object side will become parallel to axis after lens.
+```
+
+
+
+In this experiment, the behavior of a simple lens will be investigated with the setup of an illuminated object whose light will pass through a thin converging lens and be projected onto a white screen (example in {numref}`fig_optics_00_setup_equip`).
+
+```{figure} OpticsFigures/Figure_00_InitialSetupExample_v03small.png
+:width: 100%
+:name: fig_optics_00_setup_equip
+
+Light box, converging lens, screen mounted on optics track.
 ```
 
 In preparing for this laboratory, you should review this section in your text, particularly the various techniques of ray tracing analysis, sign conventions, definitions of object/image distances and focal lengths of converging and diverging lenses. The relation of the focal length and the object and image distances under the assumption of a thin lens is given by
+
+
+
+```{figure} OpticsFigures/Figure_02_ThinLensFocalLength_v02.png
+:width: 100%
+:name: fig_optics_02_ThinLensFocalLength
+
+Ray tracing: parallel-to-optical-axis light rays will all focus to a single point $F$ at a distance from the center of the thin converging lens which is equal to the focal length $f$.
+```
 
 ---------------------!!!!!!!!!!!!!!!!!!!!! where in text?
 ---------------------!!!!!!!!!!!!!!!!!!!!!
@@ -318,6 +337,13 @@ The linear magnification, $m$, produced by a lens is the ratio of the length of 
 ```{math}
 :label: eq-magnification
 m=\frac{h_\text{image}}{h_\text{object}}=-\frac{s_\text{image}}{s_\text{object}}
+```
+
+```{figure} OpticsFigures/Figure_04_ThinLensRayTracingMagnification_v02.png
+:width: 100%
+:name: fig_optics_04_magnification
+
+The height of the object and the height of the image are indicated by $h_o$ and $h_i$, respectively. [Ray tracing is used to locate the image formed by a lens. Rays originating from the same point on the object are traced—the three chosen rays each follow one of the rules for ray tracing, so that their paths are easy to determine. The image is located at the point where the rays cross. In this case, a real image (projectable onto a screen) is formed and is inverted.]
 ```
 
 The minus sign accounts for the orientation of the image (erect or inverted with respect to the object) and the sign convention of the object and image distances.
@@ -358,7 +384,7 @@ The linear magnification will be determined by measuring the object and image si
 
 ### ● Equipment
 
-The following equipment is shown in {numref}`W2aFig022_setup_equip`.
+The following equipment is shown in {numref}`fig_optics_022_setup_equip`.
 - 1.2 m black optics track to mount everything
 - Light box with illuminated **object** on it (position along track ruler noted by indented metal aligned with the ruler on the optics track) with power brick
 - Convex lens in lens holder (position of the lens in the holder is noted by a small plastic protrusion on the side of the holder to be lined up with the ruler on the optics track, basically centered in the holder)
@@ -367,14 +393,19 @@ The following equipment is shown in {numref}`W2aFig022_setup_equip`.
 - White viewing screen for displaying **image**
 - additional rulers as needed
 
-```{figure} OpticsFigures/Figure_22_experimentalSetup.png
+```{figure} OpticsFigures/Figure_22_experimentalSetup_v02.png
 :width: 100%
-:name: W2aFig022_setup_equip
+:name: fig_optics_022_setup_equip
 
-A) Light box and lens mounted on optics track. B) Lightpath through lens onto the white screen. C) **Object** on the light box. D) Refracted **image** through the lens on the white screen. E) Outer-annulus mask to allow light only through center of lens. F) Inner-disk mask to allow light only through edges of lens.
+A) Light box and lens mounted on optics track. B) Object on the light box. C) Refracted image through the lens on the white screen. D) Lightpath through lens onto the white screen.
 ```
 
+```{figure} OpticsFigures/Figure_23_experimentalSetup_v01.png
+:width: 100%
+:name: fig_optics_023_setup_equip
 
+E) Outer-annulus mask to allow light only through center of lens. F) Inner-disk mask to allow light only through edges of lens.
+```
 
 
 <!---
@@ -389,13 +420,13 @@ A) Light box and lens mounted on optics track. B) Lightpath through lens onto th
 :class: note
 Investigate light refraction and geometric optics by measuring object (object-to-lens) and image (lens-to-image) distances to determine focal lengths and magnification. Do so with:
   - Part I: Unfiltered light for a range of object distances
-    - Object distances $s_\text{object} = \infty, 11, 13, 25, 40, 55, 70, 85 cm$
+    - Object distances $s_\text{object} = \infty, 11, 13, 25, 40, 55, 70, 85\,\text{cm}$
   - Part II: Chromatic aberration (color filters)
     - Red filter
     - Blue filter
   - Part III: Spherical abberration (lens shape)
-    - Light through edge of lens using inner-disk light-blocking mask
-    - Light through center of lens using outer-annulus light-blocking mask
+    - Edge-ring of light rays passing through edge of lens using an inner-disk light-blocking mask
+    - Central-aperture of light rays passing through center of lens using outer-annulus light-blocking mask
 
 ```
 
@@ -416,6 +447,8 @@ Investigate light refraction and geometric optics by measuring object (object-to
 
 3. On the optical bench, used for this and all succeeding steps, set up the illuminated object at 0.0 cm on the metric ruler along the track. Place the lens at 13.0 cm and move the screen to a position that produces the sharpest possible image. Record the object distance, which is measured from the light source to the lens. Also record the image distance, which is measured from the lens to the screen (not the location of the screen). Calculate and record the focal length using the object distance and the image distance. Is it consistent with the focal length measured with a distant object?
 
+POSITIONS using min max range and dteremine average and uncertainies....find focal lengths
+
 4. Only for non-filtered cases, measure the length of one of the arrows or circles on the object and measure the length of the same arrow or circle on the image and record them as $h_\text{object}$ and $h_\text{image}$ respectively. Calculate the resulting magnification with {eq}`eq-magnification`. 
 5. Create a data table with columns for object distance, image distance, and focal length from {eq}`eq-W2Beq1`. Include rows for the red filter, the blue filter, the disk and the annulus. The lenses have only a little chromatic aberration and spherical aberration, so you will need to be careful locating the screen at the best focus.
 
@@ -429,13 +462,27 @@ Investigate light refraction and geometric optics by measuring object (object-to
 
 ### ● Part II: Chromatic Aberration
 
+<!---
 6. Repeat step 3 using first the red and then the blue filter in front of the object. While leaving the lens fixed at an $s_\text{object} = 13\,\text{cm}$, move the screen to produce the best focused image. Carefully record only the object and image distances and determine the 'red focal length' and the 'blue focal length.'
+--->
+
+7. Repeat step 3 with the lens placed at a 13 cm object distance $(s_\text{object} = 13\,\text{cm})$. Use the two color filters, red and blue, to determine the focal lengths of red and blue light.
+
+8. Hang the red filter directly in front of the light-box object so all light used to form the image is red. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and focal length uncertainty.
+
+8. Hang the blue filter directly in front of the light-box object so all light used to form the image is blue. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and focal length uncertainty.
+
 
 
 ### ● Part III: Spherical Aberration
 
 
-7. Repeat step 3 using the two light stops or light masks; the disk and the annulus/donut. Center the disk mask filter in front of the lens so only rays near the outer edge of the disk are being used to form the image. Move the screen until the image is focused. Carefully measure the object and image distance and determine the focal length. Replace the disk with the annulus mask so now only the rays near the center of the lens are used to form the image and determine the focal length again. Record the data.
+7. Repeat step 3 with the lens placed at a 13 cm object distance $(s_\text{object} = 13\,\text{cm})$. Use the two light-blocking masks, inner-disk and outer-annulus, to determine the focal lengths of the edge-ring and central-aperture light rays.
+
+8. Center the inner-disk mask in front of the lens so only rays near the outer edge of the disk are being used to form the image. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and focal length uncertainty.
+
+9. Replace the inner-disk mask with the outer-annulus mask so now only the rays near the center of the lens are used to form the image. Again, move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and focal length uncertainty.
+
 
 
 
@@ -465,7 +512,7 @@ Magnification for all parts without any color stuff
   - Make sure to submit your finalized data table (Excel sheet).
   - Please include concise summary table.
   - Please include plot:
-    - One plot with all three cases on it with their own trendlines: $\lambda$ vs $1/f$
+    - One plot, ***hand-drawn***, with all non-$\infty$ object distances paired with respective image distances from Part I (unfiltered).
 
 
 
@@ -474,24 +521,20 @@ Magnification for all parts without any color stuff
 - In a **paragraph**, summarize your error analysis. Be quantitative, not only qualitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
-  - What are your measurement uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller, by how much?
-
------- old vvvv ----
-  - What are your measured uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?
-  - Change different variables by your best estimation of measurement uncertainties in your Excel sheet; what variables affect the accuracy of your final results the most?
-  - If larger or small, are they more or less accurate to expected values?
-^^^^^^^^^^^^^
-
+  - What are your measurement uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement uncertainties make your final results larger or smaller, by how much?
 
 
 - In a **paragraph**, summarize the results you have determined for all cases. Consider:
   - What was the point of today's lab; what did we aim to discover?
-  - How do your focal lengths from each set compare (distant object vs. 13 cm, red vs. blue, disk vs. annulus?
-  - Do they agree based on your uncertainties?
-  - Physically, why is the focal length from the red or blue filter shorter or longer; what would cause that?
-  - Physically, why does the disk or annulus filtered light produce a shorter or longer focal length; what would cause that?
-  - For your plot of image vs. object distances, where do the lines from each object/image pair converge; does that value ± your estimated uncertainty from the plot agree with your average value for focal lengths for the variety of image/object distances?
-  - On the plot, why do the lines converge?
+  - How do your focal lengths from each set compare? Do they agree based on your uncertainties? Are there any outliers, why/why not?
+    - Object distance of distant object ($\infty$) vs. 13 cm trial?
+    - Object distance: All non-$\infty$ unfiltered trials?
+    - Object distance of 13 cm for unfiltered vs. red vs. blue vs. disk vs. annulus?
+  - For chromatic aberration (Part II): physically, why should the focal length from the red or blue filter be shorter or longer?
+  - For spherical aberration (Part III): Physically, why does the disk or annulus filtered light produce a shorter or longer focal length?
+  - For your plot of image vs. object distances, where do the lines from each object/image pair converge?
+    - Does that plot-derived value $\pm$ your estimated uncertainty from the plot agree with your average value for unfiltered focal lengths (Part I)?
+    - On the plot, why do the lines converge?
 
 
 
@@ -532,6 +575,6 @@ Magnification for all parts without any color stuff
 :width: 100%
 :align: center
 
-Overview.
+Overview. ---- NOTE: Order of parts have changed, but on the whole, this is what you're doing.
 ```
 
