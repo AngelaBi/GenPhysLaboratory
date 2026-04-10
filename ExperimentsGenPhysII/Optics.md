@@ -272,7 +272,7 @@ Use an object, thin lens, image screen on an optics track to:
 - Investigate light refraction, focal length, and magnification through lenses for light that is:
     - Unfiltered
     - Chromatically aberrated by narrow color filters
-    - Spherically abberrated by lens shape
+    - Spherically aberrated by lens shape
 ```
 
 <!---
@@ -282,9 +282,9 @@ Use an object, thin lens, image screen on an optics track to:
 ### ● Light, Lenses, Focal Length (Part I)
 
 
-Under many circumstances, the behavior of light can be analyzed by assuming that light travels in straight-line paths called light rays. Light rays are a representation of what is actually a very narrow beam of light. Using this representation of light, the behavior of many optical elements such as lenses and mirrors, and optical instruments such as telescopes, microscopes, and projectors can be analyzed. The use of the ray model draws heavily on geometry, and is called geometric optics.
+Under many circumstances, the behavior of light can be analyzed by assuming that light travels in straight-line paths called **light rays**. Light rays are a representation of what is actually a very narrow beam of light. Using this representation of light, the behavior of many optical elements such as lenses and mirrors, and optical instruments such as telescopes, microscopes, and projectors can be analyzed. The use of the ray model draws heavily on geometry, and is called **geometric optics**.
 
-In addition to using the ray model of light, the lens that will be used will be analyzed under the thin lens approximation. This approximation will assume that the thickness of the lens is very small compared with the focal length. The result of this assumption is that the bending of the rays as they pass through the lens is considered to have occurred at a plane surface through the mid-line of the lens, perpendicular to the principal axis (see example approximation illustrated in {numref}`fig_optics_01_objectImagePlane`). In actuality, the bending (the refraction) occurs at both the entrance and exit surfaces separated by a finite distance (illustrated later in {numref}`fig_optics_04_magnification`).
+In addition to using the ray model of light, the lens that will be used will be analyzed under the **thin lens approximation**. This approximation will assume that the thickness of the lens is very small compared with the focal length. The result of this assumption is that the bending of the rays as they pass through the lens is considered to have occurred at a plane surface through the mid-line of the lens, perpendicular to the principal axis (see example approximation illustrated in {numref}`fig_optics_01_objectImagePlane`). In actuality, the bending (the refraction) occurs at both the entrance and exit surfaces separated by a finite distance (illustrated later in {numref}`fig_optics_04_magnification`). Additionally, the paths of light rays are exactly *reversible*. This means that the direction of the arrows could be reversed for all of the rays in {numref}`fig_optics_01_objectImagePlane` and other ray diagrams shown throughout today's manual.
 
 
 ```{figure} OpticsFigures/Figure_01_ObjectImageOverview_v01.png
@@ -296,7 +296,7 @@ Ray tracing light from object to inverted image. Red dots represent focal length
 
 
 
-In this experiment, the behavior of a simple lens will be investigated with the setup of an illuminated object whose light will pass through a thin converging lens and be projected onto a white screen (example in {numref}`fig_optics_00_setup_equip`).
+In today's experiment, the behavior of a simple lens will be investigated with the setup of an illuminated object whose light will pass through a thin, converging (convex) lens and be projected onto a white screen (example in {numref}`fig_optics_00_setup_equip`).
 
 ```{figure} OpticsFigures/Figure_00_InitialSetupExample_v03small.png
 :width: 100%
@@ -316,10 +316,16 @@ In preparing for this laboratory, you should review this section in your text, p
 Ray tracing: parallel-to-optical-axis light rays will all focus to a single point $F$ at a distance from the center of the thin converging lens which is equal to the focal length $f$.
 ```
 
----------------------!!!!!!!!!!!!!!!!!!!!! where in text?
----------------------!!!!!!!!!!!!!!!!!!!!!
----------------------!!!!!!!!!!!!!!!!!!!!!
----------------------!!!!!!!!!!!!!!!!!!!!!
+
+
+```{figure} OpticsFigures/Figure_03_ThinLensRayTracingDistance_v02.png
+:width: 100%
+:name: fig_optics_03_ThinLensTracingDistance
+
+Ray tracing: Object's light ray will pass through lens parallel-to-optical-axis light rays will all focus to a single point $F$ at a distance from the center of the thin converging lens which is equal to the focal length $f$.
+```
+
+
 
 
 ```{math}
@@ -360,21 +366,37 @@ Since diverging lenses cannot form real images, the imaging of a distant object 
 
 ### ● Lens Effects
 
-There are two common defects or aberrations of the simple lens we will use.
+There are two common lens effects or aberrations (sometimes treated as a defect in high quality camera lenses or optics systems) of the simple lens we will investigate today.
 
 #### ○ Chromatic Aberration (Part II)
 
-The first common defect results from the wavelength dependence of the index of refraction of the glasses from which the lens is made. The change in index of refraction results in a focal length dependence on the wavelength, or color, of the light. Images formed from white light illumination of an object will produce colored images, each one formed at a slightly different image distance. If such an image were produced on a screen or a piece of film, you see an image whose edges were multicolored lines --- a very disturbing effect. This defect must be corrected in most optical instruments designed to be used with white light. Binoculars, for example, would be totally useless with this so-called chromatic aberration.
+The first common lens effect results from the wavelength dependence of the index of refraction of the glass from which the lens is made. The change in index of refraction results in a focal length dependence on the wavelength, or color, of the light. Images formed from white light illumination of an object will produce colored images, each one formed at a slightly different image distance. If such an image were produced on a screen or a piece of film, you see an image whose edges were multicolored lines --- a very disturbing effect. This effect must be corrected in most optical instruments designed to be used with white light. Binoculars, for example, would be totally useless with this so-called chromatic aberration.
+
+
+
+```{figure} OpticsFigures/Figure_06_chromaticAberration_v05.png
+:width: 100%
+:name: fig_optics_06_chromaticAberration
+
+Left) Example of today's experimental image on the screen impacted by chromatic aberration. Notice how the image further from center (top of the line) is bluer, while the image closer to center (bottom of line) is redder. Center) Wavelength-dependent (red, green, blue) light rays through lens with chromatic aberration and different focal points (and thus focal lengths) depending on wavelength. Right) Wavelength-dependent (red, green, blue) light rays through lens without chromatic aberration and a single focal point (and thus focal length) independent of wavelength.
+```
+
 
 #### ○ Spherical Aberration (Part III)
 
-The second results from the spherical shape of the lens surfaces. The result is that the rays near the edge of a lens are refracted or bent more than those near the principal axis. The effective focal point of the outer rays is smaller than the focal length of the rays closer to the center. This so-called spherical aberration causes a large diameter beam to focus over a range of lengths and images formed at a specific distance from the lens will be somewhat fuzzy.
+The second lens effect results from the spherical shape of the lens surfaces. The result is that the rays near the edge of a lens are refracted or bent more than those near the principal axis. The effective focal point of the outer rays is smaller than the focal length of the rays closer to the center. This so-called spherical aberration causes a large diameter beam to focus over a range of lengths and images formed at a specific distance from the lens will be somewhat fuzzy.
+
+```{figure} OpticsFigures/Figure_07_sphericalAberration_v03.png
+:width: 100%
+:name: fig_optics_07_sphericalAberration
+
+Left) Image impacted by spherical aberration. Notice how image center is crisp and in focus while edges are blurry. Center) Light rays through lens with spherical aberration and different focal points (and thus focal lengths) depending on distance from optical axis. Right) Light rays through lens without spherical aberration and a single focal point (and thus focal length) across the whole lens.
+```
 
 
+This experiment will examine the chromatic and spherical aberrations of simple, converging images. The chromatic aberration will be investigated by using color filters to permit the focal length measurement for specific colors. For the spherical aberration, the focal length will be determined by measuring the focal length of the lens when only certain rays are allowed through the lens. 
 
-
-This experiment will examine the chromatic and spherical aberrations of simple, converging images. The chromatic aberration will be investigated by using color filters to permit the focal length measurement for specific colors. For the spherical aberration, the focal length will be determined by measuring the focal length of the lens when only certain rays are allowed through the lens. In one case an outer-annulus (donut-shaped) mask will allow only the rays near the center of the lens. A small inner-disk mask placed near the center of the lens will allow only the edge rays to be used in the second case.
-
+In one case, an outer-annulus (donut-shaped) light-blocking mask will allow only light rays through a central-aperture near the center of the lens. The second case will then have an inner-disk mask placed over the center of the lens that will allow only light rays through the edge-ring near the outer edge of the lens.
 
 For each case, the object and image distances are measured, and the focal length determined via {eq}`eq-W2Beq1`.
 
@@ -385,13 +407,13 @@ The linear magnification will be determined by measuring the object and image si
 ### ● Equipment
 
 The following equipment is shown in {numref}`fig_optics_022_setup_equip`.
-- 1.2 m black optics track to mount everything
+- 1.2 m black optics track to mount everything with built-in ruler
 - Light box with illuminated **object** on it (position along track ruler noted by indented metal aligned with the ruler on the optics track) with power brick
 - Convex lens in lens holder (position of the lens in the holder is noted by a small plastic protrusion on the side of the holder to be lined up with the ruler on the optics track, basically centered in the holder)
-- Red and blue filter -- attaches to light box
-- Inner-disk and outer-annulus light-blocking masks -- attaches to lens holder
 - White viewing screen for displaying **image**
-- additional rulers as needed
+- Red and blue filter --- attaches to light box (not shown)
+- Outer-annulus (donut-shaped) and inner-disk light-blocking masks ({numref}`fig_optics_023_setup_equip`) --- attaches to lens holder
+- Additional rulers as needed (see table at front of room)
 
 ```{figure} OpticsFigures/Figure_22_experimentalSetup_v02.png
 :width: 100%
@@ -424,7 +446,7 @@ Investigate light refraction and geometric optics by measuring object (object-to
   - Part II: Chromatic aberration (color filters)
     - Red filter
     - Blue filter
-  - Part III: Spherical abberration (lens shape)
+  - Part III: Spherical aberration (lens shape)
     - Edge-ring of light rays passing through edge of lens using an inner-disk light-blocking mask
     - Central-aperture of light rays passing through center of lens using outer-annulus light-blocking mask
 
