@@ -268,7 +268,7 @@ d=\lambda / \sin\theta
 
 ```{admonition} OVERALL GOALS
 :class: note
-Use an object, thin lens, image screen on an optics track to:
+Use an object, thin-lens approximation, image screen on an optics track to:
 - Investigate light refraction, focal length, and magnification through lenses for light that is:
     - Unfiltered
     - Chromatically aberrated by narrow color filters
@@ -278,25 +278,7 @@ Use an object, thin lens, image screen on an optics track to:
 <!---
 \section{Background~\textendash~Part III~\textendash~Geometric Optics \& Single Element Imaging}
 --->
-
-### ● Light, Lenses, Focal Length (Part I)
-
-
-Under many circumstances, the behavior of light can be analyzed by assuming that light travels in straight-line paths called **light rays**. Light rays are a representation of what is actually a very narrow beam of light. Using this representation of light, the behavior of many optical elements such as lenses and mirrors, and optical instruments such as telescopes, microscopes, and projectors can be analyzed. The use of the ray model draws heavily on geometry, and is called **geometric optics**.
-
-In addition to using the ray model of light, the lens that will be used will be analyzed under the **thin lens approximation**. This approximation will assume that the thickness of the lens is very small compared with the focal length. The result of this assumption is that the bending of the rays as they pass through the lens is considered to have occurred at a plane surface through the mid-line of the lens, perpendicular to the principal axis (see example approximation illustrated in {numref}`fig_optics_01_objectImagePlane`). In actuality, the bending (the refraction) occurs at both the entrance and exit surfaces separated by a finite distance (illustrated later in {numref}`fig_optics_04_magnification`). Additionally, the paths of light rays are exactly *reversible*. This means that the direction of the arrows could be reversed for all of the rays in {numref}`fig_optics_01_objectImagePlane` and other ray diagrams shown throughout today's manual.
-
-
-```{figure} OpticsFigures/Figure_01_ObjectImageOverview_v01.png
-:width: 100%
-:name: fig_optics_01_objectImagePlane
-
-Ray tracing light from object to inverted image. Red dots represent focal length from center of lens. Top ray from object parallel to axis will pass through focal length on image side towards image. Middle ray from object passing through center of lens takes a straight path towards image. Bottom ray passing through focal length on object side will become parallel to axis after lens.
-```
-
-
-
-In today's experiment, the behavior of a simple lens will be investigated with the setup of an illuminated object whose light will pass through a thin, converging (convex) lens and be projected onto a white screen (example in {numref}`fig_optics_00_setup_equip`).
+In today's experiment, the behavior of a simple, bi-convex (symmetric, oval shaped), converging lens will be investigated with the setup of an illuminated object whose light will pass through a thin, converging (convex) lens and be projected onto a white screen (example in {numref}`fig_optics_00_setup_equip`).
 
 ```{figure} OpticsFigures/Figure_00_InitialSetupExample_v03small.png
 :width: 100%
@@ -305,27 +287,57 @@ In today's experiment, the behavior of a simple lens will be investigated with t
 Light box, converging lens, screen mounted on optics track.
 ```
 
-In preparing for this laboratory, you should review this section in your text, particularly the various techniques of ray tracing analysis, sign conventions, definitions of object/image distances and focal lengths of converging and diverging lenses. The relation of the focal length and the object and image distances under the assumption of a thin lens is given by
 
+### ● Light Rays, Lenses, Focal Lengths (Part I)
+
+
+Under many circumstances, the behavior of light can be analyzed by assuming that light travels in straight-line paths called **light rays**. Light rays are a representation of what is actually a very narrow beam of light. Using this representation of light, the behavior of many optical elements such as lenses and mirrors, and optical instruments such as telescopes, microscopes, and projectors can be analyzed. The use of the ray model draws heavily on geometry, and is called **geometric optics**.
+
+A convex or converging lens is shaped so that all light rays that enter it parallel to its optical axis intersect (or *focus*) at a single point called the **focal point** $F$ on the optical axis on the opposite side of the lens (shown in {numref}`fig_optics_02_ThinLensFocalLength`) at a distance along the optical axis from the center of the lens called the **focal length** $f$ of the lens. Look closely at the top ray that goes through the converging lens. Because the index of refraction of the lens is greater than that of air, Snell’s law tells us that the ray is bent toward the perpendicular to the interface as it enters the lens. Likewise, when the ray exits the lens, it is bent away from the perpendicular. The overall effect for a converging lens is that light rays are bent toward the optical axis. To reiterate, the point at which the rays cross is the focal point $F$ of the lens; the distance from the center of the lens to its focal point is the focal length $f$ of the lens.
 
 
 ```{figure} OpticsFigures/Figure_02_ThinLensFocalLength_v02.png
 :width: 100%
 :name: fig_optics_02_ThinLensFocalLength
 
-Ray tracing: parallel-to-optical-axis light rays will all focus to a single point $F$ at a distance from the center of the thin converging lens which is equal to the focal length $f$.
+All object light rays that are parallel to the optical axis will focus to a single point $F$ at a distance from the center of the thin converging lens equal to the focal length $f$.
 ```
 
 
+
+**Ray tracing** is the technique of determining or following (tracing) the paths taken by light rays. The rules for ray tracing for thin converging lenses are:
+
+1. A ray entering a lens parallel to the optical axis passes through the focal point on the other side of the lens (ray 1 in {numref}`fig_optics_03_ThinLensTracingDistance`).
+2. A ray passing through the center of either a converging or a diverging lens is not deviated (ray 2 in {numref}`fig_optics_03_ThinLensTracingDistance`).
+3. A ray that passes through the focal point exits the lens parallel to the optical axis (ray 3 in {numref}`fig_optics_03_ThinLensTracingDistance`).
+
+
+#### ○ Thin-lens Approximation
+
+In addition to using the ray model of light, the lens that will be used will be analyzed under the **thin-lens approximation**. This approximation will assume that the thickness of the lens is very small compared with the focal length. The result of this assumption is that the bending of the rays as they pass through the lens is considered to have occurred at a plane surface through the mid-line of the lens, perpendicular to the principal axis (see example approximation illustrated in {numref}`fig_optics_03_ThinLensTracingDistance`). As mentioned earlier, the bending (refraction) actually occurs at both the entrance and exit surfaces separated by a finite distance (illustrated again later in {numref}`fig_optics_04_magnification`). Additionally, the paths of light rays are exactly *reversible*. This means that the direction of the arrows could be reversed for all of the rays in {numref}`fig_optics_03_ThinLensTracingDistance` and other ray diagrams shown throughout today's manual.
+
+
+<!---
+```{figure} OpticsFigures/Figure_01_ObjectImageOverview_v01.png
+:width: 100%
+:name: fig_optics_01_objectImagePlane
+
+Ray tracing light from object to inverted image. Red dots represent focal length from center of lens. Top ray from object parallel to axis will pass through focal length on image side towards image. Middle ray from object passing through center of lens takes a straight path towards image. Bottom ray passing through focal length on object side will become parallel to axis after lens.
+```
+--->
 
 ```{figure} OpticsFigures/Figure_03_ThinLensRayTracingDistance_v02.png
 :width: 100%
 :name: fig_optics_03_ThinLensTracingDistance
 
-Ray tracing: Object's light ray will pass through lens parallel-to-optical-axis light rays will all focus to a single point $F$ at a distance from the center of the thin converging lens which is equal to the focal length $f$.
+Ray tracing light from object to inverted image. Red dots at focal points $F$ (symmetric about symmetric lens) represent distance from lens where parallel rays from one side of the lens will pass through on the opposite side. E.g. ray 1, parallel ray from the object crosses at $F$ on the image side after refraction. Middle ray (2) from object passing through center of lens takes a straight path towards image. Bottom ray (3) passing through focal point on object side becomes parallel to optical axis after lens. Object distance to lens is $s_\text{o}$, image distance to lens is $s_\text{i}$.
 ```
 
 
+
+
+
+The relation of the focal length and the object and image distances under the assumption of a thin lens is given by the **thin-lens equation**:
 
 
 ```{math}
@@ -333,26 +345,54 @@ Ray tracing: Object's light ray will pass through lens parallel-to-optical-axis 
 \frac{1}{f}=\frac{1}{s_\text{object}}+\frac{1}{s_\text{image}}
 ```
 
-where $s_\text{object}$ and $s_\text{image}$ are the object and image distances respectively. Imaging a very distant object can reasonably approximate the focal length of a converging lens. From {eq}`eq-W2Beq1`, if the object distance is very large compared to the focal length of the lens, the image distance is essentially the focal length. That is to say, the image of a very distant object is essentially at the focal point. Very convenient distant point sources of light are stars whose images are indeed at the focal point. For our laboratory, if available, sunlight will do just fine. Closer `distant' objects in the laboratory will give reasonable approximations to the focal length of the lens used in this laboratory.
+where $s_\text{object}$ and $s_\text{image}$ are the object and image distances respectively. Imaging a very distant object can reasonably approximate the focal length of a converging lens. From {eq}`eq-W2Beq1`, if the object distance is very large $(s_\text{object} \rightarrow \infty)$ compared to the focal length of the lens, the image distance is essentially the focal length. That is to say, the image of a very distant object is essentially at the focal point. Very convenient distant point sources of light are stars whose images are indeed at the focal point. For our laboratory, if available, sunlight will do just fine. Closer "distant" objects in the laboratory will give reasonable approximations to the focal length of the lens used in this laboratory.
 
 
-### ● Magnification
+To properly use the thin-lens equation, the following **sign conventions** must be obeyed:
+  - object distance $s_\text{o}$ is:
+    - $+$ positive for real object (today's use)
+    - $-$ negative for virtual object
+  - image distance $s_\text{i}$ is:
+    - $+$ positive for real image (i.e. if the image is on the side opposite the object, today's use)
+    - $-$ negative for virtual image (i.e. if on the same side as the object)
+  - focal length $f$ is:
+    - $+$ positive for a converging lens
+    - $-$ negative for a diverging lens
 
-The linear magnification, $m$, produced by a lens is the ratio of the length of the image to the length of the object. This can be shown to also be equal to the ratio of the image distance to object distance, or
+<!---
+  - $R$ is positive for a surface convex toward the object, and negative for a surface concave toward object.
+
+
+, sign conventions, definitions of object/image distances and focal lengths of converging and diverging lenses. 
+
+--->
+
+
+#### ○ Image Formation & Magnification
+
+We can use ray tracing to investigate different types of images that can be created by a lens. For today, our converging lens will form a **real image**, such as when a movie projector casts an image onto a screen. In other cases (not explored today), the image is a virtual image, which cannot be projected onto a screen. Using ray tracing for thin lenses, we can illustrate how they form images and develop equations from that to analyze properties of thin lenses.
+
+In {numref}`fig_optics_04_magnification`, we again have three rays from the object (tip of the red-arrow) that enter the lens, are refracted, and intersect at a single point on the opposite side of the lens. The image (tip of the arrow) is located at this point. Several important distances appear in the figure. We see $s_\text{o}$ as object distance, $s_\text{i}$ as image distance, $h_\text{o}$ and $h_\text{i}$ as the heights of the object and images respectively. Images that appear upright relative to the object have *positive* heights, and those that are inverted have *negative* heights.
+
+
+```{figure} OpticsFigures/Figure_04_ThinLensRayTracingMagnification_v02.png
+:width: 100%
+:name: fig_optics_04_magnification
+
+For magnification, the height of the object and the height of the image are indicated by $h_o$ and $h_i$, respectively. Ray tracing is used to locate the image formed by a lens. Rays originating from the same point on the object are traced, each following one of the rules for ray tracing, so that their paths are easy to determine. The image is located at the point where the rays cross. In this case, a real image (projectable onto a screen) is formed and is inverted. Assuming scale is accurate, magnification is negative and $|m| \lt 1$ as image is smaller than object.
+```
+
+The linear **magnification**, $m$, produced by a lens is defined as the ratio of the height of the image, $h_\text{image}$, to the height of the object, $h_\text{object}$ and is dimensionless. If $m$ is positive, the image is upright, and if $m$ is negative, the image is inverted. If $|m| \gt 1$, the image is *larger* than the object, and if $|m| \lt 1$, the image is smaller than the object. With this definition of magnification, and through geometrical analysis not shown here, we can also find the following relation between the vertical and horizontal object and image distances: 
+
 
 ```{math}
 :label: eq-magnification
 m=\frac{h_\text{image}}{h_\text{object}}=-\frac{s_\text{image}}{s_\text{object}}
 ```
 
-```{figure} OpticsFigures/Figure_04_ThinLensRayTracingMagnification_v02.png
-:width: 100%
-:name: fig_optics_04_magnification
 
-The height of the object and the height of the image are indicated by $h_o$ and $h_i$, respectively. [Ray tracing is used to locate the image formed by a lens. Rays originating from the same point on the object are traced—the three chosen rays each follow one of the rules for ray tracing, so that their paths are easy to determine. The image is located at the point where the rays cross. In this case, a real image (projectable onto a screen) is formed and is inverted.]
-```
 
-The minus sign accounts for the orientation of the image (erect or inverted with respect to the object) and the sign convention of the object and image distances.
+The minus sign accounts for the orientation of the image (upright or inverted with respect to the object) and the sign convention of the object and image distances.
 Another result of the thin lens approximation is the result shown in {eq}`eq-W2Beq2` which relates the effective focal length $f$ of the combination of two thin lenses in very close proximity (perhaps in contact). The focal lengths of the individual lenses are $f_{1}$ and $f_{2}$.
 
 ```{math}
@@ -360,7 +400,7 @@ Another result of the thin lens approximation is the result shown in {eq}`eq-W2B
 \frac{1}{f}=\frac{1}{f_{1}}+\frac{1}{f_{2}}
 ```
 
-Since diverging lenses cannot form real images, the imaging of a distant object as a method of measuring the focal length is not possible. However {eq}`eq-W2Beq2` can be used to approximate the focal length of a diverging lens by measuring the effective focal length of a known converging lens and the unknown diverging lens. Notice of course that the converging power of the positive lens (measured by the reciprocal of the focal length) must be greater in absolute value than the strength of the diverging lens since the effective focal length must be positive. (This measurement of the strength of the lens by the reciprocal of the focal length is the dioptic power of the lens, measured in m⁻¹.)
+Expanding beyond the scope of today's lab: since diverging lenses cannot form real images, the imaging of a distant object as a method of measuring the focal length is not possible. However {eq}`eq-W2Beq2` can be used to approximate the focal length of a diverging lens by measuring the effective focal length of a known converging lens and the unknown diverging lens. Notice, the converging power of the positive lens (measured by the reciprocal of the focal length) must be greater in absolute value than the strength of the diverging lens since the effective focal length would need to be positive. This measurement of the strength of the lens by the reciprocal of the focal length is the dioptic power of the lens, measured in $\text{m}^{-1}$.
 
 
 
@@ -370,7 +410,7 @@ There are two common lens effects or aberrations (sometimes treated as a defect 
 
 #### ○ Chromatic Aberration (Part II)
 
-The first common lens effect results from the wavelength dependence of the index of refraction of the glass from which the lens is made. The change in index of refraction results in a focal length dependence on the wavelength, or color, of the light. Images formed from white light illumination of an object will produce colored images, each one formed at a slightly different image distance. If such an image were produced on a screen or a piece of film, you see an image whose edges were multicolored lines --- a very disturbing effect. This effect must be corrected in most optical instruments designed to be used with white light. Binoculars, for example, would be totally useless with this so-called chromatic aberration.
+The first common lens effect, chromatic aberration, results from the wavelength dependence of the index of refraction of the glass from which the lens is made. The change in index of refraction results in a focal length dependence on the wavelength, or color, of the light. This dependence is illustrated by the different angles by which red, green, and blue light bends in the ray diagram in {numref}`fig_optics_06_chromaticAberration`-center. Images formed from white light illumination of an object will produce colored images, each one formed at a slightly different image distance. If such an image were produced on a screen or a piece of film, you see an image whose edges were multicolored lines ({numref}`fig_optics_06_chromaticAberration`-left). We see that red light bends or scatters less than the blue light, so we find the focal length of the red light is longer than that of the blue light. This effect must be corrected in most optical instruments designed to be used with white light. Binoculars, for example, can become totally useless without correcting for this chromatic aberration. A ray diagram showing a lens without chromatic aberration is illustrated in {numref}`fig_optics_06_chromaticAberration`-right; notice how all three colors' rays intersect at the same focal point.
 
 
 
@@ -384,7 +424,7 @@ Left) Example of today's experimental image on the screen impacted by chromatic 
 
 #### ○ Spherical Aberration (Part III)
 
-The second lens effect results from the spherical shape of the lens surfaces. The result is that the rays near the edge of a lens are refracted or bent more than those near the principal axis. The effective focal point of the outer rays is smaller than the focal length of the rays closer to the center. This so-called spherical aberration causes a large diameter beam to focus over a range of lengths and images formed at a specific distance from the lens will be somewhat fuzzy.
+The second lens effect, spherical aberration, results from the spherical shape of the lens surfaces. The result is that rays near the edge of a lens are refracted or bent more than those near the principal axis. The effective focal length of the outer rays is then smaller than the focal length of the rays closer to the center of the lens ({numref}`fig_optics_07_sphericalAberration`-center). This so-called spherical aberration causes a large diameter beam to focus over a range of focal lengths; the edges of images can become be somewhat fuzzy as compared to when the center of the image is in focus (e.g. {numref}`fig_optics_07_sphericalAberration`-left). By combining multiple lenses or non-spherical, correcting, and higher quality lenses, this effect can be corrected to bring the whole image back into focus ({numref}`fig_optics_07_sphericalAberration`-right).
 
 ```{figure} OpticsFigures/Figure_07_sphericalAberration_v03.png
 :width: 100%
@@ -393,19 +433,16 @@ The second lens effect results from the spherical shape of the lens surfaces. Th
 Left) Image impacted by spherical aberration. Notice how image center is crisp and in focus while edges are blurry. Center) Light rays through lens with spherical aberration and different focal points (and thus focal lengths) depending on distance from optical axis. Right) Light rays through lens without spherical aberration and a single focal point (and thus focal length) across the whole lens.
 ```
 
+#### ○ Aberration Experiments
 
-This experiment will examine the chromatic and spherical aberrations of simple, converging images. The chromatic aberration will be investigated by using color filters to permit the focal length measurement for specific colors. For the spherical aberration, the focal length will be determined by measuring the focal length of the lens when only certain rays are allowed through the lens. 
+Today's lab will examine both the chromatic and spherical aberrations of a simple, converging lens. The chromatic aberration will be investigated by using color filters to permit the focal length measurement for specific colors (red and blue). For the spherical aberration, the focal length will be determined by measuring the focal length of the lens when only certain rays are allowed through the lens. In one case, an outer-annulus (donut-shaped) light-blocking mask will allow only light rays through a central-aperture near the center of the lens. The second case will then have an inner-disk mask placed over the center of the lens that will allow only light rays through the edge-ring near the outer edge of the lens.
 
-In one case, an outer-annulus (donut-shaped) light-blocking mask will allow only light rays through a central-aperture near the center of the lens. The second case will then have an inner-disk mask placed over the center of the lens that will allow only light rays through the edge-ring near the outer edge of the lens.
-
-For each case, the object and image distances are measured, and the focal length determined via {eq}`eq-W2Beq1`.
-
-The linear magnification will be determined by measuring the object and image size and comparing that ratio to the ratio of the object and image distance.
 
 
 
 ### ● Equipment
 
+<!---
 The following equipment is shown in {numref}`fig_optics_022_setup_equip`.
 - 1.2 m black optics track to mount everything with built-in ruler
 - Light box with illuminated **object** on it (position along track ruler noted by indented metal aligned with the ruler on the optics track) with power brick
@@ -414,6 +451,23 @@ The following equipment is shown in {numref}`fig_optics_022_setup_equip`.
 - Red and blue filter --- attaches to light box (not shown)
 - Outer-annulus (donut-shaped) and inner-disk light-blocking masks ({numref}`fig_optics_023_setup_equip`) --- attaches to lens holder
 - Additional rulers as needed (see table at front of room)
+--->
+
+The following equipment is shown in {numref}`fig_optics_00_setup_equip` and {numref}`fig_optics_022_setup_equip`.
+
+```{table} Equipment
+:name: optics-equipment-table
+
+| Category | Items |
+|---|---|
+| **Optical Track System** | • 1.2 m black optics track with built-in ruler for positioning all components |
+| **Object Source** | • Light box with illuminated **object** mounted on track<br>• Position indicated by indented metal edge aligned with track ruler<br>• Includes power brick; plugs into bracket axle that holds light box |
+| **Lens System** | • Convex lens in lens holder<br>• Lens position marked by small plastic protrusion on holder (align with track ruler; lens centered in holder) |
+| **Image Screen** | • White viewing screen for displaying **image** |
+| **Filters** | • Red and blue filters (attach to light box; {numref}`fig_optics_024_setup_equip`) |
+| **Aperture Masks** | • Outer-annulus (donut-shaped) mask ({numref}`fig_optics_023_setup_equip`-E)<br>• Inner-disk light-blocking mask ({numref}`fig_optics_023_setup_equip`-F)<br>• Both attach to lens holder |
+| **Measurement Tools** | • Additional rulers as needed (see table at front of room) |
+```
 
 ```{figure} OpticsFigures/Figure_22_experimentalSetup_v02.png
 :width: 100%
@@ -421,6 +475,15 @@ The following equipment is shown in {numref}`fig_optics_022_setup_equip`.
 
 A) Light box and lens mounted on optics track. B) Object on the light box. C) Refracted image through the lens on the white screen. D) Lightpath through lens onto the white screen.
 ```
+
+```{figure} OpticsFigures/Figure_24_colorFilters_v02smaller.png
+:width: 100%
+:name: fig_optics_024_setup_equip
+
+Left) Red and blue filters. Right) Filters taped over illuminated object on light box.
+```
+
+
 
 ```{figure} OpticsFigures/Figure_23_experimentalSetup_v01.png
 :width: 100%
@@ -449,6 +512,7 @@ Investigate light refraction and geometric optics by measuring object (object-to
   - Part III: Spherical aberration (lens shape)
     - Edge-ring of light rays passing through edge of lens using an inner-disk light-blocking mask
     - Central-aperture of light rays passing through center of lens using outer-annulus light-blocking mask
+  - For each of the 12 cases today, the object and image distances are measured, and the focal length determined via {eq}`eq-W2Beq1`. The linear magnification ({eq}`eq-magnification`) will be determined by both measuring the object and image size and comparing that ratio to the ratio of the object and image distance.
 
 ```
 
@@ -557,6 +621,7 @@ Magnification for all parts without any color stuff
   - For your plot of image vs. object distances, where do the lines from each object/image pair converge?
     - Does that plot-derived value $\pm$ your estimated uncertainty from the plot agree with your average value for unfiltered focal lengths (Part I)?
     - On the plot, why do the lines converge?
+  - With regards to magnification, how does the image height relate to object distance? Did your magnification values from height measurements agree with those expected from object/image distances?
 
 
 
