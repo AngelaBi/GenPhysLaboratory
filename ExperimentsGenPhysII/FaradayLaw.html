@@ -411,7 +411,7 @@
 <li><p>Understand the relationship between magnetic flux and electro-motive force (EMF; effectively an induced voltage due to changes in magnetic flux)</p></li>
 </ul>
 </div>
-<p>Today’s experiment will cover two main parts. The first will focus on characterizing the magnetic field near the center of a horseshoe magnet for use later. It will continue by determining average voltage and magnetic flux of the induction wand (loops of wire) as it passes through the horseshoe magnet. The second part focuses on characterizing energy lost due to the induced EMF on a closed circuit in addition to frictional effects.</p>
+<p>Today’s experiment will cover two main parts. The first will focus on characterizing the magnetic field near the center of a horseshoe magnet for use later. It will continue by determining average EMF (voltage) and magnetic flux of the induction wand (loops of wire) as it passes through the horseshoe magnet. The second part focuses on characterizing energy lost due to the induced EMF on a closed circuit in addition to frictional effects.</p>
 <!--- 
 
 - In this experiment, you will:
@@ -599,7 +599,7 @@ Integrating {eq}`eq-faraday` gives:
 <h3>● Part I: Preliminary Setup<a class="headerlink" href="#part-i-preliminary-setup" title="Permalink to this heading">#</a></h3>
 <p>The experiment should be already set up for you as shown in <a class="reference internal" href="#fig-faraday-setup"><span class="std std-numref">Fig. 132</span></a>. If not, match the figure to include the magnetic pole plates (CAREFUL WITH FINGERS, ASK FOR ASSISTANCE AS NEEDED).</p>
 <figure class="align-center" id="fig-faraday-setup">
-<a class="reference internal image-reference" href="../_images/Figure_05_EMFSetup.png"><img alt="../_images/Figure_05_EMFSetup.png" src="../_images/Figure_05_EMFSetup.png" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="../_images/Figure_05_EMFSetup_v02.png"><img alt="../_images/Figure_05_EMFSetup_v02.png" src="../_images/Figure_05_EMFSetup_v02.png" style="width: 100%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 132 </span><span class="caption-text">Overall experimental setup consisting of induction wand mounted on the RMS as well as the horseshoe magnet. The cables connecting to the voltage sensor are plugged into the two jacks at the top of the wand.</span><a class="headerlink" href="#fig-faraday-setup" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -653,7 +653,7 @@ Integrating {eq}`eq-faraday` gives:
 <li><p>Record initial and final times (see <a class="reference internal" href="#fig-faraday-emfexample-withdemo"><span class="std std-numref">Fig. 134</span></a>).</p></li>
 </ul>
 </li>
-<li><p>Find the average voltage by highlighting the first peak from when voltage lifts off from zero and returns to zero.</p>
+<li><p>Find the average EMF <span class="math notranslate nohighlight">\((\mathcal{E}_\text{avg})\)</span> by highlighting the first peak from when voltage lifts off from zero and returns to zero:</p>
 <ul class="simple">
 <li><p>Find the experimental area under the curve of the voltage versus time graph for the first peak using the area tool <img alt="FaradayArea" src="../_images/FigCapstone_012_IntegralAreaTool.png" />.</p>
 <ul>
@@ -669,7 +669,7 @@ Integrating {eq}`eq-faraday` gives:
 </li>
 <li><p>Find change in Magnetic Flux through <em><strong>a single loop</strong></em></p>
 <ul class="simple">
-<li><p>Determine your experimental change in Magnetic flux for a single loop using your average EMF value and <a class="reference internal" href="#equation-eq-faraday-average">(151)</a>.</p></li>
+<li><p>Determine your experimental change in Magnetic flux for a single loop using your average EMF value and <a class="reference internal" href="#equation-eq-faraday-average">(151)</a> (think back to <a class="reference internal" href="#equation-eq-magnetic-flux">(148)</a> on what magnetic flux is).</p></li>
 <li><p>Calculate the expected change in magnetic flux for a single loop calling back to <a class="reference internal" href="#equation-eq-magnetic-flux">(148)</a>.</p></li>
 <li><p>Compare your experimental and expected values with a percent difference (reminder in <a class="reference internal" href="../Intro/ErrorAnalysis.html#erroranalysis-percentdiff-experimentalexpected"><span class="std std-ref">Difference Between Experimental and Expected Values</span></a>).</p></li>
 </ul>
@@ -709,15 +709,15 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 <section id="part-ii-energy-conservation-preliminary-setup">
 <h3>● Part II: Energy Conservation Preliminary Setup<a class="headerlink" href="#part-ii-energy-conservation-preliminary-setup" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p>In Capstone, go to the next page. On the left side, click on the calculator.</p>
+<li><p>Measure resistance of both the induction wand itself and the resistor itself.</p>
 <ul class="simple">
 <li><p>With the coil <em><strong>outside</strong></em> of the magnetic field, use an ohmmeter to:</p>
 <ul>
-<li><p>Measure the resistance of the coil in the induction wand. <em>Why must the coil be out of the field of the horseshoe magnet when measuring resistance?</em></p></li>
-<li><p>Verify the resistance of the <span class="math notranslate nohighlight">\(4.7\,\Omega\)</span> resistor.</p></li>
+<li><p>Measure the resistance <span class="math notranslate nohighlight">\(R\)</span> of the coil in the induction wand. <em>Why must the coil be out of the field of the horseshoe magnet when measuring resistance?</em></p></li>
+<li><p>Verify the resistance <span class="math notranslate nohighlight">\(r\)</span> of the <span class="math notranslate nohighlight">\(\sim 4.5-5\,\Omega\)</span> resistor.</p></li>
 </ul>
 </li>
-<li><p>Enter the accurate resistance values in the calculator and click accept. Finally click the calculator to close it. Before you start any additional trials, click the calculator to make sure the resistor values are correct and have not reverted to the default values.</p></li>
+<li><p>In Capstone, go to the next page. On the left side, click on the calculator. Update the resistance values in the calculator to be accurate to your setup and click accept. Finally click the calculator to close it. Before you start any additional trials, click the calculator to make sure the resistor values are correct and have not reverted to the default values.</p></li>
 </ul>
 </li>
 <li><p>Change the setup to match <a class="reference internal" href="#fig-resistor-overall-setup"><span class="std std-numref">Fig. 136</span></a>.</p>
@@ -735,12 +735,12 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 <ol class="arabic simple" start="3">
 <li><p>Connect the voltage sensor wires with the <span class="math notranslate nohighlight">\(4.7\,\Omega\)</span> resistor into the coil wand.</p>
 <ul class="simple">
-<li><p>Make sure for the first part (friction only), only half of the resistor is plugged so current does not flow, but the weight distribution stays consistent (see <a class="reference internal" href="#fig-resistor-overall-setup-unplugged"><span class="std std-numref">Fig. 137</span></a>).</p></li>
+<li><p>Make sure for the first part (friction only), only half of the resistor is plugged so current does not flow, but the weight distribution stays consistent (see <a class="reference internal" href="#fig-resistor-overall-setup-unplugged"><span class="std std-numref">Fig. 137</span></a>). <em>Check that the alignment generally matches the alignment you will have later when the resistor is plugged in (<a class="reference internal" href="#data-taking-energy-lost-due-to-resistor"><span class="std std-ref">○ Part II.1.B: Energy Lost due to Only Resistor</span></a>).</em></p></li>
 </ul>
 </li>
 </ol>
 <figure class="align-center" id="fig-resistor-overall-setup-unplugged">
-<a class="reference internal image-reference" href="../_images/Figure_07_resistorUnplugged_v02small.png"><img alt="../_images/Figure_07_resistorUnplugged_v02small.png" src="../_images/Figure_07_resistorUnplugged_v02small.png" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="../_images/Figure_07_resistorUnplugged_v03small.png"><img alt="../_images/Figure_07_resistorUnplugged_v03small.png" src="../_images/Figure_07_resistorUnplugged_v03small.png" style="width: 100%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 137 </span><span class="caption-text">This picture shows the resistor half plugged-in.</span><a class="headerlink" href="#fig-resistor-overall-setup-unplugged" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -769,12 +769,12 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 </ol>
 </section>
 <section id="part-ii-1-b-energy-lost-due-to-only-resistor">
-<h4>○ Part II.1.B: Energy Lost due to Only Resistor<a class="headerlink" href="#part-ii-1-b-energy-lost-due-to-only-resistor" title="Permalink to this heading">#</a></h4>
+<span id="data-taking-energy-lost-due-to-resistor"></span><h4>○ Part II.1.B: Energy Lost due to Only Resistor<a class="headerlink" href="#part-ii-1-b-energy-lost-due-to-only-resistor" title="Permalink to this heading">#</a></h4>
 <ol class="arabic simple" start="11">
-<li><p>Now connect the resistor by plugging in both plugs into the wand (<a class="reference internal" href="#fig-resistor-overall-setup-pluggedin"><span class="std std-numref">Fig. 139</span></a>).</p></li>
+<li><p>Now connect the resistor by plugging in both plugs in series with the wand (<a class="reference internal" href="#fig-resistor-overall-setup-pluggedin"><span class="std std-numref">Fig. 139</span></a>).</p></li>
 </ol>
 <figure class="align-center" id="fig-resistor-overall-setup-pluggedin">
-<a class="reference internal image-reference" href="../_images/Figure_08_resistorPlugged_v02small.png"><img alt="../_images/Figure_08_resistorPlugged_v02small.png" src="../_images/Figure_08_resistorPlugged_v02small.png" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="../_images/Figure_08_resistorPlugged_v03small.png"><img alt="../_images/Figure_08_resistorPlugged_v03small.png" src="../_images/Figure_08_resistorPlugged_v03small.png" style="width: 100%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 139 </span><span class="caption-text">The resistor fully plugged-in.</span><a class="headerlink" href="#fig-resistor-overall-setup-pluggedin" title="Permalink to this image">#</a></p>
 </figcaption>

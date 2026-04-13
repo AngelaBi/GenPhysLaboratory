@@ -13,7 +13,7 @@ Use a horseshoe magnet and a swinging coil of wire to:
 - Understand the relationship between magnetic flux and electro-motive force (EMF; effectively an induced voltage due to changes in magnetic flux)
 ```
 
-Today's experiment will cover two main parts. The first will focus on characterizing the magnetic field near the center of a horseshoe magnet for use later. It will continue by determining average voltage and magnetic flux of the induction wand (loops of wire) as it passes through the horseshoe magnet. The second part focuses on characterizing energy lost due to the induced EMF on a closed circuit in addition to frictional effects.
+Today's experiment will cover two main parts. The first will focus on characterizing the magnetic field near the center of a horseshoe magnet for use later. It will continue by determining average EMF (voltage) and magnetic flux of the induction wand (loops of wire) as it passes through the horseshoe magnet. The second part focuses on characterizing energy lost due to the induced EMF on a closed circuit in addition to frictional effects.
 
 <!--- 
 
@@ -228,7 +228,7 @@ Run Part II for narrow magnet spacing with magnetic plates **removed**.
 ### ● Part I: Preliminary Setup
 The experiment should be already set up for you as shown in {numref}`fig-faraday-setup`. If not, match the figure to include the magnetic pole plates (CAREFUL WITH FINGERS, ASK FOR ASSISTANCE AS NEEDED).
 
-```{figure} FaradayLawFigures/Figure_05_EMFSetup.png
+```{figure} FaradayLawFigures/Figure_05_EMFSetup_v02.png
 :name: fig-faraday-setup
 :width: 100%
 :align: center
@@ -291,7 +291,7 @@ Example of plots for this part.
 16. Enlarge the portion of the voltage vs. time graph where the coil passed through the magnet.
 17. Enable and use the Multi-coordinates tool ![RCCircuit_multicoordinateTool](../Intro/CapstoneFigures/FigCapstone_001_MultiCoordinateTool_v02.png) to determine the difference in time from the beginning to the end of the first peak.
     - Record initial and final times (see {numref}`fig-faraday-EMFExample_withDemo`).
-18. Find the average voltage by highlighting the first peak from when voltage lifts off from zero and returns to zero.
+18. Find the average EMF $(\mathcal{E}_\text{avg})$ by highlighting the first peak from when voltage lifts off from zero and returns to zero:
     - Find the experimental area under the curve of the voltage versus time graph for the first peak using the area tool ![FaradayArea](../Intro/CapstoneFigures/FigCapstone_012_IntegralAreaTool.png). 
       - See {numref}`fig-faraday-EMFExample_withDemo` and {numref}`fig-faraday-EMFExample`.
       - *You will have to CHANGE the tool properties number format to show sufficient significant digits.*
@@ -300,7 +300,7 @@ Example of plots for this part.
     - Compare your experimental and expected values with a percent difference (reminder in {ref}`errorAnalysis-percentDiff-experimentalExpected`).
     - Use $N = 200$ for the number of turns of the coil and $A = \pi r^2 = \pi (0.013\,\text{m})^2$ for its area.
 19. Find change in Magnetic Flux through ***a single loop***
-    - Determine your experimental change in Magnetic flux for a single loop using your average EMF value and {eq}`eq-faraday-average`.
+    - Determine your experimental change in Magnetic flux for a single loop using your average EMF value and {eq}`eq-faraday-average` (think back to {eq}`eq-magnetic-flux` on what magnetic flux is).
     - Calculate the expected change in magnetic flux for a single loop calling back to {eq}`eq-magnetic-flux`.
     - Compare your experimental and expected values with a percent difference (reminder in {ref}`errorAnalysis-percentDiff-experimentalExpected`).
 20. ***PLOT 1 of 2*** --- for just the first case ($1.5\,\text{cm}$): take a photo/screenshot of Capstone's Voltage vs. Time and related Angle vs. Time for one full swing (out and back, example in {numref}`fig-faraday-EMFExample`).
@@ -337,11 +337,15 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 
 ### ● Part II: Energy Conservation Preliminary Setup
 
-1. In Capstone, go to the next page. On the left side, click on the calculator.
+1. Measure resistance of both the induction wand itself and the resistor itself. 
     - With the coil ***outside*** of the magnetic field, use an ohmmeter to:
-      - Measure the resistance of the coil in the induction wand. *Why must the coil be out of the field of the horseshoe magnet when measuring resistance?*
-      - Verify the resistance of the $4.7\,\Omega$ resistor. 
-    - Enter the accurate resistance values in the calculator and click accept. Finally click the calculator to close it. Before you start any additional trials, click the calculator to make sure the resistor values are correct and have not reverted to the default values.
+      - Measure the resistance $R$ of the coil in the induction wand. *Why must the coil be out of the field of the horseshoe magnet when measuring resistance?*
+      - Verify the resistance $r$ of the $\sim 4.5-5\,\Omega$ resistor. 
+    - In Capstone, go to the next page. On the left side, click on the calculator. Update the resistance values in the calculator to be accurate to your setup and click accept. Finally click the calculator to close it. Before you start any additional trials, click the calculator to make sure the resistor values are correct and have not reverted to the default values.
+
+
+
+
 2. Change the setup to match {numref}`fig-resistor-overall-setup`.
     - Remove the magnet pole plates. (ASK FOR ASSISTANCE AS NEEDED) Move the magnets as close to each other as possible, making sure that you leave enough space for the coil to move through the gap.
 
@@ -355,10 +359,10 @@ This picture shows the overall setup for the current part. Note: magnetic pole p
 ```
 
 3. Connect the voltage sensor wires with the $4.7\,\Omega$ resistor into the coil wand.
-    - Make sure for the first part (friction only), only half of the resistor is plugged so current does not flow, but the weight distribution stays consistent (see {numref}`fig-resistor-overall-setup-unplugged`).
+    - Make sure for the first part (friction only), only half of the resistor is plugged so current does not flow, but the weight distribution stays consistent (see {numref}`fig-resistor-overall-setup-unplugged`). *Check that the alignment generally matches the alignment you will have later when the resistor is plugged in ({ref}`data-taking-energy-lost-due-to-resistor`).*
 
 
-```{figure} FaradayLawFigures/Figure_07_resistorUnplugged_v02small.png
+```{figure} FaradayLawFigures/Figure_07_resistorUnplugged_v03small.png
 :name: fig-resistor-overall-setup-unplugged
 :width: 100%
 :align: center
@@ -391,11 +395,12 @@ Example of plots for this part.
 
 10. Calculate the energy lost to friction using {eq}`eq-energy-lost-angle`.
 
+(data-taking-energy-lost-due-to-resistor)=
 #### ○ Part II.1.B: Energy Lost due to Only Resistor
 
-11. Now connect the resistor by plugging in both plugs into the wand ({numref}`fig-resistor-overall-setup-pluggedin`).
+11. Now connect the resistor by plugging in both plugs in series with the wand ({numref}`fig-resistor-overall-setup-pluggedin`).
 
-```{figure} FaradayLawFigures/Figure_08_resistorPlugged_v02small.png
+```{figure} FaradayLawFigures/Figure_08_resistorPlugged_v03small.png
 :name: fig-resistor-overall-setup-pluggedin
 :width: 100%
 :align: center
