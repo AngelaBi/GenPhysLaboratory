@@ -92,17 +92,20 @@ Setup with sine wave generator and string vibrator.
 
 ### ● Equipment
 
-- Sine wave generator. 1 -- 800 Hz with 0.1 Hz resolution. Coarse and fine adjustment knobs for 1 and 0.1 Hz increments. Amplitude knob to change how large the waves are (useful for keeping the string from hitting the table)
-- String vibrator
-- x2 banana-plug wires to connect sine wave generator to string vibrator
-- Meter sticks
-- Clamp to hold string vibrator to desk
-- 2 strings of different linear densities (yellow and white, $\sim 1 - 1.5\,\text{m}$ long)
-- Mass hanger with 200 g and 300 g disk masses
-- Low friction pulley to translate the weight of hanging mass to tension in the string
-- PASCO High-Resolution Force Sensor with a resoltuion of 0.002 N or 0.0002 kg.
+```{table} Equipment
+:name: waves-string-equipment-table
 
-
+| Category | Items |
+|---|---|
+| **Signal Generation** | • Sine wave generator $(1 - 800\,\text{Hz}$, $0.1\,\text{Hz}$ resolution)<br>• Coarse and fine adjustment knobs ($1\,\text{Hz}$ and $0.1\,\text{Hz}$ increments)<br>• Amplitude control to adjust wave size (decrease to prevent string from hitting table) |
+| **Wave Apparatus** | • PASCO String vibrator |
+| **Electrical Connections** | • 2x banana-plug wires to connect sine wave generator to string vibrator |
+| **Measurement Tools** | • Meter sticks ($1\,\text{m}$ and $2\,\text{m}$, additional on front wall) |
+| **Mounting Hardware** | • Clamp to secure string vibrator to desk |
+| **Strings** | • 2 strings of different linear densities (yellow and white)<br>• Length: $\sim 1-1.5\,\text{m}$ |
+| **Mass & Tension System** | • Mass hanger of $\sim 50\,\text{g}$ with $100\,\text{g}$ and $200\,\text{g}$ disk masses (at front table)<br> • Black, low-friction pulley to convert hanging mass into string tension |
+| **Force Measurement** | • PASCO High-Resolution Force Sensor<br>• Resolution: $0.002\,\text{N}$ or $0.0002\,\text{kg}$ |
+```
 
 
 ## Experimental Procedure
