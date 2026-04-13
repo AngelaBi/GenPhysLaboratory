@@ -512,8 +512,7 @@ Investigate light refraction and geometric optics by measuring object (object-to
   - Part III: Spherical aberration (lens shape)
     - Edge-ring of light rays passing through edge of lens using an inner-disk light-blocking mask
     - Central-aperture of light rays passing through center of lens using outer-annulus light-blocking mask
-  - For each of the 12 cases today, the object and image distances are measured, and the focal length determined via {eq}`eq-W2Beq1`. The linear magnification ({eq}`eq-magnification`) will be determined by both measuring the object and image size and comparing that ratio to the ratio of the object and image distance.
-
+  - For each of the 12 cases today (summarized in {numref}`optics-cases-table`), the object and image distances are determined, and the focal length determined via {eq}`eq-W2Beq1`. The linear magnification from {eq}`eq-magnification` will be determined by both measuring the image and object heights and comparing that ratio to the ratio of the image amd object distances.
 ```
 
 <!---
@@ -523,26 +522,137 @@ Investigate light refraction and geometric optics by measuring object (object-to
 
 --->
 
+```{table} Experimental Cases
+:name: optics-cases-table
+
+| Part | Case | Object Distance<br>$s_\text{object}$ (cm) | Filter / Mask | Notes |
+|---|---|---|---|---|
+| I.1 | 1 | $\infty$ | None | Unfiltered light |
+| I.2 | 2 | 11 | None | Unfiltered light |
+| I.2 | 3 | 13 | None | Unfiltered light |
+| I.2 | 4 | 25 | None | Unfiltered light |
+| I.2 | 5 | 40 | None | Unfiltered light |
+| I.2 | 6 | 55 | None | Unfiltered light |
+| I.2 | 7 | 70 | None | Unfiltered light |
+| I.2 | 8 | 85 | None | Unfiltered light |
+| II | 9 | 13 | Red filter | Chromatic aberration |
+| II | 10 | 13 | Blue filter | Chromatic aberration |
+| III | 11 | 13 | Inner-disk mask | Edge rays only (spherical aberration) |
+| III | 12 | 13 | Outer-annulus mask | Central rays only (spherical aberration) |
+```
 
 ### ● Part I: Unfiltered, Varied Object Distances
 
+#### ○ Part I: Preliminary Setup
 
-1. Using a distant object that you can assume to be effectively at 'infinity', measure the distance from the lens to the image (image distance). A distant object might be the sun, a tree outside the laboratory window, or at worst a light as distant as possible in the laboratory. Record your measurement or estimate of the object distance if it is not a very distance object. Measure and record the image distance as accurately as possible. Record the focal length found using {eq}`eq-W2Beq1` on the data sheet.
+1. Create a common data table including the expected focal length as written on the lens holder, object position on the optics track, object position uncertainty on the optics track, object height and its uncertainty. 
 
-2. Create a data table for magnification with columns for object distance, object height, image distance, image height, the focal length, the magnification calculated from the heights and the magnification calculated from the distances from the lens.
+2. Record the expected focal length. Prepare the light box on the optics track similar to {numref}`fig_optics_00_setup_equip`. The illuminated object position is set by placing the notch on the light box bracket to 0.0 cm on the optics track. Record this as the object position and estimate its uncertainty; this will be used for all trials today except the first for a distant object.
 
-3. On the optical bench, used for this and all succeeding steps, set up the illuminated object at 0.0 cm on the metric ruler along the track. Place the lens at 13.0 cm and move the screen to a position that produces the sharpest possible image. Record the object distance, which is measured from the light source to the lens. Also record the image distance, which is measured from the lens to the screen (not the location of the screen). Calculate and record the focal length using the object distance and the image distance. Is it consistent with the focal length measured with a distant object?
+3. Notice the horizontal arrow on the object has a mm-scale ruler ({numref}`fig_optics_022_setup_equip`-B). Using the outer circle as the object, determine and record its height $h_\text{object}$ (or width, just be consistent for comparative height measurements later) and estimate its uncertainty $\delta h_\text{object}$. Use a ruler as necessary to confirm size.
 
-POSITIONS using min max range and dteremine average and uncertainies....find focal lengths
+#### ○ Part I.1: Distant Object
 
+4. **Case 1:** Using a distant object that you can assume to be effectively at 'infinity', use the lens (in lens holder) to focus the object's image onto the white screen and determine the len's focal length. A distant object might be the sun, a tree outside the laboratory window, the windows on the other end of the atrium, or at worst a light as distant as possible in the laboratory. 
+    - Estimate the object distance $s_\text{object}$, especially if it is not a very distance object. 
+    - Measure and record the image distance $s_\text{image}$ and estimate its uncertainty ($\delta s_\text{image}$) as accurately as possible. 
+    - Calculate the len's focal length $f$ using {eq}`eq-W2Beq1`.
+    - Calculate the uncertainty $\delta f$ by maximizing and taking the difference (e.g. $\delta f = 1/(1/(s_\text{image} + \delta s_\text{image})) - f$).
+    - Compare your experimental $f \pm \delta f$ to the expected focal length on the lens holder by calculating the difference between the two (**not** percent difference, just actual magnitude of the difference).
+
+
+#### ○ Part I.2: Objects at Finite Distances
+
+5. **Cases 2 -- 8:** Create a data table for finding focal lengths and magnification with columns for (but not limited to):
+    - lens position and its uncertainty
+    - image position minimum and maximum
+    - image position and its uncertainty
+    - object distance and its uncertainty
+    - image distance and its uncertainty
+    - focal length and its uncertainty
+    - difference between experimental and expected focal lengths
+    - image height minimum and maximum
+    - image height and its uncertainty
+    - magnification and its uncetainty as calculated from image & object heights
+    - magnification and its uncertainty as calculated from image & objects distances
+<!---
+    - lens position
+    - lens poisiton uncertainty
+    - image position minimum and maximum
+    - image position
+    - image position uncertainty
+    - object distance
+    - object distance uncertainty
+    - image distance
+    - image distance uncertainty
+    - focal length
+    - focal length uncertainty
+    - difference between experimental and expected
+    - object height
+    - object height uncertainty
+    - image height minimum
+    - image height maximum
+    - image height
+    - image height uncertainty
+    - magnification calculated from heights
+    - magnification from heights uncertainty
+    - magnification calculated from distances
+    - magnification from distances uncertainty
+--->
+
+
+6. On the optical bench, used for this and all succeeding steps, construct the setup to be similar to {numref}`fig_optics_00_setup_equip` with the lens and screen back on the optics track. 
+
+7. Starting with case 2 in {numref}`optics-cases-table`, place the lens at the stated distance from the object (if object is at 0.0 cm, then lens position is same as object distance). Record the lens position and estimate its uncertainty.
+
+8. Move the screen to a position that produces the sharpest possible image. Determine the image position and its uncertainty by:
+    - shifting the screen closer to the lens until you are no longer confident the image is in focus. Record the minimum image position.
+      - before moving the screen away from this position, use a ruler to measure and record the minimum image height.
+    - shifting the screen further away from the lens until you are again no longer confident the image is in focus. Record the maximum image position.
+      - before moving the screen away from this position, use a ruler to measure and record the maximum image height.
+
+9. Calculate the object distance $s_\text{object}$ (from illuminated object to lens) as the difference between the lens and object positions. Calculate the object distance uncertainty $\delta s_\text{object}$ as the sum of these two position's uncertainties (why does it make sense to add these; what is the largest range?).
+
+10. Similarly calculate the image distance $s_\text{image}$ (from lens to image on screen) as the difference between the image and lens positions. Calculate the image distance uncertainty $\delta s_\text{image}$ as the sum these two positions' uncertainties. 
+
+11. Calculate the focal length $f$ using {eq}`eq-W2Beq1`. Calculate the uncertainty $\delta f$ by maximizing and taking the difference (e.g. $\delta f = 1/(1/(s_\text{object} + \delta s_\text{object}) + 1/(s_\text{image} + \delta s_\text{image})) - f$).
+
+12. Compare your experimental $f \pm \delta f$ to the expected focal length on the lens holder by calculating the difference between the two (**not** percent difference, just actual magnitude of the difference). Is it also consistent with the focal length measured with a distant object?
+
+13. Using the min and max image heights (based on the min and max image positioning), calculate the image height and its uncertainty by:
+    - $h_\text{image} = (h_\text{image,max} + h_\text{image,min}) / 2$
+    - $\delta h_\text{image} = (h_\text{image,max} - h_\text{image,min}) / 2$
+
+14. Using **image and object heights**, calculate the image magnification $m$ with {eq}`eq-magnification` (left side of equation). Calculate the uncertainty $\delta m$ by maximizing and taking the difference (e.g. $\delta m = ((h_\text{image} + \delta h_\text{image}) / (h_\text{object} - \delta h_\text{object})) - m$).
+
+15. Using **image and object distances**, similarly calculate the image magnification $m$ with {eq}`eq-magnification` (right side of equation). Calculate the uncertainty $\delta m$ by maximizing and taking the difference (e.g. $\delta m = (-(s_\text{image} + \delta s_\text{image}) / (s_\text{object} - \delta s_\text{object})) - m$). Do the two magnification methods agree; if not, why?
+
+
+<!--- 
 4. Only for non-filtered cases, measure the length of one of the arrows or circles on the object and measure the length of the same arrow or circle on the image and record them as $h_\text{object}$ and $h_\text{image}$ respectively. Calculate the resulting magnification with {eq}`eq-magnification`. 
 5. Create a data table with columns for object distance, image distance, and focal length from {eq}`eq-W2Beq1`. Include rows for the red filter, the blue filter, the disk and the annulus. The lenses have only a little chromatic aberration and spherical aberration, so you will need to be careful locating the screen at the best focus.
 
+--->
 
-8. Repeat steps 3 and 4 using the lens without the filters and without the annulus or disk. Add more rows to the data table using the object distances: 11 cm, 13 cm, 25 cm, 40 cm, 55 cm, 70 cm, and 85 cm. Calculate the average focal length and its standard deviation.
+16. Repeat steps 7 -- 15 for the rest of the unfiltered cases ({numref}`optics-cases-table`).
 
-9. Set up a series of object and image distances and record the data points. Since the object and image can always be interchanged, each measurement of an object-image distance pair represents two data trials. Construct a graph where one axis is the image distance and the other is the object distance. For a particular data point, plot the object distance on the object axis and the image distance on the image axis. Connect the two points with a straight line. Repeat this process for each of your object-image data trials. In the ideal case, all of the lines should intersect at the point $(f,f)$. Visually estimate the point $(s_\text{object},s_\text{image})$ closest to the intersections and estimate the focal length by $f=(s_\text{object}+s_\text{image})/2$. Compare this determination of the focal length with the values from steps 8, 1 and 3.
+17. Calculate the average focal length and average of the uncertainties. Do all unfiltered cases agree? Any that do not?
 
+
+18. ***PLOT*** Object vs. Image distances:
+    - Construct a graph where one axis is the object distances and the other is their related image distances. 
+    - It is suggested to do this by hand; graph paper is available at front of room. Mini example at bottom of {numref}`optics_whiteboard_01`.
+    - For each of Case 2 -- 8, plot the object distance on the object axis, its the image distance on the image axis. Connect the two points with a straight line. 
+    - In the ideal case, all of the lines should intersect at the point $(f,f)$. Visually estimate the point $(s_\text{object,plot},s_\text{image,plot})$ closest to the intersections, estimate the focal length by $f=(s_\text{object,plot}+s_\text{image,plot})/2$. Then, draw a circle around the intersection, and use its radius to estimate $\delta f$. Compare this determination to your average $f$ from cases 2 -- 8.
+
+<!---
+18. ***PLOT*** Object vs. Image distances:
+ Set up a series of object and image distances and record the data points.  Since the object and image can always be interchanged, each measurement of an object-image distance pair represents two data trials.
+    - Construct a graph where one axis is the object distances and the other is their related image distances.
+    - For each of Case 2 -- 8, plot the object distance on the object axis, its the image distance on the image axis. Connect the two points with a straight line. 
+Repeat this process for each of your object-image data trials.
+In the ideal case, all of the lines should intersect at the point $(f,f)$. Visually estimate the point $(s_\text{object},s_\text{image})$ closest to the intersections and estimate the focal length by $f=(s_\text{object}+s_\text{image})/2$. Compare this determination of the focal length with the values from steps 8, 1 and 3.
+ --->
 
 
 
@@ -552,42 +662,21 @@ POSITIONS using min max range and dteremine average and uncertainies....find foc
 6. Repeat step 3 using first the red and then the blue filter in front of the object. While leaving the lens fixed at an $s_\text{object} = 13\,\text{cm}$, move the screen to produce the best focused image. Carefully record only the object and image distances and determine the 'red focal length' and the 'blue focal length.'
 --->
 
-7. Repeat step 3 with the lens placed at a 13 cm object distance $(s_\text{object} = 13\,\text{cm})$. Use the two color filters, red and blue, to determine the focal lengths of red and blue light.
+19. Repeat steps 7 -- 15 for Cases 9 and 10 with the lens placed at a 13 cm object distance $(s_\text{object} = 13\,\text{cm}).$ Use the two color filters, red and blue, to determine the focal lengths and magnification of red and blue light. 
+    - Case 9: Hang/tape the red filter directly in front of the light-box object so all light used to form the image is red. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and magnifications and their uncertainties.
+    - Case 10: Same thing, but now blue.
+    - Compare both, is one $f$ longer than the other? Physically, why might you expect that? What about $m$?
 
-8. Hang the red filter directly in front of the light-box object so all light used to form the image is red. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and focal length uncertainty.
-
-8. Hang the blue filter directly in front of the light-box object so all light used to form the image is blue. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and focal length uncertainty.
 
 
 
 ### ● Part III: Spherical Aberration
 
 
-7. Repeat step 3 with the lens placed at a 13 cm object distance $(s_\text{object} = 13\,\text{cm})$. Use the two light-blocking masks, inner-disk and outer-annulus, to determine the focal lengths of the edge-ring and central-aperture light rays.
-
-8. Center the inner-disk mask in front of the lens so only rays near the outer edge of the disk are being used to form the image. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and focal length uncertainty.
-
-9. Replace the inner-disk mask with the outer-annulus mask so now only the rays near the center of the lens are used to form the image. Again, move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and focal length uncertainty.
-
-
-
-
-
-
-
-<!---
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-Magnification for all parts without any color stuff
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-!!!!!! Add back in the by-hand graphing of image and object distances to determine focal length
-
-!!!!!!!!!!!!
-
---->
+20. Repeat steps 7 -- 15 for Cases 11 and 12 with the lens still placed at a 13 cm object distance $(s_\text{object} = 13\,\text{cm})$. Use the two light-blocking masks, inner-disk and outer-annulus, to determine the focal lengths and magnification of the edge-ring and central-aperture light rays.
+    - Case 11: Center the inner-disk mask in front of the lens so only rays near the outer edge of the disk are being used to form the image. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and magnifications and their uncertainties.
+    - Case 11: Same thing, but with outer-annulus mask allowing only rays near the center of the lens to form the image.
+    - Compare both, is one $f$ longer than the other? Physically, why might you expect that? What about $m$?
 
 
 
@@ -598,7 +687,7 @@ Magnification for all parts without any color stuff
   - Make sure to submit your finalized data table (Excel sheet).
   - Please include concise summary table.
   - Please include plot:
-    - One plot, ***hand-drawn***, with all non-$\infty$ object distances paired with respective image distances from Part I (unfiltered).
+    - One plot, ***preferrably hand-drawn***, with all non-$\infty$, object distances paired with respective image distances from Part I (unfiltered Cases 2 -- 8).
 
 
 
@@ -613,15 +702,17 @@ Magnification for all parts without any color stuff
 - In a **paragraph**, summarize the results you have determined for all cases. Consider:
   - What was the point of today's lab; what did we aim to discover?
   - How do your focal lengths from each set compare? Do they agree based on your uncertainties? Are there any outliers, why/why not?
-    - Object distance of distant object ($\infty$) vs. 13 cm trial?
-    - Object distance: All non-$\infty$ unfiltered trials?
+    - Object distance of distant object ($\infty$) vs. 13 cm case?
+    - Object distance: All non-$\infty$ unfiltered cases?
     - Object distance of 13 cm for unfiltered vs. red vs. blue vs. disk vs. annulus?
   - For chromatic aberration (Part II): physically, why should the focal length from the red or blue filter be shorter or longer?
   - For spherical aberration (Part III): Physically, why does the disk or annulus filtered light produce a shorter or longer focal length?
   - For your plot of image vs. object distances, where do the lines from each object/image pair converge?
     - Does that plot-derived value $\pm$ your estimated uncertainty from the plot agree with your average value for unfiltered focal lengths (Part I)?
     - On the plot, why do the lines converge?
-  - With regards to magnification, how does the image height relate to object distance? Did your magnification values from height measurements agree with those expected from object/image distances?
+  - With regards to magnification:
+    - How does the image height relate to object distance? 
+    - Did your magnification values from height measurements agree with those expected from object & image distances? How does magnification relate to object and image distances?
 
 
 
