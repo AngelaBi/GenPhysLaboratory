@@ -3,7 +3,18 @@
 
 ## Background
 
-### Measurements
+### ● Background Overview
+
+```{admonition} OVERALL GOALS
+:class: note
+Review and understand:
+- How to take length and mass measurements
+- Characterizing measurement uncertainties due to instrument precision
+- Characterizign measurement uncertainties with standard deviation
+```
+
+
+#### ○ Measurements
 
 Physical measurements are more than a simple numerical value. They are specified by:
 
@@ -38,32 +49,34 @@ V=l \cdot w \cdot h
 ```
 
 
-### Estimating Error
+#### ○ Estimating Error
 
 The accuracy of a measurement depends on the limits of the instrument, and on skill in using the instrument.
 One estimate of the accuracy of a measurement is to independently repeat the measurement multiple times and observe the **range and standard deviation of the results**. Another approach is to determine the **instrument tolerance or precision**.
 
 Measurement errors change calculated or derived results in different ways, depending on how the quantities enter equations.
-For example, if the measured mass is larger than the actual mass, then the calculated density will also be larger.
+For example, if the measured mass is larger than the actual mass, then the calculated density will also be larger that the actual density.
 Suppose, on-the-other-hand, that the measured volume is larger than the actual volume. Because the volume appears in the denominator of {eq}`M00_intro_Eq01`, the calculated density will be reduced. 
 
 
 ## Experimental Procedure
 
+### ● Preview
 
-
-```{admonition} OVERVIEW
+```{admonition} PROCEDURE OVERVIEW
 :class: note
-- Understand how to take length and mass measurements.
-- Understand how to characterize measurement uncertainties due to instrument precision.
-- Understand how to characterize measurement uncertainties with standard deviation.
-- Each member of the lab group will independently measure the length, width, height, and mass of four provided dominoes per group (i.e. each lab group gets one pink, one green, one orange, and one blue domino).
+Each member of the lab group will independently measure the 
+- length, width, height, and mass of four provided dominoes per group (i.e. each lab group gets one pink, one green, one orange, and one blue domino).
+- Determine measurement uncertainties from tool limitations (precision)
+- Characterize uncertainties with standard deviation
+- The density of the dominoes' plastic and water are roughly the same. Estimate the value you expect in SI units (kg/m³).
 ```
 
-```{admonition} Notes
-:class: note
+<!--- add exapmle of % difference or % change to know what it is, or not yet?--->
+
+```{admonition} Good Practice
+:class: tip
  - It is good practice to **complete the analysis of trials or cases as you do the experiment**. If there is some error in your experimental method or in your calculations, you can correct it before completing all the other trials. The rows with their Excel formulas for later trials can be created by copying the first trial.
-- The density of the dominoes' plastic and water are roughly the same. Estimate the value you expect in SI units (kg/m³).
 ```
 
 ```{figure} IntroLabFigures/M0_dominos.jpg
@@ -183,7 +196,7 @@ Based on your data, do you expect some or all of the dominos to float, sink, or 
 Example data tables are shown below to assist you in building your spreadsheet for this first lab. Additionally the original whiteboard summary is at the end of this section.
 
 (common-data)=
-### Common Data
+### ● Common Data
 
 | Variable (units) | Value |
 |------------------------|---|
@@ -193,7 +206,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 ---
 
 (trial-data)=
-### Trial Data
+### ● Trial Data
 
 | Trial number | Group Member Initials | Color  | Length (measurement units, mm) | Width (measurement units, mm) | Height (measurement units, mm) | Mass  (measurement units, g) | Length (SI units) | Width (SI units) | Height (SI units) | Mass (SI units) | Volume (SI units) | Min Volume (SI units) | Max Volume (SI units) | Density (SI units) | Min Density (SI units) | Max Density  (SI units) |
 |--------------|------------------------|--------|-------------|------------|-------------|----------|------------|-----------|------------|-----------|-------------|-----------------|-----------------|-----------------|---------------------|---------------------|
@@ -213,7 +226,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 ---
 
 (analysis-table-1-by-color)=
-### Analysis Table 1 (by color)
+### ● Analysis Table 1 (by color)
 
 |                | Length (units) | Width (units) | Height (units) | Mass (units) | Volume (units) | Density (units) | Did it float? |
 |----------------|--------|-------|--------|------|--------|---------|---------------|
@@ -228,7 +241,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 ---
 
-### Analysis Table 2 (by person)
+### ● Analysis Table 2 (by person)
 
 |         | Length (units) | Width (units) | Height (units) | Mass (units) | Volume (units) | Density (units) |
 |---------|--------|-------|--------|------|--------|---------|
@@ -240,7 +253,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 | EF stdev|        |       |        |      |        |         |
 
 
-### Original Whiteboard Info
+### ● Original Whiteboard Info
 
 ```{figure} IntroLabFigures/IntroDominos_2024_Fall_01.jpg
 :name: introDominoFig

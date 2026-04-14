@@ -553,9 +553,10 @@ Investigate light refraction and geometric optics by measuring object (object-to
 
 #### ○ Part I.1: Distant Object
 
-4. **Case 1:** Using a distant object that you can assume to be effectively at 'infinity', use the lens (in lens holder) to focus the object's image onto the white screen and determine the len's focal length. A distant object might be the sun, a tree outside the laboratory window, the windows on the other end of the atrium, or at worst a light as distant as possible in the laboratory. 
+4. **Case 1:** Using a distant object that you can assume to be effectively at 'infinity', use the lens (in lens holder) to focus the object's image onto the white screen and determine the len's focal length. A distant object might be the sun, a tree outside the laboratory window, the windows on the other end of the atrium, or at worst a light as distant as possible in the laboratory.
+    - Take the lens and screen from the optics track, go find your distant object.
     - Estimate the object distance $s_\text{object}$, especially if it is not a very distance object. 
-    - Measure and record the image distance $s_\text{image}$ and estimate its uncertainty ($\delta s_\text{image}$) as accurately as possible. 
+    - Measure and record the image distance $s_\text{image}$, and estimate its uncertainty ($\delta s_\text{image}$) as accurately as possible. 
     - Calculate the len's focal length $f$ using {eq}`eq-W2Beq1`.
     - Calculate the uncertainty $\delta f$ by maximizing and taking the difference (e.g. $\delta f = 1/(1/(s_\text{image} + \delta s_\text{image})) - f$).
     - Compare your experimental $f \pm \delta f$ to the expected focal length on the lens holder by calculating the difference between the two (**not** percent difference, just actual magnitude of the difference).
@@ -622,6 +623,7 @@ Investigate light refraction and geometric optics by measuring object (object-to
 13. Using the min and max image heights (based on the min and max image positioning), calculate the image height and its uncertainty by:
     - $h_\text{image} = (h_\text{image,max} + h_\text{image,min}) / 2$
     - $\delta h_\text{image} = (h_\text{image,max} - h_\text{image,min}) / 2$
+    - IF $\delta h_\text{image}$ as calculated above is less than the precision of your measurement tool (likely a ruler), treat $\delta h_\text{image} = \text{precision}$
 
 14. Using **image and object heights**, calculate the image magnification $m$ with {eq}`eq-magnification` (left side of equation). Calculate the uncertainty $\delta m$ by maximizing and taking the difference (e.g. $\delta m = ((h_\text{image} + \delta h_\text{image}) / (h_\text{object} - \delta h_\text{object})) - m$).
 
