@@ -114,7 +114,7 @@ With the required balancing current determined along with the other dimensions o
 | **Current Measurement** | • Fluke multimeter used as AC ammeter ($\tilde{\text{A}}$, ![alt text](../Intro/IntroductionFigures/FigExtra_034_ACCurrent_v01.png)), connected **in series** with circuit<br>• One lead in **10 A** port ![alt text](../Intro/IntroductionFigures/FigExtra_031_HighAmp_v01.png), other lead to **COM** port ![alt text](../Intro/IntroductionFigures/FigExtra_033_COM_v01.png) |
 | **Masses & Tools** | • Small masses (5, 20, 50, 100, 200 mg)<br>• Plastic tweezers for handling masses |
 | **Parallel-Conductor Apparatus** | • Bottom conductor fixed in place<br>• Top conductor free to swing vertically when current or mass changes<br>• Adjust so conductors are parallel when **0 mg** is applied<br>• Mirror used with telescope to read ruler and determine balance beam angle<br>• Beam lift knobs to reset top conductor position<br>• Leveling screws to level apparatus |
-| **Electrical Connections** | • 4× banana plug wires (12 AWG)<br> • 2× 1 ft<br> • 2× 3 ft<br>• Connect transformer $\rightarrow$ ammeter $\rightarrow$ parallel-conductor apparatus |
+| **Electrical Connections** | • 4x banana plug wires (12 AWG)<br> • 2x 1 ft<br> • 2x 3 ft<br>• Connect transformer $\rightarrow$ ammeter $\rightarrow$ parallel-conductor apparatus |
 | **Additional Equipment** | • Protective box with mirror-to-scale distance written on it |
 ```
 

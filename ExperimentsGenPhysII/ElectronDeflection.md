@@ -77,7 +77,7 @@ By combining the above {eq}`eq_acceleration_y`, {eq}`eq_velocity_y`, and {eq}`eq
 v_\text{Y}=\frac{e V_\text{d}}{M_e d}\left(\frac{l}{v_\text{Z}}\right)
 ```
 
-Referring to {numref}`E3Fig01`, the actual on-screen deflection $D$ from the axis is $v_\text{Y}$ times the time of flight, $t^\prime$, over the distance $L$ from the end of the deflection plates to the screen. Assuming that $L\gg l$, then the time of flight $t^\prime = L/v_\text{Z}$. Since distance equals velocity × time, we get
+Referring to {numref}`E3Fig01`, the actual on-screen deflection $D$ from the axis is $v_\text{Y}$ times the time of flight, $t^\prime$, over the distance $L$ from the end of the deflection plates to the screen. Assuming that $L\gg l$, then the time of flight $t^\prime = L/v_\text{Z}$. Since distance equals velocity $\times$ time, we get
 
 ```{math}
 :label: eq_deflection_basic
