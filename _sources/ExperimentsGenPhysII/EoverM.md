@@ -72,18 +72,19 @@ Throughout the following procedure, you will experimentally characterize the Hel
 
 
 
-#### ○ Equipment
-
-- Helmholtz coils, empty **(DIFFERENT SET OF COILS THAN PART II, DO NOT REMOVE THE BULBS!)**
-  - Wire wound in two large coils of 130 turns each, spaced one radius apart for consistent B-field
-  - **NO** cathode ray vacuum bulb (**do not remove the bulbs**)
-- Low voltage DC power supply, 0 -- 24 V which runs current through the wire coils to generate a magnetic field
-- Fluke multimeter in series, set to read DC current of the coils
-- PASPORT 2-Axis Magnetic Field Sensor
-  - *Axial* measures positive B-field into the end of the probe (see schematic on probe housing)
-  - *Perpendicular* measures positive B-field upwards through the probe
+#### ○ Equipment (Part I)
 
 
+```{table} Equipment for Part I
+:name: helmholtz-field-partI-equipment-table
+
+| Category | Items |
+|---|---|
+| **Magnetic Field<br>Apparatus** | • Helmholtz coils, empty (**different set from Part II; do not remove bulbs**)<br>• Two coils with 130 turns each, separated by one radius for uniform $B$-field<br>• **No** cathode ray vacuum bulb present |
+| **Power Supply** | • Low voltage DC power supply $(0 - 24\,\text{V})$<br>• Drives current through coils to generate magnetic field |
+| **Current Measurement** | • Fluke multimeter connected in series through $10\text{A}$ fuse<br>• Set to measure DC current through coils |
+| **Magnetic Field<br>Measurement** | • PASPORT 2-Axis Magnetic Field Sensor<br>• *Axial*: positive $B$ into end of probe<br>• *Perpendicular*: positive $B$ upward through probe towards tare-button side<br>• Axial used to measure max $B$-field near center of coils |
+```
 
 ### ● Experimental Procedure (Part I)
 
@@ -226,24 +227,20 @@ Left) Helmholtz coils with vacuum bulb in place (first experiment). Center) Helm
 ```
 --->
 
-#### ○ Equipment
+#### ○ Equipment (Part II)
 
-- Helmholtz coils with cover and bulb
-  - Wire wound in two large coils of 130 turns each, spaced one radius apart for consistent B-field
-  - Cathode ray bulb at low-pressure/near-vacuum (source of electron beam, a.k.a. "vacuum bulb" throughout today's lab manual)
-  - Repositionable ruler with a mirror to view electron beam position
-- Low voltage DC power supply, 0 -- 24 V which runs current through the wire coils to generate a magnetic field
-- High voltage DC power supply
-  - 0 -- 500 V, accelerates the electrons straight ahead from the cathode
-  - $\sim6\,\text{V}$ AC power to heat up the cathode and generate electrons
-- x2 Fluke multimeters --
-  - One in series, set to read DC current of the coils
-  - One in parallel to read DC voltage of accelerating voltage of the electrons
-- Flashlights
-- 3x 3' banana-plug cables
-- 5x 2' banana-plug cables
-- 3x 1' banana-plug cables
+```{table} Equipment list for Part II
+:name: helmholtz-partII-magfield-equipment-table
 
+| Category | Items |
+|---|---|
+| **Magnetic Field Apparatus** | • Helmholtz coils with cover and bulb<br>• Two coils with 130 turns each, separated by one radius for uniform $B$-field<br>• Cathode ray (near-vacuum) bulb: low-pressure electron beam source (a.k.a. "vacuum bulb" throughout today's lab manual)<br>• Repositionable ruler with mirror for viewing electron beam position |
+| **Low Voltage Supply** | • DC power supply $(0 - 24\,\text{V})$<br>• Drives current through coils to generate magnetic field |
+| **High Voltage Supply** | • DC power supply $(0 - 500\,\text{V})$ to accelerate electrons<br>• $\sim 6\,\text{V}$ AC supply to heat cathode (electron emission) |
+| **Electrical Measurement** | • 2x Fluke multimeters:<br> • One in series to measure coil current (DC, same as in Part I)<br> • One in parallel to measure accelerating voltage (DC) |
+| **Accessories** | • Flashlights (to help see ruler when taking beam position measurements) |
+| **Electrical Connections** | • 3x 3' banana-plug cables<br>• 5x 2' banana-plug cables<br>• 3x 1' banana-plug cables |
+```
 
 ### ● Experimental Procedure (Part II)
 

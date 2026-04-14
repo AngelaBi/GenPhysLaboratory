@@ -103,7 +103,7 @@ The behavior of the current $I$ is found directly from this:
 ```{math}
 I=-\frac{dQ}{dt}=\frac{V_{0}}{R}e^{-\frac{t}{RC}}
 ```
-The product $RC$ has the units of time (Ω × F); we can verify this by using dimensional analysis:
+The product $RC$ has the units of time $(\Omega \time F)$; we can verify this by using dimensional analysis:
 
 ```{math}
 RC\rightarrow \frac{V}{I}\times \frac{Q}{V}\rightarrow \frac{Q}{I}\rightarrow Q\times \frac{t}{Q}\rightarrow t
@@ -195,22 +195,6 @@ Left) Schematic of circuit charging the capacitor. Right) Schematic of CC circui
 The general setup with electrical schematic can be seen in {numref}`fig-rc-setup`, with the voltmeter attached on either side of the capacitor section of the circuit. Capacitors to be experimentally determined, resistors to be treated as known constants, and wire and jumper bars are shown in {numref}`fig-rc-setup_capacitors_resistors`.
 
 
-<!---
-- Two *known* (with ohmmeter) ceramic/metal-film resistors ($R_{1\text{,brown}}$, $R_{2\text{,blue}}$)
-- Two to-be-determined capacitors ($C_{1\text{,big}}$, $C_{2\text{,small}}$)
-- Pasco modular circuit kit
-  - 4× Corner module
-  - 1× T-junction module
-  - 1× Straight-line module
-  - 2× AA battery module
-  - 3× Spring clip modules (to attach individual resistors, capacitors, jumper bar)
-  - 1× Single-pole double-throw (SPDT) switch module to open and close circuit during charging of capacitors, and discharging of capacitors through resistors
-  - 13× U-shaped jumper clips to connect the different modules
-- Voltmeter via Capstone -- connected to the jumper clips the on either side of the capacitors with alligator clips
-- Fluke multimeter with alligator clips
-  - Use as Ohmmeter (Ω) to measure resistors' resistance to be treated as known values
-  - Use as capacitance meter (F) to measure capacitors' actual capacitance to compare experimental values to later on
---->
 
 
 ```{table} Equipment
@@ -218,9 +202,9 @@ The general setup with electrical schematic can be seen in {numref}`fig-rc-setup
 
 | Category | Items |
 |----------|-------|
-| **Resistors** | • 2× ceramic/metal-film resistors: $R_{1\text{,brown}}$, $R_{2\text{,blue}}$ |
-| **Capacitors** | • 2× capacitors: $C_{1\text{,big}}$, $C_{2\text{,small}}$ |
-| **PASCO Modular Circuit Kit** | • 4× corner modules <br> • 1× T-junction module <br> • 1× straight-line module <br> • 2× AA battery modules <br> • 3× spring clip modules (attach resistors, capacitors, jumper bar) <br> • 1× SPDT switch module (change circuits to charge / discharge capacitors <br> • 13× U-shaped jumper clips |
+| **Resistors** | • 2x ceramic/metal-film resistors: $R_{1\text{,brown}}$, $R_{2\text{,blue}}$ |
+| **Capacitors** | • 2x capacitors: $C_{1\text{,big}}$, $C_{2\text{,small}}$ |
+| **PASCO Modular Circuit Kit** | • 4x corner modules <br> • 1x T-junction module <br> • 1x straight-line module <br> • 2x AA battery modules <br> • 3x spring clip modules (attach resistors, capacitors, jumper bar) <br> • 1x SPDT switch module (change circuits to charge / discharge capacitors <br> • 13x U-shaped jumper clips |
 | **Measurement Device ("actual")** | • Fluke multimeter with alligator clips (for "actual" values) <br> • ![alt text](../Intro/IntroductionFigures/FigExtra_038_Resistance_v01.png): measure "actual" resistor values <br> • ![alt text](../Intro/IntroductionFigures/FigExtra_039_Capacitance_v01.png): measure "actual" capacitor values for later experimental comparison |
 | **Experimental Voltage Measurement** | • Capstone voltmeter (Connected across capacitors using alligator clips on jumper bars) |
 ```
@@ -336,7 +320,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
     - $(C_1+C_2)_{\text{series}}$: Capacitors in series
 
 2. Measure and record:
-    - "actual" resistance values with the Fluke multimeter set to measure resistance (Ω or ![alt text](RCCircuitFigures/E5_Fig_007_Capacitance_v01.png), check units/range)
+    - "actual" resistance values with the Fluke multimeter set to measure resistance $(\Omega$ or ![alt text](RCCircuitFigures/E5_Fig_007_Capacitance_v01.png), check units/range)
     - "actual" capacitance values of your capacitors (both single and in parallel and series) for comparisons to experimental data later; use the Fluke multimeter set to measure farads (use the yellow alternate function of the ohmmeter, ![alt text](RCCircuitFigures/E5_Fig_007_Capacitance_v01.png), check units/range).
       ```{admonition} Multimeter Measurement Tips
       :class: tip

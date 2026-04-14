@@ -223,7 +223,7 @@ Depicted across {numref}`E1Fig_00` -- {numref}`E1Fig_02`. All equipment as liste
       - High impedance ($1\,\text{M}\Omega$) resistor to limit current (contained in long gray box, shouldn't need to touch)
   - Leveling screws to level whole apparatus to the table
   - Metal connections to the power supply
-- x5 Banana plug wires (12 AWG: x2 3', x1 1'; 18 AWG: x2 2'), connecting power supply to voltmeter & parallel-plate apparatus
+- 5x Banana plug wires (12 AWG: 2x 3', 1x 1'; 18 AWG: 2x 2'), connecting power supply to voltmeter & parallel-plate apparatus
 - Protective box with the mirror-to-scale distance $b$ written on it
 
 

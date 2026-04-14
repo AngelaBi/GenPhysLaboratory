@@ -117,66 +117,6 @@ Schematic and example of setup for testing Ohm's law.
 
 Overall setup shown in {numref}`fig-ohms-law-setup`, with a full equipment list in the following table {numref}`resistance-equipment-table_3`.
 
-<!---
-- Low-voltage DC Power supplied by PASCO 850 Univeral Interface (using just ~0 -- 6 V) (Capstone example {numref}`E4Fig_05`)
-- Resistors (see {numref}`E4Fig_01`):
-  - 3x - unlabeled ceramic/metal-film resistors (each < 1 MΩ, colored blue, gray, brown)
-  - 1x - Light bulb **(DO NOT EXCEED 6 V)**
-- 9x jumper bars used to connect different sections of circuit modules (see {numref}`E4Fig_01`)
-- Pasco modular circuit kit:
-  - 1x Light bulb module
-  - 12x Spring clips modules (to attach individual resistors, voltmeter, ammeter and to create series and parallel circuits)
-  - 1x Single-pole single-throw (SPST) switch module to open and close circuit during reconfiguration and calibration
-  - 1x Red/black terminal module (for connection to DC power supply)
-  - 11x T-junction modules
-  - 5x straight line modules
-  - 4x blank modules
-  - 34x U-shaped jumper clips to connect the different modules
-- Fluke multimeter with alligator clips (example connections in {numref}`E4Fig_04`)
-  - First:
-      - Used as Ohmmeter (Ω) to measure resistors' and light bulb resistances ({numref}`E4Fig_03` left)
-      - Also used as DC Voltmeter (V) to measure voltage drop across different circuit elements ({numref}`E4Fig_03` center)
-  - Second:
-      - Used as DC ammeter to measure current through resitors, light bulb, and resistors in series and parallel circuits ({numref}`E4Fig_03` right)
-
---->
-
-<!---
-```{table} Equipment
-:name: resistance-equipment-table
-
-| Category                      | Item                                                 | Notes / Reference                                                    |
-| ----------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------- |
-| **Power Supply**              | Low-voltage DC power (PASCO 850 Universal Interface) | ~0–6 V output (Capstone example {numref}`E4Fig_05`)                |
-| **Resistors**                 | 3× unlabeled ceramic/metal-film resistors            | Each < 1 MΩ; colors: blue, gray, brown ({numref}`E4Fig_01`)          |
-|                               | 1× light bulb                                        | **DO NOT EXCEED 6 V**  ({numref}`E4Fig_01`)                          |
-| **Connections**               | 9× jumper bars                                       | Connect sections of circuit modules ({numref}`E4Fig_01`)             |
-| **PASCO Modular Circuit Kit** | 1× light bulb module                                 |                                                                      |
-|                               | 12× spring clip modules                              | For attaching resistors, voltmeter, ammeter, and creating series & parallel circuits        |
-|                               | 1× SPST switch module                                | Open/close overall circuit during reconfiguration                    |
-|                               | 1× red/black terminal module                         | Connect to DC power supply                                           |
-|                               | 11× T-junction modules                               |                                                                      |
-|                               | 5× straight-line modules                             |                                                                      |
-|                               | 4× blank modules                                     |                                                                      |
-|                               | 34× U-shaped jumper clips                            | Electrically connect different modules                               |
-| **Measurement Device**        | Fluke multimeter with alligator clips                | Example connections to circuit in {numref}`E4Fig_04`                 |
-|                               | Used as Ohmmeter (Ω)                                 | Measure resistors' & bulb resistances ({numref}`E4Fig_03` left)      |
-|                               | Used as Voltmeter (V)                                | Measure voltage drop across circuit elements ({numref}`E4Fig_03` center)     |
-|                               | Used as DC Ammeter                                   | Measure current through resistors & bulb and series & parallel circuits ({numref}`E4Fig_03` right) |
-```
-
-```{table} Equipment
-:name: resistance-equipment-table_2
-
-| Category | Items | Notes / Reference |
-|----------|-------|------------------|
-| **Power Supply** | PASCO 850 Universal Interface (0–6 V DC) | Capstone example {numref}`E4Fig_05` |
-| **Resistors** | 3× ceramic/metal-film resistors (<1 MΩ; blue, gray, brown); 1× light bulb | **Do not exceed 6 V** ({numref}`E4Fig_01`) |
-| **Connections** | 9× jumper bars | Used to connect circuit sections ({numref}`E4Fig_01`) |
-| **PASCO Modular Kit** | 1× bulb module; 12× spring clip modules; 1× SPST switch (open/close); 1× red/black terminal module (to DC power); 11× T-junctions; 5× straight modules; 4× blank modules; 34× U-shaped jumper clips | Build single resistor circuits & series/parallel circuits; connect components |
-| **Measurement Device** | Fluke multimeter (with alligator clips): Ω (resistance), DC V (voltage), DC A (current) | Example connections {numref}`E4Fig_04`; meter use shown in {numref}`E4Fig_03` |
-```
---->
 
 
 ```{table} Equipment
@@ -185,10 +125,10 @@ Overall setup shown in {numref}`fig-ohms-law-setup`, with a full equipment list 
 | Category | Items |
 |----------|-------|
 | **Power Supply** | • PASCO 850 Universal Interface (~0–6 V DC)  <br> • Capstone example {numref}`E4Fig_05` |
-| **Resistors** | • 3× ceramic/metal-film resistors (< 1 MΩ; blue, gray, brown) ({numref}`E4Fig_01`) <br> • 1× light bulb — **DO NOT EXCEED 6 V** ({numref}`E4Fig_01`) |
-| **Connections** | • 9× jumper bars ({numref}`E4Fig_01`) |
-| **PASCO Modular Circuit Kit** | • 1× light bulb module <br> • 12× spring clip modules (attach resistors, voltmeter, ammeter; build series/parallel circuits) <br> • 1× SPST switch module (open/close circuit) <br> • 1× red/black terminal module (connect to DC supply) <br> • 11× T-junction modules <br> • 5× straight-line modules <br> • 4× blank modules <br> • 34× U-shaped jumper clips |
-| **Measurement Device** | • Fluke multimeter with alligator clips ({numref}`E4Fig_04`) <br> • Ω: measure resistor & bulb resistance ({numref}`E4Fig_03` left) <br> • DC V: measure voltage drop across circuit elements ({numref}`E4Fig_03` center) <br> • DC A: measure current through resistors & bulb and series & parallel circuits ({numref}`E4Fig_03` right) |
+| **Resistors** | • 3x ceramic/metal-film resistors (< 1 $\text{M}\Omega$; blue, gray, brown) ({numref}`E4Fig_01`) <br> • 1x light bulb — **DO NOT EXCEED 6 V** ({numref}`E4Fig_01`) |
+| **Connections** | • 9x jumper bars ({numref}`E4Fig_01`) |
+| **PASCO Modular Circuit Kit** | • 1x light bulb module <br> • 12x spring clip modules (attach resistors, voltmeter, ammeter; build series/parallel circuits) <br> • 1x SPST switch module (open/close circuit) <br> • 1x red/black terminal module (connect to DC supply) <br> • 11x T-junction modules <br> • 5x straight-line modules <br> • 4x blank modules <br> • 34x U-shaped jumper clips |
+| **Measurement Device** | • Fluke multimeter with alligator clips ({numref}`E4Fig_04`) <br> • $\Omega$: measure resistor & bulb resistance ({numref}`E4Fig_03` left) <br> • DC V: measure voltage drop across circuit elements ({numref}`E4Fig_03` center) <br> • DC A: measure current through resistors & bulb and series & parallel circuits ({numref}`E4Fig_03` right) |
 ```
 
 
@@ -226,7 +166,7 @@ Examples of the resistors, light bulb, and jumper bar you will use today. They c
 width: 100%
 name: E4Fig_03
 ---
-Examples of the measurement type, connections used, and multimeter overall configurations in use today. There are 2 Multimeters in use, one for BOTH Resistance and Voltage, one for JUST Current. Left) configuration for measuring resistance in ohms (Ω) --- note, this auto-ranges, double check the magnitude of your units (e.g. Ω, kΩ, MΩ). Center) configuration for measuring DC voltage in volts (V). Right) configuration for measuring DC current in milliamps (mA) through the 300 mA fused circuit.
+Examples of the measurement type, connections used, and multimeter overall configurations in use today. There are 2 Multimeters in use, one for BOTH Resistance and Voltage, one for JUST Current. Left) configuration for measuring resistance in ohms $(\Omega)$ --- note, this auto-ranges, double check the magnitude of your units (e.g. $\Omega$, $\text{k}\Omega$, $\text{M}\Omega$). Center) configuration for measuring DC voltage in volts (V). Right) configuration for measuring DC current in milliamps (mA) through the 300 mA fused circuit.
 ```
 
 ```{figure} ResistanceFigures/E-4_Fig_04_voltAmpConnection.png

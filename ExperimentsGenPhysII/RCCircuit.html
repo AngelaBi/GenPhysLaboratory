@@ -456,7 +456,7 @@
 <p>The behavior of the current <span class="math notranslate nohighlight">\(I\)</span> is found directly from this:</p>
 <div class="math notranslate nohighlight">
 \[I=-\frac{dQ}{dt}=\frac{V_{0}}{R}e^{-\frac{t}{RC}}\]</div>
-<p>The product <span class="math notranslate nohighlight">\(RC\)</span> has the units of time (Ω × F); we can verify this by using dimensional analysis:</p>
+<p>The product <span class="math notranslate nohighlight">\(RC\)</span> has the units of time <span class="math notranslate nohighlight">\((\Omega \time F)\)</span>; we can verify this by using dimensional analysis:</p>
 <div class="math notranslate nohighlight">
 \[RC\rightarrow \frac{V}{I}\times \frac{Q}{V}\rightarrow \frac{Q}{I}\rightarrow Q\times \frac{t}{Q}\rightarrow t\]</div>
 <div class="math notranslate nohighlight">
@@ -504,22 +504,6 @@ V_f &amp;= \frac{C_\text{first-position}}{C_\text{first-position}+C_\text{second
 <section id="equipment">
 <h3>● Equipment<a class="headerlink" href="#equipment" title="Permalink to this heading">#</a></h3>
 <p>The general setup with electrical schematic can be seen in <a class="reference internal" href="#fig-rc-setup"><span class="std std-numref">Fig. 105</span></a>, with the voltmeter attached on either side of the capacitor section of the circuit. Capacitors to be experimentally determined, resistors to be treated as known constants, and wire and jumper bars are shown in <a class="reference internal" href="#fig-rc-setup-capacitors-resistors"><span class="std std-numref">Fig. 106</span></a>.</p>
-<!---
-- Two *known* (with ohmmeter) ceramic/metal-film resistors ($R_{1\text{,brown}}$, $R_{2\text{,blue}}$)
-- Two to-be-determined capacitors ($C_{1\text{,big}}$, $C_{2\text{,small}}$)
-- Pasco modular circuit kit
-  - 4× Corner module
-  - 1× T-junction module
-  - 1× Straight-line module
-  - 2× AA battery module
-  - 3× Spring clip modules (to attach individual resistors, capacitors, jumper bar)
-  - 1× Single-pole double-throw (SPDT) switch module to open and close circuit during charging of capacitors, and discharging of capacitors through resistors
-  - 13× U-shaped jumper clips to connect the different modules
-- Voltmeter via Capstone -- connected to the jumper clips the on either side of the capacitors with alligator clips
-- Fluke multimeter with alligator clips
-  - Use as Ohmmeter (Ω) to measure resistors' resistance to be treated as known values
-  - Use as capacitance meter (F) to measure capacitors' actual capacitance to compare experimental values to later on
---->
 <div class="pst-scrollable-table-container"><table class="table" id="rc-equipment-table">
 <caption><span class="caption-number">Table 13 </span><span class="caption-text">Equipment</span><a class="headerlink" href="#rc-equipment-table" title="Permalink to this table">#</a></caption>
 <thead>
@@ -529,13 +513,13 @@ V_f &amp;= \frac{C_\text{first-position}}{C_\text{first-position}+C_\text{second
 </thead>
 <tbody>
 <tr class="row-even"><td><p><strong>Resistors</strong></p></td>
-<td><p>• 2× ceramic/metal-film resistors: <span class="math notranslate nohighlight">\(R_{1\text{,brown}}\)</span>, <span class="math notranslate nohighlight">\(R_{2\text{,blue}}\)</span></p></td>
+<td><p>• 2x ceramic/metal-film resistors: <span class="math notranslate nohighlight">\(R_{1\text{,brown}}\)</span>, <span class="math notranslate nohighlight">\(R_{2\text{,blue}}\)</span></p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>Capacitors</strong></p></td>
-<td><p>• 2× capacitors: <span class="math notranslate nohighlight">\(C_{1\text{,big}}\)</span>, <span class="math notranslate nohighlight">\(C_{2\text{,small}}\)</span></p></td>
+<td><p>• 2x capacitors: <span class="math notranslate nohighlight">\(C_{1\text{,big}}\)</span>, <span class="math notranslate nohighlight">\(C_{2\text{,small}}\)</span></p></td>
 </tr>
 <tr class="row-even"><td><p><strong>PASCO Modular Circuit Kit</strong></p></td>
-<td><p>• 4× corner modules <br> • 1× T-junction module <br> • 1× straight-line module <br> • 2× AA battery modules <br> • 3× spring clip modules (attach resistors, capacitors, jumper bar) <br> • 1× SPDT switch module (change circuits to charge / discharge capacitors <br> • 13× U-shaped jumper clips</p></td>
+<td><p>• 4x corner modules <br> • 1x T-junction module <br> • 1x straight-line module <br> • 2x AA battery modules <br> • 3x spring clip modules (attach resistors, capacitors, jumper bar) <br> • 1x SPDT switch module (change circuits to charge / discharge capacitors <br> • 13x U-shaped jumper clips</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>Measurement Device (“actual”)</strong></p></td>
 <td><p>• Fluke multimeter with alligator clips (for “actual” values) <br> • <img alt="alt text" src="../_images/FigExtra_038_Resistance_v01.png" />: measure “actual” resistor values <br> • <img alt="alt text" src="../_images/FigExtra_039_Capacitance_v01.png" />: measure “actual” capacitor values for later experimental comparison</p></td>
@@ -693,7 +677,7 @@ https://www.youtube.com/watch?v=qIOAo6_dHeY
 </li>
 <li><p>Measure and record:</p>
 <ul>
-<li><p>“actual” resistance values with the Fluke multimeter set to measure resistance (Ω or <img alt="alt text" src="../_images/E5_Fig_007_Capacitance_v01.png" />, check units/range)</p></li>
+<li><p>“actual” resistance values with the Fluke multimeter set to measure resistance <span class="math notranslate nohighlight">\((\Omega\)</span> or <img alt="alt text" src="../_images/E5_Fig_007_Capacitance_v01.png" />, check units/range)</p></li>
 <li><p>“actual” capacitance values of your capacitors (both single and in parallel and series) for comparisons to experimental data later; use the Fluke multimeter set to measure farads (use the yellow alternate function of the ohmmeter, <img alt="alt text" src="../_images/E5_Fig_007_Capacitance_v01.png" />, check units/range).</p>
 <div class="tip admonition">
 <p class="admonition-title">Multimeter Measurement Tips</p>

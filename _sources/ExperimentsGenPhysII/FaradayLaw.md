@@ -170,13 +170,21 @@ Left) Coil wand with resistor and an example of the center of mass line and mass
 
 ### ● Equipment
 
-- Variable Gap Horseshoe Magnet
-- Induction Wand as shown in {numref}`fig-experimental-equipment`. The number of turns of the coil is $N=200$ and the area of the coil is $A = \pi r^2 = \pi (0.013\,\text{m})^2$.; mass and center of mass are noted on the white label.
-- $\sim 4.7\,\Omega$ resistor (you will measure your resistor directly to confirm later on). It can be inserted into the wand to complete the circuit in the wand in order to measure the energy dissipated in the resistive load by the induced current.
-- Stand, rods, and clamps
-- Voltage Sensor to Capstone; records the voltage induced in the coil. The plugs of this sensor are connected to the jacks at the end of the coil wand. The voltage sensor is plugged into an analog input with a sample rate set to $1000\,\text{Hz}$.
-- PASPORT 2-Axis Magnetic Field Sensor (axial measures positive B-field into the end of the probe; perpendicular measures positive B-field upwards through the probe) for measuring strength of horseshoe magnet.
-- Rotary Motion Sensor (RMS) connected to Capstone. Detects and measures angular displacement, angular velocity, and angular acceleration. A 3-step pulley is affixed to its axle (see {numref}`fig-faraday-setup`). The coil wand is mounted onto the 3-step pulley so that the rotational motion of the wand (and therefore the coil) can be measured. The RMS is set to a nominal sample rate of $500\,\text{Hz}$.
+
+```{table} Equipment
+:name: faraday-induction-equipment-table
+
+| Category | Items |
+|---|---|
+| **Magnetic Source** | • Variable gap horseshoe magnet |
+| **Induction Apparatus** | • Induction wand ({numref}`fig-experimental-equipment`)<br>• Coil parameters: $N = 200$, $A = \pi r^2 = \pi (0.013\,\text{m})^2$<br>• Mass and center of mass labeled on wand |
+| **Electrical<br>Components** | • $\sim 4.7\,\Omega$ resistor (measure actual value for confirmation)<br>• Can be inserted into wand to complete circuit and measure resistive energy dissipation |
+| **Mounting Hardware** | • Stand, rods, and clamps |
+| **Voltage<br>Measurement** | • Voltage sensor recorded by Capstone<br>• Measures induced voltage in coil<br>• Red/black leads connect to coil wand terminals<br>• Connected to analog input with sample rate $1000\,\text{Hz}$ |
+| **Magnetic Field Measurement** | • PASPORT 2-Axis Magnetic Field Sensor<br>• *Axial*: positive $B$ into end of probe<br>• *Perpendicular*: positive $B$ upward through probe towards tare-button side<br>• Perpendicular used to measure maximum horseshoe magnet field strength |
+| **Rotational<br>Measurement** | • Rotary Motion Sensor (RMS) connected to Capstone<br>• Measures angular displacement, velocity, acceleration<br>• 3-step pulley attached (see {numref}`fig-faraday-setup`)<br>• Coil wand mounted to pulley for rotational measurements<br>• Sample rate $500\,\text{Hz}$, zeroes its position when Capstone starts recording |
+```
+
 
 <!---
 %The experiment consists of a circular coil with 200 windings, which is mounted on a pendulum wand so that it can swing through the (adjustable) gap of a horseshoe magnet (see Fig.~\ref{E8Fig02}). A resistor can be attached to the wand in order to measure the energy dissipated in the resistive load by the induced current.
