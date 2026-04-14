@@ -12,6 +12,8 @@ Use a vibrating string to:
 - Understand the relationship between wave frequency and wavelength
 ```
 
+#### ○ Waves & Velocity
+
 
 The general equation for the velocity of propagation of waves in a medium of continuously distributed stiffness and inertia is given by a formula of the form
 
@@ -33,7 +35,7 @@ The velocity can also be determined from {eq}`eq-wave-frequency` by establishing
 :label: eq-wave-frequency
 v=\lambda f
 ```
-A standing wave is produced when two identical waves travel in opposite directions in the same medium. The two waves interfere with each other forming a pattern of vibration that is stationary along the direction of propagation.
+A **standing wave** is produced when two identical waves travel in opposite directions in the same medium. The two waves alternate between constructive and deconstructive interference with each other forming a pattern of vibration that appears stationary along the direction of propagation. Examples of standing waves are illustrated in {numref}`waves_harmonics_illustration`.
 
 
 ```{figure} WavesFigures/waves_2025_Spring_01_v03.jpg
@@ -45,7 +47,7 @@ Illustration of 1st through 6th harmonics with their nodes/antinodes.
 ```
 
 
-For our case, a wave is generated at one end of a cord by a string vibrator that moves the cord up and down at a measurable frequency. This wave travels down the cord to the other end and reflects back towards the source. As the wave reflects back and forth, augmented by the string vibrator at one end, the oppositely traveling waves interfere to produce a 'standing-wave' pattern of vibration. It can be shown that certain points of this pattern never move. They are called nodes (see {numref}`waves_harmonics_illustration`). Thus in order for a standing wave pattern to be produced on a cord that is effectively tied at both ends and cannot move, the pattern that is established must, at the very least, have nodes at each end (see fundamental in {ref}`demo-video-1-wavemotion-highspeed`).
+For our case, a wave is generated at one end of a cord by a string vibrator that moves the cord up and down at a measurable frequency. This wave travels down the cord to the other end and reflects back towards the source. As the wave reflects back and forth, augmented by the string vibrator at one end, the oppositely traveling waves interfere to produce a 'standing-wave' pattern of vibration. It can be shown that certain points of this pattern never move. They are called **nodes** (see {numref}`waves_harmonics_illustration`). Thus in order for a standing wave pattern to be produced on a cord that is effectively tied at both ends and cannot move, the pattern that is established must, at the very least, have nodes at each end (also see fundamental in {ref}`demo-video-1-wavemotion-highspeed`). Subsequently, the maxiumum amplitude part of the wave that does move is called **antinodes**.
 
 
 (demo-video-1-wavemotion-highspeed)=
@@ -70,11 +72,38 @@ https://www.youtube.com/watch?v=fQfNq8tJp3s
 </a>
 
 
+#### ○ Node Spacing & Harmonics
+
+Remember that a full wave is a cycle, out and back to its initial position and direction. Take, for example, swinging on a swingset; you get as far back to start swinging, you swing forward, reach the same height but come to a stop and change to the opposite direction --- at this point, you're only halfway through it. You then start swinging backwards until you again reach that initial height and come to a stop, but this time, you're changing back to going in the same direction when you started --- a full cycle complete. The positions when you changed direction but velocity came to a stop are equivelent to *nodes*, and your fastest motion at the bottom of the swing is equivalent to having some amplitude at *antinodes*. Througout this whole example, you start at a node, change direction at the second node, and end your cycle at a third node. We find that a full cycle's wavelength has 3 nodes and 2 antinodes (illustrated by 2nd mode in see {numref}`waves_harmonics_illustration`). 
+
+For a standing wave to exist on a string, there must be nodes at either end of the string. 
+
+As you add more standing waves on that string, you find other possible patterns known as **normal modes**. Each standing wave mode allows for an integral number of waves to be travelling out and back on the string at any given time. If you have the second mode, then the string would have two full waves travelling on the string, one out, one reflected back. From the side, it would just appear as one single wave due to the standing wave nature showing two antinodes. Each of these normal modes are also known as **harmonics**. When waves constructively add together, it's as if they are in tune (similar to musical instruments). Every time you add another wave to the standing wave, you go up another octave or harmonic. We find, for a normal standing wave (nodes on either end), that the harmonic number $[n = \text{# of antinodes}]$ (e.g. {numref}`waves_harmonics_illustration`).
+
+Since the propagation velocity is only a function of the physical properties of the cord, the wavelength can be adjusted by selecting the appropriate frequencies of vibration that satisfy the normal-mode condition of 'nodes at least at the ends'. Since the length of the cord must be such that nodes exist at each end, the length of the cord $L$, tied at each end, must be an integral number of $\lambda$/2. I.e. $L = n \frac{\lambda}{2}$. As an example for a standing wave on a string, we could find for wavelength $\lambda_n$, where $n$ is the harmonic (here showing generalized version, first, second, and third harmonics, as visualized in {numref}`waves_harmonics_illustration`, and assuming end-to-end length of string $L = 0.6\,\text{m}$):
+
+```{math}
+:label: waves-wavelengthsNodeToNode
+L &= n \frac{\lambda}{2} \\ 
+\lambda_n &= L / (\text{# of antinodes}) \times 2\,\text{(half wavelengths)} = 1\,\text{total wavelength} \\
+\lambda_1 &= (0.6\,\text{m}) / (1\,\text{antinode}) \times 2 = 1.2\,\text{m} \\
+\lambda_2 &= (0.6\,\text{m}) / (2\,\text{antinodes}) \times 2 = 0.6\,\text{m} \\
+\lambda_3 &= (0.6\,\text{m}) / (3\,\text{antinodes}) \times 2 = 0.4\,\text{m} \\
+...
+```
+
+NOTE: Whenever you measure across multiple nodes, regardless of if it's the entire string or some smaller part of it, you need to account for how many half-wavelengths (node-to-nearest-node) chunks of the standing wave you are measuring across.
 
 
-It can also be shown that the spacing of nodes is $\lambda$/2. Since the propagation velocity is only a function of the physical properties of the cord, the wavelength can be adjusted by selecting the appropriate frequencies of vibration that satisfy the condition of 'nodes at least at the ends'. Since the length of the cord must be such that nodes exist at each end, the length of the cord, tied at each end, must be an integral number of $\lambda$/2 and the allowable frequencies of vibration of the cord are integral multiples of each other. They are said to be harmonically related (see {numref}`waves_harmonics_illustration`).
+Similarly, the allowable frequencies of vibration of the cord are integral multiples of each other. They are said to be harmonically related (see {numref}`waves_harmonics_illustration`). Each harmonic relative to the fundamental is shown to be integral numbers: $(f_n/f_1 = 1, 2, 3 ...)$. An example for the frequency $f_n$ (where $n$ is the harmonic) of the first three harmonics of a standing wave could be found as:
 
-
+```{math}
+:label: waves-frequencyHarmonics
+\text{fundamental, first harmonic}  \rightarrow f_1 &= 15\,\text{Hz} \rightarrow n = f_1/f_1 = 15 / 15 = 1 \\
+\text{second harmonic} \rightarrow f_2 &= 30\,\text{Hz} \rightarrow n = f_2/f_1 = 30 / 15 = 2 \\
+\text{third harmonic} \rightarrow f_3 &= 45\,\text{Hz} \rightarrow n = f_3/f_1 = 45 / 15 = 3 \\
+...
+```
 
 In this experiment, similar to that seen in {ref}`demo-video-1-wavemotion-highspeed`, one end of a horizontal cord is attached to the string vibrator (see {numref}`fig-string-vibrator`) and the other end, after passing over a pulley, is attached to a hanging mass. We can adjust the amplitude and the frequency of the wave by adjusting the output of the sine wave generator, which powers the string vibrator. The tension is determined by the weight of the hanging mass. Therefore for a given tension and linear density, the frequency can be adjusted and measured for a standing wave condition. A measurement of node spacing establishes the wavelength. With the frequency and wavelength measured, the velocity can be determined from {eq}`eq-wave-frequency`. From a measurement of the linear density of the cord and the tension in the cord, we can independently determine the velocity from {eq}`eq-wave-velocity`. The two independently determined values of velocity of propagation can be compared.
 

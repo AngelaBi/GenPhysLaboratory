@@ -612,22 +612,22 @@ Investigate light refraction and geometric optics by measuring object (object-to
     - shifting the screen further away from the lens until you are again no longer confident the image is in focus. Record the maximum image position.
       - before moving the screen away from this position, use a ruler to measure and record the maximum image height.
 
-9. Calculate the object distance $s_\text{object}$ (from illuminated object to lens) as the difference between the lens and object positions. Calculate the object distance uncertainty $\delta s_\text{object}$ as the sum of these two position's uncertainties (why does it make sense to add these; what is the largest range?).
+9. Determine the object distance $s_\text{object}$ (from illuminated object to lens) as the difference between the lens and object positions. Also determine the object distance uncertainty $\delta s_\text{object}$ as the sum of these two position's uncertainties (why does it make sense to add these; what is the largest range?).
 
-10. Similarly calculate the image distance $s_\text{image}$ (from lens to image on screen) as the difference between the image and lens positions. Calculate the image distance uncertainty $\delta s_\text{image}$ as the sum these two positions' uncertainties. 
+10. Similarly determine the image distance $s_\text{image}$ (from lens to image on screen) as the difference between the image and lens positions. Also determine the image distance uncertainty $\delta s_\text{image}$ as the sum these two positions' uncertainties. 
 
-11. Calculate the focal length $f$ using {eq}`eq-W2Beq1`. Calculate the uncertainty $\delta f$ by maximizing and taking the difference (e.g. $\delta f = 1/(1/(s_\text{object} + \delta s_\text{object}) + 1/(s_\text{image} + \delta s_\text{image})) - f$).
+11. Calculate the focal length $f$ using {eq}`eq-W2Beq1` and its uncertainty $\delta f$ by maximizing and taking the difference (e.g. $\delta f = 1/(1/(s_\text{object} + \delta s_\text{object}) + 1/(s_\text{image} + \delta s_\text{image})) - f$).
 
 12. Compare your experimental $f \pm \delta f$ to the expected focal length on the lens holder by calculating the difference between the two (**not** percent difference, just actual magnitude of the difference). Is it also consistent with the focal length measured with a distant object?
 
-13. Using the min and max image heights (based on the min and max image positioning), calculate the image height and its uncertainty by:
+13. Using the min and max image heights (based on the min and max image positioning), determine the image height and its uncertainty by:
     - $h_\text{image} = (h_\text{image,max} + h_\text{image,min}) / 2$
     - $\delta h_\text{image} = (h_\text{image,max} - h_\text{image,min}) / 2$
     - IF $\delta h_\text{image}$ as calculated above is less than the precision of your measurement tool (likely a ruler), treat $\delta h_\text{image} = \text{precision}$
 
-14. Using **image and object heights**, calculate the image magnification $m$ with {eq}`eq-magnification` (left side of equation). Calculate the uncertainty $\delta m$ by maximizing and taking the difference (e.g. $\delta m = ((h_\text{image} + \delta h_\text{image}) / (h_\text{object} - \delta h_\text{object})) - m$).
+14. Using **image and object heights**, calculate the image magnification $m$ with {eq}`eq-magnification` (left side of equation). Also calculate the uncertainty $\delta m$ by maximizing and taking the difference (e.g. $\delta m = ((h_\text{image} + \delta h_\text{image}) / (h_\text{object} - \delta h_\text{object})) - m$).
 
-15. Using **image and object distances**, similarly calculate the image magnification $m$ with {eq}`eq-magnification` (right side of equation). Calculate the uncertainty $\delta m$ by maximizing and taking the difference (e.g. $\delta m = (-(s_\text{image} + \delta s_\text{image}) / (s_\text{object} - \delta s_\text{object})) - m$). Do the two magnification methods agree; if not, why?
+15. Using **image and object distances**, similarly calculate the image magnification $m$ with {eq}`eq-magnification` (right side of equation). Also calculate the uncertainty $\delta m$ by maximizing and taking the difference (e.g. $\delta m = (-(s_\text{image} + \delta s_\text{image}) / (s_\text{object} - \delta s_\text{object})) - m$). Do the two magnification methods agree; if not, why?
 
 
 <!--- 
@@ -638,7 +638,7 @@ Investigate light refraction and geometric optics by measuring object (object-to
 
 16. Repeat steps 7 -- 15 for the rest of the unfiltered cases ({numref}`optics-cases-table`).
 
-17. Calculate the average focal length and average of the uncertainties. Do all unfiltered cases agree? Any that do not?
+17. Determine the average focal length and average of the uncertainties. Do all unfiltered cases agree? Any that do not?
 
 
 18. ***PLOT*** Object vs. Image distances:
@@ -665,7 +665,7 @@ In the ideal case, all of the lines should intersect at the point $(f,f)$. Visua
 --->
 
 19. Repeat steps 7 -- 15 for Cases 9 and 10 with the lens placed at a 13 cm object distance $(s_\text{object} = 13\,\text{cm}).$ Use the two color filters, red and blue, to determine the focal lengths and magnification of red and blue light. 
-    - Case 9: Hang/tape the red filter directly in front of the light-box object so all light used to form the image is red. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and magnifications and their uncertainties.
+    - Case 9: Hang/tape the red filter directly in front of the light-box object so all light used to form the image is red. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and calculate the focal length and magnifications and their uncertainties.
     - Case 10: Same thing, but now blue.
     - Compare both, is one $f$ longer than the other? Physically, why might you expect that? What about $m$?
 
@@ -676,7 +676,7 @@ In the ideal case, all of the lines should intersect at the point $(f,f)$. Visua
 
 
 20. Repeat steps 7 -- 15 for Cases 11 and 12 with the lens still placed at a 13 cm object distance $(s_\text{object} = 13\,\text{cm})$. Use the two light-blocking masks, inner-disk and outer-annulus, to determine the focal lengths and magnification of the edge-ring and central-aperture light rays.
-    - Case 11: Center the inner-disk mask in front of the lens so only rays near the outer edge of the disk are being used to form the image. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and determine the focal length and magnifications and their uncertainties.
+    - Case 11: Center the inner-disk mask in front of the lens so only rays near the outer edge of the disk are being used to form the image. Move the screen until the image is focused. Carefully measure the object and image distances and uncertainties, and calculate the focal length and magnifications and their uncertainties.
     - Case 11: Same thing, but with outer-annulus mask allowing only rays near the center of the lens to form the image.
     - Compare both, is one $f$ longer than the other? Physically, why might you expect that? What about $m$?
 
