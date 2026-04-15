@@ -597,7 +597,7 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
 
 ### ● Post-lab Writeup
 
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting variance) errors? How would they change your final results (larger, smaller, more varied)?
   - For this exercise, assume voltage uncertainty of $0.01\text{V}$ and time uncertainty of $0.01\,\text{sec}$. Based on these uncertainties, how do your final results (for just the first case) change? (I.e. larger or smaller?)

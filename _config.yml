@@ -2,8 +2,9 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: General Physcis Laboratory
-author: Angela Biselli
+author: Angela Biselli & Ryan M. McCabe
 logo: logo.png
+copyright: "2025-2026"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html

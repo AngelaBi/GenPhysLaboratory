@@ -441,7 +441,7 @@ This week's lab is built of essentially two different, but still related to rota
         - 1 plot of Angular Position vs. Time showing changing slope before and after collision (dropping of ring)
 
   ### Moment of Inertia Post-Lab
-  - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
 	  - What are your measurement uncertainties for each experiment?
 	  - What are possible systematic uncertainties for each experiment?
     - How do these uncertainties affect your final results for $I$?
@@ -451,7 +451,7 @@ This week's lab is built of essentially two different, but still related to rota
 
 
   ### Angular Momentum Post-Lab
-  - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
 	  - What are your measurement uncertainties for each experiment?
 	  - What are possible systematic uncertainties for each experiment?
     - How do these uncertainties affect your final results for $L$?

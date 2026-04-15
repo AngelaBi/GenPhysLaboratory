@@ -389,7 +389,7 @@ g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
 
 ### Post-lab Writeup
 
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
 	- What is the precision of your equipment?
   - What are your systematic and random errors?
   - What are sources of uncertainty?

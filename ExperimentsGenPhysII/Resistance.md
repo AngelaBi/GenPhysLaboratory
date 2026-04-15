@@ -507,7 +507,7 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
 
 ### ● Post-lab Writeup
 
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors? How would they change your final results (larger, smaller, more varied)?
   - What are your measured uncertainties for Voltage and Current; how did you estimate these? Based on these uncertainties, how do your final results change --- test it --- go back and ***make a copy of your spreadsheet to test***:
@@ -523,7 +523,7 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
 
 
 <!--- FOR SUMMER 2026!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors? How would they change your final results (larger, smaller, more varied)?
   - What are your measured uncertainties for Voltage and Current; how did you estimate these? 

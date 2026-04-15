@@ -3,6 +3,8 @@
 
 ## Background
 
+### ● Background Overview
+
 ```{admonition} OVERALL GOALS
 :class: note
 In this lab, you will:
@@ -31,7 +33,7 @@ Experimental Setup showing the rotating arm and the attached masses. The photoga
 
 ## Experimental Procedure
 
-### Procedure Preview
+### ● Procedure Preview
 
 ```{admonition} OVERVIEW
 :class: note
@@ -51,7 +53,7 @@ Experimental Setup showing the rotating arm and the attached masses. The photoga
 ```
 
 (centripetal-force-experimentPrep)=
-### Preliminary Setup
+### ● Preliminary Setup
 
 ```{figure} CentripetalForceFigures/Figure02_v2025-02.png
 :name: M04Fig02
@@ -109,7 +111,7 @@ Experimental Setup for the centripetal force experiment
 
 
 (detailsteps-centripetal-force)=
-### Experimental Data Collection for Single Case
+### ● Experimental Data Collection
 
 ```{admonition} Reminder, Run First Case Fully
 :class: important
@@ -266,7 +268,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
 
 (summary-step-centripetal-force)=
-#### Combined Results for Current Case
+#### ○ Combined Results for Current Case
 
 
 28. Calculate the averages of all your previously determined values in your data table for the current case.
@@ -276,7 +278,7 @@ Reminder, run your first case completely **before** moving on to additional case
 30. Assuming they are equal, the average mass of the rotating object will be written as $\bar{M}_\text{object,exp}$ (the bar over the $M$ represents the average value). In the next section, {ref}`error-step-centripetal-force`, you will propagate measurement uncertainty(ies) to determine the uncertainty in your average experimental mass $\delta \bar{M}_\text{object,exp}$
 
 (error-step-centripetal-force)=
-#### Error Propagation for Current Case
+#### ○ Error Propagation for Current Case
 
 ```{admonition} Notes & Assumptions for Errors Today
 :class: note
@@ -394,7 +396,7 @@ Defend why your data agrees with or disagrees with the measured values for your 
 
 - Make sure to submit your finalized data table (Excel sheet).
     - Include a screenshot or photo of the linearized and quadratic plots from **Capstone** for just ***one trial*** for discussion purposes. 
-- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
 	- What is the precision of your equipment?
     - What are possible random errors for today's experiment?
 	- What are possible systematic errors for today’s experiments?

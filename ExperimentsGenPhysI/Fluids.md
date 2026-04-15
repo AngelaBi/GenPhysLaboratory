@@ -487,7 +487,7 @@ Does you experimental value for the pressure at the narrow constriction, $P_2$, 
 
 
 ### Archimedes' Principle --- Post-Lab Error & Results Analysis
-  - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
     - Where might errors arise in measuring the buoyant force?
     - What are your measurement uncertainties for each experiment?
     - What are possible systematic uncertainties for each experiment?
@@ -503,7 +503,7 @@ Does you experimental value for the pressure at the narrow constriction, $P_2$, 
 
 
 ### Bernoulli's Principle --- Post-Lab Error & Results Analysis
-  - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
     - Where might errors arise in measuring the flow rate?
     - What are your measurement uncertainties for each experiment?
     - What are possible systematic uncertainties for each experiment?

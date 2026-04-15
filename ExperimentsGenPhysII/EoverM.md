@@ -428,7 +428,7 @@ Bulb rotator.
 
 ### ● Post-lab Writeup
 
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
   - Focusing on Part 1, where you characterized the helmholtz coils: **qualitatively**, where would uncertainties in your $F_B$ vs. $I$ relationship come from?

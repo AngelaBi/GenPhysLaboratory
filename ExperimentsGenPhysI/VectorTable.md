@@ -3,6 +3,8 @@
 
 ## Background
 
+### ● Background Overview
+
 ```{admonition} OVERALL GOALS
 :class: note
 Use a "force table" to study:
@@ -40,7 +42,7 @@ There are two methods of vector addition to consider:
 - The graphical method (reviewed here, but not conducted during lab today)
 - The method of components (conducted during lab today)
 
-### Graphical Method
+### ● Graphical Method
 
 Vectors $\vec{F}_1$ and $\vec{F}_2$ ({numref}`M01Fig01`) are added graphically as follows:
 Beginning at a convenient point on a piece of graph paper, usually at the origin of a rectangular coordinate system draw one of the vectors as an arrow to scale and pointing in the proper direction. Place the second vector with its tail at the tip of the first, again drawn to scale and pointing in the proper direction. The resultant $\vec{R}$ is the vector drawn from the tail of the first vector to the tip of the second. The process is illustrated in {numref}`M01Fig02` demonstrating the addition operation does not depend on the order of addition. Thus, like scalar addition,
@@ -68,7 +70,7 @@ Adding 2 vectors $\vec{F}_1$ and $\vec{F}_2$, using the graphical ("tail-to-tip"
 
 It is important that an appropriate scale be selected with which the vectors are drawn (e.g. 1 N = 10 cm). The magnitude of $\vec{R}$ is determined using a ruler, and the angle $\theta$ is measured using a protractor. Since the negative of a vector is merely the vector pointing in the opposite direction, subtraction is addition with the negative vector pointing in the opposite direction. Errors can be significantly reduced by using a scale that makes the drawing as large as possible. Neatness counts!
 
-### Method of Components
+### ● Method of Components
 
 The method of components is a much more useful and quantitatively accurate method of vector addition. Each vector is resolved into components along the $x$- and $y$-axes. That is to say, the vector addition of the two components of the vector is the vector itself. Thus if two vectors are to be added, we add the components along each axis to form the components of the resultant.
 
@@ -199,11 +201,11 @@ For accurate measurements of the angles involved, each cord must be aimed direct
 
 ## Experimental Procedure
 
-### Preview & Examples
+### ● Preview & Examples
 
 For today's lab, two different cases will be assigned involving two given vectors and the **determination of the equilibrant vector**. A third case involves the **determination of the mass of two unlabeled masses** by balancing the system from a single known mass.
 
-#### EXAMPLE --- Finding the Equilibrant (First two cases)
+#### ○ EXAMPLE --- Finding the Equilibrant (First two cases)
 
 For each of the first two cases, you will have two given masses at given angles (direction). Each mass, consisting of a 50 g hanger plus the necessary additional mass, will be hung from a cord routed over a pulley at the assigned angular positions and finally tied to the ring. A third cord, hanger, and pulley assembly is put in place for the third, unknown force vector. Each force is the weight of the hanging mass at the pulley angle. Determine the unknown forces for each of the two cases.
 
@@ -228,7 +230,7 @@ Having established the given magnitudes and directions for each of the given for
 
 To determine the equilibrant vector experimentally $\vec{F}_{3}$, you will record both the angular position (**direction**) and total mass (to determine **magnitude** of the balancing force from the total hanging weight) required to balance $\vec{F}_{1}$ and $\vec{F}_{2}$. You will then compare this vector to the expected vector based on your theoretical calculations.
 
-#### EXAMPLE --- Determining 2 Unlabeled Masses (Third case)
+#### ○ EXAMPLE --- Determining 2 Unlabeled Masses (Third case)
 
 In the third case, you will experimentally **determine two unlabeled masses** by balancing the $x$ and $y$ components of the force of a single known mass.
 Place the pulley with the known mass $M_1 = 50\,\text{g}$ at $\theta_1 = 0°$.
@@ -296,7 +298,7 @@ You would then measure $M_{2,actual}$ and $M_{3,actual}$ on the scale and enter 
 It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUING TO THE NEXT CASE**. If you have some error in your experimental method or in your calculation, you can correct it before completing all the other cases. The layout of the data table for additional cases can then be created by copying the first case after you are confident in your results from the first case.
 ```
 
-### CASE 1 & 2 -- Finding the Equilibrant Vector (Balancing Force)
+### ● CASE 1 & 2 -- Finding the Equilibrant Vector (Balancing Force)
 
 ```{admonition} OVERVIEW
 :class: note
@@ -438,7 +440,7 @@ Reminder, run first case fully before moving on to additional cases. Don't just 
 
 17. Repeat for the second case (see Table {ref}`tab-case12`) once you have completed the entire analysis procedure for Case 1 and are satisfied in your values and calculations.
 
-### CASE 3 -- Determining 2 Unlabeled Masses
+### ● CASE 3 -- Determining 2 Unlabeled Masses
 
 ```{admonition} OVERVIEW
 :class: note
@@ -502,6 +504,16 @@ Experimentally determine the ***mass*** of just the Pikachu (black figurine) and
 ## Post-Lab Submission --- Interpretation of Results
 
 - Make sure to submit your finalized data table (Excel sheet). 
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	- What are the uncertainties of Cases 1 & 2 (Finding Equilibrant)?
+  - What is the precision of your equipment (force table, masses, etc.)?
+  - What are possible systematic (affecting accuracy) errors of the experiment? What are possible random (affecting precision) errors?
+  - Return to results section question: ''In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $F_3$? Do the math in your spread sheet.
+      - What uncertainties might make the difference between your final results and expected values larger or smaller? Is there any source of uncertainty that contributes the most variability of $F_3$?
+  - For Case 3 (Unlabeled Masses), what errors may contribute to larger or smaller % differences to the actual measured-by-triple-beam-balance values?
+
+
 - In a **paragraph**, summarize the results you have determined in each case, i.e. $F_3\pm\delta F_3$... and answer the following questions (longer does not mean better):
 	- What is a vector?
   - What is the physics behind balancing your vectors today?
@@ -519,13 +531,6 @@ Experimentally determine the ***mass*** of just the Pikachu (black figurine) and
 :label: M1-PercentDiff
 \text{% Difference} = \frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.
 ```
-- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
-	- What are the uncertainties of Cases 1 & 2 (Finding Equilibrant)?
-  - What is the precision of your equipment (force table, masses, etc.)?
-  - What are possible systematic (affecting accuracy) errors of the experiment? What are possible random (affecting precision) errors?
-  - Return to results section question: ''In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $F_3$? Do the math in your spread sheet.
-      - What uncertainties might make the difference between your final results and expected values larger or smaller? Is there any source of uncertainty that contributes the most variability of $F_3$?
-  - For Case 3 (Unlabeled Masses), what errors may contribute to larger or smaller % differences to the actual measured-by-triple-beam-balance values?
 
 
 
@@ -535,7 +540,7 @@ Experimentally determine the ***mass*** of just the Pikachu (black figurine) and
 Example data tables are shown below to assist you in building your spreadsheet for this lab. Additionally the original whiteboard summary is at the end of this section.
 
 (experimental-data-vectortable)=
-### Case 1 & 2 Experimental Data
+### ● Case 1 & 2 Experimental Data
 
 | Hanger/Vector   | $m$ (SI units) | $\delta m$ (SI Units) | $\vec{F}$ (SI Units) | $\theta$ ($^\circ$) | $\delta \theta$ ($^\circ$) | $F_x$ (SI Units) | $F_y$ (SI Units) |
 |-------|--------|---------|-------|---------|----------|--------|--------|
@@ -544,13 +549,13 @@ Example data tables are shown below to assist you in building your spreadsheet f
 | 3 |        |         |       |         |          |        |        |
 
 (analysis-vectortable-resultant-and-sum)=
-### Case 1 & 2 Analysis - Resultant of Given Vectors & Experimental Total
+### ● Case 1 & 2 Analysis - Resultant of Given Vectors & Experimental Total
 | $R_x$ (SI units) | $R_y$ (SI Units) | $R$ (SI Units) | $\theta_R$ ($^\circ$) | $F_{x,\text{total,experimental}}$ (SI Units) | $F_{y,\text{total,experimental}}$ (SI Units) | $F_{\text{total,experimental}}$ treated as $\delta F_3$ (SI Units) |
 |------------------|------------------|----------------|-----------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------------------------------|
 |                  |                  |                |                       |                                             |                                             |                                                                     |
 
 (analysis-vectortable-theory)=
-### Case 1 & 2 Analysis - Theoretical Values
+### ● Case 1 & 2 Analysis - Theoretical Values
 | $F_{3,\text{theoreticalMagnitude}}$ (SI Units) | $\theta_{3,\text{theoretical}}$ ($^\circ$) | $m_{3,\text{theoretical}}$ (SI Units) |
 |-----------------------------------------------|--------------------------------------------|---------------------------------------|
 |                                               |                                            |                                       |
@@ -559,7 +564,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 
 (vectortable-case3data)=
-### Case 3 Data
+### ● Case 3 Data
 
 | Vector | $m_{i\text{,experimental}}$ (SI units) | $\theta_i$ ($^\circ$) |  $m_{i\text{,actual}}$ (SI units) | % diff. masses |
 |--------|----------------------|---------|----------|----------------|
@@ -568,7 +573,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 | 3 (Corgi-white)   |                  |         |          |                |
 
 
-### Original Whiteboard Info
+### ● Original Whiteboard Info
 
 
 ```{figure} VectorTableFigures/ForceTable_2025_Summer_02_v2025-01.jpg
