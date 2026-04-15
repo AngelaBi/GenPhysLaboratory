@@ -439,7 +439,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
 
 ### ● Post-lab Writeup
 
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting variance) errors?
   - What are your measured uncertainties, and, based on these uncertainties, how do your final results for $\mu_0$ change? I.e. do your different measurement and slope uncertainties make your final results larger or smaller?

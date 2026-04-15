@@ -3,13 +3,15 @@
 
 ## Background
 
+### ● Background Overview
+
 ```{admonition} OVERALL GOALS
 :class: note
 Use a marble (projectile) launcher to:
 - Understand and apply kinematic equations to two-dimensional projectile motion.
 ```
 
-### Projectile Motion
+### ● Projectile Motion
 
 
 **Projectile motion** is the motion of an object thrown or projected into the air, subject only to acceleration as a result of gravity. The applications of projectile motion in physics and engineering are numerous. Some examples include meteors as they enter Earth's atmosphere, water in a water fountain, and the motion of any ball in sports. Such objects are called *projectiles*, and their path is called a **trajectory**.
@@ -94,7 +96,7 @@ Example of the free fall apparatus used in Exp. 1. Note the release screw will b
 
 --->
 
-### Experimental Summary
+### ● Experimental Summary
 
 ```{admonition} Three Cases
 :class: note
@@ -135,7 +137,7 @@ Example of Case 1 data aquisition.
 Example of Case 2 and 3 estimation and data aquisition.
 ```
 
-#### Zero-Angle Trajectories (Background for Cases 1 & 2)
+#### ○ Zero-Angle Trajectories (Background for Cases 1 & 2)
 
 The distance traveled in the in the $x$ direction $\Delta x$ will be measured from the center of the ball in the uncocked position (initial position $x_0$) to the average landing position on the floor (final position $x$) after the given number of trials. Note: $\Delta x = x - x_0$, however since initial position $x_0 = 0\,\text{m}$ for all cases throughout the lab today, $\Delta x = x$. 
 
@@ -185,7 +187,7 @@ We will then launch the ball at Case 2's height and see how accurate we estimate
 
 
 
-#### Angled Trajectory (Background for Case 3)
+#### ○ Angled Trajectory (Background for Case 3)
 
 The third case of this experiment is similar to Case 2 in that we are staying at the higher height, but now investigating angled trajectories and how far in the $x$ direction do they reach? The large, launcher holder is designed to hold the ball at rest (uncocked) in the same position (both horizontal and height) regardless of angle, so you can treat $y_{0\text{,case 3}} = y_{0\text{,case 2}}$ as your value for the ball's initial height and $x_{0\text{,case 3}} = x_{0\text{,case 2}}$ for the ball's initial horizontal position (see {numref}`M03-simpleProjectileLauncher` right).
 
@@ -257,7 +259,7 @@ x_{\text{case 3 theoretical}} = v_{\text{0,exit}}\cos{(\theta)}t_{\text{case 3}}
 
 ## Experimental Procedure
 
-### Procedure Preview
+### ● Procedure Preview
 
 ```{admonition} OVERVIEW
 :class: note
@@ -288,7 +290,7 @@ x_{\text{case 3 theoretical}} = v_{\text{0,exit}}\cos{(\theta)}t_{\text{case 3}}
 
 
 (demo-video-simple-projectile-motion)=
-### Demo Video: Procedure for Simple Projectle Motion
+### ● Demo Video: Procedure for Simple Projectle Motion
 
 <div align="center">
 
@@ -368,7 +370,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 --->
 
-### Case 1 --- Zero-angle Launch
+### ● Case 1 --- Zero-angle Launch
 
 
 1. Create a data table for Case 1 including but not limited to:
@@ -437,7 +439,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     ```
 
 
-### Case 2 --- Zero-angle Launch at a Higher Height
+### ● Case 2 --- Zero-angle Launch at a Higher Height
 
 10. Create additional data section for Case 2 including but not limited to:
     - Height of the ball at the higher $0°$ slot height $y_{0\text{,case 2}}$
@@ -467,7 +469,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     ```
 
 
-### Case 3 --- Angled Trajectory at a Higher Height
+### ● Case 3 --- Angled Trajectory at a Higher Height
 
 18. Create additional data section for Case 3 including but not limited to:
     - Common data section with the accepted value of $g$ and any values you will need from previous cases to determine the theoretical horizontal distance at a given angled launch ({eq}`eq-M03-Kinematic-horizontal-velocity-03` to {eq}`eq-M03-Kinematic-vertical-time-03-v2-pt4`).
@@ -544,6 +546,23 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 - Make sure to submit your finalized data table (Excel sheet)
   - Please include an photo of your experimental data papers.
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative. Argue your conclusions with your data values. 
+	- What is the precision of your equipment?
+	- What are possible systematic errors for today's experiments?
+  - What sources of error may contribute to larger scatter from each case (i.e. size of your estimated ellipse radius that represented $\delta x$)?
+  - How does your estimated uncertainty for Case 1 affect your theoretical distances for Cases 2 & 3, larger or smaller? Try, in your spreadsheet, changing your $x_{\text{case 1}}$ by its uncertainty, i.e. $x_{\text{case 1}} + \delta x_{\text{case 1}}$. How much bigger or smaller does your $x_{\text{case 2, theoretical}}$ and $x_{\text{case 3, theoretical}}$ become?
+  <!---
+	- **Experiment 1:**
+		- What are the uncertainties of Experiment 1?
+		-  Does your experimental distance of the higher height agree with what you expected from your theoretical calculation?
+			- In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+      --->
+	- **Cases 2 & 3:**
+		- What uncertainties or sources of error might make the **difference** between your theoretical and experimental horizontal distances larger or smaller?
+
+
+
 - In a **paragraph**, summarize the results you have determined in each case, i.e. $x_{\text{experimental}} \pm \delta x_{\text{experimental}}$... and answer the following questions (longer does not mean better) while arguing your conclusions with your data values:
 	- What type of system do the kinematic equations represent?
   <!---
@@ -558,19 +577,6 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 	  - What were your results for the trajectories from a non-zero angle(s) at the higher height? Do your results overlap with your theoretical value? Another way to think about it, does your uncertainty cover the magnitude of the difference between your experimental and theoretical values? If not, what may be a physical reason why?
 	- Were your bullseye targets (estimation) accurate to the experimental results; any bias towards being an over- or under-estimate? Back up your answer with your results.
 
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative. Argue your conclusions with your data values. 
-	- What is the precision of your equipment?
-	- What are possible systematic errors for today's experiments?
-  - What sources of error may contribute to larger scatter from each case (i.e. size of your estimated ellipse radius that represented $\delta x$)?
-  - How does your estimated uncertainty for Case 1 affect your theoretical distances for Cases 2 & 3, larger or smaller? Try, in your spreadsheet, changing your $x_{\text{case 1}}$ by its uncertainty, i.e. $x_{\text{case 1}} + \delta x_{\text{case 1}}$. How much bigger or smaller does your $x_{\text{case 2, theoretical}}$ and $x_{\text{case 3, theoretical}}$ become?
-  <!---
-	- **Experiment 1:**
-		- What are the uncertainties of Experiment 1?
-		-  Does your experimental distance of the higher height agree with what you expected from your theoretical calculation?
-			- In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
-      --->
-	- **Cases 2 & 3:**
-		- What uncertainties or sources of error might make the **difference** between your theoretical and experimental horizontal distances larger or smaller?
 
 ## The Whiteboard
 

@@ -3,6 +3,8 @@
 
 ## Background
 
+### ● Background Overview
+
 ```{admonition} OVERALL GOALS
 :class: note
 Use a ballistic pendulum to:
@@ -26,7 +28,7 @@ In the second technique, the measured parameters of the trajectory of a horizont
 
 In each case, the projectile will be launched with the same device allowing a comparison of the initial exit velocity determinations of the two techniques.
 
-### Ballistic Pendulum Review
+### ● Ballistic Pendulum Review
 
 The ballistic pendulum is so named because it was originally used to measure the velocity of high-speed projectiles such as bullets long before electric and electronic timers made the procedure unnecessary. It remains, however, as a simple and demonstrative device for understanding the conservation principles of energy and momentum. In analyzing the problem, the system will consist of the projectile and the more massive pendulum (see {numref}`M06Fig03`). 
 
@@ -90,7 +92,7 @@ Substituting in {eq}`eq-M06momentum` above, we have finally an expression for th
 v_0 = \left( \frac{m+M}{m} \right) \sqrt{2 g \left(y_2 - y_1\right)}.
 ```
 
-### Projectile Motion Review
+### ● Projectile Motion Review
 
 When a projectile is moving solely under the influence of the force of gravity, we say that the projectile is in free-fall. Consider the launching of the same ball used in the ballistic pendulum. In this case, the pendulum will be swung up out of the way so the flight of the ball will continue off the edge of the table, eventually hitting the floor some distance away. This situation is illustrated in {numref}`M06Fig02`.
 
@@ -130,7 +132,7 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 
 ## Experimental Procedure
 
-### Procedure Preview
+### ● Procedure Preview
 
 ```{admonition} OVERVIEW
 :class: note
@@ -152,7 +154,7 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 
 
 (demo-video-ballisticPendulum_overall)=
-### Demo Video: Ballistic Pendulum & Projectile Motion Experiment
+### ● Demo Video: Ballistic Pendulum & Projectile Motion Experiment
 
 <div style="text-align: center;">
    <iframe width="560" height="315" src="https://www.youtube.com/embed/OjMF7Z2Pe6U?si=j9aSi4RHe3IBDj4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -169,7 +171,7 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 
 
 
-### Ballistic Pendulum Experiment
+### ● Ballistic Pendulum Experiment
 
 ```{admonition} OVERVIEW --- Ballistic Pendulum Experiment
 :class: note
@@ -178,7 +180,7 @@ Determine the initial exit velocity of the ball using conservation of energy and
 
 
 
-#### Ballistic Pendulum --- Preliminary Setup
+#### ○ Pendulum --- Preliminary Setup
 
 1. Create a *common data table* including (but not limited to):
     - accepted value of $g$ of $9.803\,\text{m/s}^2$ for Fairfield, CT
@@ -201,7 +203,7 @@ Determine the initial exit velocity of the ball using conservation of energy and
 
 
 (ballistic-pendulum-data-collection)=
-#### Ballistic Pendulum --- Data Collection
+#### ○ Pendulum --- Data Collection
 
 6. Create a *data table* with enough **rows** for the number of trials you are doing along with average and standard deviations; include **columns** for each of the variables you will be measuring or deriving including, but not limited to:
     - Trial number
@@ -256,7 +258,7 @@ Determine the initial exit velocity of the ball using conservation of energy and
 19. After you double-check your methodology and that calculations are accurate in Excel and complete, repeat the steps in {ref}`ballistic-pendulum-data-collection` for the rest of your trials.
 
 (ballistic-pendulum-data-summary)=
-#### Ballistic Pendulum --- Data Summary and Error Propagation
+#### ○ Pendulum --- Data Summary and Error Propagation
 
 20. If you haven't already, add rows for average and standard deviation calculations.
 
@@ -269,7 +271,7 @@ Determine the initial exit velocity of the ball using conservation of energy and
 
 
 
-### Projectile Motion Experiment
+### ● Projectile Motion Experiment
 
 ```{admonition} OVERVIEW --- Projectile Motion Experiment
 :class: note
@@ -277,7 +279,7 @@ Determine the initial exit velocity of the ball using kinematics.
 ```
 
 
-#### Projectile Motion --- Preliminary Setup
+#### ○ Projectile Motion --- Preliminary Setup
 
 1. Add necessary common quantities to your *common data table* including (but not limited to):
     - $y_1$: initial height from the bottom of the ball to the floor
@@ -296,7 +298,7 @@ Determine the initial exit velocity of the ball using kinematics.
 6. Measure horizontal distance $x_1$. Use a plumb bob to transpose the position of the center of the ball to the floor, and measure to the edge of the landing pad.
 
 (projectile-motion-data-collection)=
-#### Projectile Motion --- Data Collection
+#### ○ Projectile Motion --- Data Collection
 
 7. Create a *data table* with enough **rows** for the number of trials you are doing along with average and standard deviations; include **columns** for each of the variables you will be measuring or deriving including, but not limited to:
     - Trial number
@@ -346,7 +348,7 @@ Determine the initial exit velocity of the ball using kinematics.
 
 
 (projectile-motion-data-summary)=
-#### Projectile Motion --- Data Summary and Error Propagation
+#### ○ Projectile Motion --- Data Summary and Error Propagation
 
 18. If you haven't already, add rows for average and standard deviation calculations.
 
@@ -371,7 +373,7 @@ Create a *summary table* to summarize the results from both experiments includin
 ## Post-Lab Submission --- Interpretation of Results
 
 - Make sure to submit your finalized data table (Excel sheet). 
-- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
 	- What is the precision of your equipment?
    - What are possible random errors for today's experiment?
    - What are possible systematic errors for today’s experiments?

@@ -695,7 +695,7 @@ In the ideal case, all of the lines should intersect at the point $(f,f)$. Visua
 
 ### ● Post-lab Writeup
 
-- In a **paragraph**, summarize your error analysis. Be quantitative, not only qualitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
   - What are your measurement uncertainties, and, based on these uncertainties, how do your final results change? I.e. do your different measurement uncertainties make your final results larger or smaller, by how much?
