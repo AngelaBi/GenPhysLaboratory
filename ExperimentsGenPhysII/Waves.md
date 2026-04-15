@@ -50,28 +50,6 @@ Illustration of 1st through 6th harmonics with their nodes/antinodes.
 For our case, a wave is generated at one end of a cord by a string vibrator that moves the cord up and down at a measurable frequency. This wave travels down the cord to the other end and reflects back towards the source. As the wave reflects back and forth, augmented by the string vibrator at one end, the oppositely traveling waves interfere to produce a 'standing-wave' pattern of vibration. It can be shown that certain points of this pattern never move. They are called **nodes** (see {numref}`waves_harmonics_illustration`). Thus in order for a standing wave pattern to be produced on a cord that is effectively tied at both ends and cannot move, the pattern that is established must, at the very least, have nodes at each end (also see fundamental in {ref}`demo-video-1-wavemotion-highspeed`). Subsequently, the maxiumum amplitude part of the wave that does move is called **antinodes**.
 
 
-(demo-video-1-wavemotion-highspeed)=
-#### ○ Example Video: Waves on a String
-
-<div style="text-align: center;">
-  <iframe
-    width="80%"
-    height="315"
-    src="https://www.youtube.com/embed/fQfNq8tJp3s"
-    title="YouTube video"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
-  <figcaption>Demonstration video, examples of 1st, 2nd, 3rd harmonics. *No audio*</figcaption>
-</div>
-
-If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=fQfNq8tJp3s" target="_blank" rel="noopener noreferrer">
-https://www.youtube.com/watch?v=fQfNq8tJp3s
-</a>
-
-
 #### ○ Node Spacing & Harmonics
 
 Remember that a full wave is a cycle, out and back to its initial position and direction. Take, for example, swinging on a swingset; you get as far back to start swinging, you swing forward, reach the same height but come to a stop and change to the opposite direction --- at this point, you're only halfway through it. You then start swinging backwards until you again reach that initial height and come to a stop, but this time, you're changing back to going in the same direction when you started --- a full cycle complete. The positions when you changed direction but velocity came to a stop are equivelent to *nodes*, and your fastest motion at the bottom of the swing is equivalent to having some amplitude at *antinodes*. Througout this whole example, you start at a node, change direction at the second node, and end your cycle at a third node. We find that a full cycle's wavelength has 3 nodes and 2 antinodes (illustrated by 2nd mode in see {numref}`waves_harmonics_illustration`). 
@@ -105,12 +83,46 @@ Similarly, the allowable frequencies of vibration of the cord are integral multi
 ...
 ```
 
-In this experiment, similar to that seen in {ref}`demo-video-1-wavemotion-highspeed`, one end of a horizontal cord is attached to the string vibrator (see {numref}`fig-string-vibrator`) and the other end, after passing over a pulley, is attached to a hanging mass. We can adjust the amplitude and the frequency of the wave by adjusting the output of the sine wave generator, which powers the string vibrator. The tension is determined by the weight of the hanging mass. Therefore for a given tension and linear density, the frequency can be adjusted and measured for a standing wave condition. A measurement of node spacing establishes the wavelength. With the frequency and wavelength measured, the velocity can be determined from {eq}`eq-wave-frequency`. From a measurement of the linear density of the cord and the tension in the cord, we can independently determine the velocity from {eq}`eq-wave-velocity`. The two independently determined values of velocity of propagation can be compared.
+
+
+
+(demo-video-1-wavemotion-highspeed)=
+#### ○ Experiment Preview & Example Video: Waves on a String
+
+<div style="text-align: center;">
+  <iframe
+    width="80%"
+    height="315"
+    src="https://www.youtube.com/embed/fQfNq8tJp3s"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>Demonstration video, examples of 1st, 2nd, 3rd harmonics. *No audio*</figcaption>
+</div>
+
+If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=fQfNq8tJp3s" target="_blank" rel="noopener noreferrer">
+https://www.youtube.com/watch?v=fQfNq8tJp3s
+</a>
+
+
+In this experiment, similar to that seen in {ref}`demo-video-1-wavemotion-highspeed` and {numref}`fig-string-vibrator-schematic`, one end of a horizontal cord is attached to the string vibrator; the other end, after passing over a pulley, is attached to a hanging mass. We can adjust the amplitude and the frequency of the wave by adjusting the output of the sine wave generator (see {numref}`fig-string-vibrator`), which powers the string vibrator. The tension is determined by the weight of the hanging mass. Therefore for a given tension and linear density, the frequency can be adjusted and measured for a standing wave condition. A measurement of node spacing establishes the wavelength. With the frequency and wavelength measured, the velocity can be determined from {eq}`eq-wave-frequency`. From a measurement of the linear density of the cord and the tension in the cord, we can independently determine the velocity from {eq}`eq-wave-velocity`. The two independently determined values of velocity of propagation can be compared.
+
+
+```{figure} WavesFigures/Figure_02_setupExample.png
+:name: fig-string-vibrator-schematic
+:width: 100%
+:align: center
+
+Illustrated setup with string vibrator and string over frictionless pulley. String tension from hanging mass $m$. Length of string (first-to-last nodes) --- left side bracket is wider to represent the lack of clear position from the vibrating metal tab.
+```
 
 ```{figure} WavesFigures/DSC_6675.jpg
 :name: fig-string-vibrator
 :alt: Setup with sine wave generator and string vibrator experimental apparatus
-:width: 600px
+:width: 100%
 :align: center
 
 Setup with sine wave generator and string vibrator.
@@ -193,7 +205,7 @@ The cases today are as shown in {numref}`waves-cases-table`.
 
 6. Calculate each hanging mass's related tension ($F_T = mg$) and uncertainty by maximizing and taking the difference ($\delta F_T = (m + \delta m) g - F_T$).
 
-7. Calculate each case's expected propagation velocities using {eq}`eq-wave-velocity`, and similarly maximize and take the difference $\delta v=\sqrt{(F_T + \delta F_T) / (\mu - \delta \mu)} - v$
+7. Calculate each case's expected propagation velocities using {eq}`eq-wave-velocity`, and similarly maximize and take the difference $\delta v=\sqrt{(F_T + \delta F_T) / (\mu - \delta \mu)} - v$.
 
 
 (section-waves-experimental-velocity)=
