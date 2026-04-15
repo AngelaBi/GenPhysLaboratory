@@ -303,7 +303,7 @@ The previous steps have focused on how the deflection of the electron beam depen
 
 ### ● Post-lab Writeup
 
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
   - How does the uncertainty (RMS) of your plotted data compare to your estimated position uncertainty on the screen? (i.e. are you over or underestimating single trial uncertainties?)

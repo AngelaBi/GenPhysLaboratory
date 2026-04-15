@@ -606,7 +606,7 @@ Safety: regarding electricity and the plates touching.
 
 ### ● Post-lab Writeup
 
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
   - What are your measurement uncertainties, and where do they come from?

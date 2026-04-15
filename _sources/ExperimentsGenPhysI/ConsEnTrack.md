@@ -411,7 +411,7 @@ Defend why your data agrees with or disagrees with the concept of energy conserv
 ```
 
 - Make sure to submit your finalized data table (Excel sheet). 
-- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
 	- What is the precision of your equipment?
   - What are possible random errors for today's experiment?
   - What are possible systematic errors for today’s experiments?

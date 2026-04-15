@@ -179,18 +179,18 @@ Based on your data, do you expect some or all of the dominos to float, sink, or 
 
 
 - Make sure to submit your finalized data table (Excel sheet). 
-- In a **paragraph**, summarize the results you have determined in each case. Consider:
-  - What were your densities for each of the **different colored dominoes** (based on Analysis Table 1), and did each color agree (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? In other words, do all the $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person1}}$, $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person2}}$, etc. agree?
-  - Are the average densities of all four dominoes as measured by **each person** consistent (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? (i.e. do all the $\rho_{\text{blue-person1}}$, $\rho_{\text{green-person1}}$, etc. agree?)
-  - Based on your measurements, did you expect the dominoes to float in water (at room temperature)? Did you test it? What did you find, confirmation or disconfirmation of your predictions?
-
-- In a **paragraph**, summarize your error analysis. Be qualitative not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
 	- What was the precision of your equipment (calipers, triple-beam balance, etc.)?
   - What are possible systematic errors for today’s experiments?
   - How might your values of $\rho$ change based on those uncertainties?
   - How does the range of densities for an individual domino trial based on measurement uncertainties (i.e. $\rho_{\text{min}}$ and $\rho_{\text{max}}$) compare to the range of densities given by the standard deviation $\sigma$ across colors or across group members? 
      - Larger or smaller? IWhat does this comparison imply about the main sources of error in this experiment?
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+  - What were your densities for each of the **different colored dominoes** (based on Analysis Table 1), and did each color agree (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? In other words, do all the $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person1}}$, $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person2}}$, etc. agree?
+  - Are the average densities of all four dominoes as measured by **each person** consistent (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? (i.e. do all the $\rho_{\text{blue-person1}}$, $\rho_{\text{green-person1}}$, etc. agree?)
+  - Based on your measurements, did you expect the dominoes to float in water (at room temperature)? Did you test it? What did you find, confirmation or disconfirmation of your predictions?
 
+  
 ## The Whiteboard
 
 Example data tables are shown below to assist you in building your spreadsheet for this first lab. Additionally the original whiteboard summary is at the end of this section.

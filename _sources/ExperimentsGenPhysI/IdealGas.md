@@ -335,7 +335,7 @@ This week's lab is built of essentially two different, but still related to ther
 
 
   ### Thermodynamic Processes Post-Lab
-  - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
     - What are possible random errors for today’s experiments?
     - What are possible systematic errors for today’s experiments?
     - Constant Temperature (Isothermal):
@@ -366,7 +366,7 @@ This week's lab is built of essentially two different, but still related to ther
 	
 
   ### Absolute Zero Post-Lab
-  - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
     - What are possible systematic errors for today's experiments?
     - How did you determine your uncertainty in your absolute zero value?
     - How may systematic errors affect your determined value for absolute zero (i.e. increase or decrease)?

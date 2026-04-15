@@ -269,7 +269,7 @@ Note: For this lab, your results will be very qualitative.
 
 ### ● Post-lab Writeup
 
-- In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+- In a **paragraph**, summarize your error analysis. Be qualitative, and quantitative when meaningful.
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
   - How could you increase your confidence (i.e. decrease you uncertainty) in your electric field lines (i.e. final results) considering your methodology from today's lab? *Consider electrode configuration 3 ({numref}`E2Fig03_plots` 3).*
 
