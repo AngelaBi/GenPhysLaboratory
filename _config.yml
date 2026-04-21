@@ -38,9 +38,8 @@ exclude_patterns:
 html:
   extra_css:
     - _static/custom.css
-
-html:
   theme: sphinx_book_theme
+
 
 sphinx:
   config:
