@@ -1,7 +1,53 @@
 (rotational-dynamics-moi-angmom-lab-overall)=
 # 1171L-ONLY | Rotational Dynamics with Moment of Inertia & Angular Momentum
 
+
+
+## Post-Lab Submission --- Interpretation of Results
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with the expected values. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+```
+
+This week's lab is built of essentially two different, but still related to rotational motion, experiments. To assist in your analysis and writeups, the suggested talking points below are broken up into the Moment of Inertia and Angular Momentum parts of the lab. You will still have single document for error analysis and single document for results as assignments in Blackboard.
+
+  ### ● Finalized Spreadsheets
+  - Make sure to submit your finalized data table (Excel sheet).
+    - Please include relevant screenshots of your Capstone plots including:
+      - Moment of Inertia:
+        - 1 plot of Angular Velocity vs. Time for disk (apparatus)
+        - 1 plot of Angular Velocity vs. Time for disk plus thick black ring (total)
+        - 1 plot of Angular Velocity vs. Time for empty rod (apparatus)
+        - 1 plot of Angular Velocity vs. Time for empty rod plus point masses (total)
+      - Angular Momentum:
+        - 1 plot of Angular Position vs. Time showing changing slope before and after collision (dropping of ring)
+
+  ### ● Moment of Inertia Post-Lab
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	  - What are your measurement uncertainties for each experiment?
+	  - What are possible systematic uncertainties for each experiment?
+    - How do these uncertainties affect your final results for $I$?
+  - In a **paragraph**, summarize the results you have determined in each case. Consider:
+	  - Part 1: How do the values of both the **ring's** and **two-point masses'** measured $I$ compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?
+	  - Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in **Capstone**). Why does this happen?
+
+
+  ### ● Angular Momentum Post-Lab
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	  - What are your measurement uncertainties for each experiment?
+	  - What are possible systematic uncertainties for each experiment?
+    - How do these uncertainties affect your final results for $L$?
+  - In a **paragraph**, summarize the results you have determined in each case. Consider:
+	  - Part 2: Is angular momentum $L$ conserved? What might cause any discrepancies in the conservation of angular momentum?
+  	- Part 2: What is the effect of dropping the ring off-center? Is $L$ conserved when considering the off-axis portion?
+
+
+
+
 ## Background
+
+### ● Background Overview
 
 ```{admonition} OVERALL GOALS
 :class: note
@@ -22,7 +68,7 @@ F_{net} = m a
 
 Rotational motion can be described in a very similar manner, but the quantities involved need to be changed to rotational quantities. These quantities are described and explained in detail in the following paragraphs.
 
-### Moment of Inertia
+### ● Moment of Inertia
 
 In rotational motion the moment of inertia (usually denoted by $I$) takes the role of mass. An object with a large value of $I$ will be reluctant to change its rotational motion. Just as mass this quantity is a scalar, meaning that it has no direction. The moment of inertia of a system of objects can be determined easily by adding the moment of inertia of each of the different components making up the entire system. The moment of inertia depends not only on the mass of the object but also on how the mass is distributed with respect to the axis of rotation. The further the mass is away from the axis of rotation, the higher the moment of inertia will be. For a ***point mass*** (an object that can be considered small with respect to its distance from the axis of rotation) the moment of inertia is defined as
 
@@ -70,7 +116,7 @@ I= M_{R} \, R_{R}^{2}
 I=\frac{1}{2} M_{R} \, \left(R_{i}^2 + R_{o}^2\right)
 ```
 
-### Torque
+### ● Torque
 
 A force by itself is not enough to determine whether an object will start to rotate (just think about how a force that is applied to the hinges of a door will not rotate the door). Instead we define a new quantity, called torque $\tau$, which combines the force and the distance from the axis of rotation (also called the lever arm). This quantity is a vector quantity, meaning that it does have a direction
 
@@ -81,7 +127,7 @@ A force by itself is not enough to determine whether an object will start to rot
 
 Here $\vec{d}$ denotes the lever arm (directed outward from the center) and $\vec{F}_{\perp}$ is the component of the force perpendicular to the lever arm.
 
-### Newton's 2nd Law for Rotational Motion
+### ● Newton's 2nd Law for Rotational Motion
 
 With the above definitions we can now formulate a rotational version of Newton's 2nd Law. An object with moment of inertia $I$ will experience an angular acceleration $\vec{\alpha}$, if a net torque $\vec{\tau}_{\text{net}}$ acts on it
 
@@ -90,7 +136,7 @@ With the above definitions we can now formulate a rotational version of Newton's
 \vec{\tau}_{\text{net}} = I \vec{\alpha}.
 ```
 
-### Calculating the Moment of Inertia
+### ● Calculating the Moment of Inertia
 
 One can use Newton's 2nd Law for Rotational Motion to calculate the moment of inertia of an object from the angular acceleration $\alpha$ and the net torque acting on the object.
 
@@ -135,7 +181,7 @@ Left: Sketch of a pulley of mass $M$ and radius $R$ being accelerated by a hangi
 
 
 
-### Angular Momentum
+### ● Angular Momentum
 
 A similar derivation as above can be used to define the quantity of angular momentum $\vec{L}$ from the definition of linear momentum ($\vec{p} = m \vec{v}$)
 
@@ -168,7 +214,7 @@ where ${I_{cm}}$ is the moment of inertia about an axis through the center of ma
 
 ## Experimental Procedure
 
-### Preliminary Setup
+### ● Preliminary Setup
 The lab today makes use of a rotary sensor, which is able to detect and measure angular displacement, angular velocity, and angular acceleration. This Rotary Motion Sensor (RMS), with a **stated uncertainty of 0.09°**, is attached to a vertical rod and has a 3-step pulley affixed to its axle (see {numref}`M08_rotation_Fig02`). Objects with different moments of inertia can be mounted onto the 3-step pulley and their rotational motion be measured. A second, black pulley (called a Super Pulley) is attached ***at an angle*** to the RMS to allow a string to spool off the 3-step pulley as shown in {numref}`M08_rotation_Fig02`. A weight hanger of known mass $m_\text{hanger}$ is attached to the free end of the string and provides an accelerating ***torque*** to the 3-step pulley and therefore to the object mounted on it.
 
 The objects to be mounted are either a rod with point masses in {numref}`M08_rotation_Fig04` and a disk with an accompanying thick ring in {numref}`M08_rotation_Fig03`.
@@ -210,7 +256,7 @@ Experimental setup of the Conservation of Angular Momentum experiment with **col
 ```
 
 
-### Part I$_\text{a}$ --- Moment of Inertia of **Two Point Masses**
+### ● Part I$_\text{a}$ --- Moment of Inertia of **Two Point Masses**
 
 ```{admonition} OVERVIEW --- Moment of Inertia of Two Point Masses
 :class: note
@@ -267,7 +313,7 @@ Determine the moment of inertia of the two point masses (denoted as *pointMasses
 - Compare the difference between your expected value and the experimental value with the standard deviation treated as your uncertainty range.
 
 
-### Part I$_\text{b}$ --- Moment of Inertia of a **Thick Ring**
+### ● Part I$_\text{b}$ --- Moment of Inertia of a **Thick Ring**
 
 ```{admonition} OVERVIEW --- Moment of Inertia of a Thick Ring
 :class: note
@@ -324,7 +370,7 @@ Determine the moment of inertia of the ring (denoted as *ringOnly*) by running 3
 
 
 
-### Part II --- Conservation of Angular Momentum
+### ● Part II --- Conservation of Angular Momentum
 
 ```{admonition} OVERVIEW --- Conservation of Angular Momentum
 :class: note
@@ -423,41 +469,6 @@ Investigate the Parallel Axis Theorem by:
     - Don't leave a mess, leave it better than you found it, thank you.
     ```
 
-
-
-## Post-Lab Submission --- Interpretation of Results
-
-This week's lab is built of essentially two different, but still related to rotational motion, experiments. To assist in your analysis and writeups, the suggested talking points below are broken up into the Moment of Inertia and Angular Momentum parts of the lab. You will still have single document for error analysis and single document for results as assignments in Blackboard.
-
-  ### Finalized Spreadsheets
-  - Make sure to submit your finalized data table (Excel sheet).
-    - Please include relevant screenshots of your Capstone plots including:
-      - Moment of Inertia:
-        - 1 plot of Angular Velocity vs. Time for disk (apparatus)
-        - 1 plot of Angular Velocity vs. Time for disk plus thick black ring (total)
-        - 1 plot of Angular Velocity vs. Time for empty rod (apparatus)
-        - 1 plot of Angular Velocity vs. Time for empty rod plus point masses (total)
-      - Angular Momentum:
-        - 1 plot of Angular Position vs. Time showing changing slope before and after collision (dropping of ring)
-
-  ### Moment of Inertia Post-Lab
-  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	  - What are your measurement uncertainties for each experiment?
-	  - What are possible systematic uncertainties for each experiment?
-    - How do these uncertainties affect your final results for $I$?
-  - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - Part 1: How do the values of both the **ring's** and **two-point masses'** measured $I$ compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?
-	  - Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in **Capstone**). Why does this happen?
-
-
-  ### Angular Momentum Post-Lab
-  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	  - What are your measurement uncertainties for each experiment?
-	  - What are possible systematic uncertainties for each experiment?
-    - How do these uncertainties affect your final results for $L$?
-  - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - Part 2: Is angular momentum $L$ conserved? What might cause any discrepancies in the conservation of angular momentum?
-  	- Part 2: What is the effect of dropping the ring off-center? Is $L$ conserved when considering the off-axis portion?
 
 
 ## The Whiteboard

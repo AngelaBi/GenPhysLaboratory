@@ -2,24 +2,21 @@
 # Force Table with 3 Vectors at Equilibrium
 
 
-dsafsda
-asdf
-asdf
-
-asdfasdf
-
-asdfsad
-
-`dafgaegdsuhf`
-sdfasdf
-
-asdfasdf `dsfa` sdfgsdf 
-
-
 (interpretation1)=
 ## Post-Lab Submission --- Interpretation of Results
 
-- Make sure to submit your finalized data table (Excel sheet). 
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with vector addition and equilibrium. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+```
+
+
+### ● Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+
+### ● Post-lab Writeup
 
 - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
 	- What are the uncertainties of Cases 1 & 2 (Finding Equilibrant)?

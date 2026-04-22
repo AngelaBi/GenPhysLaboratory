@@ -1,6 +1,53 @@
 (centripetal-force-lab-overall)=
 # Centripetal Force with Mass on Rotating Arm
 
+
+## Post-Lab Submission --- Interpretation of Results
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with the expected values for your masses. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+```
+
+
+### ● Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+    - Please include relevant plot(s) including:
+      - A screenshot or photo of the linearized and quadratic plots from **Capstone** for just ***one trial*** for discussion purposes. 
+
+### ● Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	- What is the precision of your equipment?
+    - What are possible random errors for today's experiment?
+	- What are possible systematic errors for today’s experiments?
+	- Discuss your uncertainties (see {ref}`error-step-centripetal-force`) and their effects
+        - Sources of measured or estimated uncertainties (values); how large are they?
+        - How do they affect your final mass values; what has the largest affect?
+- In a **paragraph**, summarize the results you have determined in each case. 
+	- From where did you determine your experimental mass? Do your experimentally determined masses with uncertainties ($\text{e.g.}\,\bar{M}_\text{object,exp} \pm \delta \bar{M}_\text{object,exp}$) agree with the actual mass of the applied masses plus mass holder (i.e. range overalapping with actual value)?
+    - How does the shape of the $F_\text{c}$ vs. $v^2$ plot compare to the $F_\text{c}$ vs. $v$ plot? 
+        - What does this tell you about the mathematical relationship between centripetal force and velocity? 
+        - For example, if the velocity is doubled, does the centripetal force also double, or does it change by a different factor? What is that change in centripetal force?
+	- Why should there be the same mass on the fixed-counterweight mass holder as compared to the freely-sliding mass holder? What might you expect to see in your data if the fixed-counterweight and freely-sliding masses and radii were not comparable?
+
+
+
+<!---
+        * Does graphs expected behavior question change to a discussion point in the procedure
+        * From where did you determine your experimental mass? ..... does it agree quesiton
+        * How does the shape of the Fc vs. v plot compare to the Fc vs. v^2 plot? What does this tell you about the mathematical relationship between centripetal force and velocity? For example, if the velocity is doubled, does the centripetal force also double, or does it change by a different factor? What is that change in centripetal force?
+        * Wobbling question, include as discussion point at end of procedure
+    * m mass becomes M_mass just to be super freaking clear
+    * In Errors
+        * Precision ? as first
+        * What are possible rendom erroros
+        * Discuss uncertainties, point back to step in procedure
+
+--->
+
+
 ## Background
 
 ### ● Background Overview
@@ -385,44 +432,6 @@ The next step will cause the apparatus to begin rotation. Be sure it can do so w
 :class: seealso
 The next step will cause the apparatus to begin rotation. Be sure it can do so without hitting anything or anybody as it will reach damaging speeds.
 ```
---->
-
-## Post-Lab Submission --- Interpretation of Results
-
-```{admonition} Defend your conclusions with your data
-:class: important
-Defend why your data agrees with or disagrees with the measured values for your masses. Use error propagation from your uncertainties and precision of your equipment to help your argument.
-```
-
-- Make sure to submit your finalized data table (Excel sheet).
-    - Include a screenshot or photo of the linearized and quadratic plots from **Capstone** for just ***one trial*** for discussion purposes. 
-- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	- What is the precision of your equipment?
-    - What are possible random errors for today's experiment?
-	- What are possible systematic errors for today’s experiments?
-	- Discuss your uncertainties (see {ref}`error-step-centripetal-force`) and their effects
-        - Sources of measured or estimated uncertainties (values); how large are they?
-        - How do they affect your final mass values; what has the largest affect?
-- In a **paragraph**, summarize the results you have determined in each case. 
-	- From where did you determine your experimental mass? Do your experimentally determined masses with uncertainties ($\text{e.g.}\,\bar{M}_\text{object,exp} \pm \delta \bar{M}_\text{object,exp}$) agree with the actual mass of the applied masses plus mass holder (i.e. range overalapping with actual value)?
-    - How does the shape of the $F_\text{c}$ vs. $v^2$ plot compare to the $F_\text{c}$ vs. $v$ plot? 
-        - What does this tell you about the mathematical relationship between centripetal force and velocity? 
-        - For example, if the velocity is doubled, does the centripetal force also double, or does it change by a different factor? What is that change in centripetal force?
-	- Why should there be the same mass on the fixed-counterweight mass holder as compared to the freely-sliding mass holder? What might you expect to see in your data if the fixed-counterweight and freely-sliding masses and radii were not comparable?
-
-
-
-<!---
-        * Does graphs expected behavior question change to a discussion point in the procedure
-        * From where did you determine your experimental mass? ..... does it agree quesiton
-        * How does the shape of the Fc vs. v plot compare to the Fc vs. v^2 plot? What does this tell you about the mathematical relationship between centripetal force and velocity? For example, if the velocity is doubled, does the centripetal force also double, or does it change by a different factor? What is that change in centripetal force?
-        * Wobbling question, include as discussion point at end of procedure
-    * m mass becomes M_mass just to be super freaking clear
-    * In Errors
-        * Precision ? as first
-        * What are possible rendom erroros
-        * Discuss uncertainties, point back to step in procedure
-
 --->
 
 

@@ -1,6 +1,80 @@
 (simple-projectile-motion-overall)=
 # Simple Projectile Motion
 
+
+(interpretation3)=
+## Post-Lab Submission --- Interpretation of Results
+<!---
+- Make sure to submit your finalized data table (Excel sheet)
+- What type of system do the kinematic equations represent?
+- Experiment 1:
+  - What are your results ($g \pm \delta g$), and how do they compare to the accepted value in Fairfield, CT?
+    - In other words, for Experiment 1, COMPARE your experimental result of $g$ to the accepted values. Does $g \pm \delta g$ overlap (and therefore agree) with the accepted value?
+  - What are the uncertainties of Experiment 1?
+  - Would a different sized marble change your derived value of $g$? Why or why not?
+- Experiment 2:
+  - What were your results for the horizontal trajectories at both lower and higher heights?
+  - Does your experimental distance of the higher height agree with what you expected from your theoretical calculation?
+    - In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+  - What uncertainties might make this difference larger or smaller?
+  - Was your bullseye target accurate to the experimental results?
+- Experiment 3:
+  - What were your results for the trajectories from a non-zero angle(s)?
+  - Does your experimental distance agree with what you expected from your theoretical calculation?
+    - In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+  - What uncertainties might make this difference larger or smaller?
+  - Was your bullseye target accurate to the experimental results?
+- What is the precision of your equipment?
+- What are possible systematic errors for today's experiments?
+--->
+
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with expected kinematic projectiles. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+```
+
+
+### ● Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+    - Please include relevant plot(s) including:
+      - A photo of your experimental landing-zone data papers (while still taped to floor to show distribution).
+
+### ● Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative. Argue your conclusions with your data values. 
+	- What is the precision of your equipment?
+	- What are possible systematic errors for today's experiments?
+  - What sources of error may contribute to larger scatter from each case (i.e. size of your estimated ellipse radius that represented $\delta x$)?
+  - How does your estimated uncertainty for Case 1 affect your theoretical distances for Cases 2 & 3, larger or smaller? Try, in your spreadsheet, changing your $x_{\text{case 1}}$ by its uncertainty, i.e. $x_{\text{case 1}} + \delta x_{\text{case 1}}$. How much bigger or smaller does your $x_{\text{case 2, theoretical}}$ and $x_{\text{case 3, theoretical}}$ become?
+  <!---
+	- **Experiment 1:**
+		- What are the uncertainties of Experiment 1?
+		-  Does your experimental distance of the higher height agree with what you expected from your theoretical calculation?
+			- In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
+      --->
+	- **Cases 2 & 3:**
+		- What uncertainties or sources of error might make the **difference** between your theoretical and experimental horizontal distances larger or smaller?
+
+
+
+- In a **paragraph**, summarize the results you have determined in each case, i.e. $x_{\text{experimental}} \pm \delta x_{\text{experimental}}$... and answer the following questions (longer does not mean better) while arguing your conclusions with your data values:
+	- What type of system do the kinematic equations represent?
+  <!---
+	- **Experiment 1:**
+	  - What are your results ($g \pm \delta g$), and how do they compare to the accepted value in Fairfield, CT?
+	    - In other words, for Experiment 1, COMPARE your experimental result of $g$ to the accepted values. Does $g \pm \delta g$ overlap (and therefore agree) with the accepted value?
+	  - Would a different sized marble change your derived value of $g$? Why or why not?
+    --->
+	- **Cases 1 & 2:**
+	  - What were your results for the horizontally-launched trajectories at the initial lower height and then higher height? Do your results $x_{\text{case 2, experimental}} \pm \delta x_{\text{case 2, experimental}}$ overlap with $x_{\text{case 2, theoretical}}$? If not, what may be a physical reason why?
+	- **Case 3:**
+	  - What were your results for the trajectories from a non-zero angle(s) at the higher height? Do your results overlap with your theoretical value? Another way to think about it, does your uncertainty cover the magnitude of the difference between your experimental and theoretical values? If not, what may be a physical reason why?
+	- Were your bullseye targets (estimation) accurate to the experimental results; any bias towards being an over- or under-estimate? Back up your answer with your results.
+
+
+
 ## Background
 
 ### ● Background Overview
@@ -517,66 +591,6 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 <!---
 30. DISCUSSION POINT (covered in {ref}`interpretation3`): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\text{case 3, experimental}} \pm \delta x_{\text{case 3, experimental}}$ overlap with $x_{\text{case 3, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
 --->
-
-(interpretation3)=
-## Post-Lab Submission --- Interpretation of Results
-<!---
-- Make sure to submit your finalized data table (Excel sheet)
-- What type of system do the kinematic equations represent?
-- Experiment 1:
-  - What are your results ($g \pm \delta g$), and how do they compare to the accepted value in Fairfield, CT?
-    - In other words, for Experiment 1, COMPARE your experimental result of $g$ to the accepted values. Does $g \pm \delta g$ overlap (and therefore agree) with the accepted value?
-  - What are the uncertainties of Experiment 1?
-  - Would a different sized marble change your derived value of $g$? Why or why not?
-- Experiment 2:
-  - What were your results for the horizontal trajectories at both lower and higher heights?
-  - Does your experimental distance of the higher height agree with what you expected from your theoretical calculation?
-    - In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
-  - What uncertainties might make this difference larger or smaller?
-  - Was your bullseye target accurate to the experimental results?
-- Experiment 3:
-  - What were your results for the trajectories from a non-zero angle(s)?
-  - Does your experimental distance agree with what you expected from your theoretical calculation?
-    - In other words, does $x_{\theta\text{, experimental}} \pm \delta x_{\theta\text{, experimental}}$ overlap with $x_{\theta\text{, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
-  - What uncertainties might make this difference larger or smaller?
-  - Was your bullseye target accurate to the experimental results?
-- What is the precision of your equipment?
-- What are possible systematic errors for today's experiments?
---->
-
-- Make sure to submit your finalized data table (Excel sheet)
-  - Please include an photo of your experimental data papers.
-
-- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative. Argue your conclusions with your data values. 
-	- What is the precision of your equipment?
-	- What are possible systematic errors for today's experiments?
-  - What sources of error may contribute to larger scatter from each case (i.e. size of your estimated ellipse radius that represented $\delta x$)?
-  - How does your estimated uncertainty for Case 1 affect your theoretical distances for Cases 2 & 3, larger or smaller? Try, in your spreadsheet, changing your $x_{\text{case 1}}$ by its uncertainty, i.e. $x_{\text{case 1}} + \delta x_{\text{case 1}}$. How much bigger or smaller does your $x_{\text{case 2, theoretical}}$ and $x_{\text{case 3, theoretical}}$ become?
-  <!---
-	- **Experiment 1:**
-		- What are the uncertainties of Experiment 1?
-		-  Does your experimental distance of the higher height agree with what you expected from your theoretical calculation?
-			- In other words, does $x_{\text{higher height, experimental}} \pm \delta x_{\text{higher height, experimental}}$ overlap with $x_{\text{higher height, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
-      --->
-	- **Cases 2 & 3:**
-		- What uncertainties or sources of error might make the **difference** between your theoretical and experimental horizontal distances larger or smaller?
-
-
-
-- In a **paragraph**, summarize the results you have determined in each case, i.e. $x_{\text{experimental}} \pm \delta x_{\text{experimental}}$... and answer the following questions (longer does not mean better) while arguing your conclusions with your data values:
-	- What type of system do the kinematic equations represent?
-  <!---
-	- **Experiment 1:**
-	  - What are your results ($g \pm \delta g$), and how do they compare to the accepted value in Fairfield, CT?
-	    - In other words, for Experiment 1, COMPARE your experimental result of $g$ to the accepted values. Does $g \pm \delta g$ overlap (and therefore agree) with the accepted value?
-	  - Would a different sized marble change your derived value of $g$? Why or why not?
-    --->
-	- **Cases 1 & 2:**
-	  - What were your results for the horizontally-launched trajectories at the initial lower height and then higher height? Do your results $x_{\text{case 2, experimental}} \pm \delta x_{\text{case 2, experimental}}$ overlap with $x_{\text{case 2, theoretical}}$? If not, what may be a physical reason why?
-	- **Case 3:**
-	  - What were your results for the trajectories from a non-zero angle(s) at the higher height? Do your results overlap with your theoretical value? Another way to think about it, does your uncertainty cover the magnitude of the difference between your experimental and theoretical values? If not, what may be a physical reason why?
-	- Were your bullseye targets (estimation) accurate to the experimental results; any bias towards being an over- or under-estimate? Back up your answer with your results.
-
 
 ## The Whiteboard
 

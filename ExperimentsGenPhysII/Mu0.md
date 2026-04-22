@@ -1,5 +1,5 @@
 (magnetic-force-mu0-overall)=
-# Magnetic Force & the Determination of $\mu_0$
+# Magnetic Force & the Determination of μ₀
 
 
 

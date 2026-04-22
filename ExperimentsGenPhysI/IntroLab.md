@@ -1,6 +1,45 @@
 (intro-lab-dominos-overall)=
 # Introductory Lab: Domino Size & Density
 
+
+
+## Post-Lab Submission --- Interpretation of Results
+<!---
+- Make sure to submit your finalized data table (Excel sheet).
+- Discuss: Are the densities of all the different colored dominoes the same (within experimental uncertainty based on measurement uncertainties)? Example, do all the $\rho_{\text{blue-person1}}$, $\rho_{\text{blue-person2}}$, etc. agree?
+- Discuss: Are the average densities of all four dominoes as measured by each person consistent (within experimental uncertainty based on measurement uncertainties)? Example, do all the $\rho_{\text{blue-person1}}$, $\rho_{\text{green-person1}}$, etc. agree?
+- Discuss: Do you expect the dominoes to float in water (at room temperature)?
+- What was the precision of your equipment (calipers, triple-beam balance, etc.)?
+- What are possible systematic errors of the experiment?
+--->
+
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees between each domino characterization. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+```
+
+
+### ● Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+
+### ● Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	- What was the precision of your equipment (calipers, triple-beam balance, etc.)?
+  - What are possible systematic errors for today’s experiments?
+  - How might your values of $\rho$ change based on those uncertainties?
+  - How does the range of densities for an individual domino trial based on measurement uncertainties (i.e. $\rho_{\text{min}}$ and $\rho_{\text{max}}$) compare to the range of densities given by the standard deviation $\sigma$ across colors or across group members? 
+     - Larger or smaller? IWhat does this comparison imply about the main sources of error in this experiment?
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+  - What were your densities for each of the **different colored dominoes** (based on Analysis Table 1), and did each color agree (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? In other words, do all the $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person1}}$, $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person2}}$, etc. agree?
+  - Are the average densities of all four dominoes as measured by **each person** consistent (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? (i.e. do all the $\rho_{\text{blue-person1}}$, $\rho_{\text{green-person1}}$, etc. agree?)
+  - Based on your measurements, did you expect the dominoes to float in water (at room temperature)? Did you test it? What did you find, confirmation or disconfirmation of your predictions?
+
+  
+
+
 ## Background
 
 ### ● Background Overview
@@ -167,30 +206,7 @@ We will analyze the data in two ways, first by sorting your data by domino color
 
 Based on your data, do you expect some or all of the dominos to float, sink, or stay neutrally buoyant in room-temperature water? Before you leave, there should be a bucket of water near the front of the lab, test it out!
 
-## Post-Lab Submission --- Interpretation of Results
-<!---
-- Make sure to submit your finalized data table (Excel sheet).
-- Discuss: Are the densities of all the different colored dominoes the same (within experimental uncertainty based on measurement uncertainties)? Example, do all the $\rho_{\text{blue-person1}}$, $\rho_{\text{blue-person2}}$, etc. agree?
-- Discuss: Are the average densities of all four dominoes as measured by each person consistent (within experimental uncertainty based on measurement uncertainties)? Example, do all the $\rho_{\text{blue-person1}}$, $\rho_{\text{green-person1}}$, etc. agree?
-- Discuss: Do you expect the dominoes to float in water (at room temperature)?
-- What was the precision of your equipment (calipers, triple-beam balance, etc.)?
-- What are possible systematic errors of the experiment?
---->
 
-
-- Make sure to submit your finalized data table (Excel sheet). 
-- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	- What was the precision of your equipment (calipers, triple-beam balance, etc.)?
-  - What are possible systematic errors for today’s experiments?
-  - How might your values of $\rho$ change based on those uncertainties?
-  - How does the range of densities for an individual domino trial based on measurement uncertainties (i.e. $\rho_{\text{min}}$ and $\rho_{\text{max}}$) compare to the range of densities given by the standard deviation $\sigma$ across colors or across group members? 
-     - Larger or smaller? IWhat does this comparison imply about the main sources of error in this experiment?
-- In a **paragraph**, summarize the results you have determined in each case. Consider:
-  - What were your densities for each of the **different colored dominoes** (based on Analysis Table 1), and did each color agree (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? In other words, do all the $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person1}}$, $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person2}}$, etc. agree?
-  - Are the average densities of all four dominoes as measured by **each person** consistent (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? (i.e. do all the $\rho_{\text{blue-person1}}$, $\rho_{\text{green-person1}}$, etc. agree?)
-  - Based on your measurements, did you expect the dominoes to float in water (at room temperature)? Did you test it? What did you find, confirmation or disconfirmation of your predictions?
-
-  
 ## The Whiteboard
 
 Example data tables are shown below to assist you in building your spreadsheet for this first lab. Additionally the original whiteboard summary is at the end of this section.

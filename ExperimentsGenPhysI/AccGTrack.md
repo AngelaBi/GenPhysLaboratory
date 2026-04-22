@@ -1,13 +1,47 @@
 (acceleration-due-to-g-overall)=
 # Acceleration due to Gravity, *g*, with Glider on Tilted Air Track
 
+
+
+
+
+## Post-Lab Submission --- Interpretation of Results
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with the actual value of $g$. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+```
+
+
+### ● Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+
+### ● Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	- What are sources of uncertainty (initial v, friction, etc.)?
+	- What was the precision of the instrumentation (e.g. caliper, time, distance, etc.)?
+	- Compare your results ($g$ from each of the four cases and one from all 24 trials) to the accepted value. How do the standard deviations compare to the difference between your values of $g$ and the accepted value of $g$? 
+      - I.e. while treating the standard deviations of your measurements as your measurement uncertainties, do your values of $g$ for each case, as well as the overall average $g$, plus or minus the standard deviations overlap (and agree) with the accepted value of $g$? 
+      - What might cause your results to disagree the most?
+- In a **paragraph**, summarize the results you have determined in each case, i.e. $\bar{g}\pm\sigma_g$... and answer the following questions (longer does not mean better):
+	- If you release the glider with an initial velocity up or down the slope, what would you expect to happen to your derived values of $g$?
+	- Suppose there is a frictional force slowing the glider as it moves along the track. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of that there is significant friction along the track?
+	- Assume the track is not level at the beginning of the experiment. Further, assume that what you thought to be a level track was in fact slightly tipped in the same direction as your deliberate tipping via the spacers during the experiment. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of the track not being level?
+
+
+
+## Background
+
+### ● Background Overview
+
 ```{admonition} OVERALL GOALS
 :class: note
 Use an frictionless airtrack to:
 - Measure acceleration due to gravity.
 ```
 
-## Background
 
 By measuring the acceleration of a mass moving under the influence of just the gravitational attraction of the earth, namely its weight, we can determine the acceleration due to gravity, usually denoted by $g$.  The mass will be allowed to accelerate down a presumed frictionless, inclined plane.  Measurement of the acceleration along the plane is directly related to the acceleration due to gravity by a simple trigonometric relationship.  The use of the plane permits the convenient measurement of a small, measurable fraction of the acceleration due to gravity.  This of course is in lieu of the much more difficult measurement of a vertically falling mass.
 
@@ -87,7 +121,7 @@ Example of small and large spacers used to incline the air track. Remember to pu
 
 ## Experimental Procedure
 
-### Procedure Preview
+### ● Procedure Preview
 
 ```{admonition} OVERVIEW
 :class: note
@@ -112,7 +146,7 @@ Example of small and large spacers used to incline the air track. Remember to pu
 
 
 (accelGtrack-experimentPrep)=
-### Preliminary Setup
+### ● Preliminary Setup
 
 1. **Do not put a glider on the track without air flowing. If the air supply is not yet on, please remind the instructor.**
 
@@ -156,7 +190,7 @@ Suggested points on glider to read position on airtrack scale.
 
 
 (demo-video-accelGtrack-s0s1)=
-#### Demo Video: Photogate Positions
+#### ○ Demo Video: Photogate Positions
 
 
 <div style="text-align: center;">
@@ -198,7 +232,7 @@ Reminder, run your first case completely **before** moving on to additional case
 ```
 
 (detailsteps-accelGTrack)=
-### Experimental Data Collection
+### ● Experimental Data Collection
 
 11. For each of the four cases, create a Data table with enough **rows** for the number of trials you are doing, and **columns** for each of the variables you will be measuring or deriving (e.g. {ref}`experimental-data-AccGTrack`):
     - Trial number
@@ -234,7 +268,7 @@ Reminder, run your first case completely **before** moving on to additional case
     <div style="text-align: center;">
 
     (demo-video-accelGtrack-gliderRelease)=
-    #### Demo Video: Glider Release
+    #### ○ Demo Video: Glider Release
 
     </div>
 
@@ -278,7 +312,7 @@ Reminder, run your first case completely **before** moving on to additional case
     ```
 
 (summary-step-accelGtrack)=
-### Combined Results Across All Trials
+### ● Combined Results Across All Trials
 
 18. Create an Overall data table summarizing ***all 24 trials across all 4 cases*** (e.g. {ref}`experimental-overall-data-AccGTrack`):
     - Calculate $\bar{g}_{\text{allTrials}}$, the average of the measured $g$
@@ -287,28 +321,13 @@ Reminder, run your first case completely **before** moving on to additional case
   
 
 
-## Post-Lab Submission --- Interpretation of Results
-
-- Make sure to submit your finalized data table (Excel sheet)
-- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	- What are sources of uncertainty (initial v, friction, etc.)?
-	- What was the precision of the instrumentation (e.g. caliper, time, distance, etc.)?
-	- Compare your results ($g$ from each of the four cases and one from all 24 trials) to the accepted value. How do the standard deviations compare to the difference between your values of $g$ and the accepted value of $g$? 
-      - I.e. while treating the standard deviations of your measurements as your measurement uncertainties, do your values of $g$ for each case, as well as the overall average $g$, plus or minus the standard deviations overlap (and agree) with the accepted value of $g$? 
-      - What might cause your results to disagree the most?
-- In a **paragraph**, summarize the results you have determined in each case, i.e. $\bar{g}\pm\sigma_g$... and answer the following questions (longer does not mean better):
-	- If you release the glider with an initial velocity up or down the slope, what would you expect to happen to your derived values of $g$?
-	- Suppose there is a frictional force slowing the glider as it moves along the track. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of that there is significant friction along the track?
-	- Assume the track is not level at the beginning of the experiment. Further, assume that what you thought to be a level track was in fact slightly tipped in the same direction as your deliberate tipping via the spacers during the experiment. How would this affect the determined value of $g$? Would your result support or not support the hypothesis of the track not being level?
-
-
 
 ## The Whiteboard
 
 Example data tables are shown below to assist you in building your spreadsheet for this lab. Additionally the original whiteboard summary is at the end of this section.
 
 (AccGTrack-Common-Data)=
-### Example Common Data Table
+### ● Example Common Data Table
 
 ```{figure} AccGTrackFigures/Figure04_CommonTable_v2025-01.png
 :name: M02Fig04
@@ -330,7 +349,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 --->
 
 (experimental-data-AccGTrack)=
-### Example Case Data Table
+### ● Example Case Data Table
 ```{figure} AccGTrackFigures/Figure05_DataTable_v2025-01.png
 :name: M02Fig05
 :width: 100%
@@ -351,7 +370,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 --->
 
 (experimental-overall-data-AccGTrack)=
-### Example Overall Data Table
+### ● Example Overall Data Table
 ```{figure} AccGTrackFigures/Figure06_OverallTable_v2025-01.png
 :name: M02Fig06
 :width: 100%
@@ -367,7 +386,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 --->
 
 
-### Original Whiteboard Info
+### ● Original Whiteboard Info
 
 ```{figure} AccGTrackFigures/AccelGTrack_2024_Summer_01_v2025-01.jpg
 :name: AccelGTrack

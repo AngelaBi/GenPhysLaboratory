@@ -1,7 +1,54 @@
 (fluid-physics-arch-bern-lab-overall)=
 # Fluid Physics with Archimedes' & Bernoulli's Principles
 
-## Background 
+
+
+## Post-Lab Submission --- Interpretation of Results
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with Archimedes' and Bernoulli's Principles. Use your error analysis to help your argument.
+```
+
+### ● Finalized Spreadsheets
+  - Make sure to submit your finalized data table (Excel sheet).
+    - Please include for discussion relevant screenshots of your Capstone plots including:
+      - 1 plot of $P_1$ and $P_2$ vs. Time (just 1 trial) --- note where you are measuring.
+
+
+### ● Archimedes' Principle --- Post-Lab Error & Results Analysis
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+    - Where might errors arise in measuring the buoyant force?
+    - What are your measurement uncertainties for each experiment?
+    - What are possible systematic uncertainties for each experiment?
+    - How do these uncertainties affect your final results for $F_\text{B}$?
+  - In a **paragraph**, summarize the results you have determined in each case. Consider:
+	  - In which list (mass, volume, or density) are the objects grouped similarly?
+	  - In each object case, compare the the buoyant force determined from each method --- Part II was with displaced water for $F_\text{B, Archimedes' method}$, Part III was direct force sensor measurements for $F_\text{B, upward force method}$. Were they equal? How different were they?
+        - Were the \% differences between the two methods for each case relatively small, consistent, or did any case standout?
+	  - Which objects had the same buoyant force when submerged? Why?
+	  - For the plastic cylinder, what was the apparent weight in water? What would be the buoyant force be if plastic cylinder were completely submerged?
+	  - How did the buoyant force for the totally submerged brass cylinder relate to the buoyant force for the half-submerged brass cylinder?
+	  - What does the buoyant force depend on: The mass of the object, or its volume, or its density, or the material from which it is made?
+
+
+### ● Bernoulli's Principle --- Post-Lab Error & Results Analysis
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+    - Where might errors arise in measuring the flow rate?
+    - What are your measurement uncertainties for each experiment?
+    - What are possible systematic uncertainties for each experiment?
+    - What errors might cause your $P_{2 \text{,experimental}}$ to diverge from $P_{2\text{ avg actual}}$? 
+  - In a **paragraph**, summarize the results you have determined in each case. Consider:
+	  - Does your experimental value for $P_2$ agree with the actual value of $P_2$ as measured with the pressure sensor? (i.e. does $P_{2\text{,experimental}} \pm \delta P_{2\text{,experimental}}$ overlap with $P_{2\text{,actual,avg}} \pm \sigma P_{2\text{,actual,avg}}$?)
+	  - How is the Bernoulli Principle different than the Bernoulli Equation?
+	  - What assumptions about the fluid allows the Bernoulli Principle to work? (i.e. what type or characteristics of the fluid and/or flow are necessary assumptions for Bernoulli to hold true?)
+	  - Imagine that instead of being on the table, the Venturi tube were set on the floor with the rest of the experimental apparatus unchanged. Would the difference in pressures we see on the Capstone plot between $P_1$ and $P_2$ during the smooth, laminar flow section that we analyzed to find average pressures be *larger*, *smaller*, or *the same*. Why?
+
+
+
+## Background
+
+### ● Background Overview
 
 ```{admonition} OVERALL GOALS
 :class: note
@@ -18,7 +65,7 @@ Matter most commonly exists as a solid, liquid, or gas; these states are known a
 
 In today's experiments, we seek to understand why objects float or sink in a liquid (water) using Archimedes Principle regarding fluid statics as well as how liquid flows using Bernoulli's Principle regarding fluid dynamics.
 
-### Archimedes' Principle
+### ● Archimedes' Principle
 
 Archimedes' Principle states: "When an object is submerged in a fluid, the fluid exerts an upwards buoyant force equal to the weight of the fluid displaced by the object."
 
@@ -41,7 +88,7 @@ F_\text{B} = w_\text{fl}
 
 
 
-### Bernoulli's Principle
+### ● Bernoulli's Principle
 
 Imagine fluid flowing through a channel of varying width (ex. of such a setup in {numref}`M08_fluids_Fig07`). As the cross-sectional area changes, the volumetric flow rate remains constant, but the velocity and pressure of the fluid vary.
 
@@ -97,7 +144,7 @@ P_2 = P_1 - \frac{1}{2}\rho (v_{2}^2 - v_{1}^2)
 ## Experimental Procedure
 
 
-### Demo Video: Procedure Summary
+### ● Demo Video: Procedure Summary
 
 <div style="text-align: center;">
   <iframe
@@ -115,7 +162,7 @@ P_2 = P_1 - \frac{1}{2}\rho (v_{2}^2 - v_{1}^2)
 
 --- https://www.youtube.com/watch?v=M7vvhe71DOg
 
-### Archimedes' Principle (First experiment)
+### ● Archimedes' Principle (First experiment)
 
 ```{admonition} OVERVIEW
 :class: note
@@ -126,7 +173,7 @@ P_2 = P_1 - \frac{1}{2}\rho (v_{2}^2 - v_{1}^2)
 ```
 
 
-#### Archimedes --- Preliminary Setup
+#### ○ Archimedes --- Preliminary Setup
 
 In this experiment, we will first determine the mass, volume, and density of 6 objects (see {numref}`M08_fluids_Fig02`). We will then determine the buoyant force acting on each object using Archimedes' Principle by determining the weight of water each object displaces. Finally, we will determine the buoyant force by measuring the apparent weight of an object.
 
@@ -167,7 +214,7 @@ When an object is submerged in a fluid, the apparent weight of the object is les
 F_\text{B} = w_\text{obj in air} - w_\text{obj in water}
 ```
 
-#### Part I: Mass, Volume, and Density
+#### ○ Part I: Mass, Volume, and Density
 
 1. Create a data table with:
    - Columns for the mass $m$, volume $V$, and density $\rho$
@@ -238,7 +285,7 @@ Left) Measuring size with calipers (not done in this lab). Right) Lowering objec
     In which list (mass, volume, or density) are the objects grouped similarly to that of material?
     ```
 
-#### Part II: Finding the Buoyant Force Using Archimedes' Principle
+#### ○ Part II: Finding the Buoyant Force Using Archimedes' Principle
 
 For each of the objects, find the weight of the water displaced by each one:
 
@@ -266,7 +313,7 @@ For each of the objects, find the weight of the water displaced by each one:
     Is this in the same order as the mass list, the volume list, or the density list? Are any of the buoyant forces nearly the same? Why or why not?
     ```
 
-#### Part III: Finding the Buoyant Force by Finding the Upward Force
+#### ○ Part III: Finding the Buoyant Force by Finding the Upward Force
 
 13. Create a data table:
     - Seven rows for each of the 6 objects as well as the brass cylinder half-submerged (clearly label or describe the objects in the table).
@@ -291,7 +338,7 @@ For each of the objects, find the weight of the water displaced by each one:
 
 21. Add an additional column and calculate the difference (magnitude of difference in $N$) in $F_\text{B}$ between each method. (i.e. $F_\text{B, upward force method} - F_\text{B, Archimedes' method}$).
 
-21. Add an additional column and calculate for each object case the % difference between the buoyancy force (found here by measuring directly with the force sensor) and the buoyancy force found previously by Archimedes' Principle of the displaced water.
+21. Add an additional column and calculate for each object case the \% difference between the buoyancy force (found here by measuring directly with the force sensor) and the buoyancy force found previously by Archimedes' Principle of the displaced water.
 
 ```{math}
 \% \text{ diff.} = \frac{F_\text{B, upward force method} - F_\text{B, Archimedes' method}}{F_\text{B, Archimedes' method}} \times 100
@@ -302,7 +349,7 @@ For each of the objects, find the weight of the water displaced by each one:
   For each object case, is the buoyant force that was determined using the upward force method equal to the weight of the water displaced? How do the magnitudes of the difference between methods as well as the % diff. between methods compare?
   ```
 
-### Bernoulli's Principle (Second experiment)
+### ● Bernoulli's Principle (Second experiment)
 
 ```{admonition} OVERVIEW
 :class: note
@@ -312,7 +359,7 @@ For each of the objects, find the weight of the water displaced by each one:
   - Part II (**5 trials**): Determining the pressure of a fluid at a constriction point (in a Venturi tube) due to the Venturi effect.
 ```
 
-#### Bernoulli --- Preliminary Setup
+#### ○ Bernoulli --- Preliminary Setup
 
 In our experiment, we will assume we don't know the pressure at the constriction $P_2$, and will use the Continuity and Bernoulli equations to determine experimentally what $P_{2\text{,experimental}}$ should be and compare to the actual value $P_{2\text{,actual}}$ as measured by our pressure sensor.
 
@@ -337,7 +384,7 @@ After passing through the Venturi tube, the water will flow into a catch basin. 
 Sketch of the Venturi tube setup for the second experiment (Bernoulli).
 ```
 
-#### Part I: Determining Flow Rate $R$
+#### ○ Part I: Determining Flow Rate $R$
 
 1. Create a data table:
    - 6 rows for five trials of the measuring flow rate as well as the average flow rate $R_\text{avg}$ and standard deviation of your flow rate $\sigma_R$.
@@ -367,7 +414,7 @@ Sketch of the Venturi tube setup for the second experiment (Bernoulli).
     ```
 
 
-#### Part II: Determining Pressure at a Constriction (with Continuity and Bernoulli Equations)
+#### ○ Part II: Determining Pressure at a Constriction (with Continuity and Bernoulli Equations)
 
 11. Create a data table:
     - Common data section including:
@@ -475,44 +522,6 @@ Does you experimental value for the pressure at the narrow constriction, $P_2$, 
 
 
 
-
-
-
-## Post-Lab Submission --- Interpretation of Results
-
-### Finalized Spreadsheets
-  - Make sure to submit your finalized data table (Excel sheet).
-    - Please include for discussion relevant screenshots of your Capstone plots including:
-      - 1 plot of $P_1$ and $P_2$ vs. Time (just 1 trial) --- note where you are measuring.
-
-
-### Archimedes' Principle --- Post-Lab Error & Results Analysis
-  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-    - Where might errors arise in measuring the buoyant force?
-    - What are your measurement uncertainties for each experiment?
-    - What are possible systematic uncertainties for each experiment?
-    - How do these uncertainties affect your final results for $F_\text{B}$?
-  - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - In which list (mass, volume, or density) are the objects grouped similarly?
-	  - In each object case, compare the the buoyant force determined from each method --- Part II was with displaced water for $F_\text{B, Archimedes' method}$, Part III was direct force sensor measurements for $F_\text{B, upward force method}$. Were they equal? How different were they?
-        - Were the % differences between the two methods for each case relatively small, consistent, or did any case standout?
-	  - Which objects had the same buoyant force when submerged? Why?
-	  - For the plastic cylinder, what was the apparent weight in water? What would be the buoyant force be if plastic cylinder were completely submerged?
-	  - How did the buoyant force for the totally submerged brass cylinder relate to the buoyant force for the half-submerged brass cylinder?
-	  - What does the buoyant force depend on: The mass of the object, or its volume, or its density, or the material from which it is made?
-
-
-### Bernoulli's Principle --- Post-Lab Error & Results Analysis
-  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-    - Where might errors arise in measuring the flow rate?
-    - What are your measurement uncertainties for each experiment?
-    - What are possible systematic uncertainties for each experiment?
-    - What errors might cause your $P_{2 \text{,experimental}}$ to diverge from $P_{2\text{ avg actual}}$? 
-  - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - Does your experimental value for $P_2$ agree with the actual value of $P_2$ as measured with the pressure sensor? (i.e. does $P_{2\text{,experimental}} \pm \delta P_{2\text{,experimental}}$ overlap with $P_{2\text{,actual,avg}} \pm \sigma P_{2\text{,actual,avg}}$?)
-	  - How is the Bernoulli Principle different than the Bernoulli Equation?
-	  - What assumptions about the fluid allows the Bernoulli Principle to work? (i.e. what type or characteristics of the fluid and/or flow are necessary assumptions for Bernoulli to hold true?)
-	  - Imagine that instead of being on the table, the Venturi tube were set on the floor with the rest of the experimental apparatus unchanged. Would the difference in pressures we see on the Capstone plot between $P_1$ and $P_2$ during the smooth, laminar flow section that we analyzed to find average pressures be *larger*, *smaller*, or *the same*. Why?
 
 
 (m08-whiteboard-section)=
