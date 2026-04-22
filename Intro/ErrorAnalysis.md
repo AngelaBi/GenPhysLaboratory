@@ -276,14 +276,14 @@ The percent difference between experimental and actual values is
 
 ```{math}
 :label: eq-percentDifferenceinErrorAnalysis
-\frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100%.
+\frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.
 ```
 
 Sometimes, rather than a difference to actual values, you will be looking at how some quantity changes from an initial to final state. Similar to percent difference, you can report a **percent change** (when applicable) to help contexualize the process with
 
 ```{math}
 :label: eq-percentChangeinErrorAnalysis
-\frac{\text{Final Experimental Value} - \text{Initial Experimental Value}}{\text{Initial Experimental Value}} \times 100%.
+\frac{\text{Final Experimental Value} - \text{Initial Experimental Value}}{\text{Initial Experimental Value}} \times 100\%.
 ```
 
 

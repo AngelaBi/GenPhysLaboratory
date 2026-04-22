@@ -40,7 +40,6 @@ A **standing wave** is produced when two identical waves travel in opposite dire
 
 ```{figure} WavesFigures/waves_2025_Spring_01_v03.jpg
 :name: waves_harmonics_illustration
-:width: 100%
 :align: center
 
 Illustration of 1st through 6th harmonics with their nodes/antinodes.
@@ -56,31 +55,47 @@ Remember that a full wave is a cycle, out and back to its initial position and d
 
 For a standing wave to exist on a string, there must be nodes at either end of the string. 
 
-As you add more standing waves on that string, you find other possible patterns known as **normal modes**. Each standing wave mode allows for an integral number of waves to be travelling out and back on the string at any given time. If you have the second mode, then the string would have two full waves travelling on the string, one out, one reflected back. From the side, it would just appear as one single wave due to the standing wave nature showing two antinodes. Each of these normal modes are also known as **harmonics**. When waves constructively add together, it's as if they are in tune (similar to musical instruments). Every time you add another wave to the standing wave, you go up another octave or harmonic. We find, for a normal standing wave (nodes on either end), that the harmonic number $[n = \text{# of antinodes}]$ (e.g. {numref}`waves_harmonics_illustration`).
+As you add more standing waves on that string, you find other possible patterns known as **normal modes**. Each standing wave mode allows for an integral number of waves to be travelling out and back on the string at any given time. If you have the second mode, then the string would have two full waves travelling on the string, one out, one reflected back. From the side, it would just appear as one single wave due to the standing wave nature showing two antinodes. Each of these normal modes are also known as **harmonics**. When waves constructively add together, it's as if they are in tune (similar to musical instruments). Every time you add another wave to the standing wave, you go up another octave or harmonic. We find, for a normal standing wave (nodes on either end), that the harmonic number $[n = \text{\# of antinodes}]$ (e.g. {numref}`waves_harmonics_illustration`).
 
-Since the propagation velocity is only a function of the physical properties of the cord, the wavelength can be adjusted by selecting the appropriate frequencies of vibration that satisfy the normal-mode condition of 'nodes at least at the ends'. Since the length of the cord must be such that nodes exist at each end, the length of the cord $L$, tied at each end, must be an integral number of $\lambda$/2. I.e. $L = n \frac{\lambda}{2}$. As an example for a standing wave on a string, we could find for wavelength $\lambda_n$, where $n$ is the harmonic (here showing generalized version, first, second, and third harmonics, as visualized in {numref}`waves_harmonics_illustration`, and assuming end-to-end length of string $L = 0.6\,\text{m}$):
+Since the propagation velocity is only a function of the physical properties of the cord, the wavelength can be adjusted by selecting the appropriate frequencies of vibration that satisfy the normal-mode condition of 'nodes at least at the ends'. Since the length of the cord must be such that nodes exist at each end, the length of the cord $L$, tied at each end, must be an integral number of $\lambda$/2 {eq}`waves-wavelengthsEndToEndNode`. As an example for a standing wave on a string, we could find wavelength $\lambda_n$, where $n$ is the harmonic (here showing generalized version, first, second, and third harmonics, as visualized in {numref}`waves_harmonics_illustration`, and assuming end-to-end length of string $L = 0.6\,\text{m}$) when the **entire length of the string from first node to last node is considered**:
+
+
 
 ```{math}
-:label: waves-wavelengthsNodeToNode
-L &= n \frac{\lambda}{2} \\ 
-\lambda_n &= L / (\text{# of antinodes}) \times 2\,\text{(half wavelengths)} = 1\,\text{total wavelength} \\
-\lambda_1 &= (0.6\,\text{m}) / (1\,\text{antinode}) \times 2 = 1.2\,\text{m} \\
-\lambda_2 &= (0.6\,\text{m}) / (2\,\text{antinodes}) \times 2 = 0.6\,\text{m} \\
-\lambda_3 &= (0.6\,\text{m}) / (3\,\text{antinodes}) \times 2 = 0.4\,\text{m} \\
+:label: waves-wavelengthsEndToEndNode
+\begin{aligned}
+L &= n \frac{\lambda_n}{2} \\
+0.6\,\text{m} &= 1\,\frac{\lambda_1}{2} \rightarrow \lambda_1 = 1.2\,\text{m} \\
+0.6\,\text{m} &= 2\,\frac{\lambda_2}{2} \rightarrow \lambda_1 = 0.6\,\text{m} \\
+0.6\,\text{m} &= 3\,\frac{\lambda_3}{2} \rightarrow \lambda_1 = 0.4\,\text{m} \\
 ...
+\end{aligned}
 ```
 
-NOTE: Whenever you measure across multiple nodes, regardless of if it's the entire string or some smaller part of it, you need to account for how many half-wavelengths (node-to-nearest-node) chunks of the standing wave you are measuring across.
+With today's experimental setup, it can be beneficial to decrease uncertainty by measuring less than the entire length of the string in order to ignore the larger positional uncertainty at the vibrating metal tab of the string vibrator (discussed further later, see {numref}`fig-string-vibrator-schematic`). **NOTE:** whenever you measure across multiple nodes, regardless of if it's across the entire string or some smaller part of it, you need to account for how many waves you are actually measuring. Since the standing wave is a blur, it can be easier to count antinodes (i.e. half-wavelengths, node-to-nearest-node chunks) of the standing wave you are measuring across. This results in a reworking of {eq}`waves-wavelengthsEndToEndNode` that can **determine the wavelength $\lambda_n$ based on how many antinodes you measure across for a measured length $l$**:
 
+```{math}
+:label: waves-wavelengthsAcrossAntinodes
+\begin{aligned}
+\lambda_n &= \left[ \frac{l}{\text{\# of antinodes measured}} \right] \times 2\,\text{antinodes per wavelength} \\
+\lambda_1 &= \left[ \frac{0.6\,\text{m}}{1\,\text{antinode}} \right] \times 2 = 1.2\,\text{m} \\
+\lambda_2 &= \left[ \frac{0.6\,\text{m}}{2\,\text{antinodes}} \right] \times 2 = 0.6\,\text{m} \\
+\lambda_3 &= \left[ \frac{0.4\,\text{m}}{2\,\text{antinodes}} \right] \times 2 = 0.4\,\text{m} \\
+\lambda_4 &= \left[ \frac{0.45\,\text{m}}{3\,\text{antinodes}} \right] \times 2 = 0.3\,\text{m} \\
+...
+\end{aligned}
+```
 
 Similarly, the allowable frequencies of vibration of the cord are integral multiples of each other. They are said to be harmonically related (see {numref}`waves_harmonics_illustration`). Each harmonic relative to the fundamental is shown to be integral numbers: $(f_n/f_1 = 1, 2, 3 ...)$. An example for the frequency $f_n$ (where $n$ is the harmonic) of the first three harmonics of a standing wave could be found as:
 
 ```{math}
 :label: waves-frequencyHarmonics
+\begin{aligned}
 \text{fundamental, first harmonic}  \rightarrow f_1 &= 15\,\text{Hz} \rightarrow n = f_1/f_1 = 15 / 15 = 1 \\
 \text{second harmonic} \rightarrow f_2 &= 30\,\text{Hz} \rightarrow n = f_2/f_1 = 30 / 15 = 2 \\
 \text{third harmonic} \rightarrow f_3 &= 45\,\text{Hz} \rightarrow n = f_3/f_1 = 45 / 15 = 3 \\
 ...
+\end{aligned}
 ```
 
 

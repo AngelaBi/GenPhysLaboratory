@@ -103,7 +103,7 @@ The behavior of the current $I$ is found directly from this:
 ```{math}
 I=-\frac{dQ}{dt}=\frac{V_{0}}{R}e^{-\frac{t}{RC}}
 ```
-The product $RC$ has the units of time $(\Omega \time F)$; we can verify this by using dimensional analysis:
+The product $RC$ has the units of time $(\Omega \times F)$; we can verify this by using dimensional analysis:
 
 ```{math}
 RC\rightarrow \frac{V}{I}\times \frac{Q}{V}\rightarrow \frac{Q}{I}\rightarrow Q\times \frac{t}{Q}\rightarrow t
@@ -167,10 +167,12 @@ A capacitor $C$ at voltage $V$ holds a charge $Q = CV$. In the circuit shown in 
 
 ```{math}
 :label: eq-charge-division
+\begin{aligned}
 V_f C_\text{first-position} &= Q_\text{first-position} \\
 V_f C_\text{second-position} &= Q_\text{second-position} \\
 Q_\text{first-position}+Q_\text{second-position} &= Q = C_\text{first-position} V_\text{source} \\
 V_f &= \frac{C_\text{first-position}}{C_\text{first-position}+C_\text{second-position}} V_\text{source}
+\end{aligned}
 ```
 
 Because the two capacitors are at the same voltage, the total charge is divided between them in proportion to their capacitance.

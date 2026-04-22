@@ -1,7 +1,42 @@
 (cons-energy-glider-track-lab-overall)=
 # Conservation of Energy with Glider on Tilted Air Track
 
+
+
+## Post-Lab Submission --- Interpretation of Results
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with the concept of energy conservation. Use your error analysis to help your argument.
+```
+
+
+### ● Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+
+### ● Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	- What is the precision of your equipment?
+  - What are possible random errors for today's experiment?
+  - What are possible systematic errors for today’s experiments?
+  - Answering using physics reasoning: How could one gain energy during the top-to-bottom sequence?
+  - For today’s lab, assume that your calculated kinetic energies are their average +/- standard deviation values where the uncertanty comes from only the spread of the data. However, regarding the quantities of potential energy (at both top and rebound positions), ***consider*** for just one case:
+    - Our measurable quantities (reminder {eq}`eq:potential-energy`) and their estimated uncertainties (i.e. how confident you are in each of those values, rather than just your tools' precision). 
+    - What are the effects of those measurement uncertainties on your determined potential energies? (e.g.  how does $m\pm\delta\,m$ affect $U$)?
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+	- Arguing your responses with your average values $\pm$ standard deviations:
+	    - Is kinetic plus potential energy conserved going from the top to the bottom?
+      - Is kinetic plus potential energy conserved between the top and the rebound position?
+  - Why is there a difference in energy conservation between the top-to-bottom sequence and top-to-bottom-to-rebound sequence? Explain using physical concepts and reasoning.
+
+
+
+
 ## Background
+
+### ● Background Overview
 
 ```{admonition} OVERALL GOALS
 :class: note
@@ -115,7 +150,7 @@ U_s = mg \, \Delta s \frac{H}{D}
 
 ## Experimental Procedure
 
-### Procedure Preview
+### ● Procedure Preview
 
 ```{admonition} OVERVIEW
 :class: note
@@ -158,7 +193,7 @@ Example of small and large spacers used to incline the air track. The cases toda
 
 
 (consEnTrack-experimentPrep)=
-### Preliminary Setup
+### ● Preliminary Setup
 
 1. **Do not put a glider on the track without air flowing. If the air supply is not yet on, please remind the instructor.**
 
@@ -201,15 +236,10 @@ Suggested points on glider to read position on airtrack scale.
 8. Determine and record the bottom photogate position $s_0$ at the bottom end of the track. Place the glider near the bottom of the track. Move it slowly as you approach the bottom photogate. Stop the glider at the exact location when the photogate's red light comes on. Move the glider back and forth to confirm your scale reading. See {ref}`demo-video-ConsEnTrack-s0s1` for example method.
 
 
-<div style="text-align: center;">
-
 (demo-video-ConsEnTrack-s0s1)=
-#### Demo Video: Photogate Positions
+#### ○ Demo Video: Photogate Positions
 
-</div>
-    <!--- width="560"
-    height="315"
-    --->
+
 <div style="text-align: center;">
   <iframe
     width=80%
@@ -258,7 +288,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
 
 (detailsteps-ConsEnTrack)=
-### Experimental Data Collection
+### ● Experimental Data Collection
 
 
 
@@ -288,7 +318,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
 
   (demo-video-ConsEnTrack-gliderRelease)=
-  #### Demo Videos: Glider Release
+  #### ○ Demo Videos: Glider Release
 
   <div style="text-align: center;">
     <figure>
@@ -306,7 +336,7 @@ Reminder, run your first case completely **before** moving on to additional case
     </figure>
   </div>
    
-#### Demo Video: Energy Conservation Across Single Trial
+#### ○ Demo Video: Energy Conservation Across Single Trial
    
 <div style="text-align: center;">
   <iframe
@@ -361,7 +391,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
     ```{math}
     :label: M5-PercentChange
-    \text{% Change} = \frac{\text{Final Value} - \text{Initial Value}}{\text{Initial Value}} \times 100\%.
+    \text{\% Change} = \frac{\text{Final Value} - \text{Initial Value}}{\text{Initial Value}} \times 100\%.
     ```
 
 
@@ -375,7 +405,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
 
 (summary-step-ConsEnTrack)=
-#### Averaged Results for Current Case
+#### ○ Averaged Results for Current Case
 
 17. Calculate the average and standard deviations of your measured and experimentally determined values from $\Delta t$ to $\%\text{ Change}_{U_{\text{top}}\text{ to }U_{\text{rebound}}}$.
 
@@ -386,7 +416,7 @@ Reminder, run your first case completely **before** moving on to additional case
     ***If you are satisfied that you've completed all necessary calculations and energy consevation results seem reasonable (feel free to check with your professor), it is only at this point that you should continue to the next case.***
     ```
 
-### Summarized Results for Entire Lab
+### ● Summarized Results for Entire Lab
 
 19.  Create a summary table of the analysis with a section for each case including the averages (denoted by overbar) and standard deviations (denoted by sigma, $\sigma$) of the following:
 
@@ -400,30 +430,6 @@ Reminder, run your first case completely **before** moving on to additional case
       :class: tip
       To ensure your summary table has the correct values, reference the cells (e.g. `$A$1`) you are collecting rather than just copying and pasting. See {ref}`spreadsheet-data-analysis-setup`.
       ```
-
-
-
-## Post-Lab Submission --- Interpretation of Results
-
-```{admonition} Defend your conclusions with your data
-:class: important
-Defend why your data agrees with or disagrees with the concept of energy conservation. Use your error analysis to help your argument.
-```
-
-- Make sure to submit your finalized data table (Excel sheet). 
-- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	- What is the precision of your equipment?
-  - What are possible random errors for today's experiment?
-  - What are possible systematic errors for today’s experiments?
-  - Answering using physics reasoning: How could one gain energy during the top-to-bottom sequence?
-  - For today’s lab, assume that your calculated kinetic energies are their average +/- standard deviation values where the uncertanty comes from only the spread of the data. However, regarding the quantities of potential energy (at both top and rebound positions), ***consider*** for just one case:
-    - Our measurable quantities (reminder {eq}`eq:potential-energy`) and their estimated uncertainties (i.e. how confident you are in each of those values, rather than just your tools' precision). 
-    - What are the effects of those measurement uncertainties on your determined potential energies? (e.g.  how does $m\pm\delta\,m$ affect $U$)?
-- In a **paragraph**, summarize the results you have determined in each case. Consider:
-	- Arguing your responses with your average values $\pm$ standard deviations:
-	    - Is kinetic plus potential energy conserved going from the top to the bottom?
-      - Is kinetic plus potential energy conserved between the top and the rebound position?
-  - Why is there a difference in energy conservation between the top-to-bottom sequence and top-to-bottom-to-rebound sequence? Explain using physical concepts and reasoning.
 
 
 ## The Whiteboard

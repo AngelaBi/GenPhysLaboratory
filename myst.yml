@@ -2,14 +2,17 @@
 version: 1
 project:
   id: 43dbc717-97c7-48cc-9c0c-ac64e0204b59
-  # title:
-  # description:
+  title: Fairfield U. Physics Lab Manual
+  # description: dasfasd f
   # keywords: []
-  # authors: []
-  github: https://github.com/AngelaBi/GenPhysLaboratory
+  authors: [Drs. Angela Biselli & Ryan M. McCabe]
+  # github: https://github.com/AngelaBi/GenPhysLaboratory
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
-  # options:
+  options:
   #   favicon: favicon.ico
-  #logo: logo.png
+    logo: logo.png
+    extra_css:
+      - _static/custom.css
+

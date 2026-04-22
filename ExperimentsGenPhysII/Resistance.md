@@ -64,8 +64,10 @@ The **equivalent resistance** $R_{\text{eq}}$ for each of these networks is that
 
 ```{math}
 :label: eq-equivalent-resistance
+\begin{aligned}
 \text{Series} \rightarrow R_{\text{eq}} &= R_1 + R_2 + R_3 + \ldots + R_n \\
 \text{Parallel} \rightarrow \frac{1}{R_{\text{eq}}} &= \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots + \frac{1}{R_n}
+\end{aligned}
 ```
 
 <!---
@@ -248,7 +250,7 @@ Circuits are described as either open or closed. OPEN --- circuit has some gap i
       - After taking "actual" measurements, you can switch this multimeter back to DC Voltage for pretty much the rest of lab.
       ```
 
-3. Also record an uncertainty in your actual values $\delta R_\text{#-actual}$ for each resistor and light bulb in the common data table. (hint: how are you measuring, where would the uncertainty come from for this measurement?)
+3. Also record an uncertainty in your actual values $\delta R_\text{\#-actual}$ for each resistor and light bulb in the common data table. (hint: how are you measuring, where would the uncertainty come from for this measurement?)
 
 4. Prepare your experimental set up to match the example {numref}`fig-ohms-law-setup`, with light bulb, $R_1=\text{blue}$, $R_2=\text{gray}$, and $R_3=\text{brown}$ in their respective positions. Attach the resistors by gently sliding the wire leads into the springs of the spring modules as shown in {numref}`E4Fig_01`. Connect the banana-plug wires if not already connected from the DC power output as supplied by the Pasco 850 interface to the red/black terminal module. Red-handled jumper bars are to be treated like wires that bridge the air gap of the springs and continue the electrical connections.
 
@@ -315,7 +317,7 @@ Schematic example of a circuit for $R_1$ with jumper bars in place to make the n
 12. For each trial, calculate the resistance by:
 
 ```{math}
-R_\text{trial#} = \frac{V_\text{trial#}}{I_\text{trial#}}
+R_\text{trial\#} = \frac{V_\text{trial\#}}{I_\text{trial\#}}
 ```
 
 <!---

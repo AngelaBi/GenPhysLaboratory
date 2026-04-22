@@ -1,5 +1,5 @@
 (magnetic-force-mu0-overall)=
-# Magnetic Force & the Determination of $\mu_0$
+# Magnetic Force & the Determination of μ₀
 
 
 
@@ -251,7 +251,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
     - $D$: ruler (a.k.a. scale) distance between $S_0$ and $S_1$
     - $d_\text{center-to-center}$: length of frame
     - $g$: acceleration due to gravity for Fairfield, CT, $9.803\,\text{m/s}^2$
-    - $\mu_{0\text{,accepted}}$: accepted value of the permeability of free space, $4\pi \times 10^{-7}\,\text{T⋅m/A or N/}\,\text{A}^2$
+    - $\mu_{0\text{,accepted}}$: accepted value of the permeability of free space, $4\pi \times 10^{-7}\,\text{T m/A or N/}\,\text{A}^2$
     - $c_{\text{accepted}}$: accepted value of the speed of light, $2.9979\times10^8\,\text{m/s}$
     - Also add in the plotting-derived (i.e. from `LINEST`) $\varepsilon_0$ from the first lab for each member of your lab group
       - Of your group members' values, take the average ($\overline \varepsilon_0$), and use the standard deviation ($\sigma \varepsilon_0$) of your groups' values as the uncertainty for later speed of light use.
