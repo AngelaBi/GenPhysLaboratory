@@ -256,7 +256,7 @@ Take **1 trial** of data by doing the following hot-warm-cold procedure.\
 
     ```{math}
     :label: H7-PercentDiff
-    \text{% Difference} = \frac{\text{Experimental Value} - \text{Accepted Value}}{\text{Accepted Value}} \times 100\%
+    \text{\% Difference} = \frac{\text{Experimental Value} - \text{Accepted Value}}{\text{Accepted Value}} \times 100\%
     ```
 
 13. Take a screenshot/photo of your graph --- 1 of Temperature vs. Pressure plot with axes scaled to see y-intercept(full absolute zero extrapolation). Note which locations on the plot you are using for your measurements. Adjust axes to show $time = 0$, i.e. the y-intercept.

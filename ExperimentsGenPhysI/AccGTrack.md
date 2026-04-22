@@ -155,15 +155,10 @@ Suggested points on glider to read position on airtrack scale.
 8. Determine and record the bottom photogate position $s_0$ at the bottom end of the track. Place the glider near the bottom of the track. Move it slowly as you approach the bottom photogate. Stop the glider at the exact location when the photogate's red light comes on. Move the glider back and forth to confirm your scale reading. See {ref}`demo-video-accelGtrack-s0s1` for example method.
 
 
-<div style="text-align: center;">
-
 (demo-video-accelGtrack-s0s1)=
 #### Demo Video: Photogate Positions
 
-</div>
-    <!--- width="560"
-    height="315"
-    --->
+
 <div style="text-align: center;">
   <iframe
     width=80%

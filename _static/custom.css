@@ -1,25 +1,20 @@
 
 
-.sidebar-toggle.primary-toggle::after {
-    content: "General Info";
-    font-weight: 500;
+
+
+
+
+
+
+figure img {
+  height: 400px !important;
+  width: auto;
 }
-
-
-
-
-
-/* Limit image height, keep aspect ratio */
-.bd-article-container img {
-    max-height: 400px;   /* set your desired max height */
-    width: auto !important;         /* scale width automatically */
-    height: auto;        /* scale height proportionally */
-    display: inline-block; /* good for inline images */
-}
-
+/*
 .full-height img {
     max-height: none !important;
 }
+*/
 
 /*
 .inline-img-sm {

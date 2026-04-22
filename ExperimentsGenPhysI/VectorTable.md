@@ -1,6 +1,54 @@
 (force-table-with-3-vectors-overall)=
 # Force Table with 3 Vectors at Equilibrium
 
+
+dsafsda
+asdf
+asdf
+
+asdfasdf
+
+asdfsad
+
+`dafgaegdsuhf`
+sdfasdf
+
+asdfasdf `dsfa` sdfgsdf 
+
+
+(interpretation1)=
+## Post-Lab Submission --- Interpretation of Results
+
+- Make sure to submit your finalized data table (Excel sheet). 
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	- What are the uncertainties of Cases 1 & 2 (Finding Equilibrant)?
+  - What is the precision of your equipment (force table, masses, etc.)?
+  - What are possible systematic (affecting accuracy) errors of the experiment? What are possible random (affecting precision) errors?
+  - Return to results section question: ''In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $F_3$? Do the math in your spread sheet.
+      - What uncertainties might make the difference between your final results and expected values larger or smaller? Is there any source of uncertainty that contributes the most variability of $F_3$?
+  - For Case 3 (Unlabeled Masses), what errors may contribute to larger or smaller % differences to the actual measured-by-triple-beam-balance values?
+
+
+- In a **paragraph**, summarize the results you have determined in each case, i.e. $F_3\pm\delta F_3$... and answer the following questions (longer does not mean better):
+	- What is a vector?
+  - What is the physics behind balancing your vectors today?
+	- Case 1 & 2 (Finding Equilibrant):
+	  - Looking at your experiment, why do the two given masses not add up to the third mass?
+	  - What are your results, and how do they compare to the theoretical predictions?
+	    - In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.
+	      - Does the vector magnitude $F_3 \pm \delta F_3$ overlap (i.e. agree) with your theoretical value $F_{3,\text{theoreticalMagnitude}}$?
+	      - Does $m_3 \pm \delta m_3$ overlap with your theoretical value $m_{3,\text{theoretical}}$? 
+	      - Does $\theta_3 \pm \delta \theta_3$ overlap with your theoretical value $\theta_{3,\text{theoretical}}$? 
+	- Case 3 (Unlabeled Masses):
+	  - How do your values for $m_\text{Pikachu-black}$ and $m_\text{corgi-white}$ compare to your actual values from the triple-beam-balance?
+	  - What is the percent difference between your experimentally determined masses and their actual measured values? Calculate the % difference in each of the masses using the following relation (*Note: If you change the Excel number format of this cell to `Percentage`, do not multiply by 100 as Excel will do that for you*):
+```{math}
+:label: M1-PercentDiff
+\text{\% Difference} = \frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.
+```
+
+
 ## Background
 
 ### ● Background Overview
@@ -499,38 +547,6 @@ Experimentally determine the ***mass*** of just the Pikachu (black figurine) and
     ```
 
 7. COMPARE your experimental figurine masses to their actual values. Do they generally agree? Calculate the % difference of your experimental $m_2$ and $m_3$ to their actual measured values (see {eq}`M1-PercentDiff`). What may be contributing to a larger or smaller difference? To be further discussed in Section {ref}`interpretation1`.
-
-(interpretation1)=
-## Post-Lab Submission --- Interpretation of Results
-
-- Make sure to submit your finalized data table (Excel sheet). 
-
-- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	- What are the uncertainties of Cases 1 & 2 (Finding Equilibrant)?
-  - What is the precision of your equipment (force table, masses, etc.)?
-  - What are possible systematic (affecting accuracy) errors of the experiment? What are possible random (affecting precision) errors?
-  - Return to results section question: ''In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $F_3$? Do the math in your spread sheet.
-      - What uncertainties might make the difference between your final results and expected values larger or smaller? Is there any source of uncertainty that contributes the most variability of $F_3$?
-  - For Case 3 (Unlabeled Masses), what errors may contribute to larger or smaller % differences to the actual measured-by-triple-beam-balance values?
-
-
-- In a **paragraph**, summarize the results you have determined in each case, i.e. $F_3\pm\delta F_3$... and answer the following questions (longer does not mean better):
-	- What is a vector?
-  - What is the physics behind balancing your vectors today?
-	- Case 1 & 2 (Finding Equilibrant):
-	  - Looking at your experiment, why do the two given masses not add up to the third mass?
-	  - What are your results, and how do they compare to the theoretical predictions?
-	    - In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.
-	      - Does the vector magnitude $F_3 \pm \delta F_3$ overlap (i.e. agree) with your theoretical value $F_{3,\text{theoreticalMagnitude}}$?
-	      - Does $m_3 \pm \delta m_3$ overlap with your theoretical value $m_{3,\text{theoretical}}$? 
-	      - Does $\theta_3 \pm \delta \theta_3$ overlap with your theoretical value $\theta_{3,\text{theoretical}}$? 
-	- Case 3 (Unlabeled Masses):
-	  - How do your values for $m_\text{Pikachu-black}$ and $m_\text{corgi-white}$ compare to your actual values from the triple-beam-balance?
-	  - What is the percent difference between your experimentally determined masses and their actual measured values? Calculate the % difference in each of the masses using the following relation (*Note: If you change the Excel number format of this cell to `Percentage` do not multiply by 100 as Excel will do that for you*):
-```{math}
-:label: M1-PercentDiff
-\text{% Difference} = \frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.
-```
 
 
 

@@ -128,7 +128,7 @@ Printed lab schedule by section for PHYS 1145L & 1171L. Included are the instruc
 :class: warning
 If you are unable to make it to your normal lab, **request attendance to another lab**, preferably of like kind (e.g., **1146** with **1146**, purple in the chart) and (**1172** with **1172**, yellow in the chart).
 
-Please email and include (note, all the emails below end with ***@fairfield.edu***):
+Please email and include (note, all the emails below end with ***\@fairfield.edu***):
 
 - Your instructor
 - Dr. McCabe (Lab Coordinator) --- **rmccabe**  
