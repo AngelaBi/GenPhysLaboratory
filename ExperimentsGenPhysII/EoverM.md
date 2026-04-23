@@ -18,7 +18,7 @@ Today, you will conduct two experiments. The first will focus on measuring the m
 <!---
 ```{figure} EoverMFigures/Figure_01_HelmholtzCoilsEx_v01.png
 :name: fig-eoverm-01
-:width: 100%
+:width: auto
 :align: center
 
 Example of Helmholtz coils with bulb in place.
@@ -27,7 +27,7 @@ Example of Helmholtz coils with bulb in place.
 
 ```{figure} EoverMFigures/Figure_06_eOverMExampleSetup_v03.jpg
 :name: fig-eoverm-01
-:width: 100%
+:width: auto
 :align: center
 
 Example experimental setup. Left) Helmholtz coils with vacuum bulb in place (second experiment). Right) Helmholtz coils without bulb (first experiment) with magnetic field sensor. Center) Power supplies and multimeters.
@@ -45,7 +45,7 @@ Example experimental setup. Left) Helmholtz coils with vacuum bulb in place (sec
 
 ```{figure} EoverMFigures/Figure_02_HelmholtzCoildBField_v01.jpg
 :name: fig-eoverm-02
-:width: 100%
+:width: auto
 :align: center
 
 Magnetic field lines of a pair of Helmholtz coils.
@@ -145,7 +145,7 @@ An electron, emitted from the cathode with speed $v$, enters the magnetic field 
 
 ```{figure} EoverMFigures/Figure_03_eInField_v01.png
 :name: fig-eInField-eOverM
-:width: 100%
+:width: auto
 :align: center
 
 Following right-hand rule for charge moving through a B-field (into screen), the electron (negative charge) will feel centripetal force inwards.
@@ -180,7 +180,7 @@ The **radius $r$** of the circular path is measured using a scale with a mirror 
 
 ```{figure} EoverMFigures/Figure_04_RulerMirror_v01.png
 :name: fig-eOverm-rulerMirror
-:width: 80%
+:width: auto
 :align: center
 
 Mirror and ruler, movable to line up and bisect the circular electron beam.
@@ -190,7 +190,7 @@ Mirror and ruler, movable to line up and bisect the circular electron beam.
 ```{figure} EoverMFigures/Figure_05_eOverMParallax_v03.png
 :name: fig-parallax-effect
 :alt: Effects of parallax from head-on view showing slightly to the left, center, and slightly to the right perspectives
-:width: 100%
+:width: auto
 :align: center
 
 Effects of parallax from head-on view from the same plane parallel to the ruler/mirror: slightly to the left, center, and slightly to the right. Bottom) The ruler at the back (and the rear wire coil) is clearly out of line with the line of sight depending on where you are looking from. View the electron beam such that you overlap its reflection in the mirror to account for the parallax --- see demo video for additional examples.
@@ -220,7 +220,7 @@ Notice that we need know only the voltage through which the electron was acceler
 ```{figure} EoverMFigures/Figure_70_experimentalSetup.png
 :name: fig-setup-bfield
 :alt: Helmholtz coils setup and magnetic field configuration
-:width: 100%
+:width: auto
 :align: center
 
 Left) Helmholtz coils with vacuum bulb in place (first experiment). Center) Helmholtz coils without bulb (similar to setup you'll have in second experiment). Bottom) Mirror and ruler, movable to line up and bisect the circular electron beam. Right) Magnetic field lines of a pair of Helmholtz coils.
@@ -374,7 +374,7 @@ https://www.youtube.com/watch?v=vqtHMKxzGdg
 
 ```{figure} EoverMFigures/Figure_07_HelmholtzBulbRotator_v01.png
 :name: fig-eOverM-rotator
-:width: 100%
+:width: auto
 :align: center
 
 Bulb rotator.
@@ -473,7 +473,7 @@ Bulb rotator.
 
 ```{figure} EoverMFigures/EoverM_HHCoils_2025_Summer_01_v02.jpg
 :name: EoverM_whiteboard_01
-:width: 100%
+:width: auto
 :align: center
 
 Overview.
@@ -481,7 +481,7 @@ Overview.
 
 ```{figure} EoverMFigures/EoverM_HHCoils_2025_Summer_02_v01.jpg
 :name: EoverM_whiteboard_02
-:width: 40%
+:width: auto
 :align: center
 
 Multimeter settings.

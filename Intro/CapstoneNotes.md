@@ -18,7 +18,7 @@
 
 ```{figure} ../ExperimentsGenPhysI/CentripetalForceFigures/Figure06_v2025-01.png
 :name: CapstoneExampleFig01
-:width: 100%
+:width: auto
 :align: center
 
 Autoscale axes tool.
@@ -31,7 +31,7 @@ Autoscale axes tool.
 
 ```{figure} ../Intro/CapstoneFigures/FigCapstone_050_ApplyFit_v01.png
 :name: CapstoneExampleFig02
-:width: 100%
+:width: auto
 :align: center
 
 Capstone process for applying fits to plotted data.
@@ -42,7 +42,7 @@ Capstone process for applying fits to plotted data.
 
 ```{figure} ../Intro/CapstoneFigures/FigCapstone_051_YIntToZero_v01.png
 :name: CapstoneExampleFig02_YIntZero
-:width: 100%
+:width: auto
 :align: center
 
 Capstone process for updating the y-intercept of a linear fit. Bottom) The fit tool can be both enabled/disabled by clicking the main area of the button. Then, the little black arrow provides a dropdown menu with many fit options you from which you can choose.
@@ -52,7 +52,7 @@ Capstone process for updating the y-intercept of a linear fit. Bottom) The fit t
 
 ```{figure} ../Intro/CapstoneFigures/FigCapstone_052_IncreaseSigFigs_v01.png
 :name: CapstoneExampleFig02_SigFigs
-:width: 100%
+:width: auto
 :align: center
 
 Capstone process for updating the significant figures (sig. figs.) of a linear fit.
@@ -62,7 +62,7 @@ Capstone process for updating the significant figures (sig. figs.) of a linear f
 <!---
 ```{figure} ../ExperimentsGenPhysI/CentripetalForceFigures/Figure05_v2025-01.png
 :name: CapstoneExampleFig02
-:width: 100%
+:width: auto
 :align: center
 
 Process for applying fits to plotted data, updating the y-intercept and other curve-fit terms as needed, and updating sig. figs.
@@ -75,7 +75,7 @@ Process for applying fits to plotted data, updating the y-intercept and other cu
 
 ```{figure} ../ExperimentsGenPhysI/CentripetalForceFigures/Figure09_v2025-01.png
 :name: CapstoneExampleFig03
-:width: 100%
+:width: auto
 :align: center
 
 Process for returning to previous run in **Capstone.**

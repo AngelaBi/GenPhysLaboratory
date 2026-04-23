@@ -1,3 +1,6 @@
+(lab-days-1145-1146-links)=
+# Lab Days for PHYS 1146L (with links)
+
 
 <!---
 # Schedule for PHYS 1145
@@ -61,7 +64,6 @@ Schedule for PHYS 1145L
 
 
 
-# Lab Days for PHYS 1146L (with links)
 
 ## Schedule with links to relevant lab
 

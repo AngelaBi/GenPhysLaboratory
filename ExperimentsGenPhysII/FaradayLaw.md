@@ -31,7 +31,7 @@ The magnetic field in a volume of space can be described by vectors, which give 
 
 ```{figure} FaradayLawFigures/Figure_01_FluxThroughArea.png
 :name: fig_faraday_01
-:width: 100%
+:width: auto
 :align: center
 
 Overview.
@@ -153,7 +153,7 @@ In this equation $L$ indicates the distance from the center of mass to the pivot
 ```{figure} FaradayLawFigures/Figure01.jpg
 :name: fig-pendulum-energy
 :alt: Coil wand swinging from initial angle to final angle showing energy loss
-:width: 100%
+:width: auto
 :align: center
 
 This picture shows the coil wand swinging from an initial angle $\theta_{i}$ to a final angle $\theta_{f}$. The final angle is less because of energy lost in the process, which reduces the potential energy by an amount $E_{Lost}$ (see {eq}`eq-energy-lost-angle`).
@@ -162,7 +162,7 @@ This picture shows the coil wand swinging from an initial angle $\theta_{i}$ to 
 ```{figure} FaradayLawFigures/Figure_80_experimentalequipment.png
 :name: fig-experimental-equipment
 :alt: Coil wand experimental equipment showing center of mass, resistor, and internal components
-:width: 100%
+:width: auto
 :align: center
 
 Left) Coil wand with resistor and an example of the center of mass line and mass noted on the wand itself. Center) Resistor and circuit diagram of the wand; resistor plugs in and completes the circuit allowing energy to be dissipated. Right) Internals of the wand; wires lead from the ports to the coil at the bottom of the wand. The area of the loop refers to the area inside the white loop of wire at the bottom.
@@ -238,7 +238,7 @@ The experiment should be already set up for you as shown in {numref}`fig-faraday
 
 ```{figure} FaradayLawFigures/Figure_05_EMFSetup_v02.png
 :name: fig-faraday-setup
-:width: 100%
+:width: auto
 :align: center
 
 Overall experimental setup consisting of induction wand mounted on the RMS as well as the horseshoe magnet. The cables connecting to the voltage sensor are plugged into the two jacks at the top of the wand.
@@ -252,7 +252,7 @@ Overall experimental setup consisting of induction wand mounted on the RMS as we
 
 ```{figure} FaradayLawFigures/Figure_04_MagneticFieldSensor.png
 :name: fig-setup-magnetic-field
-:width: 100%
+:width: auto
 :align: center
 
 How to measure positive magnetic field strength of horseshoe magnet. Use the perpendicular sensor on the PASPORT 2-Axis Magnetic Field Sensor which measures B-field as positive from North to South or out-of-the-page as illustrated on the sensor casing itself in the right-hand side image.
@@ -281,7 +281,7 @@ How to measure positive magnetic field strength of horseshoe magnet. Use the per
 
 ```{figure} FaradayLawFigures/Figure_05.5_EMFSetupSwingExample.png
 :name: fig-faraday-EMFExample_withDemo
-:width: 100%
+:width: auto
 :align: center
 
 Example of releasing the wand and example of just half a cycle the start/stop times and area under the curve for just the first peak.
@@ -289,7 +289,7 @@ Example of releasing the wand and example of just half a cycle the start/stop ti
 
 ```{figure} FaradayLawFigures/Figure_10_exampleEMF_v04.png
 :name: fig-faraday-EMFExample
-:width: 100%
+:width: auto
 :align: center
 
 Example of plots for this part.
@@ -336,7 +336,7 @@ Example of plots for this part.
 ```{figure} ExperimentsGenPhysII/FaradayLawFigures/Figure_06_withResistorNoPlates.png
 :name: fig-resistor-load
 :alt: Resistive load attached to coil wand showing voltage sensor connections
-:width: 100%
+:width: auto
 :align: center
 
 This picture shows the resistive load attached to the coil wand. The cables leading to the voltage sensor are plugged into the resistor. In order to disconnect the resistor without changing the mass-distribution of the coil wand only one of the resistors plugs is connected to the jacks of the wand.
@@ -360,7 +360,7 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 
 ```{figure} FaradayLawFigures/Figure_06_withResistorNoPlates.png
 :name: fig-resistor-overall-setup
-:width: 100%
+:width: auto
 :align: center
 
 This picture shows the overall setup for the current part. Note: magnetic pole plates are removed and magnet spacing shrunk. Resistive load attached to the coil wand. The cables leading to the voltage sensor are plugged into the resistor.
@@ -372,7 +372,7 @@ This picture shows the overall setup for the current part. Note: magnetic pole p
 
 ```{figure} FaradayLawFigures/Figure_07_resistorUnplugged_v03small.png
 :name: fig-resistor-overall-setup-unplugged
-:width: 100%
+:width: auto
 :align: center
 
 This picture shows the resistor half plugged-in.
@@ -395,7 +395,7 @@ This picture shows the resistor half plugged-in.
 
 ```{figure} FaradayLawFigures/Figure_11_examplePower_v04.png
 :name: fig-faraday-POWERExample
-:width: 100%
+:width: auto
 :align: center
 
 Example of plots for this part.
@@ -410,7 +410,7 @@ Example of plots for this part.
 
 ```{figure} FaradayLawFigures/Figure_08_resistorPlugged_v03small.png
 :name: fig-resistor-overall-setup-pluggedin
-:width: 100%
+:width: auto
 :align: center
 
 The resistor fully plugged-in.
@@ -510,7 +510,7 @@ The resistor fully plugged-in.
 
 ```{figure} FaradayLawFigures/Faraday_Summer_2025_01_v01.jpg
 :name: faraday_whiteboard_01
-:width: 100%
+:width: auto
 :align: center
 
 Old overview, majority still the same, but different induced voltage values to find.
@@ -518,7 +518,7 @@ Old overview, majority still the same, but different induced voltage values to f
 
 ```{figure} FaradayLawFigures/Faraday_Spring_2025_02_v01.jpg
 :name: faraday_whiteboard_02
-:width: 40%
+:width: auto
 :align: center
 
 Multimeter settings, changing significant figures in Capstone (must be done every new data run).
@@ -526,7 +526,7 @@ Multimeter settings, changing significant figures in Capstone (must be done ever
 
 ```{figure} FaradayLawFigures/Faraday_Spring_2025_03_v01.jpg
 :name: faraday_whiteboard_03
-:width: 100%
+:width: auto
 :align: center
 
 Short notes on the three parts of the lab.

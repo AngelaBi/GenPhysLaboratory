@@ -120,7 +120,7 @@ Each member of the lab group will independently measure the
 
 ```{figure} IntroLabFigures/M0_dominos.jpg
 :name: M00_intro_Fig01
-:width: 80%
+:width: auto
 :align: center
 
 Left) Dominoes provided. Right) Relevant length, width, height dimensions of the dominoes.
@@ -273,7 +273,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 ```{figure} IntroLabFigures/IntroDominos_2024_Fall_01.jpg
 :name: introDominoFig
-:width: 600px
+:width: auto
 :align: center
 
 Original whiteboard summary

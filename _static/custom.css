@@ -1,21 +1,17 @@
 
 
-
-
-
-
-
-
 figure img {
-  height: 400px !important;
+  max-height: 400px;   /* set your desired max height */
+  height: auto;        /* scale height proportionally */
   width: auto;
 }
 
-/*
+
 .full-height img {
     max-height: none !important;
 }
-*/
+
+
 
 /*
 .inline-img-sm {

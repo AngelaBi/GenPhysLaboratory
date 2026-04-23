@@ -51,7 +51,7 @@ For an ohmic resistor, when a voltage $V$ is applied, then the current is $I = V
 ---
 name: fig-series-parallel-resistors
 align: center
-width: 80%
+width: auto
 ---
 Resistors connected in Top) Series, one after the other/end to end, making a LOOP, Bottom) Parallel, all connected to the same starting and ending JUNCTIONS.
 ```
@@ -106,7 +106,7 @@ Kirchhoff’s Rules above provide the equations needed to determine unknown curr
 ---
 name: fig-ohms-law-setup
 align: center
-width: 700px
+width: auto
 ---
 Schematic and example of setup for testing Ohm's law.
 ```
@@ -144,7 +144,7 @@ Overall setup shown in {numref}`fig-ohms-law-setup`, with a full equipment list 
 
 ```{figure} ResistanceFigures/E-4_Fig_02_OverallSchematic_v03.png
 ---
-width: 100%
+width: auto
 name: fig-ohms-law-setup
 ---
 Left) Schematic, with circuit modules with light bulb and the three resistor locations noted. Right) Example of actual setup with resistors installed (they can stay in these positions for the whole lab and do not need to be moved around). Red jumper bars can be added or removed to create different circuit configurations. Light bulb and resistor locations are shown for easy testing. Power is supplied by the black and red banana plug output from the Pasco 850 (controlled in Capstone). SPST switch can be used to open/close entire system.
@@ -156,7 +156,7 @@ Left) Schematic, with circuit modules with light bum, $R_1$ and ammeter in serie
 
 ```{figure} ResistanceFigures/E-4_Fig_01_resistors_v03.png
 ---
-width: 100%
+width: auto
 name: E4Fig_01
 ---
 Examples of the resistors, light bulb, and jumper bar you will use today. They can stay in their same spring modules for all parts of the lab today.
@@ -165,7 +165,7 @@ Examples of the resistors, light bulb, and jumper bar you will use today. They c
 
 ```{figure} ResistanceFigures/E-4_Fig_03_voltmeters_v02.png
 ---
-width: 100%
+width: auto
 name: E4Fig_03
 ---
 Examples of the measurement type, connections used, and multimeter overall configurations in use today. There are 2 Multimeters in use, one for BOTH Resistance and Voltage, one for JUST Current. Left) configuration for measuring resistance in ohms $(\Omega)$ --- note, this auto-ranges, double check the magnitude of your units (e.g. $\Omega$, $\text{k}\Omega$, $\text{M}\Omega$). Center) configuration for measuring DC voltage in volts (V). Right) configuration for measuring DC current in milliamps (mA) through the 300 mA fused circuit.
@@ -173,7 +173,7 @@ Examples of the measurement type, connections used, and multimeter overall confi
 
 ```{figure} ResistanceFigures/E-4_Fig_04_voltAmpConnection.png
 ---
-width: 100%
+width: auto
 name: E4Fig_04
 ---
 Examples how to connect ammeter (in line or in series with resistor) and voltmeter/ohmmeter (across or in parallel with resistor) alligator clips to the spring modules. For the light bulb, connect voltmeter to the U-shaped module clips.
@@ -181,7 +181,7 @@ Examples how to connect ammeter (in line or in series with resistor) and voltmet
 
 ```{figure} ResistanceFigures/E-4_Fig_05_PascoUse.png
 ---
-width: 100%
+width: auto
 name: E4Fig_05
 ---
 Example of Hardware Setup, selecting Output Voltage-Current Sensor, and Signal Generator tabs in Capstone set to DC waveform, control output voltage with "DC Voltage", Voltage limit of $6\,\text{V}$, Current limit of $1.50\,\text{A}$, use On/Off buttons to supply power. Not Shown) Voltage and Current Monitored output --- purely just for making sure Capstone is providing power and working, not for any measurements (those will be made with the yellow multimeters).
@@ -287,7 +287,7 @@ You will apply a range of voltages through the circuits and measure both ***curr
 
 ```{figure} ResistanceFigures/E-4_Fig_02_OverallSchematic_exampleR1_v03.png
 ---
-width: 60%
+width: auto
 name: E4Fig_06
 ---
 Schematic example of a circuit for $R_1$ with jumper bars in place to make the necessary electrical connections across the spring modules to make a closed loop from power terminal (red) to power terminal (black). See how the ammeter acts like a jumper bar connecting springs and allowing current to flow through it. See how the voltmeter connects to either side of the resistor and measures how much the resistor causes voltage to drop.
@@ -580,7 +580,7 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
 
 ```{figure} ResistanceFigures/DCResistors_2025_Summer_01_v03.jpg
 :name: DCResistors_whiteboard_01
-:width: 100%
+:width: auto
 :align: center
 
 Overview for both main parts of the lab. `LINEST()` function (use `Y,X,True,True`).
@@ -590,7 +590,7 @@ Overview for both main parts of the lab. `LINEST()` function (use `Y,X,True,True
 <!---
 ```{figure} ResistanceFigures/DCResistors_2025_Spring_02_v02.jpg
 :name: DCResistors_whiteboard_02
-:width: 100%
+:width: auto
 :align: center
 
 Sensor setup notes.
@@ -598,7 +598,7 @@ Sensor setup notes.
 
 ```{figure} ResistanceFigures/DCResistors_2025_Spring_03_v01.jpg
 :name: DCResistors_whiteboard_03
-:width: 100%
+:width: auto
 :align: center
 
 WARNING --- MUST HAVE RESISTOR IN SERIES WITH AMMETER TO AVOID DAMAGE. Data taking notes; multimeter settings.

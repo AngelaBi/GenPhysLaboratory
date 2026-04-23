@@ -1,3 +1,4 @@
+(full-lab-schedule-with-meeting-times)=
 # Full Lab Schedule with Meeting Times
 
 ## Printed Lab Schedule

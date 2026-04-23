@@ -157,7 +157,7 @@ Pictures of the experimental setups are shown in {numref}`H01Fig01`, {numref}`H0
 
 ```{figure} IdealGasFigures/Figure01a_v2025-01.png
 :name: H01Fig01
-:width: 50%
+:width: auto
 :align: center
 
 The picture shows the Ideal Gas Law experimental apparatus. The two cables coming from the syringe are the temperature and pressure connectors. The plunger of the syringe has a mechanical stop to prevent full compression of the syringe. Note: be gentle with the pressure connector; you need to insert and gently twist to lock it in place. DO NOT FORCE IT.
@@ -165,7 +165,7 @@ The picture shows the Ideal Gas Law experimental apparatus. The two cables comin
 
 ```{figure} IdealGasFigures/Figure01b_v2025-01.png
 :name: H01Fig01b
-:width: 50%
+:width: auto
 :align: center
 
  The  picture shows the Absolute Zero experiment. The pressure and temperature connectors are shown exiting at the end of the black cable of the device. Note: be gentle with the pressure connector; you need to insert and gently twist to lock it in place. DO NOT FORCE IT.
@@ -173,7 +173,7 @@ The picture shows the Ideal Gas Law experimental apparatus. The two cables comin
 
 ```{figure} IdealGasFigures/Figure02_v2025-02.png
 :name: H01Fig02
-:width: 80%
+:width: auto
 :align: center
 
 This picture shows the experimental methods for the Ideal Gas Law (left) and Absolute Zero (right) experiments. In both cases the temperature and pressure connectors are plugged into the PasPort Absolute Pressure Temperature Sensor (the small blue box).
@@ -202,7 +202,7 @@ Take **3 trials** of data, you can then analyze each trial in two different ways
 
   ```{figure} IdealGasFigures/Figure06_v2025-01.png
   :name: H01Fig06
-  :width: 90%
+  :width: auto
   :align: center
 
   Example of Page 1 in today's **Capstone** file for the different theromdynamic processes.
@@ -228,7 +228,7 @@ Take **3 trials** of data, you can then analyze each trial in two different ways
 
   ```{figure} IdealGasFigures/Figure04_v2025-02.png
   :name: H01Fig04
-  :width: 90%
+  :width: auto
   :align: center
 
   Example of initial and final pressure and temperature locations for the isothermal process.
@@ -266,7 +266,7 @@ MAKE V_0 the AVERAGE VALUE TO USE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
   ```{figure} IdealGasFigures/Figure05_v2025-01.png
   :name: H01Fig05
-  :width: 90%
+  :width: auto
   :align: center
 
   Example of initial and final pressure and temperature locations for the adiabatic process. Note: the temperature sensor lags slightly behind the pressure sensor, focus on the peak or max values when necessary. The quicker you compress the syringe, the closer in time the pressure and temperature peaks will be.
@@ -321,7 +321,7 @@ Take **1 trial** of data by doing the following hot-warm-cold procedure.\
 
   ```{figure} IdealGasFigures/Figure07_v2025-01.png
   :name: H01Fig07
-  :width: 90%
+  :width: auto
   :align: center
 
   Example of Page 2 in today's **Capstone** file for the absolute zero estimation.
@@ -383,7 +383,7 @@ Take **1 trial** of data by doing the following hot-warm-cold procedure.\
 
 ```{figure} IdealGasFigures/IdealGasLawAbsoluteZero_2024_Fall_01.jpg
 :name: ide1
-:width: 100%
+:width: auto
 :align: center
 
 ```

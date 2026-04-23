@@ -50,7 +50,7 @@ Near the surface of the earth, the attractive force of the earth on a mass can b
 
 ```{figure} AccGTrackFigures/Figure01_v2025-02.png
 :name: m02fig01
-:width: 500px
+:width: auto
 :align: center
 
 Force diagram based on the angle of the tilted air track.
@@ -96,7 +96,7 @@ where $H$ is the vertical rise in the horizontal distance $D$. $D$ is the distan
 
 ```{figure} AccGTrackFigures/Figure02_v2025-02.png
 :name: M02Fig02
-:width: 100%
+:width: auto
 :align: center
 
 Experimental Setup.
@@ -105,7 +105,7 @@ Experimental Setup.
 
 ```{figure} AccGTrackFigures/Figure07_spacers_v2025-01.png
 :name: M02Fig07
-:width: 60%
+:width: auto
 :align: center
 
 Example of small and large spacers used to incline the air track. Remember to put the black plastic footer (not shown) on top of the spacers.
@@ -180,7 +180,7 @@ Example of small and large spacers used to incline the air track. Remember to pu
 
 ```{figure} AccGTrackFigures/Figure03_v2025-01.png
 :name: M02Fig03
-:width: 60%
+:width: auto
 :align: center
 
 Suggested points on glider to read position on airtrack scale.
@@ -331,7 +331,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 ```{figure} AccGTrackFigures/Figure04_CommonTable_v2025-01.png
 :name: M02Fig04
-:width: 100%
+:width: auto
 :align: center
 ```
 <!---
@@ -352,7 +352,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 ### ● Example Case Data Table
 ```{figure} AccGTrackFigures/Figure05_DataTable_v2025-01.png
 :name: M02Fig05
-:width: 100%
+:width: auto
 :align: center
 ```
 
@@ -373,7 +373,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 ### ● Example Overall Data Table
 ```{figure} AccGTrackFigures/Figure06_OverallTable_v2025-01.png
 :name: M02Fig06
-:width: 100%
+:width: auto
 :align: center
 ```
 
@@ -390,7 +390,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 ```{figure} AccGTrackFigures/AccelGTrack_2024_Summer_01_v2025-01.jpg
 :name: AccelGTrack
-:width: 100%
+:width: auto
 :align: center
 
 

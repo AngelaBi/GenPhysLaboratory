@@ -99,7 +99,7 @@ Beginning at a convenient point on a piece of graph paper, usually at the origin
 
 ```{figure} VectorTableFigures/M1_ForceTable_01.jpg
 :name: M01Fig01
-:width: 50%
+:width: auto
 :align: center
 
 Two force vectors $\vec{F}_1$ and $\vec{F}_2$
@@ -107,7 +107,7 @@ Two force vectors $\vec{F}_1$ and $\vec{F}_2$
 
 ```{figure} VectorTableFigures/M1_ForceTable_02.jpg
 :name: M01Fig02
-:width: 90%
+:width: auto
 :align: center
 
 Adding 2 vectors $\vec{F}_1$ and $\vec{F}_2$, using the graphical ("tail-to-tip") method.
@@ -121,7 +121,7 @@ The method of components is a much more useful and quantitatively accurate metho
 
 ```{figure} VectorTableFigures/M1_ForceTable_03.jpg
 :name: M01Fig03
-:width: 90%
+:width: auto
 :align: center
 
 Adding 2 vectors $\vec{F}_1$ and $\vec{F}_2$ using the method of components.
@@ -188,7 +188,7 @@ $$\theta = \arctan(0.414) = 22.5°.$$
 
 ```{figure} VectorTableFigures/Figure04.jpg
 :name: M01Fig04
-:width: 70%
+:width: auto
 :align: center
 
 Example of $\vec{R}$, the sum of 2 vectors as $x$- and $y$-components, as well as its magnitude and angle with the $x$-axis.
@@ -198,7 +198,7 @@ In this laboratory, an object will be presented with two known forces acting on 
 
 ```{figure} VectorTableFigures/Figure05.jpg
 :name: M01Fig05
-:width: 70%
+:width: auto
 :align: center
 
 Illustration of the method to determine the force $\vec{F}_{3}$ needed to balance two given forces $\vec{F}_{1}$ and $\vec{F}_{2}$.
@@ -225,7 +225,7 @@ We conclude that the force necessary to equilibrate two or more forces is equal 
 
 ```{figure} VectorTableFigures/M1_ForceTable_06_table_v2025-01.png
 :name: M01Fig06
-:width: 90%
+:width: auto
 :align: center
 
 (Left) Illustration of the force table. (Right) An example of how to determine the force $\vec{F}_{3}$ needed to balance two given forces $\vec{F}_{1}$ and $\vec{F}_{2}$.
@@ -591,7 +591,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 ```{figure} VectorTableFigures/ForceTable_2025_Summer_02_v2025-01.jpg
 :name: vectorTableWhiteboard_02
-:width: 100%
+:width: auto
 :align: center
 
 ```

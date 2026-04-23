@@ -70,7 +70,7 @@ For each case, the object’s mass $M_\text{object}$ and radius $R$ are set by a
 
 ```{figure} CentripetalForceFigures/Figure01a_v2025-03.png
 :name: M04Fig01
-:width: 100%
+:width: auto
 :align: center
 
 Experimental Setup showing the rotating arm and the attached masses. The photogate to measure the speed is shown as well. The small white-ish pin attached underneath the fixed-counterweight mass holder is used to determine the speed $v$ of the mass.
@@ -104,7 +104,7 @@ Experimental Setup showing the rotating arm and the attached masses. The photoga
 
 ```{figure} CentripetalForceFigures/Figure02_v2025-02.png
 :name: M04Fig02
-:width: 100%
+:width: auto
 :align: center
 
 Experimental Setup for the centripetal force experiment
@@ -116,7 +116,7 @@ Experimental Setup for the centripetal force experiment
 
     ```{figure} CentripetalForceFigures/Figure07_v2025-01.png
     :name: M04Fig07
-    :width: 85%
+    :width: auto
     :align: center
 
     Example of today's **Capstone** layout. Review notes for helpful info.
@@ -135,7 +135,7 @@ Experimental Setup for the centripetal force experiment
 
     ```{figure} CentripetalForceFigures/Figure04_v2025-02.png
     :name: M04Fig04
-    :width: 100%
+    :width: auto
     :align: center
 
     Reassemly procedure for reattaching the freely-sliding mass holder
@@ -200,7 +200,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
     ```{figure} CentripetalForceFigures/Figure03_v2025-01.png
     :name: M04Fig03
-    :width: 80%
+    :width: auto
     :align: center
 
     Calculator setup in **Capstone** to determine the tangential speed of the rotating objects. Adjust the radius (red boxed) to your measured radius in your experimental setup.
@@ -236,7 +236,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
     ```{figure} CentripetalForceFigures/Figure08_v2025-01.png
     :name: M04Fig08
-    :width: 60%
+    :width: auto
     :align: center
 
     Example of kink in the data due to possible irregularities or voltage jumps in the power supplies.
@@ -246,7 +246,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
     ```{figure} CentripetalForceFigures/Figure06_v2025-01.png
     :name: M04Fig06
-    :width: 60%
+    :width: auto
     :align: center
 
     Autoscale axes tool.
@@ -268,7 +268,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
     ```{figure} CentripetalForceFigures/Figure05_v2025-01.png
     :name: M04Fig05
-    :width: 70%
+    :width: auto
     :align: center
 
     Process for applying fits to plotted data, updating the y-intercept and other curve-fit terms, and updating sig. figs.
@@ -345,7 +345,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
     ```{figure} CentripetalForceFigures/Figure09_v2025-01.png
     :name: M04Fig09
-    :width: 80%
+    :width: auto
     :align: center
 
     Process for returning to previous run in **Capstone.**
@@ -439,7 +439,7 @@ The next step will cause the apparatus to begin rotation. Be sure it can do so w
 
 ```{figure} CentripetalForceFigures/CentripetalForce_2024_Fall_01_v2025-01.jpg
 :name: centr
-:width: 600px
+:width: auto
 :align: center
 
 ```

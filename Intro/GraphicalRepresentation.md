@@ -28,7 +28,7 @@ An example of how a graph should look is shown in {numref}`GraphRep_Fig01`.
 
 ```{figure} IntroductionFigures/graph.png
 :name: GraphRep_Fig01
-:width: 100%
+:width: auto
 :align: center
 
 Example of a graph for the pendulum experiment showing the length as a function of the period squared.
@@ -57,7 +57,7 @@ There are many ways to produce graphs and just as many computer programs that wi
 
 ```{figure} IntroductionFigures/graph2.png
 :name: GraphRep_Fig02
-:width: 100%
+:width: auto
 :align: center
 
 Example of a graph with the trendline and the corresponding equation.

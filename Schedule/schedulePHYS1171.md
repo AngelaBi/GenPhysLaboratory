@@ -1,3 +1,5 @@
+(lab-days-1171-1172-links)=
+# Lab Days for PHYS 1172L (with links)
 
 <!---
 # Schedule for PHYS 1171L
@@ -60,7 +62,6 @@ Schedule for PHYS 1171L
 
 
 
-# Lab Days for PHYS 1172L (with links)
 
 ## Schedule with links to relevant lab
 

@@ -172,7 +172,7 @@ I = \frac{m_\text{hanger} \left(g  R_{P} - \alpha R_{P}^2\right)}{\alpha}.
 
 ```{figure} RotationalMotionFigures/Figure01_v2025_02.png
 :name: M08_rotation_Fig01
-:width: 60%
+:width: auto
 :align: center
 
 Left: Sketch of a pulley of mass $M$ and radius $R$ being accelerated by a hanging mass $m_\text{hanger}$. Note that the pulley in the lab is actually horizontal, but is drawn vertically here for simplicity. Right: Force diagram for the hanging mass $m_\text{hanger}$.
@@ -223,7 +223,7 @@ In this lab, you will run a ***Moment of Inertia*** experiment and an ***Angular
 
 ```{figure} RotationalMotionFigures/Figure02_v2025-01.png
 :name: M08_rotation_Fig02
-:width: 50%
+:width: auto
 :align: center
 
 Rotary Motion Sensor (RMS) with 3-step pulley (transparent) and Super Pulley (black). Super pulley should be at an angle to ensure the thread lines up tangent to the 3-step pulley.
@@ -232,7 +232,7 @@ Rotary Motion Sensor (RMS) with 3-step pulley (transparent) and Super Pulley (bl
 
 ```{figure} RotationalMotionFigures/Figure04_v2025-03.png
 :name: M08_rotation_Fig04
-:width: 80%
+:width: auto
 :align: center
 
 Sketch of the RMS apparatus setup for "point masses" on a rotating rod. Left) Just apparatus (i.e. rod), Right) total from the apparatus and point masses combined.
@@ -240,7 +240,7 @@ Sketch of the RMS apparatus setup for "point masses" on a rotating rod. Left) Ju
 
 ```{figure} RotationalMotionFigures/Figure03_v2025-01.png
 :name: M08_rotation_Fig03
-:width: 80%
+:width: auto
 :align: center
 
 Experimental setup of the RMS apparatus with disk alone (left) and with disk and ring mounted (right). The setup varies slightly from the one used in the lab.
@@ -249,7 +249,7 @@ Experimental setup of the RMS apparatus with disk alone (left) and with disk and
 
 ```{figure} RotationalMotionFigures/Figure07_v2025-01.png
 :name: M08_rotation_Fig07
-:width: 80%
+:width: auto
 :align: center
 
 Experimental setup of the Conservation of Angular Momentum experiment with **collisions*: Left) Thick ring dropped on-axis, Right) Thick ring dropped off-axis.
@@ -350,7 +350,7 @@ Determine the moment of inertia of the ring (denoted as *ringOnly*) by running 3
   1. Make sure that in **Capstone** you have a graph of angular velocity ($y$-axis) vs. time ($x$-axis) open.
   ```{figure} RotationalMotionFigures/Figure05_v2025-02.png
   :name: M08_rotation_Fig05
-  :width: 80%
+  :width: auto
   :align: center
 
   Example of Page 1 in today's **Capstone** file for both ring and point mass moment of inertia cases. Review notes in the text box to assist in your data taking and analysis.
@@ -408,7 +408,7 @@ Investigate the Parallel Axis Theorem by:
   1. Switch to page 2 in your **Capstone** file. You shouce have a graph of angular position ($y$-axis) vs. time ($x$-axis); see {numref}`M08_rotation_Fig06`.
     ```{figure} RotationalMotionFigures/Figure06_v2025-03.png
     :name: M08_rotation_Fig06
-    :width: 80%
+    :width: auto
     :align: center
 
     Example of Page 2 in today's **Capstone** file for the angular momentum experiment. Review notes in the text box to assist in your data taking and analysis. Note the region in the plot *before* and *after* the collision.
@@ -475,7 +475,7 @@ Investigate the Parallel Axis Theorem by:
 
 ```{figure} RotationalMotionFigures/RotationalDynamics_2024_Fall_01.jpg
 :name: rot1
-:width: 100%
+:width: auto
 :align: center
 
 ```
