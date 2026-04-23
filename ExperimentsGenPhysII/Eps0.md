@@ -48,7 +48,7 @@ If we apply Coulomb's law to the special case of two *large*, *closely-spaced*, 
 
 ```{figure} Eps0Figures/E1_Fig_0002_parallelPlates_v01.png
 ---
-width: 60%
+width: auto
 name: E1Fig_0002
 ---
 Example of a parallel-plate capacitor. Plates of area $A$ are seaparated $d$ apart with charge $Q$ built up on each plate based on the applied voltage which creates a uniform electric field.
@@ -229,7 +229,7 @@ Depicted across {numref}`E1Fig_00` -- {numref}`E1Fig_02`. All equipment as liste
 
 ```{figure} Eps0Figures/fig_00_OverallApparatus_v02.png
 ---
-width: 100%
+width: auto
 name: E1Fig_00
 ---
 Top) Example of the entire setup (note: actual setups will have telescope/scale on separate table further away). Bottom) Front view of capacitor apparatus; protective box.
@@ -327,7 +327,7 @@ You will experimentally determine $\varepsilon_0$ today; a few weeks from now in
 
 ```{figure} Eps0Figures/fig_01_Apparatus_v03.png
 ---
-width: 100%
+width: auto
 name: E1Fig_01
 ---
 Parallel Plate Capacitor Apparatus. 
@@ -372,7 +372,7 @@ Bottom) Example of mirror-to-scale distance.
 
 ```{figure} Eps0Figures/fig_03_MassPlacement.png
 ---
-width: 80%
+width: auto
 name: E1Fig_03
 ---
 Example of masses to use (milligrams). Placement location marked by the +.
@@ -382,7 +382,7 @@ Example of masses to use (milligrams). Placement location marked by the +.
 
 ```{figure} Eps0Figures/fig_02_MeasuringApparatus_v02.png
 ---
-width: 100%
+width: auto
 name: E1Fig_02
 ---
 Top-left) Schematic of the Measuring Apparatus. Top-right) Example of $S_{0}$ and $S_{1}$ on the scale. Bottom) Example of the plates and cross-hairs through the telescope for finding $S_{0}$, $S_{1}$, and scale difference $D$. Note for the $S_{0}$ and $S_{1}$ readings, the scale numbers are black and red, respectively; this indicating we crossed the zero line and changed signs.
@@ -468,7 +468,7 @@ d = \frac{D a}{2 b}
 
 ```{figure} Eps0Figures/fig_04_spark.png
 ---
-width: 75%
+width: auto
 name: E1Fig_04
 ---
 Safety: regarding electricity and the plates touching. 
@@ -627,7 +627,7 @@ Safety: regarding electricity and the plates touching.
 
 ```{figure} Eps0Figures/eps0_2025_Spring_01_v01.jpg
 :name: eps0_whiteboard_01
-:width: 100%
+:width: auto
 :align: center
 
 Overview. `LINEST()` function.
@@ -635,7 +635,7 @@ Overview. `LINEST()` function.
 
 ```{figure} Eps0Figures/eps0_2025_Spring_02.jpg
 :name: eps0_whiteboard_02
-:width: 100%
+:width: auto
 :align: center
 
 Examples of balancing the plates --- 1) equilibrium (50 mg); 2) less applied mass, not parallel; 3) voltage applied, electric field generated,  pulls plates back together to parallel.

@@ -71,7 +71,7 @@ Under the assumption of a simple pendulum, the analysis of the motion can be car
 
 ```{figure} PendulumFigures/M10_figure1_squish_v01.jpg
 :name: M03_pendulum_Fig01
-:width: 70%
+:width: auto
 :align: center
 
 Force Diagram and variables used in the pendulum experiment.
@@ -418,21 +418,21 @@ g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
 
 ```{figure} PendulumFigures/SimplePendulum_2024_Fall_01.jpg
 :name: pen1
-:width: 80%
+:width: auto
 :align: center
 
 ```
 
 ```{figure} PendulumFigures/SimplePendulum_2024_Fall_02.jpg
 :name: pen2
-:width: 80%
+:width: auto
 :align: center
 
 ```
 
 ```{figure} PendulumFigures/SimplePendulum_2024_Fall_03_v02.jpg
 :name: pen3
-:width: 80%
+:width: auto
 :align: center
 
 ```

@@ -30,7 +30,7 @@ An electrical analogy of this process is a simple circuit where a capacitor disc
 ---
 name: fig-rc-charging-circuit
 align: center
-width: 100%
+width: auto
 ---
 Left) Schematic of circuit charging the capacitor. Right) Schematic of RC circuit disconnected from the battery and discharging through the resistor.
 ```
@@ -183,7 +183,7 @@ Because the two capacitors are at the same voltage, the total charge is divided 
 ---
 name: fig-cc-charging-circuit
 align: center
-width: 100%
+width: auto
 ---
 Left) Schematic of circuit charging the capacitor. Right) Schematic of CC circuit disconnected from the battery and discharging to a separate capacitor.
 ```
@@ -217,7 +217,7 @@ The general setup with electrical schematic can be seen in {numref}`fig-rc-setup
 ---
 name: fig-rc-setup
 align: center
-width: 100%
+width: auto
 ---
 Left) Schematic, with circuit modules with spring modules for connecting capacitors, resistors, jumper bars. Right) Example of actual setup with voltmeter (used in Capstone) is connected across the eventual locations of the capacitor(s).
 ```
@@ -226,7 +226,7 @@ Left) Schematic, with circuit modules with spring modules for connecting capacit
 ---
 name: fig-rc-setup_capacitors_resistors
 align: center
-width: 50%
+width: auto
 ---
 Example of capacitors, resistors, and wire and jumper bar to be used.
 ```
@@ -363,7 +363,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
     ---
     name: fig-rc-decay-circuit
     align: center
-    width: 100%
+    width: auto
     ---
     Modular electronic RC circuit. The resistors and capacitors will just be placed in the spring modules to become part of the circuits. Left) Example with lower capacitor being charged by batteries in the bottom circuit. ***STAR*** Denotes switch position down. Right) Example with lower capacitor discharging through the resistor in the top circuit. ***STAR*** Denotes switch position up.
     ```
@@ -372,7 +372,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
     ---
     name: fig-rc-decay-circuit_parallel_series
     align: center
-    width: 80%
+    width: auto
     ---
     Left) Parallel capacitors and Right) Series capacitors in spring modules.
     ```
@@ -411,7 +411,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
       ---
       name: FigE5_014_halflife
       align: center
-      width: 100%
+      width: auto
       ---
       Example Voltage vs. Time plot (top) and LN(V) vs. Time plot (bottom). Left) Time of start of a decay trial. Center) Time when half of the initial voltage is reached (i.e. after a half-life or $t_1/2$). Right) Time of the effective end of a decay trial when voltage drops to 10% of initial voltage (i.e. when $V = V_\text{10-percent}$.)
       ```
@@ -469,7 +469,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
         ---
         name: FigE5_015_graphical
         align: center
-        width: 100%
+        width: auto
         ---
         Example Voltage vs. Time plot (top) and LN(V) vs. Time plot (bottom). Left) Time of start of a decay trial. Lower bound of data-highlight box for fitting data in LN(V) vs. Time plot. Right) Time of the effective end of a decay trial when voltage drops to 10% of initial voltage (i.e. when $V = V_\text{10-percent}$ and upper bound of data-highlight box.)
         ```
@@ -523,7 +523,7 @@ We study dividing charge across two capacitors, as in circuit diagram {numref}`f
 ---
 name: fig-capacitor-charge-division
 align: center
-width: 100%
+width: auto
 ---
 Modular electronic circuit with two capacitors. Left) Example with lower capacitor being charged by batteries in the bottom circuit. ***STAR*** Denotes switch position down. Right) Example with lower capacitor discharging to the upper capacitor in the top circuit. ***STAR*** Denotes switch position up.
 ```
@@ -556,7 +556,7 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
     ---
     name: fig-capacitor-charge-division-voltage-plot
     align: center
-    width: 100%
+    width: auto
     ---
     Example Voltage vs. Time plot for experiment two.
     ```
@@ -645,7 +645,7 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
 
 ```{figure} RCCircuitFigures/RCCircuits_2025_Summer_01_v02.jpg
 :name: RCCircuits_whiteboard_01
-:width: 100%
+:width: auto
 :align: center
 
 Overview 1st part.
@@ -653,7 +653,7 @@ Overview 1st part.
 
 ```{figure} RCCircuitFigures/RCCircuits_2025_Summer_02_v02.jpg
 :name: RCCircuits_whiteboard_02
-:width: 80%
+:width: auto
 :align: center
 
 Overview 2nd part.
@@ -661,7 +661,7 @@ Overview 2nd part.
 
 ```{figure} RCCircuitFigures/RCCircuits_2025_Summer_03_v02.jpg
 :name: RCCircuits_whiteboard_03
-:width: 80%
+:width: auto
 :align: center
 
 Multimeter settings; Capstone significant figures notes.

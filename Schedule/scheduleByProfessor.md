@@ -1,3 +1,5 @@
+(weekly-meeting-times-makeup-procedure)=
+# Weekly Meeting Times by Instructor & Lab Makeup Procedure
 
 
 <!---
@@ -120,7 +122,6 @@ Printed lab schedule by section for PHYS 1145L & 1171L. Included are the instruc
 
 
 
-# Weekly Meeting Times by Instructor & Lab Makeup Procedure
 
 ## Lab Makeup Procedure
 

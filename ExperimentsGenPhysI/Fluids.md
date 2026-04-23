@@ -73,7 +73,7 @@ As depth increases, pressure in a fluid increases. Therefore, for an object in a
 
 ```{figure} FluidsFigures/M08_fig00_2.jpg
 :name: M08_fluids_Fig00
-:width: 530px
+:width: auto
 :align: center
 
 **LEFT**) Pressure due to the weight of a fluid increases with depth causing a greater upward force on the bottom of the object than the smaller downward force on the top of the object. ($F_{\text{down}} < F_{\text{up}}$ and horizontal forces cancel.) **RIGHT-a**) An object submerged in a fluid experiences a buoyant force $F_\text{B}$. If $F_\text{B}$ is greater than the weight of the object $w_\text{obj}$, the object will rise. If $F_\text{B} < w_\text{obj}$ as depicted in **a**, the object will sink. **RIGHT-b**) If the object is removed, it is replaced by fluid having weight $w_\text{fl}$. Since this weight is supported by surrounding fluid, the buoyant force must equal the weight of the fluid displaced. That is, $F_\text{B} = w_\text{fl}$, a statement of Archimedes' principle.
@@ -94,7 +94,7 @@ Imagine fluid flowing through a channel of varying width (ex. of such a setup in
 
 ```{figure} FluidsFigures/M08_fig07.jpg
 :name: M08_fluids_Fig07
-:width: 390px
+:width: auto
 :align: center
 
 Example of a Venturi tube, where velocity $v_1 < v_2$, pressure $P_1 > P_2$, and cross-sectional area $A_1 > A_2$
@@ -179,7 +179,7 @@ In this experiment, we will first determine the mass, volume, and density of 6 o
 
 ```{figure} FluidsFigures/M08_fig02_v2025-01.png
 :name: M08_fluids_Fig02
-:width: 290px
+:width: auto
 :align: center
 
 3 cylinders, 2 blocks, 1 irregular shape.
@@ -201,7 +201,7 @@ w_\text{obj} = mg
 
 ```{figure} FluidsFigures/M08_fig06_v2025-01.png
 :name: M08_fluids_Fig04
-:width: 100%
+:width: auto
 :align: center
 
 Left) Force diagram. Apparent weight in water is the difference of weight in air and buoyant force. Right) Force sensor measuring apparent weight of object in water.
@@ -249,7 +249,7 @@ F_\text{B} = w_\text{obj in air} - w_\text{obj in water}
 --->
 ```{figure} FluidsFigures/M08_fig03.jpg
 :name: M08_fluids_Fig03
-:width: 80%
+:width: auto
 :align: center
 
 Left) Measuring size with calipers (not done in this lab). Right) Lowering object into overflow container.
@@ -378,7 +378,7 @@ After passing through the Venturi tube, the water will flow into a catch basin. 
 
 ```{figure} FluidsFigures/M08_fig08_v2025-01.png
 :name: M08_fluids_Fig08
-:width: 90%
+:width: auto
 :align: center
 
 Sketch of the Venturi tube setup for the second experiment (Bernoulli).
@@ -529,21 +529,21 @@ Does you experimental value for the pressure at the narrow constriction, $P_2$, 
 
 ```{figure} FluidsFigures/FluidPhysics_2024_Fall_01.jpg
 :name: flu1
-:width: 100%
+:width: auto
 :align: center
 
 ```
 
 ```{figure} FluidsFigures/FluidPhysics_2025_Summer_01.jpg
 :name: flu2
-:width: 100%
+:width: auto
 :align: center
 
 ```
 
 ```{figure} FluidsFigures/FluidPhysics_2025_Summer_02_v02.jpg
 :name: M08_fluids_whiteboard3
-:width: 80%
+:width: auto
 :align: center
 
 ```

@@ -74,7 +74,7 @@ By measuring the force between two such conductors, the value of $\mu_0$ can be 
 
 ```{figure} Mu0Figures/Figure01.jpg
 :name: fig-apparatus-diagram
-:width: 100%
+:width: auto
 :align: center
 
 Apparatus dimensions from a top-down perspective, similar to the apparatus setup from {ref}`Electric Force & the Determination of ε₀ <electric-force-and-epsilon-overall>`.
@@ -233,7 +233,7 @@ where $r_\text{conductor}$ is the radius of the conductor (multiplied by two to 
 
 ```{figure} Mu0Figures/E6_Figure02_v02.jpg
 :name: fig-measurement-apparatus
-:width: 100%
+:width: auto
 :align: center
 
 Schematic of the measuring apparatus, similar to the setup and measurement methods from {ref}`Electric Force & ε₀ Lab <electric-force-and-epsilon-overall>`.
@@ -476,7 +476,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
 
 ```{figure} Mu0Figures/mu0_2025_Summer_01_v01.jpg
 :name: mu0_whiteboard_01
-:width: 100%
+:width: auto
 :align: center
 
 Overview. `LINEST()` function.
@@ -484,7 +484,7 @@ Overview. `LINEST()` function.
 
 ```{figure} Mu0Figures/mu0_2025_Spring_02_v02.jpg
 :name: mu0_whiteboard_02
-:width: 80%
+:width: auto
 :align: center
 
 Separation distance equation; multimeter settings.
@@ -492,7 +492,7 @@ Separation distance equation; multimeter settings.
 
 ```{figure} Mu0Figures/mu0_2025_Summer_03_v02.jpg
 :name: mu0_whiteboard_03
-:width: 100%
+:width: auto
 :align: center
 
 Plot notes; Speed of Light calculations.

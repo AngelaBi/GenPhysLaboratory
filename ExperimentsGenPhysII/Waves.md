@@ -128,7 +128,6 @@ In this experiment, similar to that seen in {ref}`demo-video-1-wavemotion-highsp
 
 ```{figure} WavesFigures/Figure_02_setupExample.png
 :name: fig-string-vibrator-schematic
-:width: 100%
 :align: center
 
 Illustrated setup with string vibrator and string over frictionless pulley. String tension from hanging mass $m$. Length of string (first-to-last nodes) --- left side bracket is wider to represent the lack of clear position from the vibrating metal tab.
@@ -137,7 +136,7 @@ Illustrated setup with string vibrator and string over frictionless pulley. Stri
 ```{figure} WavesFigures/DSC_6675.jpg
 :name: fig-string-vibrator
 :alt: Setup with sine wave generator and string vibrator experimental apparatus
-:width: 100%
+:width: auto
 :align: center
 
 Setup with sine wave generator and string vibrator.
@@ -329,7 +328,7 @@ The cases today are as shown in {numref}`waves-cases-table`.
 
 ```{figure} WavesFigures/waves_2025_Spring_01_v02.jpg
 :name: waves_whiteboard_01
-:width: 100%
+:width: auto
 :align: center
 
 Overview. Notes. Equation numbers have changed. Using error propagation instead of standard deviation. 3 Cases instead of 4, old case three is dropped.
@@ -337,7 +336,7 @@ Overview. Notes. Equation numbers have changed. Using error propagation instead 
 
 ```{figure} WavesFigures/waves_2025_Spring_02_v01.jpg
 :name: waves_whiteboard_02
-:width: 100%
+:width: auto
 :align: center
 
 `LINEST()` function.

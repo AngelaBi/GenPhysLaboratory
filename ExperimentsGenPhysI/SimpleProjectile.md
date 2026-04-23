@@ -162,7 +162,7 @@ The experimental setup will involve a free-fall timer where a metal ball is drop
 
 ```{figure} SimpleProjectileFigures/M3_Exp1.jpg
 :name: M03-simpleProjectileLauncher-Exp1
-:width: 500px
+:width: auto
 :align: center
 
 Example of the free fall apparatus used in Exp. 1. Note the release screw will be what you tighten or loosen to hold or release the ball from the release mechanism.
@@ -189,7 +189,7 @@ For the first case, you will measure distances traveled in both $x$ and $y$ dire
 
 ```{figure} SimpleProjectileFigures/M3_ExpOptions_v2025-03.png
 :name: M03-simpleProjectileLauncher
-:width: 100%
+:width: auto
 :align: center
 
 Stars denote projectile height. Left) Position of launcher for lower height in Case 1. Right) Position of launcher for higher height in Case 2. Right) Position of launcher for angled launches in Case 3 where the ball's initial position is at the same higher height position.
@@ -197,7 +197,7 @@ Stars denote projectile height. Left) Position of launcher for lower height in C
 
 ```{figure} SimpleProjectileFigures/M3_Measurements_v2025-07.png
 :name: M03-simpleProjectileLauncher_meas_case-1
-:width: 100%
+:width: auto
 :align: center
 
 Example of Case 1 data aquisition.
@@ -205,7 +205,7 @@ Example of Case 1 data aquisition.
 
 ```{figure} SimpleProjectileFigures/M4_Measurements_v2025-06.png
 :name: M03-simpleProjectileLauncher_meas_case-2-3
-:width: 100%
+:width: auto
 :align: center
 
 Example of Case 2 and 3 estimation and data aquisition.
@@ -267,7 +267,7 @@ The third case of this experiment is similar to Case 2 in that we are staying at
 
 ```{figure} SimpleProjectileFigures/M3_Exp3_v2025-01.png
 :name: M03-simpleProjectileLauncher-Exp3
-:width: 80%
+:width: auto
 :align: center
 
 Example of the upward and downward portions you'll analyze in Experiment 3 for an angled launch.
@@ -596,7 +596,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 ```{figure} SimpleProjectileFigures/ProjectileKinetmatic_2024_Fall_01_v2025-02.jpg
 :name: exampleDataSimpleProjectile
-:width: 100%
+:width: auto
 :align: center
 
 Examples of what experimental data may look like including uncertainty estimations.
@@ -607,7 +607,7 @@ Examples of what experimental data may look like including uncertainty estimatio
 
 ```{figure} SimpleProjectileFigures/ProjectileKinetmatic_2024_Fall_02.jpg
 :name: pro2
-:width: 60%
+:width: auto
 :align: center
 
 ```

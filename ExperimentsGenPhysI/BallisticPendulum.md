@@ -64,7 +64,7 @@ The ballistic pendulum is so named because it was originally used to measure the
 
 ```{figure} BallisticPendulumFigures/M06_fig03_v2025-01.png
 :name: M06Fig03
-:width: 100%
+:width: auto
 :align: center
 
 Left) Ballistic pendulum apparatus showing path of the rotating arm during the pendulum experiment. Right) Arm with metal bob that catches the projectile (metal ball with hole, not shown) when launched from the spring-powered gun of the apparatus.
@@ -77,7 +77,7 @@ As illustrated in the left image in {numref}`M06Fig01`, before the collision, th
 
 ```{figure} BallisticPendulumFigures/M06_fig01_v2025-02.png
 :name: M06Fig01
-:width: 100%
+:width: auto
 :align: center
 
 Ballistic Pendulum before (left) and after the collision (right)
@@ -127,7 +127,7 @@ When a projectile is moving solely under the influence of the force of gravity, 
 
 ```{figure} BallisticPendulumFigures/M06_fig02_v2025-02.png
 :name: M06Fig02
-:width: 100%
+:width: auto
 :align: center
 
 Projectile Motion. Note $X$ and $Y$ are broken down into easier-to-measure quantities.
@@ -408,7 +408,7 @@ Create a *summary table* to summarize the results from both experiments includin
 
 ```{figure} BallisticPendulumFigures/ConsEnergyMomentumBallistic_2024_Fall_02.jpg
 :name: ballist
-:width: 100%
+:width: auto
 :align: center
 
 ```

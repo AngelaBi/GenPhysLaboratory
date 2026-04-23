@@ -16,7 +16,7 @@ Electric fields are a convenient construct to analyze the electrical force betwe
 
 ```{figure} MappingPotentialFigures/E2_Fig_000_EFieldOverview_2026_v02.png
 ---
-width: 90% 
+width: auto 
 name: E2Fig00
 ---
 Right) Equipotential (dashed) and E-field lines (solid) between two equal but opposite charges.
@@ -28,7 +28,7 @@ The amount of work required to move a unit charge between two points in an elect
 
 ```{figure} MappingPotentialFigures/E2_Fig_001_PotentialDifference_v2.png
 ---
-width: 100% 
+width: auto 
 name: E2Fig001
 ---
 Top-Left) Charges on same equipotential line, no voltage difference. Bottom-left) No work, no forces, along equipotential lines. Top-Right) Charges on different equipotential lines, some voltage difference. Bottom-right) Work can be done, electrical forces in direction of E-field lines.
@@ -48,7 +48,7 @@ Because a charge at any point experiences a single, well-defined net electric fo
 
 ```{figure} MappingPotentialFigures/E2_Fig_003_EfieldDispersion_v3.png
 ---
-width: 100% 
+width: auto 
 name: E2Fig003
 ---
 Left) Equipotentials parallel, then E-field lines are parallel. Must not cross. Right) Equipotentials curve away, then E-field lines must curve away (diverge) as well. Must not cross and converge/diverge oppositely.
@@ -56,7 +56,7 @@ Left) Equipotentials parallel, then E-field lines are parallel. Must not cross. 
 
 ```{figure} MappingPotentialFigures/E2_Fig_002_EfieldEquipotentialRelationship_v2.png
 ---
-width: 80% 
+width: auto 
 name: E2Fig002
 ---
 Top) Equipotential and E-field lines always cross perpendicularly. Bottom) E-field lines must leave an equipotential surface perpendicularly as well.
@@ -74,7 +74,7 @@ Since we know that electrical field lines must be perpendicular to the equipoten
 
 ```{figure} MappingPotentialFigures/E2_Fig_004_setupOverall_v2.png
 ---
-width: 90%
+width: auto
 name: E2Fig01
 ---
 Experimental setup. Top) Schematic example. Bottom) general setup with all parts included, currently set to $24V$ (white paper for drawing on not shown).
@@ -86,7 +86,7 @@ If we determine a number of equipotential lines for this electrode pattern, we m
 
 ```{figure} MappingPotentialFigures/Figure2_v06.png
 ---
-width: 90%
+width: auto
 name: E2Fig02
 ---
 Electric Field and Equipotential patterns drawn from edge to edge of the paper.
@@ -101,7 +101,7 @@ The drawing of both dashed equipotentials and solid E-field lines will be assist
 
 ```{figure} MappingPotentialFigures/E2_Fig_005_frenchCurves_v4.png
 ---
-width: 70%
+width: auto
 name: E2Fig005_frenchCurves
 ---
 French curves that will be available for interpolating equipotential and E-field lines.
@@ -166,7 +166,7 @@ https://www.youtube.com/watch?v=JYqLqs7038Q
 
 ```{figure} MappingPotentialFigures/E2_AllElectrodes_stars_v03.jpg
 ---
-width: 70%
+width: auto
 name: E2Fig03_plots
 ---
 Electrode configurations. The stars show minimum required starting positions for E-field lines.
@@ -228,7 +228,7 @@ Electrode configurations. The stars show minimum required starting positions for
 
     ```{figure} MappingPotentialFigures/E2_AllElectrodes_starsHorizontal_v06.jpg
     ---
-    width: 100%
+    width: auto
     name: E2Fig03_plots_horizontal
     ---
     Electrode configurations. The stars show minimum required starting positions for E-field lines.
@@ -288,7 +288,7 @@ Note: For this lab, your results will be very qualitative.
 
 ```{figure} MappingPotentialFigures/map_2025_Summer_01_v02.jpg
 :name: mapping_whiteboard_01
-:width: 100%
+:width: auto
 :align: center
 
 Overview.

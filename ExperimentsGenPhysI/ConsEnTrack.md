@@ -52,7 +52,7 @@ The **work** done by a force acting on a mass is the magnitude of the force acti
 
 ```{figure} ConsEnTrackFigures/Figure01.jpg
 :name: M05Fig01
-:width: 500px
+:width: auto
 :align: center
 
 Explanation of the variables needed to calculate the amount of work done on a mass
@@ -121,7 +121,7 @@ In order to calculate the potential energy, $U$ at any point, along the track we
 
 ```{figure} ConsEnTrackFigures/Figure01_v2025-01.png
 :name: M05Fig02
-:width: 450px
+:width: auto
 :align: center
 
 Schematic Drawing explaining the relationship between the track elevation $\Delta h$ and the distance $\Delta s$ for the Conservation of Energy experiment.
@@ -176,7 +176,7 @@ U_s = mg \, \Delta s \frac{H}{D}
 
 ```{figure} ConsEnTrackFigures/Figure02_v2025-02.png
 :name: M05Fig03
-:width: 100%
+:width: auto
 :align: center
 
 Experimental setup for the Conservation of Energy experiment.
@@ -184,7 +184,7 @@ Experimental setup for the Conservation of Energy experiment.
 
 ```{figure} ConsEnTrackFigures/Figure05_spacers_v2025-02.png
 :name: M05Fig05
-:width: 100%
+:width: auto
 :align: center
 
 Example of small and large spacers used to incline the air track. The cases today will be the BIG and Stacked heights. Remember to put the black plastic footer on top of the spacers as shown in the *stacked* case.
@@ -227,7 +227,7 @@ Example of small and large spacers used to incline the air track. The cases toda
 
 ```{figure} ConsEnTrackFigures/Figure04_v2025-01.png
 :name: M05Fig04
-:width: 60%
+:width: auto
 :align: center
 
 Suggested points on glider to read position on airtrack scale.
@@ -436,7 +436,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
 ```{figure} ConsEnTrackFigures/ConsOfEnergyTrack_2024_Fall_02.jpg
 :name: consE
-:width: 100%
+:width: auto
 :align: center
 
 ```

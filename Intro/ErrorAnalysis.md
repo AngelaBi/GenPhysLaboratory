@@ -109,7 +109,7 @@ Experimental measurements are characterized by **precision** and **accuracy**.
 
 ```{figure} IntroductionFigures/ErrorType_v4.png
 :name: ErrorAnalysis_Fig01
-:width: 100%
+:width: auto
 :align: center
 
 The distinction between precision and accuracy.

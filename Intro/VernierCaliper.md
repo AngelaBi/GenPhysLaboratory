@@ -13,7 +13,7 @@ The instrument illustrated in {numref}`Vernier_Fig02` and {numref}`VernierManual
 
 ```{figure} IntroductionFigures/VernierCalipers02a.jpg
 :name: Vernier_Fig02
-:width: 60%
+:width: auto
 :align: center
 
 Main and *Vernier* scales on a Vernier caliper.
@@ -22,7 +22,7 @@ Main and *Vernier* scales on a Vernier caliper.
 <!---
 ```{figure} IntroductionFigures/VernierCalipers01.jpg
 :name: Vernier_Fig01
-:width: 80%
+:width: auto
 :align: center
 
 A diagram showing Vernier calipers and their main measurement scales.
@@ -49,7 +49,7 @@ While only the metric scales are shown in the drawing, the instrument does have 
 
 ```{figure} IntroductionFigures/VernierCaliperManual_Figure01_v2025-01.png
 :name: VernierManual_Fig01
-:width: 100%
+:width: auto
 :align: center
 
 A diagram showing Vernier calipers and their main measurement scales. The secondary insert shows other version of calipers we have with a thumb clamp instead of a clamping screw.
@@ -74,7 +74,7 @@ Vernier scales, as used on the calipers and on many other types of high quality 
 
 ```{figure} IntroductionFigures/VernierCaliperManual_Figure02_v2025-02.png
 :name: VernierManual_Fig02
-:width: 80%
+:width: auto
 :align: center
 
 A diagram showing two examples of reading measurements from *Vernier* calipers. Top) 0.05 mm resolution caliper example, Bottom) 0.02 mm resolution caliper example.
@@ -88,7 +88,7 @@ For successful use of the calipers, {numref}`VernierManual_Fig03` includes sugge
 
 ```{figure} IntroductionFigures/VernierCaliperManual_Figure03_v2025-01.png
 :name: VernierManual_Fig03
-:width: 100%
+:width: auto
 :align: center
 
 A diagram showing precautions necessary for successful use of *Vernier* calipers.
@@ -110,7 +110,7 @@ Use the following online resources to test yourself whether you are reading the 
 
 ```{figure} IntroductionFigures/VernierCalipers02a.jpg
 :name: Vernier_Fig02_again
-:width: 100%
+:width: auto
 :align: center
 
 Repeated here for additional example measurement.

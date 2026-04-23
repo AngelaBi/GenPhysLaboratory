@@ -34,7 +34,7 @@ The number of slits that are actually used in the experiment is very large. To q
 ```{figure} OpticsFigures/Figure01.jpg
 :name: fig-two-slit-wavefronts
 :alt: Two-slit wavefront diagram showing interference patterns
-:width: 600px
+:width: auto
 :align: center
 
 Two-Slit Wavefronts
@@ -47,7 +47,7 @@ The portion of the wavefronts that are present in the slits are considered Huyge
 ```{figure} OpticsFigures/Figure_10_diffraction_v02.png
 :name: fig-double-slit-diffraction
 :alt: Double slit diffraction pattern showing constructive and destructive interference
-:width: 600px
+:width: auto
 :align: center
 
 Double Slit Diffraction. (A) Light spreads out (diffracts) from each slit, because the slits are narrow. These waves overlap and interfere constructively (bright spots) and destructively (dark regions). We can only see this if the light falls onto a screen and is scattered into our eyes. (B) When light that has passed through double slits falls on a screen, we see a pattern such as this.
@@ -90,7 +90,7 @@ The slit spacing $d$ is given, you determine laser wavelength, and you can compa
 ```{figure} OpticsFigures/Figure02.jpg
 :name: fig-double-slit-diagram
 :alt: Double slit diffraction geometry showing path difference and angle relationships
-:width: 600px
+:width: auto
 :align: center
 
 Double Slit Diffraction
@@ -108,7 +108,7 @@ The setup will appear in similar form to that seen in {numref}`Figure {number} <
 ```{figure} OpticsFigures/Figure_20_experimentalSetup.png
 :name: fig-experimental-setup
 :alt: Laser mounted on black optics track pointed towards diffraction grating
-:width: 600px
+:width: auto
 :align: center
 
 Left) Laser mounted on black optics track pointed towards the diffraction grating as seen on the right.
@@ -183,7 +183,7 @@ For the second part of the diffraction experiment, we will use the **now known w
 ```{figure} OpticsFigures/Figure_11_diffraction_v02.png
 :name: fig-cd-tracks
 :alt: Topography of CD ROM showing track spacing
-:width: 500px
+:width: auto
 :align: center
 
 Topography of a CD ROM. Lower capacity music CD on left, higher capacity DVD on right where the tracks are more closely packed together.
@@ -194,7 +194,7 @@ Regarding a CD, before data is written to it, you would have just a flat surface
 ```{figure} OpticsFigures/Figure03.jpg
 :name: fig-reflection-diffraction
 :alt: Reflection diffraction pattern from CD ROM
-:width: 500px
+:width: auto
 :align: center
 
 Reflection Diffraction of CD ROM
@@ -203,7 +203,7 @@ Reflection Diffraction of CD ROM
 ```{figure} OpticsFigures/Figure_21_experimentalSetup.png
 :name: fig-cd-setup
 :alt: Laser setup for CD reflection experiment
-:width: 500px
+:width: auto
 :align: center
 
 Left) Laser mounted on black optics track pointed towards the CD. Center) Laser light passes through the ruler and reflects off the CD to create the diffraction pattern in (right).
@@ -281,7 +281,7 @@ Use an object, thin-lens approximation, image screen on an optics track to:
 In today's experiment, the behavior of a simple, bi-convex (symmetric, oval shaped), converging lens will be investigated with the setup of an illuminated object whose light will pass through a thin, converging (convex) lens and be projected onto a white screen (example in {numref}`fig_optics_00_setup_equip`).
 
 ```{figure} OpticsFigures/Figure_00_InitialSetupExample_v03small.png
-:width: 100%
+:width: auto
 :name: fig_optics_00_setup_equip
 
 Light box, converging lens, screen mounted on optics track.
@@ -297,7 +297,7 @@ A convex or converging lens is shaped so that all light rays that enter it paral
 
 
 ```{figure} OpticsFigures/Figure_02_ThinLensFocalLength_v02.png
-:width: 100%
+:width: auto
 :name: fig_optics_02_ThinLensFocalLength
 
 All object light rays that are parallel to the optical axis will focus to a single point $F$ at a distance from the center of the thin converging lens equal to the focal length $f$.
@@ -319,7 +319,7 @@ In addition to using the ray model of light, the lens that will be used will be 
 
 <!---
 ```{figure} OpticsFigures/Figure_01_ObjectImageOverview_v01.png
-:width: 100%
+:width: auto
 :name: fig_optics_01_objectImagePlane
 
 Ray tracing light from object to inverted image. Red dots represent focal length from center of lens. Top ray from object parallel to axis will pass through focal length on image side towards image. Middle ray from object passing through center of lens takes a straight path towards image. Bottom ray passing through focal length on object side will become parallel to axis after lens.
@@ -327,7 +327,7 @@ Ray tracing light from object to inverted image. Red dots represent focal length
 --->
 
 ```{figure} OpticsFigures/Figure_03_ThinLensRayTracingDistance_v02.png
-:width: 100%
+:width: auto
 :name: fig_optics_03_ThinLensTracingDistance
 
 Ray tracing light from object to inverted image. Red dots at focal points $F$ (symmetric about symmetric lens) represent distance from lens where parallel rays from one side of the lens will pass through on the opposite side. E.g. ray 1, parallel ray from the object crosses at $F$ on the image side after refraction. Middle ray (2) from object passing through center of lens takes a straight path towards image. Bottom ray (3) passing through focal point on object side becomes parallel to optical axis after lens. Object distance to lens is $s_\text{o}$, image distance to lens is $s_\text{i}$.
@@ -376,7 +376,7 @@ In {numref}`fig_optics_04_magnification`, we again have three rays from the obje
 
 
 ```{figure} OpticsFigures/Figure_04_ThinLensRayTracingMagnification_v02.png
-:width: 100%
+:width: auto
 :name: fig_optics_04_magnification
 
 For magnification, the height of the object and the height of the image are indicated by $h_o$ and $h_i$, respectively. Ray tracing is used to locate the image formed by a lens. Rays originating from the same point on the object are traced, each following one of the rules for ray tracing, so that their paths are easy to determine. The image is located at the point where the rays cross. In this case, a real image (projectable onto a screen) is formed and is inverted. Assuming scale is accurate, magnification is negative and $|m| \lt 1$ as image is smaller than object.
@@ -415,7 +415,7 @@ The first common lens effect, chromatic aberration, results from the wavelength 
 
 
 ```{figure} OpticsFigures/Figure_06_chromaticAberration_v05.png
-:width: 100%
+:width: auto
 :name: fig_optics_06_chromaticAberration
 
 Left) Example of today's experimental image on the screen impacted by chromatic aberration. Notice how the image further from center (top of the line) is bluer, while the image closer to center (bottom of line) is redder. Center) Wavelength-dependent (red, green, blue) light rays through lens with chromatic aberration and different focal points (and thus focal lengths) depending on wavelength. Right) Wavelength-dependent (red, green, blue) light rays through lens without chromatic aberration and a single focal point (and thus focal length) independent of wavelength.
@@ -427,7 +427,7 @@ Left) Example of today's experimental image on the screen impacted by chromatic 
 The second lens effect, spherical aberration, results from the spherical shape of the lens surfaces. The result is that rays near the edge of a lens are refracted or bent more than those near the principal axis. The effective focal length of the outer rays is then smaller than the focal length of the rays closer to the center of the lens ({numref}`fig_optics_07_sphericalAberration`-center). This so-called spherical aberration causes a large diameter beam to focus over a range of focal lengths; the edges of images can become be somewhat fuzzy as compared to when the center of the image is in focus (e.g. {numref}`fig_optics_07_sphericalAberration`-left). By combining multiple lenses or non-spherical, correcting, and higher quality lenses, this effect can be corrected to bring the whole image back into focus ({numref}`fig_optics_07_sphericalAberration`-right).
 
 ```{figure} OpticsFigures/Figure_07_sphericalAberration_v03.png
-:width: 100%
+:width: auto
 :name: fig_optics_07_sphericalAberration
 
 Left) Image impacted by spherical aberration. Notice how image center is crisp and in focus while edges are blurry. Center) Light rays through lens with spherical aberration and different focal points (and thus focal lengths) depending on distance from optical axis. Right) Light rays through lens without spherical aberration and a single focal point (and thus focal length) across the whole lens.
@@ -470,14 +470,14 @@ The following equipment is shown in {numref}`fig_optics_00_setup_equip` and {num
 ```
 
 ```{figure} OpticsFigures/Figure_22_experimentalSetup_v02.png
-:width: 100%
+:width: auto
 :name: fig_optics_022_setup_equip
 
 A) Light box and lens mounted on optics track. B) Object on the light box. C) Refracted image through the lens on the white screen. D) Lightpath through lens onto the white screen.
 ```
 
 ```{figure} OpticsFigures/Figure_24_colorFilters_v02smaller.png
-:width: 100%
+:width: auto
 :name: fig_optics_024_setup_equip
 
 Left) Red and blue filters. Right) Filters taped over illuminated object on light box.
@@ -486,7 +486,7 @@ Left) Red and blue filters. Right) Filters taped over illuminated object on ligh
 
 
 ```{figure} OpticsFigures/Figure_23_experimentalSetup_v01.png
-:width: 100%
+:width: auto
 :name: fig_optics_023_setup_equip
 
 E) Outer-annulus mask to allow light only through center of lens. F) Inner-disk mask to allow light only through edges of lens.
@@ -752,7 +752,7 @@ In the ideal case, all of the lines should intersect at the point $(f,f)$. Visua
 
 ```{figure} OpticsFigures/optics_2025_Spring_01_v03.jpg
 :name: optics_whiteboard_01
-:width: 100%
+:width: auto
 :align: center
 
 Overview. ---- NOTE: Order of parts have changed, but on the whole, this is what you're doing.
