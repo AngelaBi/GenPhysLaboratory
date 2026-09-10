@@ -254,7 +254,7 @@ Defend why your data agrees with or disagrees between each domino characterizati
      - Larger or smaller? What does this comparison imply about the main sources of error in this experiment?
 
 - In a **paragraph**, summarize the results you have determined in each case. Consider:
-  - What were your densities for each of the **different colored dominoes** (based on Analysis Table 1), and did each color agree (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? In other words, do all the $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person1}}$, $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person2}}$, etc. agree?
+  - What were your densities for each of the **different colored dominoes** (based on Analysis Table 1), and did each color agree (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? In other words, do all the $\rho_{\text{blue-person1}}\pm\sigma_{\text{blue-person1}}$, $\rho_{\text{blue-person2}}\pm\sigma_{\text{blue-person2}}$, etc. agree?
   - Are the average densities of all four dominoes as measured by **each person** consistent (within experimental uncertainty assuming the use of standard deviation $\sigma$ as our uncertainty)? (i.e. do all the $\rho_{\text{blue-person1}}$, $\rho_{\text{green-person1}}$, etc. agree?)
   - Based on your measurements, did you expect the dominoes to float in water (at room temperature)? Did you test it? What did you find, confirmation or disconfirmation of your predictions?
 
