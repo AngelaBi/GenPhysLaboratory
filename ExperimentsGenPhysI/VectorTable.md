@@ -304,7 +304,7 @@ Reminder, run first case fully before moving on to additional cases. Don't just 
 ```
 
 1. Create data tables for the first case. NOTE: The data layout for each of the first two cases is the same. Create for the first case and run the whole experiment, then you can copy/paste the same data table for the additional case(s).
-   - Common data section with accepted value of $g = 9.803\,\text{m/s}^2$, mass of the hanger $50\,\text{g}$, list of slotted masses with their uncertainties (see table {ref}`tab-slotted` later in the procedure), and any other common values. You will reference these values in the calculations.
+   - Common data section with accepted value of $g = 9.803\,\text{m/s}^2$, mass of the hanger $50\,\text{g}$, list of slotted masses with their uncertainties (see table {ref}`tab-slotted` later in the procedure), and any other common values. You will reference these values in the calculations. ***USE SI Units (kilograms, meters, seconds, etc.)***.
    - An experimental data table (e.g. {ref}`experimental-data-vectortable`) to record your experimental results with:
      - With **three rows** (1 for each of the 3 vectors).
      - Include **columns** for:
@@ -516,12 +516,13 @@ Experimentally determine the ***mass*** of just the Pikachu (black figurine) and
 
 
 18. Create data table for this case with columns for (e.g. {ref}`vectortable-case3data`):
-   - Experimental masses $m_{i\text{,experimental}}$ in kg
-   - Given/actual angles $\theta_i$ in degrees
-   - Actual values for each mass $m_{i\text{,actual}}$
-   - The % Difference between the experimental and actual mass values in kg
+    - Experimental hanging masses $M_{i\text{,figurine-type,experimental}}$ in kg
+    - Experimental figurine masses $m_{i\text{,figurine-type,experimental}}$ in kg
+    - Given/actual angles $\theta_i$ in degrees
+    - Actual values (from triple beam balance) for each figurine mass $m_{i\text{,figurine-type,actual}}$ in kg
+    - The % Difference between the experimental and actual mass values in kg
 
-19. Place the figurines on their respective hangers and set the empty hanger ($m_1$) to its initial angle found in Table {ref}`tab-case3`.
+19. Place the figurines on their respective hangers and set the empty hanger ($M_1$) to its initial angle found in Table {ref}`tab-case3`.
 
 20. Unscrew the black pulleys to rotate the figurines around the tabletop until you find equilibrium in similar fashion to the first two cases.
 
@@ -530,7 +531,7 @@ Experimentally determine the ***mass*** of just the Pikachu (black figurine) and
     You are only changing the angles of $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$ to balance the system.
     ```
 
-21. Once you've found equilibrium, record the given mass $m_1$ and angle $\theta_1$ as shown in {ref}`tab-case3` for the empty hanger.
+21. Once you've found equilibrium, record the given mass $M_1$ and angle $\theta_1$ as shown in {ref}`tab-case3` for the empty hanger.
 
 22. Record your experimentally determined angles $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$.
 
@@ -540,8 +541,10 @@ Experimentally determine the ***mass*** of just the Pikachu (black figurine) and
     ```
 
 23. Determine $m_{2,\text{Pikachu-black,experimental}}$ & $m_{3,\text{corgi-white,experimental}}$:
-    - First algebraically solve {eq}`eq-M01-solveM2` and {eq}`eq-M01-solveM3` for $M_2$ and $M_3$, respectively. Do this by hand before plugging the equations into your spreadsheet. There should be scratch paper and extra pens & pencils at the front of the room if needed.  
-    - Calculate your experimental masses for both figurines in your speadsheet using now your now solved equations. *Reminders: hangers are 50 g, and there are trigonometric identities you could look up that could simplify the equations for your spreadsheet.*
+    - First algebraically solve {eq}`eq-M01-solveM2` and {eq}`eq-M01-solveM3` for hanging masses $M_{2,\text{Pikachu-black,experimental}}$ and $M_{3,\text{corgi-white,experimental}}$, respectively.
+        - Do this by hand before plugging the equations into your spreadsheet. There should be scratch paper and extra pens & pencils at the front of the room if needed.  
+        - Calculate your experimental hanging masses in your speadsheet using now your now solved equations. *Reminders: hangers are 50 g, and there are trigonometric identities you could look up that could simplify the equations for your spreadsheet if you desire.*
+    - Then determine each figurine mass $m_{2,\text{Pikachu-black,experimental}}$ and $m_{3,\text{corgi-white,experimental}}$.
 
 24. Measure and record the actual masses of each figurine, $m_{2,\text{Pikachu-black,actual}}$ and $m_{3,\text{corgi-white,actual}}$, with a triple-beam balance (reviewed in {ref}`triple-beam-balance-overall`). 
     ```{admonition} Calibration
@@ -579,7 +582,7 @@ Defend why your data agrees with or disagrees with vector addition and equilibri
   - For Case 3 (Unlabeled Masses), what errors may contribute to larger or smaller % differences to the actual measured-by-triple-beam-balance values?
 
 
-- In a **paragraph**, summarize the results you have determined in each case, i.e. $F_3\pm\delta F_3$... and answer the following questions (longer does not mean better):
+- In a **paragraph**, summarize the results you have determined in each case (i.e. $F_3\pm\delta F_3...)$ and answer the following questions (longer does not mean better):
 	- What is a vector?
   - What is the physics behind balancing your vectors today?
 	- Case 1 & 2 (Finding Equilibrant):
@@ -590,7 +593,7 @@ Defend why your data agrees with or disagrees with vector addition and equilibri
 	      - Does $m_3 \pm \delta m_3$ overlap with your theoretical value $m_{3,\text{theoretical}}$? 
 	      - Does $\theta_3 \pm \delta \theta_3$ overlap with your theoretical value $\theta_{3,\text{theoretical}}$? 
 	- Case 3 (Unlabeled Masses):
-	  - How do your values for $m_\text{Pikachu-black}$ and $m_\text{corgi-white}$ compare to your actual values from the triple-beam-balance?
+	  - How do your experimental figurine masses for $m_\text{Pikachu-black}$ and $m_\text{corgi-white}$ compare to your actual values from the triple-beam-balance?
 	  - What is the percent difference between your experimentally determined masses and their actual measured values? Calculate the % difference in each of the masses using the following relation (*Note: If you change the Excel number format of this cell to `Percentage`, do not multiply by 100 as Excel will do that for you*):
 ```{math}
 :label: M1-PercentDiff
@@ -607,7 +610,7 @@ Example data tables are shown below to assist you in building your spreadsheet f
 (experimental-data-vectortable)=
 ### ● Case 1 & 2 Experimental Data
 
-| Hanger/Vector   | $m$ (SI units) | $\delta m$ (SI Units) | $F_i$ magnitude (SI Units) | $\theta$ ($^\circ$) | $\delta \theta$ ($^\circ$) | $F_x$ (SI Units) | $F_y$ (SI Units) |
+| Hanger/Vector   | $m_i$ (SI units) | $\delta m_i$ (SI Units) | $F_i$ magnitude (SI Units) | $\theta_i$ ($^\circ$) | $\delta \theta_i$ ($^\circ$) | $F_i,x$ (SI Units) | $F_i,y$ (SI Units) |
 |-------|--------|---------|-------|---------|----------|--------|--------|
 | 1 |        |         |       |         |          |        |        |
 | 2 |        |         |       |         |          |        |        |
@@ -630,12 +633,11 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 (vectortable-case3data)=
 ### ● Case 3 Data
-
-| Vector | $m_{i\text{,experimental}}$ (SI units) | $\theta_i$ ($^\circ$) |  $m_{i\text{,actual}}$ (SI units) | % diff. masses |
-|--------|----------------------|---------|----------|----------------|
-| 1 (known) |                  |         |          |                |
-| 2 (Pikachu-black) |                  |         |          |                |
-| 3 (Corgi-white)   |                  |         |          |                |
+| Vector | Hanging mass $M_{i\text{,figurine-type,experimental}}$ (SI units) | Figurine mass $m_{i\text{,figurine-type,experimental}}$ (SI units) | Actual $\theta_i$ ($^\circ$) |  Figurine mass $m_{i\text{,figurine-type,actual}}$ (SI units) | % diff. masses |
+|--------|----------------------|----------------------|---------|----------|----------------|
+| 1 (empty) |                  |                  |         |          |                |
+| 2 (Pikachu-black) |                  |                  |         |          |                |
+| 3 (Corgi-white)   |                  |                  |         |          |                |
 
 
 ### ● Original Whiteboard Info

@@ -17,7 +17,11 @@ This section presents:
 
 Throughout the course, we will use Microsoft Excel for all spreadsheets. To access Excel, you can do so through the browser with your Fairfield U. student login. We recommend doing your work in a browser to work with your lab group members on a shared Excel sheet, as that appears to be the most reliable and quick way to edit the same Excel spreadsheet. Follow the instructions here to access:
 
-<a href="https://fairfield-university.atlassian.net/wiki/spaces/ITSKB/pages/30345528/Office+365+at+Fairfield+University" target="_blank">Access Office 365 in a browser at Fairfield University with your student login</a>
+<a href="https://fairfield-university.atlassian.net/wiki/spaces/ITSKB/pages/30345528/Office+365+at+Fairfield+University" target="_blank">Access Office 365 in a browser at Fairfield University with your student login.</a>
+
+Alternatively, you should be able to go to:
+
+<a href="http://excel.cloud.microsoft/" target="_blank">http://excel.cloud.microsoft/</a> to Access Excel directly in a browser, use your Fairfield University student login.
 
 
 (spreadsheet-data-analysis-setup)=
