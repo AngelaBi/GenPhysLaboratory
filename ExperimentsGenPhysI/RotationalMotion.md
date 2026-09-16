@@ -479,7 +479,7 @@ This week's lab is built of essentially two different, but still related to rota
 
 
 
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
 
 ```{figure} RotationalMotionFigures/RotationalDynamics_2024_Fall_01.jpg
 :name: rot1

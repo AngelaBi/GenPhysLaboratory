@@ -453,7 +453,7 @@ Defend why your data agrees with or disagrees with the expected values for your 
 
 
 
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
 
 ```{figure} CentripetalForceFigures/CentripetalForce_2024_Fall_01_v2025-01.jpg
 :name: centr

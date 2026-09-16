@@ -418,7 +418,7 @@ Defend why your data agrees with or disagrees with the actual value of $g$ and p
 
 
 
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
 
 ```{figure} PendulumFigures/SimplePendulum_2024_Fall_01.jpg
 :name: pen1

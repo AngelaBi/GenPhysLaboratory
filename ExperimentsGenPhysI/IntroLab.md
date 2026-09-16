@@ -263,7 +263,7 @@ Defend why your data agrees with or disagrees between each domino characterizati
 
 
 
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
 
 Example data tables are shown below to assist you in building your spreadsheet for this first lab. Additionally the original whiteboard summary is at the end of this section.
 

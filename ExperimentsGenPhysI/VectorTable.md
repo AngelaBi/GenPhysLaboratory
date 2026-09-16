@@ -603,9 +603,17 @@ Defend why your data agrees with or disagrees with vector addition and equilibri
 
 
 
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
+
+
+### ● Practice Vector Addition --- Simulation
+
+Go to the following *PhET* simulation to practice vector addition in the graphical method. This is quite useful in visualizing how vector comonents compare to the vector overall, and how multiple vectors add together.
+
+<a href="https://phet.colorado.edu/en/simulations/vector-addition" target="_blank">https://phet.colorado.edu/en/simulations/vector-addition</a>
 
 Example data tables are shown below to assist you in building your spreadsheet for this lab. Additionally the original whiteboard summary is at the end of this section.
+
 
 (experimental-data-vectortable)=
 ### ● Case 1 & 2 Experimental Data

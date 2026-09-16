@@ -479,7 +479,7 @@ Defend why your data agrees with or disagrees with the concept of energy conserv
 
 
 
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
 
 ```{figure} ConsEnTrackFigures/ConsOfEnergyTrack_2024_Fall_02.jpg
 :name: consE
