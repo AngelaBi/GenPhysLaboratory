@@ -1,4 +1,4 @@
-# || Example Lab Submissions: Simple & Damped Harmonic Motion with Springs & Glider on Level Air Track
+# || Example Lab Submissions
 
 
 ```{figure} HarmonicMotionExampleFigures\01_Spreadsheet_v01.png
