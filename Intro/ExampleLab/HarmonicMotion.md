@@ -141,6 +141,7 @@ Each group member can measure at the same time to be able to save time while sti
 Before assembling the glider and springs on the airtrack, we must determine the spring constants of the two springs. These very light springs are capable of stretching 20 times their rest length. **Please be very careful not to damage them through careless handling or overstretching.** Create common data table and spring data tables for each of the two springs to measure the spring constant by measuring the extension of the spring at two different displacements from $y_0$ to $\sim 0.95\,\text{m}$ and $\sim 1.55\,\text{m}$.
 
 1. Create a common data table including:
+    - $g = 9.803 \,\text{m/s}^2$: Accepted value of acceleration due to gravity for Fairfield University
     - $m_\text{glider}$: masses of large, small, small-with-sail gliders in kg
     - $\delta m_\text{glider}$: uncertainty in masses of large, small, small-with-sail gliders in kg
     - first spring's average spring contant $k_\text{avg,spring1}$ and its uncertainty $\delta k_\text{avg,spring1}$

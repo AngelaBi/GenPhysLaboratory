@@ -74,14 +74,14 @@ Suppose, on-the-other-hand, that the measured volume is larger than the actual v
 
 ```{admonition} PROCEDURE OVERVIEW
 :class: note
-Each member of the lab group will independently:
-  - Use {ref}`Vernier Calipers<vernier-calipers-overall>` to measure the *length*, *width*, *height* and a {ref}`Triple Beam Balance<triple-beam-balance-overall>` to measure the *mass* of four provided dominoes per group (i.e. each lab group gets one pink, one green, one orange, and one blue domino, see {numref}`M00_intro_Fig01`).
-  - Determine measurement uncertainties from tool limitations (precision).
-  - Propagate measurement uncertainties into derived density calculations.
-And as a group:
-  - Characterize uncertainties with standard deviation.
-  - Organize the dominoes by person or by color.
-  - Compare the dominoes to water (should be roughly the same).
+- Each member of the lab group will independently:
+    - Use {ref}`Vernier Calipers<vernier-calipers-overall>` to measure the *length*, *width*, *height* and a {ref}`Triple Beam Balance<triple-beam-balance-overall>` to measure the *mass* of four provided dominoes per group (i.e. each lab group gets one pink, one green, one orange, and one blue domino, see {numref}`M00_intro_Fig01`).
+    - Determine measurement uncertainties from tool limitations (precision).
+    - Propagate measurement uncertainties into derived density calculations.
+- And as a group:
+    - Characterize uncertainties with standard deviation.
+    - Organize the dominoes by person or by color.
+    - Compare the dominoes to water (should be roughly the same).
 ```
 
 <!--- add exapmle of % difference or % change to know what it is, or not yet?--->
