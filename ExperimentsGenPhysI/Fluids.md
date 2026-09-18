@@ -529,7 +529,7 @@ Defend why your data agrees with or disagrees with Archimedes' and Bernoulli's P
 
 
 (m08-whiteboard-section)=
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
 
 ```{figure} FluidsFigures/FluidPhysics_2024_Fall_01.jpg
 :name: flu1

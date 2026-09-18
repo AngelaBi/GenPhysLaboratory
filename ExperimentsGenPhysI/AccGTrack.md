@@ -360,7 +360,7 @@ Defend why your data agrees with or disagrees with the actual value of $g$. Use 
 
 
 
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
 
 Example data tables are shown below to assist you in building your spreadsheet for this lab. Additionally the original whiteboard summary is at the end of this section.
 

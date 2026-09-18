@@ -277,7 +277,14 @@ Report these sources of error as **Vernier caliper error** or **reaction time er
 If the true value of a quantity is known, then the systematic error can be estimated as difference between the experimental and expected values. It is important to remember that this is an *estimate of the ***systematic error****. The difference between your experimental value and the expected value is **not** *an estimate of the random experimental error*. 
 
 
-To report this difference as a percentage (**percent difference**), divide the difference by the true, expected, or actual value and multiply by $100\%$. In Excel, you can use percent format instead of multiplying by $100\%$.
+To report this difference as a percentage (**percent difference**), divide the difference by the true, expected, or actual value and multiply by $100\%$.
+
+
+```{admonition} Excel Percent Number Formatting
+:class: tip
+In Excel, you can use the percent format instead of multiplying by $100\%$. Do so by changing the Excel number format of this cell to `Percentage`, then do not multiply by 100 as Excel will do that for you.
+```
+
 
 The percent difference between experimental and actual values is
 
@@ -292,7 +299,6 @@ Sometimes, rather than a difference to actual values, you will be looking at how
 :label: eq-percentChangeinErrorAnalysis
 \frac{\text{Final Experimental Value} - \text{Initial Experimental Value}}{\text{Initial Experimental Value}} \times 100\%.
 ```
-
 
 
 

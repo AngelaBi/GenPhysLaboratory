@@ -389,7 +389,7 @@ This week's lab is built of essentially two different, but still related to ther
     - What does absolute zero represent about a system?
 
 
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
 
 ```{figure} IdealGasFigures/IdealGasLawAbsoluteZero_2024_Fall_01.jpg
 :name: ide1

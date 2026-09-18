@@ -28,6 +28,7 @@ parts:
   - caption: Example Lab
     chapters:
     - file: Intro/ExampleLab/HarmonicMotion
+    - file: Intro/ExampleLab/HarmonicMotion_Submissions
   - caption: Gen. Phys. Lab I (Fall) --- Experiments
     chapters:
       - file: ExperimentsGenPhysI/IntroLab

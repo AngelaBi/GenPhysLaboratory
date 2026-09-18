@@ -412,7 +412,7 @@ Defend why your data agrees with or disagrees between both experiments. Use erro
 
 
 
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
 
 ```{figure} BallisticPendulumFigures/ConsEnergyMomentumBallistic_2024_Fall_02.jpg
 :name: ballist

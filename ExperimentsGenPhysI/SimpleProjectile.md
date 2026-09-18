@@ -604,7 +604,7 @@ Defend why your data agrees with or disagrees with expected kinematic projectile
 
 
 
-## The Whiteboard
+## The Whiteboard & Supplemental Info.
 
 ```{figure} SimpleProjectileFigures/ProjectileKinetmatic_2024_Fall_01_v2025-02.jpg
 :name: exampleDataSimpleProjectile

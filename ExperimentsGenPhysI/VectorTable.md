@@ -552,7 +552,7 @@ Experimentally determine the ***mass*** of just the Pikachu (black figurine) and
     *Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned*.
     ```
 
-25. COMPARE your experimental figurine masses to their actual values. Do they generally agree? Calculate the % difference of your experimental $m_2$ and $m_3$ to their actual measured values (see {eq}`M1-PercentDiff`). What may be contributing to a larger or smaller difference? To be further discussed in Section {ref}`postlabs_vectorTable`.
+25. COMPARE your experimental figurine masses to their actual values. Do they generally agree? Calculate the % difference of your experimental $m_2$ and $m_3$ to their actual measured values (see {ref}`errorAnalysis-percentDiff-experimentalExpected`). What may be contributing to a larger or smaller difference? To be further discussed in Section {ref}`postlabs_vectorTable`.
 
 
 
@@ -577,9 +577,9 @@ Defend why your data agrees with or disagrees with vector addition and equilibri
 	- What are the uncertainties of Cases 1 & 2 (Finding Equilibrant)?
   - What is the precision of your equipment (force table, masses, etc.)?
   - What are possible systematic (affecting accuracy) errors of the experiment? What are possible random (affecting precision) errors?
-  - Return to results section question: ''In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $F_3$? Do the math in your spread sheet.
+  - Return to results section question: ''*In other words, for each of the first two cases, COMPARE your experimental results of hanger 3 to the theoretical values for hanger 3.*'' How does changing $m_3$ by $\delta m_3$ and $\theta_3$ by $\delta \theta_3$ change $F_3$? Do the math in your spread sheet.
       - What uncertainties might make the difference between your final results and expected values larger or smaller? Is there any source of uncertainty that contributes the most variability of $F_3$?
-  - For Case 3 (Unlabeled Masses), what errors may contribute to larger or smaller % differences to the actual measured-by-triple-beam-balance values?
+  - For Case 3 (Unlabeled Masses), what types and sources of errors contribute to larger or smaller % differences to the actual measured-by-triple-beam-balance values?
 
 
 - In a **paragraph**, summarize the results you have determined in each case (i.e. $F_3\pm\delta F_3...)$ and answer the following questions (longer does not mean better):
@@ -594,18 +594,25 @@ Defend why your data agrees with or disagrees with vector addition and equilibri
 	      - Does $\theta_3 \pm \delta \theta_3$ overlap with your theoretical value $\theta_{3,\text{theoretical}}$? 
 	- Case 3 (Unlabeled Masses):
 	  - How do your experimental figurine masses for $m_\text{Pikachu-black}$ and $m_\text{corgi-white}$ compare to your actual values from the triple-beam-balance?
-	  - What is the percent difference between your experimentally determined masses and their actual measured values? Calculate the % difference in each of the masses using the following relation (*Note: If you change the Excel number format of this cell to `Percentage`, do not multiply by 100 as Excel will do that for you*):
-```{math}
-:label: M1-PercentDiff
-\text{\% Difference} = \frac{\text{Experimental Value} - \text{Actual Value}}{\text{Actual Value}} \times 100\%.
-```
+	  - What is the percent difference between your experimentally determined masses and their actual measured values? Calculate the % difference in each of the masses using the relationship found in {ref}`errorAnalysis-percentDiff-experimentalExpected`.
+        ```{admonition} Excel Percent Number Formatting
+        :class: tip
+        If you change the Excel number format of this cell to `Percentage`, do not multiply by 100 as Excel will do that for you.
+        ```
 
 
 
+## The Whiteboard & Supplemental Info.
 
-## The Whiteboard
+
+### ● Practice Vector Addition --- Simulation
+
+Go to the following *PhET* simulation to practice vector addition in the graphical method. This is quite useful in visualizing how vector comonents compare to the vector overall, and how multiple vectors add together.
+
+<a href="https://phet.colorado.edu/en/simulations/vector-addition" target="_blank">https://phet.colorado.edu/en/simulations/vector-addition</a>
 
 Example data tables are shown below to assist you in building your spreadsheet for this lab. Additionally the original whiteboard summary is at the end of this section.
+
 
 (experimental-data-vectortable)=
 ### ● Case 1 & 2 Experimental Data
