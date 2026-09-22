@@ -108,7 +108,7 @@ Left) Dominoes provided. Right) Relevant length, width, height dimensions of the
     - Create a ***Common Data Table*** for values used in all the trials. In this case, include 
       - the instrumental tolerance or precision of the triple beam balance
       - the instrumental tolerance or precision of the Vernier caliper
-      - density room temperature water: $0.998\,\text{kg}/\text{m}^3$
+      - density room temperature water: $998\,\text{kg}/\text{m}^3$
       ```{admonition} Referencing unchanging values
       :class: note
       You can reference these values in these cells with dollar signs to hold the cells constant in your formulas (e.g. `$A$1`) as needed. Additional info, see {ref}`spreadsheet-data-analysis-setup`
