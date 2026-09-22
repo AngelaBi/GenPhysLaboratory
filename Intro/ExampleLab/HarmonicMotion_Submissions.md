@@ -28,7 +28,7 @@ Example of a well created Spreadsheet, part 2 of 3.
 Example of a well created Spreadsheet, part 3 of 3.
 ```
 
-```{figure} HarmonicMotionSub_ExFig/Fig_04_Errors_v01.png
+```{figure} HarmonicMotionSub_ExFig/Fig_04_Errors_v02.png
 :name: harmonic_motion_example_Fig04
 :width: 100%
 :class: full-height
@@ -37,7 +37,7 @@ Example of a well created Spreadsheet, part 3 of 3.
 Example of a well written Error Analysis Writeup.
 ```
 
-```{figure} HarmonicMotionSub_ExFig/Fig_05_Results_v01.png
+```{figure} HarmonicMotionSub_ExFig/Fig_05_Results_v02.png
 :name: harmonic_motion_example_Fig05
 :width: 100%
 :class: full-height
