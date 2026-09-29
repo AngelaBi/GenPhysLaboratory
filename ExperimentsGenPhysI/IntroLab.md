@@ -131,6 +131,10 @@ Left) Dominoes provided. Right) Relevant length, width, height dimensions of the
       - Calculated density $\rho_\text{color}$ for the trial in SI units
       - Minimum density and maximum density (SI units)
       - Density uncertainty $\delta \rho$
+        ```{admonition} Greek
+        :class: note
+        The Greek letter $\delta$ (said as “delta”) is representing the *measurement* uncertainty of each variable (e.g. $\rho \pm \delta_{\rho}$)
+        ```
 
 
 ### ● Experimental Data Collection
