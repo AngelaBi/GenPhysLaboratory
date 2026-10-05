@@ -141,7 +141,7 @@ The airtrack apparatus for this experiment is depicted in {numref}`M05Fig04`. It
 | **Gliders** | • Two gliders, small and BIG for two different weight cases |
 | **Glider-Release Mechanism** | • White, adjustable glider-release bar that can quickly release the glider with minimal friction and pushing impacts on glider travel (see {numref}`M05Fig09`-left) |
 | **Airtrack Inlclination** | • Two spacers, small (red) and BIG (white) for two different height cases (see {numref}`M05Fig07`) |
-| **Measurement Tools** | • {ref}`Triple beam balance<triple-beam-balance-overall>`<br>• {ref}`Vernier Calipers<vernier-calipers-overall>`<br>• 2x Pasco photogates used with CAPSTONE software on lab computers |
+| **Measurement Tools** | • {ref}`Triple beam balance<triple-beam-balance-overall>`<br>• {ref}`Vernier Calipers<vernier-calipers-overall>`<br>• 2x Pasco photogates used with CAPSTONE software on lab computers<br>• 1 and 2 meter sticks **(at front of room)** |
 
 ```
 
