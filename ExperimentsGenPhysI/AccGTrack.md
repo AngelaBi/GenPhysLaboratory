@@ -96,7 +96,7 @@ The airtrack apparatus for this experiment is depicted in {ref}`M02Fig02`. It wi
 | **Gliders** | • Two gliders, small and BIG for two different weight cases |
 | **Glider-Release Mechanism** | • White, adjustable glider-release bar that can quickly release the glider with minimal friction and pushing impacts on glider travel (see {numref}`M02Fig09`-left) |
 | **Airtrack Inlclination** | • Two spacers, small (red) and BIG (white) for two different height cases (see {numref}`M02Fig07`) |
-| **Measurement Tools** | • {ref}`Triple beam balance<triple-beam-balance-overall>`<br>• {ref}`Vernier Calipers<vernier-calipers-overall>`<br>• 2x Pasco photogates used with CAPSTONE software on lab computers |
+| **Measurement Tools** | • {ref}`Triple beam balance<triple-beam-balance-overall>`<br>• {ref}`Vernier Calipers<vernier-calipers-overall>`<br>• 2x Pasco photogates used with CAPSTONE software on lab computers<br>• 1 and 2 meter sticks **(at front of room)** |
 
 ```
 
@@ -164,14 +164,14 @@ Example of small and BIG spacers used to incline the air track. There are slots 
     *Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned*.
     ```
 
-4. **Level the airtrack.** Without the spacer present (see {ref}`M02Fig07`-left) and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (somewhere between the photogates, center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes. <!---request the use of another glider and we can provide you a different one.--->
+4. **Level the airtrack.** Without the spacer present (see {ref}`M02Fig07`-left) and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (somewhere between the photogates, center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes.
 
     ```{admonition} Drift
     :class: tip
-    There will inevitably be some drift as these airtracks are not perfect, but as a general rule of thumb, if it takes more than $\sim 10$ seconds to drift just 5 cm, you should be pretty good.
+    There will inevitably be some drift as these airtracks are not perfect, but as a general rule of thumb, if it takes more than $\sim 10\,\text{seconds}$ to drift just $\sim 5\,\text{cm}$, you should be pretty good.
     ```
 
-5. Measure and record the distance $D$. This is the center-to-center distance between the legs. 1 m and 2 m long meter sticks are available for this measurement, with additional meter sticks at the front wall of the room.
+5. Measure and record the distance $D$. This is the center-to-center distance between the legs. $1\,\text{m}$ and $2\,\text{m}$ long meter sticks are available for this measurement, with additional meter sticks at the front wall of the room.
 
 6. Measure and record the heights, $H$, of each of the two spacers with the provided Vernier caliper. There are slots in the spacers to help measure height from bottom of spacer to bottom of black foot. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`.
 
@@ -327,6 +327,21 @@ Reminder, run your first case completely **before** moving on to additional case
     - Calculate $\sigma_{g\text{,allTrials}}$, the standard deviation of the measured $g$
     - Calculate the difference between your average $g$ and the accepted value of $g$ (e.g. $\bar{g}_{\text{allTrials}} - g_{\text{accepted}}$)
   
+### ● Summary & Cleanup
+
+19. Create a summary table of your data (e.g. relevant final result values and differences for each case and values from across all cases, e.g. {numref}`M02Fig08`).
+
+20. When you are finished, reset your experimental setup before leaving.
+
+    ```{admonition} CLEAN UP
+    :class: attention
+    Please return your experimental station back to the way you found it or better:
+     - Level the airtrack: Remove red or white spacer, but keep black foot to protect table
+     - Remove gliders from the airtrack so as to not damage the airtrack when air is later shut off
+     - Return calipers and meter sticks to front table / front of room
+     - Close (DO NOT SAVE) Capstone
+    ```
+
 
 
 
@@ -423,6 +438,14 @@ Example data tables are shown below to assist you in building your spreadsheet f
 | Difference ($\bar{g}_{\text{allTrials}} - g_{\text{accepted}}$) |         |
 --->
 
+
+(experimental-summary-data-AccGTrack)=
+### ● Example Summary Data Table
+```{figure} AccGTrackFigures/Figure07_SummaryTable_v2026-01.png
+:name: M02Fig08
+:width: auto
+:align: center
+```
 
 ### ● Original Whiteboard Info
 

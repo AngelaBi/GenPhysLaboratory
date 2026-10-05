@@ -36,11 +36,11 @@ When several vectors act on an object, it is generally desirable to determine th
 \vec{R} = \vec{F}_1 + \vec{F}_2.
 ```
 
-If many forces act on the body, then we sum all the forces together
+If many forces act on the body, then we can sum all the forces together
 
 ```{math}
 :label: eq-M01-resultant-sum
-\vec{R} = \sum_{i=1}^N \vec{F}_i.
+\vec{R_\text{all}} = \sum_{i=1}^N \vec{F}_i.
 ```
 The resultant force is a single force which can completely represent a number of individual forces acting. When the resultant force is zero, the object is said to be in equilibrium.
 
@@ -187,7 +187,7 @@ We thus conclude that the force necessary to equilibrate two or more forces is e
 
 
 
-The apparatus for this experiment consists of a force table, weight holders, and weights (see {numref}`M01Fig06` and {numref}`force-table-equipment-table`).
+The apparatus for this experiment consists of a force table, mass hangers, and slotted masses (see {numref}`M01Fig06` and {numref}`force-table-equipment-table`).
 
 <!--- The force table consists of a circular tabletop mounted on a vertical rod held in a tripod support with leveling screws. The rim of the circular top has a 360° scale engraved on it along which it is possible to clamp a number of pulleys. At the center of the table is a small ring held in place by means of a removable pin. The ends of three cords are tied to the ring with each cord leading over a pulley and ending with a weight holder tied to its other end. When the forces along the cords acting upon the small ring are balanced, or in static equilibrium, the ring remains stationary. For this lab, the force pulling on the ring is the tension of the string, which is merely translated from horizontal on the table to vertical.
 --->
@@ -220,9 +220,9 @@ For accurate measurements of the angles involved, *each cord must be aimed direc
 | **Force Table** | • Circular tabletop mounted on a vertical rod<br>• Tripod support with leveling screws<br>• $360^\circ$ counter-clockwise scale engraved/printed around the rim |
 | **Black Super Pulleys** | • Multiple pulleys clamped to the rim<br>• Positionable to different angles to establish force directions<br>• Redirect cord tension from vertical to horizontal |
 | **Center Ring** | • Small ring located at the center of the table<br>• Held in place by a removable pin<br>• Three cords attached to the ring |
-| **Cords** | • Three cords extend from the center ring<br>• Each cord passes over a pulley<br>• Each cord terminates at a weight holder |
-| **Weight Hangers<br>and Weights** | • $\sim50\,\text{g}$ weight hangers attached to the cords<br>• Slotted weights ***(available at front table)*** |
-| **Unlabeled Masses** | • Two figurines, slotted for the weight hangers<br>• Black Pikachu<br>• White Corgi |
+| **Cords** | • Three cords extend from the center ring<br>• Each cord passes over a pulley<br>• Each cord terminates at a mass hanger |
+| **Mass Hangers<br>and Masses** | • $\sim50\,\text{g}$ mass hangers attached to the cords<br>• Slotted masses ***(available at front table)*** |
+| **Unlabeled Masses** | • Two figurines, slotted for the mass hangers ***(available at front table):***<br>• Black Pikachu<br>• White Corgi |
 | **Measurement Tool** | • {ref}`Triple beam balance<triple-beam-balance-overall>` |
 ```
 
@@ -231,7 +231,7 @@ For accurate measurements of the angles involved, *each cord must be aimed direc
 
 ### ● Preview
 
-```{admonition} OVERVIEW
+```{admonition} PROCEDURE OVERVIEW
 :class: note
 For today's lab, two different cases will be assigned involving two given vectors and the **determination of the equilibrant vector**. A third case involves the **determination of the mass of two unlabeled masses** by balancing the system from a single known mass.
 ```
@@ -265,17 +265,17 @@ $$
 \end{array}
 $$
 
-you would place a pulley at 0° and add 150 g to the 50 g weight hanger for a total 200 g. As mentioned in {eq}`eq-M01-ForceG`, the tension on the cord is the same on both sides of the pulley so that the downward pull of gravity on the hanger and masses is equal to the tension in the cord leading to the ring. Thus,
+you would place a pulley at 0° and add 150 g to the 50 g mass hanger for a total 200 g. As mentioned in {eq}`eq-M01-ForceG`, the tension on the cord is the same on both sides of the pulley so that the downward pull of gravity on the hanger and masses is equal to the tension in the cord leading to the ring. Thus,
 
 $$\vec{F_1} = m \vec{g} = 0.20\,\text{kg} \times 9.8\,\text{m/s}^2 = 1.96\,\text{N} \text{ @ } 0°.$$
 
-Similarly, add 200 g to a 50 g weight hanger and run its cord over a pulley mounted at 135°.
+Similarly, add 200 g to a 50 g mass hanger and run its cord over a pulley mounted at 135°.
 
 $$\vec{F_2} = m \vec{g} = 0.25\,\text{kg} \times 9.8\,\text{m/s}^2 = 2.45\,\text{N} \text{ @ } 135°.$$
 
 Having established the given magnitudes and directions for each of the given forces, $\vec{F}_{1}$ and $\vec{F}_{2}$, you would adjust both the amount of mass hanging on cord 3 and its angular position so that the ring is stationary at the center of the table. In order for angular measurements to be accurate, **each cord must be on a line that crosses through the center of the table**. Sighting *along* each cord towards the center pin can help you to easily and accurately check this.
 
-To determine the equilibrant vector experimentally $\vec{F}_{3}$, you will record both the angular position (**direction**) and total mass (to determine **magnitude** of the balancing force from the total hanging weight) required to balance $\vec{F}_{1}$ and $\vec{F}_{2}$. You will then compare this vector to the expected vector based on your theoretical calculations.
+To determine the equilibrant vector experimentally $\vec{F}_{3}$, you will record both the angular position (**direction**) and total mass (to determine **magnitude** of the balancing force) required to balance $\vec{F}_{1}$ and $\vec{F}_{2}$. You will then compare this vector to the expected vector based on your theoretical calculations.
 
 (experimental_data_case12_vectorTable)=
 #### ○ Experimental Data (Case 1 & 2)
