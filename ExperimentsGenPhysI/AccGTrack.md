@@ -19,10 +19,17 @@ Use an frictionless airtrack to:
 ```
 
 
-By measuring the acceleration of a mass moving under the influence of just the gravitational attraction of the earth, namely its weight, we can determine the acceleration due to gravity, usually denoted by $g$.  The mass will be allowed to accelerate down a presumed frictionless, inclined plane.  Measurement of the acceleration along the plane is directly related to the acceleration due to gravity by a simple trigonometric relationship.  The use of the plane permits the convenient measurement of a small, measurable fraction of the acceleration due to gravity.  This of course is in lieu of the much more difficult measurement of a vertically falling mass.
+By measuring the acceleration of a mass moving under the influence of just the gravitational attraction of the earth, namely its weight, we can determine the acceleration due to gravity, usually denoted by $g$.  The mass will be allowed to accelerate down a presumed frictionless, inclined plane.  Measurement of the acceleration along the plane is directly related to the acceleration due to gravity by a simple trigonometric relationship.  The use of the plane permits the convenient measurement of a small, measurable fraction of the acceleration due to gravity.  This is in lieu of the much more difficult and generally less precise measurement of a vertically falling mass.
 
 
-Near the surface of the earth, the attractive force of the earth on a mass can be considered a constant over a reasonable range of elevation. This force is commonly called the weight of the object and, from Newton's Second Law, the weight is the mass $m$ times the acceleration due to gravity $g$. Using {numref}`M02Fig01` and the derivation following, we can see that the value of $g$ can be easily determined by a few simple measurements.
+Near the surface of the earth, the attractive force of the earth on a mass can be considered a *constant* over a reasonable range of elevation. This force is commonly called the weight of the object; from Newton's Second Law {eq}`eq-M02-newton2ndlaw`, the weight is the mass $m$ times the acceleration due to gravity $g$. 
+
+```{math}
+:label: eq-M02-newton2ndlaw
+\vec{F} = m a  \rightarrow  \vec{F_{w}} = m g
+```
+
+Using {numref}`M02Fig01` and the derivation following, we can see that the value of $g$ can be easily determined by a few simple measurements.
 
 ```{figure} AccGTrackFigures/Figure01_v2025-02.png
 :name: m02fig01
@@ -32,25 +39,34 @@ Near the surface of the earth, the attractive force of the earth on a mass can b
 Force diagram based on the angle of the tilted air track.
 ```
 
-The displacement along the track is $S$, the component of the weight along the track is $F_s$, and the component of acceleration $a_s$ along the track is
+Rearranging {eq}`eq-M02-newton2ndlaw`, calling the distance traveled along the track $S$, and the component of the weight along the track $F_s$, we can find the component of acceleration $a_s$ along the track to be
 
 $$
 a_s = \frac{F_s}{m} = \frac{m g \sin(\theta)}{m} =  g \sin(\theta).
 $$
 
-If the mass is released from *rest* near the top of the inclined air track and allowed to accelerate down the air track with a magnitude $a_s$, then by measuring the transit time down the track over a measurable distance $S$, we can determine the value of $g$.
 
-Since the acceleration $a_s$ is constant as gravity itself is constant, the displacement $S$ as a function of time $t$ is:
+Since the glider will undergo constant acceleration, we can use a kinematic equation to describe its motion
+
+
+```{math}
+:label: eq-M02-Kinematic-displacement_x
+x = x_0 + v_0 t + \frac{1}{2}at^{2}
+```
+
+However, if the mass is released from ***rest*** $(v_0 = 0)$ near the top of the inclined air track and allowed to accelerate down the air track with a magnitude $a_s$, then by measuring the transit time down the track over a measurable total distance $(S = x - x_0)$, we can more easily determine the value of $g$.
+
+Since the acceleration due to gravity is a constant, and for a given trial today, the angle of the track is constant,  $a_s$ is also constant. We subsequently find the distance $S$ as a function of elapsed time $\Delta t$ is then
 
 $$
-  S = \frac{1}{2} a_s t^2 = \frac{1}{2} g t^{2} \sin(\theta).
+  S = \frac{1}{2} a_s \Delta t^2 = \frac{1}{2} g \Delta t^{2} \sin(\theta).
 $$
 
 Solving for $g$, we obtain
 
 ```{math}
 :label: eq-M02-g-basic
-  g = \frac{2 S}{t^2 \sin(\theta)}.
+  g = \frac{2 S}{\Delta t^2 \sin(\theta)}.
 ```
 
 where, based on our schematic of the experimental setup in {numref}`M02Fig02`, we see $\sin(\theta) = \frac{H}{D}$.
@@ -58,10 +74,10 @@ Making this substitution for the $\sin(\theta)$, we have the value of $g$ in ter
 
 ```{math}
 :label: eq-M02-g-value
-  g = \frac{2 S D}{H t^2}
+  g = \frac{2 S D}{H \Delta t^2}
 ```
 
-where $H$ is the vertical rise in the horizontal distance $D$. $D$ is the distance between the legs of the air track, and $t$ is the transit time of the mass, starting from zero velocity and accelerating down the plane a distance $S$ along the plane.
+where $H$ is the vertical rise in the horizontal distance $D$. $D$ is the distance between the legs of the air track, and $\Delta t$ is the transit time of the mass, starting from zero velocity and accelerating down the plane a distance $S$ along the plane.
 
 
 
@@ -206,11 +222,11 @@ Suggested points on glider to read position on airtrack scale.
   <figcaption>Determine photogate position on air track with glider.</figcaption>
 </div>
 
-9. Similarly, determine and record the starting photogate position $s_1$ at the top end of the track. Place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the photogate's red light comes on. Move the glider back and forth to confirm your scale reading. Ensure your scale reading on the track was based on the same location of the glider as for your $s_0$ reading (i.e. {numref}`M02Fig03`).
+9. Similarly, determine and record the starting photogate position $s_1$ at the top end of the track and calculate total glider distance traveled along the track $S = s_1 - s_0$. Place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the photogate's red light comes on. Move the glider back and forth to confirm your scale reading. Ensure your scale reading on the track was based on the same location of the glider as for your $s_0$ reading (i.e. {numref}`M02Fig03`).
 
     ```{admonition} Accurate Photogate Positions
     :class: tip
-    Be careful not to bump the photogates, as that could change their positions and lead to inaccurate distances. Check during each case; if need be, expand your common data table with additional $s_0$ and $s_1$ positions.
+    Be careful not to bump the photogates, as that could change their positions and lead to inaccurate distances. Check during each case; if need be, expand your common data table with additional $s_0$ and $s_1$ positions and subsequent distance $S$.
     ```
 
 10. Four cases will be performed as listed in {numref}`tab-four-glider-spacer-cases`. For each of the four cases, perform the following steps listed in {ref}`detailsteps-accelGTrack` and record the data appropriately in your spreadsheet.
@@ -244,7 +260,7 @@ Reminder, run your first case completely **before** moving on to additional case
     - $\sigma_g$: standard deviation of $g$ from the trials of each individual case
     - difference (magnitude, not percent) between the average value of $g$ and the accepted value for each case
 
-12. Ensure $s_1$ and $s_0$ haven't changed.
+12. Ensure $s_1$ and $s_0$ haven't changed; remeasure and recalculate $S$ as needed.
 
 13. Raise the single leg side of the track by placing the case-relevant spacer under the black foot as seen in {numref}`M02Fig02` and {ref}`M02Fig07`.
 
