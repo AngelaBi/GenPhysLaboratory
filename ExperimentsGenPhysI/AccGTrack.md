@@ -180,7 +180,7 @@ Example of small and BIG spacers used to incline the air track. There are slots 
     *Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned*.
     ```
 
-4. **Level the airtrack.** Without the spacer present (see {ref}`M02Fig07`-left) and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (somewhere between the photogates, center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes.
+4. **Level the airtrack.** Without the spacer present and the air track resting directly on the black circle foot on the tabletop (see {ref}`M02Fig07`-left), place one of the gliders on the track (somewhere between the photogates, roughly center) and note any preferential drift of the glider. Adjust the height of the single leg by screwing the threaded bolt clockwise/in to lower or counter-clockwise/out to raise until the air track is level, as indicated by no preferential drift; there should be a wingnut that can be tightened to hold leg bolt position constant or loosened to adjust the leg bolt. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes.
 
     ```{admonition} Drift
     :class: tip
@@ -191,7 +191,7 @@ Example of small and BIG spacers used to incline the air track. There are slots 
 
 6. Measure and record the heights, $H$, of each of the two spacers with the provided Vernier caliper. There are slots in the spacers to help measure height from bottom of spacer to bottom of black foot. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`.
 
-7. Take a look at the gliders and determine a convenient point on the glider to use with the scale ($\sim2.5$ meter ruler) attached on the side of air track. It doesn't matter what point on the glider you choose, only that you be consistent and use the same point for all determinations of distance along the track $S$ for that glider. A convenient point is the ***lower front or rear corner*** of the glider since it is a clear point on the glider that will overlap or be quite close to the length scale on the track itself (see {numref}`M02Fig03`).
+7. Take a look at the gliders and determine a convenient point on the glider to use with the scale ($\sim2.5$ meter ruler) attached on the side of air track. It doesn't matter what point on the glider you choose, only that you be consistent and use the same point for all determinations of positions along the track for that glider. A convenient point is the ***lower front or rear corner*** of the glider since it is a clear point on the glider that will overlap or be quite close to the length scale on the track itself (see {numref}`M02Fig03`).
 
 ```{figure} AccGTrackFigures/Figure03_v2025-01.png
 :name: M02Fig03
@@ -222,7 +222,7 @@ Suggested points on glider to read position on airtrack scale.
   <figcaption>Determine photogate position on air track with glider.</figcaption>
 </div>
 
-9. Similarly, determine and record the starting photogate position $s_1$ at the top end of the track and calculate total glider distance traveled along the track $S = s_1 - s_0$. Place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the photogate's red light comes on. Move the glider back and forth to confirm your scale reading. Ensure your scale reading on the track was based on the same location of the glider as for your $s_0$ reading (i.e. {numref}`M02Fig03`).
+9. Similarly, determine and record the starting photogate position $s_1$ at the top end of the track and calculate total glider distance traveled along the track $S = s_1 - s_0$. Place the glider near the top of the track. Move it slowly as you approach the top photogate. Stop the glider at the exact location when the photogate's red light comes on. Move the glider back and forth to confirm your scale reading. Ensure your scale reading on the track was based on the same location of the glider as for your $s_0$ reading (i.e. {numref}`M02Fig03`). Calculate distance traveled $S$.
 
     ```{admonition} Accurate Photogate Positions
     :class: tip

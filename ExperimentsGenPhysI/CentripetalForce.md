@@ -24,7 +24,7 @@ Acceleration is the rate of change of velocity. An object moving in a circle of 
 
 ```{math}
 :label: eq-centripetal-force
-F_{c} = M_\text{object} \frac{v^2}{R}
+F = ma \rightarrow F_{c} = M_\text{object} \frac{v^2}{R}
 ```
 
 For each case, the object’s mass $M_\text{object}$ and radius $R$ are set by attaching small masses to a freely-sliding holder on the rotating arm (shown in {numref}`M04Fig01`). The tangential speed of the object $v$ is obtained from the rate at which a small white-ish pin beneath the fixed-in-place counterweight holder passes through the photogate. The centripetal force is determined by measuring the force in the cable with a force sensor (seen later in {numref}`M04Fig02`). Subsequently, the $M_\text{object}$ is determined from graphs relating $F$ vs. $v^2$ and $F$ vs. $v$. The procedure is repeated for different masses and radii to study how centripetal force depends on velocity.
@@ -423,9 +423,9 @@ Defend why your data agrees with or disagrees with the expected values for your 
 ### ● Post-lab Writeup
 
 - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	- What is the precision of your equipment?
-    - What are possible random errors for today's experiment?
-	- What are possible systematic errors for today’s experiments?
+    - What is the precision of your equipment?
+    - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
+    - What are your measurement uncertainties, and, based on these uncertainties, which impact your final results the most?
 	- Discuss your uncertainties (see {ref}`error-step-centripetal-force`) and their effects
         - Sources of measured or estimated uncertainties (values); how large are they?
         - How do they affect your final mass values; what has the largest affect?
