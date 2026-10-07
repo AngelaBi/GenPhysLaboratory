@@ -381,7 +381,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 
 1. Create a data table for Case 1 including but not limited to:
-    - Common data section with the accepted value of $g$.
+    - Common data section with the accepted value of $g = 9.803\,\text{m/s}^2$ for Fairfield, CT.
     - Section containing:
         - the ball initial height $y_{0}$
         - the ball height's estimated uncertainty $\delta y_{0}$
@@ -510,7 +510,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 27. If there are additional angles assigned, move the marble launcher to the respective angle and repeat steps 6 to 9 as needed, as well as step 27.
 
-28. ***TAKE A PHOTO OF ALL YOUR DATA (paper with all your marble impacts measured and labeled across all cases).***
+28. ***TAKE A PHOTO OF ALL YOUR DATA (papers still on the floor with all your marble impacts measured and labeled across all cases).***
 
     ```{admonition} Photo of Experimental Data
     :class: warning
@@ -524,6 +524,23 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 <!---
 30. DISCUSSION POINT (covered in {ref}`postlabs_simpleProjectileMotion`): Does your experimental distance of the given angle(s) agree with what you expected from your theoretical calculation(s)? In other words, does $x_{\text{case 3, experimental}} \pm \delta x_{\text{case 3, experimental}}$ overlap with $x_{\text{case 3, theoretical}}$ (i.e. does your uncertainty cover the difference between the experimental and theoretical values?)?
 --->
+
+### ● Summary & Cleanup
+
+29. Create a summary table of your data (e.g. relevant final result values with estimated uncertainties and differences to expected values for each case).
+
+30. When you are finished, reset your experimental setup before leaving.
+
+    ```{admonition} CLEAN UP
+    :class: attention
+    Please return your experimental station back to the way you found it or better:
+     - Retrieve all projectiles and the plumb bob and place them in the cup / container of your numbered setup
+     - Uncock the launcher, place back into the large holder
+     - Return meter sticks to front of room
+     - Remove your target papers:
+       - Return undamaged carbon paper to stack on front table
+       - Recycle used printer paper
+    ```
 
 
 
@@ -565,7 +582,7 @@ Defend why your data agrees with or disagrees with expected kinematic projectile
 ### ● Finalized Spreadsheets
 
   - Make sure to submit your finalized data table (Excel sheet).
-    - Please include relevant plot(s) including:
+    - Must include relevant plot(s) including:
       - A photo of your experimental landing-zone data papers (while still taped to floor to show distribution).
 
 ### ● Post-lab Writeup
