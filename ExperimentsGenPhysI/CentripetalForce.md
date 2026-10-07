@@ -233,22 +233,23 @@ Reminder, run your first case completely **before** moving on to additional case
     Do the graphs display the expected behavior?
     ```
 
-17. **Fit a straight line** to your $F$ vs. $v^2$ graph and set its y-intecept $b$ to zero.  *Note: you will need to do this for each trial as **Capstone** resets to the default settings for each trial.* For visual instructions, see {numref}`M04Fig05`. Select the fit box $\rightarrow$ select Curve Fit Editor $\rightarrow$ lock the y-intercept $b = 0$ $\rightarrow$ update the fit. Notice the change in slope $m$ when you lock $b$.
+17. **Fit a straight line** to your $F$ vs. $v^2$ graph.  *Note: you will need to do this for each trial as **Capstone** resets to the default settings for each trial.* For visual instructions, see {numref}`M04Fig05`. Select the fit box $\rightarrow$ select Curve Fit Editor $\rightarrow$ select Linear. 
 
-    ```{figure} CentripetalForceFigures/Figure05_v2025-01.png
+18. Increase the number of significant figures for the fit. *Note: you will need to do this for each trial.* For visual instructions, see {numref}`M04Fig05`. Select the fit box $\rightarrow$ select Curve Fit Properties (gear) $\rightarrow$ Numerical Format $\rightarrow$ Coefficients $\rightarrow$ update sig. figs. to at least **4**. 
+
+
+    ```{figure} CentripetalForceFigures/Figure05_v2025-02.png
     :name: M04Fig05
     :width: auto
     :align: center
 
-    Process for applying fits to plotted data, updating the y-intercept and other curve-fit terms, and updating sig. figs.
+    Process for applying fits to plotted data, updating curve-fit type, data highlighting, and updating sig. figs.
     ```
 
     ```{admonition} Discussion Point: Y-Intercept
     :class: question
-    Why should the y-intercept be zero? If your fit appears to have changed a lot, why might your data not agree? Is there a step you may have missed?
+    What should the y-intercept have been (e.g. non-zero, zero, etc.)? Physically, does it make sense to be that way? Is there a step you may have missed?
     ```
-
-18. Increase the number of significant figures in for the fit. *Note: you will need to do this for each trial.* For visual instructions, see {numref}`M04Fig05`. Select the fit box $\rightarrow$ select Curve Fit Properties (gear) $\rightarrow$ Numerical Format $\rightarrow$ Coefficients $\rightarrow$ update sig. figs. to at least **4**. 
 
 19. Record $m$, the linear fit's slope in your data table (based on $y = mx+b$).
 
@@ -262,11 +263,11 @@ Reminder, run your first case completely **before** moving on to additional case
 21. Calculate the difference between your experimental $M_\text{object,experimental,linear}$ and the actual mass $M_\text{object,actual}$.
 
 
-22. **Fit a quadratic curve** to your $F$ vs. $v$ graph and set its coefficients $B$ and $C$ to zero y-intecept $b$ to zero in a similar fashion to your linear plot. *Note: you will need to do this for each trial.* For visual instructions, see {numref}`M04Fig05`. Notice the change in coefficient $A$ when you lock $B$ and $C$.
+22. **Fit a quadratic curve** to your $F$ vs. $v$ graph. *Note: you will need to do this for each trial.* For visual instructions, see {numref}`M04Fig05`. Notice the change in coefficient $A$ when you lock $B$ and $C$.
 
     ```{admonition} Discussion Point: Quadratic fit
     :class: question
-    Why should the $B$ and $C$ coefficients be zero? If your fit appears to have changed a lot, why might your data not agree? Is there a step you may have missed?
+    What should the $B$ and $C$ coefficients be (e.g. non-zero, zero, etc.)? Physically, does it make sense to be that way? Is there a step you may have missed?
     ```
 
 23. Increase the number of significant figures for the quadratic fit to at least **4** in a similar fashion to the linear plot. *Note: you will need to do this for each trial.* For visual instructions, see {numref}`M04Fig05`.
@@ -305,7 +306,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
 31. Over the next few steps, use error propagation to determine uncertainty in your average mass of the rotating object $\delta \bar{M}_\text{object,exp}$:
 
-    A. Using just 1 of your trials from this case, determine the propagated uncertainty in the experimental mass $\delta M_\text{object,experimental,linear}$ of the rotating object by maximizing the $R$ by $\delta R$. See how that changes the graph, determine the maximized or minimized error-test mass $M_\text{object,experimental,error-test}$, take the difference between the error-test and trial mass values, and treat that difference as $\delta \bar{M}_\text{object,exp}$ for this case (rather than doing all trials to save time).
+    **A.** Using just 1 of your trials from this case, determine the propagated uncertainty in the experimental mass $\delta M_\text{object,experimental,linear}$ of the rotating object by maximizing the $R$ by $\delta R$. See how that changes the graph, determine the maximized or minimized error-test mass $M_\text{object,experimental,error-test}$, take the difference between the error-test and trial mass values, and treat that difference as $\delta \bar{M}_\text{object,exp}$ for this case (rather than doing all trials to save time).
     
     ```{admonition} Return to Previous Run in Capstone
     :class: tip
@@ -320,20 +321,20 @@ Reminder, run your first case completely **before** moving on to additional case
     Process for returning to previous run in **Capstone.**
     ```
 
-    B. Essentially create an additional trial for this case in a new row in your data table. 
+    **B.** Essentially create an additional trial for this case in a new row in your data table. 
 
-    C. Return to the calculator ({numref}`M04Fig03`) and update the radius to be larger or smaller based on your values $R \pm \delta R$. Notice how your graphs and fits change. 
+    **C.** Return to the calculator ({numref}`M04Fig03`) and update the radius to be larger or smaller based on your values $R \pm \delta R$. Notice how your graphs and fits change. 
 
-    D. Use those updated values in this error-test trial to determine $M_\text{object,experimental,error-test}$. Notice how the experimental mass of the object changes (maximized or minimized). *Reminder: you updated the radius in **Capstone**; how did you then determine mass?*
+    **D.** Use those updated values in this error-test trial to determine $M_\text{object,experimental,error-test}$. Notice how the experimental mass of the object changes (maximized or minimized). *Reminder: you updated the radius in **Capstone**; how did you then determine mass?*
 
-    E. Determine the uncertainty in your selected trial's experimental mass $\delta M_\text{object,experimental,linear}$ as the magnitude or absolute value of the difference between the error-test and trial values for object's mass:
+    **E.** Determine the uncertainty in your selected trial's experimental mass $\delta M_\text{object,experimental,linear}$ as the magnitude or absolute value of the difference between the error-test and trial values for object's mass:
 
     ```{math}
     :label: eq-centripetal-force_errorProp
     \delta M_\text{object,experimental,linear} = | M_\text{object,experimental,error-test} - M_\text{object,experimental,linear} |
     ```
     
-    F. Treat this difference as your uncertainty in your average mass of the rotating object, $\delta \bar{M}_\text{object,exp}$.
+    **F.** Treat this difference as your uncertainty in your average mass of the rotating object, $\delta \bar{M}_\text{object,exp}$.
 
     ```{admonition} Discussion Point: Experimental Mass Variance
     :class: question
@@ -425,7 +426,11 @@ Defend why your data agrees with or disagrees with the expected values for your 
 - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
     - What is the precision of your equipment?
     - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
-    - What are your measurement uncertainties, and, based on these uncertainties, which impact your final results the most?
+    - What are your measurement uncertainties (see {ref}`error-step-centripetal-force`)?
+        - Sources of measured or estimated uncertainties (values); how large are they?
+        - How do they affect your final mass values; what has the largest affect on final results?
+
+    , and, based on these uncertainties, which impact your final results the most?
 	- Discuss your uncertainties (see {ref}`error-step-centripetal-force`) and their effects
         - Sources of measured or estimated uncertainties (values); how large are they?
         - How do they affect your final mass values; what has the largest affect?
@@ -433,7 +438,8 @@ Defend why your data agrees with or disagrees with the expected values for your 
 	- From where did you determine your experimental mass? Do your experimentally determined masses with uncertainties ($\text{e.g.}\,\bar{M}_\text{object,exp} \pm \delta \bar{M}_\text{object,exp}$) agree with the actual mass of the applied masses plus mass holder (i.e. range overalapping with actual value)?
     - How does the shape of the $F_\text{c}$ vs. $v^2$ plot compare to the $F_\text{c}$ vs. $v$ plot? 
         - What does this tell you about the mathematical relationship between centripetal force and velocity? 
-        - For example, if the velocity is doubled, does the centripetal force also double, or does it change by a different factor? What is that change in centripetal force?
+        - For example, if the velocity is doubled while at a constant radius, does the centripetal force also double, or does it change by a different factor? What is that change in centripetal force?
+        - If instead, mass of the rotating object is doubled while at a constant radius, how does the centripetal force change?
 	- Why should there be the same mass on the fixed-counterweight mass holder as compared to the freely-sliding mass holder? What might you expect to see in your data if the fixed-counterweight and freely-sliding masses and radii were not comparable?
 
 

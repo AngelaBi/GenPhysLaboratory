@@ -539,7 +539,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
      - Return meter sticks to front of room
      - Remove your target papers:
        - Return undamaged carbon paper to stack on front table
-       - Recycle used paper
+       - Recycle used printer paper
     ```
 
 
