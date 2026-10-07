@@ -341,6 +341,13 @@ Reminder, run your first case completely **before** moving on to additional case
     How much does the experimental mass change if you change your value for radius in **Capstone calculator** by the amount of your estimated radius uncertainty? Does your overall result $\bar{M}_\text{object,exp} \pm \delta \bar{M}_\text{object,exp}$ agree with the actual value? Why or why not?
     ```
 
+32. ***BEFORE CLOSING CAPSTONE:***
+
+    ```{admonition} Photo of Experimental Data
+    :class: important
+    Take a screenshot/photo of your graphs from 1 trial from one case representative of your data to include in your Excel spreadsheet for post-lab discussions.
+    ```
+
 33. Repeat the previous steps in {ref}`detailsteps-centripetal-force` for the next case with the relevant applied mass and radius as listed in {numref}`tab-four-centripetal-force-cases`. Please call for help as needed for setting up next cases.
 
     ```{admonition} Continue to additional case?
@@ -349,21 +356,24 @@ Reminder, run your first case completely **before** moving on to additional case
     ```
 
 
-33. ***BEFORE CLOSING CAPSTONE:***
+### ● Summary & Cleanup
 
+34. Create a summary table of your data (e.g. relevant final result values with estimated uncertainties and differences to expected values for each case).
 
-    ```{admonition} Photo of Experimental Data
-    :class: important
-    Take a screenshot/photo of your graphs from 1 trial from one case representative of your data to include in your Excel spreadsheet for post-lab discussions.
+35. When you are finished, reset your experimental setup before leaving.
+
+    ```{admonition} CLEAN UP
+    :class: attention
+    Please return your experimental station back to the way you found it or better:
+     - Turn down power supply voltage back to zero, and shut off the power supply
+     - Reconnect all parts of the freely-sliding masses as shown in {numref}`M04Fig04`
+     - Reconnect fixed mass if previously removed
+     - Close (DO NOT SAVE) Capstone
     ```
 
-33. ***BEFORE LEAVING LAB:***
 
 
-    ```{admonition} Turn Off Power Supply
-    :class: danger
-    Ensure voltage is back to zero and shut off the power supply.  
-    ```
+
 
 <!---
 ```{admonition} ⚠️⚠️⚠️ CAUTION: ROTATING ARM WILL BE FAST ⚠️⚠️⚠️
