@@ -408,8 +408,8 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
     ```{admonition} Push, don't smack. Use release bar, not finger.
     :class: note
-    - Ensure the ball is resting against the piston such that the piston will push rather than hit the ball out of the launcher.
-    - Ensure you use the release bar, and not your finger, to quickly release the piston.
+    - Ensure the ball is **resting against the piston** such that the piston will push rather than hit the ball out of the launcher.
+    - Ensure you **use the release bar,** and *not your finger*, to quickly release the piston.
     - Before continuing, try some test launches with the ball not resting against the piston. Notice the greater inconsistency.
     - Before continuing, try releasing the launcher with just your finger instead of the release bar. Notice the greater inconsistency.
     ```
@@ -420,7 +420,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     Please do not take the tape away from the table as everyone will need it, thanks
     ```
 
-6. Conduct **40 -- 45 launches** onto the paper/carbon paper. Make sure the launcher plate is the whole way into the slot to ensure a consistent starting position. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case. Additional markers should be available on the table towards the middle of the room.
+6. Conduct **40 -- 45 launches** onto the paper/carbon paper. Make sure the launcher plate is the whole way into the slot and ball against piston (see notes in previous steps) to ensure a consistent starting position. Between each launch, move aside the carbon paper and mark each dot with a marker or something else that makes it apparent which dots are your data points for this case. Additional markers should be available on the table towards the middle of the room.
 
     ```{admonition} Reminder: Take turns
     :class: note
