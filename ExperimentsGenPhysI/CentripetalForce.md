@@ -445,6 +445,7 @@ Defend why your data agrees with or disagrees with the expected values for your 
         - Sources of measured or estimated uncertainties (values); how large are they?
         - How do they affect your final mass values; what has the largest affect?
 - In a **paragraph**, summarize the results you have determined in each case. 
+    - What was the point of today’s lab; what did we aim to discover?
 	- From where did you determine your experimental mass? Do your experimentally determined masses with uncertainties ($\text{e.g.}\,\bar{M}_\text{object,exp} \pm \delta \bar{M}_\text{object,exp}$) agree with the actual mass of the applied masses plus mass holder (i.e. range overalapping with actual value)?
     - How does the shape of the $F_\text{c}$ vs. $v^2$ plot compare to the $F_\text{c}$ vs. $v$ plot? 
         - What does this tell you about the mathematical relationship between centripetal force and velocity? 
