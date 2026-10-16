@@ -467,10 +467,11 @@ Defend why your data agrees with or disagrees with the concept of energy conserv
   - What are possible random errors for today's experiment?
   - What are possible systematic errors for today’s experiments?
   - Answering using physics reasoning: How could one gain energy during the top-to-bottom sequence?
-  - For today’s lab, assume that your calculated kinetic energies are their average +/- standard deviation values where the uncertanty comes from only the spread of the data. However, regarding the quantities of potential energy (at both top and rebound positions), ***consider*** for just one case:
+  - For today’s lab, assume that your calculated kinetic energies are their average +/- standard deviation values where the uncertainty comes from only the spread of the data. However, regarding the quantities of potential energy (at both top and rebound positions), ***consider*** for just one case:
     - Our measurable quantities (reminder {eq}`eq:potential-energy`) and their estimated uncertainties (i.e. how confident you are in each of those values, rather than just your tools' precision). 
     - What are the effects of those measurement uncertainties on your determined potential energies? (e.g.  how does $m\pm\delta\,m$ affect $U$)?
 - In a **paragraph**, summarize the results you have determined in each case. Consider:
+  - What was the point of today’s lab; what did we aim to discover?
 	- Arguing your responses with your average values $\pm$ standard deviations:
 	    - Is kinetic plus potential energy conserved going from the top to the bottom?
       - Is kinetic plus potential energy conserved between the top and the rebound position?
@@ -481,7 +482,7 @@ Defend why your data agrees with or disagrees with the concept of energy conserv
 
 ## The Whiteboard & Supplemental Info.
 
-```{figure} ConsEnTrackFigures/ConsOfEnergyTrack_2024_Fall_02.jpg
+```{figure} ConsEnTrackFigures/ConsOfEnergyTrack_2024_Fall_02_v02.jpg
 :name: consE
 :width: auto
 :align: center
