@@ -444,6 +444,17 @@ Reminder, run your first case completely **before** moving on to additional case
       ```
 
 
+20. When you are finished, reset your experimental setup before leaving.
+
+    ```{admonition} CLEAN UP
+    :class: attention
+    Please return your experimental station back to the way you found it or better:
+     - Level the airtrack: Remove red or white spacer, but keep black foot to protect table
+     - Remove gliders from the airtrack so as to not damage the airtrack when air is later shut off
+     - Return calipers and meter sticks to front table / front of room
+     - Close (DO NOT SAVE) Capstone
+    ```
+
 
 
 
