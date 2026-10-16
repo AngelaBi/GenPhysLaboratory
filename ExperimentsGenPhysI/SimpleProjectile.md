@@ -394,7 +394,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
 
 3. Measure the height the ball will fall (as seen in {numref}`M03-simpleProjectileLauncher_meas_case-1`); place the ball into the launcher as the initial height $y_{0}$ is measured from the bottom of the ball to the floor (though the bottom of the inside of the barrel can also be used as the bottom of the ball location if that is easier to measure). Ensure the ruler you use has the zero meter end on the floor. Use a plumb bob to find and note the ball's initial position on the floor.
 
-4. Conduct a few test launches by pulling the piston back to the denoted notch for your launcher. Take mental note of where the ball is generally landing and ensure it's generally consistent.
+4. Conduct a few test launches by pulling the piston back (with two fingers to limit wear on cross bar) to the denoted notch for your launcher. Use the white release bars to push up the right-side cross bar to launch the marble (see use in {ref}`demo-video-simple-projectile-motion`). Take mental note of where the ball is generally landing and ensure it's generally consistent.
 
     ```{admonition} Which Loaded Piston Position?
     :class: warning
@@ -414,7 +414,7 @@ Will this experiment be more or less accurate in measuring $g$ than the previous
     - Before continuing, try releasing the launcher with just your finger instead of the release bar. Notice the greater inconsistency.
     ```
 
-5. Get some pieces of white printer paper and tape them in the approximate landing zone, and place pieces of carbon paper on top (no need to tape that one since you'll be moving it between trials) so the ball can mark up the white paper when it lands. Materials available at the table towards the middle of the room. **Use this same set of paper throughout all cases.**
+5. Get some pieces of white printer paper and ***tape them to the floor*** in the approximate landing zone. Then, place pieces of carbon paper on top (no need to tape those since you'll be moving it between trials) so the ball can mark up the white paper when it lands. Materials available at the table towards the middle of the room. **Use this same set of paper throughout all cases. You will be taking a photo for your spreadsheet after all data is collected.**
     ```{admonition} Reminder: Share supplies
     :class: note
     Please do not take the tape away from the table as everyone will need it, thanks
