@@ -306,6 +306,20 @@ Reminder, run your first case completely **before** moving on to additional case
 
 31. Over the next few steps, use error propagation to determine uncertainty in your average mass of the rotating object $\delta \bar{M}_\text{object,exp}$:
 
+<!---
+
+~!!!!!!!!!!!!!!!!!!!!!!#@$##~@!~^&@##!~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Fix uncertainty propagation...
+tell them to increase the radius value in capstone, note the updated slope --- did it get larger or smaller?
+
+If it got larger, then continue to eq 1 to maximize M_object and take difference for the uncerrtainty
+If it got smaller, then continue to eq 1 to minimize M_Object and take the difference for the uncertainty
+
+the main point here is to propagate the uncertainties in such a way that they have the largest impact on the final result value (in this case M_object) to see what is the widest range of final result values based on those uncertainties.
+
+--->
+
+
     **A.** Using just 1 of your trials from this case, determine the propagated uncertainty in the experimental mass $\delta M_\text{object,experimental,linear}$ of the rotating object by maximizing the $R$ by $\delta R$. See how that changes the graph, determine the maximized or minimized error-test mass $M_\text{object,experimental,error-test}$, take the difference between the error-test and trial mass values, and treat that difference as $\delta \bar{M}_\text{object,exp}$ for this case (rather than doing all trials to save time).
     
     ```{admonition} Return to Previous Run in Capstone
@@ -438,9 +452,7 @@ Defend why your data agrees with or disagrees with the expected values for your 
     - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
     - What are your measurement uncertainties (see {ref}`error-step-centripetal-force`)?
         - Sources of measured or estimated uncertainties (values); how large are they?
-        - How do they affect your final mass values; what has the largest affect on final results?
-
-    , and, based on these uncertainties, which impact your final results the most?
+        - How do they affect your final mass values (larger/smaller); what has the largest affect on final results?
 	- Discuss your uncertainties (see {ref}`error-step-centripetal-force`) and their effects
         - Sources of measured or estimated uncertainties (values); how large are they?
         - How do they affect your final mass values; what has the largest affect?

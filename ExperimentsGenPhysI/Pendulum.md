@@ -408,6 +408,7 @@ Defend why your data agrees with or disagrees with the actual value of $g$ and p
     - Of your quantities' uncertainties, which quantity affects your final result for $g$ the most?
 <!--- ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! make g slope unceratinty from excel--->
 - In a **paragraph**, summarize the results you have determined in each case. Consider:
+  - What was the point of today’s lab; what did we aim to discover?
   - Compare your averaged values to the accepted value of $g$ for Fairfield, CT, for each length case including:
     - $g_{\text{small-amp,avg}}\pm\delta g_{\text{small-amp,avg}}$
     - $g_{\text{corrected,avg}}\pm\delta g_{\text{small-amp,avg}}$ (reminder, reusing the uncertainty here)

@@ -462,8 +462,9 @@ This week's lab is built of essentially two different, but still related to rota
 	  - What are possible systematic uncertainties for each experiment?
     - How do these uncertainties affect your final results for $I$?
   - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - Part 1: How do the values of both the **ring's** and **two-point masses'** measured $I$ compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?
-	  - Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in **Capstone**). Why does this happen?
+    - What was the point of today’s lab (first part); what did we aim to discover?
+    - Part 1: How do the values of both the **ring's** and **two-point masses'** measured $I$ compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?
+    - Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in **Capstone**). Why does this happen?
 
 
   ### ● Angular Momentum Post-Lab
@@ -472,8 +473,9 @@ This week's lab is built of essentially two different, but still related to rota
 	  - What are possible systematic uncertainties for each experiment?
     - How do these uncertainties affect your final results for $L$?
   - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - Part 2: Is angular momentum $L$ conserved? What might cause any discrepancies in the conservation of angular momentum?
-  	- Part 2: What is the effect of dropping the ring off-center? Is $L$ conserved when considering the off-axis portion?
+    - What was the point of today’s lab (second part); what did we aim to discover?
+    - Part 2: Is angular momentum $L$ conserved? What might cause any discrepancies in the conservation of angular momentum?
+    - Part 2: What is the effect of dropping the ring off-center? Is $L$ conserved when considering the off-axis portion?
 
 
 

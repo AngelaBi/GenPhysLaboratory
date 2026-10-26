@@ -404,6 +404,7 @@ Defend why your data agrees with or disagrees between both experiments. Use erro
 	- What are the effects of your measurement uncertainties on your determined exit velocities for both experiments?
       - Use error propagation to defend your results; look back at {eq}`eq-M06v0` and {eq}`eq-M06v0pro` as needed.
 - In a **paragraph**, summarize the results you have determined in each case. Consider:
+   - What was the point of today’s lab; what did we aim to discover?
    - What were your initial exit velocity results for both pendulum and projectile experiments? Use your average values and treat your standard deviations as your $\pm$ uncertainty of those average values.
    - Do the initial velocities from both experiments agree with one another?
       - How and why are they (or could be more) different regarding physical concepts?

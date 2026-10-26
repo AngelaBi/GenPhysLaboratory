@@ -358,6 +358,7 @@ This week's lab is built of essentially two different, but still related to ther
       - What may cause a discrepancy between the ratios of volumes, pressures, temperatures?
       - Consider the uncertainty due to volume; do the ratios agree within that uncertainty range?
   - In a **paragraph**, summarize the results you have determined in each case. Consider:
+    - What was the point of today’s lab (first part); what did we aim to discover?
     - Constant Temperature (Isothermal):
 	    - How do the two ratios, $X_{1}$ and $X_{2}$, compare? 
           - What is the percent difference between the two ratios?
@@ -385,6 +386,7 @@ This week's lab is built of essentially two different, but still related to ther
     - How did you determine your uncertainty in your absolute zero value?
     - How may systematic errors affect your determined value for absolute zero (i.e. increase or decrease)?
   - In a **paragraph**, summarize the results you have determined in each case. Consider:
+    - What was the point of today’s lab (second part); what did we aim to discover?
     - What is your extrapolated result for absolute zero including uncertainty range? How does it compare to the accepted value?
     - What does absolute zero represent about a system?
 

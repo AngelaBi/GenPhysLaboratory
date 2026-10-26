@@ -604,6 +604,7 @@ Defend why your data agrees with or disagrees with expected kinematic projectile
 
 
 - In a **paragraph**, summarize the results you have determined in each case, i.e. $x_{\text{experimental}} \pm \delta x_{\text{experimental}}$... and answer the following questions (longer does not mean better) while arguing your conclusions with your data values:
+  - What was the point of today’s lab; what did we aim to discover?
 	- What type of system do the kinematic equations represent?
   <!---
 	- **Experiment 1:**

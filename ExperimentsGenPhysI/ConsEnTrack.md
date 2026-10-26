@@ -483,9 +483,9 @@ Defend why your data agrees with or disagrees with the concept of energy conserv
     - What are the effects of those measurement uncertainties on your determined potential energies? (e.g.  how does $m\pm\delta\,m$ affect $U$)?
 - In a **paragraph**, summarize the results you have determined in each case. Consider:
   - What was the point of today’s lab; what did we aim to discover?
-	- Arguing your responses with your average values $\pm$ standard deviations:
-	    - Is kinetic plus potential energy conserved going from the top to the bottom?
-      - Is kinetic plus potential energy conserved between the top and the rebound position?
+  - Arguing your responses with your average values $\pm$ standard deviations:
+    - Is kinetic plus potential energy conserved going from the top to the bottom?
+    - Is kinetic plus potential energy conserved between the top and the rebound position?
   - Why is there a difference in energy conservation between the top-to-bottom sequence and top-to-bottom-to-rebound sequence? Explain using physical concepts and reasoning.
 
 

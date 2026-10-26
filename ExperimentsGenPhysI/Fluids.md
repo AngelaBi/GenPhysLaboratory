@@ -501,13 +501,14 @@ Defend why your data agrees with or disagrees with Archimedes' and Bernoulli's P
     - What are possible systematic uncertainties for each experiment?
     - How do these uncertainties affect your final results for $F_\text{B}$?
   - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - In which list (mass, volume, or density) are the objects grouped similarly?
-	  - In each object case, compare the the buoyant force determined from each method --- Part II was with displaced water for $F_\text{B, Archimedes' method}$, Part III was direct force sensor measurements for $F_\text{B, upward force method}$. Were they equal? How different were they?
-        - Were the \% differences between the two methods for each case relatively small, consistent, or did any case standout?
-	  - Which objects had the same buoyant force when submerged? Why?
-	  - For the plastic cylinder, what was the apparent weight in water? What would be the buoyant force be if plastic cylinder were completely submerged?
-	  - How did the buoyant force for the totally submerged brass cylinder relate to the buoyant force for the half-submerged brass cylinder?
-	  - What does the buoyant force depend on: The mass of the object, or its volume, or its density, or the material from which it is made?
+    - What was the point of today’s lab (first part); what did we aim to discover?
+    - In which list (mass, volume, or density) are the objects grouped similarly?
+    - In each object case, compare the the buoyant force determined from each method --- Part II was with displaced water for $F_\text{B, Archimedes' method}$, Part III was direct force sensor measurements for $F_\text{B, upward force method}$. Were they equal? How different were they?
+      - Were the \% differences between the two methods for each case relatively small, consistent, or did any case standout?
+    - Which objects had the same buoyant force when submerged? Why?
+    - For the plastic cylinder, what was the apparent weight in water? What would be the buoyant force be if plastic cylinder were completely submerged?
+    - How did the buoyant force for the totally submerged brass cylinder relate to the buoyant force for the half-submerged brass cylinder?
+    - What does the buoyant force depend on: The mass of the object, or its volume, or its density, or the material from which it is made?
 
 
 ### ● Bernoulli's Principle --- Post-Lab Error & Results Analysis
@@ -517,10 +518,11 @@ Defend why your data agrees with or disagrees with Archimedes' and Bernoulli's P
     - What are possible systematic uncertainties for each experiment?
     - What errors might cause your $P_{2 \text{,experimental}}$ to diverge from $P_{2\text{ avg actual}}$? 
   - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - Does your experimental value for $P_2$ agree with the actual value of $P_2$ as measured with the pressure sensor? (i.e. does $P_{2\text{,experimental}} \pm \delta P_{2\text{,experimental}}$ overlap with $P_{2\text{,actual,avg}} \pm \sigma P_{2\text{,actual,avg}}$?)
-	  - How is the Bernoulli Principle different than the Bernoulli Equation?
-	  - What assumptions about the fluid allows the Bernoulli Principle to work? (i.e. what type or characteristics of the fluid and/or flow are necessary assumptions for Bernoulli to hold true?)
-	  - Imagine that instead of being on the table, the Venturi tube were set on the floor with the rest of the experimental apparatus unchanged. Would the difference in pressures we see on the Capstone plot between $P_1$ and $P_2$ during the smooth, laminar flow section that we analyzed to find average pressures be *larger*, *smaller*, or *the same*. Why?
+    - What was the point of today’s lab (second part); what did we aim to discover?
+    - Does your experimental value for $P_2$ agree with the actual value of $P_2$ as measured with the pressure sensor? (i.e. does $P_{2\text{,experimental}} \pm \delta P_{2\text{,experimental}}$ overlap with $P_{2\text{,actual,avg}} \pm \sigma P_{2\text{,actual,avg}}$?)
+    - How is the Bernoulli Principle different than the Bernoulli Equation?
+    - What assumptions about the fluid allows the Bernoulli Principle to work? (i.e. what type or characteristics of the fluid and/or flow are necessary assumptions for Bernoulli to hold true?)
+    - Imagine that instead of being on the table, the Venturi tube were set on the floor with the rest of the experimental apparatus unchanged. Would the difference in pressures we see on the Capstone plot between $P_1$ and $P_2$ during the smooth, laminar flow section that we analyzed to find average pressures be *larger*, *smaller*, or *the same*. Why?
 
 
 
