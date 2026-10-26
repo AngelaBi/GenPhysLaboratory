@@ -304,9 +304,12 @@ Reminder, run your first case completely **before** moving on to additional case
 - Determine range of uncertainty from just one trial for each case and use that for the uncertainty of the average value.
 ```
 
-31. Over the next few steps, use error propagation to determine uncertainty in your average mass of the rotating object $\delta \bar{M}_\text{object,exp}$:
+31. For each case, use the next few steps to conduct error propagation in just 1 trial of the current case to approximate the uncertainty in your average mass of the rotating object $\delta \bar{M}_\text{object,exp}$. Determine the maximized or minimized error-test mass $M_\text{object,experimental,error-test}$, take the difference between the error-test and trial mass values, and treat that difference as $\delta \bar{M}_\text{object,exp}$ for this case (rather than doing all trials to save time):
 
-    **A.** Using just 1 of your trials from this case, determine the propagated uncertainty in the experimental mass $\delta M_\text{object,experimental,linear}$ of the rotating object by maximizing the $R$ by $\delta R$. See how that changes the graph, determine the maximized or minimized error-test mass $M_\text{object,experimental,error-test}$, take the difference between the error-test and trial mass values, and treat that difference as $\delta \bar{M}_\text{object,exp}$ for this case (rather than doing all trials to save time).
+    **A.** Essentially create an additional ***error-test*** trial for this case in a new row in your data table. 
+
+    **B.** Determine propagated uncertainty in the experimental mass $\delta M_\text{object,experimental,linear}$ of the rotating object by maximizing the $R$ by $\delta R$ in Capstone. Return to the calculator ({numref}`M04Fig03`) and update the radius to be larger or smaller based on your values $R \pm \delta R$. Notice how your graphs and fits change.
+    
     
     ```{admonition} Return to Previous Run in Capstone
     :class: tip
@@ -321,11 +324,12 @@ Reminder, run your first case completely **before** moving on to additional case
     Process for returning to previous run in **Capstone.**
     ```
 
-    **B.** Essentially create an additional trial for this case in a new row in your data table. 
-
-    **C.** Return to the calculator ({numref}`M04Fig03`) and update the radius to be larger or smaller based on your values $R \pm \delta R$. Notice how your graphs and fits change. 
-
-    **D.** Use those updated values in this error-test trial to determine $M_\text{object,experimental,error-test}$. Notice how the experimental mass of the object changes (maximized or minimized). *Reminder: you updated the radius in **Capstone**; how did you then determine mass?*
+    **C.** Record those updated fitting values for use in this error-test trial.
+    
+    **D.** Use {eq}`eq-centripetal-force` to determine $M_\text{object,experimental,error-test}$. *Reminder: you updated the radius in **Capstone**; but how did you then determine mass?* 
+      - Consider, if the slope got smaller, should you minimize or maximize $R$ in the equation to create the largest change in $M_\text{object,experimental,error-test}$. ***Why?***
+      - Consider, if the slope got larger, should you minimize or maximize $R$ in the equation to create the largest change in $M_\text{object,experimental,error-test}$. ***Why?***
+      - Notice how the experimental mass of the object changes with both slope and radius changes (maximized or minimized).
 
     **E.** Determine the uncertainty in your selected trial's experimental mass $\delta M_\text{object,experimental,linear}$ as the magnitude or absolute value of the difference between the error-test and trial values for object's mass:
 
@@ -438,9 +442,7 @@ Defend why your data agrees with or disagrees with the expected values for your 
     - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors?
     - What are your measurement uncertainties (see {ref}`error-step-centripetal-force`)?
         - Sources of measured or estimated uncertainties (values); how large are they?
-        - How do they affect your final mass values; what has the largest affect on final results?
-
-    , and, based on these uncertainties, which impact your final results the most?
+        - How do they affect your final mass values (larger/smaller); what has the largest affect on final results?
 	- Discuss your uncertainties (see {ref}`error-step-centripetal-force`) and their effects
         - Sources of measured or estimated uncertainties (values); how large are they?
         - How do they affect your final mass values; what has the largest affect?

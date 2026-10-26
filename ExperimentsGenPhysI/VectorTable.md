@@ -583,7 +583,8 @@ Defend why your data agrees with or disagrees with vector addition and equilibri
 
 
 - In a **paragraph**, summarize the results you have determined in each case (i.e. $F_3\pm\delta F_3...)$ and answer the following questions (longer does not mean better):
-	- What is a vector?
+  - What was the point of today’s lab; what did we aim to discover?
+  - What is a vector?
   - What is the physics behind balancing your vectors today?
 	- Case 1 & 2 (Finding Equilibrant):
 	  - Looking at your experiment, why do the two given masses not add up to the third mass?
