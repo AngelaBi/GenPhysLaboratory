@@ -103,6 +103,13 @@ Experimental Setup for the centripetal force experiment
     ```
 
 
+
+
+
+(detailsteps-centripetal-force)=
+### ● Experimental Data Collection
+
+
 4. Four cases will be performed, each with 3 trials, as listed in {numref}`tab-four-centripetal-force-cases`. For each of the four cases, perform the following steps listed in {ref}`detailsteps-centripetal-force` and record the data appropriately in your spreadsheet.
 
     ```{table} Four experimental cases applied masses and radii
@@ -116,15 +123,10 @@ Experimental Setup for the centripetal force experiment
     ```
 
 
-
-
-(detailsteps-centripetal-force)=
-### ● Experimental Data Collection
-
-```{admonition} Reminder, Run First Case Fully
-:class: important
-Reminder, run your first case completely **before** moving on to additional cases. Don't just take all of your data without checking your methodology. If you have some error in your experimental method or in your calculations, you can correct it before completing all the other cases and finding out you have to completely redo the whole lab. The data tables for additional cases can be created by copying the first case **after** you are confident in and can explain your results from the first case.
-```
+    ```{admonition} Reminder, Run First Case Fully
+    :class: important
+    Reminder, run your first case completely **before** moving on to additional cases. Don't just take all of your data without checking your methodology. If you have some error in your experimental method or in your calculations, you can correct it before completing all the other cases and finding out you have to completely redo the whole lab. The data tables for additional cases can be created by copying the first case **after** you are confident in and can explain your results from the first case.
+    ```
 
 5. For each case, construct:
     - A common data table for the current case including (but not limited to):

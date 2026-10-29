@@ -270,7 +270,7 @@ When the pendulum swings with very small angles, the period is essentially indep
 
 (detailsteps-SimplePendulumData)=
 ### ● Experimental Data Collection
-For each case, perform 5 trials per person (i.e. 10 or 15 total data points per two- or three-person group as mentioned above) as follows:
+For each case (see {numref}`tab-five-pendulum-length-cases`), perform 5 trials per person (i.e. 10 or 15 total data points per two- or three-person group as mentioned above) as follows:
 
 6. Measure the time $t_{10\text{cycles}}$ for 10 cycles of the pendulum. One cycle is going from the pendulum's initial position, swings out, swings back to its initial position. See example in {ref}`SimplePendulumDemoVideo-01`.
     - Start and stop the stopwatch at one end of a swing where the velocity is zero. It is better not to start the watch as you release the mass, but rather at a later point where $v = 0$. This will insure that your starting point is a consistent $v = 0$ point rather than having some initial velocity given to the ball when you release it.
