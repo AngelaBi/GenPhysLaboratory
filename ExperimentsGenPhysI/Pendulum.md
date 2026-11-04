@@ -181,7 +181,7 @@ When the pendulum swings with very small angles, the period is essentially indep
 ### ● Preliminary Setup
 
 
-1. **Five Cases:** For this experiment, you will use approximate pendulum lengths as listed in {numref}`tab-five-pendulum-length-cases`. You don't have to set the lengths to be exactly those lengths. The point here is to cover a wide range to investigate how the motion is dependent on pendulum length. Get close and make sure to measure the thread length carefully; record the measured value, and determine the total pendulum length for the given case. For each case, perform the following steps listed in {ref}`detailsteps-ConsEnTrack` and record the data appropriately in your spreadsheet.
+1. [ ] **Five Cases:** For this experiment, you will use approximate pendulum lengths as listed in {numref}`tab-five-pendulum-length-cases`. You don't have to set the lengths to be exactly those lengths. The point here is to cover a wide range to investigate how the motion is dependent on pendulum length. Get close and make sure to measure the thread length carefully; record the measured value, and determine the total pendulum length for the given case. For each case, perform the following steps listed in {ref}`detailsteps-ConsEnTrack` and record the data appropriately in your spreadsheet.
 
     ```{table} Five experimental pendulum-length cases
     :name: tab-five-pendulum-length-cases
@@ -194,12 +194,12 @@ When the pendulum swings with very small angles, the period is essentially indep
     |  5   |    170 cm        |   LARGE    |
     ```
 
-2. **NOTE ON NUMBER OF TRIALS:** For each of the five cases, each person will perform 5 time trials. Everyone can record at roughly the same time, but don't worry if you aren't all timing the exact same swings (i.e. someone starts a half or whole cycle late); just make sure to time a total of 10 cycles for each trial. By everyone taking data for 5 time trials each, and doing so simultaneously, a two-person group will end up with 10 total data points, and a three-person group will have 15 total data points for each case, etc. while saving time running the lab.
+2. [ ] **NOTE ON NUMBER OF TRIALS:** For each of the five cases, each person will perform 5 time trials. Everyone can record at roughly the same time, but don't worry if you aren't all timing the exact same swings (i.e. someone starts a half or whole cycle late); just make sure to time a total of 10 cycles for each trial. By everyone taking data for 5 time trials each, and doing so simultaneously, a two-person group will end up with 10 total data points, and a three-person group will have 15 total data points for each case, etc. while saving time running the lab.
 
 
 3. Create a data table for the given case (this table can be copied/pasted for the additional cases):
-    - *Common data for the entire experiment* including the ball radius and the accepted $g = 9.803\,\text{m/s}^2$ for Fairfield.
-    - *Common data for each individual case* including:
+    - [ ] *Common data for the entire experiment* including the ball radius and the accepted $g = 9.803\,\text{m/s}^2$ for Fairfield.
+    - [ ] *Common data for each individual case* including:
       - The case number
       - The case description
       - $y$: Measured thread length
@@ -207,8 +207,8 @@ When the pendulum swings with very small angles, the period is essentially indep
       - $\delta L$: Estimated uncertainty in length
       - $\theta_\text{displacement}$: Approximate angle of displacement
     - *Data table* including, but not limited to:
-      - Enough **rows** to include all time trials for your group
-      - For each case, include **columns** for
+      - [ ] Enough **rows** to include all time trials for your group
+      - [ ] For each case, include **columns** for
         - Trial number
         - Lab member's initials
         - $t_{10\text{cycles}}$: Measured **total time** of the 10 cycles (swing out and back to initial position)
@@ -221,7 +221,7 @@ When the pendulum swings with very small angles, the period is essentially indep
         - $C_\text{Taylor}$: **Taylor Series correction factor**
         - $g_\text{corrected}$: *Corrected* value of $g_\text{small-amp}$ by incorporating the additional terms of the **Taylor Series correction factor** that increases the period
         - $Difference\,(g_{\text{corrected}} - g)$: Magntitude of difference between $g_{\text{corrected}}$ and the accepted $g$, i.e. how far away your corrected value is from the accepted value of $g$
-      - Include an additional row for summarizing your results including, but not limited to:
+      - [ ] Include an additional row for summarizing your results including, but not limited to:
         - $T_\text{avg}$: Average $T$ from all trials of the current case
         - $g_{\text{small-amp,avg}}$: Average small-amplitude-approximated $g$ from all trials of the current case
         - $\delta g_{\text{small-amp,avg}}$: Average uncertainty of $g$ from all trials of the current cases
@@ -231,23 +231,24 @@ When the pendulum swings with very small angles, the period is essentially indep
         - $g_\text{slope}$: Slope-derived value of $g$ from fitting a trend line to all small-amplitude data points
         - $\delta g_\text{slope}$: Uncertainty of slope-derived value of $g$, found by propagating the uncertainty of the slope of the fit
         - $Difference\,(g_{\text{slope}} - g)$: Magntitude of difference between $g_{\text{slope}}$ and the accepted $g$
-      - Include an additional section for plotting and analysis
+      - [ ] Include an additional section for plotting and analysis
         - Columns for all $L$ and $T^2$ values from all small-amplitude trials across all relevant cases combined together for easy plotting
         - Section for `LINEST` function. Must be an empty 2 column $\times$ 5 row section in your spreadsheet as those cells will be autopopulated by the `LINEST` function later on. Used for determining the slope and the slope's uncertainty
 
 
 
 4. The total pendulum length $L$ can be determined from adding together the thread length $y$ and the ball radius:
-
-      - Measure the thread length $y$. Attach one end of the thread to the provided pendulum clamp in such a way that you can accurately measure the distance from the pivot point to the top surface of the ball. Set the length of the thread approximately to the value for the case (doesn't have to be exact, we're just looking to test across a range of lengths across the cases).
-
-      - Measure the diameter of the ball with Vernier calipers, determine its radius, add the radius of the ball to the thread length to establish the pendulum length $L$.
-    
-      - Estimate and note the uncertainty in the pendulum length $\delta L$; consider both each measurement tools' precision as well as your estimated confidence in your measurements (i.e. are you as confident as the tools' precision, or might it be a bit of a larger range?).
+      - [ ] Measure the thread length $y$. Attach one end of the thread to the provided pendulum clamp in such a way that you can accurately measure the distance from the pivot point to the top surface of the ball. Set the length of the thread approximately to the value for the case (doesn't have to be exact, we're just looking to test across a range of lengths across the cases).
+      - [ ] Measure the diameter of the ball with Vernier calipers, determine its radius, add the radius of the ball to the thread length to establish the pendulum length $L$.
+      - [ ] Estimate and note the uncertainty in the pendulum length $\delta L$; consider both each measurement tools' precision as well as your estimated confidence in your measurements (i.e. are you as confident as the tools' precision, or might it be a bit of a larger range?).
 
 5. Note the approximate angle of displacement $\theta_\text{displacement}$ from rest position:
-   - For cases 1--4, the starting displacement should be small (e.g. $\sim 1.5^\circ$ from the inner edge of the *narrow* arm of the red protractor).
-   - For case 5, use a large angle (e.g. $\sim45^\circ$ from the inner edge of the *wide* arm of the red protractor).
+    - For cases 1--4, the starting displacement should be small (e.g. $\sim 1.5^\circ$ from the inner edge of the *narrow* arm of the red protractor).
+      - [ ] Case 1
+      - [ ] Case 2
+      - [ ] Case 3
+      - [ ] Case 4
+    - [ ] For case 5, use a large angle (e.g. $\sim45^\circ$ from the inner edge of the *wide* arm of the red protractor).
 
 
 
@@ -270,33 +271,33 @@ When the pendulum swings with very small angles, the period is essentially indep
 
 (detailsteps-SimplePendulumData)=
 ### ● Experimental Data Collection
-For each case, perform 5 trials per person (i.e. 10 or 15 total data points per two- or three-person group as mentioned above) as follows:
+For each case (see {numref}`tab-five-pendulum-length-cases`), perform 5 trials per person (i.e. 10 or 15 total data points per two- or three-person group as mentioned above) as follows:
 
 6. Measure the time $t_{10\text{cycles}}$ for 10 cycles of the pendulum. One cycle is going from the pendulum's initial position, swings out, swings back to its initial position. See example in {ref}`SimplePendulumDemoVideo-01`.
-    - Start and stop the stopwatch at one end of a swing where the velocity is zero. It is better not to start the watch as you release the mass, but rather at a later point where $v = 0$. This will insure that your starting point is a consistent $v = 0$ point rather than having some initial velocity given to the ball when you release it.
-    - Count one cycle as the mass returns to the starting point, i.e. after one complete swing out and back.
+    - [ ] Start and stop the stopwatch at one end of a swing where the velocity is zero. It is better not to start the watch as you release the mass, but rather at a later point where $v = 0$. This will insure that your starting point is a consistent $v = 0$ point rather than having some initial velocity given to the ball when you release it.
+    - [ ] Count one cycle as the mass returns to the starting point, i.e. after one complete swing out and back.
       ```{admonition} Suggestion for Counting: Index at 0
       :class: tip
       If you index your counting by starting at 0, where you would start the stopwatch when you say zero, and stop the stopwatch when you say ten, you will have counted 10 full cycles.
       ```
-7. Estimate your trial's time uncertainty $\delta t_{10\text{cycles}}$ based on your reaction time (generally ranging ~0.100 -- 0.300 seconds) and your stopwatch precision. (i.e. results are $t_{10\text{cycles}} \pm \delta t_{10\text{cycles}}$). *CONSIDER*: Where do the uncertainties come from?
+7. - [ ] Estimate your trial's time uncertainty $\delta t_{10\text{cycles}}$ based on your reaction time (generally ranging ~0.100 -- 0.300 seconds) and your stopwatch precision. (i.e. results are $t_{10\text{cycles}} \pm \delta t_{10\text{cycles}}$). *CONSIDER*: Where do the uncertainties come from?
 
-8. Determine the period $T$ for one cycle from each trial of ten cycles. (Hint: how many cycles did you observe?)
+8. - [ ] Determine the period $T$ for one cycle from each trial of ten cycles. (Hint: how many cycles did you observe?)
 
-9. Similarly, determine the period uncertainty $\delta T$ for one cycle from each trial.
+9. - [ ] Similarly, determine the period uncertainty $\delta T$ for one cycle from each trial.
 
-10. Calculate the value of $g_\text{small-amp}$ for each trial using the small-amplitude approximation, {eq}`M03_pendulum_Eq03`.
+10. - [ ] Calculate the value of $g_\text{small-amp}$ for each trial using the small-amplitude approximation, {eq}`M03_pendulum_Eq03`.
 
 11. Similarly, determine $\delta g_\text{small-amp}$, the uncertainty of your value for $g$. Make $g$ as large as your uncertainties allow and subtract the original value; the difference is the uncertainty in $g$. In other words, 
-    - Maximize $g_{\text{small-amp,max}}$ with a smaller period and larger pendulum length: using ($T - \delta T$) as the period and ($L + \delta L$) to make $g_{\text{small-amp,max}}$ bigger by dividing by a smaller period and multiplying by a longer length. 
-    - Then get the uncertainty by $\delta g_\text{small-amp} = g_{\text{small-amp,max}} - g_\text{small-amp}$.
+    - [ ] Maximize $g_{\text{small-amp,max}}$ with a smaller period and larger pendulum length: using ($T - \delta T$) as the period and ($L + \delta L$) to make $g_{\text{small-amp,max}}$ bigger by dividing by a smaller period and multiplying by a longer length. 
+    - [ ] Then get the uncertainty by $\delta g_\text{small-amp} = g_{\text{small-amp,max}} - g_\text{small-amp}$.
 
 ```{math}
 :label: M03_pendulum_Eq05
 g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
 ```
 
-12. Calculate the magnitude of the difference between your experimental value and the accepted value of $g$ (i.e. the difference $g_{\text{small-amp}} - g$).
+12. - [ ] Calculate the magnitude of the difference between your experimental value and the accepted value of $g$ (i.e. the difference $g_{\text{small-amp}} - g$).
 
     ```{admonition} Discussion Point: Accuracy
     :class: question
@@ -305,9 +306,9 @@ g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
 
 13. Calculate the corrected value, $g_\text{corrected}$ by:
 
-    - Calculating the **Taylor Series correction factor** $C_\text{Taylor}$ using {eq}`M03_pendulum_Eq08` (i.e. the first three terms of the brackets of {eq}`M03_pendulum_Eq04`).
-    - Then multiplying your small-amplitude experimental value by the square of your **Taylor Series correction factor**. This is like solving {eq}`M03_pendulum_Eq09` for $g$, leading to {eq}`M03_pendulum_Eq03` becoming {eq}`M03_pendulum_Eq06`. 
-    - ***Note:*** Today, we will just assume the uncertainty of the corrected value is the same as $\delta g_{\text{small-amp}}$.
+    - [ ] Calculating the **Taylor Series correction factor** $C_\text{Taylor}$ using {eq}`M03_pendulum_Eq08` (i.e. the first three terms of the brackets of {eq}`M03_pendulum_Eq04`).
+    - [ ] Then multiplying your small-amplitude experimental value by the square of your **Taylor Series correction factor**. This is like solving {eq}`M03_pendulum_Eq09` for $g$, leading to {eq}`M03_pendulum_Eq03` becoming {eq}`M03_pendulum_Eq06`. 
+    - [ ] ***Note:*** Today, we will just assume the uncertainty of the corrected value is the same as $\delta g_{\text{small-amp}}$.
 
     ```{math}
     :label: M03_pendulum_Eq06
@@ -323,24 +324,24 @@ g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
     - To square any function's output in Excel is like saying `output`$^2$. To do such a thing with a trig function (or any Excel function for that matter), we would instead type `SIN(input-in-radians)^2`.
     ```
 
-14. Calculate the magnitude of the difference between your corrected value and the accepted value of $g$ (i.e. the difference $g_{\text{corrected}} - g$).
+14. - [ ] Calculate the magnitude of the difference between your corrected value and the accepted value of $g$ (i.e. the difference $g_{\text{corrected}} - g$).
 
 
 15. Calculate your average values from everyone's trials for the current case:
-    - $T_\text{avg}$, the average value of $T$
-    - $g_{\text{small-amp,avg}}$, the average value of small-amplitude experimental value of $g$
-    - $\delta g_{\text{small-amp,avg}}$, the average uncertainty of $g_{\text{small-amp,avg}}$
-    - $Average\,Difference\,(g_{\text{small-amp,avg}} - g)$, the average difference between small-amplitude experimental value and accepted $g$
-    - $g_\text{corrected,avg}$, the average corrected value of $g$
-    - $Average\,Difference\,(g_{\text{corrected,avg}} - g)$, the verage difference between corrected and accepted $g$
+    - [ ] $T_\text{avg}$, the average value of $T$
+    - [ ] $g_{\text{small-amp,avg}}$, the average value of small-amplitude experimental value of $g$
+    - [ ] $\delta g_{\text{small-amp,avg}}$, the average uncertainty of $g_{\text{small-amp,avg}}$
+    - [ ] $Average\,Difference\,(g_{\text{small-amp,avg}} - g)$, the average difference between small-amplitude experimental value and accepted $g$
+    - [ ] $g_\text{corrected,avg}$, the average corrected value of $g$
+    - [ ] $Average\,Difference\,(g_{\text{corrected,avg}} - g)$, the verage difference between corrected and accepted $g$
 
 
 16. **Graphical Analysis:**
 
-    - Using ***all data points*** (not just the averages) from the four small amplitude cases (Cases 1--4), plot the square of the period, $T^2$, as a function of the length $L$ (i.e. dependent variable $T^2$ on y-axis, independent variable $L$ on x-axis). **Do not** use the large angle Case 5.
+    - [ ] Using ***all data points*** (not just the averages) from the four small amplitude cases (Cases 1--4), plot the square of the period, $T^2$, as a function of the length $L$ (i.e. dependent variable $T^2$ on y-axis, independent variable $L$ on x-axis). **Do not** use the large angle Case 5.
       - Draw the best fit line through your data points (force the fit to pass through the origin by setting the y-intercept to 0).
       - Display the equation for the fit line on your plot.
-    - Determine the slope of your graph using the `LINEST` function:
+    - [ ] Determine the slope of your graph using the `LINEST` function:
       - `=LINEST(y-values,x-values,FALSE,TRUE)`
       - where the y-values at your $T^2$ values
       - x-values are your $L$ values
@@ -356,10 +357,10 @@ g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
       |  4  | *(Ignored)* Additional regression stats   | *(Ignored)*                                   |
       |  5  | *(Ignored)* Residual statistics           | *(Ignored)*                                   |
       ```
-    - Confirm your slope shown on your plot matches that calculated by the `LINEST` function
-    - From the expression for the period, the measured slope, $m$, should give you your best estimate of the value of $g$. Since the expression for $T^2$ is given by {eq}`M03_pendulum_Eq07`, the slope of your graph, $m = 4\pi^2/g$. Thus your final value for $g_\text{slope}$ is $4\pi^2/m$.
-    - Determine $\delta g_\text{slope}$, the uncertainty of your slope-derived value of $g$. Propagate the uncertainty of the fit's slope to maximize $g_\text{slope,maximized} = 4\pi^2/(m - \delta m)$, and take the difference (i.e. $\delta g_\text{slope} = g_\text{slope,maximized} - g_\text{slope}$).
-    - Calculate the magnitude of the difference between your slope-derived value and the accepted value of $g$ (i.e. the difference $g_\text{slope} - g$).
+    - [ ] Confirm your slope shown on your plot matches that calculated by the `LINEST` function
+    - [ ] From the expression for the period, the measured slope, $m$, should give you your best estimate of the value of $g$. Since the expression for $T^2$ is given by {eq}`M03_pendulum_Eq07`, the slope of your graph, $m = 4\pi^2/g$. Thus your final value for $g_\text{slope}$ is $4\pi^2/m$.
+    - [ ] Determine $\delta g_\text{slope}$, the uncertainty of your slope-derived value of $g$. Propagate the uncertainty of the fit's slope to maximize $g_\text{slope,maximized} = 4\pi^2/(m - \delta m)$, and take the difference (i.e. $\delta g_\text{slope} = g_\text{slope,maximized} - g_\text{slope}$).
+    - [ ] Calculate the magnitude of the difference between your slope-derived value and the accepted value of $g$ (i.e. the difference $g_\text{slope} - g$).
 
 
     ```{admonition} Discussion Point: Experimental Averages vs. Accepted

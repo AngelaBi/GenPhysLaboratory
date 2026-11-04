@@ -229,6 +229,11 @@ Suggested points on glider to read position on airtrack scale.
     Be careful not to bump the photogates, as that could change their positions and lead to inaccurate distances. Check during each case; if need be, expand your common data table with additional $s_0$ and $s_1$ positions and subsequent distance $S$.
     ```
 
+
+(detailsteps-accelGTrack)=
+### ● Experimental Data Collection
+
+
 10. Four cases will be performed as listed in {numref}`tab-four-glider-spacer-cases`. For each of the four cases, perform the following steps listed in {ref}`detailsteps-accelGTrack` and record the data appropriately in your spreadsheet.
     ```{table} Four experimental cases with spacers and gliders
     :name: tab-four-glider-spacer-cases
@@ -241,13 +246,10 @@ Suggested points on glider to read position on airtrack scale.
     ```
 
 
-```{admonition} Reminder, Run First Case Fully
-:class: warning
-Reminder, run your first case completely **before** moving on to additional cases. Don't just take all of your data without checking your methodology. If you have some error in your experimental method or in your calculations, you can correct it before completing all the other cases and finding out you have to completely redo the whole lab. The data tables for additional cases can be created by copying the first case **after** you are confident in and can explain your results from the first case.
-```
-
-(detailsteps-accelGTrack)=
-### ● Experimental Data Collection
+    ```{admonition} Reminder, Run First Case Fully
+    :class: warning
+    Reminder, run your first case completely **before** moving on to additional cases. Don't just take all of your data without checking your methodology. If you have some error in your experimental method or in your calculations, you can correct it before completing all the other cases and finding out you have to completely redo the whole lab. The data tables for additional cases can be created by copying the first case **after** you are confident in and can explain your results from the first case.
+    ```
 
 11. For each of the four cases, create a Data table with enough **rows** for the number of trials you are doing, and **columns** for each of the variables you will be measuring or deriving (e.g. {ref}`experimental-data-AccGTrack`):
     - Trial number

@@ -193,33 +193,34 @@ Determine the initial exit velocity of the ball using conservation of energy and
 
 #### ○ Pendulum --- Preliminary Setup
 
-1. Create a *common data table* including (but not limited to):
+1. - [ ] Create a *common data table* including (but not limited to):
     - accepted value of $g$ of $9.803\,\text{m/s}^2$ for Fairfield, CT
-    - $m$: mass of the ball (i.e. projectile)
-    - $M$: mass of the pendulum
-    - $y_1$: initial pendulum height
+    - $m$ and $\delta m$: mass of the ball (i.e. projectile) and its uncertainty
+    - $M$ and $\delta M$: mass of the pendulum and its uncertainty
+    - $y_1$ and $\delta y_1$: initial pendulum height and its uncertainty
 
-2. Set up the projectile motion experiment as shown in {numref}`M06Fig03` and {numref}`M06Fig01`. Review the first half of the demonstration video {ref}`demo-video-ballisticPendulum_overall`.
+2. - [ ] Set up the ballistic pendulum experiment as shown in {numref}`M06Fig03` and {numref}`M06Fig01`. Review the first half of the demonstration video {ref}`demo-video-ballisticPendulum_overall`.
 
-3. Measure and record the mass $m$ of the brass ball projectile.
+3. - [ ] Measure and record $m \pm \delta m$, the mass and uncertainty of the brass ball projectile.
 
-4. Record the mass $M$ of the pendulum that is ***indicated*** on the apparatus base plate (***DO NOT REMOVE THE ARM***).
+4. - [ ] Record the mass $M \pm \delta M$ of the pendulum that is ***indicated*** on the apparatus's red base plate (***DO NOT REMOVE THE ARM***).
 
    ```{admonition} DO NOT REMOVE THE ARM
    :class: important
    Mass is written on the apparatus base plate.
    ```
 
-5. Measure and record $y_1$. The pointer on the side of the bob indicates the center of mass of the pendulum. With the pendulum hanging motionless, measure the height from the base plate (saying the base plate is our zero-point for the height) to the metal pointer on the pendulum bob as illustrated in {numref}`M06Fig01`.
+5. - [ ] Measure and record $y_1 \pm \delta y_1$. The silver metal pointer on the side of the bob indicates the center of mass of the pendulum. With the pendulum hanging motionless, measure the height from the base plate (saying the base plate is our zero-point for the height) to the metal pointer on the pendulum bob as illustrated in {numref}`M06Fig01`.
 
 
 (ballistic-pendulum-data-collection)=
 #### ○ Pendulum --- Data Collection
 
-6. Create a *data table* with enough **rows** for the number of trials you are doing along with average and standard deviations; include **columns** for each of the variables you will be measuring or deriving including, but not limited to:
+6. - [ ] Create a *data table* with enough **rows** for the number of trials you are doing along with average and standard deviations; include **columns** for each of the variables you will be measuring or deriving including, but not limited to:
     - Trial number
     - Lab member's initials
     - $y_2$: final pendulum height
+    - $\delta y_2$: uncertainty in final pendulum height
     - $\Delta y$: change in height of the combined pendulum and projectile
     - $V$: initial pendulum velocity of the combined pendulum and projectile
     - $v_{0\text{,ballistic-pendulum}}$: initial exit velocity of the ball
@@ -228,35 +229,33 @@ Determine the initial exit velocity of the ball using conservation of energy and
    :class: danger
    Keep clear of the pendulum and piston when spring-loaded gun is cocked. Fingers can be crushed.
    ```
-7. Practice the following steps before actually taking data.
+7. - [ ] Practice the following steps before actually taking data.
 
-8. Place the brass ball on the pin of the gun, and press the ball so the spring of the gun is compressed until the trigger catches and holds the compressed spring. *Loading launcher might require full body weight, hold on to the ball and slowly lean back.*
+8. - [ ] Place the brass ball on the pin of the gun, and press the ball so the spring of the gun is compressed until the trigger catches and holds the compressed spring. *Loading launcher might require full body weight, hold on to the ball and slowly lean back.*
 
-9. Ensure the pendulum is stationary.
+9. - [ ] Ensure the pendulum is stationary.
 
-10. Ensure the ball is fully pushed onto the piston.
+10. - [ ] Ensure the ball is fully pushed onto the piston.
 
-11. Fire the gun by squeezing the trigger with ***CONVICTION*** (quickly) to ensure more consistent firings. The ball will be captured by the brass bob and the pendulum will swing upwards.
-
-12. A small ratchet on the bottom of the pendulum will tick up a rack that will capture the maximum upswing position of the pendulum. 
-
+11. - [ ] Fire the gun by squeezing the trigger with ***CONVICTION*** (quickly) to ensure more consistent firings. The ball will be captured by the brass bob and the pendulum will swing upwards.
+      - Note: A small ratchet on the bottom of the pendulum will tick up a rack that will capture the maximum upswing position of the pendulum. 
       ```{admonition} Ball Falls Out After Collision? Make Sure To AIM
       :class: tip
       - Sometimes the ball may not stay in the pendulum. Repeat the trial. If it continues falling out, the apparatus may need adjusting. Please ask for assistance.
       - There is some side-to-side play in the pendulum itself; when firing, line yourself up with the piston and check that the pendulum bob is lined up with the piston.
       ```
 
-13. Measure the height $y_2$ between a similar zero-height location to the tip of the metal pointer on the pendulum as illustrated in {numref}`M06Fig01`.
+13. - [ ] Measure the height $y_2 \pm \delta y_2$ between a similar zero-height location to the tip of the metal pointer on the pendulum as illustrated in {numref}`M06Fig01`.
 
-14. Carefully release the ratchet on the bottom of the pendulum so the pendulum can swing back to its equilibrium position. **Do not twist or slide the pendulum off the rack, use the little handle on the spring loaded ratchet beneath the brass bob.**
+14. - [ ] Carefully release the ratchet on the bottom of the pendulum so the pendulum can swing back to its equilibrium position. **Do not twist or slide the pendulum off the rack, use the little handle on the spring loaded ratchet beneath the brass bob.**
 
-15. Release the ball from the bob of the pendulum by pushing it with your finger, a pencil, or other short cylinder.
+15. - [ ] Release the ball from the bob of the pendulum by pushing it with your finger, a pencil, or other short cylinder.
 
-16. Calculate $\Delta y = y_2 - y_1$, the change in height.
+16. - [ ] Calculate $\Delta y = y_2 - y_1$, the change in height.
 
-17. Determine the initial velocity $V$ of the combined pendulum and ball by going backwards through the sequence of events. Use the conservation of and change in energy from kinetic to gravitational potential energy during the upward swing (see {eq}`eq-M06pendulumEnergy` and {eq}`eq-M06pendulumV`).
+17. - [ ] Determine the initial velocity $V$ of the combined pendulum and ball by going backwards through the sequence of events. Use the conservation of and change in energy from kinetic to gravitational potential energy during the upward swing (see {eq}`eq-M06pendulumEnergy` and {eq}`eq-M06pendulumV`).
 
-18. Determine the initial exit velocity $v_{0\text{,ballistic-pendulum}}$ of the ball by going further backwards in the sequence of events. Use conservation of momentum to analyze the momentum of the pendulum and ball combination after the collision vs. the momentum of just the ball before the collision (see {eq}`eq-M06v0`).
+18. - [ ] Determine the initial exit velocity $v_{0\text{,ballistic-pendulum}}$ of the ball by going further backwards in the sequence of events. Use conservation of momentum to analyze the momentum of the pendulum and ball combination after the collision vs. the momentum of just the ball before the collision (see {eq}`eq-M06v0`).
 
     ```{admonition} Discussion Point: Sources of Error
     :class: question
@@ -266,16 +265,16 @@ Determine the initial exit velocity of the ball using conservation of energy and
     - What are your measurement uncertainties?
     ```
 
-19. After you double-check your methodology and that calculations are accurate in Excel and complete, repeat the steps in {ref}`ballistic-pendulum-data-collection` for the rest of your trials.
+19. - [ ] After you double-check your methodology and that calculations are accurate in Excel and complete, repeat the steps in {ref}`ballistic-pendulum-data-collection` for the rest of your trials.
 
 (ballistic-pendulum-data-summary)=
-#### ○ Pendulum --- Data Summary and Error Propagation
+#### ○ Pendulum --- Averages \& Error Propagation
 
-20. If you haven't already, add rows for average and standard deviation calculations.
+20. - [ ] If you haven't already, add rows for average and standard deviation calculations.
 
-21. Calculate the average and standard deviations of your measured and determined quantities across all experimental trials.
+21. - [ ] Calculate the average and standard deviations of your measured and determined quantities across all experimental trials.
 
-22. Using one of your trials, propagate your measurement uncertainties to see how your initial exit velocity might change (you could copy and paste it as a "test" trial at the bottom of your data table).
+22. - [ ] Using one of your trials, propagate your measurement uncertainties by maximizing or minimizing measured values by their uncertainties to see how your initial exit velocity might change (as big or as small as you can make the velocity; you could copy and paste it as a "test" trial at the bottom of your data table).
       - Note how individual quantities affect the initial exit velocity --- does any specific quantity affect more than the others?
       - Note how the initial exit velocity changes (becoming faster or slower) when you consider all quantities exaggerated by their uncertainties.
 
@@ -292,29 +291,30 @@ Determine the initial exit velocity of the ball using kinematics.
 
 #### ○ Projectile Motion --- Preliminary Setup
 
-1. Add necessary common quantities to your *common data table* including (but not limited to):
-    - $y_1$: initial height from the bottom of the ball to the floor
-    - $y_2$: final height from the landing pad to the floor
+23. - [ ] Add necessary common quantities to your *common data table* including (but not limited to):
+    - $y_1$ and $\delta y_1$: initial height from the bottom of the ball to the floor
+    - $y_2$ and $\delta y_2$: final height from the landing pad to the floor
     - $Y$: total vertical distance traveled from bottom of ball to top of landing pad
-    - $x_1$: distance from bottom of the ball (uncocked) to the front edge of the landing pad
+    - $x_1$ and $\delta x_1$: distance from bottom of the ball (uncocked) to the front edge of the landing pad
 
-2. Set up the projectile motion experiment as shown in {numref}`M06Fig02`. Review the later half of the demonstration video {ref}`demo-video-ballisticPendulum_overall`.
+24. - [ ] Set up the projectile motion experiment as shown in {numref}`M06Fig02`. Review the later half of the demonstration video {ref}`demo-video-ballisticPendulum_overall`.
 
-3. Measure and record initial height $y_1$ (see {numref}`M06Fig02`). This is the height from the bottom of the brass ball (i.e. projectile) to the floor.
+25. - [ ] Measure and record initial height $y_1 \pm \delta y_1$ (see {numref}`M06Fig02`). This is the height from the bottom of the brass ball (i.e. projectile) to the floor.
 
-4. Measure and record final height $y_2$, effectively the thickness of the landing pad.
+26. - [ ] Measure and record final height $y_2 \pm \delta y_2$, effectively the thickness of the landing pad.
 
-5. Determine total vertical distance traveled $Y$.
+27. - [ ] Determine total vertical distance traveled $Y$.
 
-6. Measure horizontal distance $x_1$. Use a plumb bob to transpose the position of the center of the ball to the floor, and measure to the edge of the landing pad.
+28. - [ ] Measure horizontal distance $x_1 \pm \delta x_1$. Use a plumb bob to transpose the position of the center of the ball to the floor, and measure to the edge of the landing pad.
 
 (projectile-motion-data-collection)=
 #### ○ Projectile Motion --- Data Collection
 
-7. Create a *data table* with enough **rows** for the number of trials you are doing along with average and standard deviations; include **columns** for each of the variables you will be measuring or deriving including, but not limited to:
+29. - [ ] Create a *data table* with enough **rows** for the number of trials you are doing along with average and standard deviations; include **columns** for each of the variables you will be measuring or deriving including, but not limited to:
     - Trial number
     - Lab member's initials
     - $x_2$: distance of impact from the edge of the landing pad 
+    - $\delta x_2$: uncertainty in distance of impact from the edge of the landing pad 
     - $X$: total horizontal distance traveled from center of ball when uncocked (at initial release position) to center of impact
     - $v_{0\text{,projectile-motion}}$: initial exit velocity of the ball
 
@@ -324,23 +324,23 @@ Determine the initial exit velocity of the ball using kinematics.
     - Keep clear of the pendulum and piston when spring-loaded gun is cocked. Fingers can be crushed.
    ```
 
-8. Practice the following steps before actually taking data.
+30. - [ ] Practice the following steps before actually taking data.
 
-9. Ensure the pendulum is resting on the ratchet rack and out of the way.
+31. - [ ] Ensure the pendulum is resting on the ratchet rack and out of the way.
 
-10. Place the brass ball on the pin of the gun, and press the ball so the spring of the gun is compressed until the trigger catches and holds the compressed spring. *Loading launcher might require full body weight, hold on to the ball and slowly lean back.*
+32. - [ ] Place the brass ball on the pin of the gun, and press the ball so the spring of the gun is compressed until the trigger catches and holds the compressed spring. *Loading launcher might require full body weight, hold on to the ball and slowly lean back.*
 
-11. Using a dry-erase marker, mark up the edges of the ball such that it will leave a mark on the landing pad.
+33. - [ ] Using a dry-erase marker, mark up the edges of the ball such that it will leave a mark on the landing pad. Paper towels are available on window side by the sink.
 
-12. Ensure the ball is fully pushed onto the piston.
+34. - [ ] Ensure the ball is fully pushed onto the piston.
 
-13. Fire the gun by squeezing the trigger with ***CONVICTION*** (quickly) to ensure more consistent firings. The ball will impact the landing pad and leave a dot from the dry-erase marker.
+35. - [ ] Fire the gun by squeezing the trigger with ***CONVICTION*** (quickly) to ensure more consistent firings. The ball will impact the landing pad and leave a dot from the dry-erase marker.
 
-14. Measure the distance $x_2$ from the edge of the landing pad to the center of the impact mark as illustrated in {numref}`M06Fig02`.
+36. - [ ] Measure the distance $x_2 \pm \delta x_2$ from the edge of the landing pad to the center of the impact mark as illustrated in {numref}`M06Fig02`. Estimate the uncertainty based on size of impact.
 
-15. Calculate $X = x_1 + x_2$, the total horizontal distance traveled.
+37. - [ ] Calculate $X = x_1 + x_2$, the total horizontal distance traveled.
 
-16. Determine the initial exit velocity $v_{0\text{,projectile-motion}}$ of the ball by using kinematics (see {eq}`eq-M06kinemtaticsY` to {eq}`eq-M06v0pro`).
+38. - [ ] Determine the initial exit velocity $v_{0\text{,projectile-motion}}$ of the ball by using kinematics (see {eq}`eq-M06kinemtaticsY` to {eq}`eq-M06v0pro`).
 
     ```{admonition} Discussion Point: Sources of Error
     :class: question
@@ -350,8 +350,7 @@ Determine the initial exit velocity of the ball using kinematics.
     - What are your measurement uncertainties?
     ```
 
-17. After you double-check your methodology and that calculations are accurate in Excel and complete, repeat the steps in {ref}`projectile-motion-data-collection` for the rest of your trials.
-
+39. - [ ] After you double-check your methodology and that calculations are accurate in Excel and complete, repeat the steps in {ref}`projectile-motion-data-collection` for the rest of your trials.
       ```{admonition} Clean up
       :class: important
       Once you're finished with the projectile motion launches, wipe off the marker from the ball, thanks.
@@ -359,26 +358,45 @@ Determine the initial exit velocity of the ball using kinematics.
 
 
 (projectile-motion-data-summary)=
-#### ○ Projectile Motion --- Data Summary and Error Propagation
+#### ○ Projectile Motion --- Averages \& Error Propagation
 
-18. If you haven't already, add rows for average and standard deviation calculations.
+40. - [ ] If you haven't already, add rows for average and standard deviation calculations.
 
-19. Calculate the average and standard deviations of your measured and determined quantities across all experimental trials.
+41. - [ ] Calculate the average and standard deviations of your measured and determined quantities across all experimental trials.
 
-20. Using one of your trials, propagate your measurement uncertainties to see how your initial exit velocity might change (you could copy and paste it as a "test" trial at the bottom of your data table).
+42. - [ ] Using one of your trials, propagate your measurement uncertainties by maximizing or minimizing measured values by their uncertainties to see how your initial exit velocity might change (as big or as small as you can make the velocity; you could copy and paste it as a "test" trial at the bottom of your data table).
       - Note how individual quantities affect the initial exit velocity --- does any specific quantity affect more than the others?
       - Note how the initial exit velocity changes (becoming faster or slower) when you consider all quantities exaggerated by their uncertainties.
 
 
-## Experiment Comparison
 
-Create a *summary table* to summarize the results from both experiments including the average and standard deviations of the initial exit velocities of the ball from both experiments (i.e.  avg. and std. dev. of $v_{0\text{,ballistic-pendulum}}$ and $v_{0\text{,projectile-motion}}$).
 
-```{admonition} Trust?
-:class: important
-- Considering both experiments, do your results agree with each other?
-- Since we don't have an accepted or "true" value for the ball's initial exit velocity, which experiment do you trust more --- consider the errors, uncertainties, and physical processes and assumptions from each experiment.
-```
+### ● Summary, Experiment Comparison, \& Cleanup
+
+43. - [ ] Create a *summary table* to summarize the results from both experiments including the average and standard deviations of the initial exit velocities of the ball from both experiments (i.e.  avg. and std. dev. of $v_{0\text{,ballistic-pendulum}}$ and $v_{0\text{,projectile-motion}}$).
+      ```{admonition} Trust?
+      :class: important
+      - Considering both experiments, do your results agree with each other?
+      - Since we don't have an accepted or "true" value for the ball's initial exit velocity, which experiment do you trust more --- consider the errors, uncertainties, and physical processes and assumptions from each experiment.
+      ```
+      ```{admonition} Excel References
+      :class: tip
+      To ensure your summary table has the correct values, reference the cells (e.g. `$A$1`) you are collecting rather than just copying and pasting. See {ref}`spreadsheet-data-analysis-setup`.
+      ```
+
+44. When you are finished, reset your experimental setup before leaving.
+      ```{admonition} CLEAN UP
+      :class: attention
+      Please return your experimental station back to the way you found it or better:
+         - [ ] Wipe marker off the ball and the landing pad; paper towels are available on window side by the sink
+         - [ ] Make sure launcher is uncocked
+         - [ ] Make sure ball is on the piston, not rolling away
+         - [ ] Make sure plumb bob is near launcher
+         - [ ] Return rulers, markers, and meter sticks to front table / front of room
+      ```
+
+
+
 
 
    
