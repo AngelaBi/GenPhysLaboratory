@@ -183,7 +183,22 @@ The lab today makes use of a rotary sensor, which is able to detect and measure 
 
 The objects to be mounted are either a rod with point masses in {numref}`M08_rotation_Fig04` and a disk with an accompanying thick ring in {numref}`M08_rotation_Fig03`.
 
-In this lab, you will run a ***Moment of Inertia*** experiment and an ***Angular Momentum*** experiment. You will first determine the angular acceleration from a graph of angular velocity vs. time using data recorded with the RMS. The data will be collected and analyzed in **Capstone**. The moment of inertia of both two point masses and a thick ring will be determined from those experimental angular acceleration values. Finally in the Angular Momentum experiment, you will verify the validity of angular momentum conservation in an inelastic collision, and consider the parallel axis theorem.
+In this lab, you will run a ***Moment of Inertia*** experiment and an ***Angular Momentum*** experiment (all cases listed in {numref}`table-rotDynamics`). You will first determine the angular acceleration from a graph of angular velocity vs. time using data recorded with the RMS. The data will be collected and analyzed in **Capstone**. The moment of inertia of both two point masses and a thick ring will be determined from those experimental angular acceleration values. Finally in the Angular Momentum experiment, you will verify the validity of angular momentum conservation in an inelastic collision, and consider the parallel axis theorem.
+
+
+```{table} Cases
+:name: table-rotDynamics
+
+| Experiment/Case   | Type | Number of Trials |
+|----------|----------|-----------|
+|  I$_\text{a}$ / 1 | pulleyRodPointMasses (apparatus, rod, point masses)  | 3  |
+|  I$_\text{a}$ / 2 | pulleyRodOnly (apparatus, rod only)                  | 3  |
+|  I$_\text{b}$ / 1 | pulleyDiskRing (apparauts, disk, thick ring)         | 3  |
+|  I$_\text{b}$ / 2 | pulleyDiskOnly (apparatus, disk only)                | 3  |
+|  II / centered | Angular momentum as centered as possible        | 1 **good** trial (practice before)  |
+|  II / off-axis | Angular momentum purposefully off-center        | 1 **good** trial (practice before)  |
+```
+
 
 ```{figure} RotationalMotionFigures/Figure02_v2025-01.png
 :name: M08_rotation_Fig02
