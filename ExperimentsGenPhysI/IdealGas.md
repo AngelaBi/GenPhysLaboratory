@@ -49,7 +49,7 @@ where $P$ is the gas pressure in Pascals (1 Pa = 1 N/m²), $T$ is the gas temper
 Most gases will behave approximately as an ideal gas within a certain range of conditions across a number of different types of processes, but the law fails at low temperatures or higher pressures when forces between the gas molecules become important.
 
 For today's lab, the two processes we will focus on are
- - **Isothermal**: temperature is kept constant through the process (e.g. a process analyzed when initial temperatures are the same as the final temperatures). This is possible when the ratio ${PV}$ is kept constant.
+ - **Isothermal**: temperature is kept constant through the process (e.g. a process analyzed when initial temperatures are the same as the final temperatures). This is possible when the value ${PV}$ is kept constant.
  - **Adiabatic**: energy of the system is kept constant (i.e. the parcel of gas does not exchange or lose energy to its surroundings). This is possible when the ratio $\frac{PV}{T}$ is kept constant.
 
 ### ● Absolute Zero
@@ -107,112 +107,111 @@ Take **3 trials** of data, you can then analyze each trial in two different ways
 ### ● Preliminary Data Acquisition
 
 1. Create a *data table* for your ideal gas law measurements and calculations for your isothermal analysis including, but not limited to:
-    - Measured values $V_1, P_1, V_2, P_2$
-    - Calculated ratios $X_1, X_2$
+    - [ ] Measured values $V_1, P_1, V_2, P_2$
+    - [ ] Calculated ratios $X_1, X_2$
 
-2. Open graphs of absolute pressure ($y$-axis) vs. time ($x$-axis) and temperature in Kelvin ($y$-axis) vs. time ($x$-axis) in the **Capstone** program. Also have a table displaying absolute pressure and temperature open. All these can be opened by double-clicking on the corresponding items on the right-had side of the **Capstone** program.
+2. - [ ] Open relevant **Capstone** file on lab desktops that contains graphs of absolute pressure ($y$-axis) vs. time ($x$-axis) and temperature in Kelvin ($y$-axis) vs. time ($x$-axis). Also have a table displaying absolute pressure and temperature open.
+      ```{figure} IdealGasFigures/Figure06_v2025-01.png
+      :name: H01Fig06
+      :width: auto
+      :align: center
+      Example of Page 1 in today's **Capstone** file for the different theromdynamic processes.
+      ```
 
-  ```{figure} IdealGasFigures/Figure06_v2025-01.png
-  :name: H01Fig06
-  :width: auto
-  :align: center
+3. - [ ] If not already done, disconnect the quick-release pressure connector ***(BE GENTLE, IT'S JUST A SMALL TWIST LATCH)*** and push the plunger all the way down. Note that the mechanical stop will prevent the plunger from being pushed all the way to the bottom of the syringe. Record the volume reading on the syringe as the volume $V_{2}$ in your Part 1 Data Table. The value for $V_{2}$ should be about $20 - 22\,\text{ cc}$.
 
-  Example of Page 1 in today's **Capstone** file for the different theromdynamic processes.
-  ```
+4. - [ ] Now set the plunger for an initial volume of $V_{1} = 40\,\text{ cm}^3$.
 
-3. Disconnect the quick-release pressure connector and push the plunger all the way down. Note that the mechanical stop will prevent the plunger from being pushed all the way to the bottom of the syringe. Record the volume reading on the syringe as the volume $V_{2}$ in your Part 1 Data Table. The value for $V_{2}$ should be about 20 cc.
+5. - [ ] After you have adjusted the volume, re-connect the pressure port. Again, **BE GENTLE**.
 
-4. Set the plunger for an initial volume of $V_{1} = 40$ cm³.
+6. - [ ] Hold the base of the syringe firmly against a sturdy, flat surface (e.g. the lab table).
 
-5. After you have adjusted the volume, re-connect the pressure port.
+7. - [ ] Press the **Record** button on **Capstone**.
 
-6. Hold the base of the syringe firmly against a sturdy, flat surface (the lab table).
+8. - [ ] Press straight down **as hard as you can** on the plunger with the palm of your hand to fully compress the gas inside the syringe. **CONTINUE HOLDING** pressing to hold the pressure steady. The mechanical stop will prevent you from decreasing the volume of the gas to less than than $V_{2}$. Important: Do not let the pressure drop for at least $30\,\text{ s}$ to allow temperature to return to room temperature (i.e. its initial temperature) and pressure to equilibrate/stabilize. Use the data table as an indicator.
 
-7. Press the **Record** button on **Capstone**.
+9. - [ ] Release the plunger and allow it to expand back out on its own (it may not go all the way back to 40 cm³). Wait again until the temperature and pressure have equalized and are no longer changing (will make it easier for disconnecting the pressure tap later).
 
-8. Press straight down as hard as you can on the plunger with the palm of your hand to fully compress the gas inside the syringe. Keep pressing to hold the pressure steady. Important: Do not let the pressure drop for at least 30 s. The mechanical stop will prevent you from decreasing the volume of the gas to less than than about 20 cc. Hold this position until the temperature and pressure have stabilized and are no longer changing (use the data table as an indicator). It should take less than 30 seconds for the temperature to return to room temperature.
+10. - [ ] Press the **STOP** button again on **Capstone** to stop recording data. You will use this set of plots as an individual trial for both {ref}`isothermal compression<ideal_gas_law_analysis_isothermal>` and {ref}`adiabatic compression<ideal_gas_law_analysis_adiabatic>`.
 
-9. Release the plunger and allow it to expand back out on its own (it may not go back to 40 cm³). Wait again until the temperature and pressure have equalized and are no longer changing.
-
-10. Press the **Record** button again on **Capstone** to stop recording data.
-
+(ideal_gas_law_analysis_isothermal)=
 ### ● Analysis Part I --- Constant Temperature (Isothermal)
 
-  ```{figure} IdealGasFigures/Figure04_v2025-02.png
-  :name: H01Fig04
-  :width: auto
-  :align: center
+```{figure} IdealGasFigures/Figure04_v2025-02.png
+:name: H01Fig04
+:width: auto
+:align: center
 
-  Example of initial and final pressure and temperature locations for the isothermal process.
-  ```
-
-1. Highlight an area (click and drag with the mouse) on the pressure graph at the beginning of the data-collecting run, before you compressed the air in the syringe. The highlighted values of the selected data points will appear in the data table of **Capstone**. Record the initial pressure as $P_{1}$ in your Part 1 Data Table.
-
-2. Highlight an area on the pressure graph at the point just before you released the plunger. Record the final pressure as $P_{2}$ in your Part 1 Data Table.
-
-3. Calculate the ratio of initial volume over the final volume, $X_{1} = V_{1}/V_{2}$ and record the result in your Part 1 Data Table.
-
-4. Calculate the ratio of final pressure over the initial pressure, $X_{2} = P_{2}/P_{1}$ and record the result in your Part 1 Data Table.
-
-5. Compare the two ratios. According to the ideal gas law {eq}`eq-idealgas` the two values should be equal, since $P_{1} V_{1} = P_{2} V_{2}$ for constant temperature (note that the temperature is room temperature in both cases). Discuss, first amongst yourselves and then with your instructor, why the values are different.
-
-By now you have (hopefully) figured out that you have not accounted for the small amount of volume of air inside the tubing of the apparatus. Using the ideal gas law {eq}`eq-idealgas` and the data you collected in part 1, you can actually calculate this volume $V_{0}$ by solving the following equation for $V_{0}$
-
-```{math}
-:label: eq-volume-correction
-\frac{(V_{1} + V_{0})}{(V_{2} + V_{0})} = \frac{P_{2}}{P_{1}}.
+Example of initial and final pressure and temperature locations for the isothermal process.
 ```
 
-Using the data from your first data table, calculate the value for $V_{0}$ and note the result for use in your upcoming data table.
+11. - [ ] Highlight an area using the data highlight tool ![data highlight tool](../Intro/CapstoneFigures/FigCapstone_013_DataHighlightTool.png) (click to the graph to want to analyze, enable highlighter, then click, drag, scale with the mouse) on the pressure graph at the beginning of the data-collecting run, **just before** you compressed the air in the syringe. The highlighted values of the selected data points will appear in the data table on the right-hand side. Record the mean initial pressure as $P_{1}$ in your Part 1 Data Table.
+
+12. - [ ] Similarly, highlight an area on the pressure graph at the point just before you released the plunger at the end of the trial (when temperature had leveled out). Record this mean final pressure as $P_{2}$ in your Part 1 Data Table.
+
+13. - [ ] Calculate the ratio of initial volume over the final volume, $X_{1} = V_{1}/V_{2}$ and record the result in your Part 1 Data Table.
+
+14. - [ ] Calculate the ratio of final pressure over the initial pressure, $X_{2} = P_{2}/P_{1}$ and record the result in your Part 1 Data Table.
+
+15. - [ ] Compare the two ratios $X_1\,\text{ and }\,X_2$. According to the ideal gas law {eq}`eq-idealgas` the two values should be equal, since $P_{1} V_{1} = P_{2} V_{2}$ for constant temperature (note that the temperature is room temperature in both cases). Discuss, first amongst yourselves and then with your instructor, why the values are different.
+      ```{admonition} Missing something?
+      :class: hint
+      By now you have (hopefully) figured out that you have not accounted for the small amount of volume of air inside the tubing of the apparatus. Using the ideal gas law {eq}`eq-idealgas` and the data you collected in part 1, you can actually calculate this volume $V_{0}$.
+      ```
+
+16. - [ ] Using the data from your first data table, calculate the value for $V_{0}$ and note the result for use in your upcoming data table by solving the following equation for $V_{0}$:
+    ```{math}
+    :label: eq-volume-correction
+    \frac{(V_{1} + V_{0})}{(V_{2} + V_{0})} = \frac{P_{2}}{P_{1}}.
+    ```
 
 <!---
 MAKE V_0 the AVERAGE VALUE TO USE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 --->
 
-6. Take a screenshot/photo of your graph --- 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Isothermal Compression. Note which locations on the plot you are using for your measurements. Adjust axes as necessary.
+17. - [ ] **Take a screenshot/photo of your graph** --- 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Isothermal Compression. Note with either the multicoordinates tool ![multicoordinates tool](../Intro/CapstoneFigures/FigCapstone_001_MultiCoordinateTool_v02.png) or the data highlight tool ![data highlight tool](../Intro/CapstoneFigures/FigCapstone_013_DataHighlightTool.png) which locations on the plot you are using for your measurements. Adjust axes as necessary.
 
 
-
+(ideal_gas_law_analysis_adiabatic)=
 ### ● Analysis Part II --- Varying Temperature and No Energy Loss (Adiabatic)
 
 
-  ```{figure} IdealGasFigures/Figure05_v2025-01.png
-  :name: H01Fig05
-  :width: auto
-  :align: center
+```{figure} IdealGasFigures/Figure05_v2025-01.png
+:name: H01Fig05
+:width: auto
+:align: center
 
-  Example of initial and final pressure and temperature locations for the adiabatic process. Note: the temperature sensor lags slightly behind the pressure sensor, focus on the peak or max values when necessary. The quicker you compress the syringe, the closer in time the pressure and temperature peaks will be.
-  ```
+Example of initial and final pressure and temperature locations for the adiabatic process. Note: the temperature sensor lags slightly behind the pressure sensor, focus on the peak or max values when necessary. The quicker you compress the syringe, the closer in time the pressure and temperature peaks will be.
+```
 
-1. Create a second *data table* for your ideal gas law measurements and calculations for your adiabatic analysis including, but not limited to:
+18. - [ ] Create a second *data table* for your ideal gas law measurements and calculations for your adiabatic analysis including, but not limited to:
     - Measured values $V_0, V_1, P_1, V_2, P_2$
     - Calculated values $V^\prime_1, V^\prime_2, Y_1, Y_2$
 
-2. Highlight an area (click and drag with the mouse) on the temperature graph at the beginning of the data-collecting run, before you compressed the air in the syringe. The highlighted values of the selected data points will appear in the data table of **Capstone**. Record the initial pressure and the initial temperature as $P_{1}$ and $T_{1}$ in your Part 2 Data Table.
+19. - [ ] Like in previous section, highlight an area using the data highlight tool ![data highlight tool](../Intro/CapstoneFigures/FigCapstone_013_DataHighlightTool.png) (click and drag with the mouse) on the temperature graph at the beginning of the data-collecting run, **just before** you compressed the air in the syringe. The highlighted values of the selected data points will appear in the data table of **Capstone**. Record the initial pressure and the initial temperature as $P_{1}$ and $T_{1}$ in your Part 2 Data Table.
 
-3. Note the initial volume $V_{1}^\prime = V_{1} + V_{0}$ in your Part 2 Data Table.
+20. - [] Note the initial volume $V_{1}^\prime = V_{1} + V_{0}$ in your Part 2 Data Table.
 
 
-4. Highlight the area (click and drag with the mouse) on the temperature graph where the temperature peaks. The highlighted values of the selected data points will appear in the data table of **Capstone**. Note the peak temperature and the corresponding pressure at this instant as $P_{2}$ and $T_{2}$ in your Part 2 Data Table.
+21. - [ ] Highlight the area (click and drag with the mouse) on the temperature graph where the temperature peaks. The highlighted values of the selected data points will appear in the data table of **Capstone**. Note the peak temperature and the corresponding pressure at this instant as $P_{2}$ and $T_{2}$ in your Part 2 Data Table.
 
-5. Note the volume $V_{2}^\prime = V_{2} + V_{0}$ in your Part 2 Data Table.
+22. - [ ] Note the volume $V_{2}^\prime = V_{2} + V_{0}$ in your Part 2 Data Table.
 
-6. Calculate the ratio $Y_{1} = \frac{P_{1} V_{1}^\prime}{T_{1}}$ and record the result in your Part 2 Data Table.
+23. - [ ] Calculate the ratio $Y_{1} = \frac{P_{1} V_{1}^\prime}{T_{1}}$ and record the result in your Part 2 Data Table.
 
-7. Calculate the ratio $Y_{2} = \frac{P_{2} V_{2}^\prime}{T_{2}}$ and record the result in your Part 2 Data Table.
+24. - [ ] Calculate the ratio $Y_{2} = \frac{P_{2} V_{2}^\prime}{T_{2}}$ and record the result in your Part 2 Data Table.
 
-8. Assuming the most significant error is in the volume, compare the difference between the two ratios with your estimate of the uncertainty in the volume.
+25. - [ ] Assuming the most significant error is in the volume, compare the difference between the two ratios with your estimate of the uncertainty in the volume.
 
-9. Return to {ref}`ideal-gas-law-preliminary-acquisition` to repeat the previous steps for additional trials.
+26. - [ ] Return to {ref}`ideal-gas-law-preliminary-acquisition` to repeat the previous steps for additional trials.
 
-10. Create additional rows in your data tables for average and standard deviation calculations of your data for comparisons for each of the thermodynamic processes.
+27. - [ ] Create additional rows in your data tables for average and standard deviation calculations of your data for comparisons for each of the thermodynamic processes.
 
-11. Take a screenshot/photo of your graph --- 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Adiabatic Compression. Note which locations on the plot you are using for your measurements. Adjust axes as necessary.
-
-    ```{admonition} Continue to next experiment?
-    :class: important
-    ***If you are satisfied that you've completed all necessary calculations and comparisons (feel free to check with your professor), it is only at this point that you should continue to the next experiment.***
-    ```
+28. - [ ] **Take a screenshot/photo of your graph** --- 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Adiabatic Compression. Note which locations on the plot you are using for your measurements. Adjust axes as necessary.
+      ```{admonition} Continue to next experiment?
+      :class: warning
+      ***If you are satisfied that you've completed all necessary calculations and comparisons (feel free to check with your professor), it is only at this point that you should continue to the next experiment.***
+      ```
 
 ## Experimental Procedure --- Absolute Zero
 
@@ -223,21 +222,20 @@ Investigate Ideal Gas Law relationships betweent temperature and pressure under 
 Take **1 trial** of data by doing the following hot-warm-cold procedure.\
 ```
 
-1. Create a third *data table* for the measurement of absolute zero including, but not limited to:
+1. - [ ] Create a third *data table* for the measurement of absolute zero including, but not limited to:
     - the pressure and temperature you measured at the hot, warm, and cold temperatures
-    - $y$-intercept and the accepted value of $-273.15$°C
+    - $y$-intercept and uncertainty
+    - the accepted value of absolute zero in Celsius: $-273.15$°C
 
-2. Connect the Absolute Zero apparatus to the PasPort Absolute Pressure Temperature sensor (both the temperature sensor and the quick-release pressure port need to be connected, see {numref}`H01Fig01b` and {numref}`H01Fig02`-right).
+2. - [ ] Connect the Absolute Zero apparatus to the PasPort Absolute Pressure Temperature sensor (both the temperature sensor and the quick-release pressure port need to be connected, see {numref}`H01Fig01b` and {numref}`H01Fig02`-right).
 
-3. Switch to the second page in your **Capstone** file (see {numref}`H01Fig07`)
-
-  ```{figure} IdealGasFigures/Figure07_v2025-01.png
-  :name: H01Fig07
-  :width: auto
-  :align: center
-
-  Example of Page 2 in today's **Capstone** file for the absolute zero estimation.
-  ```
+3. - [ ] Switch to the second page in your **Capstone** file (see {numref}`H01Fig07`)
+      ```{figure} IdealGasFigures/Figure07_v2025-01.png
+      :name: H01Fig07
+      :width: auto
+      :align: center
+      Example of Page 2 in today's **Capstone** file for the absolute zero estimation.
+      ```
 
 <!---
 3. Open a **Table & Graph** from the main canvas of **Capstone**. For the $x$-axis of the graph select absolute pressure and for the $y$-axis select temperature in °C. For the data table select the same two variables.
@@ -245,44 +243,44 @@ Take **1 trial** of data by doing the following hot-warm-cold procedure.\
 4. Now click on the **Continuous Mode** and select **Keep mode** from the pull-down menu that will appear. Click on the **Preview** button to start collecting data.
 --->
 
-4. Click on the **Preview** button to start collecting data. The data from the sensors will continuously update, but not save any data point until you press the **Keep Sample** button in the following steps.
+4. - [ ] Click on the **Preview** button to start collecting data. The data from the sensors will continuously update, but not save any data point until you press the **Keep Sample** button in the following steps.
 
-5. Run the hot water until steam rises from the sink. Fill a pitcher to the 2 quart mark.
+5. - [ ] Run the hot water until steam rises from the sink. Fill a pitcher to the 2 quart mark.
 
-6. ***Hot*** --- First fully submerge the sphere in hot water (see {numref}`H01Fig02`-right): Observe the data points appearing on the graph. Make sure the sphere stays completely submerged the entire time you take data. Once the temperature has reached equilibrium (i.e. the value in the digital display no longer changes), press the **Keep Sample** button (Do **NOT** stop the data collection by clicking on the red square button again). Read and note the values for pressure and temperature in your data table.
+6. - [ ] ***Hot*** --- First fully submerge the sphere in hot water (see {numref}`H01Fig02`-right): Observe the data points appearing on the graph. Make sure the sphere stays completely submerged the entire time you take data. Once the temperature has reached equilibrium (i.e. the value in the digital display no longer changes), press the **Keep Sample** button (Do **NOT** stop the data collection by clicking on the red square button again). Read and note the values for pressure and temperature in your data table.
 
-7. ***Warm*** --- Next remove half of the water in your container and replace it with cold water from the sink to get warm water. Again fully submerge the sphere in the water and make sure the sphere stays completely submerged the entire time you take data. Note how the point moves in the Temperature vs. Pressure graph as the values change. Discuss the outcome among yourselves and with your instructor. Once the temperature is stable again (this will take a few minutes) press the **Keep Sample** button again. Read off and note the values for pressure and temperature in your data table.
+7. - [ ] ***Warm*** --- Next remove half of the water in your container and replace it with cold water from the sink to get warm water. Again fully submerge the sphere in the water and make sure the sphere stays completely submerged the entire time you take data. Note how the point moves in the Temperature vs. Pressure graph as the values change. Discuss the outcome among yourselves and with your instructor. Once the temperature is stable again (this will take a few minutes) press the **Keep Sample** button again. Read off and note the values for pressure and temperature in your data table.
 
-8. ***Cold*** --- Finally submerge the sphere in the cold water. Once again you need to make sure the sphere is completely submerged during the time you take data. Note how the point moves in the Temperature vs. Pressure graph as the values change. Discuss the outcome among yourselves and with your instructor. Once the temperature is stable again (this will take a few minutes) press the **Keep Sample** button again. Read off and note the values for pressure and temperature in your data table.
+8. - [ ] ***Cold*** --- Finally submerge the sphere in the cold water. Once again you need to make sure the sphere is completely submerged during the time you take data. Note how the point moves in the Temperature vs. Pressure graph as the values change. Discuss the outcome among yourselves and with your instructor. Once the temperature is stable again (this will take a few minutes) press the **Keep Sample** button again. Read off and note the values for pressure and temperature in your data table.
 
-9. Press the **Stop** button to stop recording data.
+9. - [ ] Press the **Stop** button to stop recording data.
 
-10. Using the fitting tool in **Capstone**, fit a straight line to the 3 data points you have taken.
+10. - [ ] Using the fitting tool in **Capstone**, fit a straight line to the 3 data points you have taken.
 
-11. The $y$-intercept of the best-fit line is the value for absolute zero temperature. Discuss among yourselves and with your instructor why this is the case. Note the result as $T_{0}$ in your data table.
+11. - [ ] The $y$-intercept of the best-fit line is the value for absolute zero temperature. Discuss among yourselves and with your instructor why this is the case. Note the result as $T_{0}$ in your data table.
 
-12. Compare your result to the accepted value of $-273.15$°C.
+12. - [ ] Compare your result to the accepted value of $-273.15$°C.
 
     ```{math}
     :label: H7-PercentDiff
     \text{\% Difference} = \frac{\text{Experimental Value} - \text{Accepted Value}}{\text{Accepted Value}} \times 100\%
     ```
 
-13. Take a screenshot/photo of your graph --- 1 of Temperature vs. Pressure plot with axes scaled to see y-intercept(full absolute zero extrapolation). Note which locations on the plot you are using for your measurements. Adjust axes to show $time = 0$, i.e. the y-intercept.
+13. - [ ] **Take a screenshot/photo of your graph** --- 1 of Temperature vs. Pressure plot with axes scaled to see y-intercept(full absolute zero extrapolation). Note which locations on the plot you are using for your measurements. Adjust axes to show $time = 0$, i.e. the y-intercept.
 
 
-14. ***BEFORE CLOSING CAPSTONE:***
+14. - [ ] ***BEFORE CLOSING CAPSTONE:***
     ```{admonition} Photo of Experimental Data
-    :class: important
-    Ensure you've taken a screenshot/photo of your graphs for your spreadsheet submission:
+    :class: tip
+    Ensure you've taken a screenshot/photo of your graphs for your spreadsheet submission. If you need to return to previous data, see method in {numref}`CapstoneExampleFig03`:
       - 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Isothermal Compression
       - 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Adiabatic Compression
       - 1 of Temperature vs. Pressure plot with axes scaled to see y-intercept(full absolute zero extrapolation)
     ```
 
-15. ***BEFORE LEAVING LAB:***
+15. - [ ] ***BEFORE LEAVING LAB:***
     ```{admonition} ✨🧹 PLEASE CLEAN UP & RETURN LAB TO ORIGINAL STATE 🧹✨
-    :class: important
+    :class: attention
     - Dry off the space.
     - Put away the plunger and wand in the pitcher.
     - Close, **DO NOT SAVE**, the Capstone file you used today.

@@ -37,7 +37,7 @@ In the first, a ballistic pendulum, a device designed to capture a projectile in
 
 In the second technique, the measured parameters of the trajectory of a horizontally launched projectile are used to determine the initial exit velocity.  With the projectile moving in a free-fall trajectory, constant acceleration kinematics will be used to determine the initial exit velocity from measurements of the horizontal range and vertical drop.
 
-In each case, the projectile will be launched with the same device allowing a comparison of the initial exit velocity determinations of the two techniques.
+In each case, the projectile will be launched with the same device allowing a comparison of the initial exit velocity and of the physics and limitations from each method.
 
 ### ● Ballistic Pendulum Review
 
@@ -199,18 +199,18 @@ Determine the initial exit velocity of the ball using conservation of energy and
     - $M$ and $\delta M$: mass of the pendulum and its uncertainty
     - $y_1$ and $\delta y_1$: initial pendulum height and its uncertainty
 
-2. - [ ] Set up the ballistic pendulum experiment as shown in {numref}`M06Fig03` and {numref}`M06Fig01`. Review the first half of the demonstration video {ref}`demo-video-ballisticPendulum_overall`.
+2. - [ ] Set up the ballistic pendulum experiment as shown in {numref}`M06Fig03` and {numref}`M06Fig01`.
 
 3. - [ ] Measure and record $m \pm \delta m$, the mass and uncertainty of the brass ball projectile.
 
-4. - [ ] Record the mass $M \pm \delta M$ of the pendulum that is ***indicated*** on the apparatus's red base plate (***DO NOT REMOVE THE ARM***).
+4. - [ ] Record the mass and its uncertainty $(M \pm \delta M)$ of the pendulum that is ***indicated*** on the apparatus's red base plate (***DO NOT REMOVE THE ARM***).
 
    ```{admonition} DO NOT REMOVE THE ARM
    :class: important
    Mass is written on the apparatus base plate.
    ```
 
-5. - [ ] Measure and record $y_1 \pm \delta y_1$. The silver metal pointer on the side of the bob indicates the center of mass of the pendulum. With the pendulum hanging motionless, measure the height from the base plate (saying the base plate is our zero-point for the height) to the metal pointer on the pendulum bob as illustrated in {numref}`M06Fig01`.
+5. - [ ] Review the first half of the {ref}`demonstration video<demo-video-ballisticPendulum_overall>`. Measure and record distance and its uncertainty $y_1 \pm \delta y_1$. The silver metal pointer on the *side* of the bob indicates the center of mass of the pendulum. With the pendulum hanging motionless, measure the height from the base plate (saying the base plate is our zero-point for the height) to the metal pointer on the pendulum bob as illustrated in {numref}`M06Fig01` (not the moveable catch/escapement mechanism on the bottom of the pendulum).
 
 
 (ballistic-pendulum-data-collection)=
@@ -238,14 +238,14 @@ Determine the initial exit velocity of the ball using conservation of energy and
 10. - [ ] Ensure the ball is fully pushed onto the piston.
 
 11. - [ ] Fire the gun by squeezing the trigger with ***CONVICTION*** (quickly) to ensure more consistent firings. The ball will be captured by the brass bob and the pendulum will swing upwards.
-      - Note: A small ratchet on the bottom of the pendulum will tick up a rack that will capture the maximum upswing position of the pendulum. 
+      - Note: A small ratchet on the bottom of the pendulum will tick up a rack that will capture the maximum upswing position of the pendulum. Note: the numbers on the rack are just the number of teeth on the rack, but are not to be used as measured values.
       ```{admonition} Ball Falls Out After Collision? Make Sure To AIM
       :class: tip
       - Sometimes the ball may not stay in the pendulum. Repeat the trial. If it continues falling out, the apparatus may need adjusting. Please ask for assistance.
       - There is some side-to-side play in the pendulum itself; when firing, line yourself up with the piston and check that the pendulum bob is lined up with the piston.
       ```
 
-13. - [ ] Measure the height $y_2 \pm \delta y_2$ between a similar zero-height location to the tip of the metal pointer on the pendulum as illustrated in {numref}`M06Fig01`.
+13. - [ ] Measure the height and its uncertainty $(y_2 \pm \delta y_2)$ between a similar zero-height location to the tip of the metal pointer on the pendulum as illustrated in {numref}`M06Fig01` (not the moveable catch/escapement mechanism on the bottom of the pendulum).
 
 14. - [ ] Carefully release the ratchet on the bottom of the pendulum so the pendulum can swing back to its equilibrium position. **Do not twist or slide the pendulum off the rack, use the little handle on the spring loaded ratchet beneath the brass bob.**
 
@@ -274,7 +274,7 @@ Determine the initial exit velocity of the ball using conservation of energy and
 
 21. - [ ] Calculate the average and standard deviations of your measured and determined quantities across all experimental trials.
 
-22. - [ ] Using one of your trials, propagate your measurement uncertainties by maximizing or minimizing measured values by their uncertainties to see how your initial exit velocity might change (as big or as small as you can make the velocity; you could copy and paste it as a "test" trial at the bottom of your data table).
+22. - [ ] Using one of your trials, propagate **all** your measurement uncertainties by maximizing or minimizing measured values by their uncertainties to see how your initial exit velocity might change (as big or as small as you can make the velocity; you could copy and paste it as a "test" trial at the bottom of your data table).
       - Note how individual quantities affect the initial exit velocity --- does any specific quantity affect more than the others?
       - Note how the initial exit velocity changes (becoming faster or slower) when you consider all quantities exaggerated by their uncertainties.
 
@@ -297,15 +297,15 @@ Determine the initial exit velocity of the ball using kinematics.
     - $Y$: total vertical distance traveled from bottom of ball to top of landing pad
     - $x_1$ and $\delta x_1$: distance from bottom of the ball (uncocked) to the front edge of the landing pad
 
-24. - [ ] Set up the projectile motion experiment as shown in {numref}`M06Fig02`. Review the later half of the demonstration video {ref}`demo-video-ballisticPendulum_overall`.
+24. - [ ] Set up the projectile motion experiment as shown in {numref}`M06Fig02`. Review the latter half of the {ref}`demonstration video<demo-video-ballisticPendulum_overall>`.
 
-25. - [ ] Measure and record initial height $y_1 \pm \delta y_1$ (see {numref}`M06Fig02`). This is the height from the bottom of the brass ball (i.e. projectile) to the floor.
+25. - [ ] Measure and record initial height and its uncertainty $(y_1 \pm \delta y_1,$ see {numref}`M06Fig02`). This is the height from the bottom of the brass ball (i.e. projectile) to the floor.
 
-26. - [ ] Measure and record final height $y_2 \pm \delta y_2$, effectively the thickness of the landing pad.
+26. - [ ] Measure and record final height and its uncertainty $(y_2 \pm \delta y_2)$, effectively the thickness of the landing pad.
 
 27. - [ ] Determine total vertical distance traveled $Y$.
 
-28. - [ ] Measure horizontal distance $x_1 \pm \delta x_1$. Use a plumb bob to transpose the position of the center of the ball to the floor, and measure to the edge of the landing pad.
+28. - [ ] Measure horizontal distance and its uncertainty $x_1 \pm \delta x_1$ from center of the uncocked ball to the edge of the edge of the landing pad. Use a plumb bob to transpose the position of the center of the ball to the floor, then measure to the edge of the landing pad.
 
 (projectile-motion-data-collection)=
 #### ○ Projectile Motion --- Data Collection
@@ -336,7 +336,7 @@ Determine the initial exit velocity of the ball using kinematics.
 
 35. - [ ] Fire the gun by squeezing the trigger with ***CONVICTION*** (quickly) to ensure more consistent firings. The ball will impact the landing pad and leave a dot from the dry-erase marker.
 
-36. - [ ] Measure the distance $x_2 \pm \delta x_2$ from the edge of the landing pad to the center of the impact mark as illustrated in {numref}`M06Fig02`. Estimate the uncertainty based on size of impact.
+36. - [ ] Measure the distance and its uncertainty $(x_2 \pm \delta x_2)$ from the edge of the landing pad to the center of the impact mark as illustrated in {numref}`M06Fig02`. Estimate the uncertainty based on size of impact.
 
 37. - [ ] Calculate $X = x_1 + x_2$, the total horizontal distance traveled.
 
@@ -351,10 +351,6 @@ Determine the initial exit velocity of the ball using kinematics.
     ```
 
 39. - [ ] After you double-check your methodology and that calculations are accurate in Excel and complete, repeat the steps in {ref}`projectile-motion-data-collection` for the rest of your trials.
-      ```{admonition} Clean up
-      :class: important
-      Once you're finished with the projectile motion launches, wipe off the marker from the ball, thanks.
-      ```
 
 
 (projectile-motion-data-summary)=
@@ -364,7 +360,7 @@ Determine the initial exit velocity of the ball using kinematics.
 
 41. - [ ] Calculate the average and standard deviations of your measured and determined quantities across all experimental trials.
 
-42. - [ ] Using one of your trials, propagate your measurement uncertainties by maximizing or minimizing measured values by their uncertainties to see how your initial exit velocity might change (as big or as small as you can make the velocity; you could copy and paste it as a "test" trial at the bottom of your data table).
+42. - [ ] Using one of your trials, propagate **all** your measurement uncertainties by maximizing or minimizing measured values by their uncertainties to see how your initial exit velocity might change (as big or as small as you can make the velocity; you could copy and paste it as a "test" trial at the bottom of your data table).
       - Note how individual quantities affect the initial exit velocity --- does any specific quantity affect more than the others?
       - Note how the initial exit velocity changes (becoming faster or slower) when you consider all quantities exaggerated by their uncertainties.
 
