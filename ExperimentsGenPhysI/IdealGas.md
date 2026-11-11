@@ -132,7 +132,12 @@ Take **3 trials** of data, you can then analyze each trial in two different ways
 
 9. - [ ] Release the plunger and allow it to expand back out on its own (it may not go all the way back to 40 cm³). Wait again until the temperature and pressure have equalized and are no longer changing (will make it easier for disconnecting the pressure tap later).
 
-10. - [ ] Press the **STOP** button again on **Capstone** to stop recording data. You will use this set of plots as an individual trial for both {ref}`isothermal compression<ideal_gas_law_analysis_isothermal>` and {ref}`adiabatic compression<ideal_gas_law_analysis_adiabatic>`.
+10. - [ ] Press the **STOP** button again on **Capstone** to stop recording data. 
+
+      ```{admonition} 1 Trial Plot; Both Types of Compression Analysis
+      :class: hint
+      You can use this single trial set of plots as an individual trial for each {ref}`isothermal compression<ideal_gas_law_analysis_isothermal>` and {ref}`adiabatic compression<ideal_gas_law_analysis_adiabatic>` at the same time. Notice the similarities and differences of {numref}`H01Fig04` and {numref}`H01Fig05`.
+      ```
 
 (ideal_gas_law_analysis_isothermal)=
 ### ● Analysis Part I --- Constant Temperature (Isothermal)
