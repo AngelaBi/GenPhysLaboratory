@@ -288,7 +288,7 @@ For each case (see {numref}`tab-five-pendulum-length-cases`), perform 5 trials p
 
 10. - [ ] Calculate the value of $g_\text{small-amp}$ for each trial using the small-amplitude approximation, {eq}`M03_pendulum_Eq03`.
 
-11. Similarly, determine $\delta g_\text{small-amp}$, the uncertainty of your value for $g$. Make $g$ as large as your uncertainties allow and subtract the original value; the difference is the uncertainty in $g$. In other words, 
+11. - [ ] Similarly, determine $\delta g_\text{small-amp}$, the uncertainty of your value for $g$. Make $g$ as large as your uncertainties allow and subtract the original value; the difference is the uncertainty in $g$. In other words, 
     - [ ] Maximize $g_{\text{small-amp,max}}$ with a smaller period and larger pendulum length: using ($T - \delta T$) as the period and ($L + \delta L$) to make $g_{\text{small-amp,max}}$ bigger by dividing by a smaller period and multiplying by a longer length. 
     - [ ] Then get the uncertainty by $\delta g_\text{small-amp} = g_{\text{small-amp,max}} - g_\text{small-amp}$.
 
@@ -338,8 +338,11 @@ g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
 
 16. **Graphical Analysis:**
 
-    - [ ] Using ***all data points*** (not just the averages) from the four small amplitude cases (Cases 1--4), plot the square of the period, $T^2$, as a function of the length $L$ (i.e. dependent variable $T^2$ on y-axis, independent variable $L$ on x-axis). **Do not** use the large angle Case 5.
-      - Draw the best fit line through your data points (force the fit to pass through the origin by setting the y-intercept to 0).
+    - [ ] Using ***all data points*** (not just the averages) from the four *small amplitude* cases (Cases 1--4), plot the square of the period, $T^2$, as a function of the pendulum length $L$ (i.e. dependent variable $T^2$ on y-axis, independent variable $L$ on x-axis). **Do not** use the large angle Case 5.
+      - As needed, make additional columns that include 
+      - Draw two best-fit lines through your data points. You can do so by right clicking on data by adding a trendline.
+        - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO BE UPDATED !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+       (force the fit to pass through the origin by setting the y-intercept to 0).
       - Display the equation for the fit line on your plot.
     - [ ] Determine the slope of your graph using the `LINEST` function:
       - `=LINEST(y-values,x-values,FALSE,TRUE)`

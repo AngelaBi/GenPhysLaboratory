@@ -1,3 +1,27 @@
+    ```{table} Object Volume and Mass
+    :name: tab-fluids-lab-object-volume-mass
+    | Object | Volume (cm$^3$) ± 0.1 | Mass (g) ± 0.2 |
+    |------------------------------|----------------|----------------|
+    | Aluminum Cylinder            | 24.7           | 66.7           |
+    | Brass Cylinder               | 24.7           | 207.7          |
+    | 1/2 of Brass Cylinder        | 12.35          | 103.85         |
+    | Brass Block                  | 7.87           | 66.7           |
+    | Aluminum Block               | 24.7           | 66.7           |
+    | Aluminum Irregular (hole)    | 24.7           | 66.7           |
+    | Plastic Cylinder             | 24.7           | 22.4           |
+    ```
+
+  ```{list-table} Object Volume and Mass
+  :widths: 100
+  :header-rows: 0
+  :name: tab-fluids-lab-object-volume-mass-figure
+
+  * - ```{figure} FluidsFigures/M08_fig_20_v2026-01.png
+      :name: M08_fluids_Fig20
+      :width: auto
+      :align: center
+      ```
+  ```
 
 ```{admonition} Note
 :class: note
