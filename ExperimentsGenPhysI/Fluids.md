@@ -202,8 +202,9 @@ Left) Force diagram. Apparent weight in water is the difference of weight in air
 #### ○ Part I: Mass, Volume, and Density
 
 1. - [ ] Create a data table with:
-   - Columns for the mass $m$, volume $V$, and density $\rho$
-   - Rows for each of the objects (clearly label or describe the objects in the table).
+    - Columns for the mass $m$, volume $V$, and density $\rho$
+    - Rows for each of the objects (clearly label or describe the objects in the table).
+    - {ref}`Reminder:<spreadsheet-data-analysis-setup>` Spreadsheets should be built by you, not LLMs or other AI chat bots. Should be easily followable from your own headings, equations, etc. in a single sheet.
 
 2. - [ ] Record the mass and volume of each object into your spreadsheet. Normally, you would measure the volume and mass of each object ({numref}`M08_fluids_Fig02`) with Vernier calipers and a triple-beam balance, however, to save time during lab, the volume and mass of each object is presented here:
 
